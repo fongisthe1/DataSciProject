@@ -1,0 +1,1413 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "15",
+                "@timestamp": "2023-06-15T12:47:16.000016-04:00",
+                "@year": "2023",
+                "@month": "06"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2022",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {"xocs:funding-agency-matched-string": "Her Royal Highness Princess Maha Chakri Sirindhorn's 60th birthday"},
+                {"xocs:funding-agency-matched-string": "Her Royal Highness Princess Maha Chakri Sirindhorn\u2019s 60th birthday"},
+                {"xocs:funding-agency-matched-string": "Ratchadaphiseksomphot Endowment Fund"},
+                {
+                    "xocs:funding-agency-matched-string": "Thailand Science Research and Innovation Fund Chulalongkorn University",
+                    "xocs:funding-id": "CU_FRB65_ ind (9)_157_21_23"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Chulalongkorn University",
+                    "xocs:funding-agency-acronym": "CU",
+                    "xocs:funding-agency": "Chulalongkorn University",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002873",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2023-01-20T17:19:21.474Z",
+            "xocs:funding-text": [
+                {"$": "This work is supported by the Graduate School, Chulalongkorn University to commemorate the celebrations on the auspicious occasion of Her Royal Highness Princess Maha Chakri Sirindhorn's 60th birthday, Thailand Science Research and Innovation Fund Chulalongkorn University (CU_FRB65_ ind (9)_157_21_23), and Ratchadaphiseksomphot Endowment Fund (Multimedia Data Analytics and Processing Research Unit)."},
+                {"$": "This work is supported by the Graduate School, Chulalongkorn University to commemorate the celebrations on the auspicious occasion of Her Royal Highness Princess Maha Chakri Sirindhorn\u2019s 60th birthday, Thailand Science Research and Innovation Fund Chulalongkorn University (CU_FRB65_ ind (9)_157_21_23), and Ratchadaphiseksomphot Endowment Fund (Multimedia Data Analytics and Processing Research Unit)."}
+            ],
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "@afid": "60028190",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Chulalongkorn University"},
+                            {"$": "Multimedia Data Analytics and Processing Research Unit"},
+                            {"$": "Faculty of Engineering"},
+                            {"$": "Department of Electrical Engineering"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60028190",
+                            "@dptid": "113845132"
+                        },
+                        "ce:source-text": "Chulalongkorn University, Multimedia Data Analytics and Processing Research Unit, Faculty of Engineering, Department of Electrical Engineering, Bangkok, Thailand",
+                        "@dptid": "113845132"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Nisawan",
+                            "preferred-name": {
+                                "ce:given-name": "Nisawan",
+                                "ce:initials": "N.",
+                                "ce:surname": "Ngambenjavichaikul",
+                                "ce:indexed-name": "Ngambenjavichaikul N."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "N.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Ngambenjavichaikul",
+                            "@auid": "58065689600",
+                            "ce:indexed-name": "Ngambenjavichaikul N."
+                        },
+                        {
+                            "ce:given-name": "Sovann",
+                            "preferred-name": {
+                                "ce:given-name": "Sovann",
+                                "ce:initials": "S.",
+                                "ce:surname": "Chen",
+                                "ce:indexed-name": "Chen S."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Chen",
+                            "@auid": "57193421796",
+                            "ce:indexed-name": "Chen S."
+                        },
+                        {
+                            "ce:given-name": "Supavadee",
+                            "preferred-name": {
+                                "ce:given-name": "Supavadee",
+                                "ce:initials": "S.",
+                                "ce:surname": "Aramvith",
+                                "ce:indexed-name": "Aramvith S."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Aramvith",
+                            "@auid": "8943602000",
+                            "ce:indexed-name": "Aramvith S."
+                        }
+                    ]
+                },
+                "citation-title": "Optimal Deep Multi-Route Self-Attention for Single Image Super-Resolution",
+                "abstracts": "© 2022 Asia-Pacific of Signal and Information Processing Association (APSIPA).Image restoration, such as single image super-resolution (SISR), is a long-established low-level vision issue that intends to regenerate high-resolution (HR) images from low-resolution (LR) input counterparts. While state-of-the-art image super-resolution models are based on the well-known convolutional neural network (CNN), many self-attention-based or transformer-based experiment attempts have been conducted and have shown promising performance on vision problems. A powerful baseline model based on the swin transformer adopts the shifted window approach. It enhances the capability by restricting the model to compute the self-attention function only on non-superimpose local windows while enabling cross-window relations. However, the architecture design is manually fixed. Therefore, the results are not achieving optimal performance. This paper presents an optimal deep multi-route self-attention network for single image super-resolution (ODMR-SASR). The genetic algorithm (GA) is introduced to discover the optimal number of filters and layers. Experimental results demonstrate that the proposed optimization technique can produce a progressive SR image quality.",
+                "citation-info": {
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=9979726",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Proceedings of 2022 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference, APSIPA ASC 2022",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"pagerange": {
+                        "@first": "1181",
+                        "@last": "1186"
+                    }},
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9786165904773",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "2022 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference, APSIPA ASC 2022",
+                            "confsponsors": {
+                                "confsponsor": [
+                                    {"$": "Google"},
+                                    {"$": "Huawei"},
+                                    {"$": "Thailand Convention and Exhibition Bureau (TCEB)"}
+                                ],
+                                "@complete": "n"
+                            },
+                            "confcatnumber": "CFP2214U-ART",
+                            "confseriestitle": "Asia-Pacific Signal and Information Processing Association Summit and Conference",
+                            "conflocation": {
+                                "@country": "tha",
+                                "city": "Chiang Mai"
+                            },
+                            "confcode": "185376",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "10",
+                                    "@year": "2022",
+                                    "@month": "11"
+                                },
+                                "startdate": {
+                                    "@day": "07",
+                                    "@year": "2022",
+                                    "@month": "11"
+                                }
+                            },
+                            "confURL": "www.apsipa2022.org"
+                        }
+                    }},
+                    "sourcetitle": "Proceedings of 2022 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference, APSIPA ASC 2022",
+                    "publicationdate": {
+                        "year": "2022",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2022"
+                        }
+                    },
+                    "sourcetitle-abbrev": "Proc. Asia-Pacific Signal Inf. Process. Assoc. Annu. Summit Conf., APSIPA ASC",
+                    "@country": "usa",
+                    "issuetitle": "Proceedings of 2022 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference, APSIPA ASC 2022",
+                    "publicationyear": {"@first": "2022"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "@srcid": "21101131431"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1705"},
+                            {"$": "1710"},
+                            {"$": "1711"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": {
+                            "classification-code": "741.1",
+                            "classification-description": "Light/Optics"
+                        }
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "COMP"
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This work is supported by the Graduate School, Chulalongkorn University to commemorate the celebrations on the auspicious occasion of Her Royal Highness Princess Maha Chakri Sirindhorn's 60th birthday, Thailand Science Research and Innovation Fund Chulalongkorn University (CU_FRB65_ ind (9)_157_21_23), and Ratchadaphiseksomphot Endowment Fund (Multimedia Data Analytics and Processing Research Unit).",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": {
+                        "grant-agency": {
+                            "@iso-code": "usa",
+                            "$": "Graduate School, University of Texas, Austin"
+                        },
+                        "grant-agency-id": "100005688"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2023 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "19",
+                    "@timestamp": "BST 17:01:14",
+                    "@year": "2023",
+                    "@month": "01"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "640033955",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "945433433",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20230313400895",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20230220282",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85146264787",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85146264787",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.23919/APSIPAASC55919.2022.9979962"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "26",
+                "reference": [
+                    {
+                        "ref-fulltext": "A. Vaswani et al., \"Attention is all you need, \" Advances in neural information processing systems, vol. 30, 2017.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Attention is all you need"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85043317328",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "30"}},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vaswani",
+                                    "ce:indexed-name": "Vaswani A."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Advances in neural information processing systems"
+                        },
+                        "ce:source-text": "A. Vaswani et al., \"Attention is all you need, \" Advances in neural information processing systems, vol. 30, 2017."
+                    },
+                    {
+                        "ref-fulltext": "J. Liang et al., \"Swinir: Image restoration using swin transformer, \" in Proceedings of the IEEE/CVF International Conference on Computer Vision, 2021, pp. 1833-1844.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Swinir: Image restoration using swin transformer"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85116747930",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1833",
+                                "@last": "1844"
+                            }},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liang",
+                                    "ce:indexed-name": "Liang J."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision"
+                        },
+                        "ce:source-text": "J. Liang et al., \"Swinir: Image restoration using swin transformer, \" in Proceedings of the IEEE/CVF International Conference on Computer Vision, 2021, pp. 1833-1844."
+                    },
+                    {
+                        "ref-fulltext": "Z. Liu et al., \"Swin transformer: Hierarchical vision transformer using shifted windows, \" in Proceedings of the IEEE/CVF International Conference on Computer Vision, 2021, pp. 10012-10022.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Swin transformer: Hierarchical vision transformer using shifted windows"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85127818917",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "10012",
+                                "@last": "10022"
+                            }},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Z."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision"
+                        },
+                        "ce:source-text": "Z. Liu et al., \"Swin transformer: Hierarchical vision transformer using shifted windows, \" in Proceedings of the IEEE/CVF International Conference on Computer Vision, 2021, pp. 10012-10022."
+                    },
+                    {
+                        "ref-fulltext": "C. Dong, C. C. Loy, K. He, and X. Tang, \"Learning a deep convolutional network for image super-resolution, \" in European conference on computer vision, 2014: Springer, pp. 184-199.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Learning a deep convolutional network for image super-resolution"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84906484697",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "184",
+                                "@last": "199"
+                            }},
+                            "ref-text": "Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dong",
+                                    "ce:indexed-name": "Dong C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Loy",
+                                    "ce:indexed-name": "Loy C.C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "European conference on computer vision"
+                        },
+                        "ce:source-text": "C. Dong, C. C. Loy, K. He, and X. Tang, \"Learning a deep convolutional network for image super-resolution, \" in European conference on computer vision, 2014: Springer, pp. 184-199."
+                    },
+                    {
+                        "ref-fulltext": "C. Dong, C. C. Loy, and X. Tang, \"Accelerating the superresolution convolutional neural network, \" in European conference on computer vision, 2016: Springer, pp. 391-407.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Accelerating the superresolution convolutional neural network"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84990837045",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "391",
+                                "@last": "407"
+                            }},
+                            "ref-text": "Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dong",
+                                    "ce:indexed-name": "Dong C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Loy",
+                                    "ce:indexed-name": "Loy C.C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "European conference on computer vision"
+                        },
+                        "ce:source-text": "C. Dong, C. C. Loy, and X. Tang, \"Accelerating the superresolution convolutional neural network, \" in European conference on computer vision, 2016: Springer, pp. 391-407."
+                    },
+                    {
+                        "ref-fulltext": "J. Kim, J. K. Lee, and K. M. Lee, \"Accurate image superresolution using very deep convolutional networks, \" in Proceedings of the IEEE conference on computer vision and pattern recognition, 2016, pp. 1646-1654.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Accurate image superresolution using very deep convolutional networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84986325587",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1646",
+                                "@last": "1654"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee J.K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee K.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE conference on computer vision and pattern recognition"
+                        },
+                        "ce:source-text": "J. Kim, J. K. Lee, and K. M. Lee, \"Accurate image superresolution using very deep convolutional networks, \" in Proceedings of the IEEE conference on computer vision and pattern recognition, 2016, pp. 1646-1654."
+                    },
+                    {
+                        "ref-fulltext": "B. Lim, S. Son, H. Kim, S. Nah, and K. Mu Lee, \"Enhanced deep residual networks for single image super-resolution, \" in Proceedings of the IEEE conference on computer vision and pattern recognition workshops, 2017, pp. 136-144.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Enhanced deep residual networks for single image super-resolution"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85047511737",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "136",
+                                "@last": "144"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lim",
+                                    "ce:indexed-name": "Lim B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Son",
+                                    "ce:indexed-name": "Son S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nah",
+                                    "ce:indexed-name": "Nah S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mu Lee",
+                                    "ce:indexed-name": "Mu Lee K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE conference on computer vision and pattern recognition workshops"
+                        },
+                        "ce:source-text": "B. Lim, S. Son, H. Kim, S. Nah, and K. Mu Lee, \"Enhanced deep residual networks for single image super-resolution, \" in Proceedings of the IEEE conference on computer vision and pattern recognition workshops, 2017, pp. 136-144."
+                    },
+                    {
+                        "ref-fulltext": "W. Shi et al., \"Real-time single image and video superresolution using an efficient sub-pixel convolutional neural network, \" in Proceedings of the IEEE conference on computer vision and pattern recognition, 2016, pp. 1874-1883.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Real-time single image and video superresolution using an efficient sub-pixel convolutional neural network"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84986308391",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1874",
+                                "@last": "1883"
+                            }},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shi",
+                                    "ce:indexed-name": "Shi W."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proceedings of the IEEE conference on computer vision and pattern recognition"
+                        },
+                        "ce:source-text": "W. Shi et al., \"Real-time single image and video superresolution using an efficient sub-pixel convolutional neural network, \" in Proceedings of the IEEE conference on computer vision and pattern recognition, 2016, pp. 1874-1883."
+                    },
+                    {
+                        "ref-fulltext": "Y. Zhang, Y. Tian, Y. Kong, B. Zhong, and Y. Fu, \"Residual dense network for image super-resolution, \" in Proceedings of the IEEE conference on computer vision and pattern recognition, 2018, pp. 2472-2481.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Residual dense network for image super-resolution"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85062227797",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2472",
+                                "@last": "2481"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tian",
+                                    "ce:indexed-name": "Tian Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kong",
+                                    "ce:indexed-name": "Kong Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhong",
+                                    "ce:indexed-name": "Zhong B."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fu",
+                                    "ce:indexed-name": "Fu Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE conference on computer vision and pattern recognition"
+                        },
+                        "ce:source-text": "Y. Zhang, Y. Tian, Y. Kong, B. Zhong, and Y. Fu, \"Residual dense network for image super-resolution, \" in Proceedings of the IEEE conference on computer vision and pattern recognition, 2018, pp. 2472-2481."
+                    },
+                    {
+                        "ref-fulltext": "Y. Zhang et al., \"Image super-resolution using very deep residual channel attention networks, \" in Proceedings of the European conference on computer vision (ECCV), 2018, pp. 286-301.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Image super-resolution using very deep residual channel attention networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85055746036",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "286",
+                                "@last": "301"
+                            }},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Y."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proceedings of the European conference on computer vision (ECCV)"
+                        },
+                        "ce:source-text": "Y. Zhang et al., \"Image super-resolution using very deep residual channel attention networks, \" in Proceedings of the European conference on computer vision (ECCV), 2018, pp. 286-301."
+                    },
+                    {
+                        "ref-fulltext": "A. Dosovitskiy et al., \"An image is worth 16x16 words: Transformers for image recognition at scale, \" arXiv preprint arXiv: 2010. 11929, 2020.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "2010. 11929",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85098842090",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dosovitskiy",
+                                    "ce:indexed-name": "Dosovitskiy A."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "An image is worth 16x16 words: Transformers for image recognition at scale"
+                        },
+                        "ce:source-text": "A. Dosovitskiy et al., \"An image is worth 16x16 words: Transformers for image recognition at scale, \" arXiv preprint arXiv: 2010. 11929, 2020."
+                    },
+                    {
+                        "ref-fulltext": "F. Yang, H. Yang, J. Fu, H. Lu, and B. Guo, \"Learning texture transformer network for image super-resolution, \" in Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, 2020, pp. 5791-5800.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Learning texture transformer network for image super-resolution"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85092902310",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "5791",
+                                "@last": "5800"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fu",
+                                    "ce:indexed-name": "Fu J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lu",
+                                    "ce:indexed-name": "Lu H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition"
+                        },
+                        "ce:source-text": "F. Yang, H. Yang, J. Fu, H. Lu, and B. Guo, \"Learning texture transformer network for image super-resolution, \" in Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, 2020, pp. 5791-5800."
+                    },
+                    {
+                        "ref-fulltext": "H. Chen et al., \"Pre-trained image processing transformer, \" in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2021, pp. 12299-12310.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Pre-trained image processing transformer"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85123221392",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "12299",
+                                "@last": "12310"
+                            }},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen H."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+                        },
+                        "ce:source-text": "H. Chen et al., \"Pre-trained image processing transformer, \" in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2021, pp. 12299-12310."
+                    },
+                    {
+                        "ref-fulltext": "L. Ye, M. Rochan, Z. Liu, and Y. Wang, \"Cross-modal selfattention network for referring image segmentation, \" in Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, 2019, pp. 10502-10511.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Cross-modal selfattention network for referring image segmentation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85078317408",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "10502",
+                                "@last": "10511"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ye",
+                                    "ce:indexed-name": "Ye L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rochan",
+                                    "ce:indexed-name": "Rochan M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Z."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition"
+                        },
+                        "ce:source-text": "L. Ye, M. Rochan, Z. Liu, and Y. Wang, \"Cross-modal selfattention network for referring image segmentation, \" in Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, 2019, pp. 10502-10511."
+                    },
+                    {
+                        "ref-fulltext": "N. Carion et al., \"End-to-end object detection with transformers, \" in European conference on computer vision, 2020: Springer, pp. 213-229.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "End-to-end object detection with transformers"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85097232813",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "213",
+                                "@last": "229"
+                            }},
+                            "ref-text": "Springer",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carion",
+                                    "ce:indexed-name": "Carion N."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "European conference on computer vision"
+                        },
+                        "ce:source-text": "N. Carion et al., \"End-to-end object detection with transformers, \" in European conference on computer vision, 2020: Springer, pp. 213-229."
+                    },
+                    {
+                        "ref-fulltext": "A. Ramesh et al., \"Zero-shot text-to-image generation, \" in International Conference on Machine Learning, 2021: PMLR, pp. 8821-8831.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Zero-shot text-to-image generation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85153004960",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "8821",
+                                "@last": "8831"
+                            }},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ramesh",
+                                    "ce:indexed-name": "Ramesh A."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "International Conference on Machine Learning"
+                        },
+                        "ce:source-text": "A. Ramesh et al., \"Zero-shot text-to-image generation, \" in International Conference on Machine Learning, 2021: PMLR, pp. 8821-8831."
+                    },
+                    {
+                        "ref-fulltext": "T. Back, Evolutionary algorithms in theory and practice: evolution strategies, evolutionary programming, genetic algorithms. Oxford university press, 1996.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003435075",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Oxford university press",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "T.",
+                                "@_fa": "true",
+                                "ce:surname": "Back",
+                                "ce:indexed-name": "Back T."
+                            }]},
+                            "ref-sourcetitle": "Evolutionary algorithms in theory and practice: evolution strategies, evolutionary programming, genetic algorithms"
+                        },
+                        "ce:source-text": "T. Back, Evolutionary algorithms in theory and practice: evolution strategies, evolutionary programming, genetic algorithms. Oxford university press, 1996."
+                    },
+                    {
+                        "ref-fulltext": "D. E. Golberg, \"Genetic algorithms in search, optimization, and machine learning, \" Addion wesley, vol. 1989, no. 102, p. 36, 1989.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1989"},
+                            "ref-title": {"ref-titletext": "Genetic algorithms in search, optimization, and machine learning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "3142584551",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "1989",
+                                    "@issue": "102"
+                                },
+                                "pagerange": {"@first": "36"}
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "D.E.",
+                                "@_fa": "true",
+                                "ce:surname": "Golberg",
+                                "ce:indexed-name": "Golberg D.E."
+                            }]},
+                            "ref-sourcetitle": "Addion wesley"
+                        },
+                        "ce:source-text": "D. E. Golberg, \"Genetic algorithms in search, optimization, and machine learning, \" Addion wesley, vol. 1989, no. 102, p. 36, 1989."
+                    },
+                    {
+                        "ref-fulltext": "J. Kennedy and R. Eberhart, \"Particle swarm optimization, \" in Proceedings of ICNN'95-international conference on neural networks, 1995, vol. 4: IEEE, pp. 1942-1948.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1995"},
+                            "ref-title": {"ref-titletext": "Particle swarm optimization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0029535737",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "4"},
+                                "pagerange": {
+                                    "@first": "1942",
+                                    "@last": "1948"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kennedy",
+                                    "ce:indexed-name": "Kennedy J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Eberhart",
+                                    "ce:indexed-name": "Eberhart R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of ICNN'95-international conference on neural networks"
+                        },
+                        "ce:source-text": "J. Kennedy and R. Eberhart, \"Particle swarm optimization, \" in Proceedings of ICNN'95-international conference on neural networks, 1995, vol. 4: IEEE, pp. 1942-1948."
+                    },
+                    {
+                        "ref-fulltext": "K. V. Price, \"Differential evolution, \" in Handbook of optimization: Springer, 2013, pp. 187-214.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Differential evolution"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84885455533",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "187",
+                                "@last": "214"
+                            }},
+                            "ref-text": "Springer",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "K.V.",
+                                "@_fa": "true",
+                                "ce:surname": "Price",
+                                "ce:indexed-name": "Price K.V."
+                            }]},
+                            "ref-sourcetitle": "Handbook of optimization"
+                        },
+                        "ce:source-text": "K. V. Price, \"Differential evolution, \" in Handbook of optimization: Springer, 2013, pp. 187-214."
+                    },
+                    {
+                        "ref-fulltext": "L. M. Schmitt, \"Theory of genetic algorithms, \" Theoretical Computer Science, vol. 259, no. 1-2, pp. 1-61, 2001.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "Theory of genetic algorithms"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0034914489",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "259",
+                                    "@issue": "1-2"
+                                },
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "61"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "L.M.",
+                                "@_fa": "true",
+                                "ce:surname": "Schmitt",
+                                "ce:indexed-name": "Schmitt L.M."
+                            }]},
+                            "ref-sourcetitle": "Theoretical Computer Science"
+                        },
+                        "ce:source-text": "L. M. Schmitt, \"Theory of genetic algorithms, \" Theoretical Computer Science, vol. 259, no. 1-2, pp. 1-61, 2001."
+                    },
+                    {
+                        "ref-fulltext": "J. H. Holland, Adaptation in natural and artificial systems: An introductory analysis with applications to biology, control, and artificial intelligence. MIT press, 1992.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003463297",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "MIT press",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.H.",
+                                "@_fa": "true",
+                                "ce:surname": "Holland",
+                                "ce:indexed-name": "Holland J.H."
+                            }]},
+                            "ref-sourcetitle": "Adaptation in natural and artificial systems: An introductory analysis with applications to biology, control, and artificial intelligence"
+                        },
+                        "ce:source-text": "J. H. Holland, Adaptation in natural and artificial systems: An introductory analysis with applications to biology, control, and artificial intelligence. MIT press, 1992."
+                    },
+                    {
+                        "ref-fulltext": "M. Mitchell, An introduction to genetic algorithms. MIT press, 1998.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003587805",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "MIT press",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "ce:surname": "Mitchell",
+                                "ce:indexed-name": "Mitchell M."
+                            }]},
+                            "ref-sourcetitle": "An introduction to genetic algorithms"
+                        },
+                        "ce:source-text": "M. Mitchell, An introduction to genetic algorithms. MIT press, 1998."
+                    },
+                    {
+                        "ref-fulltext": "Z. Wang, A. C. Bovik, H. R. Sheikh, and E. P. Simoncelli, \"Image quality assessment: from error visibility to structural similarity, \" IEEE transactions on image processing, vol. 13, no. 4, pp. 600-612, 2004.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Image quality assessment: from error visibility to structural similarity"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "1942436689",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "13",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "600",
+                                    "@last": "612"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bovik",
+                                    "ce:indexed-name": "Bovik A.C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sheikh",
+                                    "ce:indexed-name": "Sheikh H.R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "E.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Simoncelli",
+                                    "ce:indexed-name": "Simoncelli E.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE transactions on image processing"
+                        },
+                        "ce:source-text": "Z. Wang, A. C. Bovik, H. R. Sheikh, and E. P. Simoncelli, \"Image quality assessment: from error visibility to structural similarity, \" IEEE transactions on image processing, vol. 13, no. 4, pp. 600-612, 2004."
+                    },
+                    {
+                        "ref-fulltext": "E. Agustsson and R. Timofte, \"Ntire 2017 challenge on single image super-resolution: Dataset and study, \" in Proceedings of the IEEE conference on computer vision and pattern recognition workshops, 2017, pp. 126-135.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Ntire 2017 challenge on single image super-resolution: Dataset and study"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85061748836",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "126",
+                                "@last": "135"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Agustsson",
+                                    "ce:indexed-name": "Agustsson E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Timofte",
+                                    "ce:indexed-name": "Timofte R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE conference on computer vision and pattern recognition workshops"
+                        },
+                        "ce:source-text": "E. Agustsson and R. Timofte, \"Ntire 2017 challenge on single image super-resolution: Dataset and study, \" in Proceedings of the IEEE conference on computer vision and pattern recognition workshops, 2017, pp. 126-135."
+                    },
+                    {
+                        "ref-fulltext": "M. Bevilacqua, A. Roumy, C. Guillemot, and M. L. Alberi-Morel, \"Low-complexity single-image super-resolution based on nonnegative neighbor embedding, \" 2012.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84888880337",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bevilacqua",
+                                    "ce:indexed-name": "Bevilacqua M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Roumy",
+                                    "ce:indexed-name": "Roumy A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guillemot",
+                                    "ce:indexed-name": "Guillemot C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alberi-Morel",
+                                    "ce:indexed-name": "Alberi-Morel M.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Low-complexity single-image super-resolution based on nonnegative neighbor embedding"
+                        },
+                        "ce:source-text": "M. Bevilacqua, A. Roumy, C. Guillemot, and M. L. Alberi-Morel, \"Low-complexity single-image super-resolution based on nonnegative neighbor embedding, \" 2012."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Bangkok",
+        "@id": "60028190",
+        "affilname": "Chulalongkorn University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+        "affiliation-country": "Thailand"
+    },
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85146264787",
+        "dc:description": "Image restoration, such as single image super-resolution (SISR), is a long-established low-level vision issue that intends to regenerate high-resolution (HR) images from low-resolution (LR) input counterparts. While state-of-the-art image super-resolution models are based on the well-known convolutional neural network (CNN), many self-attention-based or transformer-based experiment attempts have been conducted and have shown promising performance on vision problems. A powerful baseline model based on the swin transformer adopts the shifted window approach. It enhances the capability by restricting the model to compute the self-attention function only on non-superimpose local windows while enabling cross-window relations. However, the architecture design is manually fixed. Therefore, the results are not achieving optimal performance. This paper presents an optimal deep multi-route self-attention network for single image super-resolution (ODMR-SASR). The genetic algorithm (GA) is introduced to discover the optimal number of filters and layers. Experimental results demonstrate that the proposed optimization technique can produce a progressive SR image quality.",
+        "prism:coverDate": "2022-01-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85146264787",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Nisawan",
+            "preferred-name": {
+                "ce:given-name": "Nisawan",
+                "ce:initials": "N.",
+                "ce:surname": "Ngambenjavichaikul",
+                "ce:indexed-name": "Ngambenjavichaikul N."
+            },
+            "@seq": "1",
+            "ce:initials": "N.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Ngambenjavichaikul",
+            "@auid": "58065689600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58065689600",
+            "ce:indexed-name": "Ngambenjavichaikul N."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85146264787"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85146264787&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85146264787&origin=inward"
+            }
+        ],
+        "prism:isbn": "9786165904773",
+        "prism:publicationName": "Proceedings of 2022 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference, APSIPA ASC 2022",
+        "source-id": "21101131431",
+        "citedby-count": "0",
+        "subtype": "cp",
+        "prism:pageRange": "1181-1186",
+        "dc:title": "Optimal Deep Multi-Route Self-Attention for Single Image Super-Resolution",
+        "prism:endingPage": "1186",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.23919/APSIPAASC55919.2022.9979962",
+        "prism:startingPage": "1181",
+        "publishercopyright": "© 2022 Asia-Pacific of Signal and Information Processing Association (APSIPA).",
+        "dc:identifier": "SCOPUS_ID:85146264787",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Arts image",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Convolutional neural network",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "High-resolution images",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Image super resolutions",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Low-level vision",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Lower resolution",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Performance",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Single images",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "State of the art",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Super-resolution models",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": null,
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Computer Networks and Communications",
+            "@code": "1705",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Information Systems",
+            "@code": "1710",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Signal Processing",
+            "@code": "1711",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Nisawan",
+            "preferred-name": {
+                "ce:given-name": "Nisawan",
+                "ce:initials": "N.",
+                "ce:surname": "Ngambenjavichaikul",
+                "ce:indexed-name": "Ngambenjavichaikul N."
+            },
+            "@seq": "1",
+            "ce:initials": "N.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Ngambenjavichaikul",
+            "@auid": "58065689600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58065689600",
+            "ce:indexed-name": "Ngambenjavichaikul N."
+        },
+        {
+            "ce:given-name": "Sovann",
+            "preferred-name": {
+                "ce:given-name": "Sovann",
+                "ce:initials": "S.",
+                "ce:surname": "Chen",
+                "ce:indexed-name": "Chen S."
+            },
+            "@seq": "2",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Chen",
+            "@auid": "57193421796",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57193421796",
+            "ce:indexed-name": "Chen S."
+        },
+        {
+            "ce:given-name": "Supavadee",
+            "preferred-name": {
+                "ce:given-name": "Supavadee",
+                "ce:initials": "S.",
+                "ce:surname": "Aramvith",
+                "ce:indexed-name": "Aramvith S."
+            },
+            "@seq": "3",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Aramvith",
+            "@auid": "8943602000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/8943602000",
+            "ce:indexed-name": "Aramvith S."
+        }
+    ]}
+}}

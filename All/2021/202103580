@@ -1,0 +1,2317 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "15",
+                "@timestamp": "2021-03-15T00:38:47.000047-04:00",
+                "@year": "2021",
+                "@month": "03"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2021",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": {
+                "xocs:funding-agency-matched-string": "Thailand Research Fund",
+                "xocs:funding-agency-acronym": "TRF",
+                "xocs:funding-agency": "Thailand Research Fund",
+                "xocs:funding-id": "RTA6080013",
+                "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004396",
+                "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+            },
+            "xocs:funding-addon-generated-timestamp": "2021-05-08T05:45:41.350599Z",
+            "xocs:funding-text": [
+                {"$": "This work was supported by Development and Promotion of Science and Technology Talents Project (DPST) and Thailand Research Fund under grant number RTA6080013. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript."},
+                {"$": "The following grant information was disclosed by the authors: Development and Promotion of Science and Technology Talents Project (DPST). Thailand Research Fund: RTA6080013."}
+            ],
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "@afid": "60028190",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Advanced Virtual and Intelligent Computing (AVIC) Research Center"},
+                            {"$": "Department of Mathematics and Computer Science"},
+                            {"$": "Faculty of Science"},
+                            {"$": "Chulalongkorn University"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60028190",
+                            "@dptid": "113870560"
+                        },
+                        "@affiliation-instance-id": "2011133383-b7bc3fb9d40825b056f5221b67d562b7",
+                        "ce:source-text": "Advanced Virtual and Intelligent Computing (AVIC) Research Center, Department of Mathematics and Computer Science, Faculty of Science, Chulalongkorn University, Bangkok, Thailand",
+                        "@dptid": "113870560"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Suluk",
+                            "preferred-name": {
+                                "ce:given-name": "Suluk",
+                                "ce:initials": "S.",
+                                "ce:surname": "Chaikhan",
+                                "ce:indexed-name": "Chaikhan S."
+                            },
+                            "@author-instance-id": "2011133383-e631ec0f5800213e0df6944f508d56ca",
+                            "@seq": "1",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Chaikhan",
+                            "@auid": "57222134387",
+                            "ce:indexed-name": "Chaikhan S."
+                        },
+                        {
+                            "ce:given-name": "Suphakant",
+                            "preferred-name": {
+                                "ce:given-name": "Suphakant",
+                                "ce:initials": "S.",
+                                "ce:surname": "Phimoltares",
+                                "ce:indexed-name": "Phimoltares S."
+                            },
+                            "@author-instance-id": "2011133383-2e8966fe3a1224f3f9dedb5dcd10b140",
+                            "@seq": "2",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Phimoltares",
+                            "@auid": "6507998737",
+                            "ce:indexed-name": "Phimoltares S."
+                        },
+                        {
+                            "ce:given-name": "Chidchanok",
+                            "preferred-name": {
+                                "ce:given-name": "Chidchanok",
+                                "ce:initials": "C.",
+                                "ce:surname": "Lursinsap",
+                                "ce:indexed-name": "Lursinsap C."
+                            },
+                            "@author-instance-id": "2011133383-499058603ad9d287ca09ce51cb3b4554",
+                            "@seq": "3",
+                            "ce:initials": "C.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Lursinsap",
+                            "@auid": "55396044200",
+                            "ce:indexed-name": "Lursinsap C."
+                        }
+                    ]
+                },
+                "citation-title": "Correct and stable sorting for overflow streaming data with a limited storage size and a uniprocessor",
+                "abstracts": "© Copyright 2021 Chaikhan et al.Tremendous quantities of numeric data have been generated as streams in various cyber ecosystems. Sorting is one of the most fundamental operations to gain knowledge from data. However, due to size restrictions of data storage which includes storage inside and outside CPU with respect to the massive streaming data sources, data can obviously overflow the storage. Consequently, all classic sorting algorithms of the past are incapable of obtaining a correct sorted sequence because data to be sorted cannot be totally stored in the data storage. This paper proposes a new sorting algorithm called streaming data sort for streaming data on a uniprocessor constrained by a limited storage size and the correctness of the sorted order. Data continuously flow into the storage as consecutive chunks with chunk sizes less than the storage size. A theoretical analysis of the space bound and the time complexity is provided. The sorting time complexity is O (n), where n is the number of incoming data. The space complexity is O (M), where M is the storage size. The experimental results show that streaming data sort can handle a million permuted data by using a storage whose size is set as low as 35% of the data size. This proposed concept can be practically applied to various applications in different fields where the data always overflow the working storage and sorting process is needed.",
+                "correspondence": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Advanced Virtual and Intelligent Computing (AVIC) Research Center"},
+                                {"$": "Department of Mathematics and Computer Science"},
+                                {"$": "Faculty of Science"},
+                                {"$": "Chulalongkorn University"}
+                            ]
+                        },
+                        "person": {
+                            "ce:given-name": "Suluk",
+                            "ce:initials": "S.",
+                            "ce:surname": "Chaikhan",
+                            "ce:indexed-name": "Chaikhan S."
+                        }
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Advanced Virtual and Intelligent Computing (AVIC) Research Center"},
+                                {"$": "Department of Mathematics and Computer Science"},
+                                {"$": "Faculty of Science"},
+                                {"$": "Chulalongkorn University"}
+                            ]
+                        },
+                        "person": {
+                            "ce:given-name": "Suphakant",
+                            "ce:initials": "S.",
+                            "ce:surname": "Phimoltares",
+                            "ce:indexed-name": "Phimoltares S."
+                        }
+                    }
+                ],
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Algorithm design and analysis",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Algorithms",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Computational intelligence",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Memory",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Sorting",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "PeerJ Comput. Sci.",
+                    "website": {"ce:e-address": {
+                        "$": "peerj.com/computer-science/",
+                        "@type": "email"
+                    }},
+                    "@country": "usa",
+                    "translated-sourcetitle": {"@xml:lang": "eng"},
+                    "issn": {
+                        "$": "23765992",
+                        "@type": "electronic"
+                    },
+                    "volisspag": {
+                        "voliss": {"@volume": "7"},
+                        "pagerange": {
+                            "@first": "1",
+                            "@last": "27"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2021"},
+                    "publisher": {"publishername": "PeerJ Inc."},
+                    "sourcetitle": "PeerJ Computer Science",
+                    "@srcid": "21100830173",
+                    "publicationdate": {
+                        "year": "2021",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2021"
+                        }
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": {
+                            "classification-code": "722.1",
+                            "classification-description": "Data Storage, Equipment and Techniques"
+                        }
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": "1700"
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "COMP"
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This work was supported by Development and Promotion of Science and Technology Talents Project (DPST) and Thailand Research Fund under grant number RTA6080013. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": {
+                        "grant-id": "RTA6080013",
+                        "grant-acronym": "TRF",
+                        "grant-agency": {
+                            "@iso-code": "tha",
+                            "$": "Thailand Research Fund"
+                        },
+                        "grant-agency-id": "501100004396"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2021 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "02",
+                    "@timestamp": "BST 15:06:30",
+                    "@year": "2021",
+                    "@month": "03"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2011133383",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "931657636",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20210910003726",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20210684491",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "20210538968066",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85101605326",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85101605326",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.7717/PEERJ-CS.355"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "40",
+                "reference": [
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Agrawal A, Sriram B. 2015. Concom sorting algorithm. In: 015 4th International Conference on Computer Science and Network Technology. Vol. 1. 229\u2013233.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Concom sorting algorithm"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84979294982",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "1"},
+                                "pagerange": {
+                                    "@first": "229",
+                                    "@last": "233"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A",
+                                    "@_fa": "true",
+                                    "ce:surname": "Agrawal",
+                                    "ce:indexed-name": "Agrawal A"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sriram",
+                                    "ce:indexed-name": "Sriram B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "015 4th International Conference on Computer Science and Network Technology"
+                        },
+                        "ce:source-text": "Agrawal A, Sriram B. 2015. Concom sorting algorithm. In: 015 4th International Conference on Computer Science and Network Technology. Vol. 1. 229\u2013233."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Al-Fuqaha A, Guizani M, Mohammadi M, Aledhari M, Ayyash M. 2015. Internet of things: a survey on enabling technologies, protocols, and applications. IEEE Communications Surveys & Tutorials 17(4):2347\u20132376 DOI 10.1109/COMST.2015.2444095.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Internet of things: a survey on enabling technologies, protocols, and applications"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/COMST.2015.2444095",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "84941085241",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "17",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "2347",
+                                    "@last": "2376"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A",
+                                    "@_fa": "true",
+                                    "ce:surname": "Al-Fuqaha",
+                                    "ce:indexed-name": "Al-Fuqaha A"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guizani",
+                                    "ce:indexed-name": "Guizani M"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mohammadi",
+                                    "ce:indexed-name": "Mohammadi M"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aledhari",
+                                    "ce:indexed-name": "Aledhari M"
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ayyash",
+                                    "ce:indexed-name": "Ayyash M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Communications Surveys & Tutorials"
+                        },
+                        "ce:source-text": "Al-Fuqaha A, Guizani M, Mohammadi M, Aledhari M, Ayyash M. 2015. Internet of things: a survey on enabling technologies, protocols, and applications. IEEE Communications Surveys & Tutorials 17(4):2347\u20132376 DOI 10.1109/COMST.2015.2444095."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Babcock B, Babu S, Datar M, Motwani R, Widom J. 2002. Models and issues in data stream systems. In: Proceedings of the Twenty-First ACM SIGMOD-SIGACT-SIGART Symposium on Principles of Database Systems, PODS \u201902. New York, 1\u201316.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Models and issues in data stream systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0036042175",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "16"
+                            }},
+                            "ref-text": "New York",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B",
+                                    "@_fa": "true",
+                                    "ce:surname": "Babcock",
+                                    "ce:indexed-name": "Babcock B"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S",
+                                    "@_fa": "true",
+                                    "ce:surname": "Babu",
+                                    "ce:indexed-name": "Babu S"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M",
+                                    "@_fa": "true",
+                                    "ce:surname": "Datar",
+                                    "ce:indexed-name": "Datar M"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R",
+                                    "@_fa": "true",
+                                    "ce:surname": "Motwani",
+                                    "ce:indexed-name": "Motwani R"
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Widom",
+                                    "ce:indexed-name": "Widom J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Twenty-First ACM SIGMOD-SIGACT-SIGART Symposium on Principles of Database Systems, PODS \u201902"
+                        },
+                        "ce:source-text": "Babcock B, Babu S, Datar M, Motwani R, Widom J. 2002. Models and issues in data stream systems. In: Proceedings of the Twenty-First ACM SIGMOD-SIGACT-SIGART Symposium on Principles of Database Systems, PODS \u201902. New York, 1\u201316."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Bey Ahmed Khernache M, Laga A, Boukhobza J. 2018. Montres-nvm: an external sorting algorithm for hybrid memory. In: 2018 IEEE 7th Non-Volatile Memory Systems and Applications Symposium (NVMSA). Piscataway: IEEE, 49\u201354.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Montres-nvm: an external sorting algorithm for hybrid memory"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85059807524",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "49",
+                                "@last": "54"
+                            }},
+                            "ref-text": "Piscataway: IEEE",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bey Ahmed Khernache",
+                                    "ce:indexed-name": "Bey Ahmed Khernache M"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A",
+                                    "@_fa": "true",
+                                    "ce:surname": "Laga",
+                                    "ce:indexed-name": "Laga A"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boukhobza",
+                                    "ce:indexed-name": "Boukhobza J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2018 IEEE 7th Non-Volatile Memory Systems and Applications Symposium (NVMSA)"
+                        },
+                        "ce:source-text": "Bey Ahmed Khernache M, Laga A, Boukhobza J. 2018. Montres-nvm: an external sorting algorithm for hybrid memory. In: 2018 IEEE 7th Non-Volatile Memory Systems and Applications Symposium (NVMSA). Piscataway: IEEE, 49\u201354."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Buragohain C, Suri S. 2009. Quantiles on streams. In: Encyclopedia of Database Systems. New York: Springer-Verlag US, 2235\u20132240.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Quantiles on streams"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79960187409",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2235",
+                                "@last": "2240"
+                            }},
+                            "ref-text": "New York: Springer-Verlag US",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C",
+                                    "@_fa": "true",
+                                    "ce:surname": "Buragohain",
+                                    "ce:indexed-name": "Buragohain C"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Suri",
+                                    "ce:indexed-name": "Suri S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Encyclopedia of Database Systems"
+                        },
+                        "ce:source-text": "Buragohain C, Suri S. 2009. Quantiles on streams. In: Encyclopedia of Database Systems. New York: Springer-Verlag US, 2235\u20132240."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Cardenas A, Manadhata P, Rajan S. 2013. Big data analytics for security. IEEE Security & Privacy 11(6):74\u201376 DOI 10.1109/MSP.2013.138.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Big data analytics for security"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/MSP.2013.138",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "84898473131",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "11",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "74",
+                                    "@last": "76"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cardenas",
+                                    "ce:indexed-name": "Cardenas A"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P",
+                                    "@_fa": "true",
+                                    "ce:surname": "Manadhata",
+                                    "ce:indexed-name": "Manadhata P"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rajan",
+                                    "ce:indexed-name": "Rajan S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Security & Privacy"
+                        },
+                        "ce:source-text": "Cardenas A, Manadhata P, Rajan S. 2013. Big data analytics for security. IEEE Security & Privacy 11(6):74\u201376 DOI 10.1109/MSP.2013.138."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Cormen TH, Leiserson CE, Rivest RL, Stein C. 2009. Introduction to algorithms. Third Edition. Cambridge: The MIT Press.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0004116989",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Third Edition. Cambridge: The MIT Press",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "TH",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cormen",
+                                    "ce:indexed-name": "Cormen TH"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "CE",
+                                    "@_fa": "true",
+                                    "ce:surname": "Leiserson",
+                                    "ce:indexed-name": "Leiserson CE"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "RL",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rivest",
+                                    "ce:indexed-name": "Rivest RL"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stein",
+                                    "ce:indexed-name": "Stein C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Introduction to algorithms"
+                        },
+                        "ce:source-text": "Cormen TH, Leiserson CE, Rivest RL, Stein C. 2009. Introduction to algorithms. Third Edition. Cambridge: The MIT Press."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Dave M, Gianey H. 2016. Different clustering algorithms for big data analytics: a review. In: 2016 International Conference System Modeling & Advancement in Research Trends. 328\u2013333.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Different clustering algorithms for big data analytics: a review"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85018324984",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "328",
+                                "@last": "333"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dave",
+                                    "ce:indexed-name": "Dave M"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gianey",
+                                    "ce:indexed-name": "Gianey H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2016 International Conference System Modeling & Advancement in Research Trends"
+                        },
+                        "ce:source-text": "Dave M, Gianey H. 2016. Different clustering algorithms for big data analytics: a review. In: 2016 International Conference System Modeling & Advancement in Research Trends. 328\u2013333."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Dua D, Graff C. 2019. UCI machine learning repository: school of information and computer science. Irvine: University of California.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85048419433",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Irvine: University of California",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dua",
+                                    "ce:indexed-name": "Dua D"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Graff",
+                                    "ce:indexed-name": "Graff C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "UCI machine learning repository: school of information and computer science"
+                        },
+                        "ce:source-text": "Dua D, Graff C. 2019. UCI machine learning repository: school of information and computer science. Irvine: University of California."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Elder M, Goh YK. 2018. Permutations sorted by a ?nite and an in?nite stack in series. In: International Conference on Language and Automata Theory and Applications. 220\u2013231.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Permutations sorted by a ?nite and an in?nite stack in series"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85045299119",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "220",
+                                "@last": "231"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M",
+                                    "@_fa": "true",
+                                    "ce:surname": "Elder",
+                                    "ce:indexed-name": "Elder M"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "YK.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Goh",
+                                    "ce:indexed-name": "Goh YK."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Conference on Language and Automata Theory and Applications"
+                        },
+                        "ce:source-text": "Elder M, Goh YK. 2018. Permutations sorted by a ?nite and an in?nite stack in series. In: International Conference on Language and Automata Theory and Applications. 220\u2013231."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Farnoud F, Yaakobi E, Bruck J. 2016. Approximate sorting of data streams with limited storage. Journal of Combination Optimization 32:1133\u20131164.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Approximate sorting of data streams with limited storage"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84940054760",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "32"},
+                                "pagerange": {
+                                    "@first": "1133",
+                                    "@last": "1164"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F",
+                                    "@_fa": "true",
+                                    "ce:surname": "Farnoud",
+                                    "ce:indexed-name": "Farnoud F"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yaakobi",
+                                    "ce:indexed-name": "Yaakobi E"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bruck",
+                                    "ce:indexed-name": "Bruck J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Combination Optimization"
+                        },
+                        "ce:source-text": "Farnoud F, Yaakobi E, Bruck J. 2016. Approximate sorting of data streams with limited storage. Journal of Combination Optimization 32:1133\u20131164."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Faro S, Marino FP, Sca?ti S. 2020. Fast-insertion-sort: a new family of ef?cient variants of the insertion-sort algorithm. In: SOFSEM (Doctoral Student Research Forum). 37\u201348.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Fast-insertion-sort: a new family of ef?cient variants of the insertion-sort algorithm"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85081686147",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "37",
+                                "@last": "48"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S",
+                                    "@_fa": "true",
+                                    "ce:surname": "Faro",
+                                    "ce:indexed-name": "Faro S"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "FP",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marino",
+                                    "ce:indexed-name": "Marino FP"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sca?ti",
+                                    "ce:indexed-name": "Sca?ti S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "SOFSEM (Doctoral Student Research Forum)"
+                        },
+                        "ce:source-text": "Faro S, Marino FP, Sca?ti S. 2020. Fast-insertion-sort: a new family of ef?cient variants of the insertion-sort algorithm. In: SOFSEM (Doctoral Student Research Forum). 37\u201348."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Franceschini G. 2004. Proximity mergesort: optimal in-place sorting in the cache-oblivious model. In: Proceedings of the Fifteenth Annual ACM-SIAM Symposium on Discrete Algorithms, SODA. Vol. 15. New York: ACM, 291\u2013299.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Proximity mergesort: optimal in-place sorting in the cache-oblivious model"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "1842487595",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "15"},
+                                "pagerange": {
+                                    "@first": "291",
+                                    "@last": "299"
+                                }
+                            },
+                            "ref-text": "New York: ACM",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "G.",
+                                "@_fa": "true",
+                                "ce:surname": "Franceschini",
+                                "ce:indexed-name": "Franceschini G."
+                            }]},
+                            "ref-sourcetitle": "Proceedings of the Fifteenth Annual ACM-SIAM Symposium on Discrete Algorithms, SODA"
+                        },
+                        "ce:source-text": "Franceschini G. 2004. Proximity mergesort: optimal in-place sorting in the cache-oblivious model. In: Proceedings of the Fifteenth Annual ACM-SIAM Symposium on Discrete Algorithms, SODA. Vol. 15. New York: ACM, 291\u2013299."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Gantz J, Reinsel D. 2012. The digital universe in 2020: big data, bigger digital shadows, and biggest growth in the far east. IDC iView: IDC Analyze the future 2007(2012):1\u201316.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "The digital universe in 2020: big data, bigger digital shadows, and biggest growth in the far east"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84878195422",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2007"},
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "16"
+                                }
+                            },
+                            "ref-text": "(2012)",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gantz",
+                                    "ce:indexed-name": "Gantz J"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Reinsel",
+                                    "ce:indexed-name": "Reinsel D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IDC iView: IDC Analyze the future"
+                        },
+                        "ce:source-text": "Gantz J, Reinsel D. 2012. The digital universe in 2020: big data, bigger digital shadows, and biggest growth in the far east. IDC iView: IDC Analyze the future 2007(2012):1\u201316."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Goel S, Kumar R. 2018. Brownian motus and clustered binary insertion sort methods: an ef?cient progress over traditional methods. Future Generation Computer Systems 86(4):266\u2013280 DOI 10.1016/j.future.2018.04.038.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Brownian motus and clustered binary insertion sort methods: an ef?cient progress over traditional methods"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/j.future.2018.04.038",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85046800591",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "86",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "266",
+                                    "@last": "280"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S",
+                                    "@_fa": "true",
+                                    "ce:surname": "Goel",
+                                    "ce:indexed-name": "Goel S"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kumar",
+                                    "ce:indexed-name": "Kumar R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Future Generation Computer Systems"
+                        },
+                        "ce:source-text": "Goel S, Kumar R. 2018. Brownian motus and clustered binary insertion sort methods: an ef?cient progress over traditional methods. Future Generation Computer Systems 86(4):266\u2013280 DOI 10.1016/j.future.2018.04.038."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Huang X, Liu Z, Li J. 2019. Array sort: an adaptive sorting algorithm on multi-thread. Journal of Engineering 2019(5):3455\u20133459 DOI 10.1049/joe.2018.5154.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Array sort: an adaptive sorting algorithm on multi-thread"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1049/joe.2018.5154",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85065577809",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "2019",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "3455",
+                                    "@last": "3459"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang X"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Z"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Engineering"
+                        },
+                        "ce:source-text": "Huang X, Liu Z, Li J. 2019. Array sort: an adaptive sorting algorithm on multi-thread. Journal of Engineering 2019(5):3455\u20133459 DOI 10.1049/joe.2018.5154."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Idrizi F, Rustemi A, Dalipi F. 2017. A new modi?ed sorting algorithm: a comparison with state of the art. In: 2017 6th Mediterranean Conference on Embedded Computing. 1\u20136.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "A new modi?ed sorting algorithm: a comparison with state of the art"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85027019499",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "6"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F",
+                                    "@_fa": "true",
+                                    "ce:surname": "Idrizi",
+                                    "ce:indexed-name": "Idrizi F"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rustemi",
+                                    "ce:indexed-name": "Rustemi A"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dalipi",
+                                    "ce:indexed-name": "Dalipi F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2017 6th Mediterranean Conference on Embedded Computing"
+                        },
+                        "ce:source-text": "Idrizi F, Rustemi A, Dalipi F. 2017. A new modi?ed sorting algorithm: a comparison with state of the art. In: 2017 6th Mediterranean Conference on Embedded Computing. 1\u20136."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Kanza Y, Yaari H. 2016. External sorting on ?ash storage: reducing cell wearing and increasing ef?ciency by avoiding intermediate writes. VLDB Journal 25(4):495\u2013518 DOI 10.1007/s00778-016-0426-5.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "External sorting on ?ash storage: reducing cell wearing and increasing ef?ciency by avoiding intermediate writes"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/s00778-016-0426-5",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "84960126971",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "25",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "495",
+                                    "@last": "518"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kanza",
+                                    "ce:indexed-name": "Kanza Y"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yaari",
+                                    "ce:indexed-name": "Yaari H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "VLDB Journal"
+                        },
+                        "ce:source-text": "Kanza Y, Yaari H. 2016. External sorting on ?ash storage: reducing cell wearing and increasing ef?ciency by avoiding intermediate writes. VLDB Journal 25(4):495\u2013518 DOI 10.1007/s00778-016-0426-5."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Katal A, Wazid M, Goudar R. 2013. Big data: Issues, challenges, tools and good practices. In: 2013 Sixth International Conference on Contemporary Computing. 404\u2013409.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Big data: Issues, challenges, tools and good practices"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84886540532",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "404",
+                                "@last": "409"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A",
+                                    "@_fa": "true",
+                                    "ce:surname": "Katal",
+                                    "ce:indexed-name": "Katal A"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wazid",
+                                    "ce:indexed-name": "Wazid M"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Goudar",
+                                    "ce:indexed-name": "Goudar R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2013 Sixth International Conference on Contemporary Computing"
+                        },
+                        "ce:source-text": "Katal A, Wazid M, Goudar R. 2013. Big data: Issues, challenges, tools and good practices. In: 2013 Sixth International Conference on Contemporary Computing. 404\u2013409."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Kehoe B, Patil S, Abbeel P, Goldberg K. 2015. A survey of research on cloud robotics and automation. IEEE Transactions on Automation Science and Engineering 12(2):398\u2013409.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "A survey of research on cloud robotics and automation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84924680020",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "12",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "398",
+                                    "@last": "409"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kehoe",
+                                    "ce:indexed-name": "Kehoe B"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S",
+                                    "@_fa": "true",
+                                    "ce:surname": "Patil",
+                                    "ce:indexed-name": "Patil S"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abbeel",
+                                    "ce:indexed-name": "Abbeel P"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Goldberg",
+                                    "ce:indexed-name": "Goldberg K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Automation Science and Engineering"
+                        },
+                        "ce:source-text": "Kehoe B, Patil S, Abbeel P, Goldberg K. 2015. A survey of research on cloud robotics and automation. IEEE Transactions on Automation Science and Engineering 12(2):398\u2013409."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Keim D, Qu H, Ma K-L. 2013. Big-data visualization. IEEE Computer Graphics and Applications 33(4):20\u201321.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Big-data visualization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84880836672",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "33",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "20",
+                                    "@last": "21"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D",
+                                    "@_fa": "true",
+                                    "ce:surname": "Keim",
+                                    "ce:indexed-name": "Keim D"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qu",
+                                    "ce:indexed-name": "Qu H"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K-L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma K-L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Computer Graphics and Applications"
+                        },
+                        "ce:source-text": "Keim D, Qu H, Ma K-L. 2013. Big-data visualization. IEEE Computer Graphics and Applications 33(4):20\u201321."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Laga A, Boukhobza J, Singhoff F, Koskas M. 2017. Montres: merge on-the-run external sorting algorithm for large data volumes on ssd based storage systems. IEEE Transactions on Computers 66(10):1689\u20131702.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Montres: merge on-the-run external sorting algorithm for large data volumes on ssd based storage systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85029609924",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "66",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {
+                                    "@first": "1689",
+                                    "@last": "1702"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A",
+                                    "@_fa": "true",
+                                    "ce:surname": "Laga",
+                                    "ce:indexed-name": "Laga A"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boukhobza",
+                                    "ce:indexed-name": "Boukhobza J"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F",
+                                    "@_fa": "true",
+                                    "ce:surname": "Singhoff",
+                                    "ce:indexed-name": "Singhoff F"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koskas",
+                                    "ce:indexed-name": "Koskas M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Computers"
+                        },
+                        "ce:source-text": "Laga A, Boukhobza J, Singhoff F, Koskas M. 2017. Montres: merge on-the-run external sorting algorithm for large data volumes on ssd based storage systems. IEEE Transactions on Computers 66(10):1689\u20131702."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Lee Y-S, Quero LC, Kim S-H, Kim J-S, Maeng S. 2016. Activesort: ef?cient external sorting using active ssds in the mapreduce framework. Future Generation Computer Systems 65:76\u201389.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Activesort: ef?cient external sorting using active ssds in the mapreduce framework"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84983072015",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "65"},
+                                "pagerange": {
+                                    "@first": "76",
+                                    "@last": "89"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y-S",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee Y-S"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "LC",
+                                    "@_fa": "true",
+                                    "ce:surname": "Quero",
+                                    "ce:indexed-name": "Quero LC"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S-H",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim S-H"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J-S",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim J-S"
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maeng",
+                                    "ce:indexed-name": "Maeng S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Future Generation Computer Systems"
+                        },
+                        "ce:source-text": "Lee Y-S, Quero LC, Kim S-H, Kim J-S, Maeng S. 2016. Activesort: ef?cient external sorting using active ssds in the mapreduce framework. Future Generation Computer Systems 65:76\u201389."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Li Y, Martinez O, Chen X, Li Y, Hopcroft JE. 2016. In a world that counts: clustering and detecting fake social engagement at scale. Republic and Canton of Geneva: International World Wide Web Conferences Steering Committee.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "In a world that counts: clustering and detecting fake social engagement at scale"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85101611099",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Republic and Canton of Geneva: International World Wide Web Conferences Steering Committee",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Y"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "O",
+                                    "@_fa": "true",
+                                    "ce:surname": "Martinez",
+                                    "ce:indexed-name": "Martinez O"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "X",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen X"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Y"
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "JE.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hopcroft",
+                                    "ce:indexed-name": "Hopcroft JE."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Li Y, Martinez O, Chen X, Li Y, Hopcroft JE. 2016. In a world that counts: clustering and detecting fake social engagement at scale. Republic and Canton of Geneva: International World Wide Web Conferences Steering Committee."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Liang Y, Chen T, Chang Y, Chen S, Wei H, Shih W. 2020. B*-sort: enabling write-once sorting for non-volatile memory. In: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems. Piscataway: IEEE.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "B*-sort: enabling write-once sorting for non-volatile memory"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85096762694",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Piscataway: IEEE",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liang",
+                                    "ce:indexed-name": "Liang Y"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen T"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang Y"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen S"
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "H",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wei",
+                                    "ce:indexed-name": "Wei H"
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shih",
+                                    "ce:indexed-name": "Shih W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
+                        },
+                        "ce:source-text": "Liang Y, Chen T, Chang Y, Chen S, Wei H, Shih W. 2020. B*-sort: enabling write-once sorting for non-volatile memory. In: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems. Piscataway: IEEE."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Mehmood A, Natgunanathan I, Xiang Y, Hua G, Guo S. 2016. Protection of big data privacy. IEEE Access 4:1821\u20131834.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Protection of big data privacy"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84979828652",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "4"},
+                                "pagerange": {
+                                    "@first": "1821",
+                                    "@last": "1834"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mehmood",
+                                    "ce:indexed-name": "Mehmood A"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "I",
+                                    "@_fa": "true",
+                                    "ce:surname": "Natgunanathan",
+                                    "ce:indexed-name": "Natgunanathan I"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xiang",
+                                    "ce:indexed-name": "Xiang Y"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hua",
+                                    "ce:indexed-name": "Hua G"
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Access"
+                        },
+                        "ce:source-text": "Mehmood A, Natgunanathan I, Xiang Y, Hua G, Guo S. 2016. Protection of big data privacy. IEEE Access 4:1821\u20131834."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Metwally A, Agrawal D, El Abbadi A. 2005. Duplicate detection in click streams. In: Proceedings of the 14th International Conference on World Wide Web. 12\u201321.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Duplicate detection in click streams"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33745623047",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "12",
+                                "@last": "21"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A",
+                                    "@_fa": "true",
+                                    "ce:surname": "Metwally",
+                                    "ce:indexed-name": "Metwally A"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D",
+                                    "@_fa": "true",
+                                    "ce:surname": "Agrawal",
+                                    "ce:indexed-name": "Agrawal D"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "El Abbadi",
+                                    "ce:indexed-name": "El Abbadi A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 14th International Conference on World Wide Web"
+                        },
+                        "ce:source-text": "Metwally A, Agrawal D, El Abbadi A. 2005. Duplicate detection in click streams. In: Proceedings of the 14th International Conference on World Wide Web. 12\u201321."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Mohammed AS, Amrahov a E, Çelebi FV. 2017. Bidirectional conditional insertion sort algorithm; an ef?cient progress on the classical insertion sort. Future Generation Computer Systems 71:102\u2013112.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Bidirectional conditional insertion sort algorithm; an ef?cient progress on the classical insertion sort"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85011926909",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "71"},
+                                "pagerange": {
+                                    "@first": "102",
+                                    "@last": "112"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "AS",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mohammed",
+                                    "ce:indexed-name": "Mohammed AS"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "a E",
+                                    "@_fa": "true",
+                                    "ce:surname": "Amrahov",
+                                    "ce:indexed-name": "Amrahov a E"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "FV.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Çelebi",
+                                    "ce:indexed-name": "Celebi FV."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Future Generation Computer Systems"
+                        },
+                        "ce:source-text": "Mohammed AS, Amrahov a E, Çelebi FV. 2017. Bidirectional conditional insertion sort algorithm; an ef?cient progress on the classical insertion sort. Future Generation Computer Systems 71:102\u2013112."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Osama H, Omar Y, Badr A. 2016. Mapping sorting algorithm. In: 2016 SAI Computing Conference (SAI). 488\u2013491.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Mapping sorting algorithm"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84988884751",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "488",
+                                "@last": "491"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H",
+                                    "@_fa": "true",
+                                    "ce:surname": "Osama",
+                                    "ce:indexed-name": "Osama H"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y",
+                                    "@_fa": "true",
+                                    "ce:surname": "Omar",
+                                    "ce:indexed-name": "Omar Y"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Badr",
+                                    "ce:indexed-name": "Badr A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2016 SAI Computing Conference (SAI)"
+                        },
+                        "ce:source-text": "Osama H, Omar Y, Badr A. 2016. Mapping sorting algorithm. In: 2016 SAI Computing Conference (SAI). 488\u2013491."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "O\u2019Malley O. 2008. Terabyte sort on apache hadoop. Available at http://sortbenchmark. org/Yahoo- Hadoop.",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://sortbenchmark.org/Yahoo-Hadoop",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "69049114194",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "O.",
+                                "@_fa": "true",
+                                "ce:surname": "O\u2019Malley",
+                                "ce:indexed-name": "O'Malley O."
+                            }]},
+                            "ref-sourcetitle": "Terabyte sort on apache hadoop"
+                        },
+                        "ce:source-text": "O\u2019Malley O. 2008. Terabyte sort on apache hadoop. Available at http://sortbenchmark. org/Yahoo- Hadoop."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Sedgewick R, Wayne K. 2011. Algorithms. Boston: Addison-Wesley Professional.",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0004112038",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Boston: Addison-Wesley Professional",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sedgewick",
+                                    "ce:indexed-name": "Sedgewick R"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wayne",
+                                    "ce:indexed-name": "Wayne K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Algorithms"
+                        },
+                        "ce:source-text": "Sedgewick R, Wayne K. 2011. Algorithms. Boston: Addison-Wesley Professional."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Singh H, Sarmah M. 2015. Comparing rapid sort with some existing sorting algorithms. In: Das K, Deep K, Pant M, Bansal J, Nagar A, eds. Proceedings of Fourth International Conference on Soft Computing for Problem Solving: Advances in Intelligent Systems and Computing. Vol. 335. New Delhi: Springer.",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Comparing rapid sort with some existing sorting algorithms"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84926645920",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "335"}},
+                            "ref-text": "Das K, Deep K, Pant M, Bansal J, Nagar A, eds. New Delhi: Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H",
+                                    "@_fa": "true",
+                                    "ce:surname": "Singh",
+                                    "ce:indexed-name": "Singh H"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sarmah",
+                                    "ce:indexed-name": "Sarmah M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of Fourth International Conference on Soft Computing for Problem Solving: Advances in Intelligent Systems and Computing"
+                        },
+                        "ce:source-text": "Singh H, Sarmah M. 2015. Comparing rapid sort with some existing sorting algorithms. In: Das K, Deep K, Pant M, Bansal J, Nagar A, eds. Proceedings of Fourth International Conference on Soft Computing for Problem Solving: Advances in Intelligent Systems and Computing. Vol. 335. New Delhi: Springer."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Tambouratzis T. 1999. A novel arti?cial neural network for sorting. IEEE Transactions on Systems, Man, and Cybernetics: Part B 29(2):271\u2013275.",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "A novel arti?cial neural network for sorting"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0033116379",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "29",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "271",
+                                    "@last": "275"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "T.",
+                                "@_fa": "true",
+                                "ce:surname": "Tambouratzis",
+                                "ce:indexed-name": "Tambouratzis T."
+                            }]},
+                            "ref-sourcetitle": "IEEE Transactions on Systems, Man, and Cybernetics: Part B"
+                        },
+                        "ce:source-text": "Tambouratzis T. 1999. A novel arti?cial neural network for sorting. IEEE Transactions on Systems, Man, and Cybernetics: Part B 29(2):271\u2013275."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Thusoo A, Shao Z, Anthony S, Borthakur D, Jain N, Sarma J, Murthy R, Liu H. 2010. Data warehousing and analytics infrastructure at facebook. In: Proceedings of the ACM SIGMOD International Conference on Management of Data, SIGMOD 2010. 1013\u20131020.",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Data warehousing and analytics infrastructure at facebook"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77954709174",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1013",
+                                "@last": "1020"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thusoo",
+                                    "ce:indexed-name": "Thusoo A"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shao",
+                                    "ce:indexed-name": "Shao Z"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S",
+                                    "@_fa": "true",
+                                    "ce:surname": "Anthony",
+                                    "ce:indexed-name": "Anthony S"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D",
+                                    "@_fa": "true",
+                                    "ce:surname": "Borthakur",
+                                    "ce:indexed-name": "Borthakur D"
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "N",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jain",
+                                    "ce:indexed-name": "Jain N"
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sarma",
+                                    "ce:indexed-name": "Sarma J"
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "R",
+                                    "@_fa": "true",
+                                    "ce:surname": "Murthy",
+                                    "ce:indexed-name": "Murthy R"
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the ACM SIGMOD International Conference on Management of Data, SIGMOD 2010"
+                        },
+                        "ce:source-text": "Thusoo A, Shao Z, Anthony S, Borthakur D, Jain N, Sarma J, Murthy R, Liu H. 2010. Data warehousing and analytics infrastructure at facebook. In: Proceedings of the ACM SIGMOD International Conference on Management of Data, SIGMOD 2010. 1013\u20131020."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Vatrapu R, Mukkamala RR, Hussain A, Flesch B. 2016. Social set analysis: a set theoretical approach to big data analytics. IEEE Access 4:2542\u20132571.",
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Social set analysis: a set theoretical approach to big data analytics"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84979802684",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "4"},
+                                "pagerange": {
+                                    "@first": "2542",
+                                    "@last": "2571"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vatrapu",
+                                    "ce:indexed-name": "Vatrapu R"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "RR",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mukkamala",
+                                    "ce:indexed-name": "Mukkamala RR"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hussain",
+                                    "ce:indexed-name": "Hussain A"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Flesch",
+                                    "ce:indexed-name": "Flesch B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Access"
+                        },
+                        "ce:source-text": "Vatrapu R, Mukkamala RR, Hussain A, Flesch B. 2016. Social set analysis: a set theoretical approach to big data analytics. IEEE Access 4:2542\u20132571."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Vignesh R, Pradhan T. 2016. Merge sort enhanced in place sorting algorithm. In: 2016 International Conference on Advanced Communication Control and Computing Technologies (ICACCCT). 698\u2013704.",
+                        "@id": "36",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Merge sort enhanced in place sorting algorithm"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85014223820",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "698",
+                                "@last": "704"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vignesh",
+                                    "ce:indexed-name": "Vignesh R"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pradhan",
+                                    "ce:indexed-name": "Pradhan T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2016 International Conference on Advanced Communication Control and Computing Technologies (ICACCCT)"
+                        },
+                        "ce:source-text": "Vignesh R, Pradhan T. 2016. Merge sort enhanced in place sorting algorithm. In: 2016 International Conference on Advanced Communication Control and Computing Technologies (ICACCCT). 698\u2013704."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Witayangkurn A, Horanont T, Shibasaki R. 2012. Performance comparisons of spatial data processing techniques for a large scale mobile phone dataset.",
+                        "@id": "37",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84865663810",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A",
+                                    "@_fa": "true",
+                                    "ce:surname": "Witayangkurn",
+                                    "ce:indexed-name": "Witayangkurn A"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T",
+                                    "@_fa": "true",
+                                    "ce:surname": "Horanont",
+                                    "ce:indexed-name": "Horanont T"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shibasaki",
+                                    "ce:indexed-name": "Shibasaki R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Performance comparisons of spatial data processing techniques for a large scale mobile phone dataset"
+                        },
+                        "ce:source-text": "Witayangkurn A, Horanont T, Shibasaki R. 2012. Performance comparisons of spatial data processing techniques for a large scale mobile phone dataset."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "YiLiang S, Zhenghong Y. 2016. Communication rules learning strategy in big data network based on SVN neural network. In: 2016 International Conference on Intelligent Transportation, Big Data & Smart City. 309\u2013313.",
+                        "@id": "38",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Communication rules learning strategy in big data network based on SVN neural network"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85032787536",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "309",
+                                "@last": "313"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S",
+                                    "@_fa": "true",
+                                    "ce:surname": "YiLiang",
+                                    "ce:indexed-name": "YiLiang S"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhenghong",
+                                    "ce:indexed-name": "Zhenghong Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2016 International Conference on Intelligent Transportation, Big Data & Smart City"
+                        },
+                        "ce:source-text": "YiLiang S, Zhenghong Y. 2016. Communication rules learning strategy in big data network based on SVN neural network. In: 2016 International Conference on Intelligent Transportation, Big Data & Smart City. 309\u2013313."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Zhai C, Zhang Y, Hu P. 2018. Modeling and analysis of material supply network based on big data packed with traf?c. In: 2018 IEEE 3rd International Conference on Cloud Computing and Big Data Analysis. Piscataway: IEEE, 490\u2013494.",
+                        "@id": "39",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Modeling and analysis of material supply network based on big data packed with traf?c"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85050135042",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "490",
+                                "@last": "494"
+                            }},
+                            "ref-text": "Piscataway: IEEE",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhai",
+                                    "ce:indexed-name": "Zhai C"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Y"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2018 IEEE 3rd International Conference on Cloud Computing and Big Data Analysis"
+                        },
+                        "ce:source-text": "Zhai C, Zhang Y, Hu P. 2018. Modeling and analysis of material supply network based on big data packed with traf?c. In: 2018 IEEE 3rd International Conference on Cloud Computing and Big Data Analysis. Piscataway: IEEE, 490\u2013494."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Zhao C, Chang H, Liu Q. 2017. Bayesian algorithm based traf?c prediction of big data services in open?ow controlled optical networks. In: 2017 IEEE 2nd International Conference on Big Data Analysis (ICBDA). Piscataway: IEEE, 823\u2013826.",
+                        "@id": "40",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Bayesian algorithm based traf?c prediction of big data services in open?ow controlled optical networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85039992415",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "823",
+                                "@last": "826"
+                            }},
+                            "ref-text": "Piscataway: IEEE",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao C"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang H"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Q."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2017 IEEE 2nd International Conference on Big Data Analysis (ICBDA)"
+                        },
+                        "ce:source-text": "Zhao C, Chang H, Liu Q. 2017. Bayesian algorithm based traf?c prediction of big data services in open?ow controlled optical networks. In: 2017 IEEE 2nd International Conference on Big Data Analysis (ICBDA). Piscataway: IEEE, 823\u2013826."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Bangkok",
+        "@id": "60028190",
+        "affilname": "Chulalongkorn University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+        "affiliation-country": "Thailand"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85101605326",
+        "dc:description": "Tremendous quantities of numeric data have been generated as streams in various cyber ecosystems. Sorting is one of the most fundamental operations to gain knowledge from data. However, due to size restrictions of data storage which includes storage inside and outside CPU with respect to the massive streaming data sources, data can obviously overflow the storage. Consequently, all classic sorting algorithms of the past are incapable of obtaining a correct sorted sequence because data to be sorted cannot be totally stored in the data storage. This paper proposes a new sorting algorithm called streaming data sort for streaming data on a uniprocessor constrained by a limited storage size and the correctness of the sorted order. Data continuously flow into the storage as consecutive chunks with chunk sizes less than the storage size. A theoretical analysis of the space bound and the time complexity is provided. The sorting time complexity is O (n), where n is the number of incoming data. The space complexity is O (M), where M is the storage size. The experimental results show that streaming data sort can handle a million permuted data by using a storage whose size is set as low as 35% of the data size. This proposed concept can be practically applied to various applications in different fields where the data always overflow the working storage and sorting process is needed.",
+        "prism:coverDate": "2021-01-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85101605326",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Suluk",
+            "preferred-name": {
+                "ce:given-name": "Suluk",
+                "ce:initials": "S.",
+                "ce:surname": "Chaikhan",
+                "ce:indexed-name": "Chaikhan S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Chaikhan",
+            "@auid": "57222134387",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57222134387",
+            "ce:indexed-name": "Chaikhan S."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85101605326"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85101605326&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85101605326&origin=inward"
+            }
+        ],
+        "source-id": "21100830173",
+        "citedby-count": "1",
+        "prism:volume": "7",
+        "subtype": "ar",
+        "dc:title": "Correct and stable sorting for overflow streaming data with a limited storage size and a uniprocessor",
+        "openaccess": "1",
+        "prism:issn": "23765992",
+        "publishercopyright": "© Copyright 2021 Chaikhan et al.",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "PeerJ Computer Science",
+        "prism:pageRange": "1-27",
+        "prism:endingPage": "27",
+        "openaccessFlag": "true",
+        "prism:doi": "10.7717/PEERJ-CS.355",
+        "prism:startingPage": "1",
+        "dc:identifier": "SCOPUS_ID:85101605326",
+        "dc:publisher": "PeerJ Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Fundamental operations",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Limited storage",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Sorting algorithm",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Sorting process",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Space complexity",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Streaming data",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Time complexity",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Uniprocessors",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Algorithm design and analysis"
+        },
+        {
+            "@_fa": "true",
+            "$": "Algorithms"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computational intelligence"
+        },
+        {
+            "@_fa": "true",
+            "$": "Memory"
+        },
+        {
+            "@_fa": "true",
+            "$": "Sorting"
+        }
+    ]},
+    "subject-areas": {"subject-area": [{
+        "@_fa": "true",
+        "$": "Computer Science (all)",
+        "@code": "1700",
+        "@abbrev": "COMP"
+    }]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Suluk",
+            "preferred-name": {
+                "ce:given-name": "Suluk",
+                "ce:initials": "S.",
+                "ce:surname": "Chaikhan",
+                "ce:indexed-name": "Chaikhan S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Chaikhan",
+            "@auid": "57222134387",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57222134387",
+            "ce:indexed-name": "Chaikhan S."
+        },
+        {
+            "ce:given-name": "Suphakant",
+            "preferred-name": {
+                "ce:given-name": "Suphakant",
+                "ce:initials": "S.",
+                "ce:surname": "Phimoltares",
+                "ce:indexed-name": "Phimoltares S."
+            },
+            "@seq": "2",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Phimoltares",
+            "@auid": "6507998737",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6507998737",
+            "ce:indexed-name": "Phimoltares S."
+        },
+        {
+            "ce:given-name": "Chidchanok",
+            "preferred-name": {
+                "ce:given-name": "Chidchanok",
+                "ce:initials": "C.",
+                "ce:surname": "Lursinsap",
+                "ce:indexed-name": "Lursinsap C."
+            },
+            "@seq": "3",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Lursinsap",
+            "@auid": "55396044200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55396044200",
+            "ce:indexed-name": "Lursinsap C."
+        }
+    ]}
+}}

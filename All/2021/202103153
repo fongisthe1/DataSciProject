@@ -1,0 +1,3205 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "31",
+                "@timestamp": "2022-01-31T16:34:39.000039-05:00",
+                "@year": "2022",
+                "@month": "01"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2021",
+                "@month": "01"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "postal-code": "10330",
+                        "@afid": "60028190",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Department of Electrical Engineering"},
+                            {"$": "Faculty of Engineering"},
+                            {"$": "Chulalongkorn University"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60028190",
+                            "@dptid": "113845132"
+                        },
+                        "@affiliation-instance-id": "2015785167-f61cb8ccbbdfb8cb7ff7c01c90013a2c",
+                        "ce:source-text": "Department of Electrical Engineering, Faculty of Engineering, Chulalongkorn University, Bangkok, Thailand",
+                        "@dptid": "113845132"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Poomipat",
+                            "preferred-name": {
+                                "ce:given-name": "Poomipat",
+                                "ce:initials": "P.",
+                                "ce:surname": "Boonyakitanont",
+                                "ce:indexed-name": "Boonyakitanont P."
+                            },
+                            "@author-instance-id": "2015785167-94791971e1d84c1e0b85d097667df7e6",
+                            "@seq": "1",
+                            "ce:initials": "P.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Boonyakitanont",
+                            "@auid": "57212475479",
+                            "@orcid": "0000-0002-0330-4056",
+                            "ce:indexed-name": "Boonyakitanont P."
+                        },
+                        {
+                            "ce:given-name": "Apiwat",
+                            "preferred-name": {
+                                "ce:given-name": "Apiwat",
+                                "ce:initials": "A.",
+                                "ce:surname": "Lek-Uthai",
+                                "ce:indexed-name": "Lek-Uthai A."
+                            },
+                            "@author-instance-id": "2015785167-ca27e3534487c7dbb72bea30179b7c6e",
+                            "@seq": "2",
+                            "ce:initials": "A.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Lek-Uthai",
+                            "@auid": "6503874038",
+                            "@orcid": "0000-0003-2134-8383",
+                            "ce:indexed-name": "Lek-Uthai A."
+                        },
+                        {
+                            "ce:given-name": "Jitkomut",
+                            "preferred-name": {
+                                "ce:given-name": "Jitkomut",
+                                "ce:initials": "J.",
+                                "ce:surname": "Songsiri",
+                                "ce:indexed-name": "Songsiri J."
+                            },
+                            "@author-instance-id": "2015785167-45c098fb4ed14a85713edbf13b81995e",
+                            "@seq": "3",
+                            "ce:initials": "J.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Songsiri",
+                            "@auid": "9332911700",
+                            "@orcid": "0000-0002-2715-8305",
+                            "ce:indexed-name": "Songsiri J."
+                        }
+                    ]
+                },
+                "citation-title": "ScoreNet: A Neural Network-Based Post-Processing Model for Identifying Epileptic Seizure Onset and Offset in EEGs",
+                "abstracts": "© 2001-2011 IEEE.We design an algorithm to automatically detect epileptic seizure onsets and offsets from scalp electroencephalograms (EEGs). The proposed scheme consists of two sequential steps: detecting seizure episodes from long EEG recordings, and determining seizure onsets and offsets of the detected episodes. We introduce a neural network-based model called ScoreNet to carry out the second step by better predicting the seizure probability of pre-detected seizure epochs to determine seizure onsets and offsets. A cost function called log-dice loss with a similar meaning to the F1 score is proposed to handle the natural data imbalance inherent in EEG signals signifying seizure events. ScoreNet is then verified on the CHB-MIT Scalp EEG database in combination with several classifiers including random forest, convolutional neural network (CNN), and logistic regression. As a result, ScoreNet improves seizure detection performance over lone epoch-based seizure classification methods; F1 scores increase significantly from 16-37% to 53-70%, and false positive rates per hour decrease from 0.53-5.24 to 0.05-0.61. This method provides clinically acceptable latencies of detecting seizure onset and offset of less than 10 seconds. In addition, an effective latency index is proposed as a metric for detection latency whose scoring considers undetected events to provide better insight into onset and offset detection than conventional time-based metrics.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "postal-code": "10330",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Department of Electrical Engineering"},
+                            {"$": "Faculty of Engineering"},
+                            {"$": "Chulalongkorn University"}
+                        ],
+                        "ce:source-text": "Department of Electrical Engineering, Faculty of Engineering, Chulalongkorn University, Bangkok, Thailand"
+                    },
+                    "person": {
+                        "ce:given-name": "Jitkomut",
+                        "ce:initials": "J.",
+                        "ce:surname": "Songsiri",
+                        "ce:indexed-name": "Songsiri J."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Deep learning",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "EEG",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "EL-index",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "ScoreNet",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "seizure onset and offset detection",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7333",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {"@volume": "29"},
+                        "pagerange": {
+                            "@first": "2474",
+                            "@last": "2483"
+                        }
+                    },
+                    "@type": "j",
+                    "sourcetitle": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+                    "publicationdate": {
+                        "year": "2021",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2021"
+                        }
+                    },
+                    "codencode": "ITNSB",
+                    "sourcetitle-abbrev": "IEEE Trans. Neural Syst. Rehabil. Eng.",
+                    "@country": "usa",
+                    "issn": [
+                        {
+                            "$": "15580210",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "15344320",
+                            "@type": "print"
+                        }
+                    ],
+                    "publicationyear": {"@first": "2021"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "@srcid": "16321"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "461.1",
+                                "classification-description": "Biomedical Engineering"
+                            },
+                            {
+                                "classification-code": "461.4",
+                                "classification-description": "Ergonomics and Human Factors Engineering"
+                            },
+                            {
+                                "classification-code": "461.6",
+                                "classification-description": "Medicine and Pharmacology"
+                            },
+                            {
+                                "classification-code": "716.1",
+                                "classification-description": "Information Theory and Signal Processing"
+                            },
+                            {
+                                "classification-code": "903.1",
+                                "classification-description": "Information Sources and Analysis"
+                            },
+                            {
+                                "classification-code": "921.4",
+                                "classification-description": "Combinatorial Mathematics, Includes Graph Theory, Set Theory"
+                            },
+                            {
+                                "classification-code": "921.5",
+                                "classification-description": "Optimization Techniques"
+                            },
+                            {
+                                "classification-code": "961",
+                                "classification-description": "Systems Science"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "EMCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "14",
+                                "classification-description": "Radiology"
+                            },
+                            {
+                                "classification-code": "27",
+                                "classification-description": "Biophysics, Bioengineering and Medical Instrumentation"
+                            },
+                            {
+                                "classification-code": "8",
+                                "classification-description": "Neurology and Neurosurgery"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2724"},
+                            {"$": "2800"},
+                            {"$": "2204"},
+                            {"$": "2742"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "MEDI"},
+                            {"$": "NEUR"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2021 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "EMBASE"},
+                    {"$": "NURSNG"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "RMC"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"},
+                    {"$": "MEDL"}
+                ],
+                "history": {"date-created": {
+                    "@day": "31",
+                    "@timestamp": "BST 14:38:13",
+                    "@year": "2021",
+                    "@month": "12"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2015785167",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "937007727",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20214811253569",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20211102677",
+                            "@idtype": "EMBASE"
+                        },
+                        {
+                            "$": "2021518687",
+                            "@idtype": "NURSNG"
+                        },
+                        {
+                            "$": "20214787216",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "2021673281",
+                            "@idtype": "RMC"
+                        },
+                        {
+                            "$": "20214011648",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "20210015075092",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85120072926",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85120072926",
+                            "@idtype": "SGR"
+                        },
+                        {
+                            "$": "636773331",
+                            "@idtype": "PUIsecondary"
+                        },
+                        {
+                            "$": "34797766",
+                            "@idtype": "MEDL"
+                        },
+                        {
+                            "$": "77909399",
+                            "@idtype": "OSIN"
+                        }
+                    ],
+                    "ce:doi": "10.1109/TNSRE.2021.3129467"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "54",
+                "reference": [
+                    {
+                        "ref-fulltext": "R. S. Fisher et al., \"ILAE official report: A practical clinical definition of epilepsy,\" Epilepsia, vol. 55, no. 4, pp. 475-482, 2014.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "ILAE official report: A practical clinical definition of epilepsy"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84899493269",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "55",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "475",
+                                    "@last": "482"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "R.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fisher",
+                                    "ce:indexed-name": "Fisher R.S."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Epilepsia"
+                        },
+                        "ce:source-text": "R. S. Fisher et al., \"ILAE official report: A practical clinical definition of epilepsy,\" Epilepsia, vol. 55, no. 4, pp. 475-482, 2014."
+                    },
+                    {
+                        "ref-fulltext": "D. J. Thurman et al., \"Standards for epidemiologic studies and surveillance of epilepsy,\" Epilepsia, vol. 52, pp. 2-26, Sep. 2011.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Standards for epidemiologic studies and surveillance of epilepsy"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "80052525221",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "52"},
+                                "pagerange": {
+                                    "@first": "2",
+                                    "@last": "26"
+                                }
+                            },
+                            "ref-text": "Sep.",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "D.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thurman",
+                                    "ce:indexed-name": "Thurman D.J."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Epilepsia"
+                        },
+                        "ce:source-text": "D. J. Thurman et al., \"Standards for epidemiologic studies and surveillance of epilepsy,\" Epilepsia, vol. 52, pp. 2-26, Sep. 2011."
+                    },
+                    {
+                        "ref-fulltext": "U. R. Acharya, H. Fujita, V. K. Sudarshan, S. Bhat, and J. E. Koh, \"Application of entropies for automated diagnosis of epilepsy using EEG signals: A review,\" Knowl. Based Syst., vol. 88, pp. 85-96, Nov. 2015.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Application of entropies for automated diagnosis of epilepsy using EEG signals: A review"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84941599202",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "88"},
+                                "pagerange": {
+                                    "@first": "85",
+                                    "@last": "96"
+                                }
+                            },
+                            "ref-text": "Nov.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "U.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Acharya",
+                                    "ce:indexed-name": "Acharya U.R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fujita",
+                                    "ce:indexed-name": "Fujita H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "V.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sudarshan",
+                                    "ce:indexed-name": "Sudarshan V.K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bhat",
+                                    "ce:indexed-name": "Bhat S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koh",
+                                    "ce:indexed-name": "Koh J.E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Knowl. Based Syst."
+                        },
+                        "ce:source-text": "U. R. Acharya, H. Fujita, V. K. Sudarshan, S. Bhat, and J. E. Koh, \"Application of entropies for automated diagnosis of epilepsy using EEG signals: A review,\" Knowl. Based Syst., vol. 88, pp. 85-96, Nov. 2015."
+                    },
+                    {
+                        "ref-fulltext": "T. Alotaiby, F. E. A. El-Samie, S. A. Alshebeili, and I. Ahmad, \"A review of channel selection algorithms for EEG signal processing,\" EURASIP J. Adv. Signal Process., vol. 2015, no. 1, pp. 66-86, Dec. 2015.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "A review of channel selection algorithms for EEG signal processing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84938580378",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "2015",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "66",
+                                    "@last": "86"
+                                }
+                            },
+                            "ref-text": "Dec.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alotaiby",
+                                    "ce:indexed-name": "Alotaiby T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.E.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "El-Samie",
+                                    "ce:indexed-name": "El-Samie F.E.A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alshebeili",
+                                    "ce:indexed-name": "Alshebeili S.A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ahmad",
+                                    "ce:indexed-name": "Ahmad I."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Eurasip J. Adv. Signal Process."
+                        },
+                        "ce:source-text": "T. Alotaiby, F. E. A. El-Samie, S. A. Alshebeili, and I. Ahmad, \"A review of channel selection algorithms for EEG signal processing,\" EURASIP J. Adv. Signal Process., vol. 2015, no. 1, pp. 66-86, Dec. 2015."
+                    },
+                    {
+                        "ref-fulltext": "P. Boonyakitanont, A. Lek-uthai, K. Chomtho, and J. Songsiri, \"A review of feature extraction and performance evaluation in epileptic seizure detection using EEG,\" Biomed. Signal Process. Control, vol. 57, Mar. 2020, Art. no. 101702.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "A review of feature extraction and performance evaluation in epileptic seizure detection using EEG"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "101702",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "85076787553",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "57"}},
+                            "ref-text": "Mar.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boonyakitanont",
+                                    "ce:indexed-name": "Boonyakitanont P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lek-Uthai",
+                                    "ce:indexed-name": "Lek-Uthai A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chomtho",
+                                    "ce:indexed-name": "Chomtho K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Songsiri",
+                                    "ce:indexed-name": "Songsiri J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Biomed. Signal Process. Control"
+                        },
+                        "ce:source-text": "P. Boonyakitanont, A. Lek-uthai, K. Chomtho, and J. Songsiri, \"A review of feature extraction and performance evaluation in epileptic seizure detection using EEG,\" Biomed. Signal Process. Control, vol. 57, Mar. 2020, Art. no. 101702."
+                    },
+                    {
+                        "ref-fulltext": "A. R. Hassan, A. Subasi, and Y. Zhang, \"Epilepsy seizure detection using complete ensemble empirical mode decomposition with adaptive noise,\" Knowl.-Based Syst., vol. 191, Mar. 2020, Art. no. 105333.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Epilepsy seizure detection using complete ensemble empirical mode decomposition with adaptive noise"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "105333",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "85076251356",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "191"}},
+                            "ref-text": "Mar.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hassan",
+                                    "ce:indexed-name": "Hassan A.R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Subasi",
+                                    "ce:indexed-name": "Subasi A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Knowl.-Based Syst."
+                        },
+                        "ce:source-text": "A. R. Hassan, A. Subasi, and Y. Zhang, \"Epilepsy seizure detection using complete ensemble empirical mode decomposition with adaptive noise,\" Knowl.-Based Syst., vol. 191, Mar. 2020, Art. no. 105333."
+                    },
+                    {
+                        "ref-fulltext": "C. Satirasethawong, A. Lek-Uthai, and K. Chomtho, \"Amplitude-integrated EEG processing and its performance for automatic seizure detection,\" in Proc. IEEE Int. Conf. Signal Image Process. Appl. (ICSIPA), Oct. 2015, pp. 551-556.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Amplitude-integrated EEG processing and its performance for automatic seizure detection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84971623992",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "551",
+                                "@last": "556"
+                            }},
+                            "ref-text": "Oct.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Satirasethawong",
+                                    "ce:indexed-name": "Satirasethawong C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lek-Uthai",
+                                    "ce:indexed-name": "Lek-Uthai A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chomtho",
+                                    "ce:indexed-name": "Chomtho K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Ieee Int. Conf. Signal Image Process. Appl. (ICSIPA)"
+                        },
+                        "ce:source-text": "C. Satirasethawong, A. Lek-Uthai, and K. Chomtho, \"Amplitude-integrated EEG processing and its performance for automatic seizure detection,\" in Proc. IEEE Int. Conf. Signal Image Process. Appl. (ICSIPA), Oct. 2015, pp. 551-556."
+                    },
+                    {
+                        "ref-fulltext": "A. Shoeb and J. Guttag, \"Application of machine learning to epileptic seizure detection,\" in Proc. 27th Int. Conf. Mach. Learn., 2010, pp. 975-982.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Application of machine learning to epileptic seizure detection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77956515363",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "975",
+                                "@last": "982"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shoeb",
+                                    "ce:indexed-name": "Shoeb A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guttag",
+                                    "ce:indexed-name": "Guttag J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 27th Int. Conf. Mach. Learn."
+                        },
+                        "ce:source-text": "A. Shoeb and J. Guttag, \"Application of machine learning to epileptic seizure detection,\" in Proc. 27th Int. Conf. Mach. Learn., 2010, pp. 975-982."
+                    },
+                    {
+                        "ref-fulltext": "S. Altunay, Z. Telatar, and O. Erogul, \"Epileptic EEG detection using the linear prediction error energy,\" Expert Syst. Appl., vol. 37, no. 8, pp. 5661-5665, 2010.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Epileptic EEG detection using the linear prediction error energy"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77951208271",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "37",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "5661",
+                                    "@last": "5665"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Altunay",
+                                    "ce:indexed-name": "Altunay S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Telatar",
+                                    "ce:indexed-name": "Telatar Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Erogul",
+                                    "ce:indexed-name": "Erogul O."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Expert Syst. Appl."
+                        },
+                        "ce:source-text": "S. Altunay, Z. Telatar, and O. Erogul, \"Epileptic EEG detection using the linear prediction error energy,\" Expert Syst. Appl., vol. 37, no. 8, pp. 5661-5665, 2010."
+                    },
+                    {
+                        "ref-fulltext": "K. Samiee, P. Kovács, and M. Gabbouj, \"Epileptic seizure classification of EEG time-series using rational discrete short-time Fourier transform,\" IEEE Trans. Biomed. Eng., vol. 62, no. 2, pp. 541-552, Feb. 2015.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Epileptic seizure classification of EEG time-series using rational discrete short-time Fourier transform"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84921443852",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "62",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "541",
+                                    "@last": "552"
+                                }
+                            },
+                            "ref-text": "Feb.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Samiee",
+                                    "ce:indexed-name": "Samiee K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kovács",
+                                    "ce:indexed-name": "Kovacs P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gabbouj",
+                                    "ce:indexed-name": "Gabbouj M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Ieee Trans. Biomed. Eng."
+                        },
+                        "ce:source-text": "K. Samiee, P. Kovács, and M. Gabbouj, \"Epileptic seizure classification of EEG time-series using rational discrete short-time Fourier transform,\" IEEE Trans. Biomed. Eng., vol. 62, no. 2, pp. 541-552, Feb. 2015."
+                    },
+                    {
+                        "ref-fulltext": "M. Li, W. Chen, and T. Zhang, \"Classification of epilepsy EEG signals using DWT-based envelope analysis and neural network ensemble,\" Biomed. Signal Process. Control, vol. 31, pp. 357-365, Jan. 2017.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Classification of epilepsy EEG signals using DWT-based envelope analysis and neural network ensemble"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84987973399",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "31"},
+                                "pagerange": {
+                                    "@first": "357",
+                                    "@last": "365"
+                                }
+                            },
+                            "ref-text": "Jan.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Biomed. Signal Process. Control"
+                        },
+                        "ce:source-text": "M. Li, W. Chen, and T. Zhang, \"Classification of epilepsy EEG signals using DWT-based envelope analysis and neural network ensemble,\" Biomed. Signal Process. Control, vol. 31, pp. 357-365, Jan. 2017."
+                    },
+                    {
+                        "ref-fulltext": "N. S. Tawfik, S. M. Youssef, and M. Kholief, \"A hybrid automated detection of epileptic seizures in EEG records,\" Comput. Elect. Eng., vol. 53, pp. 177-190, Jul. 2016.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "A hybrid automated detection of epileptic seizures in EEG records"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84945418679",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "53"},
+                                "pagerange": {
+                                    "@first": "177",
+                                    "@last": "190"
+                                }
+                            },
+                            "ref-text": "Jul.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tawfik",
+                                    "ce:indexed-name": "Tawfik N.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Youssef",
+                                    "ce:indexed-name": "Youssef S.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kholief",
+                                    "ce:indexed-name": "Kholief M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Comput. Elect. Eng."
+                        },
+                        "ce:source-text": "N. S. Tawfik, S. M. Youssef, and M. Kholief, \"A hybrid automated detection of epileptic seizures in EEG records,\" Comput. Elect. Eng., vol. 53, pp. 177-190, Jul. 2016."
+                    },
+                    {
+                        "ref-fulltext": "P. Li, C. Karmakar, J. Yearwood, S. Venkatesh, M. Palaniswami, and C. Liu, \"Detection of epileptic seizure based on entropy analysis of short-term EEG,\" PLoS ONE, vol. 13, no. 3, Mar. 2018, Art. no. e0193691.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Detection of epileptic seizure based on entropy analysis of short-term EEG"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "e0193691",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "85044171031",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "13",
+                                "@issue": "3"
+                            }},
+                            "ref-text": "Mar.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Karmakar",
+                                    "ce:indexed-name": "Karmakar C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yearwood",
+                                    "ce:indexed-name": "Yearwood J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Venkatesh",
+                                    "ce:indexed-name": "Venkatesh S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Palaniswami",
+                                    "ce:indexed-name": "Palaniswami M."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "PLoS One"
+                        },
+                        "ce:source-text": "P. Li, C. Karmakar, J. Yearwood, S. Venkatesh, M. Palaniswami, and C. Liu, \"Detection of epileptic seizure based on entropy analysis of short-term EEG,\" PLoS ONE, vol. 13, no. 3, Mar. 2018, Art. no. e0193691."
+                    },
+                    {
+                        "ref-fulltext": "V. Gupta and R. B. Pachori, \"Epileptic seizure identification using entropy of FBSE based EEG rhythms,\" Biomed. Signal Process. Control, vol. 53, Aug. 2019, Art. no. 101569.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Epileptic seizure identification using entropy of FBSE based EEG rhythms"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "101569",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "85067809021",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "53"}},
+                            "ref-text": "Aug.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gupta",
+                                    "ce:indexed-name": "Gupta V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pachori",
+                                    "ce:indexed-name": "Pachori R.B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Biomed. Signal Process. Control"
+                        },
+                        "ce:source-text": "V. Gupta and R. B. Pachori, \"Epileptic seizure identification using entropy of FBSE based EEG rhythms,\" Biomed. Signal Process. Control, vol. 53, Aug. 2019, Art. no. 101569."
+                    },
+                    {
+                        "ref-fulltext": "T. S. Kumar, V. Kanhangad, and R. B. Pachori, \"Classification of seizure and seizure-free EEG signals using local binary patterns,\" Biomed. Signal Process. Control, vol. 15, pp. 33-40, Jan. 2015.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Classification of seizure and seizure-free EEG signals using local binary patterns"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84908110014",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "15"},
+                                "pagerange": {
+                                    "@first": "33",
+                                    "@last": "40"
+                                }
+                            },
+                            "ref-text": "Jan.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kumar",
+                                    "ce:indexed-name": "Kumar T.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kanhangad",
+                                    "ce:indexed-name": "Kanhangad V."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pachori",
+                                    "ce:indexed-name": "Pachori R.B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Biomed. Signal Process. Control"
+                        },
+                        "ce:source-text": "T. S. Kumar, V. Kanhangad, and R. B. Pachori, \"Classification of seizure and seizure-free EEG signals using local binary patterns,\" Biomed. Signal Process. Control, vol. 15, pp. 33-40, Jan. 2015."
+                    },
+                    {
+                        "ref-fulltext": "A. K. Jaiswal and H. Banka, \"Local pattern transformation based feature extraction techniques for classification of epileptic EEG signals,\" Biomed. Signal Process. Control, vol. 34, pp. 81-92, Apr. 2017.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Local pattern transformation based feature extraction techniques for classification of epileptic EEG signals"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85010641921",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "34"},
+                                "pagerange": {
+                                    "@first": "81",
+                                    "@last": "92"
+                                }
+                            },
+                            "ref-text": "Apr.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jaiswal",
+                                    "ce:indexed-name": "Jaiswal A.K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Banka",
+                                    "ce:indexed-name": "Banka H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Biomed. Signal Process. Control"
+                        },
+                        "ce:source-text": "A. K. Jaiswal and H. Banka, \"Local pattern transformation based feature extraction techniques for classification of epileptic EEG signals,\" Biomed. Signal Process. Control, vol. 34, pp. 81-92, Apr. 2017."
+                    },
+                    {
+                        "ref-fulltext": "Y. Li, W.-G. Cui, H. Huang, Y.-Z. Guo, K. Li, and T. Tan, \"Epileptic seizure detection in EEG signals using sparse multiscale radial basis function networks and the Fisher vector approach,\" Knowl.-Based Syst., vol. 164, pp. 96-106, Jan. 2019.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Epileptic seizure detection in EEG signals using sparse multiscale radial basis function networks and the Fisher vector approach"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85055887576",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "164"},
+                                "pagerange": {
+                                    "@first": "96",
+                                    "@last": "106"
+                                }
+                            },
+                            "ref-text": "Jan.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.-G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cui",
+                                    "ce:indexed-name": "Cui W.-G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.-Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo Y.-Z."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li K."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tan",
+                                    "ce:indexed-name": "Tan T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Knowl.-Based Syst."
+                        },
+                        "ce:source-text": "Y. Li, W.-G. Cui, H. Huang, Y.-Z. Guo, K. Li, and T. Tan, \"Epileptic seizure detection in EEG signals using sparse multiscale radial basis function networks and the Fisher vector approach,\" Knowl.-Based Syst., vol. 164, pp. 96-106, Jan. 2019."
+                    },
+                    {
+                        "ref-fulltext": "M. Mursalin, Y. Zhang, Y. Chen, and N. V. Chawla, \"Automated epileptic seizure detection using improved correlation-based feature selection with random forest classifier,\" Neurocomputing, vol. 241, pp. 204-214, Jun. 2017.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Automated epileptic seizure detection using improved correlation-based feature selection with random forest classifier"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85014443830",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "241"},
+                                "pagerange": {
+                                    "@first": "204",
+                                    "@last": "214"
+                                }
+                            },
+                            "ref-text": "Jun.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mursalin",
+                                    "ce:indexed-name": "Mursalin M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "N.V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chawla",
+                                    "ce:indexed-name": "Chawla N.V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neurocomputing"
+                        },
+                        "ce:source-text": "M. Mursalin, Y. Zhang, Y. Chen, and N. V. Chawla, \"Automated epileptic seizure detection using improved correlation-based feature selection with random forest classifier,\" Neurocomputing, vol. 241, pp. 204-214, Jun. 2017."
+                    },
+                    {
+                        "ref-fulltext": "E. Alickovic, J. Kevric, and A. Subasi, \"Performance evaluation of empirical mode decomposition, discrete wavelet transform, and wavelet packed decomposition for automated epileptic seizure detection and prediction,\" Biomed. Signal Process. Control, vol. 39, pp. 94-102, Jan. 2018.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Performance evaluation of empirical mode decomposition, discrete wavelet transform, and wavelet packed decomposition for automated epileptic seizure detection and prediction"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85026834393",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "39"},
+                                "pagerange": {
+                                    "@first": "94",
+                                    "@last": "102"
+                                }
+                            },
+                            "ref-text": "Jan.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alickovic",
+                                    "ce:indexed-name": "Alickovic E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kevric",
+                                    "ce:indexed-name": "Kevric J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Subasi",
+                                    "ce:indexed-name": "Subasi A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Biomed. Signal Process. Control"
+                        },
+                        "ce:source-text": "E. Alickovic, J. Kevric, and A. Subasi, \"Performance evaluation of empirical mode decomposition, discrete wavelet transform, and wavelet packed decomposition for automated epileptic seizure detection and prediction,\" Biomed. Signal Process. Control, vol. 39, pp. 94-102, Jan. 2018."
+                    },
+                    {
+                        "ref-fulltext": "L. S. Vidyaratne and K. M. Iftekharuddin, \"Real-time epileptic seizure detection using EEG,\" IEEE Trans. Neural Syst. Rehabil. Eng., vol. 25, no. 11, pp. 2146-2156, Nov. 2017.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Real-time epileptic seizure detection using EEG"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85035791698",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "25",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "2146",
+                                    "@last": "2156"
+                                }
+                            },
+                            "ref-text": "Nov.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vidyaratne",
+                                    "ce:indexed-name": "Vidyaratne L.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Iftekharuddin",
+                                    "ce:indexed-name": "Iftekharuddin K.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Ieee Trans. Neural Syst. Rehabil. Eng."
+                        },
+                        "ce:source-text": "L. S. Vidyaratne and K. M. Iftekharuddin, \"Real-time epileptic seizure detection using EEG,\" IEEE Trans. Neural Syst. Rehabil. Eng., vol. 25, no. 11, pp. 2146-2156, Nov. 2017."
+                    },
+                    {
+                        "ref-fulltext": "P. Fergus, A. Hussain, D. Hignett, D. Al-Jumeily, K. Abdel-Aziz, and H. Hamdan, \"A machine learning system for automated whole-brain seizure detection,\" Appl. Comput. Informat., vol. 12, pp. 70-89, Jan. 2016.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "A machine learning system for automated whole-brain seizure detection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85047863443",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "12"},
+                                "pagerange": {
+                                    "@first": "70",
+                                    "@last": "89"
+                                }
+                            },
+                            "ref-text": "Jan.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fergus",
+                                    "ce:indexed-name": "Fergus P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hussain",
+                                    "ce:indexed-name": "Hussain A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hignett",
+                                    "ce:indexed-name": "Hignett D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Al-Jumeily",
+                                    "ce:indexed-name": "Al-Jumeily D."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abdel-Aziz",
+                                    "ce:indexed-name": "Abdel-Aziz K."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hamdan",
+                                    "ce:indexed-name": "Hamdan H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Appl. Comput. Informat."
+                        },
+                        "ce:source-text": "P. Fergus, A. Hussain, D. Hignett, D. Al-Jumeily, K. Abdel-Aziz, and H. Hamdan, \"A machine learning system for automated whole-brain seizure detection,\" Appl. Comput. Informat., vol. 12, pp. 70-89, Jan. 2016."
+                    },
+                    {
+                        "ref-fulltext": "R. San-Segundo, M. Gil-Martín, L. F. D'Haro-Enríquez, and J. M. Pardo, \"Classification of epileptic EEG recordings using signal transforms and convolutional neural networks,\" Comput. Biol. Med., vol. 109, pp. 148-158, Jun. 2019.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Classification of epileptic EEG recordings using signal transforms and convolutional neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85064923682",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "109"},
+                                "pagerange": {
+                                    "@first": "148",
+                                    "@last": "158"
+                                }
+                            },
+                            "ref-text": "Jun.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "San-Segundo",
+                                    "ce:indexed-name": "San-Segundo R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gil-Martín",
+                                    "ce:indexed-name": "Gil-Martin M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "D'Haro-Enríquez",
+                                    "ce:indexed-name": "D'Haro-Enriquez L.F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pardo",
+                                    "ce:indexed-name": "Pardo J.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Comput. Biol. Med."
+                        },
+                        "ce:source-text": "R. San-Segundo, M. Gil-Martín, L. F. D'Haro-Enríquez, and J. M. Pardo, \"Classification of epileptic EEG recordings using signal transforms and convolutional neural networks,\" Comput. Biol. Med., vol. 109, pp. 148-158, Jun. 2019."
+                    },
+                    {
+                        "ref-fulltext": "A. Shoeibi et al., \"Epileptic seizures detection using deep learning techniques: A review,\" 2020, arXiv:2007.01276.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "2007.01276",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85088912623",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shoeibi",
+                                    "ce:indexed-name": "Shoeibi A."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Epileptic Seizures Detection Using Deep Learning Techniques: A Review"
+                        },
+                        "ce:source-text": "A. Shoeibi et al., \"Epileptic seizures detection using deep learning techniques: A review,\" 2020, arXiv:2007.01276."
+                    },
+                    {
+                        "ref-fulltext": "H. Takahashi, A. Emami, T. Shinozaki, N. Kunii, T. Matsuo, and K. Kawai, \"Convolutional neural network with autoencoder-assisted multiclass labelling for seizure detection based on scalp electroencephalography,\" Comput. Biol. Med., vol. 125, Jun. 2020, Art. no. 104016.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Convolutional neural network with autoencoder-assisted multiclass labelling for seizure detection based on scalp electroencephalography"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "104016",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "85092068879",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "125"}},
+                            "ref-text": "Jun.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Takahashi",
+                                    "ce:indexed-name": "Takahashi H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Emami",
+                                    "ce:indexed-name": "Emami A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shinozaki",
+                                    "ce:indexed-name": "Shinozaki T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kunii",
+                                    "ce:indexed-name": "Kunii N."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Matsuo",
+                                    "ce:indexed-name": "Matsuo T."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kawai",
+                                    "ce:indexed-name": "Kawai K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Comput. Biol. Med."
+                        },
+                        "ce:source-text": "H. Takahashi, A. Emami, T. Shinozaki, N. Kunii, T. Matsuo, and K. Kawai, \"Convolutional neural network with autoencoder-assisted multiclass labelling for seizure detection based on scalp electroencephalography,\" Comput. Biol. Med., vol. 125, Jun. 2020, Art. no. 104016."
+                    },
+                    {
+                        "ref-fulltext": "A. Shoeibi et al., \"A comprehensive comparison of handcrafted features and convolutional autoencoders for epileptic seizures detection in EEG signals,\" Expert Syst. Appl., vol. 163, Jan. 2021, Art. no. 113788.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "A comprehensive comparison of handcrafted features and convolutional autoencoders for epileptic seizures detection in EEG signals"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "113788",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "85088916940",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "163"}},
+                            "ref-text": "Jan.",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shoeibi",
+                                    "ce:indexed-name": "Shoeibi A."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Expert Syst. Appl."
+                        },
+                        "ce:source-text": "A. Shoeibi et al., \"A comprehensive comparison of handcrafted features and convolutional autoencoders for epileptic seizures detection in EEG signals,\" Expert Syst. Appl., vol. 163, Jan. 2021, Art. no. 113788."
+                    },
+                    {
+                        "ref-fulltext": "U. R. Acharya, S. L. Oh, Y. Hagiwara, J. H. Tan, and H. Adeli, \"Deep convolutional neural network for the automated detection and diagnosis of seizure using EEG signals,\" Comput. Biol. Med., vol. 100, pp. 270-278, Sep. 2017.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Deep convolutional neural network for the automated detection and diagnosis of seizure using EEG signals"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85030172410",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "100"},
+                                "pagerange": {
+                                    "@first": "270",
+                                    "@last": "278"
+                                }
+                            },
+                            "ref-text": "Sep.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "U.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Acharya",
+                                    "ce:indexed-name": "Acharya U.R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oh",
+                                    "ce:indexed-name": "Oh S.L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hagiwara",
+                                    "ce:indexed-name": "Hagiwara Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tan",
+                                    "ce:indexed-name": "Tan J.H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Adeli",
+                                    "ce:indexed-name": "Adeli H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Comput. Biol. Med."
+                        },
+                        "ce:source-text": "U. R. Acharya, S. L. Oh, Y. Hagiwara, J. H. Tan, and H. Adeli, \"Deep convolutional neural network for the automated detection and diagnosis of seizure using EEG signals,\" Comput. Biol. Med., vol. 100, pp. 270-278, Sep. 2017."
+                    },
+                    {
+                        "ref-fulltext": "X. Tian et al., \"Deep multi-view feature learning for EEG-based epileptic seizure detection,\" IEEE Trans. Neural Syst. Rehabil. Eng., vol. 27, no. 10, pp. 1962-1972, Oct. 2019.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Deep multi-view feature learning for EEG-based epileptic seizure detection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85073663433",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "27",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {
+                                    "@first": "1962",
+                                    "@last": "1972"
+                                }
+                            },
+                            "ref-text": "Oct.",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tian",
+                                    "ce:indexed-name": "Tian X."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Ieee Trans. Neural Syst. Rehabil. Eng."
+                        },
+                        "ce:source-text": "X. Tian et al., \"Deep multi-view feature learning for EEG-based epileptic seizure detection,\" IEEE Trans. Neural Syst. Rehabil. Eng., vol. 27, no. 10, pp. 1962-1972, Oct. 2019."
+                    },
+                    {
+                        "ref-fulltext": "X. Hu, S. Yuan, F. Xu, Y. Leng, K. Yuan, and Q. Yuan, \"Scalp EEG classification using deep bi-LSTM network for seizure detection,\" Comput. Biol. Med., vol. 124, Sep. 2020, Art. no. 103919.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Scalp EEG classification using deep bi-LSTM network for seizure detection"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "103919",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "85089138923",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "124"}},
+                            "ref-text": "Sep.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yuan",
+                                    "ce:indexed-name": "Yuan S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Leng",
+                                    "ce:indexed-name": "Leng Y."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yuan",
+                                    "ce:indexed-name": "Yuan K."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yuan",
+                                    "ce:indexed-name": "Yuan Q."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Comput. Biol. Med."
+                        },
+                        "ce:source-text": "X. Hu, S. Yuan, F. Xu, Y. Leng, K. Yuan, and Q. Yuan, \"Scalp EEG classification using deep bi-LSTM network for seizure detection,\" Comput. Biol. Med., vol. 124, Sep. 2020, Art. no. 103919."
+                    },
+                    {
+                        "ref-fulltext": "A. O'Shea, G. Lightbody, G. Boylan, and A. Temko, \"Neonatal seizure detection from raw multi-channel EEG using a fully convolutional architecture,\" Neural Netw., vol. 123, pp. 12-25, Mar. 2020.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Neonatal seizure detection from raw multi-channel EEG using a fully convolutional architecture"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85076032028",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "123"},
+                                "pagerange": {
+                                    "@first": "12",
+                                    "@last": "25"
+                                }
+                            },
+                            "ref-text": "Mar.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "O'Shea",
+                                    "ce:indexed-name": "O'Shea A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lightbody",
+                                    "ce:indexed-name": "Lightbody G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boylan",
+                                    "ce:indexed-name": "Boylan G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Temko",
+                                    "ce:indexed-name": "Temko A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neural Netw."
+                        },
+                        "ce:source-text": "A. O'Shea, G. Lightbody, G. Boylan, and A. Temko, \"Neonatal seizure detection from raw multi-channel EEG using a fully convolutional architecture,\" Neural Netw., vol. 123, pp. 12-25, Mar. 2020."
+                    },
+                    {
+                        "ref-fulltext": "A. Emami, N. Kunii, T. Matsuo, T. Shinozaki, K. Kawai, and H. Takahashi, \"Seizure detection by convolutional neural network-based analysis of scalp electroencephalography plot images,\" NeuroImage, Clin., vol. 22, Jan. 2019, Art. no. 101684.",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Seizure detection by convolutional neural network-based analysis of scalp electroencephalography plot images"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "101684",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "85060708570",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "22"}},
+                            "ref-text": "Jan.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Emami",
+                                    "ce:indexed-name": "Emami A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kunii",
+                                    "ce:indexed-name": "Kunii N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Matsuo",
+                                    "ce:indexed-name": "Matsuo T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shinozaki",
+                                    "ce:indexed-name": "Shinozaki T."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kawai",
+                                    "ce:indexed-name": "Kawai K."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Takahashi",
+                                    "ce:indexed-name": "Takahashi H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "NeuroImage, Clin."
+                        },
+                        "ce:source-text": "A. Emami, N. Kunii, T. Matsuo, T. Shinozaki, K. Kawai, and H. Takahashi, \"Seizure detection by convolutional neural network-based analysis of scalp electroencephalography plot images,\" NeuroImage, Clin., vol. 22, Jan. 2019, Art. no. 101684."
+                    },
+                    {
+                        "ref-fulltext": "I. Covert et al., \"Temporal graph convolutional networks for automatic seizure detection,\" 2019, arXiv:1905.01375.",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1905.01375",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85083536404",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Covert",
+                                    "ce:indexed-name": "Covert I."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Temporal Graph Convolutional Networks for Automatic Seizure Detection"
+                        },
+                        "ce:source-text": "I. Covert et al., \"Temporal graph convolutional networks for automatic seizure detection,\" 2019, arXiv:1905.01375."
+                    },
+                    {
+                        "ref-fulltext": "A. Shoeb, A. Kharbouch, J. Soegaard, S. Schachter, and J. Guttag, \"An algorithm for detecting seizure termination in scalp EEG,\" in Proc. Annu. Int. Conf. Eng. Med. Biol. SoC., 2011, pp. 1443-1446.",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "An algorithm for detecting seizure termination in scalp EEG"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84862245193",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1443",
+                                "@last": "1446"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shoeb",
+                                    "ce:indexed-name": "Shoeb A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kharbouch",
+                                    "ce:indexed-name": "Kharbouch A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Soegaard",
+                                    "ce:indexed-name": "Soegaard J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schachter",
+                                    "ce:indexed-name": "Schachter S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guttag",
+                                    "ce:indexed-name": "Guttag J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Annu. Int. Conf. Eng. Med. Biol. SoC."
+                        },
+                        "ce:source-text": "A. Shoeb, A. Kharbouch, J. Soegaard, S. Schachter, and J. Guttag, \"An algorithm for detecting seizure termination in scalp EEG,\" in Proc. Annu. Int. Conf. Eng. Med. Biol. SoC., 2011, pp. 1443-1446."
+                    },
+                    {
+                        "ref-fulltext": "L. Orosco, A. G. Correa, P. Diez, and E. Laciar, \"Patient non-specific algorithm for seizures detection in scalp EEG,\" Comput. Biol. Med., vol. 71, pp. 128-134, Apr. 2016.",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Patient non-specific algorithm for seizures detection in scalp EEG"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84959387452",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "71"},
+                                "pagerange": {
+                                    "@first": "128",
+                                    "@last": "134"
+                                }
+                            },
+                            "ref-text": "Apr.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Orosco",
+                                    "ce:indexed-name": "Orosco L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Correa",
+                                    "ce:indexed-name": "Correa A.G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Diez",
+                                    "ce:indexed-name": "Diez P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Laciar",
+                                    "ce:indexed-name": "Laciar E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Comput. Biol. Med."
+                        },
+                        "ce:source-text": "L. Orosco, A. G. Correa, P. Diez, and E. Laciar, \"Patient non-specific algorithm for seizures detection in scalp EEG,\" Comput. Biol. Med., vol. 71, pp. 128-134, Apr. 2016."
+                    },
+                    {
+                        "ref-fulltext": "P. Boonyakitanont, A. Lek-uthai, and J. Songsiri, \"Automatic epileptic seizure onset-offset detection based on CNN in scalp EEG,\" in Proc. Int. Conf. Acoust., Speech, Signal Process. (ICASSP), May 2020, pp. 1225-1229.",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Automatic epileptic seizure onset-offset detection based on CNN in scalp EEG"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85089233276",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1225",
+                                "@last": "1229"
+                            }},
+                            "ref-text": "May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boonyakitanont",
+                                    "ce:indexed-name": "Boonyakitanont P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lek-Uthai",
+                                    "ce:indexed-name": "Lek-Uthai A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Songsiri",
+                                    "ce:indexed-name": "Songsiri J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Int. Conf. Acoust., Speech, Signal Process. (ICASSP)"
+                        },
+                        "ce:source-text": "P. Boonyakitanont, A. Lek-uthai, and J. Songsiri, \"Automatic epileptic seizure onset-offset detection based on CNN in scalp EEG,\" in Proc. Int. Conf. Acoust., Speech, Signal Process. (ICASSP), May 2020, pp. 1225-1229."
+                    },
+                    {
+                        "ref-fulltext": "G. Chandel, P. Upadhyaya, O. Farooq, and Y. U. Khan, \"Detection of seizure event and its onset/offset using orthonormal triadic wavelet based features,\" IRBM, vol. 40, no. 2, pp. 103-112, Mar. 2019.",
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Detection of seizure event and its onset/offset using orthonormal triadic wavelet based features"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85059061156",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "40",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "103",
+                                    "@last": "112"
+                                }
+                            },
+                            "ref-text": "Mar.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chandel",
+                                    "ce:indexed-name": "Chandel G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Upadhyaya",
+                                    "ce:indexed-name": "Upadhyaya P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Farooq",
+                                    "ce:indexed-name": "Farooq O."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.U.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Khan",
+                                    "ce:indexed-name": "Khan Y.U."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Irbm"
+                        },
+                        "ce:source-text": "G. Chandel, P. Upadhyaya, O. Farooq, and Y. U. Khan, \"Detection of seizure event and its onset/offset using orthonormal triadic wavelet based features,\" IRBM, vol. 40, no. 2, pp. 103-112, Mar. 2019."
+                    },
+                    {
+                        "ref-fulltext": "T.-Y. Lin, P. Goyal, R. Girshick, K. He, and P. Dollar, \"Focal loss for dense object detection,\" in Proc. IEEE Int. Conf. Comput. Vis. (ICCV), Oct. 2017, pp. 2980-2988.",
+                        "@id": "36",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Focal loss for dense object detection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85041916350",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2980",
+                                "@last": "2988"
+                            }},
+                            "ref-text": "Oct.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.-Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lin",
+                                    "ce:indexed-name": "Lin T.-Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Goyal",
+                                    "ce:indexed-name": "Goyal P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Girshick",
+                                    "ce:indexed-name": "Girshick R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He K."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dollar",
+                                    "ce:indexed-name": "Dollar P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Ieee Int. Conf. Comput. Vis. (ICCV)"
+                        },
+                        "ce:source-text": "T.-Y. Lin, P. Goyal, R. Girshick, K. He, and P. Dollar, \"Focal loss for dense object detection,\" in Proc. IEEE Int. Conf. Comput. Vis. (ICCV), Oct. 2017, pp. 2980-2988."
+                    },
+                    {
+                        "ref-fulltext": "I. Nekooeimehr and S. K. Lai-Yuen, \"Adaptive semi-unsupervised weighted oversampling (A-SUWO) for imbalanced datasets,\" Expert Syst. Appl., vol. 46, pp. 405-416, May 2016.",
+                        "@id": "37",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Adaptive semi-unsupervised weighted oversampling (A-SUWO) for imbalanced datasets"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84947569019",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "46"},
+                                "pagerange": {
+                                    "@first": "405",
+                                    "@last": "416"
+                                }
+                            },
+                            "ref-text": "May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nekooeimehr",
+                                    "ce:indexed-name": "Nekooeimehr I."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lai-Yuen",
+                                    "ce:indexed-name": "Lai-Yuen S.K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Expert Syst. Appl."
+                        },
+                        "ce:source-text": "I. Nekooeimehr and S. K. Lai-Yuen, \"Adaptive semi-unsupervised weighted oversampling (A-SUWO) for imbalanced datasets,\" Expert Syst. Appl., vol. 46, pp. 405-416, May 2016."
+                    },
+                    {
+                        "ref-fulltext": "J. Ha and J. Lee, \"A new under-sampling method using genetic algorithm for imbalanced data classification,\" in Proc. 10th Int. Conf. Ubiquitous Inf. Manage. Commun., 2016, pp. 1-6.",
+                        "@id": "38",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "A new under-sampling method using genetic algorithm for imbalanced data classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84965082102",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "6"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ha",
+                                    "ce:indexed-name": "Ha J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 10th Int. Conf. Ubiquitous Inf. Manage. Commun."
+                        },
+                        "ce:source-text": "J. Ha and J. Lee, \"A new under-sampling method using genetic algorithm for imbalanced data classification,\" in Proc. 10th Int. Conf. Ubiquitous Inf. Manage. Commun., 2016, pp. 1-6."
+                    },
+                    {
+                        "ref-fulltext": "C. Jian, J. Gao, and Y. Ao, \"A new sampling method for classifying imbalanced data based on support vector machine ensemble,\" Neuro-computing, vol. 193, pp. 115-122, Jun. 2016.",
+                        "@id": "39",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "A new sampling method for classifying imbalanced data based on support vector machine ensemble"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84977856307",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "193"},
+                                "pagerange": {
+                                    "@first": "115",
+                                    "@last": "122"
+                                }
+                            },
+                            "ref-text": "Jun.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jian",
+                                    "ce:indexed-name": "Jian C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gao",
+                                    "ce:indexed-name": "Gao J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ao",
+                                    "ce:indexed-name": "Ao Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neuro-computing"
+                        },
+                        "ce:source-text": "C. Jian, J. Gao, and Y. Ao, \"A new sampling method for classifying imbalanced data based on support vector machine ensemble,\" Neuro-computing, vol. 193, pp. 115-122, Jun. 2016."
+                    },
+                    {
+                        "ref-fulltext": "G. Haixiang et al., \"Learning from class-imbalanced data: Review of methods and applications,\" Expert Syst. Appl., vol. 73, pp. 220-239, May 2017.",
+                        "@id": "40",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Learning from class-imbalanced data: Review of methods and applications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85009165593",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "73"},
+                                "pagerange": {
+                                    "@first": "220",
+                                    "@last": "239"
+                                }
+                            },
+                            "ref-text": "May",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Haixiang",
+                                    "ce:indexed-name": "Haixiang G."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Expert Syst. Appl."
+                        },
+                        "ce:source-text": "G. Haixiang et al., \"Learning from class-imbalanced data: Review of methods and applications,\" Expert Syst. Appl., vol. 73, pp. 220-239, May 2017."
+                    },
+                    {
+                        "ref-fulltext": "B. Krawczyk, M. Woźniak, and G. Schaefer, \"Cost-sensitive decision tree ensembles for effective imbalanced classification,\" Appl. Soft Com-put., vol. 14, pp. 554-562, Jan. 2014.",
+                        "@id": "41",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Cost-sensitive decision tree ensembles for effective imbalanced classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84889092504",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "14"},
+                                "pagerange": {
+                                    "@first": "554",
+                                    "@last": "562"
+                                }
+                            },
+                            "ref-text": "Jan.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krawczyk",
+                                    "ce:indexed-name": "Krawczyk B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Woźniak",
+                                    "ce:indexed-name": "Wozniak M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schaefer",
+                                    "ce:indexed-name": "Schaefer G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Appl. Soft Com-put."
+                        },
+                        "ce:source-text": "B. Krawczyk, M. Woźniak, and G. Schaefer, \"Cost-sensitive decision tree ensembles for effective imbalanced classification,\" Appl. Soft Com-put., vol. 14, pp. 554-562, Jan. 2014."
+                    },
+                    {
+                        "ref-fulltext": "R. Lguensat, M. Sun, R. Fablet, P. Tandeo, E. Mason, and G. Chen, \"EddyNet: A deep neural network for pixel-wise classification of oceanic eddies,\" in Proc. IGARSS-IEEE Int. Geosci. Remote Sens. Symp., Jul. 2018, pp. 1764-1767.",
+                        "@id": "42",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "EddyNet: A deep neural network for pixel-wise classification of oceanic eddies"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85063149324",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1764",
+                                "@last": "1767"
+                            }},
+                            "ref-text": "Jul.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lguensat",
+                                    "ce:indexed-name": "Lguensat R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fablet",
+                                    "ce:indexed-name": "Fablet R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tandeo",
+                                    "ce:indexed-name": "Tandeo P."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mason",
+                                    "ce:indexed-name": "Mason E."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IGARSS-IEEE Int. Geosci. Remote Sens. Symp"
+                        },
+                        "ce:source-text": "R. Lguensat, M. Sun, R. Fablet, P. Tandeo, E. Mason, and G. Chen, \"EddyNet: A deep neural network for pixel-wise classification of oceanic eddies,\" in Proc. IGARSS-IEEE Int. Geosci. Remote Sens. Symp., Jul. 2018, pp. 1764-1767."
+                    },
+                    {
+                        "ref-fulltext": "F. Milletari, N. Navab, and S.-A. Ahmadi, \"V-net: Fully convolutional neural networks for volumetric medical image segmentation,\" in Proc. 4th Int. Conf. 3D Vis. (3DV), Oct. 2016, pp. 565-571.",
+                        "@id": "43",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "V-net: Fully convolutional neural networks for volumetric medical image segmentation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85011298810",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "565",
+                                "@last": "571"
+                            }},
+                            "ref-text": "Oct.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Milletari",
+                                    "ce:indexed-name": "Milletari F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Navab",
+                                    "ce:indexed-name": "Navab N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.-A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ahmadi",
+                                    "ce:indexed-name": "Ahmadi S.-A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 4th Int. Conf. 3D Vis. (3DV)"
+                        },
+                        "ce:source-text": "F. Milletari, N. Navab, and S.-A. Ahmadi, \"V-net: Fully convolutional neural networks for volumetric medical image segmentation,\" in Proc. 4th Int. Conf. 3D Vis. (3DV), Oct. 2016, pp. 565-571."
+                    },
+                    {
+                        "ref-fulltext": "Q. V. Le, J. Ngiam, A. Coates, A. Lahiri, B. Prochnow, and A. Y. Ng, \"On optimization methods for deep learning,\" in Proc. 28th Int. Conf. Int. Conf. Mach. Learn., 2011, pp. 265-272.",
+                        "@id": "44",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "On optimization methods for deep learning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "80053437034",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "265",
+                                "@last": "272"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Q.V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Le",
+                                    "ce:indexed-name": "Le Q.V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ngiam",
+                                    "ce:indexed-name": "Ngiam J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Coates",
+                                    "ce:indexed-name": "Coates A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lahiri",
+                                    "ce:indexed-name": "Lahiri A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Prochnow",
+                                    "ce:indexed-name": "Prochnow B."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "A.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ng",
+                                    "ce:indexed-name": "Ng A.Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 28th Int. Conf. Int. Conf. Mach. Learn."
+                        },
+                        "ce:source-text": "Q. V. Le, J. Ngiam, A. Coates, A. Lahiri, B. Prochnow, and A. Y. Ng, \"On optimization methods for deep learning,\" in Proc. 28th Int. Conf. Int. Conf. Mach. Learn., 2011, pp. 265-272."
+                    },
+                    {
+                        "ref-fulltext": "A. L. Goldberger et al., \"PhysioBank, PhysioToolkit, and PhysioNet,\" Circulation, vol. 101, no. 23, Jun. 2000.",
+                        "@id": "45",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-title": {"ref-titletext": "Physio bank, physio toolkit, and physio net"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "14844283547",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "101",
+                                "@issue": "23"
+                            }},
+                            "ref-text": "Jun.",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "A.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Goldberger",
+                                    "ce:indexed-name": "Goldberger A.L."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Circulation"
+                        },
+                        "ce:source-text": "A. L. Goldberger et al., \"PhysioBank, PhysioToolkit, and PhysioNet,\" Circulation, vol. 101, no. 23, Jun. 2000."
+                    },
+                    {
+                        "ref-fulltext": "A. Shoeb, \"Application of machine learning to epileptic seizure onset detection and treatment,\" Ph.D. dissertation, Harvard-MIT Division Health Sci. Technol., Massachusetts Inst. Technol., Cambridge, MA, USA, 2009.",
+                        "@id": "46",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "80051659479",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Ph.D. dissertation, Harvard-MIT Division Health Sci. Technol., Massachusetts Inst. Technol., Cambridge, MA, USA",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "ce:surname": "Shoeb",
+                                "ce:indexed-name": "Shoeb A."
+                            }]},
+                            "ref-sourcetitle": "Application of Machine Learning to Epileptic Seizure Onset Detection and Treatment"
+                        },
+                        "ce:source-text": "A. Shoeb, \"Application of machine learning to epileptic seizure onset detection and treatment,\" Ph.D. dissertation, Harvard-MIT Division Health Sci. Technol., Massachusetts Inst. Technol., Cambridge, MA, USA, 2009."
+                    },
+                    {
+                        "ref-fulltext": "A. Temko, E. Thomas, W. Marnane, G. Lightbody, and G. B. Boylan, \"Performance assessment for EEG-based neonatal seizure detectors,\" Clin. Neurophysiol., vol. 122, no. 3, pp. 474-482, Mar. 2011.",
+                        "@id": "47",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Performance assessment for EEG-based neonatal seizure detectors"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "78751633678",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "122",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "474",
+                                    "@last": "482"
+                                }
+                            },
+                            "ref-text": "Mar.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Temko",
+                                    "ce:indexed-name": "Temko A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thomas",
+                                    "ce:indexed-name": "Thomas E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marnane",
+                                    "ce:indexed-name": "Marnane W."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lightbody",
+                                    "ce:indexed-name": "Lightbody G."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "G.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boylan",
+                                    "ce:indexed-name": "Boylan G.B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Clin. Neurophysiol."
+                        },
+                        "ce:source-text": "A. Temko, E. Thomas, W. Marnane, G. Lightbody, and G. B. Boylan, \"Performance assessment for EEG-based neonatal seizure detectors,\" Clin. Neurophysiol., vol. 122, no. 3, pp. 474-482, Mar. 2011."
+                    },
+                    {
+                        "ref-fulltext": "D. M. Powers, \"Evaluation: From precision, recall and F-measure to ROC, informedness, markedness and correlation,\" J. Mach. Learn. Technol., vol. 2, no. 1, pp. 37-63, 2011.",
+                        "@id": "48",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Evaluation: From precision, recall and F-measure to ROC, informedness, markedness and correlation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84864758525",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "2",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "37",
+                                    "@last": "63"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "D.M.",
+                                "@_fa": "true",
+                                "ce:surname": "Powers",
+                                "ce:indexed-name": "Powers D.M."
+                            }]},
+                            "ref-sourcetitle": "J. Mach. Learn. Technol."
+                        },
+                        "ce:source-text": "D. M. Powers, \"Evaluation: From precision, recall and F-measure to ROC, informedness, markedness and correlation,\" J. Mach. Learn. Technol., vol. 2, no. 1, pp. 37-63, 2011."
+                    },
+                    {
+                        "ref-fulltext": "U. R. Acharya, S. V. Sree, G. Swapna, R. J. Martis, and J. S. Suri, \"Automated EEG analysis of epilepsy: A review,\" Knowl.-Based Syst., vol. 45, pp. 147-165, Jun. 2013.",
+                        "@id": "49",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Automated EEG analysis of epilepsy: A review"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84876285375",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "45"},
+                                "pagerange": {
+                                    "@first": "147",
+                                    "@last": "165"
+                                }
+                            },
+                            "ref-text": "Jun.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "U.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Acharya",
+                                    "ce:indexed-name": "Acharya U.R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sree",
+                                    "ce:indexed-name": "Sree S.V."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Swapna",
+                                    "ce:indexed-name": "Swapna G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Martis",
+                                    "ce:indexed-name": "Martis R.J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Suri",
+                                    "ce:indexed-name": "Suri J.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Knowl.-Based Syst."
+                        },
+                        "ce:source-text": "U. R. Acharya, S. V. Sree, G. Swapna, R. J. Martis, and J. S. Suri, \"Automated EEG analysis of epilepsy: A review,\" Knowl.-Based Syst., vol. 45, pp. 147-165, Jun. 2013."
+                    },
+                    {
+                        "ref-fulltext": "Y. Yuan, G. Xun, K. Jia, and A. Zhang, \"A multi-view deep learning method for epileptic seizure detection using short-time Fourier transform,\" in Proc. 8th ACM Int. Conf. Bioinf., Comput. Biol., Health Informat., Aug. 2017, pp. 213-222.",
+                        "@id": "50",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "A multi-view deep learning method for epileptic seizure detection using short-time Fourier transform"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85031320334",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "213",
+                                "@last": "222"
+                            }},
+                            "ref-text": "Aug.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yuan",
+                                    "ce:indexed-name": "Yuan Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xun",
+                                    "ce:indexed-name": "Xun G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jia",
+                                    "ce:indexed-name": "Jia K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 8th Acm Int. Conf. Bioinf., Comput. Biol., Health Informat"
+                        },
+                        "ce:source-text": "Y. Yuan, G. Xun, K. Jia, and A. Zhang, \"A multi-view deep learning method for epileptic seizure detection using short-time Fourier transform,\" in Proc. 8th ACM Int. Conf. Bioinf., Comput. Biol., Health Informat., Aug. 2017, pp. 213-222."
+                    },
+                    {
+                        "ref-fulltext": "Y. Gao, B. Gao, Q. Chen, J. Liu, and Y. Zhang, \"Deep convolutional neural network-based epileptic electroencephalogram (EEG) signal classification,\" Frontiers Neurol., vol. 11, P. 375, May 2020.",
+                        "@id": "51",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Deep convolutional neural network-based epileptic electroencephalogram (EEG) signal classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85086104331",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "11"},
+                                "pagerange": {"@first": "375"}
+                            },
+                            "ref-text": "May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gao",
+                                    "ce:indexed-name": "Gao Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gao",
+                                    "ce:indexed-name": "Gao B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen Q."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Frontiers Neurol."
+                        },
+                        "ce:source-text": "Y. Gao, B. Gao, Q. Chen, J. Liu, and Y. Zhang, \"Deep convolutional neural network-based epileptic electroencephalogram (EEG) signal classification,\" Frontiers Neurol., vol. 11, P. 375, May 2020."
+                    },
+                    {
+                        "ref-fulltext": "F.-G. Tang, Y. Liu, Y. Li, and Z.-W. Peng, \"A unified multi-level spectral-temporal feature learning framework for patient-specific seizure onset detection in EEG signals,\" Knowl.-Based Syst., vol. 205, Oct. 2020, Art. no. 106152.",
+                        "@id": "52",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "A unified multi-level spectral-temporal feature learning framework for patient-specific seizure onset detection in EEG signals"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "106152",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "85088031510",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "205"}},
+                            "ref-text": "Oct.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.-G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang F.-G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Z.-W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peng",
+                                    "ce:indexed-name": "Peng Z.-W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Knowl.-Based Syst."
+                        },
+                        "ce:source-text": "F.-G. Tang, Y. Liu, Y. Li, and Z.-W. Peng, \"A unified multi-level spectral-temporal feature learning framework for patient-specific seizure onset detection in EEG signals,\" Knowl.-Based Syst., vol. 205, Oct. 2020, Art. no. 106152."
+                    },
+                    {
+                        "ref-fulltext": "Y. Li, Y. Liu, W.-G. Cui, Y.-Z. Guo, H. Huang, and Z.-Y. Hu, \"Epileptic seizure detection in EEG signals using a unified temporal-spectral Squeeze-and-Excitation network,\" IEEE Trans. Neural Syst. Rehabil. Eng., vol. 28, no. 4, pp. 782-794, Apr. 2020.",
+                        "@id": "53",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Epileptic seizure detection in EEG signals using a unified temporal-spectral Squeeze-and-Excitation network"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85082007743",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "28",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "782",
+                                    "@last": "794"
+                                }
+                            },
+                            "ref-text": "Apr.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.-G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cui",
+                                    "ce:indexed-name": "Cui W.-G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.-Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo Y.-Z."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang H."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "Z.-Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu Z.-Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Ieee Trans. Neural Syst. Rehabil. Eng."
+                        },
+                        "ce:source-text": "Y. Li, Y. Liu, W.-G. Cui, Y.-Z. Guo, H. Huang, and Z.-Y. Hu, \"Epileptic seizure detection in EEG signals using a unified temporal-spectral Squeeze-and-Excitation network,\" IEEE Trans. Neural Syst. Rehabil. Eng., vol. 28, no. 4, pp. 782-794, Apr. 2020."
+                    },
+                    {
+                        "ref-fulltext": "C. Li et al., \"Seizure onset detection using empirical mode decomposition and common spatial pattern,\" IEEE Trans. Neural Syst. Rehabil. Eng., vol. 29, pp. 458-467, 2021.",
+                        "@id": "54",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Seizure onset detection using empirical mode decomposition and common spatial pattern"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85100497400",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "29"},
+                                "pagerange": {
+                                    "@first": "458",
+                                    "@last": "467"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li C."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Ieee Trans. Neural Syst. Rehabil. Eng."
+                        },
+                        "ce:source-text": "C. Li et al., \"Seizure onset detection using empirical mode decomposition and common spatial pattern,\" IEEE Trans. Neural Syst. Rehabil. Eng., vol. 29, pp. 458-467, 2021."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Bangkok",
+        "@id": "60028190",
+        "affilname": "Chulalongkorn University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+        "affiliation-country": "Thailand"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85120072926",
+        "dc:description": "We design an algorithm to automatically detect epileptic seizure onsets and offsets from scalp electroencephalograms (EEGs). The proposed scheme consists of two sequential steps: detecting seizure episodes from long EEG recordings, and determining seizure onsets and offsets of the detected episodes. We introduce a neural network-based model called ScoreNet to carry out the second step by better predicting the seizure probability of pre-detected seizure epochs to determine seizure onsets and offsets. A cost function called log-dice loss with a similar meaning to the F1 score is proposed to handle the natural data imbalance inherent in EEG signals signifying seizure events. ScoreNet is then verified on the CHB-MIT Scalp EEG database in combination with several classifiers including random forest, convolutional neural network (CNN), and logistic regression. As a result, ScoreNet improves seizure detection performance over lone epoch-based seizure classification methods; F1 scores increase significantly from 16-37% to 53-70%, and false positive rates per hour decrease from 0.53-5.24 to 0.05-0.61. This method provides clinically acceptable latencies of detecting seizure onset and offset of less than 10 seconds. In addition, an effective latency index is proposed as a metric for detection latency whose scoring considers undetected events to provide better insight into onset and offset detection than conventional time-based metrics.",
+        "pubmed-id": "34797766",
+        "prism:coverDate": "2021-01-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85120072926",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Poomipat",
+            "preferred-name": {
+                "ce:given-name": "Poomipat",
+                "ce:initials": "P.",
+                "ce:surname": "Boonyakitanont",
+                "ce:indexed-name": "Boonyakitanont P."
+            },
+            "@seq": "1",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Boonyakitanont",
+            "@auid": "57212475479",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57212475479",
+            "ce:indexed-name": "Boonyakitanont P."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85120072926"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85120072926&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85120072926&origin=inward"
+            }
+        ],
+        "source-id": "16321",
+        "citedby-count": "4",
+        "prism:volume": "29",
+        "subtype": "ar",
+        "dc:title": "ScoreNet: A Neural Network-Based Post-Processing Model for Identifying Epileptic Seizure Onset and Offset in EEGs",
+        "openaccess": "1",
+        "prism:issn": "15580210 15344320",
+        "publishercopyright": "© 2001-2011 IEEE.",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+        "prism:pageRange": "2474-2483",
+        "prism:endingPage": "2483",
+        "openaccessFlag": "true",
+        "prism:doi": "10.1109/TNSRE.2021.3129467",
+        "prism:startingPage": "2474",
+        "dc:identifier": "SCOPUS_ID:85120072926",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Deep learning",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "EL-index",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "F1 scores",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Network-based",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Neural-networks",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Offset detection",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Onset detection",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Scorenet",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Seizure onset",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Seizure onset and offset detection",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Algorithms",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Electroencephalography",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Epilepsy",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Humans",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Neural Networks, Computer",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Seizures",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Signal Processing, Computer-Assisted",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Deep learning"
+        },
+        {
+            "@_fa": "true",
+            "$": "EEG"
+        },
+        {
+            "@_fa": "true",
+            "$": "EL-index"
+        },
+        {
+            "@_fa": "true",
+            "$": "ScoreNet"
+        },
+        {
+            "@_fa": "true",
+            "$": "seizure onset and offset detection"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Internal Medicine",
+            "@code": "2724",
+            "@abbrev": "MEDI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Neuroscience (all)",
+            "@code": "2800",
+            "@abbrev": "NEUR"
+        },
+        {
+            "@_fa": "true",
+            "$": "Biomedical Engineering",
+            "@code": "2204",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Rehabilitation",
+            "@code": "2742",
+            "@abbrev": "MEDI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Poomipat",
+            "preferred-name": {
+                "ce:given-name": "Poomipat",
+                "ce:initials": "P.",
+                "ce:surname": "Boonyakitanont",
+                "ce:indexed-name": "Boonyakitanont P."
+            },
+            "@seq": "1",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Boonyakitanont",
+            "@auid": "57212475479",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57212475479",
+            "ce:indexed-name": "Boonyakitanont P."
+        },
+        {
+            "ce:given-name": "Apiwat",
+            "preferred-name": {
+                "ce:given-name": "Apiwat",
+                "ce:initials": "A.",
+                "ce:surname": "Lek-Uthai",
+                "ce:indexed-name": "Lek-Uthai A."
+            },
+            "@seq": "2",
+            "ce:initials": "A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Lek-Uthai",
+            "@auid": "6503874038",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6503874038",
+            "ce:indexed-name": "Lek-Uthai A."
+        },
+        {
+            "ce:given-name": "Jitkomut",
+            "preferred-name": {
+                "ce:given-name": "Jitkomut",
+                "ce:initials": "J.",
+                "ce:surname": "Songsiri",
+                "ce:indexed-name": "Songsiri J."
+            },
+            "@seq": "3",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Songsiri",
+            "@auid": "9332911700",
+            "author-url": "https://api.elsevier.com/content/author/author_id/9332911700",
+            "ce:indexed-name": "Songsiri J."
+        }
+    ]}
+}}

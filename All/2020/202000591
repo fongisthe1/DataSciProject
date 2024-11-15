@@ -1,0 +1,3221 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "06",
+                "@timestamp": "2021-02-06T03:17:15.000015-05:00",
+                "@year": "2021",
+                "@month": "02"
+            },
+            "ait:date-sort": {
+                "@day": "15",
+                "@year": "2020",
+                "@month": "10"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "postal-code": "10330",
+                        "@afid": "60028190",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Department of Computer Engineering"},
+                            {"$": "Faculty of Engineering"},
+                            {"$": "Chulalongkorn University"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60028190",
+                            "@dptid": "113891981"
+                        },
+                        "@affiliation-instance-id": "S0167642320301271-a244f05a739a33fcc0d210393e2a3967",
+                        "ce:source-text": "Department of Computer Engineering, Faculty of Engineering, Chulalongkorn University, Bangkok, 10330, Thailand",
+                        "@dptid": "113891981"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Smith",
+                            "preferred-name": {
+                                "ce:given-name": "Smith",
+                                "ce:initials": "S.",
+                                "ce:surname": "Dhumbumroong",
+                                "ce:indexed-name": "Dhumbumroong S."
+                            },
+                            "@author-instance-id": "S0167642320301271-ed93463e7e8751194256593dc5186bca",
+                            "@seq": "1",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Dhumbumroong",
+                            "@auid": "43261137200",
+                            "@orcid": "0000-0002-7481-3018",
+                            "ce:indexed-name": "Dhumbumroong S."
+                        },
+                        {
+                            "ce:given-name": "Krerk",
+                            "preferred-name": {
+                                "ce:given-name": "Krerk",
+                                "ce:initials": "K.",
+                                "ce:surname": "Piromsopa",
+                                "ce:indexed-name": "Piromsopa K."
+                            },
+                            "@author-instance-id": "S0167642320301271-2f093c3f5ffdcf00c680edb410571a62",
+                            "@seq": "2",
+                            "ce:initials": "K.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Piromsopa",
+                            "@auid": "14018355900",
+                            "@orcid": "0000-0002-8190-4444",
+                            "ce:indexed-name": "Piromsopa K."
+                        }
+                    ]
+                },
+                "citation-title": "BoundWarden: Thread-enforced spatial memory safety through compile-time transformations",
+                "abstracts": "© 2020 Elsevier B.V.This paper presents BoundWarden, a novel spatial memory safety enforcement approach that utilizes a combination of compile-time transformation and runtime concurrent monitoring techniques. The compiler extension component of BoundWarden transparently instruments source code of C programs with the code that allows the runtime component of BoundWarden to comprehensively detect and prevent buffer overflow and other out-of-bound errors in buffers on the stack, heap, as well as BSS and data segments of memory. To reduce runtime overhead of bound checking, the runtime component of BoundWarden leverages the ubiquity of multi-core processors by offloading most of the work to a dedicated bound checking thread, which is responsible for performing bound checking and managing metadata. To preserve memory layout and maintain compatibility with existing libraries and binaries, BoundWarden stores the base and the bound of buffers in a separated dedicated bound table. Experiments showed that the prototype of BoundWarden is effective at enforcing spatial memory safety by successfully passing all 850 tests of RIPE test suite, and 94% of NIST's SARD test suite 89, while the results from the Olden benchmark suite showed that on average BoundWarden introduced roughly 1.85x overhead, compared to the uninstrumented code.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "postal-code": "10330",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Department of Computer Engineering"},
+                            {"$": "Faculty of Engineering"},
+                            {"$": "Chulalongkorn University"}
+                        ]
+                    },
+                    "person": {
+                        "ce:given-name": "Krerk",
+                        "ce:initials": "K.",
+                        "ce:surname": "Piromsopa",
+                        "ce:indexed-name": "Piromsopa K."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Bound checking thread",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Buffer overflows",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Compile-time transformation",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Concurrent monitoring",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Spatial memory safety",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "https://www.journals.elsevier.com/science-of-computer-programming",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Science of Computer Programming",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"voliss": {"@volume": "198"}},
+                    "@type": "j",
+                    "sourcetitle": "Science of Computer Programming",
+                    "publicationdate": {
+                        "month": "10",
+                        "year": "2020",
+                        "date-text": "15 October 2020",
+                        "day": "15"
+                    },
+                    "codencode": "SCPGD",
+                    "sourcetitle-abbrev": "Sci Comput Program",
+                    "@country": "nld",
+                    "issn": {
+                        "$": "01676423",
+                        "@type": "print"
+                    },
+                    "publicationyear": {"@first": "2020"},
+                    "publisher": {"publishername": "Elsevier B.V."},
+                    "article-number": "102519",
+                    "@srcid": "28416"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": {
+                            "classification-code": "723",
+                            "classification-description": "Computer Software, Data Handling and Applications"
+                        }
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": "1712"
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "COMP"
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2020 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "13",
+                    "@timestamp": "BST 10:17:28",
+                    "@year": "2020",
+                    "@month": "08"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2007408163",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "927641428",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20203309043639",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20202903425",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85089216629",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85089216629",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:pii": "S0167642320301271",
+                    "ce:ern": "pii:S0167642320301271",
+                    "ce:doi": "10.1016/j.scico.2020.102519"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "53",
+                "reference": [
+                    {
+                        "ref-fulltext": "Anderson, J.P., et al. Computer security technology planning study. Tech. rep., ESD-TR-73-51, 1972.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1972"},
+                            "ref-title": {"ref-titletext": "Computer security technology planning study"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "br0010",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0004200684",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Tech. rep., ESD-TR-73-51",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "J.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Anderson",
+                                    "ce:indexed-name": "Anderson J.P."
+                                }],
+                                "et-al": null
+                            }
+                        },
+                        "ce:source-text": "J. P. Anderson, et al., Computer security technology planning study, Tech. rep., ESD-TR-73-51 (1972)."
+                    },
+                    {
+                        "ref-fulltext": "Orman, H., The morris worm: a fifteen-year perspective. IEEE Secur. Priv. 99:5 (2003), 35\u201343, 10.1109/MSECP.2003.1236233.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "The morris worm: a fifteen-year perspective"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/MSECP.2003.1236233",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "br0020",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "14344260215",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "99",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "35",
+                                    "@last": "43"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "H.",
+                                "@_fa": "true",
+                                "ce:surname": "Orman",
+                                "ce:indexed-name": "Orman H."
+                            }]},
+                            "ref-sourcetitle": "IEEE Secur. Priv."
+                        },
+                        "ce:source-text": "H. Orman, The morris worm: a fifteen-year perspective, IEEE Security Privacy 99 (5) (2003) 35\u201343. doi:10.1109/MSECP.2003.1236233."
+                    },
+                    {
+                        "ref-fulltext": "Özkan, S., CVE details. https://www.cvedetails.com/, Nov. 2018. (Accessed 15 November 2018)",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.cvedetails.com/",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "CVE details"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "br0030",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84893174494",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "(Accessed 15 November 2018)",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "ce:surname": "Özkan",
+                                "ce:indexed-name": "Ozkan S."
+                            }]}
+                        },
+                        "ce:source-text": "S. Özkan, CVE details, accessed: 2018-11-15 (Nov. 2018). URL https://www.cvedetails.com/"
+                    },
+                    {
+                        "ref-fulltext": "The MITRE Corporation, Common vulnerabilities and exposures (cve). https://cve.mitre.org/, Jan. 2019. (Accessed 4 March 2019)",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://cve.mitre.org/",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Common vulnerabilities and exposures (cve)"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "br0040",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85066475598",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "(Accessed 4 March 2019)",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "The MITRE Corporation",
+                                "ce:indexed-name": "The MITRE Corporation"
+                            }]}
+                        },
+                        "ce:source-text": "The MITRE Corporation, Common vulnerabilities and exposures (cve), accessed: 2019-03-04 (Jan. 2019). URL https://cve.mitre.org/"
+                    },
+                    {
+                        "ref-fulltext": "Szekeres, L., Payer, M., Wei, T., Song, D., Sok: eternal war in memory. Proceedings of the 2013 IEEE Symposium on Security and Privacy, SP '13, 2013, IEEE Computer Society, Washington, DC, USA, 48\u201362, 10.1109/SP.2013.13.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Sok: eternal war in memory"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/SP.2013.13",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "br0050",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84881235941",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "48",
+                                "@last": "62"
+                            }},
+                            "ref-text": "IEEE Computer Society Washington, DC, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Szekeres",
+                                    "ce:indexed-name": "Szekeres L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Payer",
+                                    "ce:indexed-name": "Payer M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wei",
+                                    "ce:indexed-name": "Wei T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Song",
+                                    "ce:indexed-name": "Song D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2013 IEEE Symposium on Security and Privacy, SP '13"
+                        },
+                        "ce:source-text": "L. Szekeres, M. Payer, T. Wei, D. Song, Sok: Eternal war in memory, in: Proceedings of the 2013 IEEE Symposium on Security and Privacy, SP '13, IEEE Computer Society, Washington, DC, USA, 2013, pp. 48\u201362. doi:10.1109/SP.2013.13. URL http://dx.doi.org/10.1109/SP.2013.13"
+                    },
+                    {
+                        "ref-fulltext": "Jim, T., Morrisett, J.G., Grossman, D., Hicks, M.W., Cheney, J., Wang, Y., Cyclone: a safe dialect of c. Proceedings of the General Track of the Annual Conference on USENIX Annual Technical Conference, ATEC '02, 2002, USENIX Association, Berkeley, CA, USA, 275\u2013288 http://dl.acm.org/citation.cfm?id=647057.713871.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://dl.acm.org/citation.cfm?id=647057.713871",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Cyclone: a safe dialect of c"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "br0060",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85084164164",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "275",
+                                "@last": "288"
+                            }},
+                            "ref-text": "USENIX Association Berkeley, CA, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jim",
+                                    "ce:indexed-name": "Jim T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Morrisett",
+                                    "ce:indexed-name": "Morrisett J.G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grossman",
+                                    "ce:indexed-name": "Grossman D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hicks",
+                                    "ce:indexed-name": "Hicks M.W."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cheney",
+                                    "ce:indexed-name": "Cheney J."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the General Track of the Annual Conference on USENIX Annual Technical Conference, ATEC '02"
+                        },
+                        "ce:source-text": "T. Jim, J. G. Morrisett, D. Grossman, M. W. Hicks, J. Cheney, Y. Wang, Cyclone: A safe dialect of c, in: Proceedings of the General Track of the Annual Conference on USENIX Annual Technical Conference, ATEC '02, USENIX Association, Berkeley, CA, USA, 2002, pp. 275\u2013288. URL http://dl.acm.org/citation.cfm?id=647057.713871"
+                    },
+                    {
+                        "ref-fulltext": "Elliott, A.S., Ruef, A., Hicks, M., Tarditi, D., Checked c: making c safe by extension. 2018 IEEE Cybersecurity Development (SecDev), 2018, IEEE, 53\u201360.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Checked c: making c safe by extension"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "br0070",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85056164954",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "53",
+                                "@last": "60"
+                            }},
+                            "ref-text": "IEEE",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Elliott",
+                                    "ce:indexed-name": "Elliott A.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ruef",
+                                    "ce:indexed-name": "Ruef A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hicks",
+                                    "ce:indexed-name": "Hicks M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tarditi",
+                                    "ce:indexed-name": "Tarditi D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2018 IEEE Cybersecurity Development (SecDev)"
+                        },
+                        "ce:source-text": "A. S. Elliott, A. Ruef, M. Hicks, D. Tarditi, Checked c: Making c safe by extension, in: 2018 IEEE Cybersecurity Development (SecDev), IEEE, 2018, pp. 53\u201360."
+                    },
+                    {
+                        "ref-fulltext": "Kwon, A., Dhawan, U., Smith, J.M., Knight, T.F. Jr., DeHon, A., Low-fat pointers: compact encoding and efficient gate-level implementation of fat pointers for spatial safety and capability-based security. Proceedings of the 2013 ACM SIGSAC Conference on Computer & #38; Communications Security, CCS '13, 2013, ACM, New York, NY, USA, 721\u2013732, 10.1145/2508859.2516713.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Low-fat pointers: compact encoding and efficient gate-level implementation of fat pointers for spatial safety and capability-based security"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/2508859.2516713",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "br0080",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84889021222",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "721",
+                                "@last": "732"
+                            }},
+                            "ref-text": "ACM New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kwon",
+                                    "ce:indexed-name": "Kwon A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "U.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dhawan",
+                                    "ce:indexed-name": "Dhawan U."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Smith",
+                                    "ce:indexed-name": "Smith J.M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Knight",
+                                    "ce:suffix": "Jr.",
+                                    "ce:indexed-name": "Knight T.F."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "DeHon",
+                                    "ce:indexed-name": "DeHon A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2013 ACM SIGSAC Conference on Computer & #38; Communications Security, CCS '13"
+                        },
+                        "ce:source-text": "A. Kwon, U. Dhawan, J. M. Smith, T. F. Knight, Jr., A. DeHon, Low-fat pointers: Compact encoding and efficient gate-level implementation of fat pointers for spatial safety and capability-based security, in: Proceedings of the 2013 ACM SIGSAC Conference on Computer &#38; Communications Security, CCS '13, ACM, New York, NY, USA, 2013, pp. 721\u2013732. doi:10.1145/2508859.2516713. URL http://doi.acm.org/10.1145/2508859.2516713"
+                    },
+                    {
+                        "ref-fulltext": "Dhawan, U., Hritcu, C., Rubin, R., Vasilakis, N., Chiricescu, S., Smith, J.M., Knight, T.F. Jr., Pierce, B.C., DeHon, A., Architectural support for software-defined metadata processing. Proceedings of the Twentieth International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS '15, 2015, ACM, New York, NY, USA, 487\u2013502, 10.1145/2694344.2694383.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Architectural support for software-defined metadata processing"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/2694344.2694383",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "br0090",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84942902209",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "487",
+                                "@last": "502"
+                            }},
+                            "ref-text": "ACM New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "U.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dhawan",
+                                    "ce:indexed-name": "Dhawan U."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hritcu",
+                                    "ce:indexed-name": "Hritcu C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rubin",
+                                    "ce:indexed-name": "Rubin R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vasilakis",
+                                    "ce:indexed-name": "Vasilakis N."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chiricescu",
+                                    "ce:indexed-name": "Chiricescu S."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Smith",
+                                    "ce:indexed-name": "Smith J.M."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "T.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Knight",
+                                    "ce:suffix": "Jr.",
+                                    "ce:indexed-name": "Knight T.F."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "B.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pierce",
+                                    "ce:indexed-name": "Pierce B.C."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "DeHon",
+                                    "ce:indexed-name": "DeHon A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Twentieth International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS '15"
+                        },
+                        "ce:source-text": "U. Dhawan, C. Hritcu, R. Rubin, N. Vasilakis, S. Chiricescu, J. M. Smith, T. F. Knight, Jr., B. C. Pierce, A. DeHon, Architectural support for software-defined metadata processing, in: Proceedings of the Twentieth International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS '15, ACM, New York, NY, USA, 2015, pp. 487\u2013502. doi:10.1145/2694344.2694383. URL http://doi.acm.org/10.1145/2694344.2694383"
+                    },
+                    {
+                        "ref-fulltext": "Lattner, C., Adve, V., LLVM: a compilation framework for lifelong program analysis & transformation. Proceedings of the 2004 International Symposium on Code Generation and Optimization (CGO'04), 2004, CGO, Palo Alto, California, 75\u201386.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "LLVM: a compilation framework for lifelong program analysis & transformation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "br0100",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "3042658703",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "75",
+                                "@last": "86"
+                            }},
+                            "ref-text": "CGO Palo Alto, California",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lattner",
+                                    "ce:indexed-name": "Lattner C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Adve",
+                                    "ce:indexed-name": "Adve V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2004 International Symposium on Code Generation and Optimization (CGO'04)"
+                        },
+                        "ce:source-text": "C. Lattner, V. Adve, LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation, in: Proceedings of the 2004 International Symposium on Code Generation and Optimization (CGO'04), CGO, Palo Alto, California, 2004, pp. 75\u201386."
+                    },
+                    {
+                        "ref-fulltext": "One, A., Smashing the stack for fun and profit. Phrack, 7(49), Nov. 1996 http://phrack.com/issues.html?issue=49&#38;id=14#article.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://phrack.com/issues.html?issue=49&#38;id=14#article",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Smashing the stack for fun and profit"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "br0110",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0006100649",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "7",
+                                "@issue": "49"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "ce:surname": "One",
+                                "ce:indexed-name": "One A."
+                            }]},
+                            "ref-sourcetitle": "Phrack"
+                        },
+                        "ce:source-text": "A. One, Smashing The Stack For Fun And Profit, Phrack 7 (49) (Nov. 1996). URL http://phrack.com/issues.html?issue=49&#38;id=14#article"
+                    },
+                    {
+                        "ref-fulltext": "Roemer, R., Buchanan, E., Shacham, H., Savage, S., Return-oriented programming: systems, languages, and applications. ACM Trans. Inf. Syst. Secur., 15(1), 2012, 2, 10.1145/2133375.2133377.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Return-oriented programming: systems, languages, and applications"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/2133375.2133377",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "br0120",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "2",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "84859457954",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "15",
+                                "@issue": "1"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Roemer",
+                                    "ce:indexed-name": "Roemer R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Buchanan",
+                                    "ce:indexed-name": "Buchanan E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shacham",
+                                    "ce:indexed-name": "Shacham H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Savage",
+                                    "ce:indexed-name": "Savage S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Inf. Syst. Secur."
+                        },
+                        "ce:source-text": "R. Roemer, E. Buchanan, H. Shacham, S. Savage, Return-oriented programming: Systems, languages, and applications, ACM Trans. Inf. Syst. Secur. 15 (1) (2012) 2:1\u20132:34. doi:10.1145/2133375.2133377. URL http://doi.acm.org/10.1145/2133375.2133377"
+                    },
+                    {
+                        "ref-fulltext": "Tran, M., Etheridge, M., Bletsch, T., Jiang, X., Freeh, V., Ning, P., On the expressiveness of return-into-libc attacks. Sommer, R., Balzarotti, D., Maier, G., (eds.) Recent Advances in Intrusion Detection, 2011, Springer Berlin Heidelberg, Berlin, Heidelberg, 121\u2013141.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "On the expressiveness of return-into-libc attacks"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "br0130",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84857304973",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "121",
+                                "@last": "141"
+                            }},
+                            "ref-text": "R. Sommer D. Balzarotti G. Maier Springer Berlin Heidelberg Berlin, Heidelberg",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tran",
+                                    "ce:indexed-name": "Tran M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Etheridge",
+                                    "ce:indexed-name": "Etheridge M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bletsch",
+                                    "ce:indexed-name": "Bletsch T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang X."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Freeh",
+                                    "ce:indexed-name": "Freeh V."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ning",
+                                    "ce:indexed-name": "Ning P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Recent Advances in Intrusion Detection"
+                        },
+                        "ce:source-text": "M. Tran, M. Etheridge, T. Bletsch, X. Jiang, V. Freeh, P. Ning, On the expressiveness of return-into-libc attacks, in: R. Sommer, D. Balzarotti, G. Maier (Eds.), Recent Advances in Intrusion Detection, Springer Berlin Heidelberg, Berlin, Heidelberg, 2011, pp. 121\u2013141."
+                    },
+                    {
+                        "ref-fulltext": "Checkoway, S., Davi, L., Dmitrienko, A., Sadeghi, A.-R., Shacham, H., Winandy, M., Return-oriented programming without returns. Proceedings of the 17th ACM Conference on Computer and Communications Security, CCS '10, 2010, ACM, New York, NY, USA, 559\u2013572, 10.1145/1866307.1866370.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Return-oriented programming without returns"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/1866307.1866370",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "br0140",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "78650032454",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "559",
+                                "@last": "572"
+                            }},
+                            "ref-text": "ACM New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Checkoway",
+                                    "ce:indexed-name": "Checkoway S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Davi",
+                                    "ce:indexed-name": "Davi L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dmitrienko",
+                                    "ce:indexed-name": "Dmitrienko A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.-R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sadeghi",
+                                    "ce:indexed-name": "Sadeghi A.-R."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shacham",
+                                    "ce:indexed-name": "Shacham H."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Winandy",
+                                    "ce:indexed-name": "Winandy M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 17th ACM Conference on Computer and Communications Security, CCS '10"
+                        },
+                        "ce:source-text": "S. Checkoway, L. Davi, A. Dmitrienko, A.-R. Sadeghi, H. Shacham, M. Winandy, Return-oriented programming without returns, in: Proceedings of the 17th ACM Conference on Computer and Communications Security, CCS '10, ACM, New York, NY, USA, 2010, pp. 559\u2013572. doi:10.1145/1866307.1866370. URL http://doi.acm.org/10.1145/1866307.1866370"
+                    },
+                    {
+                        "ref-fulltext": "Shacham, H., The geometry of innocent flesh on the bone: return-into-libc without function calls (on the x86). Proceedings of the 14th ACM Conference on Computer and Communications Security, CCS '07, 2007, ACM, New York, NY, USA, 552\u2013561, 10.1145/1315245.1315313.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "The geometry of innocent flesh on the bone: return-into-libc without function calls (on the x86)"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/1315245.1315313",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "br0150",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "77952351839",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "552",
+                                "@last": "561"
+                            }},
+                            "ref-text": "ACM New York, NY, USA",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "H.",
+                                "@_fa": "true",
+                                "ce:surname": "Shacham",
+                                "ce:indexed-name": "Shacham H."
+                            }]},
+                            "ref-sourcetitle": "Proceedings of the 14th ACM Conference on Computer and Communications Security, CCS '07"
+                        },
+                        "ce:source-text": "H. Shacham, The geometry of innocent flesh on the bone: Return-into-libc without function calls (on the x86), in: Proceedings of the 14th ACM Conference on Computer and Communications Security, CCS '07, ACM, New York, NY, USA, 2007, pp. 552\u2013561. doi:10.1145/1315245.1315313. URL http://doi.acm.org/10.1145/1315245.1315313"
+                    },
+                    {
+                        "ref-fulltext": "Bletsch, T., Jiang, X., Freeh, V.W., Liang, Z., Jump-oriented programming: a new class of code-reuse attack. Proceedings of the 6th ACM Symposium on Information, Computer and Communications Security, ASIACCS '11, 2011, ACM, New York, NY, USA, 30\u201340, 10.1145/1966913.1966919.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Jump-oriented programming: a new class of code-reuse attack"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/1966913.1966919",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "br0160",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "79955994779",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "30",
+                                "@last": "40"
+                            }},
+                            "ref-text": "ACM New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bletsch",
+                                    "ce:indexed-name": "Bletsch T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang X."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "V.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Freeh",
+                                    "ce:indexed-name": "Freeh V.W."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liang",
+                                    "ce:indexed-name": "Liang Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 6th ACM Symposium on Information, Computer and Communications Security, ASIACCS '11"
+                        },
+                        "ce:source-text": "T. Bletsch, X. Jiang, V. W. Freeh, Z. Liang, Jump-oriented programming: A new class of code-reuse attack, in: Proceedings of the 6th ACM Symposium on Information, Computer and Communications Security, ASIACCS '11, ACM, New York, NY, USA, 2011, pp. 30\u201340. doi:10.1145/1966913.1966919. URL http://doi.acm.org/10.1145/1966913.1966919"
+                    },
+                    {
+                        "ref-fulltext": "Zeng, Q., Wu, D., Liu, P., Cruiser: concurrent heap buffer overflow monitoring using lock-free data structures. Proceedings of the 32nd ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '11, 2011, ACM, New York, NY, USA, 367\u2013377, 10.1145/1993498.1993541.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Cruiser: concurrent heap buffer overflow monitoring using lock-free data structures"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/1993498.1993541",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "br0170",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "79959906705",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "367",
+                                "@last": "377"
+                            }},
+                            "ref-text": "ACM New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zeng",
+                                    "ce:indexed-name": "Zeng Q."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 32nd ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '11"
+                        },
+                        "ce:source-text": "Q. Zeng, D. Wu, P. Liu, Cruiser: Concurrent heap buffer overflow monitoring using lock-free data structures, in: Proceedings of the 32Nd ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '11, ACM, New York, NY, USA, 2011, pp. 367\u2013377. doi:10.1145/1993498.1993541. URL http://doi.acm.org/10.1145/1993498.1993541"
+                    },
+                    {
+                        "ref-fulltext": "Nagarakatte, S., Zhao, J., Martin, M.M., Zdancewic, S., Cets: compiler enforced temporal safety for c. Proceedings of the 2010 International Symposium on Memory Management, ISMM '10, 2010, ACM, New York, NY, USA, 31\u201340, 10.1145/1806651.1806657.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Cets: compiler enforced temporal safety for c"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/1806651.1806657",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "br0180",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "79959980447",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "31",
+                                "@last": "40"
+                            }},
+                            "ref-text": "ACM New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nagarakatte",
+                                    "ce:indexed-name": "Nagarakatte S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Martin",
+                                    "ce:indexed-name": "Martin M.M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zdancewic",
+                                    "ce:indexed-name": "Zdancewic S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2010 International Symposium on Memory Management, ISMM '10"
+                        },
+                        "ce:source-text": "S. Nagarakatte, J. Zhao, M. M. Martin, S. Zdancewic, Cets: Compiler enforced temporal safety for c, in: Proceedings of the 2010 International Symposium on Memory Management, ISMM '10, ACM, New York, NY, USA, 2010, pp. 31\u201340. doi:10.1145/1806651.1806657. URL http://doi.acm.org/10.1145/1806651.1806657"
+                    },
+                    {
+                        "ref-fulltext": "Nethercote, N., Seward, J., How to shadow every byte of memory used by a program. Proceedings of the 3rd International Conference on Virtual Execution Environments, VEE '07, 2007, ACM, New York, NY, USA, 65\u201374, 10.1145/1254810.1254820.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "How to shadow every byte of memory used by a program"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/1254810.1254820",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "br0190",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "35448963872",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "65",
+                                "@last": "74"
+                            }},
+                            "ref-text": "ACM New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nethercote",
+                                    "ce:indexed-name": "Nethercote N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Seward",
+                                    "ce:indexed-name": "Seward J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 3rd International Conference on Virtual Execution Environments, VEE '07"
+                        },
+                        "ce:source-text": "N. Nethercote, J. Seward, How to shadow every byte of memory used by a program, in: Proceedings of the 3rd International Conference on Virtual Execution Environments, VEE '07, ACM, New York, NY, USA, 2007, pp. 65\u201374. doi:10.1145/1254810.1254820. URL http://doi.acm.org/10.1145/1254810.1254820"
+                    },
+                    {
+                        "ref-fulltext": "AMD Technology, AMD64 Technology AMD64 Architecture Programmer's Manual Volume 2: System Programming, Publication No. 24593, Revision 3.30, 2018.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "br0200",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85089214859",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "2"}},
+                            "ref-text": "AMD64 Technology AMD64 Architecture Programmer's Manual System Programming, Publication No. 24593, Revision 3.30.",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.M.D.",
+                                "@_fa": "true",
+                                "ce:surname": "Technology",
+                                "ce:indexed-name": "Technology A.M.D."
+                            }]}
+                        },
+                        "ce:source-text": "AMD Technology, AMD64 Technology AMD64 Architecture Programmer's Manual Volume 2: System Programming, Publication No. 24593, Revision 3.30, 2018."
+                    },
+                    {
+                        "ref-fulltext": "Intel, Intel® 64 and IA-32 Architectures Software Developer's Manual Combined Volumes: 1, 2A, 2B, 2C, 2D, 3A, 3B, 3C, 3D, and 4, 2019.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "br0210",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85089236942",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Intel, Intel® 64 and IA-32 Architectures Software Developer's Manual Combined Volumes: 1, 2A, 2B, 2C, 2D, 3A, 3B, 3C, 3D, and 4."
+                        },
+                        "ce:source-text": "Intel, Intel® 64 and IA-32 Architectures Software Developer's Manual Combined Volumes: 1, 2A, 2B, 2C, 2D, 3A, 3B, 3C, 3D, and 4, 2019."
+                    },
+                    {
+                        "ref-fulltext": "Saeed, A., Ahmadinia, A., Just, M., Tag-protector: an effective and dynamic detection of out-of-bound memory accesses. Proceedings of the Third Workshop on Cryptography and Security in Computing Systems, CS2 '16, 2016, ACM, New York, NY, USA, 31\u201336, 10.1145/2858930.2858936.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Tag-protector: an effective and dynamic detection of out-of-bound memory accesses"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/2858930.2858936",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "br0220",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84961145816",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "31",
+                                "@last": "36"
+                            }},
+                            "ref-text": "ACM New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Saeed",
+                                    "ce:indexed-name": "Saeed A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ahmadinia",
+                                    "ce:indexed-name": "Ahmadinia A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Just",
+                                    "ce:indexed-name": "Just M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Third Workshop on Cryptography and Security in Computing Systems, CS2 '16"
+                        },
+                        "ce:source-text": "A. Saeed, A. Ahmadinia, M. Just, Tag-protector: An effective and dynamic detection of out-of-bound memory accesses, in: Proceedings of the Third Workshop on Cryptography and Security in Computing Systems, CS2 '16, ACM, New York, NY, USA, 2016, pp. 31\u201336. doi:10.1145/2858930.2858936. URL http://doi.acm.org/10.1145/2858930.2858936"
+                    },
+                    {
+                        "ref-fulltext": "Wilander, J., Nikiforakis, N., Younan, Y., Kamkar, M., Joosen, W., Ripe: runtime intrusion prevention evaluator. Proceedings of the 27th Annual Computer Security Applications Conference, 2011, ACM, 41\u201350.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Ripe: runtime intrusion prevention evaluator"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "br0230",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84855669733",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "41",
+                                "@last": "50"
+                            }},
+                            "ref-text": "ACM",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wilander",
+                                    "ce:indexed-name": "Wilander J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nikiforakis",
+                                    "ce:indexed-name": "Nikiforakis N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Younan",
+                                    "ce:indexed-name": "Younan Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kamkar",
+                                    "ce:indexed-name": "Kamkar M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Joosen",
+                                    "ce:indexed-name": "Joosen W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 27th Annual Computer Security Applications Conference"
+                        },
+                        "ce:source-text": "J. Wilander, N. Nikiforakis, Y. Younan, M. Kamkar, W. Joosen, Ripe: runtime intrusion prevention evaluator, in: Proceedings of the 27th Annual Computer Security Applications Conference, ACM, 2011, pp. 41\u201350."
+                    },
+                    {
+                        "ref-fulltext": "National Institute of Standards and Technology (NIST), Nist software assurance reference dataset project. https://samate.nist.gov/SARD/, Mar. 2019. (Accessed 4 March 2019)",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://samate.nist.gov/SARD/",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Nist software assurance reference dataset project"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "br0240",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85085479297",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "(Accessed 4 March 2019)",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "National Institute of Standards and Technology (NIST)",
+                                "ce:indexed-name": "National Institute of Standards and Technology (NIST)"
+                            }]}
+                        },
+                        "ce:source-text": "National Institute of Standards and Technology (NIST), Nist software assurance reference dataset project, accessed: 2019-03-04 (Mar. 2019). URL https://samate.nist.gov/SARD/"
+                    },
+                    {
+                        "ref-fulltext": "Rosenberg, E., Test suite #89: a taxonomy of buffer overflows. https://samate.nist.gov/SARD/view.php?tsID=89. (Accessed 7 September 2018)",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://samate.nist.gov/SARD/view.php?tsID=89",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Test suite #89: a taxonomy of buffer overflows"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "br0250",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85089243602",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "(Accessed 7 September 2018)",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "E.",
+                                "@_fa": "true",
+                                "ce:surname": "Rosenberg",
+                                "ce:indexed-name": "Rosenberg E."
+                            }]}
+                        },
+                        "ce:source-text": "E. Rosenberg, Test suite #89: A taxonomy of buffer overflows, accessed: 2018-9-7. URL https://samate.nist.gov/SARD/view.php?tsID=89"
+                    },
+                    {
+                        "ref-fulltext": "Kratkiewicz, K., Lippmann, R., A taxonomy of buffer overflows for evaluating static and dynamic software testing tools. Proceedings of Workshop on Software Security Assurance Tools, Techniques, and Metrics, vol. 500, 2006, NIST, 44.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "A taxonomy of buffer overflows for evaluating static and dynamic software testing tools"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "br0260",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84866255308",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "500"},
+                                "pagerange": {"@first": "44"}
+                            },
+                            "ref-text": "NIST",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kratkiewicz",
+                                    "ce:indexed-name": "Kratkiewicz K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lippmann",
+                                    "ce:indexed-name": "Lippmann R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of Workshop on Software Security Assurance Tools, Techniques, and Metrics"
+                        },
+                        "ce:source-text": "K. Kratkiewicz, R. Lippmann, A taxonomy of buffer overflows for evaluating static and dynamic software testing tools, in: Proceedings of Workshop on Software Security Assurance Tools, Techniques, and Metrics, Vol. 500, NIST, 2006, p. 44."
+                    },
+                    {
+                        "ref-fulltext": "Rogers, A., Carlisle, M.C., Reppy, J.H., Hendren, L.J., Supporting dynamic data structures on distributed-memory machines. ACM Trans. Program. Lang. Syst. 17:2 (1995), 233\u2013263, 10.1145/201059.201065.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1995"},
+                            "ref-title": {"ref-titletext": "Supporting dynamic data structures on distributed-memory machines"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/201059.201065",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "br0270",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0029273301",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "17",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "233",
+                                    "@last": "263"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rogers",
+                                    "ce:indexed-name": "Rogers A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carlisle",
+                                    "ce:indexed-name": "Carlisle M.C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Reppy",
+                                    "ce:indexed-name": "Reppy J.H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hendren",
+                                    "ce:indexed-name": "Hendren L.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Program. Lang. Syst."
+                        },
+                        "ce:source-text": "A. Rogers, M. C. Carlisle, J. H. Reppy, L. J. Hendren, Supporting dynamic data structures on distributed-memory machines, ACM Trans. Program. Lang. Syst. 17 (2) (1995) 233\u2013263. doi:10.1145/201059.201065. URL http://doi.acm.org/10.1145/201059.201065"
+                    },
+                    {
+                        "ref-fulltext": "Zhou, F., Condit, J., Anderson, Z., Bagrak, I., Ennals, R., Harren, M., Necula, G., Brewer, E., Brewer, E., Brewer, E., Safedrive: safe and recoverable extensions using language-based techniques. Proceedings of the 7th Symposium on Operating Systems Design and Implementation, OSDI '06, 2006, USENIX Association, Berkeley, CA, USA, 45\u201360 http://dl.acm.org/citation.cfm?id=1298455.1298461.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://dl.acm.org/citation.cfm?id=1298455.1298461",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Safedrive: safe and recoverable extensions using language-based techniques"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "br0280",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84908296347",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "45",
+                                "@last": "60"
+                            }},
+                            "ref-text": "USENIX Association Berkeley, CA, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Condit",
+                                    "ce:indexed-name": "Condit J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Anderson",
+                                    "ce:indexed-name": "Anderson Z."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bagrak",
+                                    "ce:indexed-name": "Bagrak I."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ennals",
+                                    "ce:indexed-name": "Ennals R."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Harren",
+                                    "ce:indexed-name": "Harren M."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Necula",
+                                    "ce:indexed-name": "Necula G."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brewer",
+                                    "ce:indexed-name": "Brewer E."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brewer",
+                                    "ce:indexed-name": "Brewer E."
+                                },
+                                {
+                                    "@seq": "10",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brewer",
+                                    "ce:indexed-name": "Brewer E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 7th Symposium on Operating Systems Design and Implementation, OSDI '06"
+                        },
+                        "ce:source-text": "F. Zhou, J. Condit, Z. Anderson, I. Bagrak, R. Ennals, M. Harren, G. Necula, E. Brewer, E. Brewer, E. Brewer, Safedrive: Safe and recoverable extensions using language-based techniques, in: Proceedings of the 7th Symposium on Operating Systems Design and Implementation, OSDI '06, USENIX Association, Berkeley, CA, USA, 2006, pp. 45\u201360. URL http://dl.acm.org/citation.cfm?id=1298455.1298461"
+                    },
+                    {
+                        "ref-fulltext": "Necula, G.C., McPeak, S., Weimer, W., Ccured: type-safe retrofitting of legacy code. Proceedings of the 29th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages, POPL '02, 2002, ACM, New York, NY, USA, 128\u2013139, 10.1145/503272.503286.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Ccured: type-safe retrofitting of legacy code"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/503272.503286",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "br0290",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0036040304",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "128",
+                                "@last": "139"
+                            }},
+                            "ref-text": "ACM New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Necula",
+                                    "ce:indexed-name": "Necula G.C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McPeak",
+                                    "ce:indexed-name": "McPeak S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Weimer",
+                                    "ce:indexed-name": "Weimer W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 29th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages, POPL '02"
+                        },
+                        "ce:source-text": "G. C. Necula, S. McPeak, W. Weimer, Ccured: Type-safe retrofitting of legacy code, in: Proceedings of the 29th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages, POPL '02, ACM, New York, NY, USA, 2002, pp. 128\u2013139. doi:10.1145/503272.503286. URL http://doi.acm.org/10.1145/503272.503286"
+                    },
+                    {
+                        "ref-fulltext": "Necula, G.C., McPeak, S., Weimer, W., Ccured: type-safe retrofitting of legacy code. SIGPLAN Not. 37:1 (2002), 128\u2013139, 10.1145/565816.503286.",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Ccured: type-safe retrofitting of legacy code"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/565816.503286",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "br0300",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0036040304",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "37",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "128",
+                                    "@last": "139"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Necula",
+                                    "ce:indexed-name": "Necula G.C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McPeak",
+                                    "ce:indexed-name": "McPeak S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Weimer",
+                                    "ce:indexed-name": "Weimer W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "SIGPLAN Not."
+                        },
+                        "ce:source-text": "G. C. Necula, S. McPeak, W. Weimer, Ccured: Type-safe retrofitting of legacy code, SIGPLAN Not. 37 (1) (2002) 128\u2013139. doi:10.1145/565816.503286. URL http://doi.acm.org/10.1145/565816.503286"
+                    },
+                    {
+                        "ref-fulltext": "Dhurjati, D., Adve, V., Backwards-compatible array bounds checking for c with very low overhead. Proceedings of the 28th International Conference on Software Engineering, ICSE '06, 2006, ACM, New York, NY, USA, 162\u2013171, 10.1145/1134285.1134309.",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Backwards-compatible array bounds checking for c with very low overhead"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/1134285.1134309",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "br0310",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "34247170052",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "162",
+                                "@last": "171"
+                            }},
+                            "ref-text": "ACM New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dhurjati",
+                                    "ce:indexed-name": "Dhurjati D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Adve",
+                                    "ce:indexed-name": "Adve V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 28th International Conference on Software Engineering, ICSE '06"
+                        },
+                        "ce:source-text": "D. Dhurjati, V. Adve, Backwards-compatible array bounds checking for c with very low overhead, in: Proceedings of the 28th International Conference on Software Engineering, ICSE '06, ACM, New York, NY, USA, 2006, pp. 162\u2013171. doi:10.1145/1134285.1134309. URL http://doi.acm.org/10.1145/1134285.1134309"
+                    },
+                    {
+                        "ref-fulltext": "Dhurjati, D., Safecode: a platform for developing reliable software in unsafe languages. Ph.D. thesis, Champaign, IL, USA, aAI3242832, 2006.",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Safecode: a platform for developing reliable software in unsafe languages"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "br0320",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85089222576",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Ph.D. thesis, Champaign, IL, USA, aAI3242832",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "D.",
+                                "@_fa": "true",
+                                "ce:surname": "Dhurjati",
+                                "ce:indexed-name": "Dhurjati D."
+                            }]}
+                        },
+                        "ce:source-text": "D. Dhurjati, Safecode: A platform for developing reliable software in unsafe languages, Ph.D. thesis, Champaign, IL, USA, aAI3242832 (2006)."
+                    },
+                    {
+                        "ref-fulltext": "Nagarakatte, S., Zhao, J., Martin, M.M., Zdancewic, S., Softbound: highly compatible and complete spatial memory safety for c. Proceedings of the 30th ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '09, 2009, ACM, New York, NY, USA, 245\u2013258, 10.1145/1542476.1542504.",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Softbound: highly compatible and complete spatial memory safety for c"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/1542476.1542504",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "br0330",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "70450237674",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "245",
+                                "@last": "258"
+                            }},
+                            "ref-text": "ACM New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nagarakatte",
+                                    "ce:indexed-name": "Nagarakatte S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Martin",
+                                    "ce:indexed-name": "Martin M.M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zdancewic",
+                                    "ce:indexed-name": "Zdancewic S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 30th ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '09"
+                        },
+                        "ce:source-text": "S. Nagarakatte, J. Zhao, M. M. Martin, S. Zdancewic, Softbound: Highly compatible and complete spatial memory safety for c, in: Proceedings of the 30th ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '09, ACM, New York, NY, USA, 2009, pp. 245\u2013258. doi:10.1145/1542476.1542504. URL http://doi.acm.org/10.1145/1542476.1542504"
+                    },
+                    {
+                        "ref-fulltext": "Serebryany, K., Bruening, D., Potapenko, A., Vyukov, D., Addresssanitizer: a fast address sanity checker. USENIX ATC 2012, 2012 https://www.usenix.org/conference/usenixfederatedconferencesweek/addresssanitizer-fast-address-sanity-checker.",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.usenix.org/conference/usenixfederatedconferencesweek/addresssanitizer-fast-address-sanity-checker",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Addresssanitizer: a fast address sanity checker"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "br0340",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84887496635",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Serebryany",
+                                    "ce:indexed-name": "Serebryany K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bruening",
+                                    "ce:indexed-name": "Bruening D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Potapenko",
+                                    "ce:indexed-name": "Potapenko A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vyukov",
+                                    "ce:indexed-name": "Vyukov D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "USENIX ATC 2012"
+                        },
+                        "ce:source-text": "K. Serebryany, D. Bruening, A. Potapenko, D. Vyukov, Addresssanitizer: A fast address sanity checker, in: USENIX ATC 2012, 2012. URL https://www.usenix.org/conference/usenixfederatedconferencesweek/addresssanitizer-fast-address-sanity-checker"
+                    },
+                    {
+                        "ref-fulltext": "Cowan, C., Pu, C., Maier, D., Hintony, H., Walpole, J., Bakke, P., Beattie, S., Grier, A., Wagle, P., Zhang, Q., Stackguard: automatic adaptive detection and prevention of buffer-overflow attacks. Proceedings of the 7th Conference on USENIX Security Symposium, vol. 7, SSYM'98, 1998, USENIX Association, USA, 5.",
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Stackguard: automatic adaptive detection and prevention of buffer-overflow attacks"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "br0350",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85084160243",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {"@first": "5"}},
+                            "ref-text": "USENIX Association USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cowan",
+                                    "ce:indexed-name": "Cowan C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pu",
+                                    "ce:indexed-name": "Pu C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maier",
+                                    "ce:indexed-name": "Maier D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hintony",
+                                    "ce:indexed-name": "Hintony H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Walpole",
+                                    "ce:indexed-name": "Walpole J."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bakke",
+                                    "ce:indexed-name": "Bakke P."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Beattie",
+                                    "ce:indexed-name": "Beattie S."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grier",
+                                    "ce:indexed-name": "Grier A."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wagle",
+                                    "ce:indexed-name": "Wagle P."
+                                },
+                                {
+                                    "@seq": "10",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Q."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 7th Conference on USENIX Security Symposium, vol. 7, SSYM'98"
+                        },
+                        "ce:source-text": "C. Cowan, C. Pu, D. Maier, H. Hintony, J. Walpole, P. Bakke, S. Beattie, A. Grier, P. Wagle, Q. Zhang, Stackguard: Automatic adaptive detection and prevention of buffer-overflow attacks, in: Proceedings of the 7th Conference on USENIX Security Symposium - Volume 7, SSYM'98, USENIX Association, USA, 1998, p. 5."
+                    },
+                    {
+                        "ref-fulltext": "Piromsopa, K., Enbody, R., Survey of protections from buffer-overflow attacks. Eng. J. 15:2 (2011), 31\u201352, 10.4186/ej.2011.15.2.31 https://www.engj.org/index.php/ej/article/view/112.",
+                        "@id": "36",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.engj.org/index.php/ej/article/view/112",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Survey of protections from buffer-overflow attacks"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.4186/ej.2011.15.2.31",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "br0360",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "79960815763",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "15",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "31",
+                                    "@last": "52"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Piromsopa",
+                                    "ce:indexed-name": "Piromsopa K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Enbody",
+                                    "ce:indexed-name": "Enbody R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Eng. J."
+                        },
+                        "ce:source-text": "K. Piromsopa, R. Enbody, Survey of protections from buffer-overflow attacks, Engineering Journal 15 (2) (2011) 31\u201352. doi:10.4186/ej.2011.15.2.31. URL https://www.engj.org/index.php/ej/article/view/112"
+                    },
+                    {
+                        "ref-fulltext": "Plater, D.W., Yesha, Y., Park, E.K., Extensions to the c programming language for enhanced fault detection. Softw. Pract. Exp. 23:6 (1993), 617\u2013628, 10.1002/spe.4380230604.",
+                        "@id": "37",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1993"},
+                            "ref-title": {"ref-titletext": "Extensions to the c programming language for enhanced fault detection"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1002/spe.4380230604",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "br0370",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0027610052",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "23",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "617",
+                                    "@last": "628"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Plater",
+                                    "ce:indexed-name": "Plater D.W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yesha",
+                                    "ce:indexed-name": "Yesha Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Park",
+                                    "ce:indexed-name": "Park E.K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Softw. Pract. Exp."
+                        },
+                        "ce:source-text": "P. D. W., Y. Yelena, P. E. K., Extensions to the c programming language for enhanced fault detection, Software: Practice and Experience 23 (6) (1993) 617\u2013628. arXiv:https://onlinelibrary.wiley.com/doi/pdf/10.1002/spe.4380230604, doi:10.1002/spe.4380230604. URL https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.4380230604"
+                    },
+                    {
+                        "ref-fulltext": "Steffen, J.L., Adding run-time checking to the portable c compiler. Softw. Pract. Exp. 22:4 (1992), 305\u2013316, 10.1002/spe.4380220403.",
+                        "@id": "38",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "ref-title": {"ref-titletext": "Adding run-time checking to the portable c compiler"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1002/spe.4380220403",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "br0380",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0026845567",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "22",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "305",
+                                    "@last": "316"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.L.",
+                                "@_fa": "true",
+                                "ce:surname": "Steffen",
+                                "ce:indexed-name": "Steffen J.L."
+                            }]},
+                            "ref-sourcetitle": "Softw. Pract. Exp."
+                        },
+                        "ce:source-text": "S. J. L., Adding run-time checking to the portable c compiler, Software: Practice and Experience 22 (4) (1992) 305\u2013316. arXiv:https://onlinelibrary.wiley.com/doi/pdf/10.1002/spe.4380220403, doi:10.1002/spe.4380220403. URL https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.4380220403"
+                    },
+                    {
+                        "ref-fulltext": "Zelkowitz, M.V., McMullin, P.R., Merkel, K.R., Larsen, H.J., Error checking with pointer variables. Proceedings of the 1976 Annual Conference, ACM '76, 1976, ACM, New York, NY, USA, 391\u2013395, 10.1145/800191.805623.",
+                        "@id": "39",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1976"},
+                            "ref-title": {"ref-titletext": "Error checking with pointer variables"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/800191.805623",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "br0390",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84987185930",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "391",
+                                "@last": "395"
+                            }},
+                            "ref-text": "ACM New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zelkowitz",
+                                    "ce:indexed-name": "Zelkowitz M.V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McMullin",
+                                    "ce:indexed-name": "McMullin P.R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Merkel",
+                                    "ce:indexed-name": "Merkel K.R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Larsen",
+                                    "ce:indexed-name": "Larsen H.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 1976 Annual Conference, ACM '76"
+                        },
+                        "ce:source-text": "M. V. Zelkowitz, P. R. McMullin, K. R. Merkel, H. J. Larsen, Error checking with pointer variables, in: Proceedings of the 1976 Annual Conference, ACM '76, ACM, New York, NY, USA, 1976, pp. 391\u2013395. doi:10.1145/800191.805623. URL http://doi.acm.org/10.1145/800191.805623"
+                    },
+                    {
+                        "ref-fulltext": "Jones, R.W.M., Kelly, P.H.J., Backwards-compatible bounds checking for arrays and pointers in c programs. Proceedings of the 3rd International Workshop on Automatic Debugging; 1997 (AADEBUG-97), no. 1, 1997, Linköping University Electronic Press; Linköpings universitet, 13\u201326.",
+                        "@id": "40",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Backwards-compatible bounds checking for arrays and pointers in c programs"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "br0400",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "12544250338",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "13",
+                                "@last": "26"
+                            }},
+                            "ref-text": "Linköping University Electronic Press; Linköpings universitet",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.W.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jones",
+                                    "ce:indexed-name": "Jones R.W.M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.H.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kelly",
+                                    "ce:indexed-name": "Kelly P.H.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 3rd International Workshop on Automatic Debugging; 1997 (AADEBUG-97), no. 1"
+                        },
+                        "ce:source-text": "R. W. M. Jones, P. H. J. Kelly, Backwards-compatible bounds checking for arrays and pointers in c programs, in: Proceedings of the 3rd International Workshop on Automatic Debugging; 1997 (AADEBUG-97), no. 1, Linköping University Electronic Press; Linköpings universitet, 1997, pp. 13\u201326."
+                    },
+                    {
+                        "ref-fulltext": "Ruwase, O., Lam, M.S., A practical dynamic buffer overflow detector. Proceedings of the 11th Annual Network and Distributed System Security Symposium, 2004, 159\u2013169.",
+                        "@id": "41",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "A practical dynamic buffer overflow detector"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "br0410",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "20344400984",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "159",
+                                "@last": "169"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ruwase",
+                                    "ce:indexed-name": "Ruwase O."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lam",
+                                    "ce:indexed-name": "Lam M.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 11th Annual Network and Distributed System Security Symposium"
+                        },
+                        "ce:source-text": "O. Ruwase, M. S. Lam, A practical dynamic buffer overflow detector, in: IN PROCEEDINGS OF THE 11TH ANNUAL NETWORK AND DISTRIBUTED SYSTEM SECURITY SYMPOSIUM, 2004, pp. 159\u2013169."
+                    },
+                    {
+                        "ref-fulltext": "Lattner, C., Adve, V., Automatic pool allocation: improving performance by controlling data structure layout in the heap. Proceedings of the 2005 ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI'05), 2005, PLDI, Chicago, Illinois.",
+                        "@id": "42",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Automatic pool allocation: improving performance by controlling data structure layout in the heap"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "br0420",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "33745249519",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "PLDI Chicago, Illinois",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lattner",
+                                    "ce:indexed-name": "Lattner C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Adve",
+                                    "ce:indexed-name": "Adve V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2005 ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI'05)"
+                        },
+                        "ce:source-text": "C. Lattner, V. Adve, Automatic pool allocation: Improving performance by controlling data structure layout in the heap, in: Proceedings of the 2005 ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI'05), PLDI, Chigago, Illinois, 2005."
+                    },
+                    {
+                        "ref-fulltext": "Akritidis, P., Costa, M., Castro, M., Hand, S., Baggy bounds checking: an efficient and backwards-compatible defense against out-of-bounds errors. 18th USENIX Security Symposium (USENIX Security '09), 2009, USENIX.",
+                        "@id": "43",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Baggy bounds checking: an efficient and backwards-compatible defense against out-of-bounds errors"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "br0430",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85049220056",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "USENIX",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Akritidis",
+                                    "ce:indexed-name": "Akritidis P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Costa",
+                                    "ce:indexed-name": "Costa M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Castro",
+                                    "ce:indexed-name": "Castro M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hand",
+                                    "ce:indexed-name": "Hand S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "18th USENIX Security Symposium (USENIX Security '09)"
+                        },
+                        "ce:source-text": "P. Akritidis, M. Costa, M. Castro, S. Hand, Baggy bounds checking: An efficient and backwards-compatible defense against out-of-bounds errors, in: 18th USENIX Security Symposium (USENIX Security '09), USENIX, 2009."
+                    },
+                    {
+                        "ref-fulltext": "Cox, B., Evans, D., Filipi, A., Rowanhill, J., Hu, W., Davidson, J., Knight, J., Nguyen-Tuong, A., Hiser, J., N-variant systems: a secretless framework for security through diversity. USENIX Security Symposium, 2006, 105\u2013120.",
+                        "@id": "44",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "N-variant systems: a secretless framework for security through diversity"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "br0440",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84886393009",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "105",
+                                "@last": "120"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cox",
+                                    "ce:indexed-name": "Cox B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Evans",
+                                    "ce:indexed-name": "Evans D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Filipi",
+                                    "ce:indexed-name": "Filipi A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rowanhill",
+                                    "ce:indexed-name": "Rowanhill J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu W."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Davidson",
+                                    "ce:indexed-name": "Davidson J."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Knight",
+                                    "ce:indexed-name": "Knight J."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nguyen-Tuong",
+                                    "ce:indexed-name": "Nguyen-Tuong A."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hiser",
+                                    "ce:indexed-name": "Hiser J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "USENIX Security Symposium"
+                        },
+                        "ce:source-text": "B. Cox, D. Evans, A. Filipi, J. Rowanhill, W. Hu, J. Davidson, J. Knight, A. Nguyen-Tuong, J. Hiser, N-variant systems: A secretless framework for security through diversity., in: USENIX Security Symposium, 2006, pp. 105\u2013120."
+                    },
+                    {
+                        "ref-fulltext": "Salamat, B., Gal, A., Jackson, T., Manivannan, K., Wagner, G., Franz, M., Multi-variant program execution: using multi-core systems to defuse buffer-overflow vulnerabilities. 2008 International Conference on Complex, Intelligent and Software Intensive Systems, 2008, 843\u2013848, 10.1109/CISIS.2008.136.",
+                        "@id": "45",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Multi-variant program execution: using multi-core systems to defuse buffer-overflow vulnerabilities"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/CISIS.2008.136",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "br0450",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "53149125681",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "843",
+                                "@last": "848"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Salamat",
+                                    "ce:indexed-name": "Salamat B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gal",
+                                    "ce:indexed-name": "Gal A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jackson",
+                                    "ce:indexed-name": "Jackson T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Manivannan",
+                                    "ce:indexed-name": "Manivannan K."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wagner",
+                                    "ce:indexed-name": "Wagner G."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Franz",
+                                    "ce:indexed-name": "Franz M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2008 International Conference on Complex, Intelligent and Software Intensive Systems"
+                        },
+                        "ce:source-text": "B. Salamat, A. Gal, T. Jackson, K. Manivannan, G. Wagner, M. Franz, Multi-variant program execution: Using multi-core systems to defuse buffer-overflow vulnerabilities, in: 2008 International Conference on Complex, Intelligent and Software Intensive Systems, 2008, pp. 843\u2013848. doi:10.1109/CISIS.2008.136."
+                    },
+                    {
+                        "ref-fulltext": "Salamat, B., Jackson, T., Gal, A., Franz, M., Orchestra: intrusion detection using parallel execution and monitoring of program variants in user-space. Proceedings of the 4th ACM European Conference on Computer Systems, EuroSys '09, 2009, ACM, New York, NY, USA, 33\u201346, 10.1145/1519065.1519071.",
+                        "@id": "46",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Orchestra: intrusion detection using parallel execution and monitoring of program variants in user-space"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/1519065.1519071",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "br0460",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "70349127596",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "33",
+                                "@last": "46"
+                            }},
+                            "ref-text": "ACM New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Salamat",
+                                    "ce:indexed-name": "Salamat B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jackson",
+                                    "ce:indexed-name": "Jackson T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gal",
+                                    "ce:indexed-name": "Gal A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Franz",
+                                    "ce:indexed-name": "Franz M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 4th ACM European Conference on Computer Systems, EuroSys '09"
+                        },
+                        "ce:source-text": "B. Salamat, T. Jackson, A. Gal, M. Franz, Orchestra: Intrusion detection using parallel execution and monitoring of program variants in user-space, in: Proceedings of the 4th ACM European Conference on Computer Systems, EuroSys '09, ACM, New York, NY, USA, 2009, pp. 33\u201346. doi:10.1145/1519065.1519071. URL http://doi.acm.org/10.1145/1519065.1519071"
+                    },
+                    {
+                        "ref-fulltext": "Volckaert, S., Coppens, B., De Sutter, B., Cloning your gadgets: complete rop attack immunity with multi-variant execution. IEEE Trans. Dependable Secure Comput. 13:4 (2016), 437\u2013450, 10.1109/TDSC.2015.2411254.",
+                        "@id": "47",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Cloning your gadgets: complete rop attack immunity with multi-variant execution"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/TDSC.2015.2411254",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "br0470",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84978652278",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "13",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "437",
+                                    "@last": "450"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Volckaert",
+                                    "ce:indexed-name": "Volckaert S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Coppens",
+                                    "ce:indexed-name": "Coppens B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "De Sutter",
+                                    "ce:indexed-name": "De Sutter B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Dependable Secure Comput."
+                        },
+                        "ce:source-text": "S. Volckaert, B. Coppens, B. De Sutter, Cloning your gadgets: Complete rop attack immunity with multi-variant execution, IEEE Transactions on Dependable and Secure Computing 13 (4) (2016) 437\u2013450. doi:10.1109/TDSC.2015.2411254."
+                    },
+                    {
+                        "ref-fulltext": "Volckaert, S., Coppens, B., De Sutter, B., De Bosschere, K., Larsen, P., Franz, M., Taming parallelism in a multi-variant execution environment. Proceedings of the Twelfth European Conference on Computer Systems, EuroSys '17, 2017, ACM, New York, NY, USA, 270\u2013285, 10.1145/3064176.3064178.",
+                        "@id": "48",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Taming parallelism in a multi-variant execution environment"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/3064176.3064178",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "br0480",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85019261284",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "270",
+                                "@last": "285"
+                            }},
+                            "ref-text": "ACM New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Volckaert",
+                                    "ce:indexed-name": "Volckaert S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Coppens",
+                                    "ce:indexed-name": "Coppens B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "De Sutter",
+                                    "ce:indexed-name": "De Sutter B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "De Bosschere",
+                                    "ce:indexed-name": "De Bosschere K."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Larsen",
+                                    "ce:indexed-name": "Larsen P."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Franz",
+                                    "ce:indexed-name": "Franz M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Twelfth European Conference on Computer Systems, EuroSys '17"
+                        },
+                        "ce:source-text": "S. Volckaert, B. Coppens, B. De Sutter, K. De Bosschere, P. Larsen, M. Franz, Taming parallelism in a multi-variant execution environment, in: Proceedings of the Twelfth European Conference on Computer Systems, EuroSys '17, ACM, New York, NY, USA, 2017, pp. 270\u2013285. doi:10.1145/3064176.3064178. URL http://doi.acm.org/10.1145/3064176.3064178"
+                    },
+                    {
+                        "ref-fulltext": "Novark, G., Berger, E.D., Zorn, B.G., Exterminator: automatically correcting memory errors with high probability. Proceedings of the 28th ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '07, 2007, ACM, New York, NY, USA, 1\u201311, 10.1145/1250734.1250736.",
+                        "@id": "49",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Exterminator: automatically correcting memory errors with high probability"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/1250734.1250736",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "br0490",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "67650033387",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "11"
+                            }},
+                            "ref-text": "ACM New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Novark",
+                                    "ce:indexed-name": "Novark G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Berger",
+                                    "ce:indexed-name": "Berger E.D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zorn",
+                                    "ce:indexed-name": "Zorn B.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 28th ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '07"
+                        },
+                        "ce:source-text": "G. Novark, E. D. Berger, B. G. Zorn, Exterminator: Automatically correcting memory errors with high probability, in: Proceedings of the 28th ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '07, ACM, New York, NY, USA, 2007, pp. 1\u201311. doi:10.1145/1250734.1250736. URL http://doi.acm.org/10.1145/1250734.1250736"
+                    },
+                    {
+                        "ref-fulltext": "Berger, E.D., Zorn, B.G., Diehard: probabilistic memory safety for unsafe languages. Proceedings of the 27th ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '06, 2006, ACM, New York, NY, USA, 158\u2013168, 10.1145/1133981.1134000.",
+                        "@id": "50",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Diehard: probabilistic memory safety for unsafe languages"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/1133981.1134000",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "br0500",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "33746101822",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "158",
+                                "@last": "168"
+                            }},
+                            "ref-text": "ACM New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Berger",
+                                    "ce:indexed-name": "Berger E.D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zorn",
+                                    "ce:indexed-name": "Zorn B.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 27th ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '06"
+                        },
+                        "ce:source-text": "E. D. Berger, B. G. Zorn, Diehard: Probabilistic memory safety for unsafe languages, in: Proceedings of the 27th ACM SIGPLAN Conference on Programming Language Design and Implementation, PLDI '06, ACM, New York, NY, USA, 2006, pp. 158\u2013168. doi:10.1145/1133981.1134000. URL http://doi.acm.org/10.1145/1133981.1134000"
+                    },
+                    {
+                        "ref-fulltext": "Tian, D., Zeng, Q., Wu, D., Liu, P., Hu, C., Kruiser: semi-synchronized non-blocking concurrent kernel heap buffer overflow monitoring. NDSS, 2012.",
+                        "@id": "51",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Kruiser: semi-synchronized non-blocking concurrent kernel heap buffer overflow monitoring"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "br0510",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84897683997",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tian",
+                                    "ce:indexed-name": "Tian D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zeng",
+                                    "ce:indexed-name": "Zeng Q."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu P."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "NDSS"
+                        },
+                        "ce:source-text": "D. Tian, Q. Zeng, D. Wu, P. Liu, C. Hu, Kruiser: Semi-synchronized non-blocking concurrent kernel heap buffer overflow monitoring., in: NDSS, 2012."
+                    },
+                    {
+                        "ref-fulltext": "Navas, J.A., Clam: a static analyzer based on crab for llvm-based languages. https://github.com/seahorn/crab-llvm, April 2020. (Accessed 19 April 2020)",
+                        "@id": "52",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://github.com/seahorn/crab-llvm",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Clam: a static analyzer based on crab for llvm-based languages"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "br0520",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85089210550",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "(Accessed 19 April 2020)",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.A.",
+                                "@_fa": "true",
+                                "ce:surname": "Navas",
+                                "ce:indexed-name": "Navas J.A."
+                            }]}
+                        },
+                        "ce:source-text": "J. A. Navas, Clam: a static analyzer based on crab for llvm-based languages, accessed: 2020-04-19 (April. 2020). URL https://github.com/seahorn/crab-llvm"
+                    },
+                    {
+                        "ref-fulltext": "Cadar, C., Dunbar, D., Engler, D., Klee: unassisted and automatic generation of high-coverage tests for complex systems programs. Proceedings of the 8th USENIX Conference on Operating Systems Design and Implementation, OSDI'08, 2008, USENIX Association, USA, 209\u2013224.",
+                        "@id": "53",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Klee: unassisted and automatic generation of high-coverage tests for complex systems programs"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "br0530",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85076893888",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "209",
+                                "@last": "224"
+                            }},
+                            "ref-text": "USENIX Association USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cadar",
+                                    "ce:indexed-name": "Cadar C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dunbar",
+                                    "ce:indexed-name": "Dunbar D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Engler",
+                                    "ce:indexed-name": "Engler D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 8th USENIX Conference on Operating Systems Design and Implementation, OSDI'08"
+                        },
+                        "ce:source-text": "C. Cadar, D. Dunbar, D. Engler, Klee: Unassisted and automatic generation of high-coverage tests for complex systems programs, in: Proceedings of the 8th USENIX Conference on Operating Systems Design and Implementation, OSDI'08, USENIX Association, USA, 2008, p. 209\u2013224."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Bangkok",
+        "@id": "60028190",
+        "affilname": "Chulalongkorn University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+        "affiliation-country": "Thailand"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85089216629",
+        "dc:description": "This paper presents BoundWarden, a novel spatial memory safety enforcement approach that utilizes a combination of compile-time transformation and runtime concurrent monitoring techniques. The compiler extension component of BoundWarden transparently instruments source code of C programs with the code that allows the runtime component of BoundWarden to comprehensively detect and prevent buffer overflow and other out-of-bound errors in buffers on the stack, heap, as well as BSS and data segments of memory. To reduce runtime overhead of bound checking, the runtime component of BoundWarden leverages the ubiquity of multi-core processors by offloading most of the work to a dedicated bound checking thread, which is responsible for performing bound checking and managing metadata. To preserve memory layout and maintain compatibility with existing libraries and binaries, BoundWarden stores the base and the bound of buffers in a separated dedicated bound table. Experiments showed that the prototype of BoundWarden is effective at enforcing spatial memory safety by successfully passing all 850 tests of RIPE test suite, and 94% of NIST's SARD test suite 89, while the results from the Olden benchmark suite showed that on average BoundWarden introduced roughly 1.85x overhead, compared to the uninstrumented code.",
+        "prism:coverDate": "2020-10-15",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85089216629",
+        "subtypeDescription": "Article",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Smith",
+            "preferred-name": {
+                "ce:given-name": "Smith",
+                "ce:initials": "S.",
+                "ce:surname": "Dhumbumroong",
+                "ce:indexed-name": "Dhumbumroong S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Dhumbumroong",
+            "@auid": "43261137200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/43261137200",
+            "ce:indexed-name": "Dhumbumroong S."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85089216629"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85089216629&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85089216629&origin=inward"
+            }
+        ],
+        "prism:publicationName": "Science of Computer Programming",
+        "source-id": "28416",
+        "pii": "S0167642320301271",
+        "citedby-count": "2",
+        "prism:volume": "198",
+        "subtype": "ar",
+        "dc:title": "BoundWarden: Thread-enforced spatial memory safety through compile-time transformations",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1016/j.scico.2020.102519",
+        "prism:issn": "01676423",
+        "publishercopyright": "© 2020 Elsevier B.V.",
+        "article-number": "102519",
+        "dc:identifier": "SCOPUS_ID:85089216629",
+        "dc:publisher": "Elsevier B.V."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Buffer overflows",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Compile time",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Memory layout",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Monitoring techniques",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Multi-core processor",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "OLDEN benchmarks",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Runtime overheads",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Spatial memory",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Bound checking thread"
+        },
+        {
+            "@_fa": "true",
+            "$": "Buffer overflows"
+        },
+        {
+            "@_fa": "true",
+            "$": "Compile-time transformation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Concurrent monitoring"
+        },
+        {
+            "@_fa": "true",
+            "$": "Spatial memory safety"
+        }
+    ]},
+    "subject-areas": {"subject-area": [{
+        "@_fa": "true",
+        "$": "Software",
+        "@code": "1712",
+        "@abbrev": "COMP"
+    }]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Smith",
+            "preferred-name": {
+                "ce:given-name": "Smith",
+                "ce:initials": "S.",
+                "ce:surname": "Dhumbumroong",
+                "ce:indexed-name": "Dhumbumroong S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Dhumbumroong",
+            "@auid": "43261137200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/43261137200",
+            "ce:indexed-name": "Dhumbumroong S."
+        },
+        {
+            "ce:given-name": "Krerk",
+            "preferred-name": {
+                "ce:given-name": "Krerk",
+                "ce:initials": "K.",
+                "ce:surname": "Piromsopa",
+                "ce:indexed-name": "Piromsopa K."
+            },
+            "@seq": "2",
+            "ce:initials": "K.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Piromsopa",
+            "@auid": "14018355900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/14018355900",
+            "ce:indexed-name": "Piromsopa K."
+        }
+    ]}
+}}

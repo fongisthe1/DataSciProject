@@ -1,0 +1,1433 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "04",
+                "@timestamp": "2021-08-04T17:08:33.000033-04:00",
+                "@year": "2021",
+                "@month": "08"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2018",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": {
+                "xocs:funding-agency-matched-string": "Chulalongkorn University",
+                "xocs:funding-agency-acronym": "CU",
+                "xocs:funding-agency": "Chulalongkorn University",
+                "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002873",
+                "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+            },
+            "xocs:funding-addon-generated-timestamp": "2021-06-29T22:57:33.677Z",
+            "xocs:funding-text": "T. Panboonyuen thanks the scholarship from Chulalongkorn University to commemorate the 72 Anniversary of H.M. King Bhumibala Aduladeja. He also thanks Dr. Panu Srestasathiern from GISTDA for his invaluable guidance. nd",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Department of Computer Engineering"},
+                                {"$": "Faculty of Engineering"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "113891981"
+                            },
+                            "@dptid": "113891981"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Teerapong",
+                                "preferred-name": {
+                                    "ce:given-name": "Teerapong",
+                                    "ce:initials": "T.",
+                                    "ce:surname": "Panboonyuen",
+                                    "ce:indexed-name": "Panboonyuen T."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "T.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Panboonyuen",
+                                "@auid": "57194783124",
+                                "ce:indexed-name": "Panboonyuen T."
+                            },
+                            {
+                                "ce:given-name": "Peerapon",
+                                "preferred-name": {
+                                    "ce:given-name": "Peerapon",
+                                    "ce:initials": "P.",
+                                    "ce:surname": "Vateekul",
+                                    "ce:indexed-name": "Vateekul P."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "P.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Vateekul",
+                                "@auid": "24829867400",
+                                "ce:indexed-name": "Vateekul P."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60021543",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Department of Computer Science"},
+                                {"$": "Faculty of Science"},
+                                {"$": "King Mongkut\u2019s Institute of Technology Ladkrabang"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60021543",
+                                "@dptid": "108061186"
+                            },
+                            "@dptid": "108061186"
+                        },
+                        "author": [{
+                            "ce:given-name": "Kulsawasd",
+                            "preferred-name": {
+                                "ce:given-name": "Kulsawasd",
+                                "ce:initials": "K.",
+                                "ce:surname": "Jitkajornwanich",
+                                "ce:indexed-name": "Jitkajornwanich K."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "K.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Jitkajornwanich",
+                            "@auid": "44061499300",
+                            "ce:indexed-name": "Jitkajornwanich K."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60091494",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": {"$": "Geo-Informatics and Space Technology Development Agency (Public Organization)"},
+                            "affiliation-id": {"@afid": "60091494"}
+                        },
+                        "author": [{
+                            "ce:given-name": "Siam",
+                            "preferred-name": {
+                                "ce:given-name": "Siam",
+                                "ce:initials": "S.",
+                                "ce:surname": "Lawawirojwong",
+                                "ce:indexed-name": "Lawawirojwong S."
+                            },
+                            "@seq": "4",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Lawawirojwong",
+                            "@auid": "55349185500",
+                            "ce:indexed-name": "Lawawirojwong S."
+                        }]
+                    }
+                ],
+                "citation-title": "An enhanced deep convolutional encoder-decoder network for road segmentation on aerial imagery",
+                "abstracts": "© Springer International Publishing AG 2018.Object classification from images is among the many practical examples where deep learning algorithms have successfully been applied. In this paper, we present an improved deep convolutional encoder-decoder network (DCED) for segmenting road objects from aerial images. Several aspects of the proposed method are enhanced, incl. incorporation of ELU (exponential linear unit)\u2014as opposed to ReLU (rectified linear unit) that typically outperforms ELU in most object classification cases; amplification of datasets by adding incrementally-rotated images with eight different angles in the training corpus (this eliminates the limitation that the number of training aerial images is usually limited), thus the number of training datasets is increased by eight times; and lastly, adoption of landscape metrics to further improve the overall quality of results by removing false road objects. The most recent DCED approach for object segmentation, namely SegNet, is used as one of the benchmarks in evaluating our method. The experiments were conducted on a well-known aerial imagery, Massachusetts roads dataset (Mass. Roads), which is publicly available. The results showed that our method outperforms all of the baselines in terms of precision, recall, and F1 scores.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Department of Computer Engineering"},
+                            {"$": "Faculty of Engineering"},
+                            {"$": "Chulalongkorn University"}
+                        ]
+                    },
+                    "person": {
+                        "ce:given-name": "Teerapong",
+                        "ce:initials": "T.",
+                        "ce:surname": "Panboonyuen",
+                        "ce:indexed-name": "Panboonyuen T."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Deep convolutional neural network",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Deep learning",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Image processing",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Remote sensing",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Road segmentation",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://www.springer.com/series/11156",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Advances in Intelligent Systems and Computing",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {"@volume": "566"},
+                        "pagerange": {
+                            "@first": "191",
+                            "@last": "201"
+                        }
+                    },
+                    "@type": "k",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9783319606620",
+                        "@type": "print",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "13th International Conference on Computing and Information Technology, IC2IT 2017",
+                            "confsponsors": {
+                                "confsponsor": null,
+                                "@complete": "n"
+                            },
+                            "confnumber": "13th",
+                            "confseriestitle": "International Conference on Computing and Information Technology",
+                            "conflocation": {
+                                "@country": "tha",
+                                "city": "Bangkok"
+                            },
+                            "confcode": "193529",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "07",
+                                    "@year": "2017",
+                                    "@month": "07"
+                                },
+                                "startdate": {
+                                    "@day": "06",
+                                    "@year": "2017",
+                                    "@month": "07"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Advances in Intelligent Systems and Computing",
+                    "contributor-group": [
+                        {"contributor": {
+                            "ce:given-name": "Phayung",
+                            "@seq": "1",
+                            "ce:initials": "P.",
+                            "ce:surname": "Meesad",
+                            "@role": "edit",
+                            "ce:indexed-name": "Meesad P."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Sunantha",
+                            "@seq": "2",
+                            "ce:initials": "S.",
+                            "ce:surname": "Sodsee",
+                            "@role": "edit",
+                            "ce:indexed-name": "Sodsee S."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Herwig",
+                            "@seq": "1",
+                            "ce:initials": "H.",
+                            "ce:surname": "Unger",
+                            "@role": "edit",
+                            "ce:indexed-name": "Unger H."
+                        }}
+                    ],
+                    "publicationdate": {
+                        "year": "2018",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2018"
+                        }
+                    },
+                    "sourcetitle-abbrev": "Adv. Intell. Sys. Comput.",
+                    "@country": "deu",
+                    "issuetitle": "Recent Advances in Information and Communication Technology 2017 - Proceedings of the 13th International Conference on Computing and Information Technology, IC2IT 2017",
+                    "issn": {
+                        "$": "21945357",
+                        "@type": "print"
+                    },
+                    "publicationyear": {"@first": "2018"},
+                    "publisher": {
+                        "publishername": "Springer Verlag",
+                        "ce:e-address": {
+                            "$": "service@springer.de",
+                            "@type": "email"
+                        }
+                    },
+                    "@srcid": "5100152904"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "406.2",
+                                "classification-description": "Roads and Streets"
+                            },
+                            {
+                                "classification-code": "716.1",
+                                "classification-description": "Information and Communication Theory"
+                            },
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing"
+                            },
+                            {
+                                "classification-code": "742.1",
+                                "classification-description": "Photography"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2207"},
+                            {"$": "1700"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "ENGI"},
+                            {"$": "COMP"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "T. Panboonyuen thanks the scholarship from Chulalongkorn University to commemorate the 72nd Anniversary of H.M. King Bhumibala Aduladeja. He also thanks Dr. Panu Srestasathiern from GISTDA for his invaluable guidance.",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": {
+                        "grant-acronym": "CU",
+                        "grant-agency": {
+                            "@iso-code": "tha",
+                            "$": "Chulalongkorn University"
+                        }
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2017 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "14",
+                    "@timestamp": "BST 07:25:25",
+                    "@year": "2017",
+                    "@month": "07"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "617284575",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "666636716",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20172803936918",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "85022177717",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85022177717",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1007/978-3-319-60663-7_18"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "21",
+                "reference": [
+                    {
+                        "ref-fulltext": "Wang, J., Song, J., Chen, M., Yang, Z.: Road network extraction: a neural-dynamic framework based on deep learning and a finite state machine. Int. J. Remote Sens. 36, 3144\u2013 3169 (2015)",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Road network extraction: A neural-dynamic framework based on deep learning and a finite state machine"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84934294672",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "36"}},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Song",
+                                    "ce:indexed-name": "Song J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Remote Sens"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Muruganandham, S.: Semantic segmentation of satellite images using deep learning. M.S. thesis, Czech Technical University in Prague and Luleå University of Technology (2016)",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85019951402",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "M.S. thesis, Czech Technical University in Prague and Luleå University of Technology",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "ce:surname": "Muruganandham",
+                                "ce:indexed-name": "Muruganandham S."
+                            }]},
+                            "ref-sourcetitle": "Semantic Segmentation of Satellite Images Using Deep Learning"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Saito, S., Yamashita, T., Aoki, Y.: Multiple object extraction from aerial imagery with convolutional neural networks. J. Imaging Sci. Technol. 60(1), 1\u20139 (2016)",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Multiple object extraction from aerial imagery with convolutional neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84958721837",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "60",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "9"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Saito",
+                                    "ce:indexed-name": "Saito S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yamashita",
+                                    "ce:indexed-name": "Yamashita T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aoki",
+                                    "ce:indexed-name": "Aoki Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Imaging Sci. Technol"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Long, J., Shelhamer, E., Darrell, T.: Fully convolutional networks for semantic segmentation. In: The IEEE Conference on Computer Vision and Pattern Recognition, pp. 3431-3440 (2015)",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Fully convolutional networks for semantic segmentation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84959205572",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3431",
+                                "@last": "3440"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Long",
+                                    "ce:indexed-name": "Long J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shelhamer",
+                                    "ce:indexed-name": "Shelhamer E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Darrell",
+                                    "ce:indexed-name": "Darrell T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "The IEEE Conference on Computer Vision and Pattern Recognition"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Noh, H., Hong, S., Han, B.: Learning deconvolution network for semantic segmentation. In: International Conference on Computer Vision (2015)",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Learning deconvolution network for semantic segmentation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84973879016",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Noh",
+                                    "ce:indexed-name": "Noh H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hong",
+                                    "ce:indexed-name": "Hong S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Han",
+                                    "ce:indexed-name": "Han B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Conference on Computer Vision"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Badrinarayanan, V., Handa, A., Cipolla, R.: Segnet: a deep convolutional encoder-decoder architecture for robust semantic pixel-wise labelling. arXiv:1505.07293v1 (2015)",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84973893180",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "arXiv:1505.07293v1",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Badrinarayanan",
+                                    "ce:indexed-name": "Badrinarayanan V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Handa",
+                                    "ce:indexed-name": "Handa A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cipolla",
+                                    "ce:indexed-name": "Cipolla R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Segnet: A Deep Convolutional Encoder-Decoder Architecture for Robust Semantic Pixel-Wise Labelling"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Mnih, V.: Machine learning for aerial image labeling. Ph.D. thesis, University of Toronto (2013)",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84906951293",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Ph.D. thesis, University of Toronto",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "V.",
+                                "@_fa": "true",
+                                "ce:surname": "Mnih",
+                                "ce:indexed-name": "Mnih V."
+                            }]},
+                            "ref-sourcetitle": "Machine Learning for Aerial Image Labeling"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Maurya, R., Gupta, P.R., Shukla, A.S.: Road extraction using k-means clustering and morphological operations. In: International Conference on Image Information Processing, pp. 708\u2013714 (2011)",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Road extraction using k-means clustering and morphological operations"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84855911680",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "708",
+                                "@last": "714"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maurya",
+                                    "ce:indexed-name": "Maurya R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gupta",
+                                    "ce:indexed-name": "Gupta P.R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shukla",
+                                    "ce:indexed-name": "Shukla A.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Conference on Image Information Processing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Badrinarayanan, V., Kendall, A., Cipolla, R.: Segnet: a deep convolutional encoder-decoder architecture for image segmentation. arXiv:1511.00561v3 (2016)",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84989829253",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "arXiv:1511.00561v3",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Badrinarayanan",
+                                    "ce:indexed-name": "Badrinarayanan V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kendall",
+                                    "ce:indexed-name": "Kendall A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cipolla",
+                                    "ce:indexed-name": "Cipolla R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Segnet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Clevert, D.A., Unterthiner, T., Hochreiter, S.: Fast and accurate deep network learning by exponential linear units (ELUs). In: 4th International Conference on Learning Representations (2016)",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Fast and accurate deep network learning by exponential linear units (ELUs)"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85083953568",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Clevert",
+                                    "ce:indexed-name": "Clevert D.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Unterthiner",
+                                    "ce:indexed-name": "Unterthiner T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hochreiter",
+                                    "ce:indexed-name": "Hochreiter S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "4Th International Conference on Learning Representations"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Xu, G., Zhang, D., Liu, X.: Road extraction in high resolution images from google earth. In: 7th International Conference on Information and Communication Systems, pp. 556\u2013560 (2009)",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Road extraction in high resolution images from google earth"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77949643461",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "556",
+                                "@last": "560"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "7Th International Conference on Information and Communication Systems"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Visin, F., Ciccone, M., Romero, A.: Reseg: a recurrent neural network-based model for semantic segmentation. arXiv:1511.07053 (2015)",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85041895255",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "arXiv:1511.07053",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Visin",
+                                    "ce:indexed-name": "Visin F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ciccone",
+                                    "ce:indexed-name": "Ciccone M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Romero",
+                                    "ce:indexed-name": "Romero A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Reseg: A Recurrent Neural Network-Based Model for Semantic Segmentation"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Volpi, M., Ferrari, V.: Semantic segmentation of urban scenes by learning local class interactions. In: Computer Vision and Pattern Recognition Workshops, pp. 1\u20139 (2015)",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Semantic segmentation of urban scenes by learning local class interactions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84940382560",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "9"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Volpi",
+                                    "ce:indexed-name": "Volpi M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ferrari",
+                                    "ce:indexed-name": "Ferrari V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer Vision and Pattern Recognition Workshops"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Liu, J., Liu, B., Lu, H.: Detection guided deconvolutional network for hierarchical feature learning. Pattern Recogn. 48(8), 2645\u20132655 (2015)",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Detection guided deconvolutional network for hierarchical feature learning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84928289917",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "48",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "2645",
+                                    "@last": "2655"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lu",
+                                    "ce:indexed-name": "Lu H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Pattern Recogn"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Hong, S., Noh, H., Han, B.: Decoupled deep neural network for semi-supervised semantic segmentation. In: Conference on Neural Information Processing Systems, pp. 1495\u20131503 (2015)",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Decoupled deep neural network for semi-supervised semantic segmentation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84965099276",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1495",
+                                "@last": "1503"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hong",
+                                    "ce:indexed-name": "Hong S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Noh",
+                                    "ce:indexed-name": "Noh H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Han",
+                                    "ce:indexed-name": "Han B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Conference on Neural Information Processing Systems"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ronneberger, O., Fischer, P., Brox, T.: U-net: convolutional networks for biomedical. arXiv: 1505.04597v1 (2015)",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "U-net: Convolutional networks for biomedical"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85071178469",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ronneberger",
+                                    "ce:indexed-name": "Ronneberger O."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fischer",
+                                    "ce:indexed-name": "Fischer P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brox",
+                                    "ce:indexed-name": "Brox T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Arxiv: 1505.04597V1"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Mcgarigal, K.: Landscape metrics for categorical map patterns. McGarigal (Lecture notes), vol. 2001, Chap 5, pp. 1\u201377 (2001)",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "Landscape metrics for categorical map patterns"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84964077360",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "2001",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "77"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "K.",
+                                "@_fa": "true",
+                                "ce:surname": "McGarigal",
+                                "ce:indexed-name": "McGarigal K."
+                            }]},
+                            "ref-sourcetitle": "Mcgarigal (Lecture Notes)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Poullis, C.: Tensor-cuts: a simultaneous multi-type feature extractor and classifier and its application to road extraction from satellite images. ISPRS J. Photogramm. Remote Sens. 95, 93\u2013108 (2014)",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Tensor-cuts: A simultaneous multi-type feature extractor and classifier and its application to road extraction from satellite images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84903849790",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "95"},
+                                "pagerange": {
+                                    "@first": "93",
+                                    "@last": "108"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "C.",
+                                "@_fa": "true",
+                                "ce:surname": "Poullis",
+                                "ce:indexed-name": "Poullis C."
+                            }]},
+                            "ref-sourcetitle": "ISPRS J. Photogramm. Remote Sens"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ioffe, S., Szegedy, C.: Batch normalization: accelerating deep network training by reducing internal covariate shift. In: Proceedings of the 32nd International Conference on Machine Learning, pp. 448\u2013456 (2015)",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Batch normalization: Accelerating deep network training by reducing internal covariate shift"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84969584486",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "448",
+                                "@last": "456"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ioffe",
+                                    "ce:indexed-name": "Ioffe S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Szegedy",
+                                    "ce:indexed-name": "Szegedy C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 32Nd International Conference on Machine Learning"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Simonyan, K., Zisserman, A.: Very deep convolutional networks for large-scale image recognition. In: 3rd International Conference on Learning Representations (2015)",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Very deep convolutional networks for large-scale image recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85083953063",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Simonyan",
+                                    "ce:indexed-name": "Simonyan K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zisserman",
+                                    "ce:indexed-name": "Zisserman A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "3Rd International Conference on Learning Representations"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Everingham, M., Eslami, S.A., Van Gool, L., Williams, C.K., Winn, J., Zisserman, A.: The pascal visual object classes challenge: a retrospective. Int. J. Comput. Vision 111(1), 98\u2013136 (2015)",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "The pascal visual object classes challenge: A retrospective"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84921069139",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "111",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "98",
+                                    "@last": "136"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Everingham",
+                                    "ce:indexed-name": "Everingham M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Eslami",
+                                    "ce:indexed-name": "Eslami S.A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van Gool",
+                                    "ce:indexed-name": "Van Gool L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Williams",
+                                    "ce:indexed-name": "Williams C.K."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Winn",
+                                    "ce:indexed-name": "Winn J."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zisserman",
+                                    "ce:indexed-name": "Zisserman A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Comput. Vision"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60091494",
+            "affilname": "Geo-Informatics and Space Technology Development Agency",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60091494",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Ladkrabang Bangkok",
+            "@id": "60021543",
+            "affilname": "King Mongkut's Institute of Technology Ladkrabang",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021543",
+            "affiliation-country": "Thailand"
+        }
+    ],
+    "coredata": {
+        "srctype": "k",
+        "eid": "2-s2.0-85022177717",
+        "dc:description": "Object classification from images is among the many practical examples where deep learning algorithms have successfully been applied. In this paper, we present an improved deep convolutional encoder-decoder network (DCED) for segmenting road objects from aerial images. Several aspects of the proposed method are enhanced, incl. incorporation of ELU (exponential linear unit)\u2014as opposed to ReLU (rectified linear unit) that typically outperforms ELU in most object classification cases; amplification of datasets by adding incrementally-rotated images with eight different angles in the training corpus (this eliminates the limitation that the number of training aerial images is usually limited), thus the number of training datasets is increased by eight times; and lastly, adoption of landscape metrics to further improve the overall quality of results by removing false road objects. The most recent DCED approach for object segmentation, namely SegNet, is used as one of the benchmarks in evaluating our method. The experiments were conducted on a well-known aerial imagery, Massachusetts roads dataset (Mass. Roads), which is publicly available. The results showed that our method outperforms all of the baselines in terms of precision, recall, and F1 scores.",
+        "prism:coverDate": "2018-01-01",
+        "prism:aggregationType": "Book Series",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85022177717",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Teerapong",
+            "preferred-name": {
+                "ce:given-name": "Teerapong",
+                "ce:initials": "T.",
+                "ce:surname": "Panboonyuen",
+                "ce:indexed-name": "Panboonyuen T."
+            },
+            "@seq": "1",
+            "ce:initials": "T.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Panboonyuen",
+            "@auid": "57194783124",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57194783124",
+            "ce:indexed-name": "Panboonyuen T."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85022177717"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85022177717&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85022177717&origin=inward"
+            }
+        ],
+        "prism:isbn": "9783319606620",
+        "source-id": "5100152904",
+        "citedby-count": "29",
+        "prism:volume": "566",
+        "subtype": "cp",
+        "dc:title": "An enhanced deep convolutional encoder-decoder network for road segmentation on aerial imagery",
+        "openaccess": "0",
+        "prism:issn": "21945357",
+        "publishercopyright": "© Springer International Publishing AG 2018.",
+        "subtypeDescription": "Conference Paper",
+        "prism:publicationName": "Advances in Intelligent Systems and Computing",
+        "prism:pageRange": "191-201",
+        "prism:endingPage": "201",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1007/978-3-319-60663-7_18",
+        "prism:startingPage": "191",
+        "dc:identifier": "SCOPUS_ID:85022177717",
+        "dc:publisher": "Springer Verlagservice@springer.de"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Convolutional encoders",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Convolutional neural network",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Landscape metrics",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Object classification",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Object segmentation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Overall quality",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Road segmentation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Training data sets",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Deep convolutional neural network"
+        },
+        {
+            "@_fa": "true",
+            "$": "Deep learning"
+        },
+        {
+            "@_fa": "true",
+            "$": "Image processing"
+        },
+        {
+            "@_fa": "true",
+            "$": "Remote sensing"
+        },
+        {
+            "@_fa": "true",
+            "$": "Road segmentation"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Control and Systems Engineering",
+            "@code": "2207",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science (all)",
+            "@code": "1700",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Teerapong",
+            "preferred-name": {
+                "ce:given-name": "Teerapong",
+                "ce:initials": "T.",
+                "ce:surname": "Panboonyuen",
+                "ce:indexed-name": "Panboonyuen T."
+            },
+            "@seq": "1",
+            "ce:initials": "T.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Panboonyuen",
+            "@auid": "57194783124",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57194783124",
+            "ce:indexed-name": "Panboonyuen T."
+        },
+        {
+            "ce:given-name": "Peerapon",
+            "preferred-name": {
+                "ce:given-name": "Peerapon",
+                "ce:initials": "P.",
+                "ce:surname": "Vateekul",
+                "ce:indexed-name": "Vateekul P."
+            },
+            "@seq": "2",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Vateekul",
+            "@auid": "24829867400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/24829867400",
+            "ce:indexed-name": "Vateekul P."
+        },
+        {
+            "ce:given-name": "Kulsawasd",
+            "preferred-name": {
+                "ce:given-name": "Kulsawasd",
+                "ce:initials": "K.",
+                "ce:surname": "Jitkajornwanich",
+                "ce:indexed-name": "Jitkajornwanich K."
+            },
+            "@seq": "3",
+            "ce:initials": "K.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60021543",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021543"
+            },
+            "ce:surname": "Jitkajornwanich",
+            "@auid": "44061499300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/44061499300",
+            "ce:indexed-name": "Jitkajornwanich K."
+        },
+        {
+            "ce:given-name": "Siam",
+            "preferred-name": {
+                "ce:given-name": "Siam",
+                "ce:initials": "S.",
+                "ce:surname": "Lawawirojwong",
+                "ce:indexed-name": "Lawawirojwong S."
+            },
+            "@seq": "4",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60091494",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60091494"
+            },
+            "ce:surname": "Lawawirojwong",
+            "@auid": "55349185500",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55349185500",
+            "ce:indexed-name": "Lawawirojwong S."
+        }
+    ]}
+}}

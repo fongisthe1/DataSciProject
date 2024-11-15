@@ -1,0 +1,793 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "02",
+                "@timestamp": "2023-02-02T10:24:57.000057-05:00",
+                "@year": "2023",
+                "@month": "02"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2022",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": {
+                "xocs:funding-agency-matched-string": "Chulalongkorn University",
+                "xocs:funding-agency-acronym": "CU",
+                "xocs:funding-agency": "Chulalongkorn University",
+                "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002873",
+                "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+            },
+            "xocs:funding-addon-generated-timestamp": "2023-01-26T11:26:40.026Z",
+            "xocs:funding-text": "This work was supported in part by the Intelligent Control Automation of Process Systems Research Unit, Ratchadaphiseksomphot Fund, Chulalongkorn University.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "address-part": "254 Phayathai Road, Pathumwan",
+                        "postal-code": "10330",
+                        "@afid": "60028190",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Chulalongkorn University"},
+                            {"$": "Intelligent Control Automation of Process Systems Research Unit"},
+                            {"$": "Department of Electrical Engineering"},
+                            {"$": "Faculty of Engineering"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60028190",
+                            "@dptid": "113845132"
+                        },
+                        "ce:source-text": "Chulalongkorn University 254 Phayathai Road, Pathumwan, Intelligent Control Automation of Process Systems Research Unit, Department of Electrical Engineering, Faculty of Engineering, Bangkok, Thailand, 10330",
+                        "@dptid": "113845132"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Sitthiphat",
+                            "preferred-name": {
+                                "ce:given-name": "Sitthiphat",
+                                "ce:initials": "S.",
+                                "ce:surname": "Promchaiwattana",
+                                "ce:indexed-name": "Promchaiwattana S."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Promchaiwattana",
+                            "@auid": "58072429900",
+                            "ce:indexed-name": "Promchaiwattana S."
+                        },
+                        {
+                            "ce:given-name": "David",
+                            "preferred-name": {
+                                "ce:given-name": "David",
+                                "ce:initials": "D.",
+                                "ce:surname": "Banjerdpongchai",
+                                "ce:indexed-name": "Banjerdpongchai D."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "D.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Banjerdpongchai",
+                            "@auid": "57977758500",
+                            "ce:indexed-name": "Banjerdpongchai D."
+                        }
+                    ]
+                },
+                "citation-title": "Design of Supervisory Model Predictive Control for Building HVAC System Subject to Time-Varying Operating Points",
+                "abstracts": "© 2022 ICROS.This paper presents the design of supervisory model predictive control for HVAC systems with consideration of peak demand shaving and thermal comfort. In this work, we analyze the operating points with the thermal comfort requirement. Afterwards, we linearize the nonlinear dynamic model to a linear time-varying model. In particular, we specify that the operating point of the open-loop HVAC system satisfies the thermal comfort condition. This makes the predicted mean vote (PMV) equal to zero or nearly to zero. Subsequently, we calculate the zone temperature, the zone humidity ratio, and the volumetric flow rate. When considering the time-varying disturbance profiles, it appears that the operating points are time-varying. We observe that the coefficient of performance (COP) and the operating points are time-varying which lead to time-varying model. Moreover, we design supervisory control (SC) and model predictive control (MPC) for linear time-varying model. In the SC design, we aim to find the optimal reference zone temperature which is used as the reference signal for MPC. In the MPC design, the objectives are twofold. First, the zone temperature tracks the reference signal. Second, both electrical energy cost and deviation of desired thermal comfort are minimized. The computer simulation shows that MPC of time-varying HVAC system yields the best reference tracking. In addition, it reduces total electrical energy cost the most. We conclude that the optimal temperature reference can be effectively applied to the building HVAC systems while the occupants feel comfortable and the total electrical energy cost is the lowest.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "address-part": "254 Phayathai Road, Pathumwan",
+                        "postal-code": "10330",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Chulalongkorn University"},
+                            {"$": "Intelligent Control Automation of Process Systems Research Unit"},
+                            {"$": "Department of Electrical Engineering"},
+                            {"$": "Faculty of Engineering"}
+                        ],
+                        "ce:source-text": "Chulalongkorn University 254 Phayathai Road, Pathumwan, Intelligent Control Automation of Process Systems Research Unit, Department of Electrical Engineering, Faculty of Engineering, Bangkok, Thailand, 10330"
+                    },
+                    "person": {
+                        "ce:given-name": "David",
+                        "ce:initials": "D.",
+                        "ce:surname": "Banjerdpongchai",
+                        "ce:indexed-name": "Banjerdpongchai D."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Heating-ventilation-air-conditioning (HVAC) system",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Linear Time-Varying Model (LTVM)",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Predicted Mean Vote (PMV)",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Supervisory Model Predictive Control (SMPC)",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Time-Varying Operating Points (TVOP)",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/conferences.jsp",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "International Conference on Control, Automation and Systems",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {"@volume": "2022-November"},
+                        "pagerange": {
+                            "@first": "1404",
+                            "@last": "1409"
+                        }
+                    },
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9788993215243",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "22nd International Conference on Control, Automation and Systems, ICCAS 2022",
+                            "confnumber": "22",
+                            "confcatnumber": "CFP2210D-ART",
+                            "confseriestitle": "International Conference on Control, Automation and Systems",
+                            "conflocation": {
+                                "@country": "kor",
+                                "city": "Busan"
+                            },
+                            "confcode": "185972",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "01",
+                                    "@year": "2022",
+                                    "@month": "12"
+                                },
+                                "startdate": {
+                                    "@day": "27",
+                                    "@year": "2022",
+                                    "@month": "11"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "International Conference on Control, Automation and Systems",
+                    "publicationdate": {
+                        "year": "2022",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2022"
+                        }
+                    },
+                    "sourcetitle-abbrev": "Int. Conf. Control, Autom. Syst.",
+                    "@country": "usa",
+                    "issuetitle": "2022 22nd International Conference on Control, Automation and Systems, ICCAS 2022",
+                    "issn": {
+                        "$": "15987833",
+                        "@type": "print"
+                    },
+                    "publicationyear": {"@first": "2022"},
+                    "publisher": {"publishername": "IEEE Computer Society"},
+                    "@srcid": "21100197515"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1702"},
+                            {"$": "1706"},
+                            {"$": "2207"},
+                            {"$": "2208"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "402",
+                                "classification-description": "Buildings and Towers"
+                            },
+                            {
+                                "classification-code": "408.1",
+                                "classification-description": "Structural Design, General"
+                            },
+                            {
+                                "classification-code": "643",
+                                "classification-description": "Space Heating, Ventilation and Air Conditioning"
+                            },
+                            {
+                                "classification-code": "716.1",
+                                "classification-description": "Information Theory and Signal Processing"
+                            },
+                            {
+                                "classification-code": "731.1",
+                                "classification-description": "Control Systems"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "78.24",
+                            "classification-description": "HEAT EXCHANGE"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This work was supported in part by the Intelligent Control Automation of Process Systems Research Unit, Ratchadaphiseksomphot Fund, Chulalongkorn University.",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": {
+                        "grant-agency": {
+                            "@iso-code": "tha",
+                            "$": "Chulalongkorn University"
+                        },
+                        "grant-agency-id": "501100002873"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2023 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "25",
+                    "@timestamp": "BST 07:07:38",
+                    "@year": "2023",
+                    "@month": "01"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "640070025",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "945519884",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20230413424995",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20230214151",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20230274803",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85146576002",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85146576002",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.23919/ICCAS55662.2022.10003843"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "7",
+                "reference": [
+                    {
+                        "ref-fulltext": "C. Anuntasethakul and D. Banjerdpongchai, \"Design of supervisory model predictive control for building hvac system with consideration of peak-load shaving and thermal comfort, \" IEEE Access, vol. 9, pp. 41 066-41 081, 2021.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Design of supervisory model predictive control for building hvac system with consideration of peak-load shaving and thermal comfort"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85102626113",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "9"},
+                                "pagerange": {
+                                    "@first": "41066",
+                                    "@last": "41081"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Anuntasethakul",
+                                    "ce:indexed-name": "Anuntasethakul C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Banjerdpongchai",
+                                    "ce:indexed-name": "Banjerdpongchai D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Access"
+                        },
+                        "ce:source-text": "C. Anuntasethakul and D. Banjerdpongchai, \"Design of supervisory model predictive control for building hvac system with consideration of peak-load shaving and thermal comfort, \" IEEE Access, vol. 9, pp. 41 066-41 081, 2021."
+                    },
+                    {
+                        "ref-fulltext": "C. Anuntasethakul, K. Leungrungwason, and D. Banjerdpongchai, \"Design of supervisory model predictive control for building hvac system with time-varying coefficient of performance, \" in 2021 21st International Conference on Control, Automation and Systems (ICCAS). IEEE, 2021, pp. 1055-1060.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Design of supervisory model predictive control for building hvac system with time-varying coefficient of performance"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85124225292",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1055",
+                                "@last": "1060"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Anuntasethakul",
+                                    "ce:indexed-name": "Anuntasethakul C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Leungrungwason",
+                                    "ce:indexed-name": "Leungrungwason K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Banjerdpongchai",
+                                    "ce:indexed-name": "Banjerdpongchai D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2021 21st International Conference on Control, Automation and Systems (ICCAS). IEEE"
+                        },
+                        "ce:source-text": "C. Anuntasethakul, K. Leungrungwason, and D. Banjerdpongchai, \"Design of supervisory model predictive control for building hvac system with time-varying coefficient of performance, \" in 2021 21st International Conference on Control, Automation and Systems (ICCAS). IEEE, 2021, pp. 1055-1060."
+                    },
+                    {
+                        "ref-fulltext": "B. Tashtoush, M. Molhim, and M. Al-Rousan, \"Dynamic model of an hvac system for control analysis, \" Energy, vol. 30, no. 10, pp. 1729-1745, 2005.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Dynamic model of an hvac system for control analysis"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "12444308228",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "30",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {
+                                    "@first": "1729",
+                                    "@last": "1745"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tashtoush",
+                                    "ce:indexed-name": "Tashtoush B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Molhim",
+                                    "ce:indexed-name": "Molhim M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Al-Rousan",
+                                    "ce:indexed-name": "Al-Rousan M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Energy"
+                        },
+                        "ce:source-text": "B. Tashtoush, M. Molhim, and M. Al-Rousan, \"Dynamic model of an hvac system for control analysis, \" Energy, vol. 30, no. 10, pp. 1729-1745, 2005."
+                    },
+                    {
+                        "ref-fulltext": "B. Arguello-Serrano and M. Velez-Reyes, \"Nonlinear control of a heating, ventilating, and air conditioning system with thermal load estimation, \" IEEE Transactions on Control Systems Technology, vol. 7, no. 1, pp. 56-63, 1999.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "Nonlinear control of a heating, ventilating, and air conditioning system with thermal load estimation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0032715954",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "7",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "56",
+                                    "@last": "63"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Arguello-Serrano",
+                                    "ce:indexed-name": "Arguello-Serrano B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Velez-Reyes",
+                                    "ce:indexed-name": "Velez-Reyes M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Control Systems Technology"
+                        },
+                        "ce:source-text": "B. Arguello-Serrano and M. Velez-Reyes, \"Nonlinear control of a heating, ventilating, and air conditioning system with thermal load estimation, \" IEEE Transactions on Control Systems Technology, vol. 7, no. 1, pp. 56-63, 1999."
+                    },
+                    {
+                        "ref-fulltext": "K. Ogata et al., Modern control engineering. Prentice hall Upper Saddle River, NJ, 2010, vol. 5.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003564548",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "5"}},
+                            "ref-text": "Prentice hall Upper Saddle River, NJ",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ogata",
+                                    "ce:indexed-name": "Ogata K."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Modern control engineering"
+                        },
+                        "ce:source-text": "K. Ogata et al., Modern control engineering. Prentice hall Upper Saddle River, NJ, 2010, vol. 5."
+                    },
+                    {
+                        "ref-fulltext": "P. O. Fanger, \"Thermal comfort, analysis and application in environmental engineering, \" 1972.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1972"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0004119966",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "P.O.",
+                                "@_fa": "true",
+                                "ce:surname": "Fanger",
+                                "ce:indexed-name": "Fanger P.O."
+                            }]},
+                            "ref-sourcetitle": "Thermal comfort, analysis and application in environmental engineering"
+                        },
+                        "ce:source-text": "P. O. Fanger, \"Thermal comfort, analysis and application in environmental engineering, \" 1972."
+                    },
+                    {
+                        "ref-fulltext": "A. S. ASHRAE and A. Standard, \"55, thermal environmental conditions for human occupancy, \" 2013.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003632802",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ashrae",
+                                    "ce:indexed-name": "Ashrae A.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Standard",
+                                    "ce:indexed-name": "Standard A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "55, thermal environmental conditions for human occupancy"
+                        },
+                        "ce:source-text": "A. S. ASHRAE and A. Standard, \"55, thermal environmental conditions for human occupancy, \" 2013."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Bangkok",
+        "@id": "60028190",
+        "affilname": "Chulalongkorn University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+        "affiliation-country": "Thailand"
+    },
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85146576002",
+        "dc:description": "This paper presents the design of supervisory model predictive control for HVAC systems with consideration of peak demand shaving and thermal comfort. In this work, we analyze the operating points with the thermal comfort requirement. Afterwards, we linearize the nonlinear dynamic model to a linear time-varying model. In particular, we specify that the operating point of the open-loop HVAC system satisfies the thermal comfort condition. This makes the predicted mean vote (PMV) equal to zero or nearly to zero. Subsequently, we calculate the zone temperature, the zone humidity ratio, and the volumetric flow rate. When considering the time-varying disturbance profiles, it appears that the operating points are time-varying. We observe that the coefficient of performance (COP) and the operating points are time-varying which lead to time-varying model. Moreover, we design supervisory control (SC) and model predictive control (MPC) for linear time-varying model. In the SC design, we aim to find the optimal reference zone temperature which is used as the reference signal for MPC. In the MPC design, the objectives are twofold. First, the zone temperature tracks the reference signal. Second, both electrical energy cost and deviation of desired thermal comfort are minimized. The computer simulation shows that MPC of time-varying HVAC system yields the best reference tracking. In addition, it reduces total electrical energy cost the most. We conclude that the optimal temperature reference can be effectively applied to the building HVAC systems while the occupants feel comfortable and the total electrical energy cost is the lowest.",
+        "prism:coverDate": "2022-01-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85146576002",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Sitthiphat",
+            "preferred-name": {
+                "ce:given-name": "Sitthiphat",
+                "ce:initials": "S.",
+                "ce:surname": "Promchaiwattana",
+                "ce:indexed-name": "Promchaiwattana S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Promchaiwattana",
+            "@auid": "58072429900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58072429900",
+            "ce:indexed-name": "Promchaiwattana S."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85146576002"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85146576002&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85146576002&origin=inward"
+            }
+        ],
+        "prism:isbn": "9788993215243",
+        "source-id": "21100197515",
+        "citedby-count": "0",
+        "prism:volume": "2022-November",
+        "subtype": "cp",
+        "dc:title": "Design of Supervisory Model Predictive Control for Building HVAC System Subject to Time-Varying Operating Points",
+        "openaccess": "0",
+        "prism:issn": "15987833",
+        "publishercopyright": "© 2022 ICROS.",
+        "subtypeDescription": "Conference Paper",
+        "prism:publicationName": "International Conference on Control, Automation and Systems",
+        "prism:pageRange": "1404-1409",
+        "prism:endingPage": "1409",
+        "openaccessFlag": "false",
+        "prism:doi": "10.23919/ICCAS55662.2022.10003843",
+        "prism:startingPage": "1404",
+        "dc:identifier": "SCOPUS_ID:85146576002",
+        "dc:publisher": "IEEE Computer Society"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Heating-ventilation-air-conditioning systems",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Linear time varying models",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Linear time-varying model",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Model-predictive control",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Operating points",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Predicted mean vote",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Supervisory model predictive control",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Time varying",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Time-varying operating point",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Heating-ventilation-air-conditioning (HVAC) system"
+        },
+        {
+            "@_fa": "true",
+            "$": "Linear Time-Varying Model (LTVM)"
+        },
+        {
+            "@_fa": "true",
+            "$": "Predicted Mean Vote (PMV)"
+        },
+        {
+            "@_fa": "true",
+            "$": "Supervisory Model Predictive Control (SMPC)"
+        },
+        {
+            "@_fa": "true",
+            "$": "Time-Varying Operating Points (TVOP)"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Artificial Intelligence",
+            "@code": "1702",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Control and Systems Engineering",
+            "@code": "2207",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Sitthiphat",
+            "preferred-name": {
+                "ce:given-name": "Sitthiphat",
+                "ce:initials": "S.",
+                "ce:surname": "Promchaiwattana",
+                "ce:indexed-name": "Promchaiwattana S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Promchaiwattana",
+            "@auid": "58072429900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58072429900",
+            "ce:indexed-name": "Promchaiwattana S."
+        },
+        {
+            "ce:given-name": "David",
+            "preferred-name": {
+                "ce:given-name": "David",
+                "ce:initials": "D.",
+                "ce:surname": "Banjerdpongchai",
+                "ce:indexed-name": "Banjerdpongchai D."
+            },
+            "@seq": "2",
+            "ce:initials": "D.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Banjerdpongchai",
+            "@auid": "57977758500",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57977758500",
+            "ce:indexed-name": "Banjerdpongchai D."
+        }
+    ]}
+}}

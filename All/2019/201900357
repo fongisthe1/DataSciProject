@@ -1,0 +1,942 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "29",
+                "@timestamp": "2022-08-29T21:32:44.000044-04:00",
+                "@year": "2022",
+                "@month": "08"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2019",
+                "@month": "11"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding-addon-generated-timestamp": "2021-06-04T16:32:29.846Z",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60272485",
+                            "@country": "tha",
+                            "city": "Rayong",
+                            "organization": {"$": "Student of Kamnoetvidya Science Academy"},
+                            "affiliation-id": {"@afid": "60272485"}
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Patipol",
+                                "preferred-name": {
+                                    "ce:given-name": "Patipol",
+                                    "ce:initials": "P.",
+                                    "ce:surname": "Tiyajamorn",
+                                    "ce:indexed-name": "Tiyajamorn P."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "P.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Tiyajamorn",
+                                "@auid": "57217028999",
+                                "ce:indexed-name": "Tiyajamorn P."
+                            },
+                            {
+                                "ce:given-name": "Pollakrit",
+                                "preferred-name": {
+                                    "ce:given-name": "Pollakrit",
+                                    "ce:initials": "P.",
+                                    "ce:surname": "Lorprasertkul",
+                                    "ce:indexed-name": "Lorprasertkul P."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "P.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Lorprasertkul",
+                                "@auid": "57217029059",
+                                "ce:indexed-name": "Lorprasertkul P."
+                            },
+                            {
+                                "ce:given-name": "Rawin",
+                                "preferred-name": {
+                                    "ce:given-name": "Rawin",
+                                    "ce:initials": "R.",
+                                    "ce:surname": "Assabumrungrat",
+                                    "ce:indexed-name": "Assabumrungrat R."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "R.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Assabumrungrat",
+                                "@auid": "57217028384",
+                                "ce:indexed-name": "Assabumrungrat R."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60272485",
+                            "@date-locked": "2022-08-29T08:57:10.882",
+                            "@country": "tha",
+                            "city": "Rayong",
+                            "organization": [
+                                {"$": "Teacher of Kamnoetvidya"},
+                                {"$": "Science Academy"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60272485",
+                                "@dptid": "128487494"
+                            },
+                            "@dptid": "128487494"
+                        },
+                        "author": [{
+                            "ce:given-name": "Warin",
+                            "preferred-name": {
+                                "ce:given-name": "Warin",
+                                "ce:initials": "W.",
+                                "ce:surname": "Poomarin",
+                                "ce:indexed-name": "Poomarin W."
+                            },
+                            "@seq": "4",
+                            "ce:initials": "W.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Poomarin",
+                            "@auid": "55787280300",
+                            "ce:indexed-name": "Poomarin W."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Chulalongkorn University"},
+                                {"$": "Department of Mechanical Engineering"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "104425639"
+                            },
+                            "@dptid": "104425639"
+                        },
+                        "author": [{
+                            "ce:given-name": "Ratchatin",
+                            "preferred-name": {
+                                "ce:given-name": "Ratchatin",
+                                "ce:initials": "R.",
+                                "ce:surname": "Chancharoen",
+                                "ce:indexed-name": "Chancharoen R."
+                            },
+                            "@seq": "5",
+                            "ce:initials": "R.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Chancharoen",
+                            "@auid": "36170214000",
+                            "ce:indexed-name": "Chancharoen R."
+                        }]
+                    }
+                ],
+                "citation-title": "Automatic Trash Classification using Convolutional Neural Network Machine Learning",
+                "abstracts": "© 2019 IEEE.In our current society, there is an increasing amount of trash generated every day. In Thailand, this has become a severe problem, as there are more than 27 million tons of trash that cannot be processed in time generated each year due to the current way of processing garbage. This paper proposes a potential solution by creating AlphaTrash, a machine that can be fitted to conventional curb-side trashcan and used to sort out deposit trash automatically. By using a retrained convolutional neural network (Inception-v1), the machine can classify trash with an accuracy of 94%, while using 4.2 seconds per classification.",
+                "citation-info": {
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=9094049",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Proceedings of the IEEE 2019 9th International Conference on Cybernetics and Intelligent Systems and Robotics, Automation and Mechatronics, CIS and RAM 2019",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"pagerange": {
+                        "@first": "71",
+                        "@last": "76"
+                    }},
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781728134581",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "9th IEEE International Conference on Cybernetics and Intelligent Systems and Robotics, Automation and Mechatronics, CIS and RAM 2019",
+                            "confnumber": "9",
+                            "confcatnumber": "CFP19835-ART",
+                            "confseriestitle": "IEEE International Conference on Cybernetics and Intelligent Systems and Robotics, Automation and Mechatronics",
+                            "conflocation": {
+                                "@country": "tha",
+                                "city": "Bangkok"
+                            },
+                            "confcode": "160043",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "20",
+                                    "@year": "2019",
+                                    "@month": "11"
+                                },
+                                "startdate": {
+                                    "@day": "18",
+                                    "@year": "2019",
+                                    "@month": "11"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Proceedings of the IEEE 2019 9th International Conference on Cybernetics and Intelligent Systems and Robotics, Automation and Mechatronics, CIS and RAM 2019",
+                    "publicationdate": {
+                        "month": "11",
+                        "year": "2019",
+                        "date-text": "November 2019",
+                        "day": "01"
+                    },
+                    "sourcetitle-abbrev": "Proc. IEEE Int. Conf. Cybern. Intell. Syst. Robot., Autom. Mechatronics, CIS RAM",
+                    "@country": "usa",
+                    "issuetitle": "Proceedings of the IEEE 2019 9th International Conference on Cybernetics and Intelligent Systems and Robotics, Automation and Mechatronics, CIS and RAM 2019",
+                    "publicationyear": {"@first": "2019"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "article-number": "9095775",
+                    "@srcid": "21100995103"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1702"},
+                            {"$": "2210"},
+                            {"$": "2606"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "716.1",
+                                "classification-description": "Information and Communication Theory"
+                            },
+                            {
+                                "classification-code": "723.4",
+                                "classification-description": "Artificial Intelligence"
+                            },
+                            {
+                                "classification-code": "731.5",
+                                "classification-description": "Robotics"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "ENGI"},
+                            {"$": "MATH"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2020 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "15",
+                    "@timestamp": "BST 21:39:31",
+                    "@year": "2020",
+                    "@month": "06"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "631966425",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "926127458",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20202308794478",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20202055412",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85085858330",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85085858330",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/CIS-RAM47153.2019.9095775"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "10",
+                "reference": [
+                    {
+                        "ref-fulltext": "The report of garbage information in Thailand. Pollution Control Department of Thailand URL: http://infofile. pcd. go. th/waste/wsthaz-annual59. pdf",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://infofile.pcd.go.th/waste/wsthaz_annual59.pdf",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85085867741",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Pollution Control Department of Thailand",
+                            "ref-sourcetitle": "The Report of Garbage Information in Thailand"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Oskamp, S., Burkhardt, R. L., Schultz, P. W., Hurin, S., & Zelezny, L. (1998). Predicting Three Dimensions of Residential Curbside Recycling: An Observational Study. The Journal of Environmental Education, 29(2), 37-42. doi:10. 1080/00958969809599111",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Predicting three dimensions of residential curbside recycling: An observational study"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1080/00958969809599111",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "0002758285",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "29",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "37",
+                                    "@last": "42"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oskamp",
+                                    "ce:indexed-name": "Oskamp S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Burkhardt",
+                                    "ce:indexed-name": "Burkhardt R.L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schultz",
+                                    "ce:indexed-name": "Schultz P.W."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hurin",
+                                    "ce:indexed-name": "Hurin S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zelezny",
+                                    "ce:indexed-name": "Zelezny L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "The Journal of Environmental Education"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Refun Plastic Recycling Machine. URL: https://refun. com/",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://refun.com/",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85085864392",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-sourcetitle": "Refun Plastic Recycling Machine"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Tomari, Razali & Abdul Kadir, Kadir & Wan Zakaria, W. N & Zakaria, Mohamad Fauzi & Abd Wahab, Mohd Helmy & Hairol Jabbar, Mohamad. (2017). Development of Reverse Vending Machine (RVM) Framework for Implementation to a Standard Recycle Bin. Procedia Computer Science. 105. 75-80. 10. 1016/j. procs. 2017. 01. 202.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Development of reverse vending machine (rvm) framework for implementation to a standard recycle bin"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/j.procs.2017.01.202",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85016096103",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "105"},
+                                "pagerange": {
+                                    "@first": "75",
+                                    "@last": "80"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tomari",
+                                    "ce:indexed-name": "Tomari R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abdul Kadir",
+                                    "ce:indexed-name": "Abdul Kadir K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wan Zakaria",
+                                    "ce:indexed-name": "Wan Zakaria W.N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zakaria",
+                                    "ce:indexed-name": "Zakaria M.F."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abd Wahab",
+                                    "ce:indexed-name": "Abd Wahab M.H."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hairol Jabbar",
+                                    "ce:indexed-name": "Hairol Jabbar M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Procedia Computer Science."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Sonka, M., Hlavac, V., & Boyle, R. (2014). Image processing, analysis, and machine vision. Cengage Learning.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Image processing, analysis, and machine vision"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84923925566",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sonka",
+                                    "ce:indexed-name": "Sonka M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hlavac",
+                                    "ce:indexed-name": "Hlavac V."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boyle",
+                                    "ce:indexed-name": "Boyle R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Cengage Learning"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Liang, M., & Hu, X. (2015). Recurrent convolutional neural network for object recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 3367-3375).",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Recurrent convolutional neural network for object recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84959193001",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3367",
+                                "@last": "3375"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liang",
+                                    "ce:indexed-name": "Liang M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Yang, M., & Thung, G. (2016). Classification of trash for recyclability status. CS229 Project Report, 2016.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Classification of trash for recyclability status"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85055491843",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thung",
+                                    "ce:indexed-name": "Thung G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "CS229 Project Report"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Kaz Sato (2016), How a Japanese cucumber farmer is using deep learning and TensorFlow, GOOGLE CLOUD PLATFORM",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85019019463",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "K.",
+                                "@_fa": "true",
+                                "ce:surname": "Sato",
+                                "ce:indexed-name": "Sato K."
+                            }]},
+                            "ref-sourcetitle": "How A Japanese Cucumber Farmer Is Using Deep Learning and TensorFlow, GOOGLE CLOUD PLATFORM"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Szegedy, C., Liu, W., Jia, Y., Sermanet, P., Reed, S., Anguelov, D.,.. & Rabinovich, A. (2015). Going deeper with convolutions. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 1-9).",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Going deeper with convolutions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84937522268",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "9"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Szegedy",
+                                    "ce:indexed-name": "Szegedy C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jia",
+                                    "ce:indexed-name": "Jia Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sermanet",
+                                    "ce:indexed-name": "Sermanet P."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Reed",
+                                    "ce:indexed-name": "Reed S."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Anguelov",
+                                    "ce:indexed-name": "Anguelov D."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rabinovich",
+                                    "ce:indexed-name": "Rabinovich A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Yosinski, J., Clune, J., Nguyen, A., Fuchs, T., & Lipson, H. (2015). Understanding neural networks through deep visualization. arXiv preprint arXiv:1506. 06579.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "arXiv preprint arXiv:1506. 06579",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84959091021",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yosinski",
+                                    "ce:indexed-name": "Yosinski J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Clune",
+                                    "ce:indexed-name": "Clune J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nguyen",
+                                    "ce:indexed-name": "Nguyen A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fuchs",
+                                    "ce:indexed-name": "Fuchs T."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lipson",
+                                    "ce:indexed-name": "Lipson H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Understanding Neural Networks Through Deep Visualization"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Rayong",
+            "@id": "60272485",
+            "affilname": "Kamnoetvidya Science Academy",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60272485",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        }
+    ],
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85085858330",
+        "dc:description": "In our current society, there is an increasing amount of trash generated every day. In Thailand, this has become a severe problem, as there are more than 27 million tons of trash that cannot be processed in time generated each year due to the current way of processing garbage. This paper proposes a potential solution by creating AlphaTrash, a machine that can be fitted to conventional curb-side trashcan and used to sort out deposit trash automatically. By using a retrained convolutional neural network (Inception-v1), the machine can classify trash with an accuracy of 94%, while using 4.2 seconds per classification.",
+        "prism:coverDate": "2019-11-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85085858330",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Patipol",
+            "preferred-name": {
+                "ce:given-name": "Patipol",
+                "ce:initials": "P.",
+                "ce:surname": "Tiyajamorn",
+                "ce:indexed-name": "Tiyajamorn P."
+            },
+            "@seq": "1",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60272485",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60272485"
+            },
+            "ce:surname": "Tiyajamorn",
+            "@auid": "57217028999",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57217028999",
+            "ce:indexed-name": "Tiyajamorn P."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85085858330"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85085858330&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85085858330&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781728134581",
+        "source-id": "21100995103",
+        "citedby-count": "10",
+        "subtype": "cp",
+        "dc:title": "Automatic Trash Classification using Convolutional Neural Network Machine Learning",
+        "openaccess": "0",
+        "publishercopyright": "© 2019 IEEE.",
+        "article-number": "9095775",
+        "subtypeDescription": "Conference Paper",
+        "prism:publicationName": "Proceedings of the IEEE 2019 9th International Conference on Cybernetics and Intelligent Systems and Robotics, Automation and Mechatronics, CIS and RAM 2019",
+        "prism:pageRange": "71-76",
+        "prism:endingPage": "76",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/CIS-RAM47153.2019.9095775",
+        "prism:startingPage": "71",
+        "dc:identifier": "SCOPUS_ID:85085858330",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": {
+        "$": "Thailand",
+        "@weight": "b",
+        "@candidate": "n"
+    }},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": null,
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Artificial Intelligence",
+            "@code": "1702",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Mechanical Engineering",
+            "@code": "2210",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Control and Optimization",
+            "@code": "2606",
+            "@abbrev": "MATH"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Patipol",
+            "preferred-name": {
+                "ce:given-name": "Patipol",
+                "ce:initials": "P.",
+                "ce:surname": "Tiyajamorn",
+                "ce:indexed-name": "Tiyajamorn P."
+            },
+            "@seq": "1",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60272485",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60272485"
+            },
+            "ce:surname": "Tiyajamorn",
+            "@auid": "57217028999",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57217028999",
+            "ce:indexed-name": "Tiyajamorn P."
+        },
+        {
+            "ce:given-name": "Pollakrit",
+            "preferred-name": {
+                "ce:given-name": "Pollakrit",
+                "ce:initials": "P.",
+                "ce:surname": "Lorprasertkul",
+                "ce:indexed-name": "Lorprasertkul P."
+            },
+            "@seq": "2",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60272485",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60272485"
+            },
+            "ce:surname": "Lorprasertkul",
+            "@auid": "57217029059",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57217029059",
+            "ce:indexed-name": "Lorprasertkul P."
+        },
+        {
+            "ce:given-name": "Rawin",
+            "preferred-name": {
+                "ce:given-name": "Rawin",
+                "ce:initials": "R.",
+                "ce:surname": "Assabumrungrat",
+                "ce:indexed-name": "Assabumrungrat R."
+            },
+            "@seq": "3",
+            "ce:initials": "R.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60272485",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60272485"
+            },
+            "ce:surname": "Assabumrungrat",
+            "@auid": "57217028384",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57217028384",
+            "ce:indexed-name": "Assabumrungrat R."
+        },
+        {
+            "ce:given-name": "Warin",
+            "preferred-name": {
+                "ce:given-name": "Warin",
+                "ce:initials": "W.",
+                "ce:surname": "Poomarin",
+                "ce:indexed-name": "Poomarin W."
+            },
+            "@seq": "4",
+            "ce:initials": "W.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60272485",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60272485"
+            },
+            "ce:surname": "Poomarin",
+            "@auid": "55787280300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55787280300",
+            "ce:indexed-name": "Poomarin W."
+        },
+        {
+            "ce:given-name": "Ratchatin",
+            "preferred-name": {
+                "ce:given-name": "Ratchatin",
+                "ce:initials": "R.",
+                "ce:surname": "Chancharoen",
+                "ce:indexed-name": "Chancharoen R."
+            },
+            "@seq": "5",
+            "ce:initials": "R.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Chancharoen",
+            "@auid": "36170214000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/36170214000",
+            "ce:indexed-name": "Chancharoen R."
+        }
+    ]}
+}}

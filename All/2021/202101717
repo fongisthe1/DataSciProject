@@ -1,0 +1,1257 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "21",
+                "@timestamp": "2023-03-21T23:35:41.000041-04:00",
+                "@year": "2023",
+                "@month": "03"
+            },
+            "ait:date-sort": {
+                "@day": "30",
+                "@year": "2021",
+                "@month": "06"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Chulalongkorn University"},
+                                {"$": "Department of Computer Engineering"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "113891981"
+                            },
+                            "ce:source-text": "Chulalongkorn University,Faculty of Engineering,Department of Computer Engineering,Bangkok,Thailand",
+                            "@dptid": "113891981"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Pattarapong",
+                                "preferred-name": {
+                                    "ce:given-name": "Pattarapong",
+                                    "ce:initials": "P.",
+                                    "ce:surname": "Danpoonkij",
+                                    "ce:indexed-name": "Danpoonkij P."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "P.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Danpoonkij",
+                                "@auid": "57226685558",
+                                "ce:indexed-name": "Danpoonkij P."
+                            },
+                            {
+                                "ce:given-name": "Peerapon",
+                                "preferred-name": {
+                                    "ce:given-name": "Peerapon",
+                                    "ce:initials": "P.",
+                                    "ce:surname": "Vateekul",
+                                    "ce:indexed-name": "Vateekul P."
+                                },
+                                "@seq": "6",
+                                "ce:initials": "P.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Vateekul",
+                                "@auid": "24829867400",
+                                "ce:indexed-name": "Vateekul P."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Japan",
+                            "@afid": "60090368",
+                            "@country": "jpn",
+                            "city": "Chiba",
+                            "organization": [
+                                {"$": "Weathernews Inc."},
+                                {"$": "Ai Image Group"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60090368",
+                                "@dptid": "126713625"
+                            },
+                            "ce:source-text": "Weathernews Inc.,AI Image Group,Chiba,Japan",
+                            "@dptid": "126713625"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Nutnaree",
+                                "preferred-name": {
+                                    "ce:given-name": "Nutnaree",
+                                    "ce:initials": "N.",
+                                    "ce:surname": "Kleawsirikul",
+                                    "ce:indexed-name": "Kleawsirikul N."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "N.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Kleawsirikul",
+                                "@auid": "56748040700",
+                                "ce:indexed-name": "Kleawsirikul N."
+                            },
+                            {
+                                "ce:given-name": "Patamawadee",
+                                "preferred-name": {
+                                    "ce:given-name": "Patamawadee",
+                                    "ce:initials": "P.",
+                                    "ce:surname": "Leepaisomboon",
+                                    "ce:indexed-name": "Leepaisomboon P."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "P.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Leepaisomboon",
+                                "@auid": "57211848632",
+                                "ce:indexed-name": "Leepaisomboon P."
+                            },
+                            {
+                                "ce:given-name": "Natnapat",
+                                "preferred-name": {
+                                    "ce:given-name": "Natnapat",
+                                    "ce:initials": "N.",
+                                    "ce:surname": "Gaviphatt",
+                                    "ce:indexed-name": "Gaviphatt N."
+                                },
+                                "@seq": "4",
+                                "ce:initials": "N.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Gaviphatt",
+                                "@auid": "57094968000",
+                                "ce:indexed-name": "Gaviphatt N."
+                            },
+                            {
+                                "ce:given-name": "Hidetomo",
+                                "preferred-name": {
+                                    "ce:given-name": "Hidetomo",
+                                    "ce:initials": "H.",
+                                    "ce:surname": "Sakaino",
+                                    "ce:indexed-name": "Sakaino H."
+                                },
+                                "@seq": "5",
+                                "ce:initials": "H.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Sakaino",
+                                "@auid": "55884770200",
+                                "ce:indexed-name": "Sakaino H."
+                            }
+                        ]
+                    }
+                ],
+                "citation-title": "Incorporating Prior Scientific Knowledge into Deep Learning for Precipitation Nowcasting on Radar Images",
+                "abstracts": "© 2021 IEEE.Precipitation nowcasting aims to precisely predict the rainfall intensity in the near future that can be applied in various applications. A common approach is to simulate the complex physical processes or extrapolate the rainfall from the current stage. The existing deep learning model for this task uses an end-to-end network to forecast, but this approach has often met with limited success due to the complexities of the problem. Therefore, this paper proposes a novel hybrid model that combines the scientific method from meteorology and the deep learning method from computer science. We experimented with the model on both simulated data and radar images. Also, we have created the simulated data to imitate important features from radar images. The results show that our hybrid modeling approach outperforms all baselines on almost all datasets (both simulated and the radar data).",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Chulalongkorn University"},
+                            {"$": "Department of Computer Engineering"}
+                        ],
+                        "ce:source-text": "Chulalongkorn University,Faculty of Engineering,Department of Computer Engineering,Bangkok,Thailand"
+                    },
+                    "person": {
+                        "ce:given-name": "Peerapon",
+                        "ce:initials": "P.",
+                        "ce:surname": "Vateekul",
+                        "ce:indexed-name": "Vateekul P."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Deep Learning",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Nowcasting",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Physical Processes",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Radar Images",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Spatial-Temporal Analysis",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=9493665",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "JCSSE 2021 - 18th International Joint Conference on Computer Science and Software Engineering: Cybernetics for Human Beings",
+                        "@xml:lang": "eng"
+                    },
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781665438315",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "18th International Joint Conference on Computer Science and Software Engineering, JCSSE 2021",
+                            "confnumber": "18",
+                            "conforganization": "Thammasat University",
+                            "confcatnumber": "CFP2132P-ART",
+                            "confseriestitle": "International Joint Conference on Computer Science and Software Engineering",
+                            "conflocation": {"city": "Virtual, Online"},
+                            "confcode": "170707",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "03",
+                                    "@year": "2021",
+                                    "@month": "07"
+                                },
+                                "startdate": {
+                                    "@day": "30",
+                                    "@year": "2021",
+                                    "@month": "06"
+                                }
+                            },
+                            "conftheme": "Cybernetics for Human Beings"
+                        }
+                    }},
+                    "sourcetitle": "JCSSE 2021 - 18th International Joint Conference on Computer Science and Software Engineering: Cybernetics for Human Beings",
+                    "publicationdate": {
+                        "month": "06",
+                        "year": "2021",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "30 June 2021"
+                        },
+                        "day": "30"
+                    },
+                    "sourcetitle-abbrev": "JCSSE - Int. Jt. Conf. Comput. Sci. Softw. Eng.: Cybern. Hum. Beings",
+                    "@country": "usa",
+                    "issuetitle": "JCSSE 2021 - 18th International Joint Conference on Computer Science and Software Engineering: Cybernetics for Human Beings",
+                    "publicationyear": {"@first": "2021"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "article-number": "9493821",
+                    "@srcid": "21101055711"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1702"},
+                            {"$": "1706"},
+                            {"$": "1707"},
+                            {"$": "1709"},
+                            {"$": "1711"},
+                            {"$": "1712"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "443.3",
+                                "classification-description": "Precipitation"
+                            },
+                            {
+                                "classification-code": "716.2",
+                                "classification-description": "Radar Systems and Equipment"
+                            },
+                            {
+                                "classification-code": "723.1",
+                                "classification-description": "Computer Programming"
+                            },
+                            {
+                                "classification-code": "901.2",
+                                "classification-description": "Education"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "COMP"
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2021 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "15",
+                    "@timestamp": "BST 07:02:22",
+                    "@year": "2021",
+                    "@month": "08"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "635714512",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "935022163",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20213310769310",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20212731212",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85112386961",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85112386961",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/JCSSE53117.2021.9493821"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "16",
+                "reference": [
+                    {
+                        "ref-fulltext": "R. H. Douglas, \"The Stormy Weather Group (Canada), \" 1990.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1990"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0001402209",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.H.",
+                                "@_fa": "true",
+                                "ce:surname": "Douglas",
+                                "ce:indexed-name": "Douglas R.H."
+                            }]},
+                            "ref-sourcetitle": "The Stormy Weather Group (Canada)"
+                        },
+                        "ce:source-text": "R. H. Douglas, \"The Stormy Weather Group (Canada), \" 1990."
+                    },
+                    {
+                        "ref-fulltext": "J. Willard, X. Jia, S. Xu, M. Steinbach, and V. Kumar, \"Integrating Physics-Based Modeling with Machine Learning: A Survey, \" arXiv preprint arXiv:2003.04919, 2020. [Online]. Available: https://ui.adsabs.harvard.edu/abs/2020arXiv200304919W.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://ui.adsabs.harvard.edu/abs/2020arXiv200304919W",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85089955406",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "arXiv preprint arXiv:2003.04919, [Online].",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Willard",
+                                    "ce:indexed-name": "Willard J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jia",
+                                    "ce:indexed-name": "Jia X."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Steinbach",
+                                    "ce:indexed-name": "Steinbach M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kumar",
+                                    "ce:indexed-name": "Kumar V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Integrating Physics-Based Modeling with Machine Learning: a Survey"
+                        },
+                        "ce:source-text": "J. Willard, X. Jia, S. Xu, M. Steinbach, and V. Kumar, \"Integrating Physics-Based Modeling with Machine Learning: A Survey, \" arXiv preprint arXiv:2003.04919, 2020. [Online]. Available: https://ui.adsabs.harvard.edu/abs/2020arXiv200304919W."
+                    },
+                    {
+                        "ref-fulltext": "O. Ronneberger, P. Fischer, and T. Brox, \"U-net: Convolutional networks for biomedical image segmentation, \" in International Conference on Medical image computing and computer-assisted intervention, 2015: Springer, pp. 234-241.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "U-net: Convolutional networks for biomedical image segmentation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84951834022",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "234",
+                                "@last": "241"
+                            }},
+                            "ref-text": "Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ronneberger",
+                                    "ce:indexed-name": "Ronneberger O."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fischer",
+                                    "ce:indexed-name": "Fischer P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brox",
+                                    "ce:indexed-name": "Brox T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Conference on Medical Image Computing and Computer-assisted Intervention"
+                        },
+                        "ce:source-text": "O. Ronneberger, P. Fischer, and T. Brox, \"U-net: Convolutional networks for biomedical image segmentation, \" in International Conference on Medical image computing and computer-assisted intervention, 2015: Springer, pp. 234-241."
+                    },
+                    {
+                        "ref-fulltext": "P. Welsh et al., \"Implementing and evaluating the Weather Research and Forecast (WRF) Model at NWS WFO Jacksonville, Florida.\".",
+                        "@id": "4",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85112378844",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Welsh",
+                                    "ce:indexed-name": "Welsh P."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Implementing and Evaluating the Weather Research and Forecast (WRF) Model at NWS WFO Jacksonville, Florida"
+                        },
+                        "ce:source-text": "P. Welsh et al., \"Implementing and evaluating the Weather Research and Forecast (WRF) Model at NWS WFO Jacksonville, Florida.\"."
+                    },
+                    {
+                        "ref-fulltext": "D. Šaur, \"Evaluation of the Accuracy of Numerical Weather Prediction Models, \" Cham, 2015: Springer International Publishing, in Artificial Intelligence Perspectives and Applications, pp. 181-191.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Evaluation of the accuracy of numerical weather prediction models"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84940918153",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "181",
+                                "@last": "191"
+                            }},
+                            "ref-text": "Cham, Springer International Publishing",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "D.",
+                                "@_fa": "true",
+                                "ce:surname": "Šaur",
+                                "ce:indexed-name": "Saur D."
+                            }]},
+                            "ref-sourcetitle": "Artificial Intelligence Perspectives and Applications"
+                        },
+                        "ce:source-text": "D. Šaur, \"Evaluation of the Accuracy of Numerical Weather Prediction Models, \" Cham, 2015: Springer International Publishing, in Artificial Intelligence Perspectives and Applications, pp. 181-191."
+                    },
+                    {
+                        "ref-fulltext": "Z. Pu and E. Kalnay, \"Numerical Weather Prediction Basics: Models, Numerical Methods, and Data Assimilation, \" in Handbook of Hydro meteorological Ensemble Forecasting, Q. Duan, F. Pappenberger, A. Wood, H. L. Cloke, and J. C. Schaake Eds. Berlin, Heidelberg: Springer Berlin Heidelberg, 2019, pp. 67-97.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Numerical weather prediction basics: Models, numerical methods, and data assimilation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85138407116",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "67",
+                                "@last": "97"
+                            }},
+                            "ref-text": "Q. Duan, F. Pappenberger, A. Wood, H. L. Cloke, and J. C. Schaake Eds. Berlin, Heidelberg: Springer Berlin Heidelberg",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pu",
+                                    "ce:indexed-name": "Pu Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kalnay",
+                                    "ce:indexed-name": "Kalnay E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Handbook of Hydro Meteorological Ensemble Forecasting"
+                        },
+                        "ce:source-text": "Z. Pu and E. Kalnay, \"Numerical Weather Prediction Basics: Models, Numerical Methods, and Data Assimilation, \" in Handbook of Hydro meteorological Ensemble Forecasting, Q. Duan, F. Pappenberger, A. Wood, H. L. Cloke, and J. C. Schaake Eds. Berlin, Heidelberg: Springer Berlin Heidelberg, 2019, pp. 67-97."
+                    },
+                    {
+                        "ref-fulltext": "W.-c. Woo and W.-k. Wong, \"Operational Application of Optical Flow Techniques to Radar-Based Rainfall Now casting, \" Atmosphere, vol. 8, no. 3, p. 48, 2017. [Online]. Available: https://www.mdpi.com/2073-4433/8/3/48.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.mdpi.com/2073-4433/8/3/48",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Operational application of optical flow techniques to radar-based rainfall now casting"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85015107774",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "8",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {"@first": "48"}
+                            },
+                            "ref-text": "[Online].",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.-C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Woo",
+                                    "ce:indexed-name": "Woo W.-C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.-K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wong",
+                                    "ce:indexed-name": "Wong W.-K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Atmosphere"
+                        },
+                        "ce:source-text": "W.-c. Woo and W.-k. Wong, \"Operational Application of Optical Flow Techniques to Radar-Based Rainfall Now casting, \" Atmosphere, vol. 8, no. 3, p. 48, 2017. [Online]. Available: https://www.mdpi.com/2073-4433/8/3/48."
+                    },
+                    {
+                        "ref-fulltext": "G. Ayzel, M. Heistermann, and T. Winterrath, \"Optical flow models as an open benchmark for radar-based precipitation nowcasting (rainymotion v0.1), \" Geosci. Model Dev., vol. 12, no. 4, pp. 1387-1402, 2019, doi: 10.5194/gmd-12-1387-2019.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Optical flow models as an open benchmark for radar-based precipitation nowcasting (rainymotion v0.1)"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85064206345",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "12",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "1387",
+                                    "@last": "1402"
+                                }
+                            },
+                            "ref-text": "doi: 10.5194/gmd-12-1387-2019",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ayzel",
+                                    "ce:indexed-name": "Ayzel G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Heistermann",
+                                    "ce:indexed-name": "Heistermann M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Winterrath",
+                                    "ce:indexed-name": "Winterrath T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Geosci. Model Dev"
+                        },
+                        "ce:source-text": "G. Ayzel, M. Heistermann, and T. Winterrath, \"Optical flow models as an open benchmark for radar-based precipitation nowcasting (rainymotion v0.1), \" Geosci. Model Dev., vol. 12, no. 4, pp. 1387-1402, 2019, doi: 10.5194/gmd-12-1387-2019."
+                    },
+                    {
+                        "ref-fulltext": "S. Agrawal, L. Barrington, C. Bromberg, J. Burge, C. Gazen, and J. Hickey, \"Machine learning for precipitation now casting from radar images, \" arXiv preprint arXiv:1912.12132, 2019.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85082317925",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "arXiv preprint arXiv:1912.12132",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Agrawal",
+                                    "ce:indexed-name": "Agrawal S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Barrington",
+                                    "ce:indexed-name": "Barrington L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bromberg",
+                                    "ce:indexed-name": "Bromberg C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Burge",
+                                    "ce:indexed-name": "Burge J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gazen",
+                                    "ce:indexed-name": "Gazen C."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hickey",
+                                    "ce:indexed-name": "Hickey J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Machine Learning for Precipitation Now Casting from Radar Images"
+                        },
+                        "ce:source-text": "S. Agrawal, L. Barrington, C. Bromberg, J. Burge, C. Gazen, and J. Hickey, \"Machine learning for precipitation now casting from radar images, \" arXiv preprint arXiv:1912.12132, 2019."
+                    },
+                    {
+                        "ref-fulltext": "E. De Bezenac, A. Pajot, and P. Gallinari, \"Deep learning for physical processes: Incorporating prior scientific knowledge, \" Journal of Statistical Mechanics: Theory and Experiment, vol. 2019, no. 12, p. 124009, 2019.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Deep learning for physical processes: Incorporating prior scientific knowledge"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85079872997",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "2019",
+                                    "@issue": "12"
+                                },
+                                "pagerange": {"@first": "124009"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "De Bezenac",
+                                    "ce:indexed-name": "De Bezenac E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pajot",
+                                    "ce:indexed-name": "Pajot A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gallinari",
+                                    "ce:indexed-name": "Gallinari P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Statistical Mechanics: Theory and Experiment"
+                        },
+                        "ce:source-text": "E. De Bezenac, A. Pajot, and P. Gallinari, \"Deep learning for physical processes: Incorporating prior scientific knowledge, \" Journal of Statistical Mechanics: Theory and Experiment, vol. 2019, no. 12, p. 124009, 2019."
+                    },
+                    {
+                        "ref-fulltext": "B. K. P. Horn and B. G. Schunck, \"Determining optical flow, \" Artif. Intell., vol. 17, no. 1-3, pp. 185-203, 1981, doi: 10.1016/0004- 3702(81)90024-2.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1981"},
+                            "ref-title": {"ref-titletext": "Determining optical flow"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0019597413",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "17",
+                                    "@issue": "1-3"
+                                },
+                                "pagerange": {
+                                    "@first": "185",
+                                    "@last": "203"
+                                }
+                            },
+                            "ref-text": "doi: 10.1016/0004- 3702(81)90024-2",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.K.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Horn",
+                                    "ce:indexed-name": "Horn B.K.P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schunck",
+                                    "ce:indexed-name": "Schunck B.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Artif. Intell"
+                        },
+                        "ce:source-text": "B. K. P. Horn and B. G. Schunck, \"Determining optical flow, \" Artif. Intell., vol. 17, no. 1-3, pp. 185-203, 1981, doi: 10.1016/0004- 3702(81)90024-2."
+                    },
+                    {
+                        "ref-fulltext": "B. D. Lucas and T. Kanade, \"An Iterative Image Registration Technique with an Application to Stereo Vision, \" in IJCAI, 1981.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1981"},
+                            "ref-title": {"ref-titletext": "An iterative image registration technique with an application to stereo vision"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0019647180",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lucas",
+                                    "ce:indexed-name": "Lucas B.D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kanade",
+                                    "ce:indexed-name": "Kanade T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IJCAI"
+                        },
+                        "ce:source-text": "B. D. Lucas and T. Kanade, \"An Iterative Image Registration Technique with an Application to Stereo Vision, \" in IJCAI, 1981."
+                    },
+                    {
+                        "ref-fulltext": "J. Hur and S. Roth, \"Optical Flow Estimation in the Deep Learning Age, \" in Modelling Human Motion: From Human Perception to Robot Design, N. Noceti, A. Sciutti, and F. Rea Eds. Cham: Springer International Publishing, 2020, pp. 119-140.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Optical flow estimation in the deep learning age"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85150141746",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "119",
+                                "@last": "140"
+                            }},
+                            "ref-text": "N. Noceti, A. Sciutti, and F. Rea Eds. Cham: Springer International Publishing",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hur",
+                                    "ce:indexed-name": "Hur J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Roth",
+                                    "ce:indexed-name": "Roth S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Modelling Human Motion: From Human Perception to Robot Design"
+                        },
+                        "ce:source-text": "J. Hur and S. Roth, \"Optical Flow Estimation in the Deep Learning Age, \" in Modelling Human Motion: From Human Perception to Robot Design, N. Noceti, A. Sciutti, and F. Rea Eds. Cham: Springer International Publishing, 2020, pp. 119-140."
+                    },
+                    {
+                        "ref-fulltext": "H. Sakaino, \"Spatio-Temporal Image Pattern Prediction Method Based on a Physical Model With Time-Varying Optical Flow, \" IEEE Transactions on Geoscience and Remote Sensing, vol. 51, pp. 3023-3036, 2013.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Spatio-temporal image pattern prediction method based on a physical model with time-varying optical flow"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84884982670",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "51"},
+                                "pagerange": {
+                                    "@first": "3023",
+                                    "@last": "3036"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "H.",
+                                "@_fa": "true",
+                                "ce:surname": "Sakaino",
+                                "ce:indexed-name": "Sakaino H."
+                            }]},
+                            "ref-sourcetitle": "IEEE Transactions on Geoscience and Remote Sensing"
+                        },
+                        "ce:source-text": "H. Sakaino, \"Spatio-Temporal Image Pattern Prediction Method Based on a Physical Model With Time-Varying Optical Flow, \" IEEE Transactions on Geoscience and Remote Sensing, vol. 51, pp. 3023-3036, 2013."
+                    },
+                    {
+                        "ref-fulltext": "A. Paszke et al., \"PyTorch: An Imperative Style, High-Performance Deep Learning Library, \" in NeurIPS, 2019.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "PyTorch: An imperative style, high-performance deep learning library"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85090176877",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Paszke",
+                                    "ce:indexed-name": "Paszke A."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "NeurIPS"
+                        },
+                        "ce:source-text": "A. Paszke et al., \"PyTorch: An Imperative Style, High-Performance Deep Learning Library, \" in NeurIPS, 2019."
+                    },
+                    {
+                        "ref-fulltext": "D. P. Kingma and J. Ba, \"Adam: A Method for Stochastic Optimization, \" CoRR, vol. abs/1412.6980, 2015.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84941620184",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "CoRR, vol. abs/1412.6980",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kingma",
+                                    "ce:indexed-name": "Kingma D.P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ba",
+                                    "ce:indexed-name": "Ba J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Adam: A Method for Stochastic Optimization"
+                        },
+                        "ce:source-text": "D. P. Kingma and J. Ba, \"Adam: A Method for Stochastic Optimization, \" CoRR, vol. abs/1412.6980, 2015."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Mihama",
+            "@id": "60090368",
+            "affilname": "Weathernews Inc.",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60090368",
+            "affiliation-country": "Japan"
+        },
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        }
+    ],
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85112386961",
+        "dc:description": "Precipitation nowcasting aims to precisely predict the rainfall intensity in the near future that can be applied in various applications. A common approach is to simulate the complex physical processes or extrapolate the rainfall from the current stage. The existing deep learning model for this task uses an end-to-end network to forecast, but this approach has often met with limited success due to the complexities of the problem. Therefore, this paper proposes a novel hybrid model that combines the scientific method from meteorology and the deep learning method from computer science. We experimented with the model on both simulated data and radar images. Also, we have created the simulated data to imitate important features from radar images. The results show that our hybrid modeling approach outperforms all baselines on almost all datasets (both simulated and the radar data).",
+        "prism:coverDate": "2021-06-30",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85112386961",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Pattarapong",
+            "preferred-name": {
+                "ce:given-name": "Pattarapong",
+                "ce:initials": "P.",
+                "ce:surname": "Danpoonkij",
+                "ce:indexed-name": "Danpoonkij P."
+            },
+            "@seq": "1",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Danpoonkij",
+            "@auid": "57226685558",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57226685558",
+            "ce:indexed-name": "Danpoonkij P."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85112386961"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85112386961&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85112386961&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781665438315",
+        "prism:publicationName": "JCSSE 2021 - 18th International Joint Conference on Computer Science and Software Engineering: Cybernetics for Human Beings",
+        "source-id": "21101055711",
+        "citedby-count": "2",
+        "subtype": "cp",
+        "dc:title": "Incorporating Prior Scientific Knowledge into Deep Learning for Precipitation Nowcasting on Radar Images",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/JCSSE53117.2021.9493821",
+        "publishercopyright": "© 2021 IEEE.",
+        "article-number": "9493821",
+        "dc:identifier": "SCOPUS_ID:85112386961",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Complex physical process",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "End-to-end network",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Important features",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Learning methods",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Learning models",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Rainfall intensity",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Scientific knowledge",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Scientific method",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Deep Learning"
+        },
+        {
+            "@_fa": "true",
+            "$": "Nowcasting"
+        },
+        {
+            "@_fa": "true",
+            "$": "Physical Processes"
+        },
+        {
+            "@_fa": "true",
+            "$": "Radar Images"
+        },
+        {
+            "@_fa": "true",
+            "$": "Spatial-Temporal Analysis"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Artificial Intelligence",
+            "@code": "1702",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Vision and Pattern Recognition",
+            "@code": "1707",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Human-Computer Interaction",
+            "@code": "1709",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Signal Processing",
+            "@code": "1711",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Software",
+            "@code": "1712",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Pattarapong",
+            "preferred-name": {
+                "ce:given-name": "Pattarapong",
+                "ce:initials": "P.",
+                "ce:surname": "Danpoonkij",
+                "ce:indexed-name": "Danpoonkij P."
+            },
+            "@seq": "1",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Danpoonkij",
+            "@auid": "57226685558",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57226685558",
+            "ce:indexed-name": "Danpoonkij P."
+        },
+        {
+            "ce:given-name": "Nutnaree",
+            "preferred-name": {
+                "ce:given-name": "Nutnaree",
+                "ce:initials": "N.",
+                "ce:surname": "Kleawsirikul",
+                "ce:indexed-name": "Kleawsirikul N."
+            },
+            "@seq": "2",
+            "ce:initials": "N.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60090368",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60090368"
+            },
+            "ce:surname": "Kleawsirikul",
+            "@auid": "56748040700",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56748040700",
+            "ce:indexed-name": "Kleawsirikul N."
+        },
+        {
+            "ce:given-name": "Patamawadee",
+            "preferred-name": {
+                "ce:given-name": "Patamawadee",
+                "ce:initials": "P.",
+                "ce:surname": "Leepaisomboon",
+                "ce:indexed-name": "Leepaisomboon P."
+            },
+            "@seq": "3",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60090368",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60090368"
+            },
+            "ce:surname": "Leepaisomboon",
+            "@auid": "57211848632",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57211848632",
+            "ce:indexed-name": "Leepaisomboon P."
+        },
+        {
+            "ce:given-name": "Natnapat",
+            "preferred-name": {
+                "ce:given-name": "Natnapat",
+                "ce:initials": "N.",
+                "ce:surname": "Gaviphatt",
+                "ce:indexed-name": "Gaviphatt N."
+            },
+            "@seq": "4",
+            "ce:initials": "N.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60090368",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60090368"
+            },
+            "ce:surname": "Gaviphatt",
+            "@auid": "57094968000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57094968000",
+            "ce:indexed-name": "Gaviphatt N."
+        },
+        {
+            "ce:given-name": "Hidetomo",
+            "preferred-name": {
+                "ce:given-name": "Hidetomo",
+                "ce:initials": "H.",
+                "ce:surname": "Sakaino",
+                "ce:indexed-name": "Sakaino H."
+            },
+            "@seq": "5",
+            "ce:initials": "H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60090368",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60090368"
+            },
+            "ce:surname": "Sakaino",
+            "@auid": "55884770200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55884770200",
+            "ce:indexed-name": "Sakaino H."
+        },
+        {
+            "ce:given-name": "Peerapon",
+            "preferred-name": {
+                "ce:given-name": "Peerapon",
+                "ce:initials": "P.",
+                "ce:surname": "Vateekul",
+                "ce:indexed-name": "Vateekul P."
+            },
+            "@seq": "6",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Vateekul",
+            "@auid": "24829867400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/24829867400",
+            "ce:indexed-name": "Vateekul P."
+        }
+    ]}
+}}

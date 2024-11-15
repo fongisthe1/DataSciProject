@@ -1,0 +1,2093 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "new",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "20",
+                "@timestamp": "2020-10-20T09:22:52.000052-04:00",
+                "@year": "2020",
+                "@month": "10"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2020",
+                "@month": "09"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "postal-code": "10330",
+                        "@afid": "60028190",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Department of Computer Engineering"},
+                            {"$": "Chulalongkorn University"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60028190",
+                            "@dptid": "113891981"
+                        },
+                        "@affiliation-instance-id": "2005203512-45ba656979bf1f5fc992b80fb21f0ed1",
+                        "ce:source-text": "Department of Computer Engineering, Chulalongkorn University, Bangkok, 10330, Thailand",
+                        "@dptid": "113891981"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Sirisara",
+                            "preferred-name": {
+                                "ce:given-name": "Sirisara",
+                                "ce:initials": "S.",
+                                "ce:surname": "Chiamwongpaet",
+                                "ce:indexed-name": "Chiamwongpaet S."
+                            },
+                            "@author-instance-id": "2005203512-d887083cd6ad7380551f2eb0b729b4ab",
+                            "@seq": "1",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:degrees": "B.Eng., M.Eng., Ph.D.",
+                            "ce:surname": "Chiamwongpaet",
+                            "@auid": "25927832300",
+                            "ce:indexed-name": "Chiamwongpaet S."
+                        },
+                        {
+                            "ce:given-name": "Krerk",
+                            "preferred-name": {
+                                "ce:given-name": "Krerk",
+                                "ce:initials": "K.",
+                                "ce:surname": "Piromsopa",
+                                "ce:indexed-name": "Piromsopa K."
+                            },
+                            "@author-instance-id": "2005203512-9a268566aea175c5a206e84b25a72866",
+                            "@seq": "2",
+                            "ce:initials": "K.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:degrees": "B.Eng., M.Eng., Ph.D.",
+                            "ce:surname": "Piromsopa",
+                            "@auid": "14018355900",
+                            "ce:indexed-name": "Piromsopa K."
+                        }
+                    ]
+                },
+                "citation-title": "Boundary bit: Architectural bound checking for Buffer-overflow protection",
+                "abstracts": "© 2020, ECTI Association. All rights reserved.We propose Boundary Bit, a new architectural bound-checking approach that detects and prevents buffer-overflow attacks. Boundary Bit extends an architecture by associating a bit to each memory en-try. Software can set a (boundary) bit to delimit an object. On each memory access, the hardware will dynamically validate the object\u2019s bound using the boundary bit. With minimal hints from the com-piler, our architectural design eliminates most (if not all) types of buffer-overflow attacks. These include attacks on non-control data (variables and arguments) and array-indexing errors. We evaluated the performance of Boundary Bit using simulation, and the results show that the majority of performance over-heads lies in bit scanning operations. To mitigate performance overhead, we introduce a hardware bitmap to act as a cache. The results from our simulation show that the hardware bitmap can absorb most of the overhead from bit scanning, which in the best-case scenario was 30 times faster than the version that does not utilize a bitmap cache.",
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Buffer overflow",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Invasive software",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Security and protection",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Security kernels",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "System architectures",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Unauthorized access",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "ECTI Trans. Comp. Inf. Technol.",
+                    "website": {"ce:e-address": {
+                        "$": "https://ph01.tci-thaijo.org/index.php/ecticit/article/download/212338/164903",
+                        "@type": "email"
+                    }},
+                    "@country": "tha",
+                    "translated-sourcetitle": {"@xml:lang": "eng"},
+                    "issn": {
+                        "$": "22869131",
+                        "@type": "electronic"
+                    },
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "14",
+                            "@issue": "2"
+                        },
+                        "pagerange": {
+                            "@first": "162",
+                            "@last": "173"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2020"},
+                    "publisher": {
+                        "publishername": "ECTI Association",
+                        "ce:e-address": {
+                            "$": "ecti.secretary@gmail.com",
+                            "@type": "email"
+                        }
+                    },
+                    "sourcetitle": "ECTI Transactions on Computer and Information Technology",
+                    "@srcid": "21100899864",
+                    "publicationdate": {
+                        "month": "09",
+                        "year": "2020",
+                        "date-text": "November 2020",
+                        "day": "01"
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1710"},
+                            {"$": "1705"},
+                            {"$": "1802"},
+                            {"$": "2208"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "DECI"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2020 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "16",
+                    "@timestamp": "BST 04:09:22",
+                    "@year": "2020",
+                    "@month": "10"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2005203512",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "928943807",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20202429759",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20203632982",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "20200007031902",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85092537600",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85092537600",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.37936/ecti-cit.2020142.212338"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "41",
+                "reference": [
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "P. Akritidis, M. Costa, M. Castro, and S. Hand, \u201cBaggy bounds checking: An efficient and backwards-compatible defense against out-of-bounds errors,\u201d in 18th USENIX Security Symposium (USENIX Security \u201909), pp.1-10, USENIX, August 2009.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Baggy bounds checking: An efficient and backwards-compatible defense against out-of-bounds errors"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85049220056",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "10"
+                            }},
+                            "ref-text": "USENIX, August",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Akritidis",
+                                    "ce:indexed-name": "Akritidis P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Costa",
+                                    "ce:indexed-name": "Costa M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Castro",
+                                    "ce:indexed-name": "Castro M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hand",
+                                    "ce:indexed-name": "Hand S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "18th USENIX Security Symposium (USENIX Security \u201909)"
+                        },
+                        "ce:source-text": "P. Akritidis, M. Costa, M. Castro, and S. Hand, \u201cBaggy bounds checking: An efficient and backwards-compatible defense against out-of-bounds errors,\u201d in 18th USENIX Security Symposium (USENIX Security \u201909), pp.1-10, USENIX, August 2009."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "M. Bishop, S. Engle, D. Howard and S. Whalen, \u201cA Taxonomy of Buffer Overflow Characteris-tics,\u201d in IEEE Transactions on Dependable and Secure Computing, vol. 9, no. 3, pp. 305-317, May-June 2012.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "A Taxonomy of Buffer Overflow Characteris-tics"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84858636380",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "9",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "305",
+                                    "@last": "317"
+                                }
+                            },
+                            "ref-text": "May-June",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bishop",
+                                    "ce:indexed-name": "Bishop M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Engle",
+                                    "ce:indexed-name": "Engle S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Howard",
+                                    "ce:indexed-name": "Howard D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Whalen",
+                                    "ce:indexed-name": "Whalen S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Dependable and Secure Computing"
+                        },
+                        "ce:source-text": "M. Bishop, S. Engle, D. Howard and S. Whalen, \u201cA Taxonomy of Buffer Overflow Characteris-tics,\u201d in IEEE Transactions on Dependable and Secure Computing, vol. 9, no. 3, pp. 305-317, May-June 2012."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "M. Chabbi, S. Perianayagam, G. Andrews, and S. Debray, \u201cEfficient dynamic taint analysis using multicore machines,\u201d Report, The University of Arizona, 2007.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "71549147630",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Report, The University of Arizona",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chabbi",
+                                    "ce:indexed-name": "Chabbi M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Perianayagam",
+                                    "ce:indexed-name": "Perianayagam S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Andrews",
+                                    "ce:indexed-name": "Andrews G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Debray",
+                                    "ce:indexed-name": "Debray S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Efficient dynamic taint analysis using multicore machines"
+                        },
+                        "ce:source-text": "M. Chabbi, S. Perianayagam, G. Andrews, and S. Debray, \u201cEfficient dynamic taint analysis using multicore machines,\u201d Report, The University of Arizona, 2007."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "S. Chiamwongpaet and K. Piromsopa, \u201cThe implementation of Secure Canary Word for buffer-overflow protection,\u201d 2009 IEEE International Conference on Electro/Information Technology, Windsor, ON, 2009, pp. 56-61.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "The implementation of Secure Canary Word for buffer-overflow protection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "70449341804",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "56",
+                                "@last": "61"
+                            }},
+                            "ref-text": "Windsor, ON",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chiamwongpaet",
+                                    "ce:indexed-name": "Chiamwongpaet S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Piromsopa",
+                                    "ce:indexed-name": "Piromsopa K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2009 IEEE International Conference on Electro/Information Technology"
+                        },
+                        "ce:source-text": "S. Chiamwongpaet and K. Piromsopa, \u201cThe implementation of Secure Canary Word for buffer-overflow protection,\u201d 2009 IEEE International Conference on Electro/Information Technology, Windsor, ON, 2009, pp. 56-61."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "S. Chiamwongpaet, Buffer-overflow Protection using Boundary Bit, Thesis, 2017.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85092504466",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Thesis",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "ce:surname": "Chiamwongpaet",
+                                "ce:indexed-name": "Chiamwongpaet S."
+                            }]},
+                            "ref-sourcetitle": "Buffer-overflow Protection using Boundary Bit"
+                        },
+                        "ce:source-text": "S. Chiamwongpaet, Buffer-overflow Protection using Boundary Bit, Thesis, 2017."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "C. Cowan, S. Beattie, J. Johansen, and P. Wa-gle, \u201cPointguard™: protecting pointers from buffer overflow vulnerabilities,\u201d in Proceedings of the 12th conference on USENIX Security Sym-posium, vol.12, pp. 7, 1251360.USENIX Associ-ation, August 2003.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Pointguard™: protecting pointers from buffer overflow vulnerabilities"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85009448253",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "12"},
+                                "pagerange": {"@first": "7"}
+                            },
+                            "ref-text": "1251360.USENIX Associ-ation, August",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cowan",
+                                    "ce:indexed-name": "Cowan C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Beattie",
+                                    "ce:indexed-name": "Beattie S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Johansen",
+                                    "ce:indexed-name": "Johansen J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wa-gle",
+                                    "ce:indexed-name": "Wa-gle P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 12th conference on USENIX Security Sym-posium"
+                        },
+                        "ce:source-text": "C. Cowan, S. Beattie, J. Johansen, and P. Wa-gle, \u201cPointguardTM: protecting pointers from buffer overflow vulnerabilities,\u201d in Proceedings of the 12th conference on USENIX Security Sym-posium, vol.12, pp. 7, 1251360.USENIX Associ-ation, August 2003."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "C. Cowan, C. Pu, D. Maier, H. Hintony, J. Walpole, P. Bakke, S. Beattie, A. Grier, P. Wagle, and Q. Zhang, \u201cStackguard: automatic adaptive detection and prevention of buffer-overflow attacks,\u201d in Proceedings of the 7th conference on USENIX Security Symposium, vol. 7, pp. 5, 1267554. USENIX Association, January 1998.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Stackguard: automatic adaptive detection and prevention of buffer-overflow attacks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85084160243",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "7"},
+                                "pagerange": {"@first": "5"}
+                            },
+                            "ref-text": "1267554. USENIX Association, January",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cowan",
+                                    "ce:indexed-name": "Cowan C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pu",
+                                    "ce:indexed-name": "Pu C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maier",
+                                    "ce:indexed-name": "Maier D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hintony",
+                                    "ce:indexed-name": "Hintony H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Walpole",
+                                    "ce:indexed-name": "Walpole J."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bakke",
+                                    "ce:indexed-name": "Bakke P."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Beattie",
+                                    "ce:indexed-name": "Beattie S."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grier",
+                                    "ce:indexed-name": "Grier A."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wagle",
+                                    "ce:indexed-name": "Wagle P."
+                                },
+                                {
+                                    "@seq": "10",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Q."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 7th conference on USENIX Security Symposium"
+                        },
+                        "ce:source-text": "C. Cowan, C. Pu, D. Maier, H. Hintony, J. Walpole, P. Bakke, S. Beattie, A. Grier, P. Wagle, and Q. Zhang, \u201cStackguard: automatic adaptive detection and prevention of buffer-overflow attacks,\u201d in Proceedings of the 7th conference on USENIX Security Symposium, vol. 7, pp. 5, 1267554. USENIX Association, January 1998."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "U. Dhawan, C. Hritcu, R. Rubin, N. Vasilakis, S. Chiricescu, J. M. Smith, T. F. Knight, Jr., B. C. Pierce, and A. DeHon, \u201cArchitectural support for software-defined metadata process-ing,\u201d in Proceedings of the Twentieth International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS \u201915, pp. 487\u2013502, New York, NY, USA, 2015. ACM.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Architectural support for software-defined metadata process-ing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84942902209",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "487",
+                                "@last": "502"
+                            }},
+                            "ref-text": "New York, NY, USA, ACM",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "U.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dhawan",
+                                    "ce:indexed-name": "Dhawan U."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hritcu",
+                                    "ce:indexed-name": "Hritcu C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rubin",
+                                    "ce:indexed-name": "Rubin R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vasilakis",
+                                    "ce:indexed-name": "Vasilakis N."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chiricescu",
+                                    "ce:indexed-name": "Chiricescu S."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J. M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Smith",
+                                    "ce:indexed-name": "Smith J. M."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "T. F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Knight",
+                                    "ce:indexed-name": "Knight T. F."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "B. C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pierce",
+                                    "ce:indexed-name": "Pierce B. C."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "DeHon",
+                                    "ce:indexed-name": "DeHon A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Twentieth International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS \u201915"
+                        },
+                        "ce:source-text": "U. Dhawan, C. Hritcu, R. Rubin, N. Vasilakis, S. Chiricescu, J. M. Smith, T. F. Knight, Jr., B. C. Pierce, and A. DeHon, \u201cArchitectural support for software-defined metadata process-ing,\u201d in Proceedings of the Twentieth International Conference on Architectural Support for Programming Languages and Operating Systems, ASPLOS \u201915, pp. 487\u2013502, New York, NY, USA, 2015. ACM."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "D. Dhurjati and V. Adve, \u201cBackwardscompati-ble array bounds checking for c with very low overhead,\u201d in Proceedings of the 28th International Conference on Software Engineering, ICSE \u201906, pp. 162\u2013171, New York, NY, USA, 2006. ACM.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Backwardscompati-ble array bounds checking for c with very low overhead"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34247170052",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "162",
+                                "@last": "171"
+                            }},
+                            "ref-text": "New York, NY, USA, ACM",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dhurjati",
+                                    "ce:indexed-name": "Dhurjati D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Adve",
+                                    "ce:indexed-name": "Adve V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 28th International Conference on Software Engineering, ICSE \u201906"
+                        },
+                        "ce:source-text": "D. Dhurjati and V. Adve, \u201cBackwardscompati-ble array bounds checking for c with very low overhead,\u201d in Proceedings of the 28th International Conference on Software Engineering, ICSE \u201906, pp. 162\u2013171, New York, NY, USA, 2006. ACM."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "Nicolas Economou. Microsoft windows up to 8.1 memory object win32k.sys buffer over-flow. http://www.scip.ch/en/?vuldb.11444, 04/07/2017 2013.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://www.scip.ch/en/?vuldb.11444",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85092531444",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "04/07/2017",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "Nicolas",
+                                "@_fa": "true",
+                                "ce:surname": "Economou",
+                                "ce:indexed-name": "Economou Nicolas"
+                            }]},
+                            "ref-sourcetitle": "Microsoft windows up to 8.1 memory object win32k.sys buffer over-flow"
+                        },
+                        "ce:source-text": "Nicolas Economou. Microsoft windows up to 8.1 memory object win32k.sys buffer over-flow. http://www.scip.ch/en/?vuldb.11444, 04/07/2017 2013."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "Agner Fog. Instruction tables. http://www. agner.org/optimize/instructiontables. pdf, 2017-05-02 2017.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://www.agner.org/optimize/instructiontables.pdf",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79955893580",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "2017-05-02 2017",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "Agner",
+                                "@_fa": "true",
+                                "ce:surname": "Fog",
+                                "ce:indexed-name": "Fog Agner"
+                            }]},
+                            "ref-sourcetitle": "Instruction tables"
+                        },
+                        "ce:source-text": "Agner Fog. Instruction tables. http://www. agner.org/optimize/instructiontables. pdf, 2017-05-02 2017."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "Edward F. Gehringer and J. Leslie Keedy, \u201cTagged architecture: how compelling are its ad-vantages?,\u201d SIGARCH Comput. Archit. News, vol.13, no.3, pp.162\u2013170, June 1985.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1985"},
+                            "ref-title": {"ref-titletext": "Tagged architecture: how compelling are its ad-vantages?"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0022187321",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "13",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "162",
+                                    "@last": "170"
+                                }
+                            },
+                            "ref-text": "June",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Edward F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gehringer",
+                                    "ce:indexed-name": "Gehringer Edward F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Leslie Keedy",
+                                    "ce:indexed-name": "Leslie Keedy J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "SIGARCH Comput. Archit. News"
+                        },
+                        "ce:source-text": "Edward F. Gehringer and J. Leslie Keedy, \u201cTagged architecture: how compelling are its ad-vantages?,\u201d SIGARCH Comput. Archit. News, vol.13, no.3, pp.162\u2013170, June 1985."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "R. Gil, The undefined quest for full memory safety, Thesis, 2017.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85092509636",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Thesis",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.",
+                                "@_fa": "true",
+                                "ce:surname": "Gil",
+                                "ce:indexed-name": "Gil R."
+                            }]},
+                            "ref-sourcetitle": "The undefined quest for full memory safety"
+                        },
+                        "ce:source-text": "R. Gil, The undefined quest for full memory safety, Thesis, 2017."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "E. Haugh, \u201cTesting c programs for buffer overflow vulnerabilities,\u201d in Proceedings of the Network and Distributed System Security Sympo-sium, pp. 123\u2013130, 2003.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Testing c programs for buffer overflow vulnerabilities"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "3042586679",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "123",
+                                "@last": "130"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "E.",
+                                "@_fa": "true",
+                                "ce:surname": "Haugh",
+                                "ce:indexed-name": "Haugh E."
+                            }]},
+                            "ref-sourcetitle": "Proceedings of the Network and Distributed System Security Sympo-sium"
+                        },
+                        "ce:source-text": "E. Haugh, \u201cTesting c programs for buffer overflow vulnerabilities,\u201d in Proceedings of the Network and Distributed System Security Sympo-sium, pp. 123\u2013130, 2003."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "Richard W M Jones and Paul H J Kelly, \u201cBackwards-compatible bounds checking for ar-rays and pointers in c programs,\u201d in Distributed Enterprise Applications. HP Labs Tech Report, pp. 255\u2013283, 1997.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Backwards-compatible bounds checking for ar-rays and pointers in c programs"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "12544250338",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "255",
+                                "@last": "283"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Richard W M",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jones",
+                                    "ce:indexed-name": "Jones Richard W M"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Paul H J",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kelly",
+                                    "ce:indexed-name": "Kelly Paul H J"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Distributed Enterprise Applications. HP Labs Tech Report"
+                        },
+                        "ce:source-text": "Richard W M Jones and Paul H J Kelly, \u201cBackwards-compatible bounds checking for ar-rays and pointers in c programs,\u201d in Distributed Enterprise Applications. HP Labs Tech Report, pp. 255\u2013283, 1997."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "S. Kaufer, R. Lopez, and S. Pratap, \u201cSaber-C \u2014 an interpreter-based programming environment for the C language,\u201d in USENIX Association, ed-itor, Summer USENIX Conference Proceedings, pp. 161\u2013171, Berkeley, CA, USA, Summer 1988. USENIX.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1988"},
+                            "ref-title": {"ref-titletext": "Saber-C \u2014 an interpreter-based programming environment for the C language"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0005372144",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "161",
+                                "@last": "171"
+                            }},
+                            "ref-text": "Berkeley, CA, USA, Summer USENIX",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kaufer",
+                                    "ce:indexed-name": "Kaufer S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lopez",
+                                    "ce:indexed-name": "Lopez R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pratap",
+                                    "ce:indexed-name": "Pratap S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "USENIX Association, ed-itor, Summer USENIX Conference Proceedings"
+                        },
+                        "ce:source-text": "S. Kaufer, R. Lopez, and S. Pratap, \u201cSaber-C \u2014 an interpreter-based programming environment for the C language,\u201d in USENIX Association, ed-itor, Summer USENIX Conference Proceedings, pp. 161\u2013171, Berkeley, CA, USA, Summer 1988. USENIX."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "A. Kwon, U. Dhawan, J. M. Smith, T. F. Knight, G. Bioworks, and A. Dehon, \u201cLow-fat pointers: compact encoding and efficient gate-level implementation of fat pointers for spatial safety and capability-based security,\u201d CCS\u201913: Proceedings of the 2013 ACM SIGSAC conference on Computer & communications security, pp.721-732, November 2013.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Low-fat pointers: compact encoding and efficient gate-level implementation of fat pointers for spatial safety and capability-based security"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84889021222",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "721",
+                                "@last": "732"
+                            }},
+                            "ref-text": "November",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kwon",
+                                    "ce:indexed-name": "Kwon A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "U.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dhawan",
+                                    "ce:indexed-name": "Dhawan U."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J. M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Smith",
+                                    "ce:indexed-name": "Smith J. M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T. F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Knight",
+                                    "ce:indexed-name": "Knight T. F."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bioworks",
+                                    "ce:indexed-name": "Bioworks G."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dehon",
+                                    "ce:indexed-name": "Dehon A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "CCS\u201913: Proceedings of the 2013 ACM SIGSAC conference on Computer & communications security"
+                        },
+                        "ce:source-text": "A. Kwon, U. Dhawan, J. M. Smith, T. F. Knight, G. Bioworks, and A. Dehon, \u201cLow-fat pointers: compact encoding and efficient gate-level implementation of fat pointers for spatial safety and capability-based security,\u201d CCS\u201913: Proceedings of the 2013 ACM SIGSAC conference on Computer & communications security, pp.721-732, November 2013."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "J. L. Steffen, \u201cAdding run-time checking to the portable c compiler,\u201d Software: Practice and Ex-perience, vol.22, issue 4, pp.305\u2013316, April 1992.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "ref-title": {"ref-titletext": "Adding run-time checking to the portable c compiler"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0026845567",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "22",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "305",
+                                    "@last": "316"
+                                }
+                            },
+                            "ref-text": "April",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J. L.",
+                                "@_fa": "true",
+                                "ce:surname": "Steffen",
+                                "ce:indexed-name": "Steffen J. L."
+                            }]},
+                            "ref-sourcetitle": "Software: Practice and Ex-perience"
+                        },
+                        "ce:source-text": "J. L. Steffen, \u201cAdding run-time checking to the portable c compiler,\u201d Software: Practice and Ex-perience, vol.22, issue 4, pp.305\u2013316, April 1992."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "Kyung-Suk Lhee and S. J. Chapin, \u201cBuffer overflow and format string overflow vulnerabilities,\u201d Software: Practice and Experience, vol.33, issue 5, pp.423\u2013460, April 2003.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Buffer overflow and format string overflow vulnerabilities"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0038005495",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "33",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "423",
+                                    "@last": "460"
+                                }
+                            },
+                            "ref-text": "April",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Kyung-Suk",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lhee",
+                                    "ce:indexed-name": "Lhee Kyung-Suk"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S. J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chapin",
+                                    "ce:indexed-name": "Chapin S. J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Software: Practice and Experience"
+                        },
+                        "ce:source-text": "Kyung-Suk Lhee and S. J. Chapin, \u201cBuffer overflow and format string overflow vulnerabilities,\u201d Software: Practice and Experience, vol.33, issue 5, pp.423\u2013460, April 2003."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "D. Li, Z. Liu, and Y. Zhao, \u201cHeapdefender: A mechanism of defending embedded systems against heap overflow via hardware,\u201d in 2012 9th International Conference on Ubiquitous Intelligence and Computing and 9th International Conference on Autonomic and Trusted Comput-ing, pp. 851\u2013856, 2012.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Heapdefender: A mechanism of defending embedded systems against heap overflow via hardware"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84869837555",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "851",
+                                "@last": "856"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2012 9th International Conference on Ubiquitous Intelligence and Computing and 9th International Conference on Autonomic and Trusted Comput-ing"
+                        },
+                        "ce:source-text": "D. Li, Z. Liu, and Y. Zhao, \u201cHeapdefender: A mechanism of defending embedded systems against heap overflow via hardware,\u201d in 2012 9th International Conference on Ubiquitous Intelligence and Computing and 9th International Conference on Autonomic and Trusted Comput-ing, pp. 851\u2013856, 2012."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "A. Maia, L. Melo, F. M. Q. Pereira, O. P. V. Neto, and L. B. Oliveira, \u201cSmov: Array bound-check and access in a single instruction,\u201d in 2016 13th IEEE Annual Consumer Communications Networking Conference (CCNC), pp. 745\u2013751, Jan 2016.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Smov: Array bound-check and access in a single instruction"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84966661237",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "745",
+                                "@last": "751"
+                            }},
+                            "ref-text": "Jan",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maia",
+                                    "ce:indexed-name": "Maia A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Melo",
+                                    "ce:indexed-name": "Melo L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F. M. Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pereira",
+                                    "ce:indexed-name": "Pereira F. M. Q."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "O. P. V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Neto",
+                                    "ce:indexed-name": "Neto O. P. V."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "L. B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oliveira",
+                                    "ce:indexed-name": "Oliveira L. B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2016 13th IEEE Annual Consumer Communications Networking Conference (CCNC)"
+                        },
+                        "ce:source-text": "A. Maia, L. Melo, F. M. Q. Pereira, O. P. V. Neto, and L. B. Oliveira, \u201cSmov: Array bound-check and access in a single instruction,\u201d in 2016 13th IEEE Annual Consumer Communications Networking Conference (CCNC), pp. 745\u2013751, Jan 2016."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "Sean Dillon (Microsoft). Microsoft windows up to server 2016 smb buffer overflow. https://vuldb.com/?id.98018,07/14/2017 2017.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://vuldb.com/?id.98018,07/14/20172017",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85092468759",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "(Microsoft)",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "Sean",
+                                "@_fa": "true",
+                                "ce:surname": "Dillon",
+                                "ce:indexed-name": "Dillon Sean"
+                            }]},
+                            "ref-sourcetitle": "Microsoft windows up to server 2016 smb buffer overflow"
+                        },
+                        "ce:source-text": "Sean Dillon (Microsoft). Microsoft windows up to server 2016 smb buffer overflow. https://vuldb.com/?id.98018,07/14/2017 2017."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "S. Nagarakatte, J. Zhao, M. M.K. Martin, and S. Zdancewic, \u201cSoftbound: Highly compatible and complete spatial memory safety for c.,\u201d in Proceedings of the 30th ACM SIGPLAN Conference on Programming Language Design and Imple-mentation, PLDI \u201909, pp. 245\u2013258, New York, NY, USA, 2009. ACM.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Softbound: Highly compatible and complete spatial memory safety for c"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "70450237674",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "245",
+                                "@last": "258"
+                            }},
+                            "ref-text": "New York, NY, USA, ACM",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nagarakatte",
+                                    "ce:indexed-name": "Nagarakatte S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M. M.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Martin",
+                                    "ce:indexed-name": "Martin M. M.K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zdancewic",
+                                    "ce:indexed-name": "Zdancewic S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 30th ACM SIGPLAN Conference on Programming Language Design and Imple-mentation, PLDI \u201909"
+                        },
+                        "ce:source-text": "S. Nagarakatte, J. Zhao, M. M.K. Martin, and S. Zdancewic, \u201cSoftbound: Highly compatible and complete spatial memory safety for c.,\u201d in Proceedings of the 30th ACM SIGPLAN Conference on Programming Language Design and Imple-mentation, PLDI \u201909, pp. 245\u2013258, New York, NY, USA, 2009. ACM."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "S. Nagarakatte, J. Zhao, M. M.K. Martin, and S. Zdancewic, \u201cCets: Compiler enforced temporal safety for c,\u201d in Proceedings of the 2010 International Symposium on Memory Management, ISMM \u201910, pp. 31\u201340, New York, NY, USA, 2010. ACM.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Cets: Compiler enforced temporal safety for c"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79959980447",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "31",
+                                "@last": "40"
+                            }},
+                            "ref-text": "New York, NY, USA, ACM",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nagarakatte",
+                                    "ce:indexed-name": "Nagarakatte S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M. M.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Martin",
+                                    "ce:indexed-name": "Martin M. M.K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zdancewic",
+                                    "ce:indexed-name": "Zdancewic S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2010 International Symposium on Memory Management, ISMM \u201910"
+                        },
+                        "ce:source-text": "S. Nagarakatte, J. Zhao, M. M.K. Martin, and S. Zdancewic, \u201cCets: Compiler enforced temporal safety for c,\u201d in Proceedings of the 2010 International Symposium on Memory Management, ISMM \u201910, pp. 31\u201340, New York, NY, USA, 2010. ACM."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "Elliot I. Organick. A programmer\u2019s view of the Intel 432 system. McGraw-Hill, Inc., 1983.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1983"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003971241",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "McGraw-Hill, Inc",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "Elliot I.",
+                                "@_fa": "true",
+                                "ce:surname": "Organick",
+                                "ce:indexed-name": "Organick Elliot I."
+                            }]},
+                            "ref-sourcetitle": "A programmer\u2019s view of the Intel 432 system"
+                        },
+                        "ce:source-text": "Elliot I. Organick. A programmer\u2019s view of the Intel 432 system. McGraw-Hill, Inc., 1983."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "H. Patil and C. Fischer, \u201cLow-cost, concur-rent checking of pointer and array accesses in c programs,\u201d Software\u2014Practice & Experience, vol.27, issue 1, pp.87\u2013110, January 1997.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Low-cost, concur-rent checking of pointer and array accesses in c programs"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030836322",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "27",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "87",
+                                    "@last": "110"
+                                }
+                            },
+                            "ref-text": "January",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Patil",
+                                    "ce:indexed-name": "Patil H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fischer",
+                                    "ce:indexed-name": "Fischer C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Software\u2014Practice & Experience"
+                        },
+                        "ce:source-text": "H. Patil and C. Fischer, \u201cLow-cost, concur-rent checking of pointer and array accesses in c programs,\u201d Software\u2014Practice & Experience, vol.27, issue 1, pp.87\u2013110, January 1997."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "K. Piromsopa and R. J. Enbody, \u201cSecure Bit: Transparent, Hardware Buffer-Overflow Protec-tion,\u201d in IEEE Transactions on Dependable and Secure Computing, vol. 3, no. 4, pp. 365-376, Oct.-Dec. 2006",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Secure Bit: Transparent, Hardware Buffer-Overflow Protec-tion"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33751517941",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "3",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "365",
+                                    "@last": "376"
+                                }
+                            },
+                            "ref-text": "Oct.-Dec",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Piromsopa",
+                                    "ce:indexed-name": "Piromsopa K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R. J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Enbody",
+                                    "ce:indexed-name": "Enbody R. J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Dependable and Secure Computing"
+                        },
+                        "ce:source-text": "K. Piromsopa and R. J. Enbody, \u201cSecure Bit: Transparent, Hardware Buffer-Overflow Protec-tion,\u201d in IEEE Transactions on Dependable and Secure Computing, vol. 3, no. 4, pp. 365-376, Oct.-Dec. 2006"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "K. Piromsopa, SECURE BIT: BUFFEROVER-FLOW PROTECTION, Thesis, 2006.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "57949083254",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Thesis",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "K.",
+                                "@_fa": "true",
+                                "ce:surname": "Piromsopa",
+                                "ce:indexed-name": "Piromsopa K."
+                            }]},
+                            "ref-sourcetitle": "SECURE BIT: BUFFEROVER-FLOW PROTECTION"
+                        },
+                        "ce:source-text": "K. Piromsopa, SECURE BIT: BUFFEROVER-FLOW PROTECTION, Thesis, 2006."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "K. Piromsopa and S. Chiamwongpaet, \u201cSecure Bit Enhanced Canary: Hardware Enhanced Buffer-Overflow Protection,\u201d 2008 IFIP International Conference on Network and Parallel Com-puting, Shanghai, 2008, pp. 125-131.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Secure Bit Enhanced Canary: Hardware Enhanced Buffer-Overflow Protection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "57949094313",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "125",
+                                "@last": "131"
+                            }},
+                            "ref-text": "Shanghai",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Piromsopa",
+                                    "ce:indexed-name": "Piromsopa K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chiamwongpaet",
+                                    "ce:indexed-name": "Chiamwongpaet S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2008 IFIP International Conference on Network and Parallel Com-puting"
+                        },
+                        "ce:source-text": "K. Piromsopa and S. Chiamwongpaet, \u201cSecure Bit Enhanced Canary: Hardware Enhanced Buffer-Overflow Protection,\u201d 2008 IFIP International Conference on Network and Parallel Com-puting, Shanghai, 2008, pp. 125-131."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "K. Piromsopa and R. J. Enbody, \u201cArchitect-ing security: A secure implementation of hardware buffer-overflow protection,\u201d in Proceedings of the Third Conference on IASTED International Conference: Advances in Computer Science and Technology, ACST\u201907, pp. 17\u201322, USA, 2007. ACTA Press.",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Architect-ing security: A secure implementation of hardware buffer-overflow protection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "56149109344",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "17",
+                                "@last": "22"
+                            }},
+                            "ref-text": "USA, ACTA Press",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Piromsopa",
+                                    "ce:indexed-name": "Piromsopa K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R. J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Enbody",
+                                    "ce:indexed-name": "Enbody R. J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Third Conference on IASTED International Conference: Advances in Computer Science and Technology, ACST\u201907"
+                        },
+                        "ce:source-text": "K. Piromsopa and R. J. Enbody, \u201cArchitect-ing security: A secure implementation of hardware buffer-overflow protection,\u201d in Proceedings of the Third Conference on IASTED International Conference: Advances in Computer Science and Technology, ACST\u201907, pp. 17\u201322, USA, 2007. ACTA Press."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "K. Piromsopa and R. J. Enbody, \u201cSurvey of pro-tections from buffer-overflow attacks,\u201d Engineering Journal, vol.5, no.2, pp.31\u201352, Feb. 2011.",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Survey of pro-tections from buffer-overflow attacks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79960815763",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "5",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "31",
+                                    "@last": "52"
+                                }
+                            },
+                            "ref-text": "Feb",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Piromsopa",
+                                    "ce:indexed-name": "Piromsopa K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R. J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Enbody",
+                                    "ce:indexed-name": "Enbody R. J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Engineering Journal"
+                        },
+                        "ce:source-text": "K. Piromsopa and R. J. Enbody, \u201cSurvey of pro-tections from buffer-overflow attacks,\u201d Engineering Journal, vol.5, no.2, pp.31\u201352, Feb. 2011."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "O. Ruwase and M. S. Lam, \u201cA practical dynamic buffer overflow detector,\u201d in Proceedings of the 11th Annual Network and Distributed System Security Symposium, pp. 159\u2013169, 2004.",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "A practical dynamic buffer overflow detector"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "20344400984",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "159",
+                                "@last": "169"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ruwase",
+                                    "ce:indexed-name": "Ruwase O."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M. S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lam",
+                                    "ce:indexed-name": "Lam M. S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 11th Annual Network and Distributed System Security Symposium"
+                        },
+                        "ce:source-text": "O. Ruwase and M. S. Lam, \u201cA practical dynamic buffer overflow detector,\u201d in Proceedings of the 11th Annual Network and Distributed System Security Symposium, pp. 159\u2013169, 2004."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "M. S. Kirkpatrick, Canary bit: Extending secure bit for data pointer protection from buffer overflow attacks, Thesis, 2007.",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85092472380",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Thesis",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "M. S.",
+                                "@_fa": "true",
+                                "ce:surname": "Kirkpatrick",
+                                "ce:indexed-name": "Kirkpatrick M. S."
+                            }]},
+                            "ref-sourcetitle": "Canary bit: Extending secure bit for data pointer protection from buffer overflow attacks"
+                        },
+                        "ce:source-text": "M. S. Kirkpatrick, Canary bit: Extending secure bit for data pointer protection from buffer overflow attacks, Thesis, 2007."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "L. K. Sah, S. A. Islam and S. Katkoori, \u201cAn Efficient Hardware-Oriented Runtime Approach for Stack-based Software Buffer Overflow At-tacks,\u201d 2018 Asian Hardware Oriented Security and Trust Symposium (AsianHOST), Hong Kong, 2018, pp. 1-6.",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "An Efficient Hardware-Oriented Runtime Approach for Stack-based Software Buffer Overflow At-tacks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85061752568",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "6"
+                            }},
+                            "ref-text": "Hong Kong",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L. K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sah",
+                                    "ce:indexed-name": "Sah L. K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S. A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Islam",
+                                    "ce:indexed-name": "Islam S. A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Katkoori",
+                                    "ce:indexed-name": "Katkoori S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2018 Asian Hardware Oriented Security and Trust Symposium (AsianHOST)"
+                        },
+                        "ce:source-text": "L. K. Sah, S. A. Islam and S. Katkoori, \u201cAn Efficient Hardware-Oriented Runtime Approach for Stack-based Software Buffer Overflow At-tacks,\u201d 2018 Asian Hardware Oriented Security and Trust Symposium (AsianHOST), Hong Kong, 2018, pp. 1-6."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "Charles Schmidt and Tom Darby. The what, why, and how of the 1988 internet worm. http://www.snowplow.org/tom/worm/worm.html, 1988.",
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1988"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://www.snowplow.org/tom/worm/worm.html",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "5444241172",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Charles",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schmidt",
+                                    "ce:indexed-name": "Schmidt Charles"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Tom",
+                                    "@_fa": "true",
+                                    "ce:surname": "Darby",
+                                    "ce:indexed-name": "Darby Tom"
+                                }
+                            ]},
+                            "ref-sourcetitle": "The what, why, and how of the 1988 internet worm"
+                        },
+                        "ce:source-text": "Charles Schmidt and Tom Darby. The what, why, and how of the 1988 internet worm. http://www.snowplow.org/tom/worm/worm.html, 1988."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "Z. Shao, Q. Zhuge, Y. He and E. H.-. Sha, \u201cDe-fending embedded systems against buffer overflow via hardware/software,\u201d 19th Annual Computer Security Applications Conference, 2003. Proceedings., Las Vegas, NV, USA, 2003, pp. 352-361.",
+                        "@id": "36",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "De-fending embedded systems against buffer overflow via hardware/software"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84944726311",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "352",
+                                "@last": "361"
+                            }},
+                            "ref-text": "Las Vegas, NV, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shao",
+                                    "ce:indexed-name": "Shao Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhuge",
+                                    "ce:indexed-name": "Zhuge Q."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "E. H.-.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sha",
+                                    "ce:indexed-name": "Sha E. H.-."
+                                }
+                            ]},
+                            "ref-sourcetitle": "19th Annual Computer Security Applications Conference, 2003. Proceedings"
+                        },
+                        "ce:source-text": "Z. Shao, Q. Zhuge, Y. He and E. H.-. Sha, \u201cDe-fending embedded systems against buffer overflow via hardware/software,\u201d 19th Annual Computer Security Applications Conference, 2003. Proceedings., Las Vegas, NV, USA, 2003, pp. 352-361."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "Tzi-Cker Chiueh and Fu-Hau Hsu, \u201cRAD: a compile-time solution to buffer overflow at-tacks,\u201d Proceedings 21st International Conference on Distributed Computing Systems, Mesa, AZ, USA, 2001, pp. 409-417.",
+                        "@id": "37",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "RAD: a compile-time solution to buffer overflow at-tacks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0035017559",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "409",
+                                "@last": "417"
+                            }},
+                            "ref-text": "Mesa, AZ, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Tzi-Cker",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chiueh",
+                                    "ce:indexed-name": "Chiueh Tzi-Cker"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Fu-Hau",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hsu",
+                                    "ce:indexed-name": "Hsu Fu-Hau"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings 21st International Conference on Distributed Computing Systems"
+                        },
+                        "ce:source-text": "Tzi-Cker Chiueh and Fu-Hau Hsu, \u201cRAD: a compile-time solution to buffer overflow at-tacks,\u201d Proceedings 21st International Conference on Distributed Computing Systems, Mesa, AZ, USA, 2001, pp. 409-417."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "D. W. Plater, Y. Yesha and E. K. Park, \u201cEx-tensions to the c programming language for enhanced fault detection,\u201d Software: Practice and Experience, vol.23, issue 6, pp.617\u2013628, June 1993.",
+                        "@id": "38",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1993"},
+                            "ref-title": {"ref-titletext": "Ex-tensions to the c programming language for enhanced fault detection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0027610052",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "23",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "617",
+                                    "@last": "628"
+                                }
+                            },
+                            "ref-text": "June",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D. W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Plater",
+                                    "ce:indexed-name": "Plater D. W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yesha",
+                                    "ce:indexed-name": "Yesha Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E. K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Park",
+                                    "ce:indexed-name": "Park E. K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Software: Practice and Experience"
+                        },
+                        "ce:source-text": "D. W. Plater, Y. Yesha and E. K. Park, \u201cEx-tensions to the c programming language for enhanced fault detection,\u201d Software: Practice and Experience, vol.23, issue 6, pp.617\u2013628, June 1993."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "D. Wagner, J. S. Foster, E. A. Brewer, and A. Aiken, \u201cA first step towards automated detection of buffer overrun vulnerabilities,\u201d in NETWORK AND DISTRIBUTED SYSTEM SECURITY SYMPOSIUM, pp.3\u201317, 2000.",
+                        "@id": "39",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-title": {"ref-titletext": "A first step towards automated detection of buffer overrun vulnerabilities"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0002946830",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3",
+                                "@last": "17"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wagner",
+                                    "ce:indexed-name": "Wagner D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J. S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Foster",
+                                    "ce:indexed-name": "Foster J. S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E. A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brewer",
+                                    "ce:indexed-name": "Brewer E. A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aiken",
+                                    "ce:indexed-name": "Aiken A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "NETWORK AND DISTRIBUTED SYSTEM SECURITY SYMPOSIUM"
+                        },
+                        "ce:source-text": "D. Wagner, J. S. Foster, E. A. Brewer, and A. Aiken, \u201cA first step towards automated detection of buffer overrun vulnerabilities,\u201d in NETWORK AND DISTRIBUTED SYSTEM SECURITY SYMPOSIUM, pp.3\u201317, 2000."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "Webopedia. buffer overflow. http://www. webopedia.com/TERM/B/bueroverow.html.",
+                        "@id": "40",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://www.webopedia.com/TERM/B/bueroverow.html",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85092470823",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Webopedia. buffer overflow"
+                        },
+                        "ce:source-text": "Webopedia. buffer overflow. http://www. webopedia.com/TERM/B/bueroverow.html."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.128",
+                        "ref-fulltext": "Marvin V. Zelkowitz, Paul R. McMullin, Keith R. Merkel, and Howard J. Larsen, \u201cError checking with pointer variables,\u201d in Proceedings of the 1976 Annual Conference, ACM \u201976, pp. 391\u2013395, New York, NY, USA, 1976. ACM.",
+                        "@id": "41",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1976"},
+                            "ref-title": {"ref-titletext": "Error checking with pointer variables"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84987185930",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "391",
+                                "@last": "395"
+                            }},
+                            "ref-text": "New York, NY, USA, ACM",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Marvin V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zelkowitz",
+                                    "ce:indexed-name": "Zelkowitz Marvin V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Paul R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McMullin",
+                                    "ce:indexed-name": "McMullin Paul R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Keith R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Merkel",
+                                    "ce:indexed-name": "Merkel Keith R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Howard J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Larsen",
+                                    "ce:indexed-name": "Larsen Howard J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 1976 Annual Conference, ACM \u201976"
+                        },
+                        "ce:source-text": "Marvin V. Zelkowitz, Paul R. McMullin, Keith R. Merkel, and Howard J. Larsen, \u201cError checking with pointer variables,\u201d in Proceedings of the 1976 Annual Conference, ACM \u201976, pp. 391\u2013395, New York, NY, USA, 1976. ACM."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Bangkok",
+        "@id": "60028190",
+        "affilname": "Chulalongkorn University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+        "affiliation-country": "Thailand"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85092537600",
+        "dc:description": "We propose Boundary Bit, a new architectural bound-checking approach that detects and prevents buffer-overflow attacks. Boundary Bit extends an architecture by associating a bit to each memory en-try. Software can set a (boundary) bit to delimit an object. On each memory access, the hardware will dynamically validate the object\u2019s bound using the boundary bit. With minimal hints from the com-piler, our architectural design eliminates most (if not all) types of buffer-overflow attacks. These include attacks on non-control data (variables and arguments) and array-indexing errors. We evaluated the performance of Boundary Bit using simulation, and the results show that the majority of performance over-heads lies in bit scanning operations. To mitigate performance overhead, we introduce a hardware bitmap to act as a cache. The results from our simulation show that the hardware bitmap can absorb most of the overhead from bit scanning, which in the best-case scenario was 30 times faster than the version that does not utilize a bitmap cache.",
+        "prism:coverDate": "2020-09-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85092537600",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Sirisara",
+            "preferred-name": {
+                "ce:given-name": "Sirisara",
+                "ce:initials": "S.",
+                "ce:surname": "Chiamwongpaet",
+                "ce:indexed-name": "Chiamwongpaet S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:degrees": "B.Eng., M.Eng., Ph.D.",
+            "ce:surname": "Chiamwongpaet",
+            "@auid": "25927832300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/25927832300",
+            "ce:indexed-name": "Chiamwongpaet S."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85092537600"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85092537600&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85092537600&origin=inward"
+            }
+        ],
+        "source-id": "21100899864",
+        "citedby-count": "0",
+        "prism:volume": "14",
+        "subtype": "ar",
+        "dc:title": "Boundary bit: Architectural bound checking for Buffer-overflow protection",
+        "openaccess": "1",
+        "prism:issn": "22869131",
+        "publishercopyright": "© 2020, ECTI Association. All rights reserved.",
+        "prism:issueIdentifier": "2",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "ECTI Transactions on Computer and Information Technology",
+        "prism:pageRange": "162-173",
+        "prism:endingPage": "173",
+        "openaccessFlag": "true",
+        "prism:doi": "10.37936/ecti-cit.2020142.212338",
+        "prism:startingPage": "162",
+        "dc:identifier": "SCOPUS_ID:85092537600",
+        "dc:publisher": "ECTI Associationecti.secretary@gmail.com"
+    },
+    "idxterms": null,
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Buffer overflow"
+        },
+        {
+            "@_fa": "true",
+            "$": "Invasive software"
+        },
+        {
+            "@_fa": "true",
+            "$": "Security and protection"
+        },
+        {
+            "@_fa": "true",
+            "$": "Security kernels"
+        },
+        {
+            "@_fa": "true",
+            "$": "System architectures"
+        },
+        {
+            "@_fa": "true",
+            "$": "Unauthorized access"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Information Systems",
+            "@code": "1710",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Networks and Communications",
+            "@code": "1705",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Information Systems and Management",
+            "@code": "1802",
+            "@abbrev": "DECI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Sirisara",
+            "preferred-name": {
+                "ce:given-name": "Sirisara",
+                "ce:initials": "S.",
+                "ce:surname": "Chiamwongpaet",
+                "ce:indexed-name": "Chiamwongpaet S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:degrees": "B.Eng., M.Eng., Ph.D.",
+            "ce:surname": "Chiamwongpaet",
+            "@auid": "25927832300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/25927832300",
+            "ce:indexed-name": "Chiamwongpaet S."
+        },
+        {
+            "ce:given-name": "Krerk",
+            "preferred-name": {
+                "ce:given-name": "Krerk",
+                "ce:initials": "K.",
+                "ce:surname": "Piromsopa",
+                "ce:indexed-name": "Piromsopa K."
+            },
+            "@seq": "2",
+            "ce:initials": "K.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:degrees": "B.Eng., M.Eng., Ph.D.",
+            "ce:surname": "Piromsopa",
+            "@auid": "14018355900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/14018355900",
+            "ce:indexed-name": "Piromsopa K."
+        }
+    ]}
+}}

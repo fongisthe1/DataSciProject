@@ -1,0 +1,994 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "22",
+                "@timestamp": "2022-03-22T19:05:23.000023-04:00",
+                "@year": "2022",
+                "@month": "03"
+            },
+            "ait:date-sort": {
+                "@day": "28",
+                "@year": "2019",
+                "@month": "03"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "School of Medicine",
+                    "xocs:funding-agency": "School of Medicine",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100008235",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/6252001/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Chulalongkorn University",
+                    "xocs:funding-agency-acronym": "CU",
+                    "xocs:funding-agency": "Chulalongkorn University",
+                    "xocs:funding-id": "1801007777",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002873",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Mae Fah Luang University",
+                    "xocs:funding-agency-acronym": "MFU",
+                    "xocs:funding-agency": "Mae Fah Luang University",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004154",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-05-26T21:09:24.856Z",
+            "xocs:funding-text": "This model was supported by Rachadapiseksompoch Fund, Chulalongkorn University, fiscal year 2017, a patent application number 1801007777. This project was received the 1st runner up award of i-MEDBOT Innovation Contest 2018 (Robotic Autopsy Saw Project by Forensic Innovation Team), Thailand Center of Excellence for Life Sciences, 4th August 2018 and joining on Thailand inventors\u2019 day 2019 at the Bangkok International Trade & Exhibition Center (BITEC), Bangkok, Thailand, 2nd \u2013 6th February 2019. We would like to thank Dr. Roger Callahan, Head of International Relations, School of Medicine, Mae Fah Luang University for grammatical improvement.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "postal-code": "57100",
+                            "@afid": "60199562",
+                            "@country": "tha",
+                            "city": "Chiang Rai",
+                            "organization": [
+                                {"$": "School of Medicine"},
+                                {"$": "Mae Fah Luang University"}
+                            ],
+                            "affiliation-id": [
+                                {"@afid": "60199562"},
+                                {"@afid": "60020524"}
+                            ],
+                            "ce:source-text": "School of Medicine, Mae Fah Luang University, Chiang Rai, Thailand, 57100"
+                        },
+                        "author": [{
+                            "ce:given-name": "Arnon",
+                            "preferred-name": {
+                                "ce:given-name": "Arnon",
+                                "ce:initials": "A.",
+                                "ce:surname": "Jumlongkul",
+                                "ce:indexed-name": "Jumlongkul A."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "A.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Jumlongkul",
+                            "@auid": "57209975404",
+                            "ce:indexed-name": "Jumlongkul A."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "postal-code": "10330",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Department of Forensic Medicine"},
+                                {"$": "Faculty of Medicine"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "104425711"
+                            },
+                            "ce:source-text": "Department of Forensic Medicine, Faculty of Medicine, Chulalongkorn University, Bangkok, Thailand, 10330",
+                            "@dptid": "104425711"
+                        },
+                        "author": [{
+                            "ce:given-name": "Panuwat",
+                            "preferred-name": {
+                                "ce:given-name": "Panuwat",
+                                "ce:initials": "P.",
+                                "ce:surname": "Chutivongse",
+                                "ce:indexed-name": "Chutivongse P."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "P.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Chutivongse",
+                            "@auid": "57209977452",
+                            "ce:indexed-name": "Chutivongse P."
+                        }]
+                    }
+                ],
+                "citation-title": "Design and fabrication of robotic autopsy Saw",
+                "abstracts": "© 2019 Association for Computing Machinery.An autopsy saw is a device for opening cadaveric skulls. Most electric saws generate bone dust and can also cause loud noise pollution. Sometimes technicians might be injured in the autopsy operating room, whilst using either hand saws or electric autopsy saws. To help protect physicians and their colleagues from potentially unsafe working conditions, the robotic autopsy saw was developed for this purpose. This project demonstrates the design and fabrication of an electric circular saw that can be controlled at distance by remote control, so increasing human safety, limiting cadaveric secretion and bone dust contamination, and reducing noise. The device consists of a control unit for the saw frame, a speed control for the saw blade, a control to set blade depth, and an electrical control box that uses pulse width modulation (PWM). The results showed that this machine can minimize bone dust contamination, reduce heavy noise and increase human safety, mostly due to the use of a remote control unit. This instrument can cut many spherical objects like a calvarium. For future studies, the unit and blade function should be adjusted using wireless remote control and the machine needs to be installed on the ceiling for easy attachment to the head of the corpse.",
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Autopsy technique",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Cadaver",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Human dissection",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Robotic autopsy saw",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://portal.acm.org/",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "ACM International Conference Proceeding Series",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"pagerange": {
+                        "@first": "1",
+                        "@last": "5"
+                    }},
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781450361309",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "9th International Conference on Biomedical Engineering and Technology, ICBET 2019",
+                            "confnumber": "9",
+                            "confseriestitle": "International Conference on Biomedical Engineering and Technology",
+                            "conflocation": {
+                                "venue": "Meiji University",
+                                "@country": "jpn",
+                                "city": "Tokyo"
+                            },
+                            "confcode": "149151",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "30",
+                                    "@year": "2019",
+                                    "@month": "03"
+                                },
+                                "startdate": {
+                                    "@day": "28",
+                                    "@year": "2019",
+                                    "@month": "03"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "ACM International Conference Proceeding Series",
+                    "publicationdate": {
+                        "month": "03",
+                        "year": "2019",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "28 March 2019"
+                        },
+                        "day": "28"
+                    },
+                    "sourcetitle-abbrev": "ACM Int. Conf. Proc. Ser.",
+                    "@country": "usa",
+                    "issuetitle": "Proceedings of the 2019 9th International Conference on Biomedical Engineering and Technology, ICBET 2019",
+                    "publicationyear": {"@first": "2019"},
+                    "publisher": {"publishername": "Association for Computing Machinery"},
+                    "@srcid": "11600154611"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "451.1",
+                                "classification-description": "Air Pollution Sources"
+                            },
+                            {
+                                "classification-code": "461.1",
+                                "classification-description": "Biomedical Engineering"
+                            },
+                            {
+                                "classification-code": "731",
+                                "classification-description": "Automatic Control Principles and Applications"
+                            },
+                            {
+                                "classification-code": "751.4",
+                                "classification-description": "Acoustic Noise"
+                            },
+                            {
+                                "classification-code": "914",
+                                "classification-description": "Safety Engineering"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1712"},
+                            {"$": "1709"},
+                            {"$": "1707"},
+                            {"$": "1705"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "COMP"
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This model was supported by Rachadapiseksompoch Fund, Chulalongkorn University, fiscal year 2017, a patent application number 1801007777. This project was received the 1st runner up award of i-MEDBOT Innovation Contest 2018 (Robotic Autopsy Saw Project by Forensic Innovation Team), Thailand Center of Excellence for Life Sciences, 4th August 2018 and joining on Thailand inventors\u2019 day 2019 at the Bangkok International Trade & Exhibition Center (BITEC), Bangkok, Thailand, 2nd \u2013 6th February 2019. We would like to thank Dr. Roger Callahan, Head of International Relations, School of Medicine, Mae Fah Luang University for grammatical improvement.",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": [
+                        {
+                            "grant-acronym": "MFU",
+                            "grant-agency": {
+                                "@iso-code": "tha",
+                                "$": "Mae Fah Luang University"
+                            },
+                            "grant-agency-id": "501100004154"
+                        },
+                        {
+                            "grant-agency": {
+                                "@iso-code": "usa",
+                                "$": "School of Medicine"
+                            },
+                            "grant-agency-id": "100008235"
+                        },
+                        {
+                            "grant-id": "1801007777",
+                            "grant-acronym": "CU",
+                            "grant-agency": {
+                                "@iso-code": "tha",
+                                "$": "Chulalongkorn University"
+                            },
+                            "grant-agency-id": "501100002873"
+                        }
+                    ]
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2022 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "24",
+                    "@timestamp": "BST 12:05:04",
+                    "@year": "2022",
+                    "@month": "01"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "628578702",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "918800979",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20192907213160",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20192051892",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85069209605",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85069209605",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1145/3326172.3326177"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "8",
+                "reference": [
+                    {
+                        "ref-fulltext": "Kernbach-Wighton, G., Kuhlencord, A., and Saternus, K. S. 1998. Sawdust in autopsies: production, spreading, and contamination. Pathologe. 19, 5 (Sep. 1998), 355\u2013360.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Sawdust in autopsies: Production, spreading, and contamination"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0031714171",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "19",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "355",
+                                    "@last": "360"
+                                }
+                            },
+                            "ref-text": "Sep. 1998",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kernbach-Wighton",
+                                    "ce:indexed-name": "Kernbach-Wighton G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kuhlencord",
+                                    "ce:indexed-name": "Kuhlencord A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Saternus",
+                                    "ce:indexed-name": "Saternus K.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Pathologe"
+                        },
+                        "ce:source-text": "Kernbach-Wighton, G., Kuhlencord, A., and Saternus, K. S. 1998. Sawdust in autopsies: production, spreading, and contamination. Pathologe. 19, 5 (Sep. 1998), 355\u2013360."
+                    },
+                    {
+                        "ref-fulltext": "Kernbach-Wighton, G., Kuhlencord, A., Rossbach, K., and Fischer, G. 1996. Bone-dust in autopsies: reduction of spreading. Forensic Sci Int. 83, 2 (Dec. 1996), 95\u2013103.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "Bone-dust in autopsies: Reduction of spreading"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030566688",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "83",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "95",
+                                    "@last": "103"
+                                }
+                            },
+                            "ref-text": "Dec. 1996",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kernbach-Wighton",
+                                    "ce:indexed-name": "Kernbach-Wighton G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kuhlencord",
+                                    "ce:indexed-name": "Kuhlencord A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rossbach",
+                                    "ce:indexed-name": "Rossbach K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fischer",
+                                    "ce:indexed-name": "Fischer G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Forensic Sci Int"
+                        },
+                        "ce:source-text": "Kernbach-Wighton, G., Kuhlencord, A., Rossbach, K., and Fischer, G. 1996. Bone-dust in autopsies: reduction of spreading. Forensic Sci Int. 83, 2 (Dec. 1996), 95\u2013103."
+                    },
+                    {
+                        "ref-fulltext": "Saukko, P. and Knight, B. 2015. Knight\u2019s Forensic Pathology. CRC Press, UK.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "11844259204",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "CRC Press, UK",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Saukko",
+                                    "ce:indexed-name": "Saukko P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Knight",
+                                    "ce:indexed-name": "Knight B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Knight\u2019S Forensic Pathology"
+                        },
+                        "ce:source-text": "Saukko, P. and Knight, B. 2015. Knight\u2019s Forensic Pathology. CRC Press, UK."
+                    },
+                    {
+                        "ref-fulltext": "Wenner, L., Pauli, U., Summermatter, K., Gantenbein, H., Vidondo, B., and Posthaus, H. 2017. Aerosol generation during bone-sawing procedures in veterinary autopsies. Vet. Pathol. 54, 3 (May. 2017), 425-436. DOI= https://doi.org/10.1177/0300985816688744",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1177/0300985816688744",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Aerosol generation during bone-sawing procedures in veterinary autopsies"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85018955367",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "54",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "425",
+                                    "@last": "436"
+                                }
+                            },
+                            "ref-text": "May. 2017",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wenner",
+                                    "ce:indexed-name": "Wenner L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "U.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pauli",
+                                    "ce:indexed-name": "Pauli U."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Summermatter",
+                                    "ce:indexed-name": "Summermatter K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gantenbein",
+                                    "ce:indexed-name": "Gantenbein H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vidondo",
+                                    "ce:indexed-name": "Vidondo B."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Posthaus",
+                                    "ce:indexed-name": "Posthaus H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Vet. Pathol."
+                        },
+                        "ce:source-text": "Wenner, L., Pauli, U., Summermatter, K., Gantenbein, H., Vidondo, B., and Posthaus, H. 2017. Aerosol generation during bone-sawing procedures in veterinary autopsies. Vet. Pathol. 54, 3 (May. 2017), 425-436. DOI= https://doi.org/10.1177/0300985816688744"
+                    },
+                    {
+                        "ref-fulltext": "Razali, A., Herman, H. P., and Zulkifly, A. H. 2017. Noise exposure during orthopaedics surgery. Science Heritage Journal. 1, 2 (Dec. 2017), 32-33. DOI= https://doi.org/10.26480/gws.02.2017.32.33",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.26480/gws.02.2017.32.33",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Noise exposure during orthopaedics surgery"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85049388467",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "1",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "32",
+                                    "@last": "33"
+                                }
+                            },
+                            "ref-text": "Dec. 2017",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Razali",
+                                    "ce:indexed-name": "Razali A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Herman",
+                                    "ce:indexed-name": "Herman H.P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zulkifly",
+                                    "ce:indexed-name": "Zulkifly A.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Science Heritage Journal"
+                        },
+                        "ce:source-text": "Razali, A., Herman, H. P., and Zulkifly, A. H. 2017. Noise exposure during orthopaedics surgery. Science Heritage Journal. 1, 2 (Dec. 2017), 32-33. DOI= https://doi.org/10.26480/gws.02.2017.32.33"
+                    },
+                    {
+                        "ref-fulltext": "Peters, M. P., Feczko, P. Z., Tsang, K., Rietbergen, B. V., Arts, J. J., and Emans, P. J. 2016. Noise exposure in tka surgery; oscillating tip saw systems vs oscillating blade saw systems. J Arthroplasty. 31, 12 (Dec. 2016), 2773-2777. DOI= http://dx.doi.org/10.1016/j.arth.2016.05.030",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://dx.doi.org/10.1016/j.arth.2016.05.030",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Noise exposure in tka surgery; oscillating tip saw systems vs oscillating blade saw systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84979703602",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "31",
+                                    "@issue": "12"
+                                },
+                                "pagerange": {
+                                    "@first": "2773",
+                                    "@last": "2777"
+                                }
+                            },
+                            "ref-text": "Dec. 2016",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peters",
+                                    "ce:indexed-name": "Peters M.P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Feczko",
+                                    "ce:indexed-name": "Feczko P.Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tsang",
+                                    "ce:indexed-name": "Tsang K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "B.V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rietbergen",
+                                    "ce:indexed-name": "Rietbergen B.V."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Arts",
+                                    "ce:indexed-name": "Arts J.J."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "P.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Emans",
+                                    "ce:indexed-name": "Emans P.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J Arthroplasty"
+                        },
+                        "ce:source-text": "Peters, M. P., Feczko, P. Z., Tsang, K., Rietbergen, B. V., Arts, J. J., and Emans, P. J. 2016. Noise exposure in tka surgery; oscillating tip saw systems vs oscillating blade saw systems. J Arthroplasty. 31, 12 (Dec. 2016), 2773-2777. DOI= http://dx.doi.org/10.1016/j.arth.2016.05.030"
+                    },
+                    {
+                        "ref-fulltext": "Lynnerup, N., Astrup, J. G., and Sejrsen, B. 2005. Thickness of the human cranial diploe in relation to age, sex and general body build. Head Face Med. 1, 13 (Dec. 2005), 1-7. DOI= https://doi.org/10.1186/1746-160X-1-13",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1186/1746-160X-1-13",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Thickness of the human cranial diploe in relation to age, sex and general body build"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34047130368",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "1",
+                                    "@issue": "13"
+                                },
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "7"
+                                }
+                            },
+                            "ref-text": "Dec. 2005",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lynnerup",
+                                    "ce:indexed-name": "Lynnerup N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Astrup",
+                                    "ce:indexed-name": "Astrup J.G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sejrsen",
+                                    "ce:indexed-name": "Sejrsen B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Head Face Med"
+                        },
+                        "ce:source-text": "Lynnerup, N., Astrup, J. G., and Sejrsen, B. 2005. Thickness of the human cranial diploe in relation to age, sex and general body build. Head Face Med. 1, 13 (Dec. 2005), 1-7. DOI= https://doi.org/10.1186/1746-160X-1-13"
+                    },
+                    {
+                        "ref-fulltext": "De Boer, H. H., Merwe, A. E., and Soerdjbalie-Maikoe, V. 2016. Human cranial vault thickness in a contemporary sample of 1097 autopsy cases: relation to body weight, stature, age, sex and ancestry. Int J Legal Med. 130, 5 (Sep. 2016), 1371-1377. DOI= http://dx.doi.org/10.1007/s00414-016-1324-5",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://dx.doi.org/10.1007/s00414-016-1324-5",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Human cranial vault thickness in a contemporary sample of 1097 autopsy cases: Relation to body weight, stature, age, sex and ancestry"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84975709427",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "130",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "1371",
+                                    "@last": "1377"
+                                }
+                            },
+                            "ref-text": "Sep. 2016",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "De Boer",
+                                    "ce:indexed-name": "De Boer H.H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Merwe",
+                                    "ce:indexed-name": "Merwe A.E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Soerdjbalie-Maikoe",
+                                    "ce:indexed-name": "Soerdjbalie-Maikoe V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int J Legal Med"
+                        },
+                        "ce:source-text": "De Boer, H. H., Merwe, A. E., and Soerdjbalie-Maikoe, V. 2016. Human cranial vault thickness in a contemporary sample of 1097 autopsy cases: relation to body weight, stature, age, sex and ancestry. Int J Legal Med. 130, 5 (Sep. 2016), 1371-1377. DOI= http://dx.doi.org/10.1007/s00414-016-1324-5"
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Chiang Rai",
+            "@id": "60199562",
+            "affilname": "School of Medicine, Mae Fah Luang University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60199562",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        }
+    ],
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85069209605",
+        "dc:description": "An autopsy saw is a device for opening cadaveric skulls. Most electric saws generate bone dust and can also cause loud noise pollution. Sometimes technicians might be injured in the autopsy operating room, whilst using either hand saws or electric autopsy saws. To help protect physicians and their colleagues from potentially unsafe working conditions, the robotic autopsy saw was developed for this purpose. This project demonstrates the design and fabrication of an electric circular saw that can be controlled at distance by remote control, so increasing human safety, limiting cadaveric secretion and bone dust contamination, and reducing noise. The device consists of a control unit for the saw frame, a speed control for the saw blade, a control to set blade depth, and an electrical control box that uses pulse width modulation (PWM). The results showed that this machine can minimize bone dust contamination, reduce heavy noise and increase human safety, mostly due to the use of a remote control unit. This instrument can cut many spherical objects like a calvarium. For future studies, the unit and blade function should be adjusted using wireless remote control and the machine needs to be installed on the ceiling for easy attachment to the head of the corpse.",
+        "prism:coverDate": "2019-03-28",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85069209605",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Arnon",
+            "preferred-name": {
+                "ce:given-name": "Arnon",
+                "ce:initials": "A.",
+                "ce:surname": "Jumlongkul",
+                "ce:indexed-name": "Jumlongkul A."
+            },
+            "@seq": "1",
+            "ce:initials": "A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60199562",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60199562"
+            },
+            "ce:surname": "Jumlongkul",
+            "@auid": "57209975404",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57209975404",
+            "ce:indexed-name": "Jumlongkul A."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85069209605"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85069209605&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85069209605&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781450361309",
+        "prism:publicationName": "ACM International Conference Proceeding Series",
+        "source-id": "11600154611",
+        "citedby-count": "2",
+        "subtype": "cp",
+        "prism:pageRange": "1-5",
+        "dc:title": "Design and fabrication of robotic autopsy Saw",
+        "prism:endingPage": "5",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1145/3326172.3326177",
+        "prism:startingPage": "1",
+        "publishercopyright": "© 2019 Association for Computing Machinery.",
+        "dc:identifier": "SCOPUS_ID:85069209605",
+        "dc:publisher": "Association for Computing Machinery"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Autopsy technique",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Cadaver",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Dust contamination",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Electrical control",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Reducing noise",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Remote-control units",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Spherical objects",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Wireless remote control",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Autopsy technique"
+        },
+        {
+            "@_fa": "true",
+            "$": "Cadaver"
+        },
+        {
+            "@_fa": "true",
+            "$": "Human dissection"
+        },
+        {
+            "@_fa": "true",
+            "$": "Robotic autopsy saw"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Software",
+            "@code": "1712",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Human-Computer Interaction",
+            "@code": "1709",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Vision and Pattern Recognition",
+            "@code": "1707",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Networks and Communications",
+            "@code": "1705",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Arnon",
+            "preferred-name": {
+                "ce:given-name": "Arnon",
+                "ce:initials": "A.",
+                "ce:surname": "Jumlongkul",
+                "ce:indexed-name": "Jumlongkul A."
+            },
+            "@seq": "1",
+            "ce:initials": "A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60199562",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60199562"
+            },
+            "ce:surname": "Jumlongkul",
+            "@auid": "57209975404",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57209975404",
+            "ce:indexed-name": "Jumlongkul A."
+        },
+        {
+            "ce:given-name": "Panuwat",
+            "preferred-name": {
+                "ce:given-name": "Panuwat",
+                "ce:initials": "P.",
+                "ce:surname": "Chutivongse",
+                "ce:indexed-name": "Chutivongse P."
+            },
+            "@seq": "2",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Chutivongse",
+            "@auid": "57209977452",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57209977452",
+            "ce:indexed-name": "Chutivongse P."
+        }
+    ]}
+}}

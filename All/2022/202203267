@@ -1,0 +1,1823 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "25",
+                "@year": "2023",
+                "@timestamp": "2023-05-25T07:13:20.000020-04:00",
+                "@month": "05"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2022",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {"xocs:funding-agency-matched-string": "C2F) Chulalongkorn University Bangkok Thailand"},
+                {"xocs:funding-agency-matched-string": "Ratchadaphiseksomphot Endowment Fund"},
+                {"xocs:funding-agency-matched-string": "Second Century Fund"},
+                {
+                    "xocs:funding-agency-matched-string": "Thailand Science research and Innovation Fund Chulalongkorn University",
+                    "xocs:funding-id": "157_21_23"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Electrical Engineering Department Chulalongkorn University",
+                    "xocs:funding-agency": "Department of Electrical Engineering, Chulalongkorn University",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100006540",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2023-01-20T17:34:43.479Z",
+            "xocs:funding-text": "This work is supported by the Second Century Fund (C2F) Chulalongkorn University Bangkok Thailand, Electrical Engineering Department Chulalongkorn University Bangkok, Thailand, Thailand Science research and Innovation Fund Chulalongkorn University (CU_FRB65_ind-(9)157_21_23), Ratchadaphiseksomphot Endowment Fund (Multimedia Data Analytics and Processing Research Unit).",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Pakistan",
+                            "@afid": "129087064",
+                            "@country": "pak",
+                            "city": "Khuzdar",
+                            "organization": [
+                                {"$": "Buet"},
+                                {"$": "Electrical Engineering Department"}
+                            ],
+                            "affiliation-id": {"@afid": "129087064"},
+                            "ce:source-text": "BUET, Electrical Engineering Department, Khuzdar, Pakistan"
+                        },
+                        "author": [{
+                            "ce:given-name": "Wazir",
+                            "preferred-name": {
+                                "ce:given-name": "Wazir",
+                                "ce:initials": "W.",
+                                "ce:surname": "Muhammad",
+                                "ce:indexed-name": "Muhammad W."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "W.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Muhammad",
+                            "@auid": "58254380500",
+                            "ce:indexed-name": "Muhammad W."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "postal-code": "10330",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Chulalongkorn University"},
+                                {"$": "Multimedia Data Analytics and Processing Unit"},
+                                {"$": "Faculty of Engineering"},
+                                {"$": "Department of Electrical Engineering"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "113845132"
+                            },
+                            "ce:source-text": "Chulalongkorn University, Multimedia Data Analytics and Processing Unit, Faculty of Engineering, Department of Electrical Engineering, Bangkok, Thailand, 10330",
+                            "@dptid": "113845132"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Supavadee",
+                                "preferred-name": {
+                                    "ce:given-name": "Supavadee",
+                                    "ce:initials": "S.",
+                                    "ce:surname": "Aramvith",
+                                    "ce:indexed-name": "Aramvith S."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Aramvith",
+                                "@auid": "8943602000",
+                                "ce:indexed-name": "Aramvith S."
+                            },
+                            {
+                                "ce:given-name": "Watchara",
+                                "preferred-name": {
+                                    "ce:given-name": "Watchara",
+                                    "ce:initials": "W.",
+                                    "ce:surname": "Ruangsang",
+                                    "ce:indexed-name": "Ruangsang W."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "W.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Ruangsang",
+                                "@auid": "57188492700",
+                                "ce:indexed-name": "Ruangsang W."
+                            }
+                        ]
+                    }
+                ],
+                "citation-title": "MCSNet: Multi-Channel Sharing Network for Single Image Super-Resolution",
+                "abstracts": "© 2022 Asia-Pacific of Signal and Information Processing Association (APSIPA).Due to the rapid development of convolutional neural networks (CNNs) architecture, single-image super-resolution (SISR) performance and processing speed increased. However, CNN-based architectures have a high computational cost, more processing time, and reconstructed results are still unsatisfactory. Furthermore, CNN architectures depend on the single-channel network architecture to reconstructing the high-resolution (HR) image, which also creates problems during the training, extracted features are not received at the last end layer. To report these issues, we suggested a Multi-Channel Sharing Network for Single Image Super-Resolution (MCSNet). In addition, the multi-channel sharing technique is used to extract and share the feature information through different routes, which is very important to resolve the SISR problem. Numerous quantitative and qualitative experimental findings demonstrate that our suggested method outperforms existing state-of-the-art approaches in terms of peak signal-to-noise ratio (PSNR), structural similarity index measure (SSIM), computing complexity, and perceptual quality. Especially on challenging enlargement scale factor 8x, our proposed method improves the overall average PSNR on all test datasets, including Mangal09, UrbanlOO, Set14, and Set5, by 2.04dB with the baseline method.",
+                "correspondence": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "postal-code": "10330",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Chulalongkorn University"},
+                                {"$": "Multimedia Data Analytics and Processing Unit"},
+                                {"$": "Faculty of Engineering"},
+                                {"$": "Department of Electrical Engineering"}
+                            ],
+                            "ce:source-text": "Chulalongkorn University, Multimedia Data Analytics and Processing Unit, Faculty of Engineering, Department of Electrical Engineering, Bangkok, Thailand, 10330"
+                        },
+                        "person": {
+                            "ce:given-name": "Supavadee",
+                            "ce:initials": "S.",
+                            "ce:surname": "Aramvith",
+                            "ce:indexed-name": "Aramvith S."
+                        }
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "postal-code": "10330",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Chulalongkorn University"},
+                                {"$": "Multimedia Data Analytics and Processing Unit"},
+                                {"$": "Faculty of Engineering"},
+                                {"$": "Department of Electrical Engineering"}
+                            ],
+                            "ce:source-text": "Chulalongkorn University, Multimedia Data Analytics and Processing Unit, Faculty of Engineering, Department of Electrical Engineering, Bangkok, Thailand, 10330"
+                        },
+                        "person": {
+                            "ce:given-name": "Watchara",
+                            "ce:initials": "W.",
+                            "ce:surname": "Ruangsang",
+                            "ce:indexed-name": "Ruangsang W."
+                        }
+                    }
+                ],
+                "citation-info": {
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=9979726",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Proceedings of 2022 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference, APSIPA ASC 2022",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"pagerange": {
+                        "@first": "1198",
+                        "@last": "1202"
+                    }},
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9786165904773",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "2022 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference, APSIPA ASC 2022",
+                            "confsponsors": {
+                                "confsponsor": [
+                                    {"$": "Google"},
+                                    {"$": "Huawei"},
+                                    {"$": "Thailand Convention and Exhibition Bureau (TCEB)"}
+                                ],
+                                "@complete": "n"
+                            },
+                            "confcatnumber": "CFP2214U-ART",
+                            "confseriestitle": "Asia-Pacific Signal and Information Processing Association Summit and Conference",
+                            "conflocation": {
+                                "@country": "tha",
+                                "city": "Chiang Mai"
+                            },
+                            "confcode": "185376",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "10",
+                                    "@year": "2022",
+                                    "@month": "11"
+                                },
+                                "startdate": {
+                                    "@day": "07",
+                                    "@year": "2022",
+                                    "@month": "11"
+                                }
+                            },
+                            "confURL": "www.apsipa2022.org"
+                        }
+                    }},
+                    "sourcetitle": "Proceedings of 2022 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference, APSIPA ASC 2022",
+                    "publicationdate": {
+                        "year": "2022",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2022"
+                        }
+                    },
+                    "sourcetitle-abbrev": "Proc. Asia-Pacific Signal Inf. Process. Assoc. Annu. Summit Conf., APSIPA ASC",
+                    "@country": "usa",
+                    "issuetitle": "Proceedings of 2022 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference, APSIPA ASC 2022",
+                    "publicationyear": {"@first": "2022"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "@srcid": "21101131431"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1705"},
+                            {"$": "1710"},
+                            {"$": "1711"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "716.1",
+                                "classification-description": "Information Theory and Signal Processing"
+                            },
+                            {
+                                "classification-code": "741.1",
+                                "classification-description": "Light/Optics"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "COMP"
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This work is supported by the Second Century Fund (C2F) Chulalongkorn University Bangkok Thailand, Electrical Engineering Department Chulalongkorn University Bangkok, Thailand, Thailand Science research and Innovation Fund Chulalongkorn University (CU_FRB65_ind-(9)157_21_23), Ratchadaphiseksomphot Endowment Fund (Multimedia Data Analytics and Processing Research Unit).",
+                        "@xml:lang": "eng"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2023 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "19",
+                    "@year": "2023",
+                    "@timestamp": "BST 17:01:16",
+                    "@month": "01"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "640033858",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "945433336",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20230313400882",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20230220269",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85146274085",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85146274085",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.23919/APSIPAASC55919.2022.9979943"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "25",
+                "reference": [
+                    {
+                        "ref-fulltext": "W. T. Freeman, E. C. Pasztor, and O. T. Carmichael, \"Learning Low-Level Vision, \" International Journal of Computer Vision, vol. 40, no. 1, pp. 25-47, 2000/10/01 2000, doi: 10. 1023/A: 1026501619075.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-title": {"ref-titletext": "Learning Low-Level Vision"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1023/A:1026501619075",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "0034291933",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "40",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "25",
+                                    "@last": "47"
+                                }
+                            },
+                            "ref-text": "10/01 2000",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Freeman",
+                                    "ce:indexed-name": "Freeman W.T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pasztor",
+                                    "ce:indexed-name": "Pasztor E.C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "O.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carmichael",
+                                    "ce:indexed-name": "Carmichael O.T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Journal of Computer Vision"
+                        },
+                        "ce:source-text": "W. T. Freeman, E. C. Pasztor, and O. T. Carmichael, \"Learning Low-Level Vision, \" International Journal of Computer Vision, vol. 40, no. 1, pp. 25-47, 2000/10/01 2000, doi: 10. 1023/A: 1026501619075."
+                    },
+                    {
+                        "ref-fulltext": "J. Luo, L. Zhao, L. Zhu, and W. Tao, \"Multi-scale receptive field fusion network for lightweight image superresolution, \" Neurocomput., vol. 493, no. C, pp. 314-326, 2022, doi: 10. 1016/j. neucom. 2022. 04. 038.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-title": {"ref-titletext": "Multi-scale receptive field fusion network for lightweight image superresolution"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/j.neucom.2022.04.038",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85129553984",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "493",
+                                    "@issue": "C"
+                                },
+                                "pagerange": {
+                                    "@first": "314",
+                                    "@last": "326"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Luo",
+                                    "ce:indexed-name": "Luo J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tao",
+                                    "ce:indexed-name": "Tao W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neurocomput."
+                        },
+                        "ce:source-text": "J. Luo, L. Zhao, L. Zhu, and W. Tao, \"Multi-scale receptive field fusion network for lightweight image superresolution, \" Neurocomput., vol. 493, no. C, pp. 314-326, 2022, doi: 10. 1016/j. neucom. 2022. 04. 038."
+                    },
+                    {
+                        "ref-fulltext": "X. Zhang et al., \"Remote Sensing Image Super-Resolution via Dual-Resolution Network Based on Connected Attention Mechanism, \" IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1-13, 2022, doi: 10. 1109/TGRS. 2021. 3106681.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-title": {"ref-titletext": "Remote Sensing Image Super-Resolution via Dual-Resolution Network Based on Connected Attention Mechanism"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/TGRS.2021.3106681",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85114716910",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "60"},
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "13"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang X."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE Transactions on Geoscience and Remote Sensing"
+                        },
+                        "ce:source-text": "X. Zhang et al., \"Remote Sensing Image Super-Resolution via Dual-Resolution Network Based on Connected Attention Mechanism, \" IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1-13, 2022, doi: 10. 1109/TGRS. 2021. 3106681."
+                    },
+                    {
+                        "ref-fulltext": "X. Yang, T. Xie, Y. Guo, and D. Zhou, \"Remote sensing image super-resolution based on convolutional blind denoising adaptive dense connection, \" IET Image Processing, vol. 15, no. 11, pp. 2508-2520, 2021.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Remote sensing image super-resolution based on convolutional blind denoising adaptive dense connection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85105969764",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "15",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "2508",
+                                    "@last": "2520"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xie",
+                                    "ce:indexed-name": "Xie T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IET Image Processing"
+                        },
+                        "ce:source-text": "X. Yang, T. Xie, Y. Guo, and D. Zhou, \"Remote sensing image super-resolution based on convolutional blind denoising adaptive dense connection, \" IET Image Processing, vol. 15, no. 11, pp. 2508-2520, 2021."
+                    },
+                    {
+                        "ref-fulltext": "D. Qin and X. Gu, \"Single-image super-resolution with multilevel residual attention network, \" Neural Comput. Appl., vol. 32, no. 19, pp. 15615-15628, 2020, doi: 10. 1007/s00521-020-04896-6.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Single-image super-resolution with multilevel residual attention network"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/s00521-020-04896-6",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85084123052",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "32",
+                                    "@issue": "19"
+                                },
+                                "pagerange": {
+                                    "@first": "15615",
+                                    "@last": "15628"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qin",
+                                    "ce:indexed-name": "Qin D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gu",
+                                    "ce:indexed-name": "Gu X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neural Comput. Appl."
+                        },
+                        "ce:source-text": "D. Qin and X. Gu, \"Single-image super-resolution with multilevel residual attention network, \" Neural Comput. Appl., vol. 32, no. 19, pp. 15615-15628, 2020, doi: 10. 1007/s00521-020-04896-6."
+                    },
+                    {
+                        "ref-fulltext": "J. Jiang, H. M. Kasem, and K. W. Hung, \"A Very Deep Spatial Transformer Towards Robust Single Image Super-Resolution, \" IEEE Access, vol. 7, pp. 45618-45631, 2019, doi: 10. 1109/ACCESS. 2019. 2908996.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "A Very Deep Spatial Transformer Towards Robust Single Image Super-Resolution"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/ACCESS.2019.2908996",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85064558596",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "7"},
+                                "pagerange": {
+                                    "@first": "45618",
+                                    "@last": "45631"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kasem",
+                                    "ce:indexed-name": "Kasem H.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hung",
+                                    "ce:indexed-name": "Hung K.W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Access"
+                        },
+                        "ce:source-text": "J. Jiang, H. M. Kasem, and K. W. Hung, \"A Very Deep Spatial Transformer Towards Robust Single Image Super-Resolution, \" IEEE Access, vol. 7, pp. 45618-45631, 2019, doi: 10. 1109/ACCESS. 2019. 2908996."
+                    },
+                    {
+                        "ref-fulltext": "C. Dong, C. C. Loy, K. He, and X. Tang, \"Image Super-Resolution Using Deep Convolutional Networks, \" IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 38, no. 2, pp. 295-307, 2016, doi: 10. 1109/TPAMI. 2015. 2439281.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Image Super-Resolution Using Deep Convolutional Networks"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/TPAMI.2015.2439281",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "84962128851",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "38",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "295",
+                                    "@last": "307"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dong",
+                                    "ce:indexed-name": "Dong C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Loy",
+                                    "ce:indexed-name": "Loy C.C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+                        },
+                        "ce:source-text": "C. Dong, C. C. Loy, K. He, and X. Tang, \"Image Super-Resolution Using Deep Convolutional Networks, \" IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 38, no. 2, pp. 295-307, 2016, doi: 10. 1109/TPAMI. 2015. 2439281."
+                    },
+                    {
+                        "ref-fulltext": "C. Dong, C. C. Loy, and X. Tang, \"Accelerating the Super-Resolution Convolutional Neural Network, \" in Computer Vision-ECCV 2016, Cham, B. Leibe, J. Matas, N. Sebe, and M. Welling, Eds., 2016//2016: Springer International Publishing, pp. 391-407.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Accelerating the Super-Resolution Convolutional Neural Network"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84990837045",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "391",
+                                "@last": "407"
+                            }},
+                            "ref-text": "Cham, B. Leibe, J. Matas, N. Sebe, and M. Welling, Eds., 2016//2016: Springer International Publishing",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dong",
+                                    "ce:indexed-name": "Dong C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Loy",
+                                    "ce:indexed-name": "Loy C.C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer Vision-ECCV 2016"
+                        },
+                        "ce:source-text": "C. Dong, C. C. Loy, and X. Tang, \"Accelerating the Super-Resolution Convolutional Neural Network, \" in Computer Vision-ECCV 2016, Cham, B. Leibe, J. Matas, N. Sebe, and M. Welling, Eds., 2016//2016: Springer International Publishing, pp. 391-407."
+                    },
+                    {
+                        "ref-fulltext": "J. Kim, J. K. Lee, and K. M. Lee, \"Accurate Image Super-Resolution Using Very Deep Convolutional Networks, \" in 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 27-30 June 2016 2016, pp. 1646-1654, doi: 10. 1109/CVPR. 2016. 182.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Accurate Image Super-Resolution Using Very Deep Convolutional Networks"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/CVPR.2016.182",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "84986325587",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1646",
+                                "@last": "1654"
+                            }},
+                            "ref-text": "27-30 June 2016",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee J.K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee K.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+                        },
+                        "ce:source-text": "J. Kim, J. K. Lee, and K. M. Lee, \"Accurate Image Super-Resolution Using Very Deep Convolutional Networks, \" in 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 27-30 June 2016 2016, pp. 1646-1654, doi: 10. 1109/CVPR. 2016. 182."
+                    },
+                    {
+                        "ref-fulltext": "Z. Wang, D. Liu, J. Yang, W. Han, and T. S. Huang, \"Deep Networks for Image Super-Resolution with Sparse Prior, \" 2015 IEEE International Conference on Computer Vision (ICCV), pp. 370-378, 2015.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Deep Networks for Image Super-Resolution with Sparse Prior"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84973897612",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "370",
+                                "@last": "378"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Han",
+                                    "ce:indexed-name": "Han W."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "T.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang T.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2015 IEEE International Conference on Computer Vision (ICCV)"
+                        },
+                        "ce:source-text": "Z. Wang, D. Liu, J. Yang, W. Han, and T. S. Huang, \"Deep Networks for Image Super-Resolution with Sparse Prior, \" 2015 IEEE International Conference on Computer Vision (ICCV), pp. 370-378, 2015."
+                    },
+                    {
+                        "ref-fulltext": "J. Kim, J. K. Lee, and K. M. Lee, \"Deeply-Recursive Convolutional Network for Image Super-Resolution, \" in 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 27-30 June 2016 2016, pp. 1637-1645, doi: 10. 1109/CVPR. 2016. 181.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Deeply-Recursive Convolutional Network for Image Super-Resolution"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/CVPR.2016.181",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "84986253618",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1637",
+                                "@last": "1645"
+                            }},
+                            "ref-text": "27-30 June 2016",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee J.K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee K.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+                        },
+                        "ce:source-text": "J. Kim, J. K. Lee, and K. M. Lee, \"Deeply-Recursive Convolutional Network for Image Super-Resolution, \" in 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 27-30 June 2016 2016, pp. 1637-1645, doi: 10. 1109/CVPR. 2016. 181."
+                    },
+                    {
+                        "ref-fulltext": "Y. Tai, J. Yang, and X. Liu, \"Image Super-Resolution via Deep Recursive Residual Network, \" 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 2790-2798, 2017.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Image Super-Resolution via Deep Recursive Residual Network"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85041918798",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2790",
+                                "@last": "2798"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tai",
+                                    "ce:indexed-name": "Tai Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+                        },
+                        "ce:source-text": "Y. Tai, J. Yang, and X. Liu, \"Image Super-Resolution via Deep Recursive Residual Network, \" 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 2790-2798, 2017."
+                    },
+                    {
+                        "ref-fulltext": "Y. Tai, J. Yang, X. Liu, and C. Xu, \"Memnet: A persistent memory network for image restoration, \" in Proceedings of the IEEE international conference on computer vision, 2017, pp. 4539-4547.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Memnet: A persistent memory network for image restoration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85041919200",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "4539",
+                                "@last": "4547"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tai",
+                                    "ce:indexed-name": "Tai Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu X."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE international conference on computer vision"
+                        },
+                        "ce:source-text": "Y. Tai, J. Yang, X. Liu, and C. Xu, \"Memnet: A persistent memory network for image restoration, \" in Proceedings of the IEEE international conference on computer vision, 2017, pp. 4539-4547."
+                    },
+                    {
+                        "ref-fulltext": "W.-S. Lai, J.-B. Huang, N. Ahuja, and M.-H. Yang, \"Deep Laplacian Pyramid Networks for Fast and Accurate Super-Resolution, \" 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 5835-5843, 2017.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Deep Laplacian Pyramid Networks for Fast and Accurate Super-Resolution"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85041899955",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "5835",
+                                "@last": "5843"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.-S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lai",
+                                    "ce:indexed-name": "Lai W.-S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.-B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang J.-B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ahuja",
+                                    "ce:indexed-name": "Ahuja N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.-H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang M.-H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+                        },
+                        "ce:source-text": "W.-S. Lai, J.-B. Huang, N. Ahuja, and M.-H. Yang, \"Deep Laplacian Pyramid Networks for Fast and Accurate Super-Resolution, \" 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 5835-5843, 2017."
+                    },
+                    {
+                        "ref-fulltext": "W. Muhammad, S. Aramvith, and T. Onoye, \"Multi-scale Xception based depthwise separable convolution for single image super-resolution, \" Plos one, vol. 16, no. 8, p. e0249278, 2021.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Multi-scale Xception based depthwise separable convolution for single image super-resolution"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "e0249278",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "85113352937",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "16",
+                                "@issue": "8"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Muhammad",
+                                    "ce:indexed-name": "Muhammad W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aramvith",
+                                    "ce:indexed-name": "Aramvith S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Onoye",
+                                    "ce:indexed-name": "Onoye T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Plos one"
+                        },
+                        "ce:source-text": "W. Muhammad, S. Aramvith, and T. Onoye, \"Multi-scale Xception based depthwise separable convolution for single image super-resolution, \" Plos one, vol. 16, no. 8, p. e0249278, 2021."
+                    },
+                    {
+                        "ref-fulltext": "W. Muhammad and S. Aramvith, \"Multi-Scale Inception Based Super-Resolution Using Deep Learning Approach, \" Electronics, vol. 8, no. 8, p. 892, 2019. [Online]. Available: https://www. mdpi. com/2079-9292/8/8/892.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.mdpi.com/2079-9292/8/8/892",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Multi-Scale Inception Based Super-Resolution Using Deep Learning Approach"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85071883406",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "8",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {"@first": "892"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Muhammad",
+                                    "ce:indexed-name": "Muhammad W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aramvith",
+                                    "ce:indexed-name": "Aramvith S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Electronics"
+                        },
+                        "ce:source-text": "W. Muhammad and S. Aramvith, \"Multi-Scale Inception Based Super-Resolution Using Deep Learning Approach, \" Electronics, vol. 8, no. 8, p. 892, 2019. [Online]. Available: https://www. mdpi. com/2079-9292/8/8/892."
+                    },
+                    {
+                        "ref-fulltext": "Y. Cai, G. Gao, Z. Jia, and H. Lai, \"Image Reconstruction of Multibranch Feature Multiplexing Fusion Network with Mixed Multilayer Attention, \" Remote Sensing, vol. 14, no. 9, p. 2029, 2022. [Online]. Available: https://www. mdpi. com/2072-4292/14/9/2029.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.mdpi.com/2072-4292/14/9/2029",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Image Reconstruction of Multibranch Feature Multiplexing Fusion Network with Mixed Multilayer Attention"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85129217096",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "14",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {"@first": "2029"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cai",
+                                    "ce:indexed-name": "Cai Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gao",
+                                    "ce:indexed-name": "Gao G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jia",
+                                    "ce:indexed-name": "Jia Z."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lai",
+                                    "ce:indexed-name": "Lai H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Remote Sensing"
+                        },
+                        "ce:source-text": "Y. Cai, G. Gao, Z. Jia, and H. Lai, \"Image Reconstruction of Multibranch Feature Multiplexing Fusion Network with Mixed Multilayer Attention, \" Remote Sensing, vol. 14, no. 9, p. 2029, 2022. [Online]. Available: https://www. mdpi. com/2072-4292/14/9/2029."
+                    },
+                    {
+                        "ref-fulltext": "Y. Yan, L. Zhang, J. Li, W. Wei, and Y. Zhang, \"Accurate spectral super-resolution from single RGB image using multi-scale CNN, \" in Chinese Conference on Pattern Recognition and Computer Vision (PRCV), 2018: Springer, pp. 206-217.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Accurate spectral super-resolution from single RGB image using multi-scale CNN"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85057186401",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "206",
+                                "@last": "217"
+                            }},
+                            "ref-text": "Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yan",
+                                    "ce:indexed-name": "Yan Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wei",
+                                    "ce:indexed-name": "Wei W."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Chinese Conference on Pattern Recognition and Computer Vision (PRCV)"
+                        },
+                        "ce:source-text": "Y. Yan, L. Zhang, J. Li, W. Wei, and Y. Zhang, \"Accurate spectral super-resolution from single RGB image using multi-scale CNN, \" in Chinese Conference on Pattern Recognition and Computer Vision (PRCV), 2018: Springer, pp. 206-217."
+                    },
+                    {
+                        "ref-fulltext": "R. Lan, L. Sun, Z. Liu, H. Lu, C. Pang, and X. Luo, \"MADNet: A Fast and Lightweight Network for Single-Image Super Resolution, \" IEEE Transactions on Cybernetics, vol. 51, no. 3, pp. 1443-1453, 2021, doi: 10. 1109/TCYB. 2020. 2970104.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "MADNet: A Fast and Lightweight Network for Single-Image Super Resolution"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/TCYB.2020.2970104",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85101117654",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "51",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "1443",
+                                    "@last": "1453"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lan",
+                                    "ce:indexed-name": "Lan R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Z."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lu",
+                                    "ce:indexed-name": "Lu H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pang",
+                                    "ce:indexed-name": "Pang C."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Luo",
+                                    "ce:indexed-name": "Luo X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Cybernetics"
+                        },
+                        "ce:source-text": "R. Lan, L. Sun, Z. Liu, H. Lu, C. Pang, and X. Luo, \"MADNet: A Fast and Lightweight Network for Single-Image Super Resolution, \" IEEE Transactions on Cybernetics, vol. 51, no. 3, pp. 1443-1453, 2021, doi: 10. 1109/TCYB. 2020. 2970104."
+                    },
+                    {
+                        "ref-fulltext": "J. Yang, J. Wright, T. S. Huang, and Y. Ma, \"Image Super-Resolution Via Sparse Representation, \" IEEE Transactions on Image Processing, vol. 19, no. 11, pp. 2861-2873, 2010, doi: 10. 1109/TIP. 2010. 2050625.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Image Super-Resolution Via Sparse Representation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/TIP.2010.2050625",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "78049312324",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "19",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "2861",
+                                    "@last": "2873"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wright",
+                                    "ce:indexed-name": "Wright J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang T.S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Image Processing"
+                        },
+                        "ce:source-text": "J. Yang, J. Wright, T. S. Huang, and Y. Ma, \"Image Super-Resolution Via Sparse Representation, \" IEEE Transactions on Image Processing, vol. 19, no. 11, pp. 2861-2873, 2010, doi: 10. 1109/TIP. 2010. 2050625."
+                    },
+                    {
+                        "ref-fulltext": "P. Arbelaez, M. Maire, C. Fowlkes, and J. Malik, \"Contour detection and hierarchical image segmentation, \" IEEE transactions on pattern analysis and machine intelligence, vol. 33, no. 5, pp. 898-916, 2010.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Contour detection and hierarchical image segmentation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79953048649",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "33",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "898",
+                                    "@last": "916"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Arbelaez",
+                                    "ce:indexed-name": "Arbelaez P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maire",
+                                    "ce:indexed-name": "Maire M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fowlkes",
+                                    "ce:indexed-name": "Fowlkes C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Malik",
+                                    "ce:indexed-name": "Malik J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE transactions on pattern analysis and machine intelligence"
+                        },
+                        "ce:source-text": "P. Arbelaez, M. Maire, C. Fowlkes, and J. Malik, \"Contour detection and hierarchical image segmentation, \" IEEE transactions on pattern analysis and machine intelligence, vol. 33, no. 5, pp. 898-916, 2010."
+                    },
+                    {
+                        "ref-fulltext": "E. Agustsson and R. Timofte, \"NTIRE 2017 Challenge on Single Image Super-Resolution: Dataset and Study, \" in 2017 IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), 21-26 July 2017 2017, pp. 1122-1131, doi: 10. 1109/CVPRW. 2017. 150.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "NTIRE 2017 Challenge on Single Image Super-Resolution: Dataset and Study"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/CVPRW.2017.150",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85030245132",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1122",
+                                "@last": "1131"
+                            }},
+                            "ref-text": "21-26 July 2017",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Agustsson",
+                                    "ce:indexed-name": "Agustsson E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Timofte",
+                                    "ce:indexed-name": "Timofte R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2017 IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)"
+                        },
+                        "ce:source-text": "E. Agustsson and R. Timofte, \"NTIRE 2017 Challenge on Single Image Super-Resolution: Dataset and Study, \" in 2017 IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), 21-26 July 2017 2017, pp. 1122-1131, doi: 10. 1109/CVPRW. 2017. 150."
+                    },
+                    {
+                        "ref-fulltext": "M. Bevilacqua, A. Roumy, C. Guillemot, and M.-L. Alberi-Morel, \"Low-Complexity Single Image Super-Resolution Based on Nonnegative Neighbor Embedding, \" 09/01 2012, doi: 10. 5244/C. 26. 135.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.5244/C.26.135",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "84898409537",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "09/01",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bevilacqua",
+                                    "ce:indexed-name": "Bevilacqua M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Roumy",
+                                    "ce:indexed-name": "Roumy A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guillemot",
+                                    "ce:indexed-name": "Guillemot C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.-L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alberi-Morel",
+                                    "ce:indexed-name": "Alberi-Morel M.-L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Low-Complexity Single Image Super-Resolution Based on Nonnegative Neighbor Embedding"
+                        },
+                        "ce:source-text": "M. Bevilacqua, A. Roumy, C. Guillemot, and M.-L. Alberi-Morel, \"Low-Complexity Single Image Super-Resolution Based on Nonnegative Neighbor Embedding, \" 09/01 2012, doi: 10. 5244/C. 26. 135."
+                    },
+                    {
+                        "ref-fulltext": "J. B. Huang, A. Singh, and N. Ahuja, \"Single image superresolution from transformed self-exemplars, \" in 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 7-12 June 2015 2015, pp. 5197-5206, doi: 10. 1109/CVPR. 2015. 7299156.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Single image superresolution from transformed self-exemplars"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/CVPR.2015.7299156",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "84959188745",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "5197",
+                                "@last": "5206"
+                            }},
+                            "ref-text": "7-12 June 2015",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang J.B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Singh",
+                                    "ce:indexed-name": "Singh A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ahuja",
+                                    "ce:indexed-name": "Ahuja N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+                        },
+                        "ce:source-text": "J. B. Huang, A. Singh, and N. Ahuja, \"Single image superresolution from transformed self-exemplars, \" in 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 7-12 June 2015 2015, pp. 5197-5206, doi: 10. 1109/CVPR. 2015. 7299156."
+                    },
+                    {
+                        "ref-fulltext": "Y. Matsui et al., \"Sketch-based manga retrieval using manga109 dataset, \" Multimedia Tools and Applications, vol. 76, no. 20, pp. 21811-21838, 2017/10/01 2017, doi: 10. 1007/s11042-016-4020-z.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Sketch-based manga retrieval using manga109 dataset"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/s11042-016-4020-z",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "84994403319",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "76",
+                                    "@issue": "20"
+                                },
+                                "pagerange": {
+                                    "@first": "21811",
+                                    "@last": "21838"
+                                }
+                            },
+                            "ref-text": "10/01 2017",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Matsui",
+                                    "ce:indexed-name": "Matsui Y."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Multimedia Tools and Applications"
+                        },
+                        "ce:source-text": "Y. Matsui et al., \"Sketch-based manga retrieval using manga109 dataset, \" Multimedia Tools and Applications, vol. 76, no. 20, pp. 21811-21838, 2017/10/01 2017, doi: 10. 1007/s11042-016-4020-z."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Khuzdar",
+            "@id": "129087064",
+            "affilname": "Electrical Engineering Department",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/129087064",
+            "affiliation-country": "Pakistan"
+        }
+    ],
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85146274085",
+        "dc:description": "Due to the rapid development of convolutional neural networks (CNNs) architecture, single-image super-resolution (SISR) performance and processing speed increased. However, CNN-based architectures have a high computational cost, more processing time, and reconstructed results are still unsatisfactory. Furthermore, CNN architectures depend on the single-channel network architecture to reconstructing the high-resolution (HR) image, which also creates problems during the training, extracted features are not received at the last end layer. To report these issues, we suggested a Multi-Channel Sharing Network for Single Image Super-Resolution (MCSNet). In addition, the multi-channel sharing technique is used to extract and share the feature information through different routes, which is very important to resolve the SISR problem. Numerous quantitative and qualitative experimental findings demonstrate that our suggested method outperforms existing state-of-the-art approaches in terms of peak signal-to-noise ratio (PSNR), structural similarity index measure (SSIM), computing complexity, and perceptual quality. Especially on challenging enlargement scale factor 8x, our proposed method improves the overall average PSNR on all test datasets, including Mangal09, UrbanlOO, Set14, and Set5, by 2.04dB with the baseline method.",
+        "prism:coverDate": "2022-01-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85146274085",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Wazir",
+            "preferred-name": {
+                "ce:given-name": "Wazir",
+                "ce:initials": "W.",
+                "ce:surname": "Muhammad",
+                "ce:indexed-name": "Muhammad W."
+            },
+            "@seq": "1",
+            "ce:initials": "W.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "129087064",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/129087064"
+            },
+            "ce:surname": "Muhammad",
+            "@auid": "58254380500",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58254380500",
+            "ce:indexed-name": "Muhammad W."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85146274085"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85146274085&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85146274085&origin=inward"
+            }
+        ],
+        "prism:isbn": "9786165904773",
+        "prism:publicationName": "Proceedings of 2022 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference, APSIPA ASC 2022",
+        "source-id": "21101131431",
+        "citedby-count": "0",
+        "subtype": "cp",
+        "prism:pageRange": "1198-1202",
+        "dc:title": "MCSNet: Multi-Channel Sharing Network for Single Image Super-Resolution",
+        "prism:endingPage": "1202",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.23919/APSIPAASC55919.2022.9979943",
+        "prism:startingPage": "1198",
+        "publishercopyright": "© 2022 Asia-Pacific of Signal and Information Processing Association (APSIPA).",
+        "dc:identifier": "SCOPUS_ID:85146274085",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Channel sharing",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Convolutional neural network",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Image super resolutions",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Multi channel",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Neural network architecture",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Peak signal to noise ratio",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Performance",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Processing speed",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Sharing network",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Single images",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": null,
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Computer Networks and Communications",
+            "@code": "1705",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Information Systems",
+            "@code": "1710",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Signal Processing",
+            "@code": "1711",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Wazir",
+            "preferred-name": {
+                "ce:given-name": "Wazir",
+                "ce:initials": "W.",
+                "ce:surname": "Muhammad",
+                "ce:indexed-name": "Muhammad W."
+            },
+            "@seq": "1",
+            "ce:initials": "W.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "129087064",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/129087064"
+            },
+            "ce:surname": "Muhammad",
+            "@auid": "58254380500",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58254380500",
+            "ce:indexed-name": "Muhammad W."
+        },
+        {
+            "ce:given-name": "Supavadee",
+            "preferred-name": {
+                "ce:given-name": "Supavadee",
+                "ce:initials": "S.",
+                "ce:surname": "Aramvith",
+                "ce:indexed-name": "Aramvith S."
+            },
+            "@seq": "2",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Aramvith",
+            "@auid": "8943602000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/8943602000",
+            "ce:indexed-name": "Aramvith S."
+        },
+        {
+            "ce:given-name": "Watchara",
+            "preferred-name": {
+                "ce:given-name": "Watchara",
+                "ce:initials": "W.",
+                "ce:surname": "Ruangsang",
+                "ce:indexed-name": "Ruangsang W."
+            },
+            "@seq": "3",
+            "ce:initials": "W.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Ruangsang",
+            "@auid": "57188492700",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57188492700",
+            "ce:indexed-name": "Ruangsang W."
+        }
+    ]}
+}}

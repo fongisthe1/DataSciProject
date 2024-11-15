@@ -1,0 +1,830 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "07",
+                "@year": "2021",
+                "@timestamp": "2021-10-07T09:44:48.000048-04:00",
+                "@month": "10"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2019",
+                "@month": "06"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "secondary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "NHLBI/NIH",
+                    "xocs:funding-id": "T32HL007567"
+                },
+                {"xocs:funding-agency-matched-string": "National Heart Lung, and Blood Institute/National Institutes of Health"},
+                {
+                    "xocs:funding-agency-matched-string": "NIH",
+                    "xocs:funding-agency-acronym": "NIH",
+                    "xocs:funding-agency": "National Institutes of Health",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100000002",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/6252001/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-05-18T23:04:25.139Z",
+            "xocs:funding-text": "This research was partially supported by the National Heart Lung, and Blood Institute/National Institutes of Health (NHLBI/NIH) under award number T32HL007567. The content is solely the responsibility of the authors and does not necessarily represent the official views of the NIH.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Faculty of Enzineering"},
+                                {"$": "Chulalongkorn University"},
+                                {"$": "Dept. of Defense Technology Engineering"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "118358110"
+                            },
+                            "@dptid": "118358110"
+                        },
+                        "author": [{
+                            "ce:given-name": "Sittiphan",
+                            "preferred-name": {
+                                "ce:given-name": "Sittiphan",
+                                "ce:initials": "S.",
+                                "ce:surname": "Sarapakdi",
+                                "ce:indexed-name": "Sarapakdi S."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Sarapakdi",
+                            "@auid": "57215308320",
+                            "ce:indexed-name": "Sarapakdi S."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "123781386",
+                            "@country": "tha",
+                            "city": "Nakhon Nayok",
+                            "organization": [
+                                {"$": "Chulachomklao Royal Military Acade.my"},
+                                {"$": "Dept. of Electrical Engineering"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "123781386",
+                                "@dptid": "123783620"
+                            },
+                            "@dptid": "123783620"
+                        },
+                        "author": [{
+                            "ce:given-name": "Phaderm",
+                            "preferred-name": {
+                                "ce:given-name": "Phaderm",
+                                "ce:initials": "P.",
+                                "ce:surname": "Nangsue",
+                                "ce:indexed-name": "Nangsue P."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "P.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Nangsue",
+                            "@auid": "6506859547",
+                            "ce:indexed-name": "Nangsue P."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Faculty of Engineering"},
+                                {"$": "Chulalongkorn University"},
+                                {"$": "Dept of Electrical Engineering"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "113845132"
+                            },
+                            "@dptid": "113845132"
+                        },
+                        "author": [{
+                            "ce:given-name": "Charnchai",
+                            "preferred-name": {
+                                "ce:given-name": "Charnchai",
+                                "ce:initials": "C.",
+                                "ce:surname": "Pluempitiwirivawej",
+                                "ce:indexed-name": "Pluempitiwirivawej C."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "C.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Pluempitiwirivawej",
+                            "@auid": "55912947400",
+                            "ce:indexed-name": "Pluempitiwirivawej C."
+                        }]
+                    }
+                ],
+                "citation-title": "Occluded Facial Recognition with 2DPCA based Convolutional Neural Network",
+                "abstracts": "© 2019 IEEE.Face occlusions with glasses or scarf are quite common in the real-world scenes, or more seriously, terrorists often cover their faces with sunglasses or a mask to hide themselves from the cameras. Occluded facial recognition is, therefore, an important problem in surveillance defense department. A system that can recognize faces with occlusions may need to be trained by a huge set of facial databases. To reduce the complexity of an occluded facial recognition system, this paper investigates the effects of the two-dimensional principal component analysis (2DPCA) in the initialization phase on image classification by the convolutional neural network (CNN). Our experiments show that 2DPCA can reduce the image dimension for training while keeping the accuracy rate comparing to using the whole images. Our results, at 0.001 learning rate, showed 81.91% accuracy with 120 eigenvectors for the AR database, and 99.95 % accuracy rate with 190 eigenvectors for the GTAV database.",
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "convolution neural network",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "facial occlusion recognition",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "two-dimensional principal component analysis",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8932369",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "2019 IEEE International Conference on Consumer Electronics - Asia, ICCE-Asia 2019",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"pagerange": {
+                        "@first": "135",
+                        "@last": "138"
+                    }},
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781728133362",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "4th IEEE International Conference on Consumer Electronics - Asia, ICCE-Asia 2019",
+                            "confnumber": "4",
+                            "confcatnumber": "CFP18D25-ART",
+                            "confseriestitle": "IEEE International Conference on Consumer Electronics - Asia",
+                            "conflocation": {
+                                "@country": "tha",
+                                "city": "Bangkok"
+                            },
+                            "confcode": "156265",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "14",
+                                    "@year": "2019",
+                                    "@month": "06"
+                                },
+                                "startdate": {
+                                    "@day": "12",
+                                    "@year": "2019",
+                                    "@month": "06"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "2019 IEEE International Conference on Consumer Electronics - Asia, ICCE-Asia 2019",
+                    "publicationdate": {
+                        "month": "06",
+                        "year": "2019",
+                        "date-text": "June 2019",
+                        "day": "01"
+                    },
+                    "sourcetitle-abbrev": "IEEE Int. Conf. Consum. Electron. - Asia, ICCE-Asia",
+                    "@country": "usa",
+                    "issuetitle": "2019 IEEE International Conference on Consumer Electronics - Asia, ICCE-Asia 2019",
+                    "publicationyear": {"@first": "2019"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "article-number": "8942204",
+                    "@srcid": "21100958138"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1706"},
+                            {"$": "1707"},
+                            {"$": "2208"},
+                            {"$": "2214"},
+                            {"$": "3105"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "716.1",
+                                "classification-description": "Information and Communication Theory"
+                            },
+                            {
+                                "classification-code": "723.3",
+                                "classification-description": "Database Systems"
+                            },
+                            {
+                                "classification-code": "922.2",
+                                "classification-description": "Mathematical Statistics"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "ENGI"},
+                            {"$": "PHYS"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2020 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "03",
+                    "@year": "2020",
+                    "@timestamp": "BST 07:34:05",
+                    "@month": "05"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "630647481",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "923455927",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20200408061767",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20201366786",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85077975711",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85077975711",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/ICCE-Asia46551.2019.8942204"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "7",
+                "reference": [
+                    {
+                        "ref-fulltext": "Kumeechai, P., Terrorists face recognition system with color skin detection and Eigen face. King Mongut's Institute of Technology Ladkrabang Engineering Journal, Central Library of KMITL, 2014: p. 7-12.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Terrorists face recognition system with color skin detection and eigen face"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85080555203",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "7",
+                                "@last": "12"
+                            }},
+                            "ref-text": "Central Library of KMITL",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "P.",
+                                "@_fa": "true",
+                                "ce:surname": "Kumeechai",
+                                "ce:indexed-name": "Kumeechai P."
+                            }]},
+                            "ref-sourcetitle": "King Mongut's Institute of Technology Ladkrabang Engineering Journal"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Yang, J., Zhang, D. D., Frangi, A. F., & Yang, J. Y. (2004). Two-dimensional PCA: a new approach to appearance-based face representation and recognition. IEEE transactions on pattern analysis and machine intelligence.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Two-dimensional PCA: A new approach to appearance-based face representation and recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0742268833",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang D.D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Frangi",
+                                    "ce:indexed-name": "Frangi A.F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang J.Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Su, Y., Yang, Y., Guo, Z., & Yang, W. (2015, November). Face recognition with occlusion. In 2015 3rd IAPR Asian Conference on Pattern Recognition (ACPR) (pp. 670-674). IEEE.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Face recognition with occlusion"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84978900765",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "670",
+                                "@last": "674"
+                            }},
+                            "ref-text": "(November). IEEE",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Su",
+                                    "ce:indexed-name": "Su Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo Z."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2015 3rd IAPR Asian Conference on Pattern Recognition (ACPR)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ren, X. D., Guo, H. N., He, G. C., Xu, X., Di, C., & Li, S. H. (2016, June). Convolutional neural network based on principal component analysis initialization for image classification. In 2016 IEEE First International Conference on Data Science in Cyberspace (DSC) (pp. 329-334). IEEE.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Convolutional neural network based on principal component analysis initialization for image classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85016796381",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "329",
+                                "@last": "334"
+                            }},
+                            "ref-text": "(June). IEEE",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ren",
+                                    "ce:indexed-name": "Ren X.D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo H.N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He G.C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu X."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Di",
+                                    "ce:indexed-name": "Di C."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "S.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li S.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2016 IEEE First International Conference on Data Science in Cyberspace (DSC)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Krizhevsky, A., Sutskever, I., & Hinton, G. E. (2012). Imagenet classification with deep convolutional neural networks. In Advances in neural information processing systems (pp. 1097-1105).",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Imagenet classification with deep convolutional neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84876231242",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1097",
+                                "@last": "1105"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krizhevsky",
+                                    "ce:indexed-name": "Krizhevsky A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sutskever",
+                                    "ce:indexed-name": "Sutskever I."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hinton",
+                                    "ce:indexed-name": "Hinton G.E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Advances in Neural Information Processing Systems"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Bari, C., and T. N. Ghorude. (2016, June). FACE RECOGNITION USING SKIN COLOR SEGMENTATION OF YCBCR AND RGB COLOR MODELS. In 2016 International Journal of Emerging Technology in Computer Science & Electronics (IJETCSE). Volume 23 Issue.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Face recognition using skin color segmentation of ycbcr and rgb color models"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85080573268",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "23"}},
+                            "ref-text": "June",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bari",
+                                    "ce:indexed-name": "Bari C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ghorude",
+                                    "ce:indexed-name": "Ghorude T.N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2016 International Journal of Emerging Technology in Computer Science & Electronics (IJETCSE)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Lowndes, A. B. (2015). Deep Learning with GPU Technology for Image & Feature Recognition.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85080533518",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.B.",
+                                "@_fa": "true",
+                                "ce:surname": "Lowndes",
+                                "ce:indexed-name": "Lowndes A.B."
+                            }]},
+                            "ref-sourcetitle": "Deep Learning with GPU Technology for Image & Feature Recognition"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": null,
+            "@id": "123781386",
+            "affilname": "Chulachomklao Royal Military Acade.my",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/123781386",
+            "affiliation-country": "Thailand"
+        }
+    ],
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85077975711",
+        "dc:description": "Face occlusions with glasses or scarf are quite common in the real-world scenes, or more seriously, terrorists often cover their faces with sunglasses or a mask to hide themselves from the cameras. Occluded facial recognition is, therefore, an important problem in surveillance defense department. A system that can recognize faces with occlusions may need to be trained by a huge set of facial databases. To reduce the complexity of an occluded facial recognition system, this paper investigates the effects of the two-dimensional principal component analysis (2DPCA) in the initialization phase on image classification by the convolutional neural network (CNN). Our experiments show that 2DPCA can reduce the image dimension for training while keeping the accuracy rate comparing to using the whole images. Our results, at 0.001 learning rate, showed 81.91% accuracy with 120 eigenvectors for the AR database, and 99.95 % accuracy rate with 190 eigenvectors for the GTAV database.",
+        "prism:coverDate": "2019-06-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85077975711",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Sittiphan",
+            "preferred-name": {
+                "ce:given-name": "Sittiphan",
+                "ce:initials": "S.",
+                "ce:surname": "Sarapakdi",
+                "ce:indexed-name": "Sarapakdi S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Sarapakdi",
+            "@auid": "57215308320",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57215308320",
+            "ce:indexed-name": "Sarapakdi S."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85077975711"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85077975711&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85077975711&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781728133362",
+        "source-id": "21100958138",
+        "citedby-count": "1",
+        "subtype": "cp",
+        "dc:title": "Occluded Facial Recognition with 2DPCA based Convolutional Neural Network",
+        "openaccess": "0",
+        "publishercopyright": "© 2019 IEEE.",
+        "article-number": "8942204",
+        "subtypeDescription": "Conference Paper",
+        "prism:publicationName": "2019 IEEE International Conference on Consumer Electronics - Asia, ICCE-Asia 2019",
+        "prism:pageRange": "135-138",
+        "prism:endingPage": "138",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/ICCE-Asia46551.2019.8942204",
+        "prism:startingPage": "135",
+        "dc:identifier": "SCOPUS_ID:85077975711",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Convolution neural network",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Convolutional neural network",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Facial occlusions",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Facial recognition",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Facial recognition systems",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Learning rates",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Two dimensional principal component analysis",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Two dimensional principal component analysis (2DPCA)",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "convolution neural network"
+        },
+        {
+            "@_fa": "true",
+            "$": "facial occlusion recognition"
+        },
+        {
+            "@_fa": "true",
+            "$": "two-dimensional principal component analysis"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Vision and Pattern Recognition",
+            "@code": "1707",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Media Technology",
+            "@code": "2214",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Instrumentation",
+            "@code": "3105",
+            "@abbrev": "PHYS"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Sittiphan",
+            "preferred-name": {
+                "ce:given-name": "Sittiphan",
+                "ce:initials": "S.",
+                "ce:surname": "Sarapakdi",
+                "ce:indexed-name": "Sarapakdi S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Sarapakdi",
+            "@auid": "57215308320",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57215308320",
+            "ce:indexed-name": "Sarapakdi S."
+        },
+        {
+            "ce:given-name": "Phaderm",
+            "preferred-name": {
+                "ce:given-name": "Phaderm",
+                "ce:initials": "P.",
+                "ce:surname": "Nangsue",
+                "ce:indexed-name": "Nangsue P."
+            },
+            "@seq": "2",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "123781386",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/123781386"
+            },
+            "ce:surname": "Nangsue",
+            "@auid": "6506859547",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6506859547",
+            "ce:indexed-name": "Nangsue P."
+        },
+        {
+            "ce:given-name": "Charnchai",
+            "preferred-name": {
+                "ce:given-name": "Charnchai",
+                "ce:initials": "C.",
+                "ce:surname": "Pluempitiwirivawej",
+                "ce:indexed-name": "Pluempitiwirivawej C."
+            },
+            "@seq": "3",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Pluempitiwirivawej",
+            "@auid": "55912947400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55912947400",
+            "ce:indexed-name": "Pluempitiwirivawej C."
+        }
+    ]}
+}}

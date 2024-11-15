@@ -1,0 +1,3324 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "01",
+                "@timestamp": "2023-06-01T11:41:32.000032-04:00",
+                "@year": "2023",
+                "@month": "06"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2022",
+                "@month": "12"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "United States",
+                            "@afid": "60076695",
+                            "@country": "usa",
+                            "organization": {"$": "NVIDIA"},
+                            "affiliation-id": {"@afid": "60076695"},
+                            "@affiliation-instance-id": "OB2BibRecID-947015796-fab3c607e13250035c53078f1846945f-1",
+                            "ce:source-text": "NVIDIA"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Nuttapong",
+                                "preferred-name": {
+                                    "ce:given-name": "Nuttapong",
+                                    "ce:initials": "N.",
+                                    "ce:surname": "Chentanez",
+                                    "ce:indexed-name": "Chentanez N."
+                                },
+                                "@author-instance-id": "OB2BibRecID-947015796-0d5f99bfc226cda78fb492e2143f6f93-1",
+                                "@seq": "1",
+                                "ce:initials": "N.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Chentanez",
+                                "@auid": "14824789300",
+                                "@orcid": "0000-0003-4412-5326",
+                                "ce:indexed-name": "Chentanez N."
+                            },
+                            {
+                                "ce:given-name": "Stefan",
+                                "preferred-name": {
+                                    "ce:given-name": "Stefan",
+                                    "ce:initials": "S.",
+                                    "ce:surname": "Jeschke",
+                                    "ce:indexed-name": "Jeschke S."
+                                },
+                                "@author-instance-id": "OB2BibRecID-947015796-3cba92693bb2195544a87dcbaba2e9c6-1",
+                                "@seq": "2",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Jeschke",
+                                "@auid": "10141789000",
+                                "@orcid": "0000-0003-4330-8884",
+                                "ce:indexed-name": "Jeschke S."
+                            },
+                            {
+                                "ce:given-name": "Matthias",
+                                "preferred-name": {
+                                    "ce:given-name": "Matthias",
+                                    "ce:initials": "M.",
+                                    "ce:surname": "Müller",
+                                    "ce:indexed-name": "Müller M."
+                                },
+                                "@author-instance-id": "OB2BibRecID-947015796-bb817704e0e5b154204dbea6a26d26a8-1",
+                                "@seq": "3",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Müller",
+                                "@auid": "57213094877",
+                                "@orcid": "0000-0003-2442-3801",
+                                "ce:indexed-name": "Muller M."
+                            },
+                            {
+                                "ce:given-name": "Miles",
+                                "preferred-name": {
+                                    "ce:given-name": "Miles",
+                                    "ce:initials": "M.",
+                                    "ce:surname": "Macklin",
+                                    "ce:indexed-name": "Macklin M."
+                                },
+                                "@author-instance-id": "OB2BibRecID-947015796-0ef9850959f040addedde509ce308dd9-1",
+                                "@seq": "4",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Macklin",
+                                "@auid": "55805366300",
+                                "@orcid": "0000-0003-3954-8009",
+                                "ce:indexed-name": "Macklin M."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "organization": [
+                                {"$": "Department of Computer Engineering"},
+                                {"$": "Faculty of Engineering"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "113891981"
+                            },
+                            "@affiliation-instance-id": "OB2BibRecID-947015796-c37d68aeb40140315d9786fda5ad7825-1",
+                            "ce:source-text": "Department of Computer Engineering, Faculty of Engineering, Chulalongkorn University",
+                            "@dptid": "113891981"
+                        },
+                        "author": [{
+                            "ce:given-name": "Nuttapong",
+                            "preferred-name": {
+                                "ce:given-name": "Nuttapong",
+                                "ce:initials": "N.",
+                                "ce:surname": "Chentanez",
+                                "ce:indexed-name": "Chentanez N."
+                            },
+                            "@author-instance-id": "OB2BibRecID-947015796-d695a1dddd12b9689101846c111367ea-1",
+                            "@seq": "1",
+                            "ce:initials": "N.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Chentanez",
+                            "@auid": "14824789300",
+                            "ce:indexed-name": "Chentanez N."
+                        }]
+                    }
+                ],
+                "citation-title": "Learning Physics with a Hierarchical Graph Network",
+                "abstracts": "© 2022 The Author(s) Computer Graphics Forum © 2022 The Eurographics Association and John Wiley & Sons Ltd. Published by John Wiley & Sons Ltd.We propose a hierarchical graph for learning physics and a novel way to handle obstacles. The finest level of the graph consist of the particles itself. Coarser levels consist of the cells of sparse grids with successively doubling cell sizes covering the volume occupied by the particles. The hierarchical structure allows for the information to propagate at great distance in a single message passing iteration. The novel obstacle handling allows the simulation to be obstacle aware without the need for ghost particles. We train the network to predict effective acceleration produced by multiple sub-steps of 3D multi-material material point method (MPM) simulation consisting of water, sand and snow with complex obstacles. Our network produces lower error, trains up to 7.0X faster and inferences up to 11.3X faster than [SGGP*20]. It is also, on average, about 3.7X faster compared to Taichi Elements simulation running on the same hardware in our tests.",
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "CCS Concepts",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Physical simulation",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "\u2022 Computing methodologies → Neural networks",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1467-8659",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Computer Graphics Forum",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "41",
+                            "@issue": "8"
+                        },
+                        "pagerange": {
+                            "@first": "283",
+                            "@last": "292"
+                        }
+                    },
+                    "@type": "j",
+                    "sourcetitle": "Computer Graphics Forum",
+                    "publicationdate": {
+                        "month": "12",
+                        "year": "2022",
+                        "date-text": "December 2022",
+                        "day": "01"
+                    },
+                    "codencode": "CGFOD",
+                    "sourcetitle-abbrev": "Comput Graphics Forum",
+                    "@country": "gbr",
+                    "issn": [
+                        {
+                            "$": "14678659",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "01677055",
+                            "@type": "print"
+                        }
+                    ],
+                    "publicationyear": {"@first": "2022"},
+                    "publisher": {"publishername": "John Wiley and Sons Inc"},
+                    "@srcid": "25023"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "723.1",
+                                "classification-description": "Computer Programming"
+                            },
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing and Image Processing"
+                            },
+                            {
+                                "classification-code": "723.4",
+                                "classification-description": "Artificial Intelligence"
+                            },
+                            {
+                                "classification-code": "921.6",
+                                "classification-description": "Numerical Methods"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": "1704"
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "COMP"
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2023 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "28",
+                    "@timestamp": "BST 07:04:12",
+                    "@year": "2023",
+                    "@month": "03"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2022134232",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "947015796",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20231313798946",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20231091249",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "20239006335926",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85150677559",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85150677559",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1111/cgf.14643"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "57",
+                "reference": [
+                    {
+                        "ref-fulltext": "Battaglia P. W., Hamrick J. B., Bapst V., Sanchez-Gonzalez A., Zambaldi V. F., Malinowski M., Tacchetti A., Raposo D., Santoro A., Faulkner R., Çaglar Gülçehre, Song H. F., Ballard A. J., Gilmer J., Dahl G. E., Vaswani A., Allen K. R., Nash C., Langston V., Dyer C., Heess N. M. O., Wierstra D., Kohli P., Botvinick M. M., Vinyals O., Li Y., Pascanu R.: Relational inductive biases, deep learning, and graph networks. ArXiv abs/1806.01261 (2018). 3",
+                        "@reference-instance-id": "OB2BibRecID-947015796-900bdf06dbd0ab2f53a0acf7de1a91e8-1",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0001",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "1806.01261",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85150682100",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Relational inductive biases, deep learninggraph networks.,). 3",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Battaglia",
+                                    "ce:indexed-name": "Battaglia P.W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hamrick",
+                                    "ce:indexed-name": "Hamrick J.B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bapst",
+                                    "ce:indexed-name": "Bapst V."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sanchez-Gonzalez",
+                                    "ce:indexed-name": "Sanchez-Gonzalez A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "V.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zambaldi",
+                                    "ce:indexed-name": "Zambaldi V.F."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Malinowski",
+                                    "ce:indexed-name": "Malinowski M."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tacchetti",
+                                    "ce:indexed-name": "Tacchetti A."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Raposo",
+                                    "ce:indexed-name": "Raposo D."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Santoro",
+                                    "ce:indexed-name": "Santoro A."
+                                },
+                                {
+                                    "@seq": "10",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Faulkner",
+                                    "ce:indexed-name": "Faulkner R."
+                                },
+                                {
+                                    "@seq": "11",
+                                    "ce:initials": "H.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Çaglar Gülçehre, Song",
+                                    "ce:indexed-name": "Caglar Gulcehre, Song H.F."
+                                },
+                                {
+                                    "@seq": "12",
+                                    "ce:initials": "A.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ballard",
+                                    "ce:indexed-name": "Ballard A.J."
+                                },
+                                {
+                                    "@seq": "13",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gilmer",
+                                    "ce:indexed-name": "Gilmer J."
+                                },
+                                {
+                                    "@seq": "14",
+                                    "ce:initials": "G.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dahl",
+                                    "ce:indexed-name": "Dahl G.E."
+                                },
+                                {
+                                    "@seq": "15",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vaswani",
+                                    "ce:indexed-name": "Vaswani A."
+                                },
+                                {
+                                    "@seq": "16",
+                                    "ce:initials": "K.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Allen",
+                                    "ce:indexed-name": "Allen K.R."
+                                },
+                                {
+                                    "@seq": "17",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nash",
+                                    "ce:indexed-name": "Nash C."
+                                },
+                                {
+                                    "@seq": "18",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Langston",
+                                    "ce:indexed-name": "Langston V."
+                                },
+                                {
+                                    "@seq": "19",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dyer",
+                                    "ce:indexed-name": "Dyer C."
+                                },
+                                {
+                                    "@seq": "20",
+                                    "ce:initials": "N.M.O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Heess",
+                                    "ce:indexed-name": "Heess N.M.O."
+                                },
+                                {
+                                    "@seq": "21",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wierstra",
+                                    "ce:indexed-name": "Wierstra D."
+                                },
+                                {
+                                    "@seq": "22",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kohli",
+                                    "ce:indexed-name": "Kohli P."
+                                },
+                                {
+                                    "@seq": "23",
+                                    "ce:initials": "M.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Botvinick",
+                                    "ce:indexed-name": "Botvinick M.M."
+                                },
+                                {
+                                    "@seq": "24",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vinyals",
+                                    "ce:indexed-name": "Vinyals O."
+                                },
+                                {
+                                    "@seq": "25",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Y."
+                                },
+                                {
+                                    "@seq": "26",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pascanu",
+                                    "ce:indexed-name": "Pascanu R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ArXiv abs/1806.01261"
+                        },
+                        "ce:source-text": "Battaglia P. W., Hamrick J. B., Bapst V., Sanchez-Gonzalez A., Zambaldi V. F., Malinowski M., Tacchetti A., Raposo D., Santoro A., Faulkner R., Çaglar Gülçehre, Song H. F., Ballard A. J., Gilmer J., Dahl G. E., Vaswani A., Allen K. R., Nash C., Langston V., Dyer C., Heess N. M. O., Wierstra D., Kohli P., Botvinick M. M., Vinyals O., Li Y., Pascanu R.: Relational inductive biases, deep learning, and graph networks. ArXiv abs/1806.01261 (2018). 3"
+                    },
+                    {
+                        "ref-fulltext": "Chen P. Y., Chiaramonte M., Grinspun E., Carlberg K.: Model reduction for the material point method via an implicit neural representation of the deformation map, 2021. URL: https://arxiv.org/abs/2109.12390,",
+                        "@reference-instance-id": "OB2BibRecID-947015796-7599d3156fce2bbbbba27bc5154d8f2d-2",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://arxiv.org/abs/2109.12390",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0002",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "2109.12390",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85132306563",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen P.Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chiaramonte",
+                                    "ce:indexed-name": "Chiaramonte M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grinspun",
+                                    "ce:indexed-name": "Grinspun E."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carlberg",
+                                    "ce:indexed-name": "Carlberg K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Model reduction for the material point method via an implicit neural representation of the deformation map"
+                        },
+                        "ce:source-text": "Chen P. Y., Chiaramonte M., Grinspun E., Carlberg K.: Model reduction for the material point method via an implicit neural representation of the deformation map, 2021. URL: https://arxiv.org/abs/2109.12390,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.48550/ARXIV.2109.12390. 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-2855a1596f6cc943d1075a12686f185b-3",
+                        "@id": "3",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0002a",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "2109.12390",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85150677292",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "2"
+                        },
+                        "ce:source-text": "doi:10.48550/ARXIV.2109.12390. 2"
+                    },
+                    {
+                        "ref-fulltext": "Chen J., Kala V., Marquez-Razon A., Gueidon E., Hyde D. A. B., Teran J.: A momentum-conserving implicit material point method for surface tension with contact angles and spatial gradients. ACM Trans. Graph. 40, 4 (jul 2021). URL: https://doi.org/10.1145/3450626.3459874,",
+                        "@reference-instance-id": "OB2BibRecID-947015796-0aaa02f7988346a74f888d30ff4082fc-4",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/3450626.3459874",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "A momentum-conserving implicit material point method for surface tension with contact angles and spatial gradients"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0003",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85111332653",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "40",
+                                "@issue": "4"
+                            }},
+                            "ref-text": "(jul",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kala",
+                                    "ce:indexed-name": "Kala V."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marquez-Razon",
+                                    "ce:indexed-name": "Marquez-Razon A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gueidon",
+                                    "ce:indexed-name": "Gueidon E."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "D.A.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hyde",
+                                    "ce:indexed-name": "Hyde D.A.B."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Teran",
+                                    "ce:indexed-name": "Teran J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph."
+                        },
+                        "ce:source-text": "Chen J., Kala V., Marquez-Razon A., Gueidon E., Hyde D. A. B., Teran J.: A momentum-conserving implicit material point method for surface tension with contact angles and spatial gradients. ACM Trans. Graph. 40, 4 (jul 2021). URL: https://doi.org/10.1145/3450626.3459874,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.1145/3450626.3459874. 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-d826afdc12e354a39889efdacac1c9d9-5",
+                        "@id": "5",
+                        "ref-info": {"refd-itemidlist": {"itemid": [
+                            {
+                                "$": "10.1145/3450626.3459874.2",
+                                "@idtype": "DOI"
+                            },
+                            {
+                                "$": "cgf14643-cit-0003a",
+                                "@idtype": "FRAGMENTID"
+                            },
+                            {
+                                "$": "85150681588",
+                                "@idtype": "SGR"
+                            }
+                        ]}},
+                        "ce:source-text": "doi:10.1145/3450626.3459874. 2"
+                    },
+                    {
+                        "ref-fulltext": "Fei Y. R., Guo Q., Wu R., Huang L., Gao M.: Revisiting integration in the material point method: A scheme for easier separation and less dissipation. ACM Trans. Graph. 40, 4 (jul 2021). URL: https://doi.org/10.1145/3450626.3459678,",
+                        "@reference-instance-id": "OB2BibRecID-947015796-0b50d51340afc8b9b1d400db1d545ddc-6",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/3450626.3459678",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Revisiting integration in the material point method: A scheme for easier separation and less dissipation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0004",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85111332377",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "40",
+                                "@issue": "4"
+                            }},
+                            "ref-text": "(jul",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fei",
+                                    "ce:indexed-name": "Fei Y.R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo Q."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang L."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gao",
+                                    "ce:indexed-name": "Gao M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph."
+                        },
+                        "ce:source-text": "Fei Y. R., Guo Q., Wu R., Huang L., Gao M.: Revisiting integration in the material point method: A scheme for easier separation and less dissipation. ACM Trans. Graph. 40, 4 (jul 2021). URL: https://doi.org/10.1145/3450626.3459678,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.1145/3450626.3459678. 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-33b1656b2e57493c85001ec4535ab1a9-7",
+                        "@id": "7",
+                        "ref-info": {"refd-itemidlist": {"itemid": [
+                            {
+                                "$": "10.1145/3450626.3459678.2",
+                                "@idtype": "DOI"
+                            },
+                            {
+                                "$": "cgf14643-cit-0004a",
+                                "@idtype": "FRAGMENTID"
+                            },
+                            {
+                                "$": "85150681003",
+                                "@idtype": "SGR"
+                            }
+                        ]}},
+                        "ce:source-text": "doi:10.1145/3450626.3459678. 2"
+                    },
+                    {
+                        "ref-fulltext": "Hu Y., Anderson L., Li T.-M., Sun Q., Carr N., Ragan-Kelley J., Durand F.: Difftaichi: Differentiable programming for physical simulation. ICLR (2020). 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-1be79d172e8d612902bc1e6f59e71e3b-8",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0005",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85090417787",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Difftaichi Differentiable programming for physical simulation.,). 2",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Anderson",
+                                    "ce:indexed-name": "Anderson L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.-M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li T.-M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun Q."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carr",
+                                    "ce:indexed-name": "Carr N."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ragan-Kelley",
+                                    "ce:indexed-name": "Ragan-Kelley J."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Durand",
+                                    "ce:indexed-name": "Durand F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ICLR"
+                        },
+                        "ce:source-text": "Hu Y., Anderson L., Li T.-M., Sun Q., Carr N., Ragan-Kelley J., Durand F.: Difftaichi: Differentiable programming for physical simulation. ICLR (2020). 2"
+                    },
+                    {
+                        "ref-fulltext": "Hu Y., Fang Y., Ge Z., Qu Z., Zhu Y., Pradhana A., Jiang C.: A moving least squares material point method with displacement discontinuity and two-way rigid body coupling. ACM Trans. Graph. 37, 4 (jul 2018). URL: https://doi.org/10.1145/3197517.3201293,",
+                        "@reference-instance-id": "OB2BibRecID-947015796-557f94acf6ae4334dcbb6de4a2af87fc-9",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/3197517.3201293",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "A moving least squares material point method with displacement discontinuity and two-way rigid body coupling"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0006",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85053277267",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "37",
+                                "@issue": "4"
+                            }},
+                            "ref-text": "(jul",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fang",
+                                    "ce:indexed-name": "Fang Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ge",
+                                    "ce:indexed-name": "Ge Z."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qu",
+                                    "ce:indexed-name": "Qu Z."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu Y."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pradhana",
+                                    "ce:indexed-name": "Pradhana A."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph."
+                        },
+                        "ce:source-text": "Hu Y., Fang Y., Ge Z., Qu Z., Zhu Y., Pradhana A., Jiang C.: A moving least squares material point method with displacement discontinuity and two-way rigid body coupling. ACM Trans. Graph. 37, 4 (jul 2018). URL: https://doi.org/10.1145/3197517.3201293,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.1145/3197517.3201293. 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-6b8d5a6e391759b6d9a8f13c86d08a29-10",
+                        "@id": "10",
+                        "ref-info": {"refd-itemidlist": {"itemid": [
+                            {
+                                "$": "10.1145/3197517.3201293.2",
+                                "@idtype": "DOI"
+                            },
+                            {
+                                "$": "cgf14643-cit-0006a",
+                                "@idtype": "FRAGMENTID"
+                            },
+                            {
+                                "$": "85150682153",
+                                "@idtype": "SGR"
+                            }
+                        ]}},
+                        "ce:source-text": "doi:10.1145/3197517.3201293. 2"
+                    },
+                    {
+                        "ref-fulltext": "Hu Y., Li T.-M., Anderson L., Ragan-Kelley J., Durand F.: Taichi: a language for high-performance computation on spatially sparse data structures. ACM Transactions on Graphics (TOG) 38, 6 (2019), 201. 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-b4ca01eb5123721a25ce46a08141591b-11",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Taichi: a language for high-performance computation on spatially sparse data structures"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0007",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85078911351",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "38",
+                                "@issue": "6"
+                            }},
+                            "ref-text": "201. 2",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.-M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li T.-M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Anderson",
+                                    "ce:indexed-name": "Anderson L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ragan-Kelley",
+                                    "ce:indexed-name": "Ragan-Kelley J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Durand",
+                                    "ce:indexed-name": "Durand F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Transactions on Graphics (TOG)"
+                        },
+                        "ce:source-text": "Hu Y., Li T.-M., Anderson L., Ragan-Kelley J., Durand F.: Taichi: a language for high-performance computation on spatially sparse data structures. ACM Transactions on Graphics (TOG) 38, 6 (2019), 201. 2"
+                    },
+                    {
+                        "ref-fulltext": "Hu Y., Liu J., Yang X., Xu M., Kuang Y., Xu W., Dai Q., Freeman W. T., Durand F.: Quantaichi: A compiler for quantized simulations. ACM Transactions on Graphics (TOG) 40, 4 (2021). 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-10c64b12d5a1e7e06d1454aa1f502c67-12",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Quantaichi: A compiler for quantized simulations"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0008",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85110893089",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "40",
+                                "@issue": "4"
+                            }},
+                            "ref-text": ". 2",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang X."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kuang",
+                                    "ce:indexed-name": "Kuang Y."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu W."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dai",
+                                    "ce:indexed-name": "Dai Q."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "W.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Freeman",
+                                    "ce:indexed-name": "Freeman W.T."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Durand",
+                                    "ce:indexed-name": "Durand F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Transactions on Graphics (TOG)"
+                        },
+                        "ce:source-text": "Hu Y., Liu J., Yang X., Xu M., Kuang Y., Xu W., Dai Q., Freeman W. T., Durand F.: Quantaichi: A compiler for quantized simulations. ACM Transactions on Graphics (TOG) 40, 4 (2021). 2"
+                    },
+                    {
+                        "ref-fulltext": "Jiang C., Schroeder C., Selle A., Teran J., Stomakhin A.: The affine particle-in-cell method. ACM Trans. Graph. 34, 4 (jul 2015). URL: https://doi.org/10.1145/2766996,",
+                        "@reference-instance-id": "OB2BibRecID-947015796-e0ae5d700f93a6e3cf66a79becffa345-13",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/2766996",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "The affine particle-in-cell method"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0009",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84947247652",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "34",
+                                "@issue": "4"
+                            }},
+                            "ref-text": "(jul",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schroeder",
+                                    "ce:indexed-name": "Schroeder C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Selle",
+                                    "ce:indexed-name": "Selle A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Teran",
+                                    "ce:indexed-name": "Teran J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stomakhin",
+                                    "ce:indexed-name": "Stomakhin A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph."
+                        },
+                        "ce:source-text": "Jiang C., Schroeder C., Selle A., Teran J., Stomakhin A.: The affine particle-in-cell method. ACM Trans. Graph. 34, 4 (jul 2015). URL: https://doi.org/10.1145/2766996,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.1145/2766996. 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-8513e4cff5a2fa1d50fa90c5655995ce-14",
+                        "@id": "14",
+                        "ref-info": {"refd-itemidlist": {"itemid": [
+                            {
+                                "$": "10.1145/2766996.2",
+                                "@idtype": "DOI"
+                            },
+                            {
+                                "$": "cgf14643-cit-0009a",
+                                "@idtype": "FRAGMENTID"
+                            },
+                            {
+                                "$": "85150681631",
+                                "@idtype": "SGR"
+                            }
+                        ]}},
+                        "ce:source-text": "doi:10.1145/2766996. 2"
+                    },
+                    {
+                        "ref-fulltext": "Jiang C., Schroeder C., Teran J., Stomakhin A., Selle A.: The material point method for simulating continuum materials. In ACM SIGGRAPH 2016 Courses (New York, NY, USA, 2016), SIGGRAPH '16, Association for Computing Machinery. URL: https://doi.org/10.1145/2897826.2927348,",
+                        "@reference-instance-id": "OB2BibRecID-947015796-5654e8de72f32006f3fda22fb6adfff0-15",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/2897826.2927348",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0010",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84985896388",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "The material point method for simulating continuum materials. In, (New York, NY, USA,,), SIGGRAPH '16, Association for Computing Machinery. URL",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schroeder",
+                                    "ce:indexed-name": "Schroeder C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Teran",
+                                    "ce:indexed-name": "Teran J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stomakhin",
+                                    "ce:indexed-name": "Stomakhin A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Selle",
+                                    "ce:indexed-name": "Selle A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM SIGGRAPH 2016 Courses"
+                        },
+                        "ce:source-text": "Jiang C., Schroeder C., Teran J., Stomakhin A., Selle A.: The material point method for simulating continuum materials. In ACM SIGGRAPH 2016 Courses (New York, NY, USA, 2016), SIGGRAPH '16, Association for Computing Machinery. URL: https://doi.org/10.1145/2897826.2927348,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.1145/2897826.2927348.2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-92c14400017f6b23a3e168f7f8127568-16",
+                        "@id": "16",
+                        "ref-info": {"refd-itemidlist": {"itemid": [
+                            {
+                                "$": "10.1145/2897826.2927348.2",
+                                "@idtype": "DOI"
+                            },
+                            {
+                                "$": "cgf14643-cit-0010a",
+                                "@idtype": "FRAGMENTID"
+                            },
+                            {
+                                "$": "85150679841",
+                                "@idtype": "SGR"
+                            }
+                        ]}},
+                        "ce:source-text": "doi:10.1145/2897826.2927348.2"
+                    },
+                    {
+                        "ref-fulltext": "Klimesch J., Holl P., Thuerey N.: Simulating liquids with graph networks. CoRR abs/2203.07895 (2022). URL: https://doi.org/10.48550/arXiv.2203.07895, arXiv:2203.07895,",
+                        "@reference-instance-id": "OB2BibRecID-947015796-3f38e237cc3b66462c382b4a4e91b5f0-17",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.48550/arXiv.2203.07895",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0011",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "2203.07895",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85150681491",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Simulating liquids with graph networks",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Klimesch",
+                                    "ce:indexed-name": "Klimesch J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Holl",
+                                    "ce:indexed-name": "Holl P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thuerey",
+                                    "ce:indexed-name": "Thuerey N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "CoRR abs/2203.07895"
+                        },
+                        "ce:source-text": "Klimesch J., Holl P., Thuerey N.: Simulating liquids with graph networks. CoRR abs/2203.07895 (2022). URL: https://doi.org/10.48550/arXiv.2203.07895, arXiv:2203.07895,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.48550/arXiv.2203.07895. 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-7904311910b5923600354adc724d80c0-18",
+                        "@id": "18",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0011a",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "2203.07895",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85150682205",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "2"
+                        },
+                        "ce:source-text": "doi:10.48550/arXiv.2203.07895. 2"
+                    },
+                    {
+                        "ref-fulltext": "Lino M., Cantwell C., Bharath A. A., Fotiadis S.: Simulating continuum mechanics with multi-scale graph neural networks, 2021. URL: https://arxiv.org/abs/2106.04900,",
+                        "@reference-instance-id": "OB2BibRecID-947015796-46c0c530958a2d03c9ca749fb9fdcf12-19",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://arxiv.org/abs/2106.04900",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0012",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "2106.04900",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85115836100",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lino",
+                                    "ce:indexed-name": "Lino M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cantwell",
+                                    "ce:indexed-name": "Cantwell C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bharath",
+                                    "ce:indexed-name": "Bharath A.A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fotiadis",
+                                    "ce:indexed-name": "Fotiadis S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Simulating continuum mechanics with multi-scale graph neural networks"
+                        },
+                        "ce:source-text": "Lino M., Cantwell C., Bharath A. A., Fotiadis S.: Simulating continuum mechanics with multi-scale graph neural networks, 2021. URL: https://arxiv.org/abs/2106.04900,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.48550/ARXIV.2106.04900. 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-c156f8ab9b207049eebdcb7a9789aa0b-20",
+                        "@id": "20",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0012a",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "2106.04900",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85150680192",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "2"
+                        },
+                        "ce:source-text": "doi:10.48550/ARXIV.2106.04900. 2"
+                    },
+                    {
+                        "ref-fulltext": "Li Z., Farimani A. B.: Graph neural network-accelerated lagrangian fluid simulation. Computers Graphics 103 (2022), 201\u2013211. URL: https://www.sciencedirect.com/science/article/pii/S0097849322000206,",
+                        "@reference-instance-id": "OB2BibRecID-947015796-70af6dfabaf9caed54ef0633a36bebb2-21",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.sciencedirect.com/science/article/pii/S0097849322000206",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Graph neural network-accelerated lagrangian fluid simulation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0013",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85125576448",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "103"},
+                                "pagerange": {
+                                    "@first": "201",
+                                    "@last": "211"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Farimani",
+                                    "ce:indexed-name": "Farimani A.B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computers Graphics"
+                        },
+                        "ce:source-text": "Li Z., Farimani A. B.: Graph neural network-accelerated lagrangian fluid simulation. Computers Graphics 103 (2022), 201\u2013211. URL: https://www.sciencedirect.com/science/article/pii/S0097849322000206,"
+                    },
+                    {
+                        "ref-fulltext": "doi:https://doi.org/10.1016/j.cag.2022.02.004. 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-127492f015f666dd6c0cd6c76afb51c5-22",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": ":https://doi.org/10.1016/j.cag.2022.02.004.2",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0013a",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85150676980",
+                                    "@idtype": "SGR"
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "doi:https://doi.org/10.1016/j.cag.2022.02.004. 2"
+                    },
+                    {
+                        "ref-fulltext": "Li Z., Meidani K., Yadav P., Barati Farimani A.: Graph neural networks accelerated molecular dynamics. The Journal of Chemical Physics 156, 14 (2022), 144103. URL: https://doi.org/10.1063/5.0083060,",
+                        "@reference-instance-id": "OB2BibRecID-947015796-f4ab4570621ad6e43dd0e7ea16d7ba32-23",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1063/5.0083060",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Graph neural networks accelerated molecular dynamics"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0014",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85128488430",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "156",
+                                "@issue": "14"
+                            }},
+                            "ref-text": "144103. URL",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Meidani",
+                                    "ce:indexed-name": "Meidani K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yadav",
+                                    "ce:indexed-name": "Yadav P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Barati Farimani",
+                                    "ce:indexed-name": "Barati Farimani A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "The Journal of Chemical Physics"
+                        },
+                        "ce:source-text": "Li Z., Meidani K., Yadav P., Barati Farimani A.: Graph neural networks accelerated molecular dynamics. The Journal of Chemical Physics 156, 14 (2022), 144103. URL: https://doi.org/10.1063/5.0083060,"
+                    },
+                    {
+                        "ref-fulltext": "arXiv:https://doi.org/10.1063/5.0083060,",
+                        "@reference-instance-id": "OB2BibRecID-947015796-2f8738c34f33c2c1af4b9d2063fe30b3-24",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1063/5.0083060",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0014a",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85150677156",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Arxiv"
+                        },
+                        "ce:source-text": "arXiv:https://doi.org/10.1063/5.0083060,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.1063/5.0083060. 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-984de90e6262289db6cdca5fa1da7b14-25",
+                        "@id": "25",
+                        "ref-info": {"refd-itemidlist": {"itemid": [
+                            {
+                                "$": "10.1063/5.0083060.2",
+                                "@idtype": "DOI"
+                            },
+                            {
+                                "$": "cgf14643-cit-0014b",
+                                "@idtype": "FRAGMENTID"
+                            },
+                            {
+                                "$": "85150677156",
+                                "@idtype": "SGR"
+                            }
+                        ]}},
+                        "ce:source-text": "doi:10.1063/5.0083060. 2"
+                    },
+                    {
+                        "ref-fulltext": "Li Y., Wu J., Tedrake R., Tenenbaum J. B., Torralba A.: Learning particle dynamics for manipulating rigid bodies, deformable objects, and fluids, 2018. URL: https://arxiv.org/abs/1810.01566,",
+                        "@reference-instance-id": "OB2BibRecID-947015796-7f72141bf38b2c405332e135c65c2b8b-26",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://arxiv.org/abs/1810.01566",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0015",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "1810.01566",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85150681090",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "deformable objectsfluids",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tedrake",
+                                    "ce:indexed-name": "Tedrake R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tenenbaum",
+                                    "ce:indexed-name": "Tenenbaum J.B."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Torralba",
+                                    "ce:indexed-name": "Torralba A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Learning particle dynamics for manipulating rigid bodies"
+                        },
+                        "ce:source-text": "Li Y., Wu J., Tedrake R., Tenenbaum J. B., Torralba A.: Learning particle dynamics for manipulating rigid bodies, deformable objects, and fluids, 2018. URL: https://arxiv.org/abs/1810.01566,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.48550/ARXIV.1810.01566. 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-ce8c26a4f315ccad65fd3e1f2dc2bf4d-27",
+                        "@id": "27",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0015a",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "1810.01566",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85150678116",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "2"
+                        },
+                        "ce:source-text": "doi:10.48550/ARXIV.1810.01566. 2"
+                    },
+                    {
+                        "ref-fulltext": "Mayr A., Lehner S., Mayrhofer A., Kloss C., Hochreiter S., Brandstetter J.: Boundary graph neural networks for 3d simulations, 2021. URL: https://arxiv.org/abs/2106.11299,",
+                        "@reference-instance-id": "OB2BibRecID-947015796-9bd22aff95e736499c82d678cd4d6607-28",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://arxiv.org/abs/2106.11299",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0016",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "2106.11299",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85122557818",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mayr",
+                                    "ce:indexed-name": "Mayr A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lehner",
+                                    "ce:indexed-name": "Lehner S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mayrhofer",
+                                    "ce:indexed-name": "Mayrhofer A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kloss",
+                                    "ce:indexed-name": "Kloss C."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hochreiter",
+                                    "ce:indexed-name": "Hochreiter S."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brandstetter",
+                                    "ce:indexed-name": "Brandstetter J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Boundary graph neural networks for 3d simulations"
+                        },
+                        "ce:source-text": "Mayr A., Lehner S., Mayrhofer A., Kloss C., Hochreiter S., Brandstetter J.: Boundary graph neural networks for 3d simulations, 2021. URL: https://arxiv.org/abs/2106.11299,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.48550/ARXIV.2106.11299. 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-df70d5f644dcd355e4b981492ac934e4-29",
+                        "@id": "29",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0016a",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "2106.11299",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85150676544",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "2"
+                        },
+                        "ce:source-text": "doi:10.48550/ARXIV.2106.11299. 2"
+                    },
+                    {
+                        "ref-fulltext": "Martinkus K., Lucchi A., Perraudin N.: Scalable graph networks for particle simulations, 2020. URL: https://arxiv.org/abs/2010.06948,",
+                        "@reference-instance-id": "OB2BibRecID-947015796-51929e26788c0374cffae2e126854236-30",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://arxiv.org/abs/2010.06948",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0017",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "2010.06948",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85150680270",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Martinkus",
+                                    "ce:indexed-name": "Martinkus K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lucchi",
+                                    "ce:indexed-name": "Lucchi A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Perraudin",
+                                    "ce:indexed-name": "Perraudin N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Scalable graph networks for particle simulations"
+                        },
+                        "ce:source-text": "Martinkus K., Lucchi A., Perraudin N.: Scalable graph networks for particle simulations, 2020. URL: https://arxiv.org/abs/2010.06948,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.48550/ARXIV.2010.06948. 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-2e4ec55124c88bc403ea920361e66581-31",
+                        "@id": "31",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0017a",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "2010.06948",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85150676705",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "2"
+                        },
+                        "ce:source-text": "doi:10.48550/ARXIV.2010.06948. 2"
+                    },
+                    {
+                        "ref-fulltext": "Odot A., Haferssas R., Cotin S.: Deepphysics: A physics aware deep learning framework for real-time simulation. International Journal for Numerical Methods in Engineering 123 (2022), 2381 \u2013 2398. 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-82f2c0c7c4ae87b35c268eb405f64dbc-32",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-title": {"ref-titletext": "Deepphysics: A physics aware deep learning framework for real-time simulation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0018",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85126274822",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "123"}},
+                            "ref-text": "2381 \u2013 2398. 2",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Odot",
+                                    "ce:indexed-name": "Odot A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Haferssas",
+                                    "ce:indexed-name": "Haferssas R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cotin",
+                                    "ce:indexed-name": "Cotin S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Journal for Numerical Methods in Engineering"
+                        },
+                        "ce:source-text": "Odot A., Haferssas R., Cotin S.: Deepphysics: A physics aware deep learning framework for real-time simulation. International Journal for Numerical Methods in Engineering 123 (2022), 2381 \u2013 2398. 2"
+                    },
+                    {
+                        "ref-fulltext": "Pfaff T., Fortunato M., Sanchez-Gonzalez A., Battaglia P. W.: Learning mesh-based simulation with graph networks. URL: https://arxiv.org/abs/2010.03409,",
+                        "@reference-instance-id": "OB2BibRecID-947015796-247cd924c26adf2feff8e6fae4a3d64d-33",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://arxiv.org/abs/2010.03409",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0019",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "2010.03409",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85102164626",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pfaff",
+                                    "ce:indexed-name": "Pfaff T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fortunato",
+                                    "ce:indexed-name": "Fortunato M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sanchez-Gonzalez",
+                                    "ce:indexed-name": "Sanchez-Gonzalez A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Battaglia",
+                                    "ce:indexed-name": "Battaglia P.W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Learning mesh-based simulation with graph networks"
+                        },
+                        "ce:source-text": "Pfaff T., Fortunato M., Sanchez-Gonzalez A., Battaglia P. W.: Learning mesh-based simulation with graph networks. URL: https://arxiv.org/abs/2010.03409,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.48550/ARXIV.2010.03409. 1, 2, 7",
+                        "@reference-instance-id": "OB2BibRecID-947015796-36686da90f8865a3428b6e170ceeb46c-34",
+                        "@id": "34",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0019a",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "2010.03409",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85150678921",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "1, 2, 7"
+                        },
+                        "ce:source-text": "doi:10.48550/ARXIV.2010.03409. 1, 2, 7"
+                    },
+                    {
+                        "ref-fulltext": "Park J., Lee D., Lee I.-K.: Flexible networks for learning physical dynamics of deformable objects, 2021. URL: https://arxiv.org/abs/2112.03728,",
+                        "@reference-instance-id": "OB2BibRecID-947015796-3fdb239798e11d9c2edd9c291d2ce205-35",
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://arxiv.org/abs/2112.03728",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0020",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "2112.03728",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85150677135",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Park",
+                                    "ce:indexed-name": "Park J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "I.-K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee I.-K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Flexible networks for learning physical dynamics of deformable objects"
+                        },
+                        "ce:source-text": "Park J., Lee D., Lee I.-K.: Flexible networks for learning physical dynamics of deformable objects, 2021. URL: https://arxiv.org/abs/2112.03728,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.48550/ARXIV.2112.03728. 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-ffdad0855a8bfb769cc7d3de1c724921-36",
+                        "@id": "36",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0020a",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "2112.03728",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85150676490",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "2"
+                        },
+                        "ce:source-text": "doi:10.48550/ARXIV.2112.03728. 2"
+                    },
+                    {
+                        "ref-fulltext": "Sanchez-Gonzalez A., Godwin J., Pfaff T., Ying R., Leskovec J., Battaglia P.: Learning to simulate complex physics with graph networks. In Proceedings of the 37th International Conference on Machine Learning (13\u201318 Jul 2020), III H. D., Singh A., (Eds.), vol. 119 of Proceedings of Machine Learning Research, PMLR, pp. 8459\u20138468. URL: https://proceedings.mlr.press/v119/sanchez-gonzalez20a.html. 1, 2, 3, 4, 5, 7",
+                        "@reference-instance-id": "OB2BibRecID-947015796-a86cbbd4acd0539e1b6285bf39bbe786-37",
+                        "@id": "37",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://proceedings.mlr.press/v119/sanchez-gonzalez20a.html",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Proceedings of the 37th International Conference on Machine Learning"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0021",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85094802982",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "119"},
+                                "pagerange": {
+                                    "@first": "8459",
+                                    "@last": "8468"
+                                }
+                            },
+                            "ref-text": "Learning to simulate complex physics with graph networks. In, (13\u201318 Jul,), III H. D., Singh A., (Eds.), of, PMLR, 1, 2, 3, 4, 5, 7",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sanchez-Gonzalez",
+                                    "ce:indexed-name": "Sanchez-Gonzalez A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Godwin",
+                                    "ce:indexed-name": "Godwin J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pfaff",
+                                    "ce:indexed-name": "Pfaff T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ying",
+                                    "ce:indexed-name": "Ying R."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Leskovec",
+                                    "ce:indexed-name": "Leskovec J."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Battaglia",
+                                    "ce:indexed-name": "Battaglia P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of Machine Learning Research"
+                        },
+                        "ce:source-text": "Sanchez-Gonzalez A., Godwin J., Pfaff T., Ying R., Leskovec J., Battaglia P.: Learning to simulate complex physics with graph networks. In Proceedings of the 37th International Conference on Machine Learning (13\u201318 Jul 2020), III H. D., Singh A., (Eds.), vol. 119 of Proceedings of Machine Learning Research, PMLR, pp. 8459\u20138468. URL: https://proceedings.mlr.press/v119/sanchez-gonzalez20a.html. 1, 2, 3, 4, 5, 7"
+                    },
+                    {
+                        "ref-fulltext": "Stomakhin A., Schroeder C., Chai L., Teran J., Selle A.: A material point method for snow simulation. ACM Trans. Graph. 32, 4 (jul 2013). URL: https://doi.org/10.1145/2461912.2461948,",
+                        "@reference-instance-id": "OB2BibRecID-947015796-9be81d4b6030204595b8048600526e7d-38",
+                        "@id": "38",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/2461912.2461948",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "A material point method for snow simulation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0022",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84880787226",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "32",
+                                "@issue": "4"
+                            }},
+                            "ref-text": "(jul",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stomakhin",
+                                    "ce:indexed-name": "Stomakhin A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schroeder",
+                                    "ce:indexed-name": "Schroeder C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chai",
+                                    "ce:indexed-name": "Chai L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Teran",
+                                    "ce:indexed-name": "Teran J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Selle",
+                                    "ce:indexed-name": "Selle A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph."
+                        },
+                        "ce:source-text": "Stomakhin A., Schroeder C., Chai L., Teran J., Selle A.: A material point method for snow simulation. ACM Trans. Graph. 32, 4 (jul 2013). URL: https://doi.org/10.1145/2461912.2461948,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.1145/2461912.2461948. 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-4bdb43a8eaef5923ff6b791fa55d9ae4-39",
+                        "@id": "39",
+                        "ref-info": {"refd-itemidlist": {"itemid": [
+                            {
+                                "$": "10.1145/2461912.2461948.2",
+                                "@idtype": "DOI"
+                            },
+                            {
+                                "$": "cgf14643-cit-0022a",
+                                "@idtype": "FRAGMENTID"
+                            },
+                            {
+                                "$": "85150679669",
+                                "@idtype": "SGR"
+                            }
+                        ]}},
+                        "ce:source-text": "doi:10.1145/2461912.2461948. 2"
+                    },
+                    {
+                        "ref-fulltext": "Su H., Xue T., Han C., Jiang C., Aanjaneya M.: A unified second-order accurate in time mpm formulation for simulating viscoelastic liquids with phase change. ACM Trans. Graph. 40, 4 (Aug. 2021). 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-55f9e93b1459165c024d1591c63de893-40",
+                        "@id": "40",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "A unified second-order accurate in time mpm formulation for simulating viscoelastic liquids with phase change"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0023",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85111284001",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "40",
+                                "@issue": "4"
+                            }},
+                            "ref-text": "(Aug.,). 2",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Su",
+                                    "ce:indexed-name": "Su H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xue",
+                                    "ce:indexed-name": "Xue T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Han",
+                                    "ce:indexed-name": "Han C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang C."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aanjaneya",
+                                    "ce:indexed-name": "Aanjaneya M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph."
+                        },
+                        "ce:source-text": "Su H., Xue T., Han C., Jiang C., Aanjaneya M.: A unified second-order accurate in time mpm formulation for simulating viscoelastic liquids with phase change. ACM Trans. Graph. 40, 4 (Aug. 2021). 2"
+                    },
+                    {
+                        "ref-fulltext": "Su H., Xue T., Han C., Aanjaneya M.: A-ulmpm: An arbitrary updated lagrangian material point method for efficient simulation of solids and fluids, 2021. URL: https://arxiv.org/abs/2108.00388,",
+                        "@reference-instance-id": "OB2BibRecID-947015796-a74990c5f964b3b59f48a47d551079f7-41",
+                        "@id": "41",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://arxiv.org/abs/2108.00388",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0024",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "2108.00388",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85150684268",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Su",
+                                    "ce:indexed-name": "Su H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xue",
+                                    "ce:indexed-name": "Xue T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Han",
+                                    "ce:indexed-name": "Han C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aanjaneya",
+                                    "ce:indexed-name": "Aanjaneya M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "A-ulmpm: An arbitrary updated lagrangian material point method for efficient simulation of solids and fluids"
+                        },
+                        "ce:source-text": "Su H., Xue T., Han C., Aanjaneya M.: A-ulmpm: An arbitrary updated lagrangian material point method for efficient simulation of solids and fluids, 2021. URL: https://arxiv.org/abs/2108.00388,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.48550/ARXIV.2108.00388. 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-1e1afbe185f3d3fd5d236fb9ddf97b35-42",
+                        "@id": "42",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0024a",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "2108.00388",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85150676767",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "2"
+                        },
+                        "ce:source-text": "doi:10.48550/ARXIV.2108.00388. 2"
+                    },
+                    {
+                        "ref-fulltext": "Sulsky D., Zhou S.-J., Schreyer H. L.: Application of a particle-in-cell method to solid mechanics. Computer Physics Communications 87, 1 (1995), 236\u2013252. Particle Simulation Methods. URL: https://www.sciencedirect.com/science/article/pii/0010465594001707,",
+                        "@reference-instance-id": "OB2BibRecID-947015796-80d6a5e47b6df63a27351224e28ec035-43",
+                        "@id": "43",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1995"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.sciencedirect.com/science/article/pii/0010465594001707",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Application of a particle-in-cell method to solid mechanics"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0025",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "58149324212",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "87",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "236",
+                                    "@last": "252"
+                                }
+                            },
+                            "ref-text": "Particle Simulation Methods. URL",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sulsky",
+                                    "ce:indexed-name": "Sulsky D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.-J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou S.-J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schreyer",
+                                    "ce:indexed-name": "Schreyer H.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer Physics Communications"
+                        },
+                        "ce:source-text": "Sulsky D., Zhou S.-J., Schreyer H. L.: Application of a particle-in-cell method to solid mechanics. Computer Physics Communications 87, 1 (1995), 236\u2013252. Particle Simulation Methods. URL: https://www.sciencedirect.com/science/article/pii/0010465594001707,"
+                    },
+                    {
+                        "ref-fulltext": "doi:https://doi.org/10.1016/0010-4655(94)00170-7. 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-b298e8a946c408ce599aee3b900de04c-44",
+                        "@id": "44",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/0010-4655(94)00170-7.2",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "cgf14643-cit-0025a",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85150680806",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "doi:https://doi.org/"
+                        },
+                        "ce:source-text": "doi:https://doi.org/10.1016/0010-4655(94)00170-7. 2"
+                    },
+                    {
+                        "ref-fulltext": "Taichi elements. https://github.com/taichi-dev/taichi_elements. 2, 4",
+                        "@reference-instance-id": "OB2BibRecID-947015796-c7e21913468c025b76937ab5e04dcad7-45",
+                        "@id": "45",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://github.com/taichi-dev/taichi_elements",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0026",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85150677884",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "2, 4",
+                            "ref-sourcetitle": "Taichi elements"
+                        },
+                        "ce:source-text": "Taichi elements. https://github.com/taichi-dev/taichi_elements. 2, 4"
+                    },
+                    {
+                        "ref-fulltext": "Tuomainen N., Blanco-Mulero D., Kyrki V.: Manipulation of granular materials by learning particle interactions. IEEE Robotics and Automation Letters 7, 2 (2022), 5663\u20135670. doi:10.1109/LRA.2022.3158382. 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-c21d49a171e10ca999434a9eda48c533-46",
+                        "@id": "46",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-title": {"ref-titletext": "Manipulation of granular materials by learning particle interactions"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/LRA.2022.3158382",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "cgf14643-cit-0027",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85126302502",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "7",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "5663",
+                                    "@last": "5670"
+                                }
+                            },
+                            "ref-text": "2",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tuomainen",
+                                    "ce:indexed-name": "Tuomainen N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Blanco-Mulero",
+                                    "ce:indexed-name": "Blanco-Mulero D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kyrki",
+                                    "ce:indexed-name": "Kyrki V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Robotics and Automation Letters"
+                        },
+                        "ce:source-text": "Tuomainen N., Blanco-Mulero D., Kyrki V.: Manipulation of granular materials by learning particle interactions. IEEE Robotics and Automation Letters 7, 2 (2022), 5663\u20135670. doi:10.1109/LRA.2022.3158382. 2"
+                    },
+                    {
+                        "ref-fulltext": "Teschner M., Heidelberger B., Müller M., Pomerantes D., Gross M. H.: Optimized spatial hashing for collision detection of deformable objects. In VMV (2003). 5, 7",
+                        "@reference-instance-id": "OB2BibRecID-947015796-1107bae10e6d97f9a25c84fefc24fa51-47",
+                        "@id": "47",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0028",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "5444261145",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Optimized spatial hashing for collision detection of deformable objects. In,). 5, 7",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Teschner",
+                                    "ce:indexed-name": "Teschner M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Heidelberger",
+                                    "ce:indexed-name": "Heidelberger B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Müller",
+                                    "ce:indexed-name": "Muller M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pomerantes",
+                                    "ce:indexed-name": "Pomerantes D."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gross",
+                                    "ce:indexed-name": "Gross M.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "VMV"
+                        },
+                        "ce:source-text": "Teschner M., Heidelberger B., Müller M., Pomerantes D., Gross M. H.: Optimized spatial hashing for collision detection of deformable objects. In VMV (2003). 5, 7"
+                    },
+                    {
+                        "ref-fulltext": "Tumanov E., Korobchenko D., Chentanez N.: Data-driven particle-based liquid simulation with deep learning utilizing subpixel convolution. Proc. ACM Comput. Graph. Interact. Tech. 4, 1 (apr 2021). URL: https://doi.org/10.1145/3451261,",
+                        "@reference-instance-id": "OB2BibRecID-947015796-8f7ee69baa12702a0751b97a08b524fc-48",
+                        "@id": "48",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/3451261",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Data-driven particle-based liquid simulation with deep learning utilizing subpixel convolution"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0029",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85114077964",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "4",
+                                "@issue": "1"
+                            }},
+                            "ref-text": "(apr",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tumanov",
+                                    "ce:indexed-name": "Tumanov E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Korobchenko",
+                                    "ce:indexed-name": "Korobchenko D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chentanez",
+                                    "ce:indexed-name": "Chentanez N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. ACM Comput. Graph. Interact. Tech."
+                        },
+                        "ce:source-text": "Tumanov E., Korobchenko D., Chentanez N.: Data-driven particle-based liquid simulation with deep learning utilizing subpixel convolution. Proc. ACM Comput. Graph. Interact. Tech. 4, 1 (apr 2021). URL: https://doi.org/10.1145/3451261,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.1145/3451261. 1, 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-d4ea7f7d30f3fff3edfb8f474a2d320e-49",
+                        "@id": "49",
+                        "ref-info": {"refd-itemidlist": {"itemid": [
+                            {
+                                "$": "10.1145/3451261.1,2",
+                                "@idtype": "DOI"
+                            },
+                            {
+                                "$": "cgf14643-cit-0029a",
+                                "@idtype": "FRAGMENTID"
+                            },
+                            {
+                                "$": "85150684061",
+                                "@idtype": "SGR"
+                            }
+                        ]}},
+                        "ce:source-text": "doi:10.1145/3451261. 1, 2"
+                    },
+                    {
+                        "ref-fulltext": "Ummenhofer B., Prantl L., Thuerey N., Koltun V.: Lagrangian fluid simulation with continuous convolutions. In 8th International Conference on Learning Representations, ICLR 2020, Addis Ababa, Ethiopia, April 26-30, 2020 (2020), OpenReview.net. URL: https://openreview.net/forum?id=B1lDoJSYDH. 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-638bdbc8c9de7bdd3801c316bc6e2f0d-50",
+                        "@id": "50",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "OpenReview.net",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0030",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85150681492",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Lagrangian fluid simulation with continuous convolutions. In, 2, https://openreview.net/forum?id=B1lDoJSYDH",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ummenhofer",
+                                    "ce:indexed-name": "Ummenhofer B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Prantl",
+                                    "ce:indexed-name": "Prantl L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thuerey",
+                                    "ce:indexed-name": "Thuerey N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koltun",
+                                    "ce:indexed-name": "Koltun V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "8th International Conference on Learning Representations, ICLR 2020, Addis Ababa, Ethiopia, April 26-30, 2020"
+                        },
+                        "ce:source-text": "Ummenhofer B., Prantl L., Thuerey N., Koltun V.: Lagrangian fluid simulation with continuous convolutions. In 8th International Conference on Learning Representations, ICLR 2020, Addis Ababa, Ethiopia, April 26-30, 2020 (2020), OpenReview.net. URL: https://openreview.net/forum?id=B1lDoJSYDH. 2"
+                    },
+                    {
+                        "ref-fulltext": "Wolper J., Chen Y., Li M., Fang Y., Qu Z., Lu J., Cheng M., Jiang C.: Anisompm: Animating anisotropic damage mechanics. ACM Trans. Graph. 39, 4 (jul 2020). URL: https://doi.org/10.1145/3386569.3392428,",
+                        "@reference-instance-id": "OB2BibRecID-947015796-adb8105ade8bf8b748abc60324ef2020-51",
+                        "@id": "51",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/3386569.3392428",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Anisompm: Animating anisotropic damage mechanics"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0031",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85090393927",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "39",
+                                "@issue": "4"
+                            }},
+                            "ref-text": "(jul",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wolper",
+                                    "ce:indexed-name": "Wolper J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fang",
+                                    "ce:indexed-name": "Fang Y."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qu",
+                                    "ce:indexed-name": "Qu Z."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lu",
+                                    "ce:indexed-name": "Lu J."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cheng",
+                                    "ce:indexed-name": "Cheng M."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph."
+                        },
+                        "ce:source-text": "Wolper J., Chen Y., Li M., Fang Y., Qu Z., Lu J., Cheng M., Jiang C.: Anisompm: Animating anisotropic damage mechanics. ACM Trans. Graph. 39, 4 (jul 2020). URL: https://doi.org/10.1145/3386569.3392428,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.1145/3386569.3392428. 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-7d40803eaf138e9ed6f7e4dfbade20aa-52",
+                        "@id": "52",
+                        "ref-info": {"refd-itemidlist": {"itemid": [
+                            {
+                                "$": "10.1145/3386569.3392428.2",
+                                "@idtype": "DOI"
+                            },
+                            {
+                                "$": "cgf14643-cit-0031a",
+                                "@idtype": "FRAGMENTID"
+                            },
+                            {
+                                "$": "85150684886",
+                                "@idtype": "SGR"
+                            }
+                        ]}},
+                        "ce:source-text": "doi:10.1145/3386569.3392428. 2"
+                    },
+                    {
+                        "ref-fulltext": "Wang X., Qiu Y., Slattery S. R., Fang Y., Li M., Zhu S.-C., Zhu Y., Tang M., Manocha D., Jiang C.: A massively parallel and scalable multi-gpu material point method. ACM Trans. Graph. 39, 4 (jul 2020). URL: https://doi.org/10.1145/3386569.3392442,",
+                        "@reference-instance-id": "OB2BibRecID-947015796-82d8aa719b6701a298642c5f3f84ecb6-53",
+                        "@id": "53",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/3386569.3392442",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "A massively parallel and scalable multi-gpu material point method"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0032",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85090422809",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "39",
+                                "@issue": "4"
+                            }},
+                            "ref-text": "(jul",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qiu",
+                                    "ce:indexed-name": "Qiu Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Slattery",
+                                    "ce:indexed-name": "Slattery S.R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fang",
+                                    "ce:indexed-name": "Fang Y."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li M."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "S.-C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu S.-C."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu Y."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang M."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Manocha",
+                                    "ce:indexed-name": "Manocha D."
+                                },
+                                {
+                                    "@seq": "10",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph."
+                        },
+                        "ce:source-text": "Wang X., Qiu Y., Slattery S. R., Fang Y., Li M., Zhu S.-C., Zhu Y., Tang M., Manocha D., Jiang C.: A massively parallel and scalable multi-gpu material point method. ACM Trans. Graph. 39, 4 (jul 2020). URL: https://doi.org/10.1145/3386569.3392442,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.1145/3386569.3392442. 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-b21fc2b7edd4fbf9a5c5d69d90ee081a-54",
+                        "@id": "54",
+                        "ref-info": {"refd-itemidlist": {"itemid": [
+                            {
+                                "$": "10.1145/3386569.3392442.2",
+                                "@idtype": "DOI"
+                            },
+                            {
+                                "$": "cgf14643-cit-0032a",
+                                "@idtype": "FRAGMENTID"
+                            },
+                            {
+                                "$": "85150676848",
+                                "@idtype": "SGR"
+                            }
+                        ]}},
+                        "ce:source-text": "doi:10.1145/3386569.3392442. 2"
+                    },
+                    {
+                        "ref-fulltext": "Wang R., Yu R.: Physics-guided deep learning for dynamical systems: A survey, 2021. URL: https://arxiv.org/abs/2107.01272,",
+                        "@reference-instance-id": "OB2BibRecID-947015796-2df465c2b0845d826cea8b83901e3350-55",
+                        "@id": "55",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://arxiv.org/abs/2107.01272",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0033",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "2107.01272",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85119969294",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Physics-guided deep learning for dynamical systems: A survey"
+                        },
+                        "ce:source-text": "Wang R., Yu R.: Physics-guided deep learning for dynamical systems: A survey, 2021. URL: https://arxiv.org/abs/2107.01272,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.48550/ARXIV.2107.01272. 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-bf101870bec6c5959502f16457c9e58f-56",
+                        "@id": "56",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0033a",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "2107.01272",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85150683416",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "2"
+                        },
+                        "ce:source-text": "doi:10.48550/ARXIV.2107.01272. 2"
+                    },
+                    {
+                        "ref-fulltext": "Xue T., Adriaenssens S., Mao S.: Learning the nonlinear dynamics of soft mechanical metamaterials with graph networks. CoRR abs/2202.13775 (2022). URL: https://arxiv.org/abs/2202.13775, arXiv:2202.13775. 2",
+                        "@reference-instance-id": "OB2BibRecID-947015796-cfc5b34b0802fd222d2dcdf317051dd7-57",
+                        "@id": "57",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://arxiv.org/abs/2202.13775",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14643-cit-0034",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "2202.13775",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85150677632",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Learning the nonlinear dynamics of soft mechanical metamaterials with graph networks., . 2",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xue",
+                                    "ce:indexed-name": "Xue T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Adriaenssens",
+                                    "ce:indexed-name": "Adriaenssens S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mao",
+                                    "ce:indexed-name": "Mao S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "CoRR abs/2202.13775"
+                        },
+                        "ce:source-text": "Xue T., Adriaenssens S., Mao S.: Learning the nonlinear dynamics of soft mechanical metamaterials with graph networks. CoRR abs/2202.13775 (2022). URL: https://arxiv.org/abs/2202.13775, arXiv:2202.13775. 2"
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Santa Clara",
+            "@id": "60076695",
+            "affilname": "NVIDIA",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60076695",
+            "affiliation-country": "United States"
+        },
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85150677559",
+        "dc:description": "We propose a hierarchical graph for learning physics and a novel way to handle obstacles. The finest level of the graph consist of the particles itself. Coarser levels consist of the cells of sparse grids with successively doubling cell sizes covering the volume occupied by the particles. The hierarchical structure allows for the information to propagate at great distance in a single message passing iteration. The novel obstacle handling allows the simulation to be obstacle aware without the need for ghost particles. We train the network to predict effective acceleration produced by multiple sub-steps of 3D multi-material material point method (MPM) simulation consisting of water, sand and snow with complex obstacles. Our network produces lower error, trains up to 7.0X faster and inferences up to 11.3X faster than [SGGP*20]. It is also, on average, about 3.7X faster compared to Taichi Elements simulation running on the same hardware in our tests.",
+        "prism:coverDate": "2022-12-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85150677559",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Nuttapong",
+            "preferred-name": {
+                "ce:given-name": "Nuttapong",
+                "ce:initials": "N.",
+                "ce:surname": "Chentanez",
+                "ce:indexed-name": "Chentanez N."
+            },
+            "@seq": "1",
+            "ce:initials": "N.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60076695",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60076695"
+                },
+                {
+                    "@id": "60028190",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+                }
+            ],
+            "ce:surname": "Chentanez",
+            "@auid": "14824789300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/14824789300",
+            "ce:indexed-name": "Chentanez N."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85150677559"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85150677559&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85150677559&origin=inward"
+            }
+        ],
+        "source-id": "25023",
+        "citedby-count": "0",
+        "prism:volume": "41",
+        "subtype": "ar",
+        "dc:title": "Learning Physics with a Hierarchical Graph Network",
+        "openaccess": "0",
+        "prism:issn": "14678659 01677055",
+        "publishercopyright": "© 2022 The Author(s) Computer Graphics Forum © 2022 The Eurographics Association and John Wiley & Sons Ltd. Published by John Wiley & Sons Ltd.",
+        "prism:issueIdentifier": "8",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "Computer Graphics Forum",
+        "prism:pageRange": "283-292",
+        "prism:endingPage": "292",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1111/cgf.14643",
+        "prism:startingPage": "283",
+        "dc:identifier": "SCOPUS_ID:85150677559",
+        "dc:publisher": "John Wiley and Sons Inc"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "CCS concept",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Computing methodologies",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Doublings",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Graph networks",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Hierarchical graphs",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Learning physics",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Neural-networks",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Physical simulation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Sparse grid",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "\u2022 computing methodology → neural network",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "CCS Concepts"
+        },
+        {
+            "@_fa": "true",
+            "$": "Physical simulation"
+        },
+        {
+            "@_fa": "true",
+            "$": "\u2022 Computing methodologies → Neural networks"
+        }
+    ]},
+    "subject-areas": {"subject-area": [{
+        "@_fa": "true",
+        "$": "Computer Graphics and Computer-Aided Design",
+        "@code": "1704",
+        "@abbrev": "COMP"
+    }]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Nuttapong",
+            "preferred-name": {
+                "ce:given-name": "Nuttapong",
+                "ce:initials": "N.",
+                "ce:surname": "Chentanez",
+                "ce:indexed-name": "Chentanez N."
+            },
+            "@seq": "1",
+            "ce:initials": "N.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60076695",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60076695"
+                },
+                {
+                    "@id": "60028190",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+                }
+            ],
+            "ce:surname": "Chentanez",
+            "@auid": "14824789300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/14824789300",
+            "ce:indexed-name": "Chentanez N."
+        },
+        {
+            "ce:given-name": "Stefan",
+            "preferred-name": {
+                "ce:given-name": "Stefan",
+                "ce:initials": "S.",
+                "ce:surname": "Jeschke",
+                "ce:indexed-name": "Jeschke S."
+            },
+            "@seq": "2",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60076695",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60076695"
+            },
+            "ce:surname": "Jeschke",
+            "@auid": "10141789000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/10141789000",
+            "ce:indexed-name": "Jeschke S."
+        },
+        {
+            "ce:given-name": "Matthias",
+            "preferred-name": {
+                "ce:given-name": "Matthias",
+                "ce:initials": "M.",
+                "ce:surname": "Müller",
+                "ce:indexed-name": "Müller M."
+            },
+            "@seq": "3",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60076695",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60076695"
+            },
+            "ce:surname": "Müller",
+            "@auid": "57213094877",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57213094877",
+            "ce:indexed-name": "Muller M."
+        },
+        {
+            "ce:given-name": "Miles",
+            "preferred-name": {
+                "ce:given-name": "Miles",
+                "ce:initials": "M.",
+                "ce:surname": "Macklin",
+                "ce:indexed-name": "Macklin M."
+            },
+            "@seq": "4",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60076695",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60076695"
+            },
+            "ce:surname": "Macklin",
+            "@auid": "55805366300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55805366300",
+            "ce:indexed-name": "Macklin M."
+        }
+    ]}
+}}

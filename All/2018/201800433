@@ -1,0 +1,831 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "23",
+                "@timestamp": "2022-03-23T00:51:26.000026-04:00",
+                "@year": "2022",
+                "@month": "03"
+            },
+            "ait:date-sort": {
+                "@day": "18",
+                "@year": "2018",
+                "@month": "10"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": {
+                "xocs:funding-agency-matched-string": "National Science Foundation",
+                "xocs:funding-agency-acronym": "NSF",
+                "xocs:funding-agency": "National Science Foundation",
+                "xocs:funding-id": [
+                    {"$": "1450377"},
+                    {"$": "ACI-1450377"},
+                    {"$": "PHY-1624356"}
+                ],
+                "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100000001",
+                "xocs:funding-agency-country": "http://sws.geonames.org/6252001"
+            },
+            "xocs:funding-addon-generated-timestamp": "2022-08-16T19:02:39.714048Z",
+            "xocs:funding-text": "This work was supported by the National Science Foundation under grants ACI-1450377 and PHY-1624356.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "United States",
+                            "postal-code": "08544",
+                            "@afid": "60003269",
+                            "@country": "usa",
+                            "city": "Princeton",
+                            "organization": [
+                                {"$": "Physics Department"},
+                                {"$": "Princeton University"}
+                            ],
+                            "affiliation-id": {"@afid": "60003269"},
+                            "state": "NJ"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Jim",
+                                "preferred-name": {
+                                    "ce:given-name": "Jim",
+                                    "ce:initials": "J.",
+                                    "ce:surname": "Pivarski",
+                                    "ce:indexed-name": "Pivarski J."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Pivarski",
+                                "@auid": "35227851500",
+                                "ce:indexed-name": "Pivarski J."
+                            },
+                            {
+                                "ce:given-name": "David",
+                                "preferred-name": {
+                                    "ce:given-name": "David",
+                                    "ce:initials": "D.",
+                                    "ce:surname": "Lange",
+                                    "ce:indexed-name": "Lange D."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "D.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Lange",
+                                "@auid": "35221944800",
+                                "ce:indexed-name": "Lange D."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "postal-code": "10330",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Krung Thep Maha Nakhon",
+                            "organization": {"$": "Computer Engineering Chulalongkorn University"},
+                            "affiliation-id": {"@afid": "60028190"}
+                        },
+                        "author": [{
+                            "ce:given-name": "Thanat",
+                            "preferred-name": {
+                                "ce:given-name": "Thanat",
+                                "ce:initials": "T.",
+                                "ce:surname": "Jatuphattharachat",
+                                "ce:indexed-name": "Jatuphattharachat T."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "T.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Jatuphattharachat",
+                            "@auid": "57204459070",
+                            "ce:indexed-name": "Jatuphattharachat T."
+                        }]
+                    }
+                ],
+                "citation-title": "Toward real-time data query systems in HEP",
+                "abstracts": "© 2018 Institute of Physics Publishing. All rights reserved.Exploratory data analysis tools must respond quickly to a user's questions, so that the answer to one question (e.g. a visualized histogram or fit) can influence the next. In some SQL-based query systems used in industry, even very large (petabyte) datasets can be summarized on a human timescale (seconds), employing techniques such as columnar data representation, caching, indexing, and code generation/JIT-compilation. This article describes progress toward realizing such a system for High Energy Physics (HEP), focusing on the intermediate problems of optimizing data access and calculations for \"query sized\" payloads, such as a single histogram or group of histograms, rather than large reconstruction or data-skimming jobs. These techniques include direct extraction of ROOT TBranches into Numpy arrays and compilation of Python analysis functions (rather than SQL) to be executed very quickly. We will also discuss the problem of caching and actively delivering jobs to worker nodes that have the necessary input data preloaded in cache. All of these pieces of the larger solution are available as standalone GitHub repositories, and could be used in current analyses.",
+                "citation-info": {
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://iopscience.iop.org/journal/1742-6596",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Journal of Physics: Conference Series",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"voliss": {
+                        "@volume": "1085",
+                        "@issue": "3"
+                    }},
+                    "@type": "p",
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "3 of 5"},
+                        "confevent": {
+                            "confname": "18th International Workshop on Advanced Computing and Analysis Techniques in Physics Research, ACAT 2017",
+                            "confnumber": "18",
+                            "confseriestitle": "International Workshop on Advanced Computing and Analysis Techniques in Physics Research",
+                            "conflocation": {
+                                "venue": "University of Washington",
+                                "@country": "usa",
+                                "city": "Seattle",
+                                "state": "WA"
+                            },
+                            "confcode": "141166",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "25",
+                                    "@year": "2017",
+                                    "@month": "08"
+                                },
+                                "startdate": {
+                                    "@day": "21",
+                                    "@year": "2017",
+                                    "@month": "08"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Journal of Physics: Conference Series",
+                    "publicationdate": {
+                        "month": "10",
+                        "year": "2018",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "18 October 2018"
+                        },
+                        "day": "18"
+                    },
+                    "sourcetitle-abbrev": "J. Phys. Conf. Ser.",
+                    "@country": "gbr",
+                    "issuetitle": "18th International Workshop on Advanced Computing and Analysis Techniques in Physics Research, ACAT 2017 - Track 1: Computing Technology for Physics Research",
+                    "issn": [
+                        {
+                            "$": "17426596",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "17426588",
+                            "@type": "print"
+                        }
+                    ],
+                    "publicationyear": {"@first": "2018"},
+                    "publisher": {"publishername": "IOP Publishing Ltd"},
+                    "article-number": "032044",
+                    "@srcid": "130053"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "722.4",
+                                "classification-description": "Digital Computers and Systems"
+                            },
+                            {
+                                "classification-code": "723",
+                                "classification-description": "Computer Software, Data Handling and Applications"
+                            },
+                            {
+                                "classification-code": "932.1",
+                                "classification-description": "High Energy Physics"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": "3100"
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "PHYS"
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2022 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "22",
+                    "@timestamp": "BST 08:25:31",
+                    "@year": "2022",
+                    "@month": "03"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "624676564",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "913624675",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20184406022599",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20181947160",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20183240362",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85055648959",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85055648959",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1088/1742-6596/1085/3/032044"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "10",
+                "reference": [
+                    {
+                        "ref-fulltext": "Hausenblas M and Nadeau J 2013 Apache drill: Interactive ad-hoc analysis at scale Big Data 1 100-104 [Online]. Available: https://doi.org/10.1089/big.2013.0011",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1089/big.2013.0011",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Apache drill: Interactive ad-hoc analysis at scale"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1089/big.2013.0011",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "2167-6461",
+                                    "@idtype": "ISSN"
+                                },
+                                {
+                                    "$": "84991773782",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "1",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "100",
+                                    "@last": "104"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hausenblas",
+                                    "ce:indexed-name": "Hausenblas M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nadeau",
+                                    "ce:indexed-name": "Nadeau J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Big Data"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "B Bockelman, Z Zhang, and J Pivarski, \"ROOT-BulkIO and Numpy interface,\" Journal of Physics: Conference Series, 2017. [Online]. Available: https://indico.cern.ch/event/567550/contributions/2627167/.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://indico.cern.ch/event/567550/contributions/2627167/",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "ROOT-BulkIO and Numpy interface"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85047795377",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bockelman",
+                                    "ce:indexed-name": "Bockelman B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pivarski",
+                                    "ce:indexed-name": "Pivarski J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Physics: Conference Series"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J Pivarski, P Elmer, B Bockelman, Z Zhang, \"Fast Access to Columnar, Hierarchical Data via Code Transformation,\" http://arxiv.org/abs/1708.08319, Aug. 2017.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://arxiv.org/abs/1708.08319",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85055635749",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Aug. 2017",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pivarski",
+                                    "ce:indexed-name": "Pivarski J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Elmer",
+                                    "ce:indexed-name": "Elmer P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bockelman",
+                                    "ce:indexed-name": "Bockelman B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Fast Access to Columnar, Hierarchical Data Via Code Transformation"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J Pivarski, A Svyatkovskiy, F Schenck, and B Engels, \"histogrammar-python: 1.0.0,\" Sep. 2016. [Online]. Available: https://doi.org/10.5281/zenodo.61418.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.5281/zenodo.61418",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85055628502",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Sep. 2016",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pivarski",
+                                    "ce:indexed-name": "Pivarski J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Svyatkovskiy",
+                                    "ce:indexed-name": "Svyatkovskiy A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schenck",
+                                    "ce:indexed-name": "Schenck F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Engels",
+                                    "ce:indexed-name": "Engels B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Histogrammar-python: 1.0.0"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "T Jatuphattharachat. (2017) femto-mesos. [Online]. Available: https://github.com/JThanat/femto-mesos.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://github.com/JThanat/femto-mesos",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85055664407",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "T.",
+                                "@_fa": "true",
+                                "ce:surname": "Jatuphattharachat",
+                                "ce:indexed-name": "Jatuphattharachat T."
+                            }]}
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Brun R and Rademakers F 1997 ROOT: An object oriented data analysis framework Nucl. Instrum. Meth. A389 81-86 [Online]. Available: https://doi.org/10.1016/S0168-9002(97)00048-X",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1016/S0168-9002(97)00048-X",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "ROOT: An object oriented data analysis framework"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/S0168-9002(97)00048-X",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "0168-9002",
+                                    "@idtype": "ISSN"
+                                },
+                                {
+                                    "$": "0031120968",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "389",
+                                    "@issue": "1-2"
+                                },
+                                "pagerange": {
+                                    "@first": "81",
+                                    "@last": "86"
+                                }
+                            },
+                            "ref-text": "A389",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brun",
+                                    "ce:indexed-name": "Brun R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rademakers",
+                                    "ce:indexed-name": "Rademakers F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Nucl. Instrum. Meth."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "B Bockelman. (2017) root-bulkapi-fastread-v2. [Online]. Available: http://github.com/bbockelm/root/tree/root-bulkapi-fastread-v2.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://github.com/bbockelm/root/tree/root-bulkapi-fastread-v2",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85055636175",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "B.",
+                                "@_fa": "true",
+                                "ce:surname": "Bockelman",
+                                "ce:indexed-name": "Bockelman B."
+                            }]},
+                            "ref-sourcetitle": "Root-bulkapi-fastread-v2"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J Pivarski. (2017) \"Uproot: Minimalist ROOT I/O in pure Python and Numpy.\". [Online]. Available: https://github.com/scikit-hep/uproot.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://github.com/scikit-hep/uproot",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85047814361",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "ce:surname": "Pivarski",
+                                "ce:indexed-name": "Pivarski J."
+                            }]},
+                            "ref-sourcetitle": "Uproot: Minimalist ROOT I/O in Pure Python and Numpy"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J Pivarski. (2017) \"OAMap: Toolset for Computing Directly on Hierarchically Nested, Columnar Data\". [Online]. Available: https://github.com/diana-hep/oamap.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://github.com/diana-hep/oamap",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85047794436",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "ce:surname": "Pivarski",
+                                "ce:indexed-name": "Pivarski J."
+                            }]},
+                            "ref-sourcetitle": "OAMap: Toolset for Computing Directly on Hierarchically Nested, Columnar Data"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "The Apache Arrow team. (2016) \"Apache Arrow: Powering Columnar In-Memory Analytics\". [Online]. Available: https://arrow.apache.org/.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://arrow.apache.org/",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85047784522",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "The Apache Arrow team",
+                            "ref-sourcetitle": "Apache Arrow: Powering Columnar In-Memory Analytics"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Princeton",
+            "@id": "60003269",
+            "affilname": "Princeton University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003269",
+            "affiliation-country": "United States"
+        }
+    ],
+    "coredata": {
+        "srctype": "p",
+        "prism:issueIdentifier": "3",
+        "eid": "2-s2.0-85055648959",
+        "dc:description": "Exploratory data analysis tools must respond quickly to a user's questions, so that the answer to one question (e.g. a visualized histogram or fit) can influence the next. In some SQL-based query systems used in industry, even very large (petabyte) datasets can be summarized on a human timescale (seconds), employing techniques such as columnar data representation, caching, indexing, and code generation/JIT-compilation. This article describes progress toward realizing such a system for High Energy Physics (HEP), focusing on the intermediate problems of optimizing data access and calculations for \"query sized\" payloads, such as a single histogram or group of histograms, rather than large reconstruction or data-skimming jobs. These techniques include direct extraction of ROOT TBranches into Numpy arrays and compilation of Python analysis functions (rather than SQL) to be executed very quickly. We will also discuss the problem of caching and actively delivering jobs to worker nodes that have the necessary input data preloaded in cache. All of these pieces of the larger solution are available as standalone GitHub repositories, and could be used in current analyses.",
+        "prism:coverDate": "2018-10-18",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85055648959",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Jim",
+            "preferred-name": {
+                "ce:given-name": "Jim",
+                "ce:initials": "J.",
+                "ce:surname": "Pivarski",
+                "ce:indexed-name": "Pivarski J."
+            },
+            "@seq": "1",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60003269",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003269"
+            },
+            "ce:surname": "Pivarski",
+            "@auid": "35227851500",
+            "author-url": "https://api.elsevier.com/content/author/author_id/35227851500",
+            "ce:indexed-name": "Pivarski J."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85055648959"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85055648959&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85055648959&origin=inward"
+            }
+        ],
+        "prism:publicationName": "Journal of Physics: Conference Series",
+        "source-id": "130053",
+        "citedby-count": "1",
+        "prism:volume": "1085",
+        "subtype": "cp",
+        "dc:title": "Toward real-time data query systems in HEP",
+        "openaccess": "1",
+        "openaccessFlag": "true",
+        "prism:doi": "10.1088/1742-6596/1085/3/032044",
+        "prism:issn": "17426596 17426588",
+        "publishercopyright": "© 2018 Institute of Physics Publishing. All rights reserved.",
+        "article-number": "032044",
+        "dc:identifier": "SCOPUS_ID:85055648959",
+        "dc:publisher": "IOP Publishing Ltd"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Code Generation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Current analysis",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Data representations",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Direct extraction",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Exploratory data analysis",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Query systems",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Real-time data",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Worker nodes",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": null,
+    "subject-areas": {"subject-area": [{
+        "@_fa": "true",
+        "$": "Physics and Astronomy (all)",
+        "@code": "3100",
+        "@abbrev": "PHYS"
+    }]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Jim",
+            "preferred-name": {
+                "ce:given-name": "Jim",
+                "ce:initials": "J.",
+                "ce:surname": "Pivarski",
+                "ce:indexed-name": "Pivarski J."
+            },
+            "@seq": "1",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60003269",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003269"
+            },
+            "ce:surname": "Pivarski",
+            "@auid": "35227851500",
+            "author-url": "https://api.elsevier.com/content/author/author_id/35227851500",
+            "ce:indexed-name": "Pivarski J."
+        },
+        {
+            "ce:given-name": "David",
+            "preferred-name": {
+                "ce:given-name": "David",
+                "ce:initials": "D.",
+                "ce:surname": "Lange",
+                "ce:indexed-name": "Lange D."
+            },
+            "@seq": "2",
+            "ce:initials": "D.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60003269",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003269"
+            },
+            "ce:surname": "Lange",
+            "@auid": "35221944800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/35221944800",
+            "ce:indexed-name": "Lange D."
+        },
+        {
+            "ce:given-name": "Thanat",
+            "preferred-name": {
+                "ce:given-name": "Thanat",
+                "ce:initials": "T.",
+                "ce:surname": "Jatuphattharachat",
+                "ce:indexed-name": "Jatuphattharachat T."
+            },
+            "@seq": "3",
+            "ce:initials": "T.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Jatuphattharachat",
+            "@auid": "57204459070",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57204459070",
+            "ce:indexed-name": "Jatuphattharachat T."
+        }
+    ]}
+}}

@@ -1,0 +1,1678 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "26",
+                "@timestamp": "2023-05-26T15:20:19.000019-04:00",
+                "@year": "2023",
+                "@month": "05"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2023",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": {"xocs:funding-agency-matched-string": "Chulalongkorn University Technology Center"},
+            "xocs:funding-addon-generated-timestamp": "2023-05-18T01:39:36.970Z",
+            "xocs:funding-text": "Special thanks to CU VISION X for supporting the hardware and software used in this research and to Chulalongkorn University Technology Center for supporting the research innovation ecosystem",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "@afid": "60028190",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Chulalongkorn University"},
+                            {"$": "Department of Mechanical Engineering"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60028190",
+                            "@dptid": "104425639"
+                        },
+                        "@affiliation-instance-id": "OB2BibRecID-948148733-08e057912d15c8b86a822fca56125dc4-1",
+                        "ce:source-text": "Chulalongkorn University, Department of Mechanical Engineering, Bangkok, Thailand",
+                        "@dptid": "104425639"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Pathaphon",
+                            "preferred-name": {
+                                "ce:given-name": "Pathaphon",
+                                "ce:initials": "P.",
+                                "ce:surname": "Wiriwithya",
+                                "ce:indexed-name": "Wiriwithya P."
+                            },
+                            "@author-instance-id": "OB2BibRecID-948148733-56ea2bb90294c75d1dbdbc01b75eace0-1",
+                            "@seq": "1",
+                            "ce:initials": "P.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Wiriwithya",
+                            "@auid": "58245643000",
+                            "ce:indexed-name": "Wiriwithya P."
+                        },
+                        {
+                            "ce:given-name": "Siwach",
+                            "preferred-name": {
+                                "ce:given-name": "Siwach",
+                                "ce:initials": "S.",
+                                "ce:surname": "Rungnarongruck",
+                                "ce:indexed-name": "Rungnarongruck S."
+                            },
+                            "@author-instance-id": "OB2BibRecID-948148733-c570a102cdfa6a32e9e8a4c3cc0fb145-1",
+                            "@seq": "2",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Rungnarongruck",
+                            "@auid": "58244674400",
+                            "ce:indexed-name": "Rungnarongruck S."
+                        },
+                        {
+                            "ce:given-name": "Sasapol",
+                            "preferred-name": {
+                                "ce:given-name": "Sasapol",
+                                "ce:initials": "S.",
+                                "ce:surname": "Pongamphai",
+                                "ce:indexed-name": "Pongamphai S."
+                            },
+                            "@author-instance-id": "OB2BibRecID-948148733-2b9d97101418d1d82dd86a5021c150d1-1",
+                            "@seq": "3",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Pongamphai",
+                            "@auid": "58246344300",
+                            "ce:indexed-name": "Pongamphai S."
+                        },
+                        {
+                            "ce:given-name": "Saranyapong",
+                            "preferred-name": {
+                                "ce:given-name": "Saranyapong",
+                                "ce:initials": "S.",
+                                "ce:surname": "Puapattanakul",
+                                "ce:indexed-name": "Puapattanakul S."
+                            },
+                            "@author-instance-id": "OB2BibRecID-948148733-bed826d4ef5422d715aabab3e1a6d073-1",
+                            "@seq": "4",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Puapattanakul",
+                            "@auid": "58245409500",
+                            "ce:indexed-name": "Puapattanakul S."
+                        },
+                        {
+                            "ce:given-name": "Ratchatin",
+                            "preferred-name": {
+                                "ce:given-name": "Ratchatin",
+                                "ce:initials": "R.",
+                                "ce:surname": "Chancharoen",
+                                "ce:indexed-name": "Chancharoen R."
+                            },
+                            "@author-instance-id": "OB2BibRecID-948148733-8b541d1db9ffe404249f2ce20a2a2872-1",
+                            "@seq": "5",
+                            "ce:initials": "R.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Chancharoen",
+                            "@auid": "36170214000",
+                            "ce:indexed-name": "Chancharoen R."
+                        }
+                    ]
+                },
+                "citation-title": "Smart Trash Classification Machine",
+                "abstracts": "© 2023 IEEE.Smart trash classification machine is a machine vision made to handle the problem of unsorted trash from its primary source. The machine is made to classify trash in a short time with high efficiency and consists of two components. The first component is software for constructing an algorithm using the TensorFlow library, built in the Python programming language, to produce an image of trash and store it in the library. The image will be divided into six types based on their characteristics and shape and will be automatically analysed using the deep learning ImageNet model. When the safety light curtain sensor detects trash, a signal is sent to the RGB camera, which captures an image of the trash. The acquired image will then be analysed by algorithm software that is compared to the library image in the database and then sends a signal to the hardware component indicating the type of trash. The second component is hardware, which consists of an RGB camera, light curtain safety sensors, a bin-driving motor, and garbage sorting bins.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Chulalongkorn University"},
+                            {"$": "Department of Mechanical Engineering"}
+                        ],
+                        "@affiliation-instance-id": "OB2BibRecID-948148733-08e057912d15c8b86a822fca56125dc4-1",
+                        "ce:source-text": "Chulalongkorn University, Department of Mechanical Engineering, Bangkok, Thailand"
+                    },
+                    "person": {
+                        "ce:given-name": "Pathaphon",
+                        "@author-instance-id": "OB2BibRecID-948148733-78375adda044d78713c18f45879a10ae-1",
+                        "ce:initials": "P.",
+                        "ce:surname": "Wiriwithya",
+                        "ce:indexed-name": "Wiriwithya P."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Convolutional Neural Network (CNNs)",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "deep learning",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "ImageNet",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Programmable Logic Control (PLC)",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "python",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "tensorflow",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "trash classification",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=10106514",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "2023 9th International Conference on Mechatronics and Robotics Engineering, ICMRE 2023",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"pagerange": {
+                        "@first": "146",
+                        "@last": "150"
+                    }},
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781665463263",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "9th International Conference on Mechatronics and Robotics Engineering, ICMRE 2023",
+                            "confsponsors": {
+                                "confsponsor": "Southern University of Science and Technology",
+                                "@complete": "n"
+                            },
+                            "confnumber": "9",
+                            "confcatnumber": "CFP23W13-ART",
+                            "confseriestitle": "International Conference on Mechatronics and Robotics Engineering",
+                            "conflocation": {
+                                "@country": "chn",
+                                "city": "Shenzhen"
+                            },
+                            "confcode": "188260",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "01",
+                                    "@year": "2023",
+                                    "@month": "02"
+                                },
+                                "startdate": {
+                                    "@day": "10",
+                                    "@year": "2023",
+                                    "@month": "02"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "2023 9th International Conference on Mechatronics and Robotics Engineering, ICMRE 2023",
+                    "contributor-group": {"contributor": {
+                        "ce:given-name": "Yongsheng",
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "ce:degrees": "Prof.",
+                        "ce:surname": "Ma",
+                        "@role": "edit",
+                        "ce:indexed-name": "Ma Y."
+                    }},
+                    "publicationdate": {
+                        "year": "2023",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2023"
+                        }
+                    },
+                    "sourcetitle-abbrev": "Int. Conf. Mechatronics Robot. Eng., ICMRE",
+                    "@country": "usa",
+                    "issuetitle": "2023 9th International Conference on Mechatronics and Robotics Engineering, ICMRE 2023",
+                    "publicationyear": {"@first": "2023"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "@srcid": "21101151426"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1702"},
+                            {"$": "1709"},
+                            {"$": "2208"},
+                            {"$": "2210"},
+                            {"$": "2606"},
+                            {"$": "3105"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "461.4",
+                                "classification-description": "Ergonomics and Human Factors Engineering"
+                            },
+                            {
+                                "classification-code": "601.2",
+                                "classification-description": "Machine Components"
+                            },
+                            {
+                                "classification-code": "723.1.1",
+                                "classification-description": "Computer Programming Languages"
+                            },
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing and Image Processing"
+                            },
+                            {
+                                "classification-code": "723.5",
+                                "classification-description": "Computer Applications"
+                            },
+                            {
+                                "classification-code": "741.2",
+                                "classification-description": "Vision"
+                            },
+                            {
+                                "classification-code": "742.2",
+                                "classification-description": "Photographic and Video Equipment"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "ENGI"},
+                            {"$": "MATH"},
+                            {"$": "PHYS"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "Special thanks to CU VISION X for supporting the hardware and software used in this research and to Chulalongkorn University Technology Center for supporting the research innovation ecosystem",
+                        "@xml:lang": "eng"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2023 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "18",
+                    "@timestamp": "BST 07:28:26",
+                    "@year": "2023",
+                    "@month": "05"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "641295626",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "948148733",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20232014093718",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20231344907",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20231790556",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85159114588",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85159114588",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/ICMRE56789.2023.10106603"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "20",
+                "reference": [
+                    {
+                        "ref-fulltext": "K. V. Lohuizen, \"The world produces more than 3. 5 million tons of garbage a day - and that figure is growing,\" Washington Post, 2017. [Online]. Available:https://www. washingtonpost. com/graphics/2017/wor ld/global-waste/. [Accessed: 27-Oct-2022]",
+                        "@reference-instance-id": "OB2BibRecID-948148733-2e3b0a7ae5a714d4f96d230c24311678-1",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-website": {
+                                "websitename": "Washington Post",
+                                "ce:e-address": {
+                                    "$": "https://www.washingtonpost.com/graphics/2017/world/global-waste/",
+                                    "@type": "email"
+                                }
+                            },
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85159090870",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Accessed: 27-Oct-2022",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "K.V.",
+                                "@_fa": "true",
+                                "ce:surname": "Lohuizen",
+                                "ce:indexed-name": "Lohuizen K.V."
+                            }]},
+                            "ref-sourcetitle": "The world produces more than 3. 5 million tons of garbage a day - and that figure is growing"
+                        },
+                        "ce:source-text": "K. V. Lohuizen, \"The world produces more than 3. 5 million tons of garbage a day - and that figure is growing,\" Washington Post, 2017. [Online]. Available:https://www. washingtonpost. com/graphics/2017/wor ld/global-waste/. [Accessed: 27-Oct-2022]"
+                    },
+                    {
+                        "ref-fulltext": "Pollution Control Department of Thailand, \"Thailand Environmental QualitySituation Report 2020,\" https://www. pcd. go. th/pcd_news/11873. [Accessed: 27-Oct-2022]",
+                        "@reference-instance-id": "OB2BibRecID-948148733-c2a15412e59863c9647584100de8219d-2",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-website": {
+                                "websitename": "Pollution Control Department of Thailand",
+                                "ce:e-address": {
+                                    "$": "https://www.pcd.go.th/pcd_news/11873",
+                                    "@type": "email"
+                                }
+                            },
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85159124693",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Accessed: 27-Oct",
+                            "ref-sourcetitle": "Thailand Environmental QualitySituation Report 2020"
+                        },
+                        "ce:source-text": "Pollution Control Department of Thailand, \"Thailand Environmental QualitySituation Report 2020,\" https://www. pcd. go. th/pcd_news/11873. [Accessed: 27-Oct-2022]"
+                    },
+                    {
+                        "ref-fulltext": "D. McKinnon, D. J. Fazakerley, and R. Hultermans. \"Waste sorting plants-extracting value from waste,\" Vienna, Austria: ISWA, 2017",
+                        "@reference-instance-id": "OB2BibRecID-948148733-38b2e39fd24980046f481d81432ca628-3",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85103558950",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Vienna, Austria: ISWA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McKinnon",
+                                    "ce:indexed-name": "McKinnon D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fazakerley",
+                                    "ce:indexed-name": "Fazakerley D.J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hultermans",
+                                    "ce:indexed-name": "Hultermans R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Waste sorting plants-extracting value from waste"
+                        },
+                        "ce:source-text": "D. McKinnon, D. J. Fazakerley, and R. Hultermans. \"Waste sorting plants-extracting value from waste,\" Vienna, Austria: ISWA, 2017"
+                    },
+                    {
+                        "ref-fulltext": "O. M. Poulsen, N. O. Breum, N. Ebbehøj, A. M. Hansen, U. I. Ivens, D. van Lelieveld, P. Malmros, L. Matthiasen, B. H. Nielsen, E. N. Nielsen, and B. Schibye, \"Sorting and recycling of domestic waste. Review of occupational health problems and their possible causes,\" Science of The Total Environment 168(1), pp. 33-56, 1995",
+                        "@reference-instance-id": "OB2BibRecID-948148733-30501f1fb100c2b88d1ead37e5c58627-4",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1995"},
+                            "ref-title": {"ref-titletext": "Sorting and recycling of domestic waste. Review of occupational health problems and their possible causes"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0029073031",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "168",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "33",
+                                    "@last": "56"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Poulsen",
+                                    "ce:indexed-name": "Poulsen O.M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Breum",
+                                    "ce:indexed-name": "Breum N.O."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ebbehøj",
+                                    "ce:indexed-name": "Ebbehoj N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hansen",
+                                    "ce:indexed-name": "Hansen A.M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "U.I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ivens",
+                                    "ce:indexed-name": "Ivens U.I."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van Lelieveld",
+                                    "ce:indexed-name": "Van Lelieveld D."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Malmros",
+                                    "ce:indexed-name": "Malmros P."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Matthiasen",
+                                    "ce:indexed-name": "Matthiasen L."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "B.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nielsen",
+                                    "ce:indexed-name": "Nielsen B.H."
+                                },
+                                {
+                                    "@seq": "10",
+                                    "ce:initials": "E.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nielsen",
+                                    "ce:indexed-name": "Nielsen E.N."
+                                },
+                                {
+                                    "@seq": "11",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schibye",
+                                    "ce:indexed-name": "Schibye B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Science of The Total Environment"
+                        },
+                        "ce:source-text": "O. M. Poulsen, N. O. Breum, N. Ebbehøj, A. M. Hansen, U. I. Ivens, D. van Lelieveld, P. Malmros, L. Matthiasen, B. H. Nielsen, E. N. Nielsen, and B. Schibye, \"Sorting and recycling of domestic waste. Review of occupational health problems and their possible causes,\" Science of The Total Environment 168(1), pp. 33-56, 1995"
+                    },
+                    {
+                        "ref-fulltext": "P. Kruachottikul, N. Cooharojananone, G. Phanomchoeng, T. Chavarnakul, K. Kovitanggoon, and D. Trakulwaranont, \"Deep learningbased visual defect-inspection system for reinforced concrete bridge substructure: a case of Thailand's department of highways,\" Journal of Civil Structural Health Monitoring, 11(4), pp. 949-965, 2021",
+                        "@reference-instance-id": "OB2BibRecID-948148733-2f03c7937a07b7280dafa52ad7c851b8-5",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Deep learningbased visual defect-inspection system for reinforced concrete bridge substructure: A case of Thailand's department of highways"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85106757141",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "11",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "949",
+                                    "@last": "965"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kruachottikul",
+                                    "ce:indexed-name": "Kruachottikul P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cooharojananone",
+                                    "ce:indexed-name": "Cooharojananone N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Phanomchoeng",
+                                    "ce:indexed-name": "Phanomchoeng G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chavarnakul",
+                                    "ce:indexed-name": "Chavarnakul T."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kovitanggoon",
+                                    "ce:indexed-name": "Kovitanggoon K."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Trakulwaranont",
+                                    "ce:indexed-name": "Trakulwaranont D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Civil Structural Health Monitoring"
+                        },
+                        "ce:source-text": "P. Kruachottikul, N. Cooharojananone, G. Phanomchoeng, T. Chavarnakul, K. Kovitanggoon, and D. Trakulwaranont, \"Deep learningbased visual defect-inspection system for reinforced concrete bridge substructure: a case of Thailand's department of highways,\" Journal of Civil Structural Health Monitoring, 11(4), pp. 949-965, 2021"
+                    },
+                    {
+                        "ref-fulltext": "P. Kruachottikul, N. Cooharojananone, G. Phanomchoeng, T. Chavarnakul, K. Kovitanggoon, D. Trakulwaranont, and K. Atchariyachanvanich, \"Bridge substructure defect inspection assistance by using deep learning,\" In 2019 IEEE 10th International Conference on Awareness Science and Technology (iCAST), pp. 1-6. IEEE, 2019",
+                        "@reference-instance-id": "OB2BibRecID-948148733-d5b993b9d964e74fd611db3d7f84a402-6",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Bridge substructure defect inspection assistance by using deep learning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85077773182",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "6"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kruachottikul",
+                                    "ce:indexed-name": "Kruachottikul P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cooharojananone",
+                                    "ce:indexed-name": "Cooharojananone N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Phanomchoeng",
+                                    "ce:indexed-name": "Phanomchoeng G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chavarnakul",
+                                    "ce:indexed-name": "Chavarnakul T."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kovitanggoon",
+                                    "ce:indexed-name": "Kovitanggoon K."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Trakulwaranont",
+                                    "ce:indexed-name": "Trakulwaranont D."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Atchariyachanvanich",
+                                    "ce:indexed-name": "Atchariyachanvanich K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2019 IEEE 10th International Conference on Awareness Science and Technology (iCAST)"
+                        },
+                        "ce:source-text": "P. Kruachottikul, N. Cooharojananone, G. Phanomchoeng, T. Chavarnakul, K. Kovitanggoon, D. Trakulwaranont, and K. Atchariyachanvanich, \"Bridge substructure defect inspection assistance by using deep learning,\" In 2019 IEEE 10th International Conference on Awareness Science and Technology (iCAST), pp. 1-6. IEEE, 2019"
+                    },
+                    {
+                        "ref-fulltext": "N. Kriegeskorte, and T. Golan, \"Neural network models and deep learning. \" Current Biology 29(7): R231-R236, 2019",
+                        "@reference-instance-id": "OB2BibRecID-948148733-5d888b6e54d598f6604625b19841fd26-7",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Neural network models and deep learning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85063400421",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "29",
+                                    "@issue": "7"
+                                },
+                                "pagerange": {
+                                    "@first": "R231",
+                                    "@last": "R236"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kriegeskorte",
+                                    "ce:indexed-name": "Kriegeskorte N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Golan",
+                                    "ce:indexed-name": "Golan T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Current Biology"
+                        },
+                        "ce:source-text": "N. Kriegeskorte, and T. Golan, \"Neural network models and deep learning. \" Current Biology 29(7): R231-R236, 2019"
+                    },
+                    {
+                        "ref-fulltext": "A. Krizhevsky, I. Sutskever, and G. E. Hinton, \"Imagenet Classification with Deep Convolutional Neural Networks. \" Communications of the ACM 60. 6, pp. 84-90, 2017",
+                        "@reference-instance-id": "OB2BibRecID-948148733-16a80024ee1615fb7ad1d3b2c563ef5e-8",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Imagenet classification with deep convolutional neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85020126914",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "60",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "84",
+                                    "@last": "90"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krizhevsky",
+                                    "ce:indexed-name": "Krizhevsky A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sutskever",
+                                    "ce:indexed-name": "Sutskever I."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hinton",
+                                    "ce:indexed-name": "Hinton G.E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Communications of the ACM"
+                        },
+                        "ce:source-text": "A. Krizhevsky, I. Sutskever, and G. E. Hinton, \"Imagenet Classification with Deep Convolutional Neural Networks. \" Communications of the ACM 60. 6, pp. 84-90, 2017"
+                    },
+                    {
+                        "ref-fulltext": "A. Vo, et al. \"A Novel Framework for Trash Classification Using Deep Transfer Learning. \" IEEE Access 7: 178631-178639, 2019",
+                        "@reference-instance-id": "OB2BibRecID-948148733-85cbdd75cac7c337634e9512d5cfb102-9",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "A novel framework for trash classification using deep transfer learning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85077213939",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "7"},
+                                "pagerange": {
+                                    "@first": "178631",
+                                    "@last": "178639"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vo",
+                                    "ce:indexed-name": "Vo A."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE Access"
+                        },
+                        "ce:source-text": "A. Vo, et al. \"A Novel Framework for Trash Classification Using Deep Transfer Learning. \" IEEE Access 7: 178631-178639, 2019"
+                    },
+                    {
+                        "ref-fulltext": "M. Hussain, J. J. Bird, and D. R. Faria, \"A study on cnn transfer learning for image classification,\" UK Workshop on computational Intelligence. Springer, Cham, 2018",
+                        "@reference-instance-id": "OB2BibRecID-948148733-24b8074b3ee958deb3032b1bd4dda26d-10",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "A study on cnn transfer learning for image classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85073113479",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Springer, Cham",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hussain",
+                                    "ce:indexed-name": "Hussain M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bird",
+                                    "ce:indexed-name": "Bird J.J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Faria",
+                                    "ce:indexed-name": "Faria D.R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "UK Workshop on computational Intelligence"
+                        },
+                        "ce:source-text": "M. Hussain, J. J. Bird, and D. R. Faria, \"A study on cnn transfer learning for image classification,\" UK Workshop on computational Intelligence. Springer, Cham, 2018"
+                    },
+                    {
+                        "ref-fulltext": "G. Phanomchoeng and R. Rajamani, \"The bounded Jacobian approach to nonlinear observer design,\" Proceedings of the 2010 American Control Conference, pp. 6083-6088, 2010",
+                        "@reference-instance-id": "OB2BibRecID-948148733-033e3b5cdb6681affcd5352db7bcd550-11",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "The bounded Jacobian approach to nonlinear observer design"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77957759674",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "6083",
+                                "@last": "6088"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Phanomchoeng",
+                                    "ce:indexed-name": "Phanomchoeng G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rajamani",
+                                    "ce:indexed-name": "Rajamani R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2010 American Control Conference"
+                        },
+                        "ce:source-text": "G. Phanomchoeng and R. Rajamani, \"The bounded Jacobian approach to nonlinear observer design,\" Proceedings of the 2010 American Control Conference, pp. 6083-6088, 2010"
+                    },
+                    {
+                        "ref-fulltext": "G. Phanomchoeng, R. Rajamani, and D. Piyabongkarn, 2011, \"Real-time automotive slip angle estimation with nonlinear observer. \" In Proceedings of the 2011 American Control Conference, pp. 3942-3947, IEEE, 2011",
+                        "@reference-instance-id": "OB2BibRecID-948148733-44218a4ebdc1938df04a74c705bb6042-12",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Real-time automotive slip angle estimation with nonlinear observer"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "80053148145",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3942",
+                                "@last": "3947"
+                            }},
+                            "ref-text": "IEEE 2011",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Phanomchoeng",
+                                    "ce:indexed-name": "Phanomchoeng G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rajamani",
+                                    "ce:indexed-name": "Rajamani R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Piyabongkarn",
+                                    "ce:indexed-name": "Piyabongkarn D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2011 American Control Conference"
+                        },
+                        "ce:source-text": "G. Phanomchoeng, R. Rajamani, and D. Piyabongkarn, 2011, \"Real-time automotive slip angle estimation with nonlinear observer. \" In Proceedings of the 2011 American Control Conference, pp. 3942-3947, IEEE, 2011"
+                    },
+                    {
+                        "ref-fulltext": "G. Phanomchoeng, A. Zemouche, W. Jeon, R. Rajamani, and F. Mazenc, F. \" H∞ Observer for Descriptor Nonlinear Systems with Nonlinear Output Equations,\" In 2018 Annual American Control Conference (ACC) pp. 5952-5956, IEEE, 2018",
+                        "@reference-instance-id": "OB2BibRecID-948148733-f71f6747a21137c30936b77157ae7cad-13",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "H∞ observer for descriptor nonlinear systems with nonlinear output equations"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85052586247",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "5952",
+                                "@last": "5956"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Phanomchoeng",
+                                    "ce:indexed-name": "Phanomchoeng G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zemouche",
+                                    "ce:indexed-name": "Zemouche A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jeon",
+                                    "ce:indexed-name": "Jeon W."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rajamani",
+                                    "ce:indexed-name": "Rajamani R."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "F.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mazenc",
+                                    "ce:indexed-name": "Mazenc F.F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2018 Annual American Control Conference (ACC)"
+                        },
+                        "ce:source-text": "G. Phanomchoeng, A. Zemouche, W. Jeon, R. Rajamani, and F. Mazenc, F. \" H∞ Observer for Descriptor Nonlinear Systems with Nonlinear Output Equations,\" In 2018 Annual American Control Conference (ACC) pp. 5952-5956, IEEE, 2018"
+                    },
+                    {
+                        "ref-fulltext": "S. Chaudhary, L. Wuttisittikulkij, M. Saadi, A. Sharma, S. Al Otaibi, J. Nebhen, D. Z. Rodriguez, S. Kumar, V. Sharma, G. Phanomchoeng, R. and Chancharoen, R. \"Coherent detection-based photonic radar for autonomous vehicles under diverse weather conditions,\" PLoS one, 16(11), p. e0259438, 2021",
+                        "@reference-instance-id": "OB2BibRecID-948148733-c142a9c91fda3d778aa7e08008b3de9d-14",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Coherent detection-based photonic radar for autonomous vehicles under diverse weather conditions"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "e0259438",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "85119298877",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "16",
+                                "@issue": "11"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chaudhary",
+                                    "ce:indexed-name": "Chaudhary S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wuttisittikulkij",
+                                    "ce:indexed-name": "Wuttisittikulkij L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Saadi",
+                                    "ce:indexed-name": "Saadi M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sharma",
+                                    "ce:indexed-name": "Sharma A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Otaibi",
+                                    "ce:indexed-name": "Otaibi S.A."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nebhen",
+                                    "ce:indexed-name": "Nebhen J."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "D.Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rodriguez",
+                                    "ce:indexed-name": "Rodriguez D.Z."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kumar",
+                                    "ce:indexed-name": "Kumar S."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sharma",
+                                    "ce:indexed-name": "Sharma V."
+                                },
+                                {
+                                    "@seq": "10",
+                                    "ce:initials": "R.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Phanomchoeng",
+                                    "ce:indexed-name": "Phanomchoeng R.G."
+                                },
+                                {
+                                    "@seq": "11",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chancharoen",
+                                    "ce:indexed-name": "Chancharoen R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "PLoS one"
+                        },
+                        "ce:source-text": "S. Chaudhary, L. Wuttisittikulkij, M. Saadi, A. Sharma, S. Al Otaibi, J. Nebhen, D. Z. Rodriguez, S. Kumar, V. Sharma, G. Phanomchoeng, R. and Chancharoen, R. \"Coherent detection-based photonic radar for autonomous vehicles under diverse weather conditions,\" PLoS one, 16(11), p. e0259438, 2021"
+                    },
+                    {
+                        "ref-fulltext": "G. Phanomchoeng, and R. Rajamani, \"Real-time estimation of rollover index for tripped rollovers with a novel unknown input nonlinear observer. \" Proceedings of the American Control Conference, pp. 2090-2095, 2012",
+                        "@reference-instance-id": "OB2BibRecID-948148733-6e14d2a553b3fd01b0e0b7185b89462f-15",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Real-time estimation of rollover index for tripped rollovers with a novel unknown input nonlinear observer"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84869455237",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2090",
+                                "@last": "2095"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Phanomchoeng",
+                                    "ce:indexed-name": "Phanomchoeng G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rajamani",
+                                    "ce:indexed-name": "Rajamani R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the American Control Conference"
+                        },
+                        "ce:source-text": "G. Phanomchoeng, and R. Rajamani, \"Real-time estimation of rollover index for tripped rollovers with a novel unknown input nonlinear observer. \" Proceedings of the American Control Conference, pp. 2090-2095, 2012"
+                    },
+                    {
+                        "ref-fulltext": "G. Phanomchoeng, S. Chantranuwathana, P. and Charunyakorn, \"On-line ladle lining temperature estimation by using bounded jacobian nonlinear observer,\" Journal of Iron and Steel Research International, 23(8), pp. 792-799, 2016",
+                        "@reference-instance-id": "OB2BibRecID-948148733-684a4718473090438b7da5f7864d4271-16",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "On-line ladle lining temperature estimation by using bounded jacobian nonlinear observer"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84998978765",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "23",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "792",
+                                    "@last": "799"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Phanomchoeng",
+                                    "ce:indexed-name": "Phanomchoeng G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chantranuwathana",
+                                    "ce:indexed-name": "Chantranuwathana S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Charunyakorn",
+                                    "ce:indexed-name": "Charunyakorn P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Iron and Steel Research International"
+                        },
+                        "ce:source-text": "G. Phanomchoeng, S. Chantranuwathana, P. and Charunyakorn, \"On-line ladle lining temperature estimation by using bounded jacobian nonlinear observer,\" Journal of Iron and Steel Research International, 23(8), pp. 792-799, 2016"
+                    },
+                    {
+                        "ref-fulltext": "G. Phanomchoeng, and R. Rajamani, \"New rollover index for the detection of tripped and untripped rollovers,\" Proceedings of the IEEE Conference on Decision and Control, pp. 7440-7445, 2011",
+                        "@reference-instance-id": "OB2BibRecID-948148733-2b9268c9110977dde76b5b194c5bc2ec-17",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "New rollover index for the detection of tripped and untripped rollovers"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84860663180",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "7440",
+                                "@last": "7445"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Phanomchoeng",
+                                    "ce:indexed-name": "Phanomchoeng G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rajamani",
+                                    "ce:indexed-name": "Rajamani R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE Conference on Decision and Control"
+                        },
+                        "ce:source-text": "G. Phanomchoeng, and R. Rajamani, \"New rollover index for the detection of tripped and untripped rollovers,\" Proceedings of the IEEE Conference on Decision and Control, pp. 7440-7445, 2011"
+                    },
+                    {
+                        "ref-fulltext": "K. Treetipsounthorn, and G. Phanomchoeng, G. \"Real-time rollover warning in tripped and un-tripped rollovers with a neural network. \" In 2018 IEEE 4th International Conference on Control Science and Systems Engineering (ICCSSE), pp. 95-100. IEEE, 2018",
+                        "@reference-instance-id": "OB2BibRecID-948148733-4ef7acb0f7b14726413baf553798085a-18",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Real-time rollover warning in tripped and un-tripped rollovers with a neural network"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85068649705",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "95",
+                                "@last": "100"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Treetipsounthorn",
+                                    "ce:indexed-name": "Treetipsounthorn K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Phanomchoeng",
+                                    "ce:indexed-name": "Phanomchoeng G.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2018 IEEE 4th International Conference on Control Science and Systems Engineering (ICCSSE)"
+                        },
+                        "ce:source-text": "K. Treetipsounthorn, and G. Phanomchoeng, G. \"Real-time rollover warning in tripped and un-tripped rollovers with a neural network. \" In 2018 IEEE 4th International Conference on Control Science and Systems Engineering (ICCSSE), pp. 95-100. IEEE, 2018"
+                    },
+                    {
+                        "ref-fulltext": "H. L. Gope, and F. Hidekazu, \"Peaberry and normal coffee bean classification using CNN, SVM, and KNN: Their implementation in and the limitations of Raspberry Pi 3,\" AIMS Agriculture and Food 7. 1, pp. 149-167, 2022",
+                        "@reference-instance-id": "OB2BibRecID-948148733-60d45a288fd4ea4f3f780f2e9b6c0472-19",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-title": {"ref-titletext": "Peaberry and normal coffee bean classification using CNN, SVM, and KNN: Their implementation in and the limitations of Raspberry Pi 3"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85129951481",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "7",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "149",
+                                    "@last": "167"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gope",
+                                    "ce:indexed-name": "Gope H.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hidekazu",
+                                    "ce:indexed-name": "Hidekazu F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "AIMS Agriculture and Food"
+                        },
+                        "ce:source-text": "H. L. Gope, and F. Hidekazu, \"Peaberry and normal coffee bean classification using CNN, SVM, and KNN: Their implementation in and the limitations of Raspberry Pi 3,\" AIMS Agriculture and Food 7. 1, pp. 149-167, 2022"
+                    },
+                    {
+                        "ref-fulltext": "J. Deng, W. Dong, R. Socher, L. J. Li, K. Li, and L. Fei-Fei, \"Imagenet: A large-scale hierarchical image database,\" In 2009 IEEE conference on computer vision and pattern recognition (pp. 248-255). Ieee. 2009",
+                        "@reference-instance-id": "OB2BibRecID-948148733-582efac6aa631e9c2ed6c9ee60b8022d-20",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Imagenet: A large-scale hierarchical image database"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "72249100259",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "248",
+                                "@last": "255"
+                            }},
+                            "ref-text": "Ieee",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Deng",
+                                    "ce:indexed-name": "Deng J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dong",
+                                    "ce:indexed-name": "Dong W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Socher",
+                                    "ce:indexed-name": "Socher R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li L.J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li K."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fei-Fei",
+                                    "ce:indexed-name": "Fei-Fei L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2009 IEEE conference on computer vision and pattern recognition"
+                        },
+                        "ce:source-text": "J. Deng, W. Dong, R. Socher, L. J. Li, K. Li, and L. Fei-Fei, \"Imagenet: A large-scale hierarchical image database,\" In 2009 IEEE conference on computer vision and pattern recognition (pp. 248-255). Ieee. 2009"
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Bangkok",
+        "@id": "60028190",
+        "affilname": "Chulalongkorn University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+        "affiliation-country": "Thailand"
+    },
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85159114588",
+        "dc:description": "Smart trash classification machine is a machine vision made to handle the problem of unsorted trash from its primary source. The machine is made to classify trash in a short time with high efficiency and consists of two components. The first component is software for constructing an algorithm using the TensorFlow library, built in the Python programming language, to produce an image of trash and store it in the library. The image will be divided into six types based on their characteristics and shape and will be automatically analysed using the deep learning ImageNet model. When the safety light curtain sensor detects trash, a signal is sent to the RGB camera, which captures an image of the trash. The acquired image will then be analysed by algorithm software that is compared to the library image in the database and then sends a signal to the hardware component indicating the type of trash. The second component is hardware, which consists of an RGB camera, light curtain safety sensors, a bin-driving motor, and garbage sorting bins.",
+        "prism:coverDate": "2023-01-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85159114588",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Pathaphon",
+            "preferred-name": {
+                "ce:given-name": "Pathaphon",
+                "ce:initials": "P.",
+                "ce:surname": "Wiriwithya",
+                "ce:indexed-name": "Wiriwithya P."
+            },
+            "@seq": "1",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Wiriwithya",
+            "@auid": "58245643000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58245643000",
+            "ce:indexed-name": "Wiriwithya P."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85159114588"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85159114588&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85159114588&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781665463263",
+        "prism:publicationName": "2023 9th International Conference on Mechatronics and Robotics Engineering, ICMRE 2023",
+        "source-id": "21101151426",
+        "citedby-count": "0",
+        "subtype": "cp",
+        "prism:pageRange": "146-150",
+        "dc:title": "Smart Trash Classification Machine",
+        "prism:endingPage": "150",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/ICMRE56789.2023.10106603",
+        "prism:startingPage": "146",
+        "publishercopyright": "© 2023 IEEE.",
+        "dc:identifier": "SCOPUS_ID:85159114588",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Convolutional neural network",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Deep learning",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Imagenet",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Light curtains",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Programmable logic control",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "RGB cameras",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Tensorflow",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Trash classification",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Convolutional Neural Network (CNNs)"
+        },
+        {
+            "@_fa": "true",
+            "$": "deep learning"
+        },
+        {
+            "@_fa": "true",
+            "$": "ImageNet"
+        },
+        {
+            "@_fa": "true",
+            "$": "Programmable Logic Control (PLC)"
+        },
+        {
+            "@_fa": "true",
+            "$": "python"
+        },
+        {
+            "@_fa": "true",
+            "$": "tensorflow"
+        },
+        {
+            "@_fa": "true",
+            "$": "trash classification"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Artificial Intelligence",
+            "@code": "1702",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Human-Computer Interaction",
+            "@code": "1709",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Mechanical Engineering",
+            "@code": "2210",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Control and Optimization",
+            "@code": "2606",
+            "@abbrev": "MATH"
+        },
+        {
+            "@_fa": "true",
+            "$": "Instrumentation",
+            "@code": "3105",
+            "@abbrev": "PHYS"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Pathaphon",
+            "preferred-name": {
+                "ce:given-name": "Pathaphon",
+                "ce:initials": "P.",
+                "ce:surname": "Wiriwithya",
+                "ce:indexed-name": "Wiriwithya P."
+            },
+            "@seq": "1",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Wiriwithya",
+            "@auid": "58245643000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58245643000",
+            "ce:indexed-name": "Wiriwithya P."
+        },
+        {
+            "ce:given-name": "Siwach",
+            "preferred-name": {
+                "ce:given-name": "Siwach",
+                "ce:initials": "S.",
+                "ce:surname": "Rungnarongruck",
+                "ce:indexed-name": "Rungnarongruck S."
+            },
+            "@seq": "2",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Rungnarongruck",
+            "@auid": "58244674400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58244674400",
+            "ce:indexed-name": "Rungnarongruck S."
+        },
+        {
+            "ce:given-name": "Sasapol",
+            "preferred-name": {
+                "ce:given-name": "Sasapol",
+                "ce:initials": "S.",
+                "ce:surname": "Pongamphai",
+                "ce:indexed-name": "Pongamphai S."
+            },
+            "@seq": "3",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Pongamphai",
+            "@auid": "58246344300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58246344300",
+            "ce:indexed-name": "Pongamphai S."
+        },
+        {
+            "ce:given-name": "Saranyapong",
+            "preferred-name": {
+                "ce:given-name": "Saranyapong",
+                "ce:initials": "S.",
+                "ce:surname": "Puapattanakul",
+                "ce:indexed-name": "Puapattanakul S."
+            },
+            "@seq": "4",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Puapattanakul",
+            "@auid": "58245409500",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58245409500",
+            "ce:indexed-name": "Puapattanakul S."
+        },
+        {
+            "ce:given-name": "Ratchatin",
+            "preferred-name": {
+                "ce:given-name": "Ratchatin",
+                "ce:initials": "R.",
+                "ce:surname": "Chancharoen",
+                "ce:indexed-name": "Chancharoen R."
+            },
+            "@seq": "5",
+            "ce:initials": "R.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Chancharoen",
+            "@auid": "36170214000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/36170214000",
+            "ce:indexed-name": "Chancharoen R."
+        }
+    ]}
+}}

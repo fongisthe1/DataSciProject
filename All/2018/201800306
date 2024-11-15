@@ -1,0 +1,704 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "05",
+                "@timestamp": "2020-05-05T04:13:43.000043-04:00",
+                "@year": "2020",
+                "@month": "05"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2018",
+                "@month": "11"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "King Chulalongkorn Memorial Hospital",
+                    "xocs:funding-agency": "King Chulalongkorn Memorial Hospital",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100007693",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Chulalongkorn University and Faculty of Radiological Technology of Rangsit University",
+                    "xocs:funding-agency": "Faculty of Medicine, Chulalongkorn University",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004776",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-02-03T07:23:19.407470Z",
+            "xocs:funding-text": "We would like to thank King Chulalongkorn Memorial Hospital for giving data in this research and Mr. Sornjarod Oonsiri for checking the process. Finally, we would like to thank the Department of Electrical Engineering of Chulalongkorn University and Faculty of Radiological Technology of Rangsit University for supporting in resource and budget.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Department of Electrical Engineering"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "113845132"
+                            },
+                            "@dptid": "113845132"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Thanapon",
+                                "preferred-name": {
+                                    "ce:given-name": "Thanapon",
+                                    "ce:initials": "T.",
+                                    "ce:surname": "Shevaruangroj",
+                                    "ce:indexed-name": "Shevaruangroj T."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "T.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Shevaruangroj",
+                                "@auid": "57211244347",
+                                "ce:indexed-name": "Shevaruangroj T."
+                            },
+                            {
+                                "ce:given-name": "Supatana",
+                                "preferred-name": {
+                                    "ce:given-name": "Supatana",
+                                    "ce:initials": "S.",
+                                    "ce:surname": "Auethavekiat",
+                                    "ce:indexed-name": "Auethavekiat S."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Auethavekiat",
+                                "@auid": "7801623004",
+                                "ce:indexed-name": "Auethavekiat S."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60023366",
+                            "@country": "tha",
+                            "organization": [
+                                {"$": "Faculty of Radiological Technology"},
+                                {"$": "Rangsit University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60023366",
+                                "@dptid": "116191479"
+                            },
+                            "@dptid": "116191479"
+                        },
+                        "author": [{
+                            "ce:given-name": "Vera",
+                            "preferred-name": {
+                                "ce:given-name": "Vera",
+                                "ce:initials": "V.",
+                                "ce:surname": "Sa-Ing",
+                                "ce:indexed-name": "Sa-Ing V."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "V.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Sa-Ing",
+                            "@auid": "35074952000",
+                            "ce:indexed-name": "Sa-Ing V."
+                        }]
+                    }
+                ],
+                "citation-title": "Metal Artifact Reduction by Mapping MR into CT Information",
+                "abstracts": "© 2018 IEEE.One of the fundamental noise in Computed Tomography (CT) imaging is metal artifact. The artifact leads to the information loss. Magnetic Resonance (MR) imaging is not affected by this artifact. In this paper, we propose using the information from MR images to reproduces the information lost due to dental filling in CT images. First, we register the CT and MR images of the same patient. Then, we classify the skull into 3 regions: teeth, tissue near the teeth and others. For teeth and tissue near the teeth, we develop the mapping function between the intensity in the MR image to the mean intensity in the CT image. The pixels corrupted by the metal artifact are detected and their intensity are changed according to the mapping function with its MR intensity as the input. The proposed method significantly removed metal artifacts and could be used to improve the diagnosis and planning accuracy.",
+                "citation-info": {
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8821248",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "2018 IEEE Nuclear Science Symposium and Medical Imaging Conference, NSS/MIC 2018 - Proceedings",
+                        "@xml:lang": "eng"
+                    },
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781538684948",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "2018 IEEE Nuclear Science Symposium and Medical Imaging Conference, NSS/MIC 2018",
+                            "confcatnumber": "CFP18NSS-ART",
+                            "confseriestitle": "IEEE Nuclear Science Symposium and Medical Imaging Conference",
+                            "conflocation": {
+                                "@country": "aus",
+                                "city": "Sydney",
+                                "state": "NSW"
+                            },
+                            "confcode": "151864",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "17",
+                                    "@year": "2018",
+                                    "@month": "11"
+                                },
+                                "startdate": {
+                                    "@day": "10",
+                                    "@year": "2018",
+                                    "@month": "11"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "2018 IEEE Nuclear Science Symposium and Medical Imaging Conference, NSS/MIC 2018 - Proceedings",
+                    "publicationdate": {
+                        "month": "11",
+                        "year": "2018",
+                        "date-text": "November 2018",
+                        "day": "01"
+                    },
+                    "sourcetitle-abbrev": "IEEE Nucl. Sci. Symp. Med. Imaging Conf., NSS/MIC - Proc.",
+                    "@country": "usa",
+                    "issuetitle": "2018 IEEE Nuclear Science Symposium and Medical Imaging Conference, NSS/MIC 2018 - Proceedings",
+                    "publicationyear": {"@first": "2018"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "article-number": "8824519",
+                    "@srcid": "21100931449"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2741"},
+                            {"$": "3106"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "405.3",
+                                "classification-description": "Surveying"
+                            },
+                            {
+                                "classification-code": "461.2",
+                                "classification-description": "Biological Materials"
+                            },
+                            {
+                                "classification-code": "461.6",
+                                "classification-description": "Medicine"
+                            },
+                            {
+                                "classification-code": "691.2",
+                                "classification-description": "Materials Handling Methods"
+                            },
+                            {
+                                "classification-code": "701.2",
+                                "classification-description": "Magnetism, Basic Concepts and Phenomena"
+                            },
+                            {
+                                "classification-code": "723.5",
+                                "classification-description": "Computer Applications"
+                            },
+                            {
+                                "classification-code": "746",
+                                "classification-description": "Imaging Techniques"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "MEDI"},
+                            {"$": "PHYS"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "We would like to thank King Chulalongkorn Memorial Hospital for giving data in this research and Mr. Sornjarod Oonsiri for checking the process. Finally, we would like to thank the Department of Electrical Engineering of Chulalongkorn University and Faculty of Radiological Technology of Rangsit University for supporting in resource and budget.",
+                        "@xml:lang": "eng"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2020 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "03",
+                    "@timestamp": "BST 07:34:05",
+                    "@year": "2020",
+                    "@month": "05"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "629557726",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "920815393",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20194207531024",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20193985734",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85073096098",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85073096098",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/NSSMIC.2018.8824519"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "6",
+                "reference": [
+                    {
+                        "ref-fulltext": "F. Maes et al., \"Medical image registration using mutual information,\" Proc. IEEE, Vol. 91, No. 10, pp.1699-1722, Oct. 2003.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Medical image registration using mutual information"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "2442477114",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "91",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {
+                                    "@first": "1699",
+                                    "@last": "1722"
+                                }
+                            },
+                            "ref-text": "Oct",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maes",
+                                    "ce:indexed-name": "Maes F."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proc. IEEE"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J.P.W. Pluim et al., \"Mutual-information-based registration of medical images: a survey,\" IEEE Trans. Image Processing, Vol. 22, pp.986-1004, July. 2003.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Mutual-information-based registration of medical images: A survey"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0043028206",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "22"},
+                                "pagerange": {
+                                    "@first": "986",
+                                    "@last": "1004"
+                                }
+                            },
+                            "ref-text": "July",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "J.P.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pluim",
+                                    "ce:indexed-name": "Pluim J.P.W."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE Trans. Image Processing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J.B.Antoine Maintz and M.A. Viergever, \"A survey of medical image registration,\" Medical Image Analysis, Vol. 2, pp.1-36, Mar. 1998.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "A survey of medical image registration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0032008619",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2"},
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "36"
+                                }
+                            },
+                            "ref-text": "Mar",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Antoine Maintz",
+                                    "ce:indexed-name": "Antoine Maintz J.B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Viergever",
+                                    "ce:indexed-name": "Viergever M.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Medical Image Analysis"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Z. Cao et al, \"An algorithm for object function optimization in mutual information-based image registration,\" in 2008 Congress on Image and Signal Processing (CISP), Hainan, China, 2008, pp. 426-430.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "An algorithm for object function optimization in mutual information-based image registration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "52149091901",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "426",
+                                "@last": "430"
+                            }},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cao",
+                                    "ce:indexed-name": "Cao Z."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "2008 Congress on Image and Signal Processing (CISP), Hainan, China"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. Ghaffari et al, \"Landmark and intensity based image registration using free form deformation,\" in 2012 IEEE EMBS Conf. on Biomedical Engineering and Sciences (IECBES), Langkawi, Malaysia, 2012, pp. 768-771.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Landmark and intensity based image registration using free form deformation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84876768270",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "768",
+                                "@last": "771"
+                            }},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ghaffari",
+                                    "ce:indexed-name": "Ghaffari A."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "2012 IEEE EMBS Conf. on Biomedical Engineering and Sciences (IECBES), Langkawi, Malaysia"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "X. Dai and S. Khorram, \"A feature-based image registration algorithm using improved chain-code representation combined with invariant moments,\" IEEE Trans. Geoscience and Remote Sensing, Vol. 37, pp.2351-2362, Sep. 1999.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "A feature-based image registration algorithm using improved chain-code representation combined with invariant moments"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0033328988",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "37"},
+                                "pagerange": {
+                                    "@first": "2351",
+                                    "@last": "2362"
+                                }
+                            },
+                            "ref-text": "Sep",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dai",
+                                    "ce:indexed-name": "Dai X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Khorram",
+                                    "ce:indexed-name": "Khorram S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Geoscience and Remote Sensing"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Pathum Thani",
+            "@id": "60023366",
+            "affilname": "Rangsit University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60023366",
+            "affiliation-country": "Thailand"
+        }
+    ],
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85073096098",
+        "dc:description": "One of the fundamental noise in Computed Tomography (CT) imaging is metal artifact. The artifact leads to the information loss. Magnetic Resonance (MR) imaging is not affected by this artifact. In this paper, we propose using the information from MR images to reproduces the information lost due to dental filling in CT images. First, we register the CT and MR images of the same patient. Then, we classify the skull into 3 regions: teeth, tissue near the teeth and others. For teeth and tissue near the teeth, we develop the mapping function between the intensity in the MR image to the mean intensity in the CT image. The pixels corrupted by the metal artifact are detected and their intensity are changed according to the mapping function with its MR intensity as the input. The proposed method significantly removed metal artifacts and could be used to improve the diagnosis and planning accuracy.",
+        "prism:coverDate": "2018-11-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85073096098",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Thanapon",
+            "preferred-name": {
+                "ce:given-name": "Thanapon",
+                "ce:initials": "T.",
+                "ce:surname": "Shevaruangroj",
+                "ce:indexed-name": "Shevaruangroj T."
+            },
+            "@seq": "1",
+            "ce:initials": "T.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Shevaruangroj",
+            "@auid": "57211244347",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57211244347",
+            "ce:indexed-name": "Shevaruangroj T."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85073096098"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85073096098&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85073096098&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781538684948",
+        "prism:publicationName": "2018 IEEE Nuclear Science Symposium and Medical Imaging Conference, NSS/MIC 2018 - Proceedings",
+        "source-id": "21100931449",
+        "citedby-count": "0",
+        "subtype": "cp",
+        "dc:title": "Metal Artifact Reduction by Mapping MR into CT Information",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/NSSMIC.2018.8824519",
+        "publishercopyright": "© 2018 IEEE.",
+        "article-number": "8824519",
+        "dc:identifier": "SCOPUS_ID:85073096098",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Ct and mr images",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Fundamental noise",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Information loss",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Information lost",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Mapping functions",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Mean intensity",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Metal artifact reduction",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Metal artifacts",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": null,
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Radiology, Nuclear Medicine and Imaging",
+            "@code": "2741",
+            "@abbrev": "MEDI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Nuclear and High Energy Physics",
+            "@code": "3106",
+            "@abbrev": "PHYS"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Thanapon",
+            "preferred-name": {
+                "ce:given-name": "Thanapon",
+                "ce:initials": "T.",
+                "ce:surname": "Shevaruangroj",
+                "ce:indexed-name": "Shevaruangroj T."
+            },
+            "@seq": "1",
+            "ce:initials": "T.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Shevaruangroj",
+            "@auid": "57211244347",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57211244347",
+            "ce:indexed-name": "Shevaruangroj T."
+        },
+        {
+            "ce:given-name": "Supatana",
+            "preferred-name": {
+                "ce:given-name": "Supatana",
+                "ce:initials": "S.",
+                "ce:surname": "Auethavekiat",
+                "ce:indexed-name": "Auethavekiat S."
+            },
+            "@seq": "2",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Auethavekiat",
+            "@auid": "7801623004",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7801623004",
+            "ce:indexed-name": "Auethavekiat S."
+        },
+        {
+            "ce:given-name": "Vera",
+            "preferred-name": {
+                "ce:given-name": "Vera",
+                "ce:initials": "V.",
+                "ce:surname": "Sa-Ing",
+                "ce:indexed-name": "Sa-Ing V."
+            },
+            "@seq": "3",
+            "ce:initials": "V.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60023366",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60023366"
+            },
+            "ce:surname": "Sa-Ing",
+            "@auid": "35074952000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/35074952000",
+            "ce:indexed-name": "Sa-Ing V."
+        }
+    ]}
+}}

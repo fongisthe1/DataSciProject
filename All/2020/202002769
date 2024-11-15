@@ -1,0 +1,2314 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "02",
+                "@timestamp": "2020-10-02T21:03:51.000051-04:00",
+                "@year": "2020",
+                "@month": "10"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2020",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": {
+                "xocs:funding-agency-matched-string": "Chulalongkorn Academic Advancement",
+                "xocs:funding-id": "RGN_2559_025_06_21"
+            },
+            "xocs:funding-addon-generated-timestamp": "2021-05-11T15:43:04.413471Z",
+            "xocs:funding-text": "The author(s) disclosed receipt of the following financial support for the research, authorship, and/or publication of this article: This work has been partially supported by the Chulalongkorn Academic Advancement into its 2nd Century (CUAASC) Project and by the Ratchadaphiseksomphot Endowment Fund Part of the \u201cResearch Grant for New Scholar CU Researcher\u2019s Project\u201d (RGN_2559_025_06_21).",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Software Engineering Program"},
+                                {"$": "Department of Computer Engineering"},
+                                {"$": "Faculty of Engineering"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "113891981"
+                            },
+                            "@affiliation-instance-id": "2006793773-663df84c1514b8bb186c9227e97b7492",
+                            "ce:source-text": "Software Engineering Program, Department of Computer Engineering, Faculty of Engineering, Chulalongkorn University, Bangkok, Thailand",
+                            "@dptid": "113891981"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Saowwapark",
+                                "preferred-name": {
+                                    "ce:given-name": "Saowwapark",
+                                    "ce:initials": "S.",
+                                    "ce:surname": "Chanwigoon",
+                                    "ce:indexed-name": "Chanwigoon S."
+                                },
+                                "@author-instance-id": "2006793773-1d374b90dfb3c729f0f7a0acfafcca82",
+                                "@seq": "1",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Chanwigoon",
+                                "@auid": "57219146756",
+                                "@orcid": "0000-0002-0608-5434",
+                                "ce:indexed-name": "Chanwigoon S."
+                            },
+                            {
+                                "ce:given-name": "Sakkayaphab",
+                                "preferred-name": {
+                                    "ce:given-name": "Sakkayaphab",
+                                    "ce:initials": "S.",
+                                    "ce:surname": "Piwluang",
+                                    "ce:indexed-name": "Piwluang S."
+                                },
+                                "@author-instance-id": "2006793773-8e5d95e29b5051b3b5e4ab4079218183",
+                                "@seq": "2",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Piwluang",
+                                "@auid": "57216250331",
+                                "ce:indexed-name": "Piwluang S."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Department of Computer Engineering"},
+                                {"$": "Faculty of Engineering"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "113891981"
+                            },
+                            "@affiliation-instance-id": "2006793773-579236d6e683630e7d6087d035252542",
+                            "ce:source-text": "Department of Computer Engineering, Faculty of Engineering, Chulalongkorn University, Bangkok, Thailand",
+                            "@dptid": "113891981"
+                        },
+                        "author": [{
+                            "ce:given-name": "Duangdao",
+                            "preferred-name": {
+                                "ce:given-name": "Duangdao",
+                                "ce:initials": "D.",
+                                "ce:surname": "Wichadakul",
+                                "ce:indexed-name": "Wichadakul D."
+                            },
+                            "@author-instance-id": "2006793773-f7daa7228aa1fc018ddf6dbd2f8f2738",
+                            "@seq": "3",
+                            "ce:initials": "D.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Wichadakul",
+                            "@auid": "6603187694",
+                            "ce:indexed-name": "Wichadakul D."
+                        }]
+                    }
+                ],
+                "citation-title": "inCNV: An Integrated Analysis Tool for Copy Number Variation on Whole Exome Sequencing",
+                "abstracts": "© The Author(s) 2020.The detection of copy number variations (CNVs) on whole-exome sequencing (WES) represents a cost-effective technique for the study of genetic variants. This approach, however, has encountered an obstacle with high false-positive rates due to biases from exome sequencing capture kits and GC contents. Although plenty of CNV detection tools have been developed, they do not perform well with all types of CNVs. In addition, most tools lack features of genetic annotation, CNV visualization, and flexible installation, requiring users to put much effort into CNV interpretation. Here, we present \u201cinCNV,\u201d a web-based application that can accept multiple CNV-tool results, then integrate and prioritize them with user-friendly interfaces. This application helps users analyze the importance of called CNVs by generating CNV annotations from Ensembl, Database of Genomic Variants (DGV), ClinVar, and Online Mendelian Inheritance in Man (OMIM). Moreover, users can select and export CNVs of interest including their flanking sequences for primer design and experimental verification. We demonstrated how inCNV could help users filter and narrow down the called CNVs to a potentially novel CNV, a common CNV within a group of samples of the same disease, or a de novo CNV of a sample within the same family. Besides, we have provided in CNV as a docker image for ease of installation (https://github.com/saowwapark/inCNV).",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Department of Computer Engineering"},
+                            {"$": "Faculty of Engineering"},
+                            {"$": "Chulalongkorn University"}
+                        ],
+                        "ce:source-text": "Department of Computer Engineering, Faculty of Engineering, Chulalongkorn University, Bangkok, Thailand"
+                    },
+                    "person": {
+                        "ce:given-name": "Duangdao",
+                        "ce:initials": "D.",
+                        "ce:surname": "Wichadakul",
+                        "ce:indexed-name": "Wichadakul D."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "CNV",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Copy number variation",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "visualization",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "whole-exome sequencing",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "re"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "Evol. Bioinformatics",
+                    "website": {"ce:e-address": {
+                        "$": "https://journals.sagepub.com/home/evb",
+                        "@type": "email"
+                    }},
+                    "@country": "gbr",
+                    "translated-sourcetitle": {
+                        "$": "Evolutionary Bioinformatics",
+                        "@xml:lang": "eng"
+                    },
+                    "issn": {
+                        "$": "11769343",
+                        "@type": "electronic"
+                    },
+                    "volisspag": {"voliss": {"@volume": "16"}},
+                    "@type": "j",
+                    "publicationyear": {"@first": "2020"},
+                    "publisher": {
+                        "publishername": "SAGE Publications Ltd",
+                        "ce:e-address": {
+                            "$": "info@sagepub.co.uk",
+                            "@type": "email"
+                        }
+                    },
+                    "sourcetitle": "Evolutionary Bioinformatics",
+                    "@srcid": "11200153571",
+                    "publicationdate": {
+                        "year": "2020",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2020"
+                        }
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "EMCLASS",
+                        "classification": {
+                            "classification-code": "22",
+                            "classification-description": "Human Genetics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1105"},
+                            {"$": "1311"},
+                            {"$": "1706"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "AGRI"},
+                            {"$": "BIOC"},
+                            {"$": "COMP"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "The authors would like to thank Natsuda Navamajiti for inspiring the key concept of this study on integrating CNV results by focusing on ease of understanding, rather than merely providing genetic information that is hard to interpret. The author(s) disclosed receipt of the following financial support for the research, authorship, and/or publication of this article: This work has been partially supported by the Chulalongkorn Academic Advancement into its 2nd Century (CUAASC) Project and by the Ratchadaphiseksomphot Endowment Fund Part of the \u201cResearch Grant for New Scholar CU Researcher\u2019s Project\u201d (RGN_2559_025_06_21).",
+                        "@xml:lang": "eng"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2020 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "EMBASE"},
+                    {"$": "EMBIO"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "RMC"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "02",
+                    "@timestamp": "BST 14:03:55",
+                    "@year": "2020",
+                    "@month": "10"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2006793773",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "928591091",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20200832760",
+                            "@idtype": "EMBASE"
+                        },
+                        {
+                            "$": "2018978542",
+                            "@idtype": "EMBIO"
+                        },
+                        {
+                            "$": "20202273128",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "2020370292",
+                            "@idtype": "RMC"
+                        },
+                        {
+                            "$": "20203419480",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "20200016379834",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85091418413",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85091418413",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1177/1176934320956577"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "35",
+                "reference": [
+                    {
+                        "ref-fulltext": "Majewski J, Schwartzentruber J, Lalonde E, Montpetit A, Jabado N., What can exome sequencing do for you? J Med Genet. 2011;48:580.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "What can exome sequencing do for you?"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr1-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "80052595393",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "48"},
+                                "pagerange": {"@first": "580"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Majewski",
+                                    "ce:indexed-name": "Majewski J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schwartzentruber",
+                                    "ce:indexed-name": "Schwartzentruber J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lalonde",
+                                    "ce:indexed-name": "Lalonde E."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Montpetit",
+                                    "ce:indexed-name": "Montpetit A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jabado",
+                                    "ce:indexed-name": "Jabado N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J Med Genet"
+                        },
+                        "ce:source-text": "Majewski J, Schwartzentruber J, Lalonde E, Montpetit A, Jabado N., What can exome sequencing do for you? J Med Genet. 2011;48:580."
+                    },
+                    {
+                        "ref-fulltext": "National Human Genome Research Institute. The cost of sequencing a human genome. https://www.genome.gov/27565109/the-cost-of-sequencing-a-human-genome/. Accessed March 20, 2020.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.genome.gov/27565109/the-cost-of-sequencing-a-human-genome/",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr2-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84991438422",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Accessed March 20, 2020",
+                            "ref-authors": {"collaboration": {
+                                "@seq": "1",
+                                "ce:text": "National Human Genome Research Institute",
+                                "ce:indexed-name": "National Human Genome Research Institute"
+                            }},
+                            "ref-sourcetitle": "The cost of sequencing a human genome"
+                        },
+                        "ce:source-text": "National Human Genome Research Institute. The cost of sequencing a human genome. https://www.genome.gov/27565109/the-cost-of-sequencing-a-human-genome/. Accessed March 20, 2020."
+                    },
+                    {
+                        "ref-fulltext": "Pfundt R, Del Rosario M, Vissers L, et al. Detection of clinically relevant copy-number variants by exome sequencing in a large cohort of genetic disorders. Genet Med. 2017;19:667-675.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Detection of clinically relevant copy-number variants by exome sequencing in a large cohort of genetic disorders"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr3-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85012063507",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "19"},
+                                "pagerange": {
+                                    "@first": "667",
+                                    "@last": "675"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "R.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Pfundt",
+                                        "ce:indexed-name": "Pfundt R."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "M.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Del Rosario",
+                                        "ce:indexed-name": "Del Rosario M."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "L.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Vissers",
+                                        "ce:indexed-name": "Vissers L."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Genet Med"
+                        },
+                        "ce:source-text": "Pfundt R, Del Rosario M, Vissers L, et al. Detection of clinically relevant copy-number variants by exome sequencing in a large cohort of genetic disorders. Genet Med. 2017;19:667-675."
+                    },
+                    {
+                        "ref-fulltext": "Bacchelli E, Cameli C, Viggiano M, et al. An integrated analysis of rare CNV and exome variation in Autism Spectrum Disorder using the Infinium PsychArray. Sci Rep. 2020;10:3198.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "An integrated analysis of rare CNV and exome variation in Autism Spectrum Disorder using the Infinium PsychArray"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr4-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85079773322",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "10"},
+                                "pagerange": {"@first": "3198"}
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "E.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Bacchelli",
+                                        "ce:indexed-name": "Bacchelli E."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "C.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Cameli",
+                                        "ce:indexed-name": "Cameli C."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "M.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Viggiano",
+                                        "ce:indexed-name": "Viggiano M."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Sci Rep"
+                        },
+                        "ce:source-text": "Bacchelli E, Cameli C, Viggiano M, et al. An integrated analysis of rare CNV and exome variation in Autism Spectrum Disorder using the Infinium PsychArray. Sci Rep. 2020;10:3198."
+                    },
+                    {
+                        "ref-fulltext": "Szatkiewicz JP, Neale BM, O\u2019Dushlaine C, et al. Detecting large copy number variants using exome genotyping arrays in a large Swedish schizophrenia sample. Mol Psychiatry. 2013;18(11):1178-1184.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Detecting large copy number variants using exome genotyping arrays in a large Swedish schizophrenia sample"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr5-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84888291345",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "18",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "1178",
+                                    "@last": "1184"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "J.P.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Szatkiewicz",
+                                        "ce:indexed-name": "Szatkiewicz J.P."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "B.M.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Neale",
+                                        "ce:indexed-name": "Neale B.M."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "C.",
+                                        "@_fa": "true",
+                                        "ce:surname": "O\u2019Dushlaine",
+                                        "ce:indexed-name": "O'Dushlaine C."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Mol Psychiatry"
+                        },
+                        "ce:source-text": "Szatkiewicz JP, Neale BM, O\u2019Dushlaine C, et al. Detecting large copy number variants using exome genotyping arrays in a large Swedish schizophrenia sample. Mol Psychiatry. 2013;18(11):1178-1184."
+                    },
+                    {
+                        "ref-fulltext": "Dajani R, Li J, Wei Z, et al. CNV analysis associates AKNAD1 with type-2 diabetes in Jordan Subpopulations. Sci Rep. 2015;5:13391.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "CNV analysis associates AKNAD1 with type-2 diabetes in Jordan Subpopulations"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr6-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84939824615",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "5"},
+                                "pagerange": {"@first": "13391"}
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "R.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Dajani",
+                                        "ce:indexed-name": "Dajani R."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "J.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Li",
+                                        "ce:indexed-name": "Li J."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "Z.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Wei",
+                                        "ce:indexed-name": "Wei Z."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Sci Rep"
+                        },
+                        "ce:source-text": "Dajani R, Li J, Wei Z, et al. CNV analysis associates AKNAD1 with type-2 diabetes in Jordan Subpopulations. Sci Rep. 2015;5:13391."
+                    },
+                    {
+                        "ref-fulltext": "Glessner JT, Bick AG, Ito K, et al. Increased frequency of de novo copy number variants in congenital heart disease by integrative analysis of single nucleotide polymorphism array and exome sequence data. Circ Res. 2014;115(10):884-896.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Increased frequency of de novo copy number variants in congenital heart disease by integrative analysis of single nucleotide polymorphism array and exome sequence data"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr7-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84927786478",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "115",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {
+                                    "@first": "884",
+                                    "@last": "896"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "J.T.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Glessner",
+                                        "ce:indexed-name": "Glessner J.T."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "A.G.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Bick",
+                                        "ce:indexed-name": "Bick A.G."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "K.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Ito",
+                                        "ce:indexed-name": "Ito K."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Circ Res"
+                        },
+                        "ce:source-text": "Glessner JT, Bick AG, Ito K, et al. Increased frequency of de novo copy number variants in congenital heart disease by integrative analysis of single nucleotide polymorphism array and exome sequence data. Circ Res. 2014;115(10):884-896."
+                    },
+                    {
+                        "ref-fulltext": "Park G, Gim J, Kim AR, et al. Multiphasic analysis of whole exome sequencing data identifies a novel mutation of ACTG1 in a nonsyndromic hearing loss family. BMC Genomics. 2013;14:191.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Multiphasic analysis of whole exome sequencing data identifies a novel mutation of ACTG1 in a nonsyndromic hearing loss family"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr8-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84875077933",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "14"},
+                                "pagerange": {"@first": "191"}
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "G.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Park",
+                                        "ce:indexed-name": "Park G."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "J.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Gim",
+                                        "ce:indexed-name": "Gim J."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "A.R.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Kim",
+                                        "ce:indexed-name": "Kim A.R."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "BMC Genomics"
+                        },
+                        "ce:source-text": "Park G, Gim J, Kim AR, et al. Multiphasic analysis of whole exome sequencing data identifies a novel mutation of ACTG1 in a nonsyndromic hearing loss family. BMC Genomics. 2013;14:191."
+                    },
+                    {
+                        "ref-fulltext": "Shearer AE, Kolbe DL, Azaiez H, et al. Copy number variants are a common cause of non-syndromic hearing loss. Genome Med. 2014;6:37.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Copy number variants are a common cause of non-syndromic hearing loss"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr9-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84903127571",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "6"},
+                                "pagerange": {"@first": "37"}
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "A.E.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Shearer",
+                                        "ce:indexed-name": "Shearer A.E."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "D.L.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Kolbe",
+                                        "ce:indexed-name": "Kolbe D.L."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "H.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Azaiez",
+                                        "ce:indexed-name": "Azaiez H."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Genome Med"
+                        },
+                        "ce:source-text": "Shearer AE, Kolbe DL, Azaiez H, et al. Copy number variants are a common cause of non-syndromic hearing loss. Genome Med. 2014;6:37."
+                    },
+                    {
+                        "ref-fulltext": "Zampaglione E, Kinde B, Place EM, et al. Copy-number variation contributes 9% of pathogenicity in the inherited retinal degenerations. Genet Med. 2020;22:1079-1087.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Copy-number variation contributes 9% of pathogenicity in the inherited retinal degenerations"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr10-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85079185201",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "22"},
+                                "pagerange": {
+                                    "@first": "1079",
+                                    "@last": "1087"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "E.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Zampaglione",
+                                        "ce:indexed-name": "Zampaglione E."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "B.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Kinde",
+                                        "ce:indexed-name": "Kinde B."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "E.M.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Place",
+                                        "ce:indexed-name": "Place E.M."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Genet Med"
+                        },
+                        "ce:source-text": "Zampaglione E, Kinde B, Place EM, et al. Copy-number variation contributes 9% of pathogenicity in the inherited retinal degenerations. Genet Med. 2020;22:1079-1087."
+                    },
+                    {
+                        "ref-fulltext": "Zare F, Dow M, Monteleone N, Hosny A, Nabavi S., An evaluation of copy number variation detection tools for cancer using whole exome sequencing data. BMC Bioinformatics. 2017;18:286.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "An evaluation of copy number variation detection tools for cancer using whole exome sequencing data"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr11-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85020011981",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "18"},
+                                "pagerange": {"@first": "286"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zare",
+                                    "ce:indexed-name": "Zare F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dow",
+                                    "ce:indexed-name": "Dow M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Monteleone",
+                                    "ce:indexed-name": "Monteleone N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hosny",
+                                    "ce:indexed-name": "Hosny A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nabavi",
+                                    "ce:indexed-name": "Nabavi S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "BMC Bioinformatics"
+                        },
+                        "ce:source-text": "Zare F, Dow M, Monteleone N, Hosny A, Nabavi S., An evaluation of copy number variation detection tools for cancer using whole exome sequencing data. BMC Bioinformatics. 2017;18:286."
+                    },
+                    {
+                        "ref-fulltext": "Hong CS, Singh LN, Mullikin JC, Biesecker LG., Assessing the reproducibility of exome copy number variations predictions. Genome Med. 2016;8:82.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Assessing the reproducibility of exome copy number variations predictions"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr12-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84981207037",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "8"},
+                                "pagerange": {"@first": "82"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hong",
+                                    "ce:indexed-name": "Hong C.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Singh",
+                                    "ce:indexed-name": "Singh L.N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mullikin",
+                                    "ce:indexed-name": "Mullikin J.C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Biesecker",
+                                    "ce:indexed-name": "Biesecker L.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Genome Med"
+                        },
+                        "ce:source-text": "Hong CS, Singh LN, Mullikin JC, Biesecker LG., Assessing the reproducibility of exome copy number variations predictions. Genome Med. 2016;8:82."
+                    },
+                    {
+                        "ref-fulltext": "Yao R, Zhang C, Yu T, et al. Evaluation of three read-depth based CNV detection tools using whole-exome sequencing data. Mol Cytogenet. 2017;10:30.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Evaluation of three read-depth based CNV detection tools using whole-exome sequencing data"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr13-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85028356387",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "10"},
+                                "pagerange": {"@first": "30"}
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "R.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Yao",
+                                        "ce:indexed-name": "Yao R."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "C.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Zhang",
+                                        "ce:indexed-name": "Zhang C."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "T.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Yu",
+                                        "ce:indexed-name": "Yu T."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Mol Cytogenet"
+                        },
+                        "ce:source-text": "Yao R, Zhang C, Yu T, et al. Evaluation of three read-depth based CNV detection tools using whole-exome sequencing data. Mol Cytogenet. 2017;10:30."
+                    },
+                    {
+                        "ref-fulltext": "Li J, Lupat R, Amarasinghe KC, et al. CONTRA: copy number analysis for targeted resequencing. Bioinformatics. 2012;28(10):1307-1313.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "CONTRA: copy number analysis for targeted resequencing"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr14-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84861135980",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "28",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {
+                                    "@first": "1307",
+                                    "@last": "1313"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "J.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Li",
+                                        "ce:indexed-name": "Li J."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "R.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Lupat",
+                                        "ce:indexed-name": "Lupat R."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "K.C.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Amarasinghe",
+                                        "ce:indexed-name": "Amarasinghe K.C."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Bioinformatics"
+                        },
+                        "ce:source-text": "Li J, Lupat R, Amarasinghe KC, et al. CONTRA: copy number analysis for targeted resequencing. Bioinformatics. 2012;28(10):1307-1313."
+                    },
+                    {
+                        "ref-fulltext": "Abyzov A, Urban AE, Snyder M, Gerstein M., CNVnator: an approach to discover, genotype, and characterize typical and atypical CNVs from family and population genome sequencing. Genome Res. 2011;21:974-984.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "CNVnator: an approach to discover, genotype, and characterize typical and atypical CNVs from family and population genome sequencing"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr15-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "79951970227",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "21"},
+                                "pagerange": {
+                                    "@first": "974",
+                                    "@last": "984"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abyzov",
+                                    "ce:indexed-name": "Abyzov A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Urban",
+                                    "ce:indexed-name": "Urban A.E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Snyder",
+                                    "ce:indexed-name": "Snyder M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gerstein",
+                                    "ce:indexed-name": "Gerstein M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Genome Res"
+                        },
+                        "ce:source-text": "Abyzov A, Urban AE, Snyder M, Gerstein M., CNVnator: an approach to discover, genotype, and characterize typical and atypical CNVs from family and population genome sequencing. Genome Res. 2011;21:974-984."
+                    },
+                    {
+                        "ref-fulltext": "Zhang L, Bai W, Yuan N, Du Z., Comprehensively benchmarking applications for detecting copy number variation. PLoS Comput Biol. 2019;15:e1007069.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Comprehensively benchmarking applications for detecting copy number variation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr16-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85067587679",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "15"},
+                                "pagerange": {"@first": "e1007069"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bai",
+                                    "ce:indexed-name": "Bai W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yuan",
+                                    "ce:indexed-name": "Yuan N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Du",
+                                    "ce:indexed-name": "Du Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "PLoS Comput Biol"
+                        },
+                        "ce:source-text": "Zhang L, Bai W, Yuan N, Du Z., Comprehensively benchmarking applications for detecting copy number variation. PLoS Comput Biol. 2019;15:e1007069."
+                    },
+                    {
+                        "ref-fulltext": "Jiang Y, Oldridge DA, Diskin SJ, Zhang NR., CODEX: a normalization and copy number variation detection method for whole exome sequencing. Nucleic Acids Res. 2015;43:e39.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "CODEX: a normalization and copy number variation detection method for whole exome sequencing"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr17-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84942234652",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "43"},
+                                "pagerange": {"@first": "e39"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oldridge",
+                                    "ce:indexed-name": "Oldridge D.A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Diskin",
+                                    "ce:indexed-name": "Diskin S.J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "N.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang N.R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Nucleic Acids Res"
+                        },
+                        "ce:source-text": "Jiang Y, Oldridge DA, Diskin SJ, Zhang NR., CODEX: a normalization and copy number variation detection method for whole exome sequencing. Nucleic Acids Res. 2015;43:e39."
+                    },
+                    {
+                        "ref-fulltext": "Skidmore ZL, Wagner AH, Lesurf R, et al. GenVisR: Genomic Visualizations in R. Bioinformatics. 2016;32(19):3012-3014.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "GenVisR: Genomic Visualizations in R"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr18-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84989807021",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "32",
+                                    "@issue": "19"
+                                },
+                                "pagerange": {
+                                    "@first": "3012",
+                                    "@last": "3014"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "Z.L.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Skidmore",
+                                        "ce:indexed-name": "Skidmore Z.L."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "A.H.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Wagner",
+                                        "ce:indexed-name": "Wagner A.H."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "R.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Lesurf",
+                                        "ce:indexed-name": "Lesurf R."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Bioinformatics"
+                        },
+                        "ce:source-text": "Skidmore ZL, Wagner AH, Lesurf R, et al. GenVisR: Genomic Visualizations in R. Bioinformatics. 2016;32(19):3012-3014."
+                    },
+                    {
+                        "ref-fulltext": "Collins RL, Stone MR, Brand H, Glessner JT, Talkowski ME., CNView: a visualization and annotation tool for copy number variation from whole-genome sequencing. bioRxiv. 2016.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "CNView: a visualization and annotation tool for copy number variation from whole-genome sequencing"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr19-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85014508858",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Collins",
+                                    "ce:indexed-name": "Collins R.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stone",
+                                    "ce:indexed-name": "Stone M.R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brand",
+                                    "ce:indexed-name": "Brand H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Glessner",
+                                    "ce:indexed-name": "Glessner J.T."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Talkowski",
+                                    "ce:indexed-name": "Talkowski M.E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "bioRxiv"
+                        },
+                        "ce:source-text": "Collins RL, Stone MR, Brand H, Glessner JT, Talkowski ME., CNView: a visualization and annotation tool for copy number variation from whole-genome sequencing. bioRxiv. 2016."
+                    },
+                    {
+                        "ref-fulltext": "Dharanipragada P, Vogeti S, Parekh N., iCopyDAV: integrated platform for copy number variations-Detection, annotation and visualization. PLoS One. 2018;13:e0195334.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "iCopyDAV: integrated platform for copy number variations-Detection, annotation and visualization"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr20-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85045070383",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "13"},
+                                "pagerange": {"@first": "e0195334"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dharanipragada",
+                                    "ce:indexed-name": "Dharanipragada P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vogeti",
+                                    "ce:indexed-name": "Vogeti S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Parekh",
+                                    "ce:indexed-name": "Parekh N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "PLoS One"
+                        },
+                        "ce:source-text": "Dharanipragada P, Vogeti S, Parekh N., iCopyDAV: integrated platform for copy number variations-Detection, annotation and visualization. PLoS One. 2018;13:e0195334."
+                    },
+                    {
+                        "ref-fulltext": "Zhang Y, Yu Z, Ban R, et al. DeAnnCNV: a tool for online detection and annotation of copy number variations from whole-exome sequencing data. Nucleic Acids Res. 2015;43(W1):W289\u2013W294.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "DeAnnCNV: a tool for online detection and annotation of copy number variations from whole-exome sequencing data"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr21-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84979865467",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "43",
+                                    "@issue": "W1"
+                                },
+                                "pagerange": {
+                                    "@first": "W289",
+                                    "@last": "W294"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "Y.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Zhang",
+                                        "ce:indexed-name": "Zhang Y."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "Z.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Yu",
+                                        "ce:indexed-name": "Yu Z."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "R.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Ban",
+                                        "ce:indexed-name": "Ban R."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Nucleic Acids Res"
+                        },
+                        "ce:source-text": "Zhang Y, Yu Z, Ban R, et al. DeAnnCNV: a tool for online detection and annotation of copy number variations from whole-exome sequencing data. Nucleic Acids Res. 2015;43(W1):W289\u2013W294."
+                    },
+                    {
+                        "ref-fulltext": "Garvin T, Aboukhalil R, Kendall J, et al. Interactive analysis and assessment of single-cell copy-number variations. Nat Methods. 2015;12(11):1058-1060.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Interactive analysis and assessment of single-cell copy-number variations"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr22-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84946488247",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "12",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "1058",
+                                    "@last": "1060"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "T.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Garvin",
+                                        "ce:indexed-name": "Garvin T."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "R.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Aboukhalil",
+                                        "ce:indexed-name": "Aboukhalil R."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "J.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Kendall",
+                                        "ce:indexed-name": "Kendall J."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Nat Methods"
+                        },
+                        "ce:source-text": "Garvin T, Aboukhalil R, Kendall J, et al. Interactive analysis and assessment of single-cell copy-number variations. Nat Methods. 2015;12(11):1058-1060."
+                    },
+                    {
+                        "ref-fulltext": "MacDonald JR, Ziman R, Yuen RKC, Feuk L, Scherer SW., The database of genomic variants: a curated collection of structural variation in the human genome. Nucleic Acids Research. 2014;42(D1):D986-D992.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "The database of genomic variants: a curated collection of structural variation in the human genome"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr23-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84891783452",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "42",
+                                    "@issue": "D1"
+                                },
+                                "pagerange": {
+                                    "@first": "D986",
+                                    "@last": "D992"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "MacDonald",
+                                    "ce:indexed-name": "MacDonald J.R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ziman",
+                                    "ce:indexed-name": "Ziman R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.K.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yuen",
+                                    "ce:indexed-name": "Yuen R.K.C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Feuk",
+                                    "ce:indexed-name": "Feuk L."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Scherer",
+                                    "ce:indexed-name": "Scherer S.W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Nucleic Acids Research"
+                        },
+                        "ce:source-text": "MacDonald JR, Ziman R, Yuen RKC, Feuk L, Scherer SW., The database of genomic variants: a curated collection of structural variation in the human genome. Nucleic Acids Research. 2014;42(D1):D986-D992."
+                    },
+                    {
+                        "ref-fulltext": "Landrum MJ, Lee JM, Riley GR, et al. ClinVar: public archive of relationships among sequence variation and human phenotype. Nucleic Acids Research. 2014;42(D1):D980-D985.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "ClinVar: public archive of relationships among sequence variation and human phenotype"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr24-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84891809093",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "42",
+                                    "@issue": "D1"
+                                },
+                                "pagerange": {
+                                    "@first": "D980",
+                                    "@last": "D985"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "M.J.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Landrum",
+                                        "ce:indexed-name": "Landrum M.J."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "J.M.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Lee",
+                                        "ce:indexed-name": "Lee J.M."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "G.R.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Riley",
+                                        "ce:indexed-name": "Riley G.R."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Nucleic Acids Research"
+                        },
+                        "ce:source-text": "Landrum MJ, Lee JM, Riley GR, et al. ClinVar: public archive of relationships among sequence variation and human phenotype. Nucleic Acids Research. 2014;42(D1):D980-D985."
+                    },
+                    {
+                        "ref-fulltext": "Amberger JS, Bocchini CA, Schiettecatte F, Scott AF, Hamosh A., OMIM.org: Online Mendelian Inheritance in Man (OMIM(R)), an online catalog of human genes and genetic disorders. Nucleic Acids Res. 2015;43(Database issue):D789-D798.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "OMIM.org: Online Mendelian Inheritance in Man (OMIM(R)), an online catalog of human genes and genetic disorders"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr25-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84946081339",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "43"},
+                                "pagerange": {
+                                    "@first": "D789",
+                                    "@last": "D798"
+                                }
+                            },
+                            "ref-text": "(Database issue",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Amberger",
+                                    "ce:indexed-name": "Amberger J.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bocchini",
+                                    "ce:indexed-name": "Bocchini C.A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schiettecatte",
+                                    "ce:indexed-name": "Schiettecatte F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Scott",
+                                    "ce:indexed-name": "Scott A.F."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hamosh",
+                                    "ce:indexed-name": "Hamosh A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Nucleic Acids Res"
+                        },
+                        "ce:source-text": "Amberger JS, Bocchini CA, Schiettecatte F, Scott AF, Hamosh A., OMIM.org: Online Mendelian Inheritance in Man (OMIM(R)), an online catalog of human genes and genetic disorders. Nucleic Acids Res. 2015;43(Database issue):D789-D798."
+                    },
+                    {
+                        "ref-fulltext": "Cancer Genome Atlas N. Comprehensive molecular portraits of human breast tumours. Nature. 2012;490(7418):61-70.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Comprehensive molecular portraits of human breast tumours"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr26-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84877028141",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "490",
+                                    "@issue": "7418"
+                                },
+                                "pagerange": {
+                                    "@first": "61",
+                                    "@last": "70"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "N.",
+                                "@_fa": "true",
+                                "ce:surname": "Cancer Genome Atlas",
+                                "ce:indexed-name": "Cancer Genome Atlas N."
+                            }]},
+                            "ref-sourcetitle": "Nature"
+                        },
+                        "ce:source-text": "Cancer Genome Atlas N. Comprehensive molecular portraits of human breast tumours. Nature. 2012;490(7418):61-70."
+                    },
+                    {
+                        "ref-fulltext": "Kent WJ, Sugnet CW, Furey TS, et al. The human genome browser at UCSC. Genome Research. 2002;12:996-1006.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "The human genome browser at UCSC"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr27-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0036079158",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "12"},
+                                "pagerange": {
+                                    "@first": "996",
+                                    "@last": "1006"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "W.J.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Kent",
+                                        "ce:indexed-name": "Kent W.J."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "C.W.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Sugnet",
+                                        "ce:indexed-name": "Sugnet C.W."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "T.S.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Furey",
+                                        "ce:indexed-name": "Furey T.S."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Genome Research"
+                        },
+                        "ce:source-text": "Kent WJ, Sugnet CW, Furey TS, et al. The human genome browser at UCSC. Genome Research. 2002;12:996-1006."
+                    },
+                    {
+                        "ref-fulltext": "HUGO Gene Nomenclature Committee at the European Bioinformatics Institute (HGNC). https://www.genenames.org. Accessed January 25, 2020.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.genenames.org",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr28-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85091448292",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Accessed January 25, 2020",
+                            "ref-authors": {"collaboration": {
+                                "@seq": "1",
+                                "ce:text": "HUGO Gene Nomenclature Committee at the European Bioinformatics Institute (HGNC)",
+                                "ce:indexed-name": "HUGO Gene Nomenclature Committee at the European Bioinformatics Institute (HGNC)"
+                            }}
+                        },
+                        "ce:source-text": "HUGO Gene Nomenclature Committee at the European Bioinformatics Institute (HGNC). https://www.genenames.org. Accessed January 25, 2020."
+                    },
+                    {
+                        "ref-fulltext": "Buels R, Yao E, Diesh CM, et al. JBrowse: a dynamic web platform for genome visualization and analysis. Genome Biol. 2016;17:66.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "JBrowse: a dynamic web platform for genome visualization and analysis"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr29-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84963620866",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "17"},
+                                "pagerange": {"@first": "66"}
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "R.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Buels",
+                                        "ce:indexed-name": "Buels R."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "E.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Yao",
+                                        "ce:indexed-name": "Yao E."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "C.M.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Diesh",
+                                        "ce:indexed-name": "Diesh C.M."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Genome Biol"
+                        },
+                        "ce:source-text": "Buels R, Yao E, Diesh CM, et al. JBrowse: a dynamic web platform for genome visualization and analysis. Genome Biol. 2016;17:66."
+                    },
+                    {
+                        "ref-fulltext": "Amarasinghe KC, Li J, Hunter SM, et al. Inferring copy number and genotype in tumour exome data. BMC Genomics. 2014;15:732.",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Inferring copy number and genotype in tumour exome data"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr30-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84908059304",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "15"},
+                                "pagerange": {"@first": "732"}
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "K.C.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Amarasinghe",
+                                        "ce:indexed-name": "Amarasinghe K.C."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "J.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Li",
+                                        "ce:indexed-name": "Li J."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "S.M.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Hunter",
+                                        "ce:indexed-name": "Hunter S.M."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "BMC Genomics"
+                        },
+                        "ce:source-text": "Amarasinghe KC, Li J, Hunter SM, et al. Inferring copy number and genotype in tumour exome data. BMC Genomics. 2014;15:732."
+                    },
+                    {
+                        "ref-fulltext": "Klambauer G, Schwarzbauer K, Mayr A, et al. cn.MOPS: mixture of poissons for discovering copy number variations in next-generation sequencing data with a low false discovery rate. Nucleic Acids Res. 2012;40:e69.",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "cn.MOPS: mixture of poissons for discovering copy number variations in next-generation sequencing data with a low false discovery rate"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr31-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84861400043",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "40"},
+                                "pagerange": {"@first": "e69"}
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "G.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Klambauer",
+                                        "ce:indexed-name": "Klambauer G."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "K.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Schwarzbauer",
+                                        "ce:indexed-name": "Schwarzbauer K."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "A.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Mayr",
+                                        "ce:indexed-name": "Mayr A."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Nucleic Acids Res"
+                        },
+                        "ce:source-text": "Klambauer G, Schwarzbauer K, Mayr A, et al. cn.MOPS: mixture of poissons for discovering copy number variations in next-generation sequencing data with a low false discovery rate. Nucleic Acids Res. 2012;40:e69."
+                    },
+                    {
+                        "ref-fulltext": "Sathirapongsasuti JF, Lee H, Horst BAJ, et al. Exome sequencing-based copy-number variation and loss of heterozygosity detection: exomeCNV. Bioinformatics. 2011;27(19):2648\u20132654.",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Exome sequencing-based copy-number variation and loss of heterozygosity detection: exomeCNV"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr32-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "80053446554",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "27",
+                                    "@issue": "19"
+                                },
+                                "pagerange": {
+                                    "@first": "2648",
+                                    "@last": "2654"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "J.F.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Sathirapongsasuti",
+                                        "ce:indexed-name": "Sathirapongsasuti J.F."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "H.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Lee",
+                                        "ce:indexed-name": "Lee H."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "B.A.J.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Horst",
+                                        "ce:indexed-name": "Horst B.A.J."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Bioinformatics"
+                        },
+                        "ce:source-text": "Sathirapongsasuti JF, Lee H, Horst BAJ, et al. Exome sequencing-based copy-number variation and loss of heterozygosity detection: exomeCNV. Bioinformatics. 2011;27(19):2648\u20132654."
+                    },
+                    {
+                        "ref-fulltext": "Reble E, Castellani CA, Melka MG, O\u2019Reilly R, Singh SM., VarScan2 analysis of de novo variants in monozygotic twins discordant for schizophrenia. Psychiatr Genet. 2017;27:62-70.",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "VarScan2 analysis of de novo variants in monozygotic twins discordant for schizophrenia"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr33-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85010880297",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "27"},
+                                "pagerange": {
+                                    "@first": "62",
+                                    "@last": "70"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Reble",
+                                    "ce:indexed-name": "Reble E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Castellani",
+                                    "ce:indexed-name": "Castellani C.A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Melka",
+                                    "ce:indexed-name": "Melka M.G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "O\u2019Reilly",
+                                    "ce:indexed-name": "O'Reilly R."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Singh",
+                                    "ce:indexed-name": "Singh S.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Psychiatr Genet"
+                        },
+                        "ce:source-text": "Reble E, Castellani CA, Melka MG, O\u2019Reilly R, Singh SM., VarScan2 analysis of de novo variants in monozygotic twins discordant for schizophrenia. Psychiatr Genet. 2017;27:62-70."
+                    },
+                    {
+                        "ref-fulltext": "GeneCards. Breast cancer related genes - Search Results. https://www.genecards.org/Search/Keyword?queryString=breast%20cancer. Accessed March 13, 2020.",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.genecards.org/Search/Keyword?queryString=breast%20cancer",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr34-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85091424391",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Accessed March 13, 2020",
+                            "ref-authors": {"collaboration": {
+                                "@seq": "1",
+                                "ce:text": "GeneCards",
+                                "ce:indexed-name": "GeneCards"
+                            }},
+                            "ref-sourcetitle": "Breast cancer related genes - Search Results"
+                        },
+                        "ce:source-text": "GeneCards. Breast cancer related genes - Search Results. https://www.genecards.org/Search/Keyword?queryString=breast%20cancer. Accessed March 13, 2020."
+                    },
+                    {
+                        "ref-fulltext": "Leppa VM, Kravitz SN, Martin CL, et al. Rare Inherited and de novo CNVs reveal complex contributions to ASD risk in multiplex families. Am J Hum Genet. 2016;99:540-554.",
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Rare Inherited and de novo CNVs reveal complex contributions to ASD risk in multiplex families"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bibr35-1176934320956577",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85003972512",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "99"},
+                                "pagerange": {
+                                    "@first": "540",
+                                    "@last": "554"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "V.M.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Leppa",
+                                        "ce:indexed-name": "Leppa V.M."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "S.N.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Kravitz",
+                                        "ce:indexed-name": "Kravitz S.N."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "C.L.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Martin",
+                                        "ce:indexed-name": "Martin C.L."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Am J Hum Genet"
+                        },
+                        "ce:source-text": "Leppa VM, Kravitz SN, Martin CL, et al. Rare Inherited and de novo CNVs reveal complex contributions to ASD risk in multiplex families. Am J Hum Genet. 2016;99:540-554."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Bangkok",
+        "@id": "60028190",
+        "affilname": "Chulalongkorn University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+        "affiliation-country": "Thailand"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85091418413",
+        "dc:description": "The detection of copy number variations (CNVs) on whole-exome sequencing (WES) represents a cost-effective technique for the study of genetic variants. This approach, however, has encountered an obstacle with high false-positive rates due to biases from exome sequencing capture kits and GC contents. Although plenty of CNV detection tools have been developed, they do not perform well with all types of CNVs. In addition, most tools lack features of genetic annotation, CNV visualization, and flexible installation, requiring users to put much effort into CNV interpretation. Here, we present \u201cinCNV,\u201d a web-based application that can accept multiple CNV-tool results, then integrate and prioritize them with user-friendly interfaces. This application helps users analyze the importance of called CNVs by generating CNV annotations from Ensembl, Database of Genomic Variants (DGV), ClinVar, and Online Mendelian Inheritance in Man (OMIM). Moreover, users can select and export CNVs of interest including their flanking sequences for primer design and experimental verification. We demonstrated how inCNV could help users filter and narrow down the called CNVs to a potentially novel CNV, a common CNV within a group of samples of the same disease, or a de novo CNV of a sample within the same family. Besides, we have provided in CNV as a docker image for ease of installation (https://github.com/saowwapark/inCNV).",
+        "prism:coverDate": "2020-01-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85091418413",
+        "subtypeDescription": "Review",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Saowwapark",
+            "preferred-name": {
+                "ce:given-name": "Saowwapark",
+                "ce:initials": "S.",
+                "ce:surname": "Chanwigoon",
+                "ce:indexed-name": "Chanwigoon S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Chanwigoon",
+            "@auid": "57219146756",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57219146756",
+            "ce:indexed-name": "Chanwigoon S."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85091418413"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85091418413&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85091418413&origin=inward"
+            }
+        ],
+        "prism:publicationName": "Evolutionary Bioinformatics",
+        "source-id": "11200153571",
+        "citedby-count": "2",
+        "prism:volume": "16",
+        "subtype": "re",
+        "dc:title": "inCNV: An Integrated Analysis Tool for Copy Number Variation on Whole Exome Sequencing",
+        "openaccess": "1",
+        "openaccessFlag": "true",
+        "prism:doi": "10.1177/1176934320956577",
+        "prism:issn": "11769343",
+        "publishercopyright": "© The Author(s) 2020.",
+        "dc:identifier": "SCOPUS_ID:85091418413",
+        "dc:publisher": "SAGE Publications Ltdinfo@sagepub.co.uk"
+    },
+    "idxterms": null,
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "CNV"
+        },
+        {
+            "@_fa": "true",
+            "$": "Copy number variation"
+        },
+        {
+            "@_fa": "true",
+            "$": "visualization"
+        },
+        {
+            "@_fa": "true",
+            "$": "whole-exome sequencing"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Ecology, Evolution, Behavior and Systematics",
+            "@code": "1105",
+            "@abbrev": "AGRI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Genetics",
+            "@code": "1311",
+            "@abbrev": "BIOC"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Saowwapark",
+            "preferred-name": {
+                "ce:given-name": "Saowwapark",
+                "ce:initials": "S.",
+                "ce:surname": "Chanwigoon",
+                "ce:indexed-name": "Chanwigoon S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Chanwigoon",
+            "@auid": "57219146756",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57219146756",
+            "ce:indexed-name": "Chanwigoon S."
+        },
+        {
+            "ce:given-name": "Sakkayaphab",
+            "preferred-name": {
+                "ce:given-name": "Sakkayaphab",
+                "ce:initials": "S.",
+                "ce:surname": "Piwluang",
+                "ce:indexed-name": "Piwluang S."
+            },
+            "@seq": "2",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Piwluang",
+            "@auid": "57216250331",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57216250331",
+            "ce:indexed-name": "Piwluang S."
+        },
+        {
+            "ce:given-name": "Duangdao",
+            "preferred-name": {
+                "ce:given-name": "Duangdao",
+                "ce:initials": "D.",
+                "ce:surname": "Wichadakul",
+                "ce:indexed-name": "Wichadakul D."
+            },
+            "@seq": "3",
+            "ce:initials": "D.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Wichadakul",
+            "@auid": "6603187694",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6603187694",
+            "ce:indexed-name": "Wichadakul D."
+        }
+    ]}
+}}

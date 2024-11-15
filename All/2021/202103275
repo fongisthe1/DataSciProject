@@ -1,0 +1,3232 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "21",
+                "@year": "2021",
+                "@timestamp": "2021-08-21T02:33:06.000006-04:00",
+                "@month": "08"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2021",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": {"xocs:funding-agency-matched-string": "National Research Council of Thailand Fund on Renewable Energy Framework"},
+            "xocs:funding-addon-generated-timestamp": "2021-08-23T11:18:31.550306Z",
+            "xocs:funding-text": "This work was supported by the National Research Council of Thailand Fund on Renewable Energy Framework.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "@afid": "60028190",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Smart Grid Research Unit Department of Electrical Engineering"},
+                            {"$": "Faculty of Engineering"},
+                            {"$": "Chulalongkorn University"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60028190",
+                            "@dptid": "122689633"
+                        },
+                        "ce:source-text": "Smart Grid Research Unit/Department of Electrical Engineering, Faculty of Engineering, Chulalongkorn University, Bangkok, Thailand",
+                        "@dptid": "122689633"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Supachai",
+                            "preferred-name": {
+                                "ce:given-name": "Supachai",
+                                "ce:initials": "S.",
+                                "ce:surname": "Suksamosorn",
+                                "ce:indexed-name": "Suksamosorn S."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Suksamosorn",
+                            "@auid": "57201300018",
+                            "ce:indexed-name": "Suksamosorn S."
+                        },
+                        {
+                            "ce:given-name": "Naebboon",
+                            "preferred-name": {
+                                "ce:given-name": "Naebboon",
+                                "ce:initials": "N.",
+                                "ce:surname": "Hoonchareon",
+                                "ce:indexed-name": "Hoonchareon N."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "N.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Hoonchareon",
+                            "@auid": "24177824600",
+                            "ce:indexed-name": "Hoonchareon N."
+                        },
+                        {
+                            "ce:given-name": "Jitkomut",
+                            "preferred-name": {
+                                "ce:given-name": "Jitkomut",
+                                "ce:initials": "J.",
+                                "ce:surname": "Songsiri",
+                                "ce:indexed-name": "Songsiri J."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "J.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Songsiri",
+                            "@auid": "9332911700",
+                            "@orcid": "0000-0002-2715-8305",
+                            "ce:indexed-name": "Songsiri J."
+                        }
+                    ]
+                },
+                "citation-title": "Post-Processing of NWP Forecasts Using Kalman Filtering with Operational Constraints for Day-Ahead Solar Power Forecasting in Thailand",
+                "abstracts": "© 2013 IEEE.Solar power forecasting with a day-ahead horizon has played an important role in the operational planning of generating units in power system operations. We aim to develop a solar power forecasting model suitable for a tropical climate, using Thailand as a model, and hence present a linear recursive regression model as a post-processing step for reducing the errors obtained from the Weather Research and Forecasting (WRF) model. This model consists of submodels, each of which predicts the solar irradiance of a particular time of the day. By using a stepwise regression method, we found that WRF forecasts of irradiance, temperature, relative humidity, and the solar zenith angle were selected as highly relevant inputs of the model. The regression model coefficients are updated according to a Kalman filtering (KF) scheme so that the model can flexibly adapt to fluctuations in the solar irradiance. We then modify the KF update formula to accommodate the limitation in measurement availability at the time of executing the forecasts. The proposed KF formula can be generalized to find the optimal prediction given that the available measurements are mapped by an affine transformation. The obtained results using actual data from a solar rooftop system located in the central region of Thailand showed that the normalized root-mean-square error (NRMSE) of solar power prediction was about 12-13%, which was decreased from the NRMSE of the WRF model by 7-12% on average. This improvement was the best out of similar post-processing methods based on the model output statistics framework.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Smart Grid Research Unit Department of Electrical Engineering"},
+                            {"$": "Faculty of Engineering"},
+                            {"$": "Chulalongkorn University"}
+                        ],
+                        "ce:source-text": "Smart Grid Research Unit/Department of Electrical Engineering, Faculty of Engineering, Chulalongkorn University, Bangkok, Thailand"
+                    },
+                    "person": {
+                        "ce:given-name": "Jitkomut",
+                        "ce:initials": "J.",
+                        "ce:surname": "Songsiri",
+                        "ce:indexed-name": "Songsiri J."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Kalman filter",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "model output statistics",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "numerical weather prediction",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Solar irradiance forecasting",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "WRF",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "IEEE Access",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {"@volume": "9"},
+                        "pagerange": {
+                            "@first": "105409",
+                            "@last": "105423"
+                        }
+                    },
+                    "@type": "j",
+                    "sourcetitle": "IEEE Access",
+                    "publicationdate": {
+                        "year": "2021",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2021"
+                        }
+                    },
+                    "sourcetitle-abbrev": "IEEE Access",
+                    "@country": "usa",
+                    "issn": {
+                        "$": "21693536",
+                        "@type": "electronic"
+                    },
+                    "publicationyear": {"@first": "2021"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "article-number": "9494359",
+                    "@srcid": "21100374601"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "443",
+                                "classification-description": "Meteorology"
+                            },
+                            {
+                                "classification-code": "615.2",
+                                "classification-description": "Solar Power"
+                            },
+                            {
+                                "classification-code": "657.1",
+                                "classification-description": "Solar Energy and Phenomena"
+                            },
+                            {
+                                "classification-code": "922.2",
+                                "classification-description": "Mathematical Statistics"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1700"},
+                            {"$": "2500"},
+                            {"$": "2200"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "MATE"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2021 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "SNCPX"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "19",
+                    "@year": "2021",
+                    "@timestamp": "BST 06:24:45",
+                    "@month": "08"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "635670247",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "934893940",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20213210745805",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20213006099",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20212669784",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "2021106626",
+                            "@idtype": "SNCPX"
+                        },
+                        {
+                            "$": "85112642279",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85112642279",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/ACCESS.2021.3099481"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "48",
+                "reference": [
+                    {
+                        "ref-fulltext": "R. H. Inman, H. T. Pedro, and C. F. Coimbra, \"Solar forecasting methods for renewable energy integration, \" Prog. Energy Combustion Sci., vol. 39, no. 6, pp. 535-576, 2013.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Solar forecasting methods for renewable energy integration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84887176408",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "39",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "535",
+                                    "@last": "576"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Inman",
+                                    "ce:indexed-name": "Inman R.H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pedro",
+                                    "ce:indexed-name": "Pedro H.T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Coimbra",
+                                    "ce:indexed-name": "Coimbra C.F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Prog. Energy Combustion Sci."
+                        },
+                        "ce:source-text": "R. H. Inman, H. T. Pedro, and C. F. Coimbra, \"Solar forecasting methods for renewable energy integration, \" Prog. Energy Combustion Sci., vol. 39, no. 6, pp. 535-576, 2013."
+                    },
+                    {
+                        "ref-fulltext": "J. Antonanzas, N. Osorio, R. Escobar, R. Urraca, F. M. de Pison, and F. Antonanzas-Torres, \"Review of photovoltaic power forecasting, \" Sol. Energy, vol. 136, pp. 78-111, Oct. 2016.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Review of photovoltaic power forecasting"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84977650217",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "136"},
+                                "pagerange": {
+                                    "@first": "78",
+                                    "@last": "111"
+                                }
+                            },
+                            "ref-text": "Oct.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Antonanzas",
+                                    "ce:indexed-name": "Antonanzas J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Osorio",
+                                    "ce:indexed-name": "Osorio N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Escobar",
+                                    "ce:indexed-name": "Escobar R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Urraca",
+                                    "ce:indexed-name": "Urraca R."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "F.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "De Pison",
+                                    "ce:indexed-name": "De Pison F.M."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Antonanzas-Torres",
+                                    "ce:indexed-name": "Antonanzas-Torres F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sol. Energy"
+                        },
+                        "ce:source-text": "J. Antonanzas, N. Osorio, R. Escobar, R. Urraca, F. M. de Pison, and F. Antonanzas-Torres, \"Review of photovoltaic power forecasting, \" Sol. Energy, vol. 136, pp. 78-111, Oct. 2016."
+                    },
+                    {
+                        "ref-fulltext": "M. Diagne, M. David, P. Lauret, J. Boland, and N. Schmutz, \"Review of solar irradiance forecasting methods and a proposition for small-scale insular grids, \" Renew. Sustain. Energy Rev., vol. 27, pp. 65-76, Nov. 2013.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Review of solar irradiance forecasting methods and a proposition for small-scale insular grids"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84880379200",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "27"},
+                                "pagerange": {
+                                    "@first": "65",
+                                    "@last": "76"
+                                }
+                            },
+                            "ref-text": "Nov.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Diagne",
+                                    "ce:indexed-name": "Diagne M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "David",
+                                    "ce:indexed-name": "David M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lauret",
+                                    "ce:indexed-name": "Lauret P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boland",
+                                    "ce:indexed-name": "Boland J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schmutz",
+                                    "ce:indexed-name": "Schmutz N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Renew. Sustain. Energy Rev."
+                        },
+                        "ce:source-text": "M. Diagne, M. David, P. Lauret, J. Boland, and N. Schmutz, \"Review of solar irradiance forecasting methods and a proposition for small-scale insular grids, \" Renew. Sustain. Energy Rev., vol. 27, pp. 65-76, Nov. 2013."
+                    },
+                    {
+                        "ref-fulltext": "M. Q. Raza, M. Nadarajah, and C. Ekanayake, \"On recent advances in PV output power forecast, \" Sol. Energy, vol. 136, pp. 125-144, Oct. 2016.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "On recent advances in PV output power forecast"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84977626775",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "136"},
+                                "pagerange": {
+                                    "@first": "125",
+                                    "@last": "144"
+                                }
+                            },
+                            "ref-text": "Oct.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Raza",
+                                    "ce:indexed-name": "Raza M.Q."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nadarajah",
+                                    "ce:indexed-name": "Nadarajah M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ekanayake",
+                                    "ce:indexed-name": "Ekanayake C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sol. Energy"
+                        },
+                        "ce:source-text": "M. Q. Raza, M. Nadarajah, and C. Ekanayake, \"On recent advances in PV output power forecast, \" Sol. Energy, vol. 136, pp. 125-144, Oct. 2016."
+                    },
+                    {
+                        "ref-fulltext": "C.Wan, J. Zhao, Y. Song, Z. Xu, J. Lin, and Z. Hu, \"Photovoltaic and solar power forecasting for smart grid energy management, \" CSEE J. Power Energy Syst., vol. 1, no. 4, pp. 38-46, Dec. 2015.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Photovoltaic and solar power forecasting for smart grid energy management"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84956622975",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "1",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "38",
+                                    "@last": "46"
+                                }
+                            },
+                            "ref-text": "Dec.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wan",
+                                    "ce:indexed-name": "Wan C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Song",
+                                    "ce:indexed-name": "Song Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu Z."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lin",
+                                    "ce:indexed-name": "Lin J."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Csee J. Power Energy Syst."
+                        },
+                        "ce:source-text": "C.Wan, J. Zhao, Y. Song, Z. Xu, J. Lin, and Z. Hu, \"Photovoltaic and solar power forecasting for smart grid energy management, \" CSEE J. Power Energy Syst., vol. 1, no. 4, pp. 38-46, Dec. 2015."
+                    },
+                    {
+                        "ref-fulltext": "M. N. Akhter, S. Mekhilef, H. Mokhlis, and N. M. Shah, \"Review on forecasting of photovoltaic power generation based on machine learning and Metaheuristic techniques, \" IET Renew. Power Gener., vol. 13, no. 7, pp. 1009-1023, May 2019.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Review on forecasting of photovoltaic power generation based on machine learning and Metaheuristic techniques"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85065232583",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "13",
+                                    "@issue": "7"
+                                },
+                                "pagerange": {
+                                    "@first": "1009",
+                                    "@last": "1023"
+                                }
+                            },
+                            "ref-text": "May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Akhter",
+                                    "ce:indexed-name": "Akhter M.N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mekhilef",
+                                    "ce:indexed-name": "Mekhilef S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mokhlis",
+                                    "ce:indexed-name": "Mokhlis H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "N.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shah",
+                                    "ce:indexed-name": "Shah N.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Iet Renew. Power Gener."
+                        },
+                        "ce:source-text": "M. N. Akhter, S. Mekhilef, H. Mokhlis, and N. M. Shah, \"Review on forecasting of photovoltaic power generation based on machine learning and Metaheuristic techniques, \" IET Renew. Power Gener., vol. 13, no. 7, pp. 1009-1023, May 2019."
+                    },
+                    {
+                        "ref-fulltext": "W. Skamarock, J. Klemp, J. Dudhia, D. Gill, D. Barker, M. Duda, X. Huang, W. Wang, and J. Powers, \"A description of the advanced research WRF version 3, \" Nat. Center Atmos. Res., Boulder, CO, USA, Tech. Rep. TN-475+STR, 2008. [Online]. Available: https://opensky. ucar.edu/islandora/object/technotes:500, doi: 10.5065/D68S4MVH.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://opensky.ucar.edu/islandora/object/technotes:500",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.5065/D68S4MVH",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "27744544521",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Nat. Center Atmos. Res. Boulder CO USA Tech. Rep. TN-475+STR, [Online]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Skamarock",
+                                    "ce:indexed-name": "Skamarock W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Klemp",
+                                    "ce:indexed-name": "Klemp J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dudhia",
+                                    "ce:indexed-name": "Dudhia J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gill",
+                                    "ce:indexed-name": "Gill D."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Barker",
+                                    "ce:indexed-name": "Barker D."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Duda",
+                                    "ce:indexed-name": "Duda M."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang X."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang W."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Powers",
+                                    "ce:indexed-name": "Powers J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "A Description of the Advanced Research Wrf Version 3"
+                        },
+                        "ce:source-text": "W. Skamarock, J. Klemp, J. Dudhia, D. Gill, D. Barker, M. Duda, X. Huang, W. Wang, and J. Powers, \"A description of the advanced research WRF version 3, \" Nat. Center Atmos. Res., Boulder, CO, USA, Tech. Rep. TN-475+STR, 2008. [Online]. Available: https://opensky. ucar.edu/islandora/object/technotes:500, doi: 10.5065/D68S4MVH."
+                    },
+                    {
+                        "ref-fulltext": "P. A. Jimenez, J. P. Hacker, J. Dudhia, S. E. Haupt, J. A. Ruiz-Arias, C. A. Gueymard, G. Thompson, T. Eidhammer, and A. Deng, \"WRF-solar: Description and clear-sky assessment of an augmented NWP model for solar power prediction, \" Bull. Amer. Meteorological Soc., vol. 97, no. 7, pp. 1249-1264, Jul. 2016.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "WRF-solar: Description and clear-sky assessment of an augmented NWP model for solar power prediction"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84984820352",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "97",
+                                    "@issue": "7"
+                                },
+                                "pagerange": {
+                                    "@first": "1249",
+                                    "@last": "1264"
+                                }
+                            },
+                            "ref-text": "Jul.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jimenez",
+                                    "ce:indexed-name": "Jimenez P.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hacker",
+                                    "ce:indexed-name": "Hacker J.P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dudhia",
+                                    "ce:indexed-name": "Dudhia J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Haupt",
+                                    "ce:indexed-name": "Haupt S.E."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ruiz-Arias",
+                                    "ce:indexed-name": "Ruiz-Arias J.A."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "C.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gueymard",
+                                    "ce:indexed-name": "Gueymard C.A."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thompson",
+                                    "ce:indexed-name": "Thompson G."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Eidhammer",
+                                    "ce:indexed-name": "Eidhammer T."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Deng",
+                                    "ce:indexed-name": "Deng A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Bull. Amer. Meteorological Soc."
+                        },
+                        "ce:source-text": "P. A. Jimenez, J. P. Hacker, J. Dudhia, S. E. Haupt, J. A. Ruiz-Arias, C. A. Gueymard, G. Thompson, T. Eidhammer, and A. Deng, \"WRF-solar: Description and clear-sky assessment of an augmented NWP model for solar power prediction, \" Bull. Amer. Meteorological Soc., vol. 97, no. 7, pp. 1249-1264, Jul. 2016."
+                    },
+                    {
+                        "ref-fulltext": "P. A. Jiménez, S. Alessandrini, S. E. Haupt, A. Deng, B. Kosovic, J. A. Lee, and L. Delle Monache, \"The role of unresolved clouds on shortrange global horizontal irradiance predictability, \" Monthly Weather Rev., vol. 144, no. 9, pp. 3099-3107, Sep. 2016.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "The role of unresolved clouds on shortrange global horizontal irradiance predictability"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84986295288",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "144",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {
+                                    "@first": "3099",
+                                    "@last": "3107"
+                                }
+                            },
+                            "ref-text": "Sep.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiménez",
+                                    "ce:indexed-name": "Jimenez P.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alessandrini",
+                                    "ce:indexed-name": "Alessandrini S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Haupt",
+                                    "ce:indexed-name": "Haupt S.E."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Deng",
+                                    "ce:indexed-name": "Deng A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kosovic",
+                                    "ce:indexed-name": "Kosovic B."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee J.A."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Delle Monache",
+                                    "ce:indexed-name": "Delle Monache L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Monthly Weather Rev."
+                        },
+                        "ce:source-text": "P. A. Jiménez, S. Alessandrini, S. E. Haupt, A. Deng, B. Kosovic, J. A. Lee, and L. Delle Monache, \"The role of unresolved clouds on shortrange global horizontal irradiance predictability, \" Monthly Weather Rev., vol. 144, no. 9, pp. 3099-3107, Sep. 2016."
+                    },
+                    {
+                        "ref-fulltext": "R. Perez, E. Lorenz, S. Pelland, M. Beauharnois, G. Van Knowe, K. Hemker, Jr., D. Heinemann, J. Remund, S. C. Müller, W. Traunmüller, G. Steinmauer, D. Pozo, J. A. Ruiz-Arias, V. Lara-Fanego, L. Ramirez-Santigosa, M. Gaston-Romero, and L. M. Pomares, \"Comparison of numerical weather prediction solar irradiance forecasts in the US, Canada and Europe, \" Sol. Energy, vol. 94, pp. 305-326, Aug. 2013. [Online]. Available: https://www.sciencedirect.com/science/article/pii/S0038092X13001886",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.sciencedirect.com/science/article/pii/S0038092X13001886",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Comparison of numerical weather prediction solar irradiance forecasts in the US, Canada and Europe"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84879522649",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "94"},
+                                "pagerange": {
+                                    "@first": "305",
+                                    "@last": "326"
+                                }
+                            },
+                            "ref-text": "Aug., [Online]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Perez",
+                                    "ce:indexed-name": "Perez R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lorenz",
+                                    "ce:indexed-name": "Lorenz E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pelland",
+                                    "ce:indexed-name": "Pelland S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Beauharnois",
+                                    "ce:indexed-name": "Beauharnois M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van Knowe",
+                                    "ce:indexed-name": "Van Knowe G."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hemker",
+                                    "ce:suffix": "Jr.",
+                                    "ce:indexed-name": "Hemker K."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Heinemann",
+                                    "ce:indexed-name": "Heinemann D."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Remund",
+                                    "ce:indexed-name": "Remund J."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "S.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Müller",
+                                    "ce:indexed-name": "Muller S.C."
+                                },
+                                {
+                                    "@seq": "10",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Traunmüller",
+                                    "ce:indexed-name": "Traunmuller W."
+                                },
+                                {
+                                    "@seq": "11",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Steinmauer",
+                                    "ce:indexed-name": "Steinmauer G."
+                                },
+                                {
+                                    "@seq": "12",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pozo",
+                                    "ce:indexed-name": "Pozo D."
+                                },
+                                {
+                                    "@seq": "13",
+                                    "ce:initials": "J.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ruiz-Arias",
+                                    "ce:indexed-name": "Ruiz-Arias J.A."
+                                },
+                                {
+                                    "@seq": "14",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lara-Fanego",
+                                    "ce:indexed-name": "Lara-Fanego V."
+                                },
+                                {
+                                    "@seq": "15",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ramirez-Santigosa",
+                                    "ce:indexed-name": "Ramirez-Santigosa L."
+                                },
+                                {
+                                    "@seq": "16",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gaston-Romero",
+                                    "ce:indexed-name": "Gaston-Romero M."
+                                },
+                                {
+                                    "@seq": "17",
+                                    "ce:initials": "L.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pomares",
+                                    "ce:indexed-name": "Pomares L.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sol. Energy"
+                        },
+                        "ce:source-text": "R. Perez, E. Lorenz, S. Pelland, M. Beauharnois, G. Van Knowe, K. Hemker, Jr., D. Heinemann, J. Remund, S. C. Müller, W. Traunmüller, G. Steinmauer, D. Pozo, J. A. Ruiz-Arias, V. Lara-Fanego, L. Ramirez-Santigosa, M. Gaston-Romero, and L. M. Pomares, \"Comparison of numerical weather prediction solar irradiance forecasts in the US, Canada and Europe, \" Sol. Energy, vol. 94, pp. 305-326, Aug. 2013. [Online]. Available: https://www.sciencedirect.com/science/article/pii/S0038092X13001886"
+                    },
+                    {
+                        "ref-fulltext": "V. Lara-Fanego, J. A. Ruiz-Arias, D. Pozo-Vázquez, F. J. Santos-Alamillos, and J. Tovar-Pescador, \"Evaluation of the WRF model solar irradiance forecasts in Andalusia (southern Spain), \" Sol. Energy, vol. 86, no. 8, pp. 2200-2217, Aug. 2012.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Evaluation of the WRF model solar irradiance forecasts in Andalusia (southern Spain)"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84864123533",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "86",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "2200",
+                                    "@last": "2217"
+                                }
+                            },
+                            "ref-text": "Aug.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lara-Fanego",
+                                    "ce:indexed-name": "Lara-Fanego V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ruiz-Arias",
+                                    "ce:indexed-name": "Ruiz-Arias J.A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pozo-Vázquez",
+                                    "ce:indexed-name": "Pozo-Vazquez D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "F.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Santos-Alamillos",
+                                    "ce:indexed-name": "Santos-Alamillos F.J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tovar-Pescador",
+                                    "ce:indexed-name": "Tovar-Pescador J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sol. Energy"
+                        },
+                        "ce:source-text": "V. Lara-Fanego, J. A. Ruiz-Arias, D. Pozo-Vázquez, F. J. Santos-Alamillos, and J. Tovar-Pescador, \"Evaluation of the WRF model solar irradiance forecasts in Andalusia (southern Spain), \" Sol. Energy, vol. 86, no. 8, pp. 2200-2217, Aug. 2012."
+                    },
+                    {
+                        "ref-fulltext": "R. Perez and T. Hoff, \"SolarAnywhere forecasting, \" in Solar Energy Forecasting and Resource Assessment, J. Kleissl, Ed. New York, NY, USA: Academic, 2013, pp. 233-264.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "SolarAnywhere forecasting"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84903803086",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "233",
+                                "@last": "264"
+                            }},
+                            "ref-text": "J. Kleissl, Ed. New York, NY, USA: Academic",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Perez",
+                                    "ce:indexed-name": "Perez R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hoff",
+                                    "ce:indexed-name": "Hoff T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Solar Energy Forecasting and Resource Assessment"
+                        },
+                        "ce:source-text": "R. Perez and T. Hoff, \"SolarAnywhere forecasting, \" in Solar Energy Forecasting and Resource Assessment, J. Kleissl, Ed. New York, NY, USA: Academic, 2013, pp. 233-264."
+                    },
+                    {
+                        "ref-fulltext": "P. Mathiesen and J. Kleissl, \"Evaluation of numerical weather prediction for intra-day solar forecasting in the continental United States, \" Sol. Energy, vol. 85, no. 5, pp. 967-977, May 2011.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Evaluation of numerical weather prediction for intra-day solar forecasting in the continental United States"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79954582115",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "85",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "967",
+                                    "@last": "977"
+                                }
+                            },
+                            "ref-text": "May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mathiesen",
+                                    "ce:indexed-name": "Mathiesen P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kleissl",
+                                    "ce:indexed-name": "Kleissl J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sol. Energy"
+                        },
+                        "ce:source-text": "P. Mathiesen and J. Kleissl, \"Evaluation of numerical weather prediction for intra-day solar forecasting in the continental United States, \" Sol. Energy, vol. 85, no. 5, pp. 967-977, May 2011."
+                    },
+                    {
+                        "ref-fulltext": "H. Verbois, R. Huva, A. Rusydi, and W. Walsh, \"Solar irradiance forecasting in the tropics using numerical weather prediction and statistical learning, \" Sol. Energy, vol. 162, pp. 265-277, Mar. 2018.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Solar irradiance forecasting in the tropics using numerical weather prediction and statistical learning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85041412724",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "162"},
+                                "pagerange": {
+                                    "@first": "265",
+                                    "@last": "277"
+                                }
+                            },
+                            "ref-text": "Mar.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Verbois",
+                                    "ce:indexed-name": "Verbois H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huva",
+                                    "ce:indexed-name": "Huva R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rusydi",
+                                    "ce:indexed-name": "Rusydi A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Walsh",
+                                    "ce:indexed-name": "Walsh W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sol. Energy"
+                        },
+                        "ce:source-text": "H. Verbois, R. Huva, A. Rusydi, and W. Walsh, \"Solar irradiance forecasting in the tropics using numerical weather prediction and statistical learning, \" Sol. Energy, vol. 162, pp. 265-277, Mar. 2018."
+                    },
+                    {
+                        "ref-fulltext": "M. Zamo, O. Mestre, P. Arbogast, and O. Pannekoucke, \"A benchmark of statistical regression methods for short-Term forecasting of photovoltaic electricity production, part I: Deterministic forecast of hourly production, \" Sol. Energy, vol. 105, pp. 792-803, Jul. 2014.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "A benchmark of statistical regression methods for short-Term forecasting of photovoltaic electricity production, part I: Deterministic forecast of hourly production"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84901841673",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "105"},
+                                "pagerange": {
+                                    "@first": "792",
+                                    "@last": "803"
+                                }
+                            },
+                            "ref-text": "Jul.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zamo",
+                                    "ce:indexed-name": "Zamo M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mestre",
+                                    "ce:indexed-name": "Mestre O."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Arbogast",
+                                    "ce:indexed-name": "Arbogast P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pannekoucke",
+                                    "ce:indexed-name": "Pannekoucke O."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sol. Energy"
+                        },
+                        "ce:source-text": "M. Zamo, O. Mestre, P. Arbogast, and O. Pannekoucke, \"A benchmark of statistical regression methods for short-Term forecasting of photovoltaic electricity production, part I: Deterministic forecast of hourly production, \" Sol. Energy, vol. 105, pp. 792-803, Jul. 2014."
+                    },
+                    {
+                        "ref-fulltext": "R. A. Verzijlbergh, P. W. Heijnen, S. R. de Roode, A. Los, and H. J. J. Jonker, \"Improved model output statistics of numerical weather prediction based irradiance forecasts for solar power applications, \" Sol. Energy, vol. 118, pp. 634-645, Aug. 2015.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Improved model output statistics of numerical weather prediction based irradiance forecasts for solar power applications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84933055350",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "118"},
+                                "pagerange": {
+                                    "@first": "634",
+                                    "@last": "645"
+                                }
+                            },
+                            "ref-text": "Aug.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Verzijlbergh",
+                                    "ce:indexed-name": "Verzijlbergh R.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Heijnen",
+                                    "ce:indexed-name": "Heijnen P.W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "De Roode",
+                                    "ce:indexed-name": "De Roode S.R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Los",
+                                    "ce:indexed-name": "Los A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "H.J.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jonker",
+                                    "ce:indexed-name": "Jonker H.J.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sol. Energy"
+                        },
+                        "ce:source-text": "R. A. Verzijlbergh, P. W. Heijnen, S. R. de Roode, A. Los, and H. J. J. Jonker, \"Improved model output statistics of numerical weather prediction based irradiance forecasts for solar power applications, \" Sol. Energy, vol. 118, pp. 634-645, Aug. 2015."
+                    },
+                    {
+                        "ref-fulltext": "L. Massidda and M. Marrocu, \"Use of multilinear adaptive regression splines and numerical weather prediction to forecast the power output of a PV plant in Borkum, Germany, \" Solar Energy, vol. 146, pp. 141-149, Apr. 2017.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Use of multilinear adaptive regression splines and numerical weather prediction to forecast the power output of a PV plant in Borkum, Germany"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85013999484",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "146"},
+                                "pagerange": {
+                                    "@first": "141",
+                                    "@last": "149"
+                                }
+                            },
+                            "ref-text": "Apr.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Massidda",
+                                    "ce:indexed-name": "Massidda L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marrocu",
+                                    "ce:indexed-name": "Marrocu M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Solar Energy"
+                        },
+                        "ce:source-text": "L. Massidda and M. Marrocu, \"Use of multilinear adaptive regression splines and numerical weather prediction to forecast the power output of a PV plant in Borkum, Germany, \" Solar Energy, vol. 146, pp. 141-149, Apr. 2017."
+                    },
+                    {
+                        "ref-fulltext": "C. Cornaro, F. Bucci, M. Pierro, F. Del Frate, S. Peronaci, and A. Taravat, \"Twenty-four hour solar irradiance forecast based on neural networks and numerical weather prediction, \" J. Sol. Energy Eng., vol. 137, no. 3, Jun. 2015, Art. no. 031011.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Twenty-four hour solar irradiance forecast based on neural networks and numerical weather prediction"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84928560413",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "137",
+                                "@issue": "3"
+                            }},
+                            "ref-text": "Jun., Art. no. 031011",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cornaro",
+                                    "ce:indexed-name": "Cornaro C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bucci",
+                                    "ce:indexed-name": "Bucci F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pierro",
+                                    "ce:indexed-name": "Pierro M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Del Frate",
+                                    "ce:indexed-name": "Del Frate F."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peronaci",
+                                    "ce:indexed-name": "Peronaci S."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Taravat",
+                                    "ce:indexed-name": "Taravat A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Sol. Energy Eng."
+                        },
+                        "ce:source-text": "C. Cornaro, F. Bucci, M. Pierro, F. Del Frate, S. Peronaci, and A. Taravat, \"Twenty-four hour solar irradiance forecast based on neural networks and numerical weather prediction, \" J. Sol. Energy Eng., vol. 137, no. 3, Jun. 2015, Art. no. 031011."
+                    },
+                    {
+                        "ref-fulltext": "C. Cornaro, M. Pierro, and F. Bucci, \"Master optimization process based on neural networks ensemble for 24-H solar irradiance forecast, \" Sol. Energy, vol. 111, pp. 297-312, Jan. 2015.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Master optimization process based on neural networks ensemble for 24-H solar irradiance forecast"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84911367408",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "111"},
+                                "pagerange": {
+                                    "@first": "297",
+                                    "@last": "312"
+                                }
+                            },
+                            "ref-text": "Jan.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cornaro",
+                                    "ce:indexed-name": "Cornaro C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pierro",
+                                    "ce:indexed-name": "Pierro M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bucci",
+                                    "ce:indexed-name": "Bucci F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sol. Energy"
+                        },
+                        "ce:source-text": "C. Cornaro, M. Pierro, and F. Bucci, \"Master optimization process based on neural networks ensemble for 24-H solar irradiance forecast, \" Sol. Energy, vol. 111, pp. 297-312, Jan. 2015."
+                    },
+                    {
+                        "ref-fulltext": "F. J. L. Lima, F. R. Martins, E. B. Pereira, E. Lorenz, and D. Heinemann, \"Forecast for surface solar irradiance at the Brazilian northeastern region using NWP model and artificial neural networks, \" Renew. Energy, vol. 87, pp. 807-818, Mar. 2016.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Forecast for surface solar irradiance at the Brazilian northeastern region using NWP model and artificial neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84947269251",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "87"},
+                                "pagerange": {
+                                    "@first": "807",
+                                    "@last": "818"
+                                }
+                            },
+                            "ref-text": "Mar.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.J.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lima",
+                                    "ce:indexed-name": "Lima F.J.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Martins",
+                                    "ce:indexed-name": "Martins F.R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pereira",
+                                    "ce:indexed-name": "Pereira E.B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lorenz",
+                                    "ce:indexed-name": "Lorenz E."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Heinemann",
+                                    "ce:indexed-name": "Heinemann D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Renew. Energy"
+                        },
+                        "ce:source-text": "F. J. L. Lima, F. R. Martins, E. B. Pereira, E. Lorenz, and D. Heinemann, \"Forecast for surface solar irradiance at the Brazilian northeastern region using NWP model and artificial neural networks, \" Renew. Energy, vol. 87, pp. 807-818, Mar. 2016."
+                    },
+                    {
+                        "ref-fulltext": "A. Yona, T. Senjyu, T. Funabashi, and C.-H. Kim, \"Determination method of insolation prediction with fuzzy and applying neural network for longterm ahead PV power output correction, \" IEEE Trans. Sustain. Energy, vol. 4, no. 2, pp. 527-533, Apr. 2013.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Determination method of insolation prediction with fuzzy and applying neural network for longterm ahead PV power output correction"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84875688511",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "4",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "527",
+                                    "@last": "533"
+                                }
+                            },
+                            "ref-text": "Apr.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yona",
+                                    "ce:indexed-name": "Yona A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Senjyu",
+                                    "ce:indexed-name": "Senjyu T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Funabashi",
+                                    "ce:indexed-name": "Funabashi T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.-H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim C.-H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Ieee Trans. Sustain. Energy"
+                        },
+                        "ce:source-text": "A. Yona, T. Senjyu, T. Funabashi, and C.-H. Kim, \"Determination method of insolation prediction with fuzzy and applying neural network for longterm ahead PV power output correction, \" IEEE Trans. Sustain. Energy, vol. 4, no. 2, pp. 527-533, Apr. 2013."
+                    },
+                    {
+                        "ref-fulltext": "C. Chen, S. Duan, T. Cai, and B. Liu, \"Online 24-H solar power forecasting based on weather type classification using artificial neural network, \" Sol. Energy, vol. 85, no. 11, pp. 2856-2870, Nov. 2011.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Online 24-H solar power forecasting based on weather type classification using artificial neural network"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "80053972368",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "85",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "2856",
+                                    "@last": "2870"
+                                }
+                            },
+                            "ref-text": "Nov.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Duan",
+                                    "ce:indexed-name": "Duan S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cai",
+                                    "ce:indexed-name": "Cai T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sol. Energy"
+                        },
+                        "ce:source-text": "C. Chen, S. Duan, T. Cai, and B. Liu, \"Online 24-H solar power forecasting based on weather type classification using artificial neural network, \" Sol. Energy, vol. 85, no. 11, pp. 2856-2870, Nov. 2011."
+                    },
+                    {
+                        "ref-fulltext": "L. A. Fernandez-Jimenez, A. Muñoz-Jimenez, A. Falces, M. Mendoza-Villena, E. Garcia-Garrido, P. M. Lara-Santillan, E. Zorzano-Alba, and P. J. Zorzano-Santamaria, \"Short-Term power forecasting system for photovoltaic plants, \" Renew. Energy, vol. 44, pp. 311-317, Aug. 2012.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Short-Term power forecasting system for photovoltaic plants"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84858281861",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "44"},
+                                "pagerange": {
+                                    "@first": "311",
+                                    "@last": "317"
+                                }
+                            },
+                            "ref-text": "Aug.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fernandez-Jimenez",
+                                    "ce:indexed-name": "Fernandez-Jimenez L.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Muñoz-Jimenez",
+                                    "ce:indexed-name": "Munoz-Jimenez A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Falces",
+                                    "ce:indexed-name": "Falces A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mendoza-Villena",
+                                    "ce:indexed-name": "Mendoza-Villena M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Garcia-Garrido",
+                                    "ce:indexed-name": "Garcia-Garrido E."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "P.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lara-Santillan",
+                                    "ce:indexed-name": "Lara-Santillan P.M."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zorzano-Alba",
+                                    "ce:indexed-name": "Zorzano-Alba E."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "P.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zorzano-Santamaria",
+                                    "ce:indexed-name": "Zorzano-Santamaria P.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Renew. Energy"
+                        },
+                        "ce:source-text": "L. A. Fernandez-Jimenez, A. Muñoz-Jimenez, A. Falces, M. Mendoza-Villena, E. Garcia-Garrido, P. M. Lara-Santillan, E. Zorzano-Alba, and P. J. Zorzano-Santamaria, \"Short-Term power forecasting system for photovoltaic plants, \" Renew. Energy, vol. 44, pp. 311-317, Aug. 2012."
+                    },
+                    {
+                        "ref-fulltext": "Y.-K.Wu, C.-R. Chen, and H. A. Rahman, \"Anovel hybrid model for shortterm forecasting in PV power generation, \" Int. J. Photoenergy, vol. 2014, Jun. 2014, Art. no. 569249.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Anovel hybrid model for shortterm forecasting in PV power generation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84904624042",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "2014"}},
+                            "ref-text": "Jun., Art. no. 569249",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.-K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu Y.-K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.-R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen C.-R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rahman",
+                                    "ce:indexed-name": "Rahman H.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "T. J. Photoenergy"
+                        },
+                        "ce:source-text": "Y.-K.Wu, C.-R. Chen, and H. A. Rahman, \"Anovel hybrid model for shortterm forecasting in PV power generation, \" Int. J. Photoenergy, vol. 2014, Jun. 2014, Art. no. 569249."
+                    },
+                    {
+                        "ref-fulltext": "E. Lorenz, J. Hurka, D. Heinemann, and H. G. Beyer, \"Irradiance forecasting for the power prediction of grid-connected photovoltaic systems, \" IEEE J. Sel. Topics Appl. Earth Observ. Remote Sens., vol. 2, no. 1, pp. 2-10, Mar. 2009.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Irradiance forecasting for the power prediction of grid-connected photovoltaic systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "66149107462",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "2",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "2",
+                                    "@last": "10"
+                                }
+                            },
+                            "ref-text": "Mar.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lorenz",
+                                    "ce:indexed-name": "Lorenz E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hurka",
+                                    "ce:indexed-name": "Hurka J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Heinemann",
+                                    "ce:indexed-name": "Heinemann D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Beyer",
+                                    "ce:indexed-name": "Beyer H.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Ieee J. Sel. Topics Appl. Earth Observ. Remote Sens."
+                        },
+                        "ce:source-text": "E. Lorenz, J. Hurka, D. Heinemann, and H. G. Beyer, \"Irradiance forecasting for the power prediction of grid-connected photovoltaic systems, \" IEEE J. Sel. Topics Appl. Earth Observ. Remote Sens., vol. 2, no. 1, pp. 2-10, Mar. 2009."
+                    },
+                    {
+                        "ref-fulltext": "P. Lauret, M. Diagne, and M. David, \"A neural network post-processing approach to improving NWP solar radiation forecasts, \" Energy Procedia, vol. 57, pp. 1044-1052, Nov. 2014. [Online]. Available: https://www.sciencedirect.com/science/article/pii/S1876610214014568? via%3Dihub",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.sciencedirect.com/science/article/pii/S1876610214014568?via%3Dihub",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "A neural network post-processing approach to improving NWP solar radiation forecasts"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84922273046",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "57"},
+                                "pagerange": {
+                                    "@first": "1044",
+                                    "@last": "1052"
+                                }
+                            },
+                            "ref-text": "Nov., [Online]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lauret",
+                                    "ce:indexed-name": "Lauret P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Diagne",
+                                    "ce:indexed-name": "Diagne M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "David",
+                                    "ce:indexed-name": "David M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Energy Procedia"
+                        },
+                        "ce:source-text": "P. Lauret, M. Diagne, and M. David, \"A neural network post-processing approach to improving NWP solar radiation forecasts, \" Energy Procedia, vol. 57, pp. 1044-1052, Nov. 2014. [Online]. Available: https://www.sciencedirect.com/science/article/pii/S1876610214014568? via%3Dihub"
+                    },
+                    {
+                        "ref-fulltext": "J. Wu and C. K. Chan, \"Prediction of hourly solar radiation using a novel hybrid model of ARMA and TDNN, \" Solar Energy, vol. 85, no. 5, pp. 808-817, May 2011.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Prediction of hourly solar radiation using a novel hybrid model of ARMA and TDNN"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79954620339",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "85",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "808",
+                                    "@last": "817"
+                                }
+                            },
+                            "ref-text": "May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chan",
+                                    "ce:indexed-name": "Chan C.K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Solar Energy"
+                        },
+                        "ce:source-text": "J. Wu and C. K. Chan, \"Prediction of hourly solar radiation using a novel hybrid model of ARMA and TDNN, \" Solar Energy, vol. 85, no. 5, pp. 808-817, May 2011."
+                    },
+                    {
+                        "ref-fulltext": "H. R. Glahn and D. A. Lowry, \"The use of model output statistics (MOS) in objective weather forecasting, \" J. Appl. Meteorol., vol. 11, no. 8, pp. 1203-1211, Dec. 1972.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1972"},
+                            "ref-title": {"ref-titletext": "The use of model output statistics (MOS) in objective weather forecasting"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0001737050",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "11",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "1203",
+                                    "@last": "1211"
+                                }
+                            },
+                            "ref-text": "Dec.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Glahn",
+                                    "ce:indexed-name": "Glahn H.R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lowry",
+                                    "ce:indexed-name": "Lowry D.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Appl. Meteorol."
+                        },
+                        "ce:source-text": "H. R. Glahn and D. A. Lowry, \"The use of model output statistics (MOS) in objective weather forecasting, \" J. Appl. Meteorol., vol. 11, no. 8, pp. 1203-1211, Dec. 1972."
+                    },
+                    {
+                        "ref-fulltext": "S. Pelland, G. Galanis, and G. Kallos, \"Solar and photovoltaic forecasting through post-processing of the global environmental multiscale numerical weather prediction model, \" Prog. Photovolt., Res. Appl., vol. 21, no. 3, pp. 284-296, 2011.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Solar and photovoltaic forecasting through post-processing of the global environmental multiscale numerical weather prediction model"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84876681126",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "21",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "284",
+                                    "@last": "296"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pelland",
+                                    "ce:indexed-name": "Pelland S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Galanis",
+                                    "ce:indexed-name": "Galanis G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kallos",
+                                    "ce:indexed-name": "Kallos G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Prog. Photovolt., Res. Appl."
+                        },
+                        "ce:source-text": "S. Pelland, G. Galanis, and G. Kallos, \"Solar and photovoltaic forecasting through post-processing of the global environmental multiscale numerical weather prediction model, \" Prog. Photovolt., Res. Appl., vol. 21, no. 3, pp. 284-296, 2011."
+                    },
+                    {
+                        "ref-fulltext": "M. Diagne, M. David, J. Boland, N. Schmutz, and P. Lauret, \"Postprocessing of solar irradiance forecasts from WRF model at Reunion Island, \" Solar Energy, vol. 105, pp. 99-108, Jul. 2014.",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Postprocessing of solar irradiance forecasts from WRF model at Reunion Island"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84899857486",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "105"},
+                                "pagerange": {
+                                    "@first": "99",
+                                    "@last": "108"
+                                }
+                            },
+                            "ref-text": "Jul.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Diagne",
+                                    "ce:indexed-name": "Diagne M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "David",
+                                    "ce:indexed-name": "David M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boland",
+                                    "ce:indexed-name": "Boland J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schmutz",
+                                    "ce:indexed-name": "Schmutz N."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lauret",
+                                    "ce:indexed-name": "Lauret P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Solar Energy"
+                        },
+                        "ce:source-text": "M. Diagne, M. David, J. Boland, N. Schmutz, and P. Lauret, \"Postprocessing of solar irradiance forecasts from WRF model at Reunion Island, \" Solar Energy, vol. 105, pp. 99-108, Jul. 2014."
+                    },
+                    {
+                        "ref-fulltext": "S. E. Haupt, B. Kosović, T. Jensen, J. K. Lazo, J. A. Lee, P. A. Jiménez, J. Cowie, G. Wiener, T. C. McCandless, M. Rogers, S. Miller, M. Sengupta, Y. Xie, L. Hinkelman, P. Kalb, and J. Heiser, \"Building the Sun4Cast system: Improvements in solar power forecasting, \" Bull. Amer. Meteorological Soc., vol. 99, no. 1, pp. 121-136, Jan. 2018.",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Building the Sun4Cast system: Improvements in solar power forecasting"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85041423662",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "99",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "121",
+                                    "@last": "136"
+                                }
+                            },
+                            "ref-text": "Jan.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Haupt",
+                                    "ce:indexed-name": "Haupt S.E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kosović",
+                                    "ce:indexed-name": "Kosovic B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jensen",
+                                    "ce:indexed-name": "Jensen T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lazo",
+                                    "ce:indexed-name": "Lazo J.K."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee J.A."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "P.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiménez",
+                                    "ce:indexed-name": "Jimenez P.A."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cowie",
+                                    "ce:indexed-name": "Cowie J."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wiener",
+                                    "ce:indexed-name": "Wiener G."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "T.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McCandless",
+                                    "ce:indexed-name": "McCandless T.C."
+                                },
+                                {
+                                    "@seq": "10",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rogers",
+                                    "ce:indexed-name": "Rogers M."
+                                },
+                                {
+                                    "@seq": "11",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Miller",
+                                    "ce:indexed-name": "Miller S."
+                                },
+                                {
+                                    "@seq": "12",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sengupta",
+                                    "ce:indexed-name": "Sengupta M."
+                                },
+                                {
+                                    "@seq": "13",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xie",
+                                    "ce:indexed-name": "Xie Y."
+                                },
+                                {
+                                    "@seq": "14",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hinkelman",
+                                    "ce:indexed-name": "Hinkelman L."
+                                },
+                                {
+                                    "@seq": "15",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kalb",
+                                    "ce:indexed-name": "Kalb P."
+                                },
+                                {
+                                    "@seq": "16",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Heiser",
+                                    "ce:indexed-name": "Heiser J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Bull. Amer. Meteorological Soc."
+                        },
+                        "ce:source-text": "S. E. Haupt, B. Kosović, T. Jensen, J. K. Lazo, J. A. Lee, P. A. Jiménez, J. Cowie, G. Wiener, T. C. McCandless, M. Rogers, S. Miller, M. Sengupta, Y. Xie, L. Hinkelman, P. Kalb, and J. Heiser, \"Building the Sun4Cast system: Improvements in solar power forecasting, \" Bull. Amer. Meteorological Soc., vol. 99, no. 1, pp. 121-136, Jan. 2018."
+                    },
+                    {
+                        "ref-fulltext": "S. E. Haupt, T. C. McCandless, S. Dettling, S. Alessandrini, J. A. Lee, S. Linden, W. Petzke, T. Brummet, N. Nguyen, B. Kosović, G. Wiener, T. Hussain, and M. Al-Rasheedi, \"Combining artificial intelligence with physics-based methods for probabilistic renewable energy forecasting, \" Energies, vol. 13, no. 8, p. 1979, Apr. 2020.",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Combining artificial intelligence with physics-based methods for probabilistic renewable energy forecasting"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85084116159",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "13",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {"@first": "1979"}
+                            },
+                            "ref-text": "Apr.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Haupt",
+                                    "ce:indexed-name": "Haupt S.E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McCandless",
+                                    "ce:indexed-name": "McCandless T.C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dettling",
+                                    "ce:indexed-name": "Dettling S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alessandrini",
+                                    "ce:indexed-name": "Alessandrini S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee J.A."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Linden",
+                                    "ce:indexed-name": "Linden S."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Petzke",
+                                    "ce:indexed-name": "Petzke W."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brummet",
+                                    "ce:indexed-name": "Brummet T."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nguyen",
+                                    "ce:indexed-name": "Nguyen N."
+                                },
+                                {
+                                    "@seq": "10",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kosović",
+                                    "ce:indexed-name": "Kosovic B."
+                                },
+                                {
+                                    "@seq": "11",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wiener",
+                                    "ce:indexed-name": "Wiener G."
+                                },
+                                {
+                                    "@seq": "12",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hussain",
+                                    "ce:indexed-name": "Hussain T."
+                                },
+                                {
+                                    "@seq": "13",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Al-Rasheedi",
+                                    "ce:indexed-name": "Al-Rasheedi M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Energies"
+                        },
+                        "ce:source-text": "S. E. Haupt, T. C. McCandless, S. Dettling, S. Alessandrini, J. A. Lee, S. Linden, W. Petzke, T. Brummet, N. Nguyen, B. Kosović, G. Wiener, T. Hussain, and M. Al-Rasheedi, \"Combining artificial intelligence with physics-based methods for probabilistic renewable energy forecasting, \" Energies, vol. 13, no. 8, p. 1979, Apr. 2020."
+                    },
+                    {
+                        "ref-fulltext": "H. Verbois, A. Rusydi, and A. Thiery, \"Probabilistic forecasting of dayahead solar irradiance using quantile gradient boosting, \" Sol. Energy, vol. 173, pp. 313-327, Oct. 2018.",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Probabilistic forecasting of dayahead solar irradiance using quantile gradient boosting"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85050697794",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "173"},
+                                "pagerange": {
+                                    "@first": "313",
+                                    "@last": "327"
+                                }
+                            },
+                            "ref-text": "Oct.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Verbois",
+                                    "ce:indexed-name": "Verbois H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rusydi",
+                                    "ce:indexed-name": "Rusydi A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thiery",
+                                    "ce:indexed-name": "Thiery A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sol. Energy"
+                        },
+                        "ce:source-text": "H. Verbois, A. Rusydi, and A. Thiery, \"Probabilistic forecasting of dayahead solar irradiance using quantile gradient boosting, \" Sol. Energy, vol. 173, pp. 313-327, Oct. 2018."
+                    },
+                    {
+                        "ref-fulltext": "S. Alessandrini, L. D. Monache, S. Sperati, and G. Cervone, \"An analog ensemble for short-Term probabilistic solar power forecast, \" Appl. Energy, vol. 157, pp. 95-110, Nov. 2015.",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "An analog ensemble for short-Term probabilistic solar power forecast"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84939814087",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "157"},
+                                "pagerange": {
+                                    "@first": "95",
+                                    "@last": "110"
+                                }
+                            },
+                            "ref-text": "Nov.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alessandrini",
+                                    "ce:indexed-name": "Alessandrini S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Monache",
+                                    "ce:indexed-name": "Monache L.D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sperati",
+                                    "ce:indexed-name": "Sperati S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cervone",
+                                    "ce:indexed-name": "Cervone G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Appl. Energy"
+                        },
+                        "ce:source-text": "S. Alessandrini, L. D. Monache, S. Sperati, and G. Cervone, \"An analog ensemble for short-Term probabilistic solar power forecast, \" Appl. Energy, vol. 157, pp. 95-110, Nov. 2015."
+                    },
+                    {
+                        "ref-fulltext": "S. Alessandrini and T. McCandless, \"The schaake shufe technique to combine solar and wind power probabilistic forecasting, \" Energies, vol. 13, no. 10, p. 2503, May 2020.",
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "The schaake shufe technique to combine solar and wind power probabilistic forecasting"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85084115169",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "13",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {"@first": "2503"}
+                            },
+                            "ref-text": "May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alessandrini",
+                                    "ce:indexed-name": "Alessandrini S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McCandless",
+                                    "ce:indexed-name": "McCandless T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Energies"
+                        },
+                        "ce:source-text": "S. Alessandrini and T. McCandless, \"The schaake shufe technique to combine solar and wind power probabilistic forecasting, \" Energies, vol. 13, no. 10, p. 2503, May 2020."
+                    },
+                    {
+                        "ref-fulltext": "UCAR. User's Guide for the Advanced Research WRF (ARW) Modeling System Version 3.9. https://www2.mmm.ucar.edu/wrf/users/docs/userǧuide-V3/userǧuide-V3.9/ARWUsersGuideV3.9.pdf",
+                        "@id": "36",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www2.mmm.ucar.edu/wrf/users/docs/userguide-V3/userguide-V3.9/ARWUsersGuideV3.9.pdf",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85109331601",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "UCAR.",
+                            "ref-sourcetitle": "User's Guide for the Advanced Research Wrf (ARW) Modeling System Version 3.9"
+                        },
+                        "ce:source-text": "UCAR. User's Guide for the Advanced Research WRF (ARW) Modeling System Version 3.9. https://www2.mmm.ucar.edu/wrf/users/docs/userǧuide-V3/userǧuide-V3.9/ARWUsersGuideV3.9.pdf"
+                    },
+                    {
+                        "ref-fulltext": "M. J. Iacono, J. S. Delamere, E. J. Mlawer, M.W. Shephard, S. A. Clough, and W. D. Collins, \"Radiative forcing by long-lived greenhouse gases: Calculations with the AER radiative transfer models, \" J. Geophys. Res., vol. 113, no. D13, pp. 1-8, 2008.",
+                        "@id": "37",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Radiative forcing by long-lived greenhouse gases: Calculations with the AER radiative transfer models"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "50849139199",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "113",
+                                    "@issue": "D13"
+                                },
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "8"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Iacono",
+                                    "ce:indexed-name": "Iacono M.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Delamere",
+                                    "ce:indexed-name": "Delamere J.S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mlawer",
+                                    "ce:indexed-name": "Mlawer E.J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shephard",
+                                    "ce:indexed-name": "Shephard M.W."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Clough",
+                                    "ce:indexed-name": "Clough S.A."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "W.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Collins",
+                                    "ce:indexed-name": "Collins W.D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Geophys. Res."
+                        },
+                        "ce:source-text": "M. J. Iacono, J. S. Delamere, E. J. Mlawer, M.W. Shephard, S. A. Clough, and W. D. Collins, \"Radiative forcing by long-lived greenhouse gases: Calculations with the AER radiative transfer models, \" J. Geophys. Res., vol. 113, no. D13, pp. 1-8, 2008."
+                    },
+                    {
+                        "ref-fulltext": "S. Sobri, S. Koohi-Kamali, and N. A. Rahim, \"Solar photovoltaic generation forecasting methods: A review, \" Energy Convers. Manage., vol. 156, pp. 459-497, Jan. 2018.",
+                        "@id": "38",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Solar photovoltaic generation forecasting methods: A review"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85035116145",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "156"},
+                                "pagerange": {
+                                    "@first": "459",
+                                    "@last": "497"
+                                }
+                            },
+                            "ref-text": "Jan.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sobri",
+                                    "ce:indexed-name": "Sobri S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koohi-Kamali",
+                                    "ce:indexed-name": "Koohi-Kamali S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rahim",
+                                    "ce:indexed-name": "Rahim N.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Energy Convers. Manage."
+                        },
+                        "ce:source-text": "S. Sobri, S. Koohi-Kamali, and N. A. Rahim, \"Solar photovoltaic generation forecasting methods: A review, \" Energy Convers. Manage., vol. 156, pp. 459-497, Jan. 2018."
+                    },
+                    {
+                        "ref-fulltext": "D. P. Larson, L. Nonnenmacher, and C. F. M. Coimbra, \"Day-Ahead forecasting of solar power output from photovoltaic plants in the American Southwest, \" Renew. Energy, vol. 91, pp. 11-20, Jun. 2016.",
+                        "@id": "39",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Day-Ahead forecasting of solar power output from photovoltaic plants in the American Southwest"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84954306935",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "91"},
+                                "pagerange": {
+                                    "@first": "11",
+                                    "@last": "20"
+                                }
+                            },
+                            "ref-text": "Jun.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Larson",
+                                    "ce:indexed-name": "Larson D.P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nonnenmacher",
+                                    "ce:indexed-name": "Nonnenmacher L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.F.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Coimbra",
+                                    "ce:indexed-name": "Coimbra C.F.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Renew. Energy"
+                        },
+                        "ce:source-text": "D. P. Larson, L. Nonnenmacher, and C. F. M. Coimbra, \"Day-Ahead forecasting of solar power output from photovoltaic plants in the American Southwest, \" Renew. Energy, vol. 91, pp. 11-20, Jun. 2016."
+                    },
+                    {
+                        "ref-fulltext": "S. Suksamosorn, N. Hoonchareon, and J. Songsiri, \"Influential variable selection for improving solar forecasts from numerical weather prediction, \" in Proc. 15th Int. Conf. Electr. Eng./Electron., Comput., Telecom-mun. Inf. Technol. (ECTI-CON), Jul. 2018, pp. 333-336.",
+                        "@id": "40",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Influential variable selection for improving solar forecasts from numerical weather prediction"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85062208205",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "333",
+                                "@last": "336"
+                            }},
+                            "ref-text": "Jul.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Suksamosorn",
+                                    "ce:indexed-name": "Suksamosorn S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hoonchareon",
+                                    "ce:indexed-name": "Hoonchareon N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Songsiri",
+                                    "ce:indexed-name": "Songsiri J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 15th Int. Conf. Electr. Eng./Electron., Comput., Telecom-mun. Inf. Technol. (ECTI-CON)"
+                        },
+                        "ce:source-text": "S. Suksamosorn, N. Hoonchareon, and J. Songsiri, \"Influential variable selection for improving solar forecasts from numerical weather prediction, \" in Proc. 15th Int. Conf. Electr. Eng./Electron., Comput., Telecom-mun. Inf. Technol. (ECTI-CON), Jul. 2018, pp. 333-336."
+                    },
+                    {
+                        "ref-fulltext": "B. Anderson and J. Moore, Optimal Filtering. New York, NY, USA: Dover, 2005.",
+                        "@id": "41",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0004093046",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "New York, NY, USA: Dover",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Anderson",
+                                    "ce:indexed-name": "Anderson B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Moore",
+                                    "ce:indexed-name": "Moore J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Optimal Filtering"
+                        },
+                        "ce:source-text": "B. Anderson and J. Moore, Optimal Filtering. New York, NY, USA: Dover, 2005."
+                    },
+                    {
+                        "ref-fulltext": "S. Suksamosorn, \"An improvement of photovoltaic power forecasting from numerical weather prediction, \" M.S. Thesis, Fac. Eng., Chulalongkorn Univ., Bangkok, Thailand, 2019.",
+                        "@id": "42",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85112719115",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "M.S. Thesis, Fac. Eng., Chulalongkorn Univ., Bangkok, Thailand",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "ce:surname": "Suksamosorn",
+                                "ce:indexed-name": "Suksamosorn S."
+                            }]},
+                            "ref-sourcetitle": "An Improvement of Photovoltaic Power Forecasting from Numerical Weather Prediction"
+                        },
+                        "ce:source-text": "S. Suksamosorn, \"An improvement of photovoltaic power forecasting from numerical weather prediction, \" M.S. Thesis, Fac. Eng., Chulalongkorn Univ., Bangkok, Thailand, 2019."
+                    },
+                    {
+                        "ref-fulltext": "R. Huva, H. Verbois, and W. Walsh, \"Comparisons of next-day solar forecasting for Singapore using 3DVAR and 4DVAR data assimilation approaches with the WRF model, \" Renew. Energy, vol. 147, pp. 663-671, Mar. 2020.",
+                        "@id": "43",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Comparisons of next-day solar forecasting for Singapore using 3DVAR and 4DVAR data assimilation approaches with the WRF model"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85072217824",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "147"},
+                                "pagerange": {
+                                    "@first": "663",
+                                    "@last": "671"
+                                }
+                            },
+                            "ref-text": "Mar.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huva",
+                                    "ce:indexed-name": "Huva R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Verbois",
+                                    "ce:indexed-name": "Verbois H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Walsh",
+                                    "ce:indexed-name": "Walsh W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Renew. Energy"
+                        },
+                        "ce:source-text": "R. Huva, H. Verbois, and W. Walsh, \"Comparisons of next-day solar forecasting for Singapore using 3DVAR and 4DVAR data assimilation approaches with the WRF model, \" Renew. Energy, vol. 147, pp. 663-671, Mar. 2020."
+                    },
+                    {
+                        "ref-fulltext": "A. Haque, M. Nehrir, and P. Mandal, \"Solar PV power generation forecast using a hybrid intelligent approach, \" in Proc. IEEE Power Energy Soc. Gen. Meeting, Jul. 2013, pp. 1-5.",
+                        "@id": "44",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Solar PV power generation forecast using a hybrid intelligent approach"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84893165453",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "5"
+                            }},
+                            "ref-text": "Jul.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Haque",
+                                    "ce:indexed-name": "Haque A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nehrir",
+                                    "ce:indexed-name": "Nehrir M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mandal",
+                                    "ce:indexed-name": "Mandal P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Ieee Power Energy Soc. Gen. Meeting"
+                        },
+                        "ce:source-text": "A. Haque, M. Nehrir, and P. Mandal, \"Solar PV power generation forecast using a hybrid intelligent approach, \" in Proc. IEEE Power Energy Soc. Gen. Meeting, Jul. 2013, pp. 1-5."
+                    },
+                    {
+                        "ref-fulltext": "M. G. De Giorgi, P. M. Congedo, and M. Malvoni, \"Photovoltaic power forecasting using statistical methods: Impact of weather data, \" IET Sci. Meas. Technol., vol. 8, no. 3, pp. 90-97, May 2014.",
+                        "@id": "45",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Photovoltaic power forecasting using statistical methods: Impact of weather data"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84901231602",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "8",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "90",
+                                    "@last": "97"
+                                }
+                            },
+                            "ref-text": "May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "De Giorgi",
+                                    "ce:indexed-name": "De Giorgi M.G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Congedo",
+                                    "ce:indexed-name": "Congedo P.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Malvoni",
+                                    "ce:indexed-name": "Malvoni M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Iet Sci. Meas. Technol."
+                        },
+                        "ce:source-text": "M. G. De Giorgi, P. M. Congedo, and M. Malvoni, \"Photovoltaic power forecasting using statistical methods: Impact of weather data, \" IET Sci. Meas. Technol., vol. 8, no. 3, pp. 90-97, May 2014."
+                    },
+                    {
+                        "ref-fulltext": "S. Leva, A. Dolara, F. Grimaccia, M. Mussetta, and E. Ogliari, \"Analysis and validation of 24 hours ahead neural network forecasting of photovoltaic output power, \" Math. Comput. Simul., vol. 131, pp. 88-100, Jan. 2017.",
+                        "@id": "46",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Analysis and validation of 24 hours ahead neural network forecasting of photovoltaic output power"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84937891545",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "131"},
+                                "pagerange": {
+                                    "@first": "88",
+                                    "@last": "100"
+                                }
+                            },
+                            "ref-text": "Jan.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Leva",
+                                    "ce:indexed-name": "Leva S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dolara",
+                                    "ce:indexed-name": "Dolara A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grimaccia",
+                                    "ce:indexed-name": "Grimaccia F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mussetta",
+                                    "ce:indexed-name": "Mussetta M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ogliari",
+                                    "ce:indexed-name": "Ogliari E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Math. Comput. Simul."
+                        },
+                        "ce:source-text": "S. Leva, A. Dolara, F. Grimaccia, M. Mussetta, and E. Ogliari, \"Analysis and validation of 24 hours ahead neural network forecasting of photovoltaic output power, \" Math. Comput. Simul., vol. 131, pp. 88-100, Jan. 2017."
+                    },
+                    {
+                        "ref-fulltext": "H. Zhu, X. Li, Q. Sun, L. Nie, J. Yao, and G. Zhao, \"A power prediction method for photovoltaic power plant based on wavelet decomposition and artificial neural networks, \" Energies, vol. 9, no. 1, p. 11, Dec. 2015.",
+                        "@id": "47",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "A power prediction method for photovoltaic power plant based on wavelet decomposition and artificial neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84956613084",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "9",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {"@first": "11"}
+                            },
+                            "ref-text": "Dec.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li X."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun Q."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nie",
+                                    "ce:indexed-name": "Nie L."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yao",
+                                    "ce:indexed-name": "Yao J."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Energies"
+                        },
+                        "ce:source-text": "H. Zhu, X. Li, Q. Sun, L. Nie, J. Yao, and G. Zhao, \"A power prediction method for photovoltaic power plant based on wavelet decomposition and artificial neural networks, \" Energies, vol. 9, no. 1, p. 11, Dec. 2015."
+                    },
+                    {
+                        "ref-fulltext": "P. C. Young, Recursive Estimation and Time-Series Analysis: An Introduc-Tion. Berlin, Germany: Springer, 2012.",
+                        "@id": "48",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003792865",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Berlin, Germany: Springer",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "P.C.",
+                                "@_fa": "true",
+                                "ce:surname": "Young",
+                                "ce:indexed-name": "Young P.C."
+                            }]},
+                            "ref-sourcetitle": "Recursive Estimation and Time-Series Analysis: An Introduc-Tion"
+                        },
+                        "ce:source-text": "P. C. Young, Recursive Estimation and Time-Series Analysis: An Introduc-Tion. Berlin, Germany: Springer, 2012."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Bangkok",
+        "@id": "60028190",
+        "affilname": "Chulalongkorn University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+        "affiliation-country": "Thailand"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85112642279",
+        "dc:description": "Solar power forecasting with a day-ahead horizon has played an important role in the operational planning of generating units in power system operations. We aim to develop a solar power forecasting model suitable for a tropical climate, using Thailand as a model, and hence present a linear recursive regression model as a post-processing step for reducing the errors obtained from the Weather Research and Forecasting (WRF) model. This model consists of submodels, each of which predicts the solar irradiance of a particular time of the day. By using a stepwise regression method, we found that WRF forecasts of irradiance, temperature, relative humidity, and the solar zenith angle were selected as highly relevant inputs of the model. The regression model coefficients are updated according to a Kalman filtering (KF) scheme so that the model can flexibly adapt to fluctuations in the solar irradiance. We then modify the KF update formula to accommodate the limitation in measurement availability at the time of executing the forecasts. The proposed KF formula can be generalized to find the optimal prediction given that the available measurements are mapped by an affine transformation. The obtained results using actual data from a solar rooftop system located in the central region of Thailand showed that the normalized root-mean-square error (NRMSE) of solar power prediction was about 12-13%, which was decreased from the NRMSE of the WRF model by 7-12% on average. This improvement was the best out of similar post-processing methods based on the model output statistics framework.",
+        "prism:coverDate": "2021-01-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85112642279",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Supachai",
+            "preferred-name": {
+                "ce:given-name": "Supachai",
+                "ce:initials": "S.",
+                "ce:surname": "Suksamosorn",
+                "ce:indexed-name": "Suksamosorn S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Suksamosorn",
+            "@auid": "57201300018",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57201300018",
+            "ce:indexed-name": "Suksamosorn S."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85112642279"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85112642279&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85112642279&origin=inward"
+            }
+        ],
+        "source-id": "21100374601",
+        "citedby-count": "4",
+        "prism:volume": "9",
+        "subtype": "ar",
+        "dc:title": "Post-Processing of NWP Forecasts Using Kalman Filtering with Operational Constraints for Day-Ahead Solar Power Forecasting in Thailand",
+        "openaccess": "1",
+        "prism:issn": "21693536",
+        "publishercopyright": "© 2013 IEEE.",
+        "article-number": "9494359",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "IEEE Access",
+        "prism:pageRange": "105409-105423",
+        "prism:endingPage": "105423",
+        "openaccessFlag": "true",
+        "prism:doi": "10.1109/ACCESS.2021.3099481",
+        "prism:startingPage": "105409",
+        "dc:identifier": "SCOPUS_ID:85112642279",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Affine transformations",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Model output statistics",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Operational constraints",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Power system operations",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Regression model coefficients",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Root mean square errors",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Stepwise regression method",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Weather research and forecasting models",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Kalman filter"
+        },
+        {
+            "@_fa": "true",
+            "$": "model output statistics"
+        },
+        {
+            "@_fa": "true",
+            "$": "numerical weather prediction"
+        },
+        {
+            "@_fa": "true",
+            "$": "Solar irradiance forecasting"
+        },
+        {
+            "@_fa": "true",
+            "$": "WRF"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Computer Science (all)",
+            "@code": "1700",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Materials Science (all)",
+            "@code": "2500",
+            "@abbrev": "MATE"
+        },
+        {
+            "@_fa": "true",
+            "$": "Engineering (all)",
+            "@code": "2200",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Supachai",
+            "preferred-name": {
+                "ce:given-name": "Supachai",
+                "ce:initials": "S.",
+                "ce:surname": "Suksamosorn",
+                "ce:indexed-name": "Suksamosorn S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Suksamosorn",
+            "@auid": "57201300018",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57201300018",
+            "ce:indexed-name": "Suksamosorn S."
+        },
+        {
+            "ce:given-name": "Naebboon",
+            "preferred-name": {
+                "ce:given-name": "Naebboon",
+                "ce:initials": "N.",
+                "ce:surname": "Hoonchareon",
+                "ce:indexed-name": "Hoonchareon N."
+            },
+            "@seq": "2",
+            "ce:initials": "N.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Hoonchareon",
+            "@auid": "24177824600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/24177824600",
+            "ce:indexed-name": "Hoonchareon N."
+        },
+        {
+            "ce:given-name": "Jitkomut",
+            "preferred-name": {
+                "ce:given-name": "Jitkomut",
+                "ce:initials": "J.",
+                "ce:surname": "Songsiri",
+                "ce:indexed-name": "Songsiri J."
+            },
+            "@seq": "3",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Songsiri",
+            "@auid": "9332911700",
+            "author-url": "https://api.elsevier.com/content/author/author_id/9332911700",
+            "ce:indexed-name": "Songsiri J."
+        }
+    ]}
+}}

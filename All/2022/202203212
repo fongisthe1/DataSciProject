@@ -1,0 +1,878 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "19",
+                "@timestamp": "2023-03-19T23:19:11.000011-04:00",
+                "@year": "2023",
+                "@month": "03"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2022",
+                "@month": "01"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "@afid": "60028190",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Chulalongkorn University"},
+                            {"$": "Software Engineering Program"},
+                            {"$": "Department of Computer Engineering"},
+                            {"$": "Faculty of Engineering"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60028190",
+                            "@dptid": "113891981"
+                        },
+                        "@affiliation-instance-id": "OB2BibRecID-946519572-57d1b7140e6827d717adba9514c0f47d-1",
+                        "ce:source-text": "Chulalongkorn University, Software Engineering Program, Department of Computer Engineering, Faculty of Engineering, Bangkok, Thailand",
+                        "@dptid": "113891981"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Supakorn",
+                            "preferred-name": {
+                                "ce:given-name": "Supakorn",
+                                "ce:initials": "S.",
+                                "ce:surname": "Trakulmaiphol",
+                                "ce:indexed-name": "Trakulmaiphol S."
+                            },
+                            "@author-instance-id": "OB2BibRecID-946519572-8f333be5310d8e4cc94e7724b2f544a5-1",
+                            "@seq": "1",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Trakulmaiphol",
+                            "@auid": "58134553200",
+                            "ce:indexed-name": "Trakulmaiphol S."
+                        },
+                        {
+                            "ce:given-name": "Krerk",
+                            "preferred-name": {
+                                "ce:given-name": "Krerk",
+                                "ce:initials": "K.",
+                                "ce:surname": "Piromsopa",
+                                "ce:indexed-name": "Piromsopa K."
+                            },
+                            "@author-instance-id": "OB2BibRecID-946519572-33560571e10ba6ed9e0c124ce4bb4438-1",
+                            "@seq": "2",
+                            "ce:initials": "K.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Piromsopa",
+                            "@auid": "14018355900",
+                            "ce:indexed-name": "Piromsopa K."
+                        }
+                    ]
+                },
+                "citation-title": "An Implementation of DNS Operator and Network Guideline for Migrating Virtual Machine to KubeVirt",
+                "abstracts": "© 2022 IEEE.We created a customize DNS operator to address the shortcoming of CoreDNS in Kubernetes. While Kubernetes is gaining popularity in orchestrating containers, many organizations with Virtual Machine (VM) based legacy applications still struggle to containerize. Rehost strategy seems to be a faster method. On Kubernetes, KubeVirt can be used to manage rehosted VM. However, there is a huge difference between the long-term use of the VMs and containers. For example, container IP addresses change over time is problematic for VMs that need a static IP. In addition, some VM-based applications may require multiple network interfaces or a specific domain name for service discovery. These issues prevent some VMs from functioning properly after the migration to KubeVirt. We developed an operator framework to solve network problems that arise in the application layer such as DNS queries. In addition, we provide a guideline on how to use open-source projects like the Multus Container Network Interface, NMState to enable the migration of VMs with applications related to network function properly. Our operator and guideline allow most VMs to function properly with few modifications (to none) after migrating to KubeVirt. This facilitated the adoption of Kubernetes in more organizations.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Chulalongkorn University"},
+                            {"$": "Software Engineering Program"},
+                            {"$": "Department of Computer Engineering"},
+                            {"$": "Faculty of Engineering"}
+                        ],
+                        "@affiliation-instance-id": "OB2BibRecID-946519572-57d1b7140e6827d717adba9514c0f47d-1",
+                        "ce:source-text": "Chulalongkorn University, Software Engineering Program, Department of Computer Engineering, Faculty of Engineering, Bangkok, Thailand"
+                    },
+                    "person": {
+                        "ce:given-name": "Supakorn",
+                        "@author-instance-id": "OB2BibRecID-946519572-bcc75909de1d44c4d489b247ddb20448-1",
+                        "ce:initials": "S.",
+                        "ce:surname": "Trakulmaiphol",
+                        "ce:indexed-name": "Trakulmaiphol S."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Container Network Interface",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Kubernetes",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Kubernetes NMState",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "KubeVirt",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Multus CNI",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Operator SDK",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=10049307",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "ICSEC 2022 - International Computer Science and Engineering Conference 2022",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"pagerange": {
+                        "@first": "84",
+                        "@last": "89"
+                    }},
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781665491983",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "26th International Computer Science and Engineering Conference, ICSEC 2022",
+                            "confnumber": "26",
+                            "confcatnumber": "CFP22IBE-ART",
+                            "confseriestitle": "International Computer Science and Engineering Conference",
+                            "conflocation": {
+                                "@country": "tha",
+                                "city": "Sakon Nakhon"
+                            },
+                            "confcode": "186915",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "23",
+                                    "@year": "2022",
+                                    "@month": "12"
+                                },
+                                "startdate": {
+                                    "@day": "21",
+                                    "@year": "2022",
+                                    "@month": "12"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "ICSEC 2022 - International Computer Science and Engineering Conference 2022",
+                    "publicationdate": {
+                        "year": "2022",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2022"
+                        }
+                    },
+                    "sourcetitle-abbrev": "ICSEC - Int. Comput. Sci. Eng. Conf.",
+                    "@country": "usa",
+                    "issuetitle": "ICSEC 2022 - International Computer Science and Engineering Conference 2022",
+                    "publicationyear": {"@first": "2022"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "@srcid": "21101140125"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1702"},
+                            {"$": "1705"},
+                            {"$": "1706"},
+                            {"$": "1707"},
+                            {"$": "1802"},
+                            {"$": "2606"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "722.3",
+                                "classification-description": "Data Communication, Equipment and Techniques"
+                            },
+                            {
+                                "classification-code": "723",
+                                "classification-description": "Computer Software, Data Handling and Applications"
+                            },
+                            {
+                                "classification-code": "723.5",
+                                "classification-description": "Computer Applications"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "DECI"},
+                            {"$": "MATH"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2023 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "14",
+                    "@timestamp": "BST 07:03:08",
+                    "@year": "2023",
+                    "@month": "03"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "640519781",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "946519572",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20231113699901",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20230883920",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85149655338",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85149655338",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/ICSEC56337.2022.10049369"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "16",
+                "reference": [
+                    {
+                        "ref-fulltext": "\"KubeVirt\", KubeVirt, 2022. [Online]. Available: kubevirt. io",
+                        "@reference-instance-id": "OB2BibRecID-946519572-c90abb7263424a883d0d3cb861289f4e-1",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85149657534",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "KubeVirt. kubevirt. io",
+                            "ref-sourcetitle": "KubeVirt"
+                        },
+                        "ce:source-text": "\"KubeVirt\", KubeVirt, 2022. [Online]. Available: kubevirt. io"
+                    },
+                    {
+                        "ref-fulltext": "\"Configure IP pools\", Project Calico, 2022. [Online]. Available: https://projectcalico. docs. tigera. io/getting-started/kubernetes/hardway/configure-ip-pools",
+                        "@reference-instance-id": "OB2BibRecID-946519572-a2ab54ef8d1b215fe5f17a9e94b23ca9-2",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://projectcalico.docs.tigera.io/getting-started/kubernetes/hardway/configure-ip-pools",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85133143471",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Configure IP pools",
+                            "ref-sourcetitle": "Project Calico"
+                        },
+                        "ce:source-text": "\"Configure IP pools\", Project Calico, 2022. [Online]. Available: https://projectcalico. docs. tigera. io/getting-started/kubernetes/hardway/configure-ip-pools"
+                    },
+                    {
+                        "ref-fulltext": "\"DNS for Services and Pods\", Kubernetes, 2022. [Online]. Available: kubernetes. io/docs/concepts/services-networking/dns-pod-service",
+                        "@reference-instance-id": "OB2BibRecID-946519572-61e9096244a30de77ceab818630bb074-3",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-website": {
+                                "websitename": "Kubernetes",
+                                "ce:e-address": {
+                                    "$": "kubernetes.io/docs/concepts/services-networking/dns-pod-service",
+                                    "@type": "email"
+                                }
+                            },
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85149637022",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-sourcetitle": "DNS for Services and Pods"
+                        },
+                        "ce:source-text": "\"DNS for Services and Pods\", Kubernetes, 2022. [Online]. Available: kubernetes. io/docs/concepts/services-networking/dns-pod-service"
+                    },
+                    {
+                        "ref-fulltext": "B. Burns and D. Oppenheimer, Google, \"Design patterns for container-based distributed systems\", in HotCloud'16: Proceedings of the 8th USENIX Conference on Hot Topics in Cloud Computing, Denver, Colorado, 2016, pp. 108-113.",
+                        "@reference-instance-id": "OB2BibRecID-946519572-dc6acc81193a868c06870c6361d7c30e-4",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Google Design patterns for container-based distributed systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85084163970",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "108",
+                                "@last": "113"
+                            }},
+                            "ref-text": "Denver, Colorado",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Burns",
+                                    "ce:indexed-name": "Burns B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oppenheimer",
+                                    "ce:indexed-name": "Oppenheimer D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "HotCloud'16: Proceedings of the 8th USENIX Conference on Hot Topics in Cloud Computing"
+                        },
+                        "ce:source-text": "B. Burns and D. Oppenheimer, Google, \"Design patterns for container-based distributed systems\", in HotCloud'16: Proceedings of the 8th USENIX Conference on Hot Topics in Cloud Computing, Denver, Colorado, 2016, pp. 108-113."
+                    },
+                    {
+                        "ref-fulltext": "\"Multus CNI\", GitHub, 2022. [Online]. Available: https://github. com/k8snetworkplumbingwg/multus-cni",
+                        "@reference-instance-id": "OB2BibRecID-946519572-8b2dc696106e569cfc173ecb3c9a3edc-5",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://github.com/k8snetworkplumbingwg/multus-cni",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Multus CNI"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85149671632",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-sourcetitle": "GitHub"
+                        },
+                        "ce:source-text": "\"Multus CNI\", GitHub, 2022. [Online]. Available: https://github. com/k8snetworkplumbingwg/multus-cni"
+                    },
+                    {
+                        "ref-fulltext": "\"Forklift Overview\", Konveyor Community, 2022. [Online]. Available: https://konveyor. github. io/forklift/overview/",
+                        "@reference-instance-id": "OB2BibRecID-946519572-6a86af1e118b2b4fc647599505c4e7a5-6",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://konveyor.github.io/forklift/overview/",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85149682106",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Forklift Overview",
+                            "ref-sourcetitle": "Konveyor Community"
+                        },
+                        "ce:source-text": "\"Forklift Overview\", Konveyor Community, 2022. [Online]. Available: https://konveyor. github. io/forklift/overview/"
+                    },
+                    {
+                        "ref-fulltext": "\"vCenter AWS Migration Service\", Amazon Web Services, 2022. [Online]. Available: https://aws. amazon. com/blogs/mt/accelerate-vcenter-migration-using-aws-migration-service-agentless-migration/",
+                        "@reference-instance-id": "OB2BibRecID-946519572-f0aca4a40aed9f21ec369b37c2566a39-7",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://aws.amazon.com/blogs/mt/accelerate-vcenter-migration-using-aws-migration-service-agentless-migration/",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85135433885",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "vCenter AWS Migration Service",
+                            "ref-sourcetitle": "Amazon Web Services"
+                        },
+                        "ce:source-text": "\"vCenter AWS Migration Service\", Amazon Web Services, 2022. [Online]. Available: https://aws. amazon. com/blogs/mt/accelerate-vcenter-migration-using-aws-migration-service-agentless-migration/"
+                    },
+                    {
+                        "ref-fulltext": "P. Seshadri et al., \"Konveyor Move2Kube: Automated Replatforming of Applications to Kubernetes\", 2021 IEEE 14th InternationalConference on Cloud Computing (CLOUD), 2021. Available: 10. 1109/cloud53861. 2021. 00093",
+                        "@reference-instance-id": "OB2BibRecID-946519572-a1453264606f6d350fdef7c4d7bff2bc-8",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Konveyor Move2Kube: Automated Replatforming of Applications to Kubernetes"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/cloud53861.2021.00093",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85119347387",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Seshadri",
+                                    "ce:indexed-name": "Seshadri P."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "2021 IEEE 14th InternationalConference on Cloud Computing (CLOUD)"
+                        },
+                        "ce:source-text": "P. Seshadri et al., \"Konveyor Move2Kube: Automated Replatforming of Applications to Kubernetes\", 2021 IEEE 14th InternationalConference on Cloud Computing (CLOUD), 2021. Available: 10. 1109/cloud53861. 2021. 00093"
+                    },
+                    {
+                        "ref-fulltext": "\"Migration Toolkit for Applications\", Red Hat Developer, 2022. [Online]. Available: developers. redhat. com/products/mta/overview",
+                        "@reference-instance-id": "OB2BibRecID-946519572-4ea6b8a9af73eefd7641ceea5d050efe-9",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "developers.redhat.com/products/mta/overview",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85149621911",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Migration Toolkit for Applications",
+                            "ref-sourcetitle": "Red Hat Developer"
+                        },
+                        "ce:source-text": "\"Migration Toolkit for Applications\", Red Hat Developer, 2022. [Online]. Available: developers. redhat. com/products/mta/overview"
+                    },
+                    {
+                        "ref-fulltext": "S. Trakulmaiphol, \"CoreDNS Integration Operator-Sourcecode\", GitHub, 2022. [Online]. Available: https://github. com/wdrdres3qew5ts21/coredns-integration-operator",
+                        "@reference-instance-id": "OB2BibRecID-946519572-727a719fc08336a309bc889a65dcbe96-10",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://github.com/wdrdres3qew5ts21/coredns-integration-operator",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "CoreDNS Integration Operator-Sourcecode"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85149630480",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "ce:surname": "Trakulmaiphol",
+                                "ce:indexed-name": "Trakulmaiphol S."
+                            }]},
+                            "ref-sourcetitle": "GitHub"
+                        },
+                        "ce:source-text": "S. Trakulmaiphol, \"CoreDNS Integration Operator-Sourcecode\", GitHub, 2022. [Online]. Available: https://github. com/wdrdres3qew5ts21/coredns-integration-operator"
+                    },
+                    {
+                        "ref-fulltext": "\"Envoy Config\", Envoyproxy. io, 2022. [Online]. Available: www. envoyproxy. io/docs/envoy/latest/configuration/overview/examples",
+                        "@reference-instance-id": "OB2BibRecID-946519572-27ba6022b058c20def90d20d0628e6e2-11",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-website": {
+                                "websitename": "Envoyproxy. io",
+                                "ce:e-address": {
+                                    "$": "www.envoyproxy.io/docs/envoy/latest/configuration/overview/examples",
+                                    "@type": "email"
+                                }
+                            },
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85149678921",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-sourcetitle": "Envoy Config"
+                        },
+                        "ce:source-text": "\"Envoy Config\", Envoyproxy. io, 2022. [Online]. Available: www. envoyproxy. io/docs/envoy/latest/configuration/overview/examples"
+                    },
+                    {
+                        "ref-fulltext": "\"Virtual Service\", Istio, 2022. [Online]. Available: https://istio. io/latest/docs/reference/config/networking/virtual-service/",
+                        "@reference-instance-id": "OB2BibRecID-946519572-0370c81a0c6c702cfc94b03db111ba3a-12",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-website": {
+                                "websitename": "Istio",
+                                "ce:e-address": {
+                                    "$": "https://istio.io/latest/docs/reference/config/networking/virtual-service/",
+                                    "@type": "email"
+                                }
+                            },
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85149638458",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-sourcetitle": "Virtual Service"
+                        },
+                        "ce:source-text": "\"Virtual Service\", Istio, 2022. [Online]. Available: https://istio. io/latest/docs/reference/config/networking/virtual-service/"
+                    },
+                    {
+                        "ref-fulltext": "\"Understanding the DNS Operator-Networking\", Openshift Document, 2022. [Online]. Available: https://docs. openshift. com/ container-platform/4. 8/networking/dns-operator. html",
+                        "@reference-instance-id": "OB2BibRecID-946519572-d78abb189eb8882b60b7bc32be47bc54-13",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://docs.openshift.com/container-platform/4.8/networking/dns-operator.html",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Understanding the DNS Operator-Networking"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85149694430",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-sourcetitle": "Openshift Document"
+                        },
+                        "ce:source-text": "\"Understanding the DNS Operator-Networking\", Openshift Document, 2022. [Online]. Available: https://docs. openshift. com/ container-platform/4. 8/networking/dns-operator. html"
+                    },
+                    {
+                        "ref-fulltext": "\"Introduction to Linux interfaces for virtual networking\", Red HatDeveloper, 2018. [Online]. Available: https://developers. redhat. com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking",
+                        "@reference-instance-id": "OB2BibRecID-946519572-dcabfca7441f748ea270554eab9814e3-14",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Introduction to Linux interfaces for virtual networking"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85149669312",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-sourcetitle": "Red HatDeveloper"
+                        },
+                        "ce:source-text": "\"Introduction to Linux interfaces for virtual networking\", Red HatDeveloper, 2018. [Online]. Available: https://developers. redhat. com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking"
+                    },
+                    {
+                        "ref-fulltext": "\"Known issue: macvlan CNI is not supported Issue#5483\", GitHub, 2021. [Online]. Available: https://github. com/kubevirt/kubevirt/issues/5483#issuecomment-1076197447",
+                        "@reference-instance-id": "OB2BibRecID-946519572-c65c020cea283b385e41f915eb430d26-15",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-website": {
+                                "websitename": "GitHub",
+                                "ce:e-address": {
+                                    "$": "https://github.com/kubevirt/kubevirt/issues/5483#issuecomment-1076197447",
+                                    "@type": "email"
+                                }
+                            },
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85149710454",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-sourcetitle": "Known Issue: Macvlan CNI Is Not Supported Issue#5483"
+                        },
+                        "ce:source-text": "\"Known issue: macvlan CNI is not supported Issue#5483\", GitHub, 2021. [Online]. Available: https://github. com/kubevirt/kubevirt/issues/5483#issuecomment-1076197447"
+                    },
+                    {
+                        "ref-fulltext": "\"Failed to retrieve default gw at runProbes timed out waiting for thecondition when Linux Bridge NNCP apply Issue #1063\", GitHub, 2022. [Online]. Available: https://github. com/nmstate/kubernetes-nmstate/issues/1063",
+                        "@reference-instance-id": "OB2BibRecID-946519572-4dc1a35e1d99fbccd0c1da41a0480d40-16",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://github.com/nmstate/kubernetes-nmstate/issues/1063",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Failed to retrieve default gw at runProbes timed out waiting for thecondition when Linux Bridge NNCP apply Issue #1063"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85149630953",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-sourcetitle": "GitHub"
+                        },
+                        "ce:source-text": "\"Failed to retrieve default gw at runProbes timed out waiting for thecondition when Linux Bridge NNCP apply Issue #1063\", GitHub, 2022. [Online]. Available: https://github. com/nmstate/kubernetes-nmstate/issues/1063"
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Bangkok",
+        "@id": "60028190",
+        "affilname": "Chulalongkorn University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+        "affiliation-country": "Thailand"
+    },
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85149655338",
+        "dc:description": "We created a customize DNS operator to address the shortcoming of CoreDNS in Kubernetes. While Kubernetes is gaining popularity in orchestrating containers, many organizations with Virtual Machine (VM) based legacy applications still struggle to containerize. Rehost strategy seems to be a faster method. On Kubernetes, KubeVirt can be used to manage rehosted VM. However, there is a huge difference between the long-term use of the VMs and containers. For example, container IP addresses change over time is problematic for VMs that need a static IP. In addition, some VM-based applications may require multiple network interfaces or a specific domain name for service discovery. These issues prevent some VMs from functioning properly after the migration to KubeVirt. We developed an operator framework to solve network problems that arise in the application layer such as DNS queries. In addition, we provide a guideline on how to use open-source projects like the Multus Container Network Interface, NMState to enable the migration of VMs with applications related to network function properly. Our operator and guideline allow most VMs to function properly with few modifications (to none) after migrating to KubeVirt. This facilitated the adoption of Kubernetes in more organizations.",
+        "prism:coverDate": "2022-01-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85149655338",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Supakorn",
+            "preferred-name": {
+                "ce:given-name": "Supakorn",
+                "ce:initials": "S.",
+                "ce:surname": "Trakulmaiphol",
+                "ce:indexed-name": "Trakulmaiphol S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Trakulmaiphol",
+            "@auid": "58134553200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58134553200",
+            "ce:indexed-name": "Trakulmaiphol S."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85149655338"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85149655338&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85149655338&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781665491983",
+        "prism:publicationName": "ICSEC 2022 - International Computer Science and Engineering Conference 2022",
+        "source-id": "21101140125",
+        "citedby-count": "0",
+        "subtype": "cp",
+        "prism:pageRange": "84-89",
+        "dc:title": "An Implementation of DNS Operator and Network Guideline for Migrating Virtual Machine to KubeVirt",
+        "prism:endingPage": "89",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/ICSEC56337.2022.10049369",
+        "prism:startingPage": "84",
+        "publishercopyright": "© 2022 IEEE.",
+        "dc:identifier": "SCOPUS_ID:85149655338",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Change-over time",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Container network interface",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Fast methods",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Kubernetes",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Kubernetes nmstate",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Kubevirt",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Legacy applications",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Multiple networks",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Multus CNI",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Operator SDK",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Container Network Interface"
+        },
+        {
+            "@_fa": "true",
+            "$": "Kubernetes"
+        },
+        {
+            "@_fa": "true",
+            "$": "Kubernetes NMState"
+        },
+        {
+            "@_fa": "true",
+            "$": "KubeVirt"
+        },
+        {
+            "@_fa": "true",
+            "$": "Multus CNI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Operator SDK"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Artificial Intelligence",
+            "@code": "1702",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Networks and Communications",
+            "@code": "1705",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Vision and Pattern Recognition",
+            "@code": "1707",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Information Systems and Management",
+            "@code": "1802",
+            "@abbrev": "DECI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Control and Optimization",
+            "@code": "2606",
+            "@abbrev": "MATH"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Supakorn",
+            "preferred-name": {
+                "ce:given-name": "Supakorn",
+                "ce:initials": "S.",
+                "ce:surname": "Trakulmaiphol",
+                "ce:indexed-name": "Trakulmaiphol S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Trakulmaiphol",
+            "@auid": "58134553200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58134553200",
+            "ce:indexed-name": "Trakulmaiphol S."
+        },
+        {
+            "ce:given-name": "Krerk",
+            "preferred-name": {
+                "ce:given-name": "Krerk",
+                "ce:initials": "K.",
+                "ce:surname": "Piromsopa",
+                "ce:indexed-name": "Piromsopa K."
+            },
+            "@seq": "2",
+            "ce:initials": "K.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Piromsopa",
+            "@auid": "14018355900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/14018355900",
+            "ce:indexed-name": "Piromsopa K."
+        }
+    ]}
+}}

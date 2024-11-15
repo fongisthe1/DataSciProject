@@ -1,0 +1,1463 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "23",
+                "@timestamp": "2022-09-23T07:42:21.000021-04:00",
+                "@year": "2022",
+                "@month": "09"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2021",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": {
+                "xocs:funding-agency-matched-string": "Chulalongkorn University",
+                "xocs:funding-agency-acronym": "CU",
+                "xocs:funding-agency": "Chulalongkorn University",
+                "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002873",
+                "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+            },
+            "xocs:funding-addon-generated-timestamp": "2022-09-21T15:02:20.524Z",
+            "xocs:funding-text": "Table 5 and show different seed word sets for the category \u201ceconomy\u201d and their corresponding per- formance. YJ was supported by the scholarship from \u2018The Keyword expansion alone improved the accu-100th Anniversary Chulalongkorn University Fund racy significantly from the category name baseline. for Doctoral Scholarship\u2019. We thank anonymous However, it may introduce some ambiguous key-reviewers for their valuable feedback. words in the meantime. The unsupervised error esti-117 mator successfully identified top keywords such as \u201ceconomist\u201d and \u201ceconomists\u201d and eliminated poor keywords like \u201cpurchases\u201d and \u201cgrowth\u201d, which further improved the accuracy by 2.4%.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "organization": [
+                                {"$": "Department of Mathematics & Computer Science"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "113870560"
+                            },
+                            "ce:source-text": "Department of Mathematics & Computer Science, Chulalongkorn University, Thailand",
+                            "@dptid": "113870560"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Yiping",
+                                "preferred-name": {
+                                    "ce:given-name": "Yiping",
+                                    "ce:initials": "Y.",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin Y."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "Y.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Jin",
+                                "@auid": "57208530918",
+                                "ce:indexed-name": "Jin Y."
+                            },
+                            {
+                                "ce:given-name": "Dittaya",
+                                "preferred-name": {
+                                    "ce:given-name": "Dittaya",
+                                    "ce:initials": "D.",
+                                    "ce:surname": "Wanvarie",
+                                    "ce:indexed-name": "Wanvarie D."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "D.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Wanvarie",
+                                "@auid": "36603800400",
+                                "ce:indexed-name": "Wanvarie D."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Singapore",
+                            "address-part": "140 Robinson Road Crown @ Robinson",
+                            "postal-code": "14-16",
+                            "@afid": "128546350",
+                            "@country": "sgp",
+                            "organization": {"$": "Knorex"},
+                            "affiliation-id": {"@afid": "128546350"},
+                            "ce:source-text": "Knorex, 140 Robinson Road, 14-16 Crown @ Robinson, Singapore"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Yiping",
+                                "preferred-name": {
+                                    "ce:given-name": "Yiping",
+                                    "ce:initials": "Y.",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin Y."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "Y.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Jin",
+                                "@auid": "57208530918",
+                                "ce:indexed-name": "Jin Y."
+                            },
+                            {
+                                "ce:given-name": "Akshay",
+                                "preferred-name": {
+                                    "ce:given-name": "Akshay",
+                                    "ce:initials": "A.",
+                                    "ce:surname": "Bhatia",
+                                    "ce:indexed-name": "Bhatia A."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Bhatia",
+                                "@auid": "57222238449",
+                                "ce:indexed-name": "Bhatia A."
+                            }
+                        ]
+                    }
+                ],
+                "citation-title": "Seed Word Selection for Weakly-Supervised Text Classification with Unsupervised Error Estimation",
+                "abstracts": "© 2021 Association for Computational Linguistics.Weakly-supervised text classification aims to induce text classifiers from only a few user-provided seed words. The vast majority of previous work assumes high-quality seed words are given. However, the expert-annotated seed words are sometimes non-trivial to come up with. Furthermore, in the weakly-supervised learning setting, we do not have any labeled document to measure the seed words\u2019 efficacy, making the seed word selection process \u201ca walk in the dark\u201d. In this work, we remove the need for expert-curated seed words by first mining (noisy) candidate seed words associated with the category names. We then train interim models with individual candidate seed words. Lastly, we estimate the interim models\u2019 error rate in an unsupervised manner. The seed words that yield the lowest estimated error rates are added to the final seed word set. A comprehensive evaluation of six binary classification tasks on four popular datasets demonstrates that the proposed method outperforms a baseline using only category name seed words and obtained comparable performance as a counterpart using expert-annotated seed words 1",
+                "citation-info": {
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "https://aclanthology.org/events/naacl-2021/#2021-naacl-srw",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "NAACL-HLT 2021 - 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Proceedings of the Student Research Workshop",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"pagerange": {
+                        "@first": "112",
+                        "@last": "118"
+                    }},
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781954085503",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "NAACL 2021 Student Research Workshop, SRW 2021, at 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, NAACL-HLT 2021",
+                            "confsponsors": {
+                                "confsponsor": "National Science Foundation",
+                                "@complete": "n"
+                            },
+                            "confseriestitle": "Student Research Workshop",
+                            "conflocation": {"city": "Virtual, Online"},
+                            "confcode": "182064",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "11",
+                                    "@year": "2021",
+                                    "@month": "06"
+                                },
+                                "startdate": {
+                                    "@day": "06",
+                                    "@year": "2021",
+                                    "@month": "06"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "NAACL-HLT 2021 - 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Proceedings of the Student Research Workshop",
+                    "publicationdate": {
+                        "year": "2021",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2021"
+                        }
+                    },
+                    "sourcetitle-abbrev": "NAACL-HLT - Conf. N. Am. Chapter Assoc. Comput. Linguist.: Hum. Lang. Technol., Proc. Stud. Res. Workshop",
+                    "@country": "usa",
+                    "issuetitle": "NAACL-HLT 2021 - 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Proceedings of the Student Research Workshop",
+                    "publicationyear": {"@first": "2021"},
+                    "publisher": {"publishername": "Association for Computational Linguistics (ACL)"},
+                    "@srcid": "21101105452"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1710"},
+                            {"$": "1712"},
+                            {"$": "1705"},
+                            {"$": "1708"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "716.1",
+                                "classification-description": "Information Theory and Signal Processing"
+                            },
+                            {
+                                "classification-code": "721.1",
+                                "classification-description": "Computer Theory, Includes Computational Logic, Automata Theory, Switching Theory, Programming Theory"
+                            },
+                            {
+                                "classification-code": "903.1",
+                                "classification-description": "Information Sources and Analysis"
+                            },
+                            {
+                                "classification-code": "903.3",
+                                "classification-description": "Information Retrieval and Use"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "COMP"
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "YJ was supported by the scholarship from \u2018The 100th Anniversary Chulalongkorn University Fund for Doctoral Scholarship\u2019. We thank anonymous reviewers for their valuable feedback.",
+                        "@xml:lang": "eng"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2022 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "13",
+                    "@timestamp": "BST 07:06:32",
+                    "@year": "2022",
+                    "@month": "09"
+                }},
+                "itemidlist": {"itemid": [
+                    {
+                        "$": "638963148",
+                        "@idtype": "PUI"
+                    },
+                    {
+                        "$": "942759354",
+                        "@idtype": "CAR-ID"
+                    },
+                    {
+                        "$": "20223712717749",
+                        "@idtype": "CPX"
+                    },
+                    {
+                        "$": "20223139480",
+                        "@idtype": "SCOPUS"
+                    },
+                    {
+                        "$": "85137473741",
+                        "@idtype": "SCP"
+                    },
+                    {
+                        "$": "85137473741",
+                        "@idtype": "SGR"
+                    }
+                ]}
+            },
+            "tail": {"bibliography": {
+                "@refcount": "21",
+                "reference": [
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.225",
+                        "ref-fulltext": "Ming-Wei Chang, Lev-Arie Ratinov, Dan Roth, and Vivek Srikumar. 2008. Importance of semantic representation: Dataless classification. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 2, pages 830\u2013835.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Importance of semantic representation: Dataless classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "57749169921",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2"},
+                                "pagerange": {
+                                    "@first": "830",
+                                    "@last": "835"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Ming-Wei",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang Ming-Wei"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Lev-Arie",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ratinov",
+                                    "ce:indexed-name": "Ratinov Lev-Arie"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Dan",
+                                    "@_fa": "true",
+                                    "ce:surname": "Roth",
+                                    "ce:indexed-name": "Roth Dan"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Vivek",
+                                    "@_fa": "true",
+                                    "ce:surname": "Srikumar",
+                                    "ce:indexed-name": "Srikumar Vivek"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the AAAI Conference on Artificial Intelligence"
+                        },
+                        "ce:source-text": "Ming-Wei Chang, Lev-Arie Ratinov, Dan Roth, and Vivek Srikumar. 2008. Importance of semantic representation: Dataless classification. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 2, pages 830\u2013835."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.225",
+                        "ref-fulltext": "Pinar Donmez, Guy Lebanon, and Krishnakumar Balasubramanian. 2010. Unsupervised supervised learning i: Estimating classification and regression errors without labels. Journal of Machine Learning Research, 11(4).",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Unsupervised supervised learning i: Estimating classification and regression errors without labels"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77951970416",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "11",
+                                "@issue": "4"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Pinar",
+                                    "@_fa": "true",
+                                    "ce:surname": "Donmez",
+                                    "ce:indexed-name": "Donmez Pinar"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Guy",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lebanon",
+                                    "ce:indexed-name": "Lebanon Guy"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Krishnakumar",
+                                    "@_fa": "true",
+                                    "ce:surname": "Balasubramanian",
+                                    "ce:indexed-name": "Balasubramanian Krishnakumar"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Machine Learning Research"
+                        },
+                        "ce:source-text": "Pinar Donmez, Guy Lebanon, and Krishnakumar Balasubramanian. 2010. Unsupervised supervised learning i: Estimating classification and regression errors without labels. Journal of Machine Learning Research, 11(4)."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.225",
+                        "ref-fulltext": "Gregory Druck, Gideon Mann, and Andrew McCallum. 2008. Learning from labeled features using generalized expectation criteria. In Proceedings of the 31st Annual International ACM SIGIR Conference on Research and Development in Information Retrieval, pages 595\u2013602. ACM.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Learning from labeled features using generalized expectation criteria"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "57349122015",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "595",
+                                "@last": "602"
+                            }},
+                            "ref-text": "ACM",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Gregory",
+                                    "@_fa": "true",
+                                    "ce:surname": "Druck",
+                                    "ce:indexed-name": "Druck Gregory"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Gideon",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mann",
+                                    "ce:indexed-name": "Mann Gideon"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Andrew",
+                                    "@_fa": "true",
+                                    "ce:surname": "McCallum",
+                                    "ce:indexed-name": "McCallum Andrew"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 31st Annual International ACM SIGIR Conference on Research and Development in Information Retrieval"
+                        },
+                        "ce:source-text": "Gregory Druck, Gideon Mann, and Andrew McCallum. 2008. Learning from labeled features using generalized expectation criteria. In Proceedings of the 31st Annual International ACM SIGIR Conference on Research and Development in Information Retrieval, pages 595\u2013602. ACM."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.225",
+                        "ref-fulltext": "Noemie Elhadad and Komal Sutaria. 2007. Mining a lexicon of technical terms and lay equivalents. In Proceedings of Biological, Translational, and Clinical Language Processing, pages 49\u201356, Prague, Czech Republic. Association for Computational Linguistics.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Mining a lexicon of technical terms and lay equivalents"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85016677040",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "49",
+                                "@last": "56"
+                            }},
+                            "ref-text": "Prague, Czech Republic. Association for Computational Linguistics",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Noemie",
+                                    "@_fa": "true",
+                                    "ce:surname": "Elhadad",
+                                    "ce:indexed-name": "Elhadad Noemie"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Komal",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sutaria",
+                                    "ce:indexed-name": "Sutaria Komal"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of Biological, Translational, and Clinical Language Processing"
+                        },
+                        "ce:source-text": "Noemie Elhadad and Komal Sutaria. 2007. Mining a lexicon of technical terms and lay equivalents. In Proceedings of Biological, Translational, and Clinical Language Processing, pages 49\u201356, Prague, Czech Republic. Association for Computational Linguistics."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.225",
+                        "ref-fulltext": "Evgeniy Gabrilovich, Shaul Markovitch, et al. 2007. Computing semantic relatedness using wikipediabased explicit semantic analysis. In Proceedings of the Twentieth International Joint Conference on Artificial Intelligence, volume 7, pages 1606\u20131611.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Computing semantic relatedness using wikipediabased explicit semantic analysis"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84880915872",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "7"},
+                                "pagerange": {
+                                    "@first": "1606",
+                                    "@last": "1611"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "Evgeniy",
+                                        "@_fa": "true",
+                                        "ce:surname": "Gabrilovich",
+                                        "ce:indexed-name": "Gabrilovich Evgeniy"
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "Shaul",
+                                        "@_fa": "true",
+                                        "ce:surname": "Markovitch",
+                                        "ce:indexed-name": "Markovitch Shaul"
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proceedings of the Twentieth International Joint Conference on Artificial Intelligence"
+                        },
+                        "ce:source-text": "Evgeniy Gabrilovich, Shaul Markovitch, et al. 2007. Computing semantic relatedness using wikipediabased explicit semantic analysis. In Proceedings of the Twentieth International Joint Conference on Artificial Intelligence, volume 7, pages 1606\u20131611."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.225",
+                        "ref-fulltext": "Zhen Hai, Kuiyu Chang, and Gao Cong. 2012. One seed to find them all: mining opinion features via association. In Proceedings of the 21st ACM International Conference on Information and Knowledge Management, pages 255\u2013264.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "One seed to find them all: mining opinion features via association"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84871049330",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "255",
+                                "@last": "264"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Zhen",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hai",
+                                    "ce:indexed-name": "Hai Zhen"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Kuiyu",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang Kuiyu"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Gao",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cong",
+                                    "ce:indexed-name": "Cong Gao"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 21st ACM International Conference on Information and Knowledge Management"
+                        },
+                        "ce:source-text": "Zhen Hai, Kuiyu Chang, and Gao Cong. 2012. One seed to find them all: mining opinion features via association. In Proceedings of the 21st ACM International Conference on Information and Knowledge Management, pages 255\u2013264."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.225",
+                        "ref-fulltext": "Minqing Hu and Bing Liu. 2004. Mining opinion features in customer reviews. In Proceedings of the 19th National Conference on Artifical Intelligence, pages 755\u2013760.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Mining opinion features in customer reviews"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "9444223818",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "755",
+                                "@last": "760"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Minqing",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu Minqing"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Bing",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Bing"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 19th National Conference on Artifical Intelligence"
+                        },
+                        "ce:source-text": "Minqing Hu and Bing Liu. 2004. Mining opinion features in customer reviews. In Proceedings of the 19th National Conference on Artifical Intelligence, pages 755\u2013760."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.225",
+                        "ref-fulltext": "Ariel Jaffe, Boaz Nadler, and Yuval Kluger. 2015. Estimating the accuracies of multiple classifiers without labeled data. In Proceedings of the International Conference on Artificial Intelligence and Statistics, pages 407\u2013415.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Estimating the accuracies of multiple classifiers without labeled data"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84954315193",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "407",
+                                "@last": "415"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Ariel",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jaffe",
+                                    "ce:indexed-name": "Jaffe Ariel"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Boaz",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nadler",
+                                    "ce:indexed-name": "Nadler Boaz"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Yuval",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kluger",
+                                    "ce:indexed-name": "Kluger Yuval"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the International Conference on Artificial Intelligence and Statistics"
+                        },
+                        "ce:source-text": "Ariel Jaffe, Boaz Nadler, and Yuval Kluger. 2015. Estimating the accuracies of multiple classifiers without labeled data. In Proceedings of the International Conference on Artificial Intelligence and Statistics, pages 407\u2013415."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.225",
+                        "ref-fulltext": "Yiping Jin, Dittaya Wanvarie, and Phu TV Le. 2020. Learning from noisy out-of-domain corpus using dataless classification. Natural Language Engineering, In press:1\u201335.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Learning from noisy out-of-domain corpus using dataless classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85123964584",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "35"
+                            }},
+                            "ref-text": "press",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Yiping",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin Yiping"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Dittaya",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wanvarie",
+                                    "ce:indexed-name": "Wanvarie Dittaya"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Phu TV",
+                                    "@_fa": "true",
+                                    "ce:surname": "Le",
+                                    "ce:indexed-name": "Le Phu TV"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Natural Language Engineering"
+                        },
+                        "ce:source-text": "Yiping Jin, Dittaya Wanvarie, and Phu TV Le. 2020. Learning from noisy out-of-domain corpus using dataless classification. Natural Language Engineering, In press:1\u201335."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.225",
+                        "ref-fulltext": "Yoon Kim. 2014. Convolutional neural networks for sentence classification. In Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 1746\u20131751.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Convolutional neural networks for sentence classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84961376850",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1746",
+                                "@last": "1751"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "Yoon",
+                                "@_fa": "true",
+                                "ce:surname": "Kim",
+                                "ce:indexed-name": "Kim Yoon"
+                            }]},
+                            "ref-sourcetitle": "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+                        },
+                        "ce:source-text": "Yoon Kim. 2014. Convolutional neural networks for sentence classification. In Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 1746\u20131751."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.225",
+                        "ref-fulltext": "Daniel Kottke, Jim Schellinger, Denis Huseljic, and Bernhard Sick. 2019. Limitations of assessing active learning performance at runtime. arXiv preprint arXiv:1901.10338.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85072731394",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "arXiv preprint arXiv:1901.10338",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Daniel",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kottke",
+                                    "ce:indexed-name": "Kottke Daniel"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Jim",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schellinger",
+                                    "ce:indexed-name": "Schellinger Jim"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Denis",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huseljic",
+                                    "ce:indexed-name": "Huseljic Denis"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Bernhard",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sick",
+                                    "ce:indexed-name": "Sick Bernhard"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Limitations of assessing active learning performance at runtime"
+                        },
+                        "ce:source-text": "Daniel Kottke, Jim Schellinger, Denis Huseljic, and Bernhard Sick. 2019. Limitations of assessing active learning performance at runtime. arXiv preprint arXiv:1901.10338."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.225",
+                        "ref-fulltext": "Chenliang Li, Shiqian Chen, Jian Xing, Aixin Sun, and Zongyang Ma. 2018. Seed-guided topic model for document filtering and classification. ACM Transactions on Information Systems (TOIS), 37(1):1\u201337.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Seed-guided topic model for document filtering and classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85061266905",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "37",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "37"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Chenliang",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Chenliang"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Shiqian",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen Shiqian"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Jian",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xing",
+                                    "ce:indexed-name": "Xing Jian"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Aixin",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun Aixin"
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Zongyang",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma Zongyang"
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Transactions on Information Systems (TOIS)"
+                        },
+                        "ce:source-text": "Chenliang Li, Shiqian Chen, Jian Xing, Aixin Sun, and Zongyang Ma. 2018. Seed-guided topic model for document filtering and classification. ACM Transactions on Information Systems (TOIS), 37(1):1\u201337."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.225",
+                        "ref-fulltext": "Dheeraj Mekala and Jingbo Shang. 2020. Contextualized weak supervision for text classification. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pages 323\u2013333.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Contextualized weak supervision for text classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85090118588",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "323",
+                                "@last": "333"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Dheeraj",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mekala",
+                                    "ce:indexed-name": "Mekala Dheeraj"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Jingbo",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shang",
+                                    "ce:indexed-name": "Shang Jingbo"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics"
+                        },
+                        "ce:source-text": "Dheeraj Mekala and Jingbo Shang. 2020. Contextualized weak supervision for text classification. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pages 323\u2013333."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.225",
+                        "ref-fulltext": "Yu Meng, Jiaming Shen, Chao Zhang, and Jiawei Han. 2018. Weakly-supervised neural text classification. In Proceedings of the 27th ACM International Conference on Information and Knowledge Management, pages 983\u2013992.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Weakly-supervised neural text classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85058063220",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "983",
+                                "@last": "992"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Yu",
+                                    "@_fa": "true",
+                                    "ce:surname": "Meng",
+                                    "ce:indexed-name": "Meng Yu"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Jiaming",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shen",
+                                    "ce:indexed-name": "Shen Jiaming"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Chao",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Chao"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Jiawei",
+                                    "@_fa": "true",
+                                    "ce:surname": "Han",
+                                    "ce:indexed-name": "Han Jiawei"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 27th ACM International Conference on Information and Knowledge Management"
+                        },
+                        "ce:source-text": "Yu Meng, Jiaming Shen, Chao Zhang, and Jiawei Han. 2018. Weakly-supervised neural text classification. In Proceedings of the 27th ACM International Conference on Information and Knowledge Management, pages 983\u2013992."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.225",
+                        "ref-fulltext": "Yu Meng, Jiaming Shen, Chao Zhang, and Jiawei Han. 2019. Weakly-supervised hierarchical text classification. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 33, pages 6826\u20136833.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Weakly-supervised hierarchical text classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85066895574",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "33"},
+                                "pagerange": {
+                                    "@first": "6826",
+                                    "@last": "6833"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Yu",
+                                    "@_fa": "true",
+                                    "ce:surname": "Meng",
+                                    "ce:indexed-name": "Meng Yu"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Jiaming",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shen",
+                                    "ce:indexed-name": "Shen Jiaming"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Chao",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Chao"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Jiawei",
+                                    "@_fa": "true",
+                                    "ce:surname": "Han",
+                                    "ce:indexed-name": "Han Jiawei"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the AAAI Conference on Artificial Intelligence"
+                        },
+                        "ce:source-text": "Yu Meng, Jiaming Shen, Chao Zhang, and Jiawei Han. 2019. Weakly-supervised hierarchical text classification. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 33, pages 6826\u20136833."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.225",
+                        "ref-fulltext": "Yu Meng, Yunyi Zhang, Jiaxin Huang, Chenyan Xiong, Heng Ji, Chao Zhang, and Jiawei Han. 2020. Text classification using label names only: A language model self-training approach. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Text classification using label names only: A language model self-training approach"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85112348249",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Yu",
+                                    "@_fa": "true",
+                                    "ce:surname": "Meng",
+                                    "ce:indexed-name": "Meng Yu"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Yunyi",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Yunyi"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Jiaxin",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang Jiaxin"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Chenyan",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xiong",
+                                    "ce:indexed-name": "Xiong Chenyan"
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Heng",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ji",
+                                    "ce:indexed-name": "Ji Heng"
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "Chao",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Chao"
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "Jiawei",
+                                    "@_fa": "true",
+                                    "ce:surname": "Han",
+                                    "ce:indexed-name": "Han Jiawei"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing"
+                        },
+                        "ce:source-text": "Yu Meng, Yunyi Zhang, Jiaxin Huang, Chenyan Xiong, Heng Ji, Chao Zhang, and Jiawei Han. 2020. Text classification using label names only: A language model self-training approach. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.225",
+                        "ref-fulltext": "Emmanouil Antonios Platanios, Avrim Blum, and Tom Mitchell. 2014. Estimating accuracy from unlabeled data. In Proceedings of the Thirtieth Conference on Uncertainty in Artificial Intelligence, pages 682\u2013691, Arlington, Virginia, USA. AUAI Press.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Estimating accuracy from unlabeled data"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84923272739",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "682",
+                                "@last": "691"
+                            }},
+                            "ref-text": "Arlington, Virginia, USA. AUAI Press",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Emmanouil Antonios",
+                                    "@_fa": "true",
+                                    "ce:surname": "Platanios",
+                                    "ce:indexed-name": "Platanios Emmanouil Antonios"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Avrim",
+                                    "@_fa": "true",
+                                    "ce:surname": "Blum",
+                                    "ce:indexed-name": "Blum Avrim"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Tom",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mitchell",
+                                    "ce:indexed-name": "Mitchell Tom"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Thirtieth Conference on Uncertainty in Artificial Intelligence"
+                        },
+                        "ce:source-text": "Emmanouil Antonios Platanios, Avrim Blum, and Tom Mitchell. 2014. Estimating accuracy from unlabeled data. In Proceedings of the Thirtieth Conference on Uncertainty in Artificial Intelligence, pages 682\u2013691, Arlington, Virginia, USA. AUAI Press."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.225",
+                        "ref-fulltext": "Emmanouil Antonios Platanios, Avinava Dubey, and Tom Mitchell. 2016. Estimating accuracy from unlabeled data: A bayesian approach. In Proceedings of the International Conference on Machine Learning, pages 1416\u20131425.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Estimating accuracy from unlabeled data: A bayesian approach"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85046415647",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1416",
+                                "@last": "1425"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Emmanouil Antonios",
+                                    "@_fa": "true",
+                                    "ce:surname": "Platanios",
+                                    "ce:indexed-name": "Platanios Emmanouil Antonios"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Avinava",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dubey",
+                                    "ce:indexed-name": "Dubey Avinava"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Tom",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mitchell",
+                                    "ce:indexed-name": "Mitchell Tom"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the International Conference on Machine Learning"
+                        },
+                        "ce:source-text": "Emmanouil Antonios Platanios, Avinava Dubey, and Tom Mitchell. 2016. Estimating accuracy from unlabeled data: A bayesian approach. In Proceedings of the International Conference on Machine Learning, pages 1416\u20131425."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.225",
+                        "ref-fulltext": "Burr Settles. 2011. Closing the loop: Fast, interactive semi-supervised annotation with queries on features and instances. In Proceedings of the Conference on Empirical Methods in Natural Language Processing, pages 1467\u20131478. Association for Computational Linguistics.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Closing the loop: Fast, interactive semi-supervised annotation with queries on features and instances"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "80053225377",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1467",
+                                "@last": "1478"
+                            }},
+                            "ref-text": "Association for Computational Linguistics",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "Burr",
+                                "@_fa": "true",
+                                "ce:surname": "Settles",
+                                "ce:indexed-name": "Settles Burr"
+                            }]},
+                            "ref-sourcetitle": "Proceedings of the Conference on Empirical Methods in Natural Language Processing"
+                        },
+                        "ce:source-text": "Burr Settles. 2011. Closing the loop: Fast, interactive semi-supervised annotation with queries on features and instances. In Proceedings of the Conference on Empirical Methods in Natural Language Processing, pages 1467\u20131478. Association for Computational Linguistics."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.225",
+                        "ref-fulltext": "Zihan Wang, Dheeraj Mekala, and Jingbo Shang. 2020. X-class: Text classification with extremely weak supervision.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85106139327",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Zihan",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Zihan"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Dheeraj",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mekala",
+                                    "ce:indexed-name": "Mekala Dheeraj"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Jingbo",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shang",
+                                    "ce:indexed-name": "Shang Jingbo"
+                                }
+                            ]},
+                            "ref-sourcetitle": "X-class: Text classification with extremely weak supervision"
+                        },
+                        "ce:source-text": "Zihan Wang, Dheeraj Mekala, and Jingbo Shang. 2020. X-class: Text classification with extremely weak supervision."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.225",
+                        "ref-fulltext": "Zichao Yang, Diyi Yang, Chris Dyer, Xiaodong He, Alex Smola, and Eduard Hovy. 2016. Hierarchical attention networks for document classification. In Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pages 1480\u20131489.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Hierarchical attention networks for document classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84994158553",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1480",
+                                "@last": "1489"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Zichao",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang Zichao"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Diyi",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang Diyi"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Chris",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dyer",
+                                    "ce:indexed-name": "Dyer Chris"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Xiaodong",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He Xiaodong"
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Alex",
+                                    "@_fa": "true",
+                                    "ce:surname": "Smola",
+                                    "ce:indexed-name": "Smola Alex"
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "Eduard",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hovy",
+                                    "ce:indexed-name": "Hovy Eduard"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+                        },
+                        "ce:source-text": "Zichao Yang, Diyi Yang, Chris Dyer, Xiaodong He, Alex Smola, and Eduard Hovy. 2016. Hierarchical attention networks for document classification. In Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pages 1480\u20131489."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Singapore City",
+            "@id": "128546350",
+            "affilname": "Knorex",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/128546350",
+            "affiliation-country": "Singapore"
+        }
+    ],
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85137473741",
+        "dc:description": "Weakly-supervised text classification aims to induce text classifiers from only a few user-provided seed words. The vast majority of previous work assumes high-quality seed words are given. However, the expert-annotated seed words are sometimes non-trivial to come up with. Furthermore, in the weakly-supervised learning setting, we do not have any labeled document to measure the seed words\u2019 efficacy, making the seed word selection process \u201ca walk in the dark\u201d. In this work, we remove the need for expert-curated seed words by first mining (noisy) candidate seed words associated with the category names. We then train interim models with individual candidate seed words. Lastly, we estimate the interim models\u2019 error rate in an unsupervised manner. The seed words that yield the lowest estimated error rates are added to the final seed word set. A comprehensive evaluation of six binary classification tasks on four popular datasets demonstrates that the proposed method outperforms a baseline using only category name seed words and obtained comparable performance as a counterpart using expert-annotated seed words 1",
+        "prism:coverDate": "2021-01-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85137473741",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Yiping",
+            "preferred-name": {
+                "ce:given-name": "Yiping",
+                "ce:initials": "Y.",
+                "ce:surname": "Jin",
+                "ce:indexed-name": "Jin Y."
+            },
+            "@seq": "1",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60028190",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+                },
+                {
+                    "@id": "128546350",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/128546350"
+                }
+            ],
+            "ce:surname": "Jin",
+            "@auid": "57208530918",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57208530918",
+            "ce:indexed-name": "Jin Y."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85137473741"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85137473741&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85137473741&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781954085503",
+        "prism:publicationName": "NAACL-HLT 2021 - 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Proceedings of the Student Research Workshop",
+        "source-id": "21101105452",
+        "citedby-count": "2",
+        "subtype": "cp",
+        "prism:pageRange": "112-118",
+        "dc:title": "Seed Word Selection for Weakly-Supervised Text Classification with Unsupervised Error Estimation",
+        "prism:endingPage": "118",
+        "openaccess": null,
+        "openaccessFlag": null,
+        "prism:startingPage": "112",
+        "publishercopyright": "© 2021 Association for Computational Linguistics.",
+        "dc:identifier": "SCOPUS_ID:85137473741",
+        "dc:publisher": "Association for Computational Linguistics (ACL)"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Error rate",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "High quality",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Labeled documents",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Learning settings",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Model errors",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Non-trivial",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Seed words",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Text classification",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Text classifiers",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Weakly supervised learning",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": null,
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Information Systems",
+            "@code": "1710",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Software",
+            "@code": "1712",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Networks and Communications",
+            "@code": "1705",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Hardware and Architecture",
+            "@code": "1708",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Yiping",
+            "preferred-name": {
+                "ce:given-name": "Yiping",
+                "ce:initials": "Y.",
+                "ce:surname": "Jin",
+                "ce:indexed-name": "Jin Y."
+            },
+            "@seq": "1",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60028190",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+                },
+                {
+                    "@id": "128546350",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/128546350"
+                }
+            ],
+            "ce:surname": "Jin",
+            "@auid": "57208530918",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57208530918",
+            "ce:indexed-name": "Jin Y."
+        },
+        {
+            "ce:given-name": "Akshay",
+            "preferred-name": {
+                "ce:given-name": "Akshay",
+                "ce:initials": "A.",
+                "ce:surname": "Bhatia",
+                "ce:indexed-name": "Bhatia A."
+            },
+            "@seq": "2",
+            "ce:initials": "A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "128546350",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/128546350"
+            },
+            "ce:surname": "Bhatia",
+            "@auid": "57222238449",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57222238449",
+            "ce:indexed-name": "Bhatia A."
+        },
+        {
+            "ce:given-name": "Dittaya",
+            "preferred-name": {
+                "ce:given-name": "Dittaya",
+                "ce:initials": "D.",
+                "ce:surname": "Wanvarie",
+                "ce:indexed-name": "Wanvarie D."
+            },
+            "@seq": "3",
+            "ce:initials": "D.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Wanvarie",
+            "@auid": "36603800400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/36603800400",
+            "ce:indexed-name": "Wanvarie D."
+        }
+    ]}
+}}

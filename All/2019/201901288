@@ -1,0 +1,890 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "11",
+                "@timestamp": "2021-05-11T16:01:20.000020-04:00",
+                "@year": "2021",
+                "@month": "05"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2019",
+                "@month": "06"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "Gwangju Institute of Science and Technology",
+                    "xocs:funding-agency-acronym": "GIST",
+                    "xocs:funding-agency": "Gwangju Institute of Science and Technology",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002582",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1835841/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Electricity Generating Authority of Thailand",
+                    "xocs:funding-agency-acronym": "EGAT",
+                    "xocs:funding-agency": "Electricity Generating Authority of Thailand",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100006290",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-02-02T16:37:38.400146Z",
+            "xocs:funding-text": "The first authors would like to thank Electricity Generating Authority of Thailand (EGAT) for the support in the Masterdegree scholarship. This research is supported by the Datacentric IoT-cloud service platform for smart communities (IoTcloudServe@TEIN) project under the WP4 Future Internet of Asi@Connect. The authors would like to thank Prof Jong- Won Kim, Gwangju Institute of Science and Technology, South Korea, for helpful suggestions throughout the course of IoTcloudServe@TEIN project.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60022674",
+                            "@country": "tha",
+                            "city": "Nonthaburi",
+                            "organization": [
+                                {"$": "Communication System Division"},
+                                {"$": "Electricity Generating Authority of Thailand (EGAT)"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60022674",
+                                "@dptid": "123545547"
+                            },
+                            "@dptid": "123545547"
+                        },
+                        "author": [{
+                            "ce:given-name": "Saran",
+                            "preferred-name": {
+                                "ce:given-name": "Saran",
+                                "ce:initials": "S.",
+                                "ce:surname": "Jitnukulsiri",
+                                "ce:indexed-name": "Jitnukulsiri S."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Jitnukulsiri",
+                            "@auid": "57215313319",
+                            "ce:indexed-name": "Jitnukulsiri S."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Wireless Network and Future Internet Research Unit"},
+                                {"$": "Department of Electrical Engineering"},
+                                {"$": "Faculty of Engineering"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "113845132"
+                            },
+                            "@dptid": "113845132"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Saran",
+                                "preferred-name": {
+                                    "ce:given-name": "Saran",
+                                    "ce:initials": "S.",
+                                    "ce:surname": "Jitnukulsiri",
+                                    "ce:indexed-name": "Jitnukulsiri S."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Jitnukulsiri",
+                                "@auid": "57215313319",
+                                "ce:indexed-name": "Jitnukulsiri S."
+                            },
+                            {
+                                "ce:given-name": "Chaodit",
+                                "preferred-name": {
+                                    "ce:given-name": "Chaodit",
+                                    "ce:initials": "C.",
+                                    "ce:surname": "Aswakul",
+                                    "ce:indexed-name": "Aswakul C."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "C.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Aswakul",
+                                "@auid": "6507829868",
+                                "ce:indexed-name": "Aswakul C."
+                            }
+                        ]
+                    }
+                ],
+                "citation-title": "Validation of SDN Emulator Based on Mininet and ONOS Controller for IEC 61850 Packet Delay Measurement",
+                "abstracts": "© 2019 IEEE.To guarantee the electrical power stability for economic and industry growth, the power grid would need to adopt the technology of smart grid with the enablement of new communication technologies. IEC 61850 has been introduced for the upgrading of an electrical substation to digital substation composed of many digital devices that help automate the electrical power control for the purpose of power stability. Sampled Values is a basic message protocol for the application of Wide Area Measurement and Control (WAMPAC), which requires manageable communication in a wide area over Ethernet layer. In this regard, Software Defined Networking (SDN) has recently been introduced as one of the communication technologies with that capability. This paper has reported on our first-step findings towards the development of a tool to help checking the feasibility of SDN technology in smart grid applications. Since the smart grid applications must be delay-critical, timing performances become essential and all the modules to be used in the tool development must be verified on that aspect. Particularly, for this paper, Mininet and ONOS controller have been tested. Their ability to emulate transmission link delay values is quantified and reported for the practical range of smart grid application usages.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "@country": "tha",
+                        "city": "Nonthaburi",
+                        "organization": [
+                            {"$": "Communication System Division"},
+                            {"$": "Electricity Generating Authority of Thailand (EGAT)"}
+                        ]
+                    },
+                    "person": {
+                        "ce:given-name": "Saran",
+                        "ce:initials": "S.",
+                        "ce:surname": "Jitnukulsiri",
+                        "ce:indexed-name": "Jitnukulsiri S."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "IEC 61850",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "smart grid",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Software defined networking",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "wide area networks",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8932369",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "2019 IEEE International Conference on Consumer Electronics - Asia, ICCE-Asia 2019",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"pagerange": {
+                        "@first": "113",
+                        "@last": "117"
+                    }},
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781728133362",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "4th IEEE International Conference on Consumer Electronics - Asia, ICCE-Asia 2019",
+                            "confnumber": "4",
+                            "confcatnumber": "CFP18D25-ART",
+                            "confseriestitle": "IEEE International Conference on Consumer Electronics - Asia",
+                            "conflocation": {
+                                "@country": "tha",
+                                "city": "Bangkok"
+                            },
+                            "confcode": "156265",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "14",
+                                    "@year": "2019",
+                                    "@month": "06"
+                                },
+                                "startdate": {
+                                    "@day": "12",
+                                    "@year": "2019",
+                                    "@month": "06"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "2019 IEEE International Conference on Consumer Electronics - Asia, ICCE-Asia 2019",
+                    "publicationdate": {
+                        "month": "06",
+                        "year": "2019",
+                        "date-text": "June 2019",
+                        "day": "01"
+                    },
+                    "sourcetitle-abbrev": "IEEE Int. Conf. Consum. Electron. - Asia, ICCE-Asia",
+                    "@country": "usa",
+                    "issuetitle": "2019 IEEE International Conference on Consumer Electronics - Asia, ICCE-Asia 2019",
+                    "publicationyear": {"@first": "2019"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "article-number": "8942206",
+                    "@srcid": "21100958138"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1706"},
+                            {"$": "1707"},
+                            {"$": "2208"},
+                            {"$": "2214"},
+                            {"$": "3105"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "706.1",
+                                "classification-description": "Electric Power Systems"
+                            },
+                            {
+                                "classification-code": "706.1.1",
+                                "classification-description": "Electric Power Transmission"
+                            },
+                            {
+                                "classification-code": "731.3",
+                                "classification-description": "Specific Variables Control"
+                            },
+                            {
+                                "classification-code": "732.1",
+                                "classification-description": "Control Equipment"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "ENGI"},
+                            {"$": "PHYS"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "The first authors would like to thank Electricity Generating Authority of Thailand (EGAT) for the support in the Masterdegree scholarship. This research is supported by the Datacentric IoT-cloud service platform for smart communities (IoTcloudServe@TEIN) project under the WP4 Future Internet of Asi@Connect. The authors would like to thank Prof Jong- Won Kim, Gwangju Institute of Science and Technology, South Korea, for helpful suggestions throughout the course of IoTcloudServe@TEIN project.",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": [
+                        {
+                            "grant-acronym": "EGAT",
+                            "grant-agency": "Electricity Generating Authority of Thailand"
+                        },
+                        {
+                            "grant-agency": {
+                                "@iso-code": "kor",
+                                "$": "Gwangju Institute of Science and Technology"
+                            },
+                            "grant-agency-id": "501100002582"
+                        }
+                    ]
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2020 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "03",
+                    "@timestamp": "BST 07:34:05",
+                    "@year": "2020",
+                    "@month": "05"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "630647497",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "923455933",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20200408061769",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20201366792",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85078064378",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85078064378",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/ICCE-Asia46551.2019.8942206"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "10",
+                "reference": [
+                    {
+                        "ref-fulltext": "IEC standard for Communication networks and systems for power utility automation - Part 1: Introduction and overview, IEC/TR 61850-1, 2013.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "78651409940",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "IEC/TR 61850-1",
+                            "ref-sourcetitle": "IEC Standard for Communication Networks and Systems for Power Utility Automation - Part 1: Introduction and Overview"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "IEC standard for Communication networks and systems for power utility automation - Part 90-12: Wide area network engineering guidelines, IEC/TR 61850-90-12, July. 2015.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85021398169",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "IEC/TR 61850-90-12, July",
+                            "ref-sourcetitle": "IEC Standard for Communication Networks and Systems for Power Utility Automation - Part 90-12: Wide Area Network Engineering Guidelines"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "C. M. Adrah, Ø. Kure, J. Yellajosula, S. Paudyal, and B. Mork, \"A methodology to implement and investigate performance of sampled values for Wide-Area Protection,\" 2018 2nd International Conference on Smart Grid and Smart Cities (ICSGSC), Kuala Lumpur, Malaysia, 2018, pp. 84-90.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "A methodology to implement and investigate performance of sampled values for wide-area protection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85059963661",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "84",
+                                "@last": "90"
+                            }},
+                            "ref-text": "Kuala Lumpur, Malaysia",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Adrah",
+                                    "ce:indexed-name": "Adrah C.M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Ø.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kure",
+                                    "ce:indexed-name": "Kure O."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yellajosula",
+                                    "ce:indexed-name": "Yellajosula J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Paudyal",
+                                    "ce:indexed-name": "Paudyal S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mork",
+                                    "ce:indexed-name": "Mork B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2018 2nd International Conference on Smart Grid and Smart Cities (ICSGSC)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "C. F. M. Danielson, L. Vanfretti, M. S. Almas and Y. J. O. Gjerde, \"Analysis of Communication Network Challenges for Synchrophasor-Based Wide-Area Applications,\" 2013 IREP Symposium-Bulk Power System Dynamics and Control -IX (IREP), Rethymnon, Greece, 2013, pp. 1-13.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Analysis of communication network challenges for synchrophasor-based wide-area applications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84890507450",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "13"
+                            }},
+                            "ref-text": "Rethymnon, Greece",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.F.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Danielson",
+                                    "ce:indexed-name": "Danielson C.F.M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vanfretti",
+                                    "ce:indexed-name": "Vanfretti L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Almas",
+                                    "ce:indexed-name": "Almas M.S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.O.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gjerde",
+                                    "ce:indexed-name": "Gjerde J.O.Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2013 IREP Symposium-Bulk Power System Dynamics and Control -IX (IREP)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "ONOS. Open Network Operating System. [Online]. Available: https://onosproject.org/. Accessed on: May 10, 2019.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://onosproject.org/",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85068652075",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "ONOS. [Online]. Accessed on: May 10",
+                            "ref-sourcetitle": "Open Network Operating System"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Open Flow archives - Open Networking Foundation. (2019). [Online] Available: https://www.opennetworking.org/tag/openflow/. Accessed on: May 10, 2019.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.opennetworking.org/tag/openflow/",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85080525056",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "[Online] Accessed on: May 10, 2019",
+                            "ref-sourcetitle": "Open Flow Archives - Open Networking Foundation"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "N. Dorsch, F. Kurtz, H. Georg, C. Hägerling, and C. Wietfeld, \"Softwaredefined networking for smart grid communications: Applications, challenges and advantages,\" in proc. IEEE Int. Contf. Smart Grid Commun. (SmartGridComm), Venice, Italy, Nov. 2014, pp. 422-427.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Softwaredefined networking for smart grid communications: Applications, challenges and advantages"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84922426777",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "422",
+                                "@last": "427"
+                            }},
+                            "ref-text": "Venice, Italy, Nov.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dorsch",
+                                    "ce:indexed-name": "Dorsch N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kurtz",
+                                    "ce:indexed-name": "Kurtz F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Georg",
+                                    "ce:indexed-name": "Georg H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hägerling",
+                                    "ce:indexed-name": "Hagerling C."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wietfeld",
+                                    "ce:indexed-name": "Wietfeld C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE Int. Contf. Smart Grid Commun. (SmartGridComm)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. Konka, C. Arthur, F. Garciad, and R. Atkinson, \"Traffic generation of IEC 61850 sampled values,\" in Smart Grid Modeling and Simulation( SGMS), 2011 IEEE First International Workshop on, Oct. 2011, pp. 43-48.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Traffic generation of IEC 61850 sampled values"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84155176902",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "43",
+                                "@last": "48"
+                            }},
+                            "ref-text": "Oct.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Konka",
+                                    "ce:indexed-name": "Konka J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Arthur",
+                                    "ce:indexed-name": "Arthur C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Garciad",
+                                    "ce:indexed-name": "Garciad F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Atkinson",
+                                    "ce:indexed-name": "Atkinson R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Smart Grid Modeling and Simulation( SGMS), 2011 IEEE First International Workshop on"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Scapy. Packet crafting for Python2 and Python3 [Online]. Available: https://scapy.net/. Accessed on: May 10, 2019.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://scapy.net/",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85064604797",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Scapy. [Online]. Accessed on: May 10",
+                            "ref-sourcetitle": "Packet Crafting for Python2 and Python3"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Mininet. An instant virtual network on your Laptop (or other PC) [Online]. Available: http://mininet.org/. Accessed on: May 10, 2019.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://mininet.org/",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84903789791",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Mininet. [Online]. Accessed on: May 10",
+                            "ref-sourcetitle": "An Instant Virtual Network on Your Laptop (Or Other PC)"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Nontaburi",
+            "@id": "60022674",
+            "affilname": "Electricity Generating Authority of Thailand",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60022674",
+            "affiliation-country": "Thailand"
+        }
+    ],
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85078064378",
+        "dc:description": "To guarantee the electrical power stability for economic and industry growth, the power grid would need to adopt the technology of smart grid with the enablement of new communication technologies. IEC 61850 has been introduced for the upgrading of an electrical substation to digital substation composed of many digital devices that help automate the electrical power control for the purpose of power stability. Sampled Values is a basic message protocol for the application of Wide Area Measurement and Control (WAMPAC), which requires manageable communication in a wide area over Ethernet layer. In this regard, Software Defined Networking (SDN) has recently been introduced as one of the communication technologies with that capability. This paper has reported on our first-step findings towards the development of a tool to help checking the feasibility of SDN technology in smart grid applications. Since the smart grid applications must be delay-critical, timing performances become essential and all the modules to be used in the tool development must be verified on that aspect. Particularly, for this paper, Mininet and ONOS controller have been tested. Their ability to emulate transmission link delay values is quantified and reported for the practical range of smart grid application usages.",
+        "prism:coverDate": "2019-06-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85078064378",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Saran",
+            "preferred-name": {
+                "ce:given-name": "Saran",
+                "ce:initials": "S.",
+                "ce:surname": "Jitnukulsiri",
+                "ce:indexed-name": "Jitnukulsiri S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60022674",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60022674"
+                },
+                {
+                    "@id": "60028190",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+                }
+            ],
+            "ce:surname": "Jitnukulsiri",
+            "@auid": "57215313319",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57215313319",
+            "ce:indexed-name": "Jitnukulsiri S."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85078064378"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85078064378&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85078064378&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781728133362",
+        "source-id": "21100958138",
+        "citedby-count": "1",
+        "subtype": "cp",
+        "dc:title": "Validation of SDN Emulator Based on Mininet and ONOS Controller for IEC 61850 Packet Delay Measurement",
+        "openaccess": "0",
+        "publishercopyright": "© 2019 IEEE.",
+        "article-number": "8942206",
+        "subtypeDescription": "Conference Paper",
+        "prism:publicationName": "2019 IEEE International Conference on Consumer Electronics - Asia, ICCE-Asia 2019",
+        "prism:pageRange": "113-117",
+        "prism:endingPage": "117",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/ICCE-Asia46551.2019.8942206",
+        "prism:startingPage": "113",
+        "dc:identifier": "SCOPUS_ID:85078064378",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Communication technologies",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Electrical substations",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "IEC 61850",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Smart grid",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Smart grid applications",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Software defined networking (SDN)",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Timing performance",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Wide area measurement",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "IEC 61850"
+        },
+        {
+            "@_fa": "true",
+            "$": "smart grid"
+        },
+        {
+            "@_fa": "true",
+            "$": "Software defined networking"
+        },
+        {
+            "@_fa": "true",
+            "$": "wide area networks"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Vision and Pattern Recognition",
+            "@code": "1707",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Media Technology",
+            "@code": "2214",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Instrumentation",
+            "@code": "3105",
+            "@abbrev": "PHYS"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Saran",
+            "preferred-name": {
+                "ce:given-name": "Saran",
+                "ce:initials": "S.",
+                "ce:surname": "Jitnukulsiri",
+                "ce:indexed-name": "Jitnukulsiri S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60022674",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60022674"
+                },
+                {
+                    "@id": "60028190",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+                }
+            ],
+            "ce:surname": "Jitnukulsiri",
+            "@auid": "57215313319",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57215313319",
+            "ce:indexed-name": "Jitnukulsiri S."
+        },
+        {
+            "ce:given-name": "Chaodit",
+            "preferred-name": {
+                "ce:given-name": "Chaodit",
+                "ce:initials": "C.",
+                "ce:surname": "Aswakul",
+                "ce:indexed-name": "Aswakul C."
+            },
+            "@seq": "2",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Aswakul",
+            "@auid": "6507829868",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6507829868",
+            "ce:indexed-name": "Aswakul C."
+        }
+    ]}
+}}

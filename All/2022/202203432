@@ -1,0 +1,987 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "01",
+                "@timestamp": "2022-11-01T18:44:05.000005-04:00",
+                "@year": "2022",
+                "@month": "11"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2022",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {"xocs:funding-agency-matched-string": "Faculty of Electrical Engineering Department and Research Council"},
+                {
+                    "xocs:funding-agency-matched-string": "Chulalongkorn University",
+                    "xocs:funding-agency-acronym": "CU",
+                    "xocs:funding-agency": "Chulalongkorn University",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002873",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2022-11-03T10:35:28.067291Z",
+            "xocs:funding-text": "The authors would like to acknowledge the Faculty of Electrical Engineering Department and Research Council of Biomedical Engineering Program at Chulalongkorn University for the excellent corporations in this research scholarship.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Chulalongkorn University"},
+                                {"$": "Department of Electrical Engineering"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "113845132"
+                            },
+                            "ce:source-text": "Chulalongkorn University, Department of Electrical Engineering, Bangkok, Thailand",
+                            "@dptid": "113845132"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Khaing Su",
+                                "preferred-name": {
+                                    "ce:given-name": "Khaing Su",
+                                    "ce:initials": "K.S.",
+                                    "ce:surname": "Thway",
+                                    "ce:indexed-name": "Thway K.S."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "K.S.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Thway",
+                                "@auid": "57941535000",
+                                "ce:indexed-name": "Thway K.S."
+                            },
+                            {
+                                "ce:given-name": "Arporn",
+                                "preferred-name": {
+                                    "ce:given-name": "Arporn",
+                                    "ce:initials": "A.",
+                                    "ce:surname": "Teeramongkonrasmee",
+                                    "ce:indexed-name": "Teeramongkonrasmee A."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Teeramongkonrasmee",
+                                "@auid": "6506097264",
+                                "ce:indexed-name": "Teeramongkonrasmee A."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Biomedical Engineering Program"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "108247648"
+                            },
+                            "ce:source-text": "Biomedical Engineering Program Chulalongkorn University, Bangkok, Thailand",
+                            "@dptid": "108247648"
+                        },
+                        "author": [{
+                            "ce:given-name": "Pakpum",
+                            "preferred-name": {
+                                "ce:given-name": "Pakpum",
+                                "ce:initials": "P.",
+                                "ce:surname": "Somboon",
+                                "ce:indexed-name": "Somboon P."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "P.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Somboon",
+                            "@auid": "12805058200",
+                            "ce:indexed-name": "Somboon P."
+                        }]
+                    }
+                ],
+                "citation-title": "Detection of Atrial Fibrillation based on Synchronized Beats Image with Lightweight Neural Network",
+                "abstracts": "© 2022 IEEE.Atrial fibrillation (AF) is the most common cardiac arrhythmia associated with stroke leading to high demand for effective early diagnosis and preventive care. Along with the trend of mobile health (mHealth) devices, such as single-lead electrocardiogram (ECG) devices, the reliability in diagnostic detection of AF has been of widespread interest. This paper presents the AF classification model which can be deployed in mobile devices. Our study uses a simplified data transformation approach by transforming the 1-dimensional (1D) time-series signal into 2-dimensional (2D) synchronized beat images. These images can simply capture and visualize all the information in the record. The classification task is performed based on a novel lightweight neural network such as MobileNetV2 via transferred learning. The effect on AF detection performance due to the quality of the image is examined using uncompressed and compressed ECG images. It was found that AF can be detected with high accuracy up to 98.6% using the compressed images so that this developed system is confirmed to be applicable for resource-constrained portable devices.",
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Atrial fibrillation",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "ECG signal processing",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "image classification",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "MobileNetV2",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=9894733",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "ITC-CSCC 2022 - 37th International Technical Conference on Circuits/Systems, Computers and Communications",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"pagerange": {
+                        "@first": "341",
+                        "@last": "344"
+                    }},
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781665485593",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "37th International Technical Conference on Circuits/Systems, Computers and Communications, ITC-CSCC 2022",
+                            "confsponsors": {
+                                "confsponsor": [
+                                    {"$": "Electrical Engineering/Electronics, Computer, Telecommunications and Information Association (ECTI)"},
+                                    {"$": "Engineering Sciences Society and Electronics Society (IEICE)"},
+                                    {"$": "The Institute of Electronics and Information Engineers (IEIE)"}
+                                ],
+                                "@complete": "n"
+                            },
+                            "confnumber": "37",
+                            "confcatnumber": "CFP22T56-ART",
+                            "confseriestitle": "International Technical Conference on Circuits/Systems, Computers and Communications",
+                            "conflocation": {
+                                "@country": "tha",
+                                "city": "Phuket"
+                            },
+                            "confcode": "183374",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "08",
+                                    "@year": "2022",
+                                    "@month": "07"
+                                },
+                                "startdate": {
+                                    "@day": "05",
+                                    "@year": "2022",
+                                    "@month": "07"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "ITC-CSCC 2022 - 37th International Technical Conference on Circuits/Systems, Computers and Communications",
+                    "publicationdate": {
+                        "year": "2022",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2022"
+                        }
+                    },
+                    "sourcetitle-abbrev": "ITC-CSCC - Int. Tech. Conf. Circuits/Syst., Comput. Commun.",
+                    "@country": "usa",
+                    "issuetitle": "ITC-CSCC 2022 - 37th International Technical Conference on Circuits/Systems, Computers and Communications",
+                    "publicationyear": {"@first": "2022"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "@srcid": "21101116668"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1710"},
+                            {"$": "2208"},
+                            {"$": "1702"},
+                            {"$": "1705"},
+                            {"$": "1706"},
+                            {"$": "1708"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "462.1",
+                                "classification-description": "Biomedical Equipment, General"
+                            },
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing and Image Processing"
+                            },
+                            {
+                                "classification-code": "801",
+                                "classification-description": "Chemistry"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2022 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "31",
+                    "@timestamp": "BST 07:01:26",
+                    "@year": "2022",
+                    "@month": "10"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "639347672",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "943798743",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20224413023649",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20223763732",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85140587124",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85140587124",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/ITC-CSCC55581.2022.9894861"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "10",
+                "reference": [
+                    {
+                        "ref-fulltext": "C.-E. Chiang, K.-L. Wang, and G. Y. Lip, \"Stroke prevention in atrial fibrillation: An Asian perspective, \" Thrombosis and haemostasis, vol. 112, no. 05, pp. 789-797, 2014.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Stroke prevention in atrial fibrillation: An Asian perspective"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84899708538",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "112",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "789",
+                                    "@last": "797"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.-E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chiang",
+                                    "ce:indexed-name": "Chiang C.-E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.-L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang K.-L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lip",
+                                    "ce:indexed-name": "Lip G.Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Thrombosis and haemostasis"
+                        },
+                        "ce:source-text": "C.-E. Chiang, K.-L. Wang, and G. Y. Lip, \"Stroke prevention in atrial fibrillation: An Asian perspective, \" Thrombosis and haemostasis, vol. 112, no. 05, pp. 789-797, 2014."
+                    },
+                    {
+                        "ref-fulltext": "Y. Wang et al., \"Cardiac arrhythmias in patients with COVID-19, \" Journal of arrhythmia, vol. 36, no. 5, pp. 827-836, 2020.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Cardiac arrhythmias in patients with COVID-19"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85088439622",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "36",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "827",
+                                    "@last": "836"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Y."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Journal of arrhythmia"
+                        },
+                        "ce:source-text": "Y. Wang et al., \"Cardiac arrhythmias in patients with COVID-19, \" Journal of arrhythmia, vol. 36, no. 5, pp. 827-836, 2020."
+                    },
+                    {
+                        "ref-fulltext": "A. S. Manolis, A. A. Manolis, T. A. Manolis, E. J. Apostolopoulos, D. Papatheou, and H. Melita, \"COVID-19 infection and cardiac arrhythmias, \" Trends in cardiovascular medicine, 2020.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "COVID-19 infection and cardiac arrhythmias"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85089868927",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Manolis",
+                                    "ce:indexed-name": "Manolis A.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Manolis",
+                                    "ce:indexed-name": "Manolis A.A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Manolis",
+                                    "ce:indexed-name": "Manolis T.A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "E.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Apostolopoulos",
+                                    "ce:indexed-name": "Apostolopoulos E.J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Papatheou",
+                                    "ce:indexed-name": "Papatheou D."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Melita",
+                                    "ce:indexed-name": "Melita H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Trends in cardiovascular medicine"
+                        },
+                        "ce:source-text": "A. S. Manolis, A. A. Manolis, T. A. Manolis, E. J. Apostolopoulos, D. Papatheou, and H. Melita, \"COVID-19 infection and cardiac arrhythmias, \" Trends in cardiovascular medicine, 2020."
+                    },
+                    {
+                        "ref-fulltext": "J. Chanthercrob, S. Mahattanatawee, A. Teeramongkonrasmee, and P. Somboon, \"Development of rhythm-based and morphology-based algorithm for atrial fibrillation detection from single lead ecg signal, \" in 2020 8th International Electrical Engineering Congress (iEECON), 2020: IEEE, pp. 1-4.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Development of rhythm-based and morphology-based algorithm for atrial fibrillation detection from single lead ECG signal"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85085014294",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "4"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chanthercrob",
+                                    "ce:indexed-name": "Chanthercrob J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mahattanatawee",
+                                    "ce:indexed-name": "Mahattanatawee S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Teeramongkonrasmee",
+                                    "ce:indexed-name": "Teeramongkonrasmee A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Somboon",
+                                    "ce:indexed-name": "Somboon P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2020 8th International Electrical Engineering Congress (iEECON)"
+                        },
+                        "ce:source-text": "J. Chanthercrob, S. Mahattanatawee, A. Teeramongkonrasmee, and P. Somboon, \"Development of rhythm-based and morphology-based algorithm for atrial fibrillation detection from single lead ecg signal, \" in 2020 8th International Electrical Engineering Congress (iEECON), 2020: IEEE, pp. 1-4."
+                    },
+                    {
+                        "ref-fulltext": "Y. Liu et al., \"Precise and efficient heartbeat classification using a novel lightweight-modified method, \" Biomedical Signal Processing and Control, vol. 68, p. 102771, 2021.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Precise and efficient heartbeat classification using a novel lightweight-modified method"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85105845124",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "68"},
+                                "pagerange": {"@first": "102771"}
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Y."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Biomedical Signal Processing and Control"
+                        },
+                        "ce:source-text": "Y. Liu et al., \"Precise and efficient heartbeat classification using a novel lightweight-modified method, \" Biomedical Signal Processing and Control, vol. 68, p. 102771, 2021."
+                    },
+                    {
+                        "ref-fulltext": "M. Abdelazez, S. Rajan, and A. D. Chan, \"Transfer learning for detection of atrial fibrillation in deterministic compressive sensed ECG, \" in 2020 42nd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC), 2020: IEEE, pp. 5398-5401.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Transfer learning for detection of atrial fibrillation in deterministic compressive sensed ECG"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85091042675",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "5398",
+                                "@last": "5401"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abdelazez",
+                                    "ce:indexed-name": "Abdelazez M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rajan",
+                                    "ce:indexed-name": "Rajan S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chan",
+                                    "ce:indexed-name": "Chan A.D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2020 42nd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)"
+                        },
+                        "ce:source-text": "M. Abdelazez, S. Rajan, and A. D. Chan, \"Transfer learning for detection of atrial fibrillation in deterministic compressive sensed ECG, \" in 2020 42nd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC), 2020: IEEE, pp. 5398-5401."
+                    },
+                    {
+                        "ref-fulltext": "M. Sandler, A. Howard, M. Zhu, A. Zhmoginov, and L.-C. Chen, \"Mobilenetv2: Inverted residuals and linear bottlenecks, \" in Proceedings of the IEEE conference on computer vision and pattern recognition, 2018, pp. 4510-4520.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Mobilenetv2: Inverted residuals and linear bottlenecks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85062799511",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "4510",
+                                "@last": "4520"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sandler",
+                                    "ce:indexed-name": "Sandler M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Howard",
+                                    "ce:indexed-name": "Howard A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhmoginov",
+                                    "ce:indexed-name": "Zhmoginov A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "L.-C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen L.-C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE conference on computer vision and pattern recognition"
+                        },
+                        "ce:source-text": "M. Sandler, A. Howard, M. Zhu, A. Zhmoginov, and L.-C. Chen, \"Mobilenetv2: Inverted residuals and linear bottlenecks, \" in Proceedings of the IEEE conference on computer vision and pattern recognition, 2018, pp. 4510-4520."
+                    },
+                    {
+                        "ref-fulltext": "Y. Zhou, S. Chen, Y. Wang, and W. Huan, \"Review of research on lightweight convolutional neural networks, \" in 2020 IEEE 5th Information Technology and Mechatronics Engineering Conference (ITOEC), 2020: IEEE, pp. 1713-1720.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Review of research on lightweight convolutional neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85091055805",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1713",
+                                "@last": "1720"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huan",
+                                    "ce:indexed-name": "Huan W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2020 IEEE 5th Information Technology and Mechatronics Engineering Conference (ITOEC)"
+                        },
+                        "ce:source-text": "Y. Zhou, S. Chen, Y. Wang, and W. Huan, \"Review of research on lightweight convolutional neural networks, \" in 2020 IEEE 5th Information Technology and Mechatronics Engineering Conference (ITOEC), 2020: IEEE, pp. 1713-1720."
+                    },
+                    {
+                        "ref-fulltext": "G. Moody, \"A new method for detecting atrial fibrillation using RR intervals, \" Computers in Cardiology, pp. 227-230, 1983.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1983"},
+                            "ref-title": {"ref-titletext": "A new method for detecting atrial fibrillation using RR intervals"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0021005941",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "227",
+                                "@last": "230"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "G.",
+                                "@_fa": "true",
+                                "ce:surname": "Moody",
+                                "ce:indexed-name": "Moody G."
+                            }]},
+                            "ref-sourcetitle": "Computers in Cardiology"
+                        },
+                        "ce:source-text": "G. Moody, \"A new method for detecting atrial fibrillation using RR intervals, \" Computers in Cardiology, pp. 227-230, 1983."
+                    },
+                    {
+                        "ref-fulltext": "A. L. Goldberger et al., \"PhysioBank, PhysioToolkit, and PhysioNet: Components of a new research resource for complex physiologic signals, \" circulation, vol. 101, no. 23, pp. e215-e220, 2000.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-title": {"ref-titletext": "PhysioBank, PhysioToolkit, and PhysioNet: Components of a new research resource for complex physiologic signals"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "14844283547",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "101",
+                                    "@issue": "23"
+                                },
+                                "pagerange": {
+                                    "@first": "e215",
+                                    "@last": "e220"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "A.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Goldberger",
+                                    "ce:indexed-name": "Goldberger A.L."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "circulation"
+                        },
+                        "ce:source-text": "A. L. Goldberger et al., \"PhysioBank, PhysioToolkit, and PhysioNet: Components of a new research resource for complex physiologic signals, \" circulation, vol. 101, no. 23, pp. e215-e220, 2000."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Bangkok",
+        "@id": "60028190",
+        "affilname": "Chulalongkorn University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+        "affiliation-country": "Thailand"
+    },
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85140587124",
+        "dc:description": "Atrial fibrillation (AF) is the most common cardiac arrhythmia associated with stroke leading to high demand for effective early diagnosis and preventive care. Along with the trend of mobile health (mHealth) devices, such as single-lead electrocardiogram (ECG) devices, the reliability in diagnostic detection of AF has been of widespread interest. This paper presents the AF classification model which can be deployed in mobile devices. Our study uses a simplified data transformation approach by transforming the 1-dimensional (1D) time-series signal into 2-dimensional (2D) synchronized beat images. These images can simply capture and visualize all the information in the record. The classification task is performed based on a novel lightweight neural network such as MobileNetV2 via transferred learning. The effect on AF detection performance due to the quality of the image is examined using uncompressed and compressed ECG images. It was found that AF can be detected with high accuracy up to 98.6% using the compressed images so that this developed system is confirmed to be applicable for resource-constrained portable devices.",
+        "prism:coverDate": "2022-01-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85140587124",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Khaing Su",
+            "preferred-name": {
+                "ce:given-name": "Khaing Su",
+                "ce:initials": "K.S.",
+                "ce:surname": "Thway",
+                "ce:indexed-name": "Thway K.S."
+            },
+            "@seq": "1",
+            "ce:initials": "K.S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Thway",
+            "@auid": "57941535000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57941535000",
+            "ce:indexed-name": "Thway K.S."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85140587124"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85140587124&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85140587124&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781665485593",
+        "prism:publicationName": "ITC-CSCC 2022 - 37th International Technical Conference on Circuits/Systems, Computers and Communications",
+        "source-id": "21101116668",
+        "citedby-count": "0",
+        "subtype": "cp",
+        "prism:pageRange": "341-344",
+        "dc:title": "Detection of Atrial Fibrillation based on Synchronized Beats Image with Lightweight Neural Network",
+        "prism:endingPage": "344",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/ITC-CSCC55581.2022.9894861",
+        "prism:startingPage": "341",
+        "publishercopyright": "© 2022 IEEE.",
+        "dc:identifier": "SCOPUS_ID:85140587124",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Atrial fibrillation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Cardiac arrhythmia",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Classification models",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Datum transformation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Early diagnosis",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Electrocardiogram signal processing",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "High demand",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Images classification",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Mobilenetv2",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Neural-networks",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Atrial fibrillation"
+        },
+        {
+            "@_fa": "true",
+            "$": "ECG signal processing"
+        },
+        {
+            "@_fa": "true",
+            "$": "image classification"
+        },
+        {
+            "@_fa": "true",
+            "$": "MobileNetV2"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Information Systems",
+            "@code": "1710",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Artificial Intelligence",
+            "@code": "1702",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Networks and Communications",
+            "@code": "1705",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Hardware and Architecture",
+            "@code": "1708",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Khaing Su",
+            "preferred-name": {
+                "ce:given-name": "Khaing Su",
+                "ce:initials": "K.S.",
+                "ce:surname": "Thway",
+                "ce:indexed-name": "Thway K.S."
+            },
+            "@seq": "1",
+            "ce:initials": "K.S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Thway",
+            "@auid": "57941535000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57941535000",
+            "ce:indexed-name": "Thway K.S."
+        },
+        {
+            "ce:given-name": "Pakpum",
+            "preferred-name": {
+                "ce:given-name": "Pakpum",
+                "ce:initials": "P.",
+                "ce:surname": "Somboon",
+                "ce:indexed-name": "Somboon P."
+            },
+            "@seq": "2",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Somboon",
+            "@auid": "12805058200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/12805058200",
+            "ce:indexed-name": "Somboon P."
+        },
+        {
+            "ce:given-name": "Arporn",
+            "preferred-name": {
+                "ce:given-name": "Arporn",
+                "ce:initials": "A.",
+                "ce:surname": "Teeramongkonrasmee",
+                "ce:indexed-name": "Teeramongkonrasmee A."
+            },
+            "@seq": "3",
+            "ce:initials": "A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Teeramongkonrasmee",
+            "@auid": "6506097264",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6506097264",
+            "ce:indexed-name": "Teeramongkonrasmee A."
+        }
+    ]}
+}}

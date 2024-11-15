@@ -1,0 +1,1542 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "new",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "25",
+                "@timestamp": "2020-05-25T14:24:11.000011-04:00",
+                "@year": "2020",
+                "@month": "05"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2020",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding-addon-generated-timestamp": "2021-05-11T11:28:13.526926Z",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "postal-code": "10330",
+                        "@afid": "60028190",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Department of Mathematics and Computer Science"},
+                            {"$": "Faculty of Science"},
+                            {"$": "Chulalongkorn University"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60028190",
+                            "@dptid": "113870560"
+                        },
+                        "@affiliation-instance-id": "2004362358-05ce2c59912778b90ece45f76973df1f",
+                        "ce:source-text": "Department of Mathematics and Computer Science, Faculty of Science, Chulalongkorn University, Bangkok, 10330, Thailand",
+                        "@dptid": "113870560"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Paisit",
+                            "preferred-name": {
+                                "ce:given-name": "Paisit",
+                                "ce:initials": "P.",
+                                "ce:surname": "Khanarsa",
+                                "ce:indexed-name": "Khanarsa P."
+                            },
+                            "@author-instance-id": "2004362358-e8a93e762316b4fbdfb480b2a5971f3b",
+                            "@seq": "1",
+                            "ce:initials": "P.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Khanarsa",
+                            "@auid": "57193923147",
+                            "ce:indexed-name": "Khanarsa P."
+                        },
+                        {
+                            "ce:given-name": "Arthorn",
+                            "preferred-name": {
+                                "ce:given-name": "Arthorn",
+                                "ce:initials": "A.",
+                                "ce:surname": "Luangsodsa",
+                                "ce:indexed-name": "Luangsodsa A."
+                            },
+                            "@author-instance-id": "2004362358-7fbf119e89eab1207e408974c3c24d0f",
+                            "@seq": "2",
+                            "ce:initials": "A.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Luangsodsa",
+                            "@auid": "57216820189",
+                            "ce:indexed-name": "Luangsodsa A."
+                        },
+                        {
+                            "ce:given-name": "Krung",
+                            "preferred-name": {
+                                "ce:given-name": "Krung",
+                                "ce:initials": "K.",
+                                "ce:surname": "Sinapiromsaran",
+                                "ce:indexed-name": "Sinapiromsaran K."
+                            },
+                            "@author-instance-id": "2004362358-8f0f0d6152c253514326393e655f742b",
+                            "@seq": "3",
+                            "ce:initials": "K.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Sinapiromsaran",
+                            "@auid": "6505851402",
+                            "ce:indexed-name": "Sinapiromsaran K."
+                        }
+                    ]
+                },
+                "citation-title": "Self-identification resnet-arima forecasting model",
+                "abstracts": "© 2020, World Scientific and Engineering Academy and Society. All rights reserved.The challenging endeavor of a time series forecast model is to predict the future time series data accurately. Traditionally, the fundamental forecasting model in time series analysis is the autoregressive integrated moving average model or the ARIMA model requiring a model identification of a three-component vector which are the autoregressive order, the differencing order, and the moving average order before fitting coefficients of the model via the Box-Jenkins method. A model identification is analyzed via the sample autocorrelation function and the sample partial autocorrelation function which are effective tools for identifying the ARMA order but it is quite difficult for analysts. Even though a likelihood based-method is presented to automate this process by varying the ARIMA order and choosing the best one with the smallest criteria, such as Akaike information criterion. Nevertheless the obtained ARIMA model may not pass the residual diagnostic test. This paper presents the residual neural network model, called the self-identification ResNet-ARIMA order model to automatically learn the ARIMA order from known ARIMA time series data via sample autocorrelation function, the sample partial autocorrelation function and differencing time series images. In this work, the training time series data are randomly simulated and checked for stationary and invertibility properties before they are used. The result order from the model is used to generate and fit the ARIMA model by the Box-Jenkins method for predicting future values. The whole process of the forecasting time series algorithm is called the self-identification ResNet-ARIMA algorithm. The performance of the residual neural network model is evaluated by Precision, Recall and F1-score and is compared with the likelihood based-method and ResNET50. In addition, the performance of the forecasting time series algorithm is applied to the real world datasets to ensure the reliability by mean absolute percentage error, symmetric mean absolute percentage error, mean absolute error and root mean square error and this algorithm is confirmed with the residual diagnostic checks by the Ljung-Box test. From the experimental results, the new methodologies of this research outperforms other models in terms of identifying the order and predicting the future values.",
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "ACF",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "ARIMA",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Differencing time series",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Ljung-Box",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "PACF",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "ResNet",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "WSEAS Trans. Syst. Control",
+                    "website": {"ce:e-address": {
+                        "$": "http://www.wseas.org/multimedia/journals/control/2020/a425103-050.pdf",
+                        "@type": "email"
+                    }},
+                    "@country": "usa",
+                    "translated-sourcetitle": {
+                        "$": "WSEAS Transactions on Systems and Control",
+                        "@xml:lang": "eng"
+                    },
+                    "issn": [
+                        {
+                            "$": "22242856",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "19918763",
+                            "@type": "print"
+                        }
+                    ],
+                    "volisspag": {
+                        "voliss": {"@volume": "15"},
+                        "pagerange": {
+                            "@first": "196",
+                            "@last": "211"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2020"},
+                    "publisher": {
+                        "affiliation": {
+                            "address-part": "Ag. Ioannou Theologou 17-23, Zographou",
+                            "postal-code": "15773",
+                            "@country": "grc",
+                            "city": "Athens"
+                        },
+                        "publishername": "World Scientific and Engineering Academy and Society",
+                        "ce:e-address": {
+                            "$": "mastorakis4567@gmail.com",
+                            "@type": "email"
+                        }
+                    },
+                    "sourcetitle": "WSEAS Transactions on Systems and Control",
+                    "@srcid": "17700155820",
+                    "publicationdate": {
+                        "year": "2020",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2020"
+                        }
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2207"},
+                            {"$": "2606"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "ENGI"},
+                            {"$": "MATH"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2020 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "22",
+                    "@timestamp": "BST 17:19:43",
+                    "@year": "2020",
+                    "@month": "05"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2004362358",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "925787557",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20201050407",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20201720358",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "20200000471439",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85084793833",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85084793833",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.37394/23203.2020.15.21"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "29",
+                "reference": [
+                    {
+                        "ref-fulltext": "Faisal, F., Muhammad, P. M., & Tursoy, T. (2016). Impact of economic growth, foreign direct investment and financial development on stock prices in China: Empirical evidence from time series analysis. International Journal of Economics and Financial Issues, 6(4), 1998-2006.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Impact of economic growth, foreign direct investment and financial development on stock prices in China: Empirical evidence from time series analysis"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85018213731",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "6",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "1998",
+                                    "@last": "2006"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Faisal",
+                                    "ce:indexed-name": "Faisal F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Muhammad",
+                                    "ce:indexed-name": "Muhammad P.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tursoy",
+                                    "ce:indexed-name": "Tursoy T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Journal of Economics and Financial Issues"
+                        },
+                        "ce:source-text": "Faisal, F., Muhammad, P. M., & Tursoy, T. (2016). Impact of economic growth, foreign direct investment and financial development on stock prices in China: Empirical evidence from time series analysis. International Journal of Economics and Financial Issues, 6(4), 1998-2006."
+                    },
+                    {
+                        "ref-fulltext": "Puchalsky, W., Ribeiro, G. T., da Veiga, C. P., Freire, R. Z., & dos Santos Coelho, L. (2018). Agribusiness time series forecasting using Wavelet neural networks and metaheuristic optimization: An analysis of the soybean sack price and perishable products demand. International Journal of Production Economics, 203, 174-189.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Agribusiness time series forecasting using Wavelet neural networks and metaheuristic optimization: An analysis of the soybean sack price and perishable products demand"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85049324367",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "203"},
+                                "pagerange": {
+                                    "@first": "174",
+                                    "@last": "189"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Puchalsky",
+                                    "ce:indexed-name": "Puchalsky W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ribeiro",
+                                    "ce:indexed-name": "Ribeiro G.T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "da Veiga",
+                                    "ce:indexed-name": "da Veiga C.P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Freire",
+                                    "ce:indexed-name": "Freire R.Z."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dos Santos Coelho",
+                                    "ce:indexed-name": "Dos Santos Coelho L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Journal of Production Economics"
+                        },
+                        "ce:source-text": "Puchalsky, W., Ribeiro, G. T., da Veiga, C. P., Freire, R. Z., & dos Santos Coelho, L. (2018). Agribusiness time series forecasting using Wavelet neural networks and metaheuristic optimization: An analysis of the soybean sack price and perishable products demand. International Journal of Production Economics, 203, 174-189."
+                    },
+                    {
+                        "ref-fulltext": "Sahu, P. K., & Kumar, R. (2013). Demand forecasting for sales of milk product (Paneer) in Chhattisgarh. International Journal of Inventive Engineering and Sciences, 1(9), 10-13.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Demand forecasting for sales of milk product (Paneer) in Chhattisgarh"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84986212875",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "1",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {
+                                    "@first": "10",
+                                    "@last": "13"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sahu",
+                                    "ce:indexed-name": "Sahu P.K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kumar",
+                                    "ce:indexed-name": "Kumar R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Journal of Inventive Engineering and Sciences"
+                        },
+                        "ce:source-text": "Sahu, P. K., & Kumar, R. (2013). Demand forecasting for sales of milk product (Paneer) in Chhattisgarh. International Journal of Inventive Engineering and Sciences, 1(9), 10-13."
+                    },
+                    {
+                        "ref-fulltext": "Harvey, A. C. (2013). Dynamic models for volatility and heavy tails: with applications to financial and economic time series (Vol. 52). Cambridge University Press.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84923139102",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "52"}},
+                            "ref-text": "Cambridge University Press",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.C.",
+                                "@_fa": "true",
+                                "ce:surname": "Harvey",
+                                "ce:indexed-name": "Harvey A.C."
+                            }]},
+                            "ref-sourcetitle": "Dynamic Models for Volatility and Heavy Tails: With Applications to Financial and Economic Time Series"
+                        },
+                        "ce:source-text": "Harvey, A. C. (2013). Dynamic models for volatility and heavy tails: with applications to financial and economic time series (Vol. 52). Cambridge University Press."
+                    },
+                    {
+                        "ref-fulltext": "Schumacher, C. (2010). Factor forecasting using international targeted predictors: The case of German GDP. Economics Letters, 107(2), 95-98.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Factor forecasting using international targeted predictors: The case of German GDP"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77950923679",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "107",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "95",
+                                    "@last": "98"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "C.",
+                                "@_fa": "true",
+                                "ce:surname": "Schumacher",
+                                "ce:indexed-name": "Schumacher C."
+                            }]},
+                            "ref-sourcetitle": "Economics Letters"
+                        },
+                        "ce:source-text": "Schumacher, C. (2010). Factor forecasting using international targeted predictors: The case of German GDP. Economics Letters, 107(2), 95-98."
+                    },
+                    {
+                        "ref-fulltext": "Box, G. E., & Jenkins, G. M. (1970). Time series analysis: Forecasting and control Holden-Day. San Francisco, 498.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1970"},
+                            "ref-title": {"ref-titletext": "Time series analysis: Forecasting and control Holden-Day"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0038992482",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {"@first": "498"}},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Box",
+                                    "ce:indexed-name": "Box G.E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jenkins",
+                                    "ce:indexed-name": "Jenkins G.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "San Francisco"
+                        },
+                        "ce:source-text": "Box, G. E., & Jenkins, G. M. (1970). Time series analysis: Forecasting and control Holden-Day. San Francisco, 498."
+                    },
+                    {
+                        "ref-fulltext": "Engle, R. F. (1983). Estimates of the Variance of US Inflation Based upon the ARCH Model. Journal of Money, Credit and Banking, 15(3), 286-301.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1983"},
+                            "ref-title": {"ref-titletext": "Estimates of the Variance of US Inflation Based upon the ARCH Model"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0001005120",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "15",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "286",
+                                    "@last": "301"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.F.",
+                                "@_fa": "true",
+                                "ce:surname": "Engle",
+                                "ce:indexed-name": "Engle R.F."
+                            }]},
+                            "ref-sourcetitle": "Journal of Money, Credit and Banking"
+                        },
+                        "ce:source-text": "Engle, R. F. (1983). Estimates of the Variance of US Inflation Based upon the ARCH Model. Journal of Money, Credit and Banking, 15(3), 286-301."
+                    },
+                    {
+                        "ref-fulltext": "Bollerslev, T. (1990). Modelling the coherence in short-run nominal exchange rates: a multivariate generalized ARCH model. The review of economics and statistics, 498-505.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1990"},
+                            "ref-title": {"ref-titletext": "Modelling the coherence in short-run nominal exchange rates: A multivariate generalized ARCH model"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0001023182",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "498",
+                                "@last": "505"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "T.",
+                                "@_fa": "true",
+                                "ce:surname": "Bollerslev",
+                                "ce:indexed-name": "Bollerslev T."
+                            }]},
+                            "ref-sourcetitle": "The Review of Economics and Statistics"
+                        },
+                        "ce:source-text": "Bollerslev, T. (1990). Modelling the coherence in short-run nominal exchange rates: a multivariate generalized ARCH model. The review of economics and statistics, 498-505."
+                    },
+                    {
+                        "ref-fulltext": "Wei, W. W. (2006). Time series analysis. In The Oxford Handbook of Quantitative Methods in Psychology: Vol. 2.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Time series analysis. In The Oxford Handbook of Quantitative Methods in"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85084832120",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "2"}},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "W.W.",
+                                "@_fa": "true",
+                                "ce:surname": "Wei",
+                                "ce:indexed-name": "Wei W.W."
+                            }]},
+                            "ref-sourcetitle": "Psychology"
+                        },
+                        "ce:source-text": "Wei, W. W. (2006). Time series analysis. In The Oxford Handbook of Quantitative Methods in Psychology: Vol. 2."
+                    },
+                    {
+                        "ref-fulltext": "Akaike, H. (1987). Factor analysis and AIC. In Selected papers of hirotugu akaike. Springer, New York, NY, pp. 371-386",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "Factor analysis and AIC"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "8744310168",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "371",
+                                "@last": "386"
+                            }},
+                            "ref-text": "Springer, New York, NY",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "H.",
+                                "@_fa": "true",
+                                "ce:surname": "Akaike",
+                                "ce:indexed-name": "Akaike H."
+                            }]},
+                            "ref-sourcetitle": "Selected Papers of Hirotugu Akaike"
+                        },
+                        "ce:source-text": "Akaike, H. (1987). Factor analysis and AIC. In Selected papers of hirotugu akaike. Springer, New York, NY, pp. 371-386"
+                    },
+                    {
+                        "ref-fulltext": "Neath, A. A., & Cavanaugh, J. E. (2012). The Bayesian information criterion: background, derivation, and applications. Wiley Interdisciplinary Reviews: Computational Statistics, 4(2), 199-203.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "The Bayesian information criterion: Background, derivation, and applications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84856722355",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "4",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "199",
+                                    "@last": "203"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Neath",
+                                    "ce:indexed-name": "Neath A.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cavanaugh",
+                                    "ce:indexed-name": "Cavanaugh J.E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Wiley Interdisciplinary Reviews: Computational Statistics"
+                        },
+                        "ce:source-text": "Neath, A. A., & Cavanaugh, J. E. (2012). The Bayesian information criterion: background, derivation, and applications. Wiley Interdisciplinary Reviews: Computational Statistics, 4(2), 199-203."
+                    },
+                    {
+                        "ref-fulltext": "Karlsson, P. S., Behrenz, L., & Shukur, G. (2019). Performances of Model Selection Criteria When Variables are Ill Conditioned. Computational Economics, 54(1), 77-98.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Performances of Model Selection Criteria When Variables are Ill Conditioned"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85018671936",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "54",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "77",
+                                    "@last": "98"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Karlsson",
+                                    "ce:indexed-name": "Karlsson P.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Behrenz",
+                                    "ce:indexed-name": "Behrenz L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shukur",
+                                    "ce:indexed-name": "Shukur G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computational Economics"
+                        },
+                        "ce:source-text": "Karlsson, P. S., Behrenz, L., & Shukur, G. (2019). Performances of Model Selection Criteria When Variables are Ill Conditioned. Computational Economics, 54(1), 77-98."
+                    },
+                    {
+                        "ref-fulltext": "Chen, P., Pedersen, T., Bak-Jensen, B., & Chen, Z. (2009). ARIMA-based time series model of stochastic wind power generation. IEEE transactions on power systems, 25(2), 667-676.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "ARIMA-based time series model of stochastic wind power generation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77951665319",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "25",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "667",
+                                    "@last": "676"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pedersen",
+                                    "ce:indexed-name": "Pedersen T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bak-Jensen",
+                                    "ce:indexed-name": "Bak-Jensen B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Power Systems"
+                        },
+                        "ce:source-text": "Chen, P., Pedersen, T., Bak-Jensen, B., & Chen, Z. (2009). ARIMA-based time series model of stochastic wind power generation. IEEE transactions on power systems, 25(2), 667-676."
+                    },
+                    {
+                        "ref-fulltext": "Faruk, D. Ö. (2010). A hybrid neural network and ARIMA model for water quality time series prediction. Engineering applications of artificial intelligence, 23(4), 586-594.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "A hybrid neural network and ARIMA model for water quality time series prediction"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77950516820",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "23",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "586",
+                                    "@last": "594"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "D.Ö.",
+                                "@_fa": "true",
+                                "ce:surname": "Faruk",
+                                "ce:indexed-name": "Faruk D.O."
+                            }]},
+                            "ref-sourcetitle": "Engineering Applications of Artificial Intelligence"
+                        },
+                        "ce:source-text": "Faruk, D. Ö. (2010). A hybrid neural network and ARIMA model for water quality time series prediction. Engineering applications of artificial intelligence, 23(4), 586-594."
+                    },
+                    {
+                        "ref-fulltext": "Alsharif, M. H., Younes, M. K., & Kim, J. (2019). Time series ARIMA model for prediction of daily and monthly average global solar radiation: the case study of Seoul, South Korea. Symmetry, 11(2), 240.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Time series ARIMA model for prediction of daily and monthly average global solar radiation: The case study of Seoul, South Korea"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85061863349",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "11",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {"@first": "240"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alsharif",
+                                    "ce:indexed-name": "Alsharif M.H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Younes",
+                                    "ce:indexed-name": "Younes M.K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Symmetry"
+                        },
+                        "ce:source-text": "Alsharif, M. H., Younes, M. K., & Kim, J. (2019). Time series ARIMA model for prediction of daily and monthly average global solar radiation: the case study of Seoul, South Korea. Symmetry, 11(2), 240."
+                    },
+                    {
+                        "ref-fulltext": "Lee, K. C., & Oh, S. B. (1996). An intelligent approach to time series identification by a neural network-driven decision tree classifier. Decision Support Systems, 17(3), 183-197.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "An intelligent approach to time series identification by a neural network-driven decision tree classifier"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030189493",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "17",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "183",
+                                    "@last": "197"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee K.C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oh",
+                                    "ce:indexed-name": "Oh S.B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Decision Support Systems"
+                        },
+                        "ce:source-text": "Lee, K. C., & Oh, S. B. (1996). An intelligent approach to time series identification by a neural network-driven decision tree classifier. Decision Support Systems, 17(3), 183-197."
+                    },
+                    {
+                        "ref-fulltext": "Chenoweth, T., Hubata, R., & Louis, R. D. S. (2000). Automatic ARMA identification using neural networks and the extended sample autocorrelation function: a reevaluation. Decision Support Systems, 29(1), 21-30.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-title": {"ref-titletext": "Automatic ARMA identification using neural networks and the extended sample autocorrelation function: A reevaluation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0033738757",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "29",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "21",
+                                    "@last": "30"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chenoweth",
+                                    "ce:indexed-name": "Chenoweth T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hubata",
+                                    "ce:indexed-name": "Hubata R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.D.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Louis",
+                                    "ce:indexed-name": "Louis R.D.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Decision Support Systems"
+                        },
+                        "ce:source-text": "Chenoweth, T., Hubata, R., & Louis, R. D. S. (2000). Automatic ARMA identification using neural networks and the extended sample autocorrelation function: a reevaluation. Decision Support Systems, 29(1), 21-30."
+                    },
+                    {
+                        "ref-fulltext": "Al-Qawasmi, K. E., Al-Smadi, A. M., & Al-Hamami, A. (2010, July). Artificial neural network-based algorithm for ARMA model order estimation. In International Conference on Networked Digital Technologies (pp. 184-192). Springer, Berlin, Heidelberg.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Artificial neural network-based algorithm for ARMA model order estimation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77956111932",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "184",
+                                "@last": "192"
+                            }},
+                            "ref-text": "July, Springer, Berlin, Heidelberg",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Al-Qawasmi",
+                                    "ce:indexed-name": "Al-Qawasmi K.E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Al-Smadi",
+                                    "ce:indexed-name": "Al-Smadi A.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Al-Hamami",
+                                    "ce:indexed-name": "Al-Hamami A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Conference on Networked Digital Technologies"
+                        },
+                        "ce:source-text": "Al-Qawasmi, K. E., Al-Smadi, A. M., & Al-Hamami, A. (2010, July). Artificial neural network-based algorithm for ARMA model order estimation. In International Conference on Networked Digital Technologies (pp. 184-192). Springer, Berlin, Heidelberg."
+                    },
+                    {
+                        "ref-fulltext": "Amini, M. H., Kargarian, A., & Karabasoglu, O. (2016). ARIMA-based decoupled time series forecasting of electric vehicle charging demand for stochastic power system operation. Electric Power Systems Research, 140, 378-390.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "ARIMA-based decoupled time series forecasting of electric vehicle charging demand for stochastic power system operation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84994432330",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "140"},
+                                "pagerange": {
+                                    "@first": "378",
+                                    "@last": "390"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Amini",
+                                    "ce:indexed-name": "Amini M.H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kargarian",
+                                    "ce:indexed-name": "Kargarian A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Karabasoglu",
+                                    "ce:indexed-name": "Karabasoglu O."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Electric Power Systems Research"
+                        },
+                        "ce:source-text": "Amini, M. H., Kargarian, A., & Karabasoglu, O. (2016). ARIMA-based decoupled time series forecasting of electric vehicle charging demand for stochastic power system operation. Electric Power Systems Research, 140, 378-390."
+                    },
+                    {
+                        "ref-fulltext": "Guarnaccia, C., Quartieri, J., & Tepedino, C. (2017, June). Deterministic decomposition and seasonal ARIMA time series models applied to airport noise forecasting. In AIP Conference Proceedings (Vol. 1836, No. 1, p. 020079). AIP Publishing LLC.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Deterministic decomposition and seasonal ARIMA time series models applied to airport noise forecasting"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "020079",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "85021320718",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "1836",
+                                "@issue": "1"
+                            }},
+                            "ref-text": "June, AIP Publishing LLC",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guarnaccia",
+                                    "ce:indexed-name": "Guarnaccia C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Quartieri",
+                                    "ce:indexed-name": "Quartieri J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tepedino",
+                                    "ce:indexed-name": "Tepedino C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "AIP Conference Proceedings"
+                        },
+                        "ce:source-text": "Guarnaccia, C., Quartieri, J., & Tepedino, C. (2017, June). Deterministic decomposition and seasonal ARIMA time series models applied to airport noise forecasting. In AIP Conference Proceedings (Vol. 1836, No. 1, p. 020079). AIP Publishing LLC."
+                    },
+                    {
+                        "ref-fulltext": "Fukuoka, R., Suzuki, H., Kitajima, T., Kuwahara, A., & Yasuno, T. (2018). Wind Speed Prediction Model Using LSTM and 1D-CNN. Journal of Signal Processing, 22(4), 207-210.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Wind Speed Prediction Model Using LSTM and 1D-CNN"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85084802962",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "22",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "207",
+                                    "@last": "210"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fukuoka",
+                                    "ce:indexed-name": "Fukuoka R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Suzuki",
+                                    "ce:indexed-name": "Suzuki H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kitajima",
+                                    "ce:indexed-name": "Kitajima T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kuwahara",
+                                    "ce:indexed-name": "Kuwahara A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yasuno",
+                                    "ce:indexed-name": "Yasuno T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Signal Processing"
+                        },
+                        "ce:source-text": "Fukuoka, R., Suzuki, H., Kitajima, T., Kuwahara, A., & Yasuno, T. (2018). Wind Speed Prediction Model Using LSTM and 1D-CNN. Journal of Signal Processing, 22(4), 207-210."
+                    },
+                    {
+                        "ref-fulltext": "Kim, T., & Kim, H. Y. (2019). Forecasting stock prices with a feature fusion LSTM-CNN model using different representations of the same data. PloS one, 14(2).",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Forecasting stock prices with a feature fusion LSTM-CNN model using different representations of the same data"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85061557918",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "14",
+                                "@issue": "2"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim H.Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Plos One"
+                        },
+                        "ce:source-text": "Kim, T., & Kim, H. Y. (2019). Forecasting stock prices with a feature fusion LSTM-CNN model using different representations of the same data. PloS one, 14(2)."
+                    },
+                    {
+                        "ref-fulltext": "Tang, W. H., & Röllin, A. (2018). Model identification for ARMA time series through convolutional neural networks. arXiv preprint arXiv:1804.04299.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1804.04299",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85084845402",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "arXiv preprint arXiv",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang W.H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Röllin",
+                                    "ce:indexed-name": "Rollin A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Model Identification for ARMA Time Series through Convolutional Neural Networks."
+                        },
+                        "ce:source-text": "Tang, W. H., & Röllin, A. (2018). Model identification for ARMA time series through convolutional neural networks. arXiv preprint arXiv:1804.04299."
+                    },
+                    {
+                        "ref-fulltext": "Deng, Jia, et al. \"Imagenet: A large-scale hierarchical image database.\" 2009 IEEE conference on computer vision and pattern recognition(2009): 248-255.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Imagenet: A large-scale hierarchical image database"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "72249100259",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "248",
+                                "@last": "255"
+                            }},
+                            "ref-authors": {
+                                "author": [{
+                                    "ce:given-name": "Jia",
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Deng",
+                                    "ce:indexed-name": "Deng J."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "2009 IEEE Conference on Computer Vision and Pattern Recognition"
+                        },
+                        "ce:source-text": "Deng, Jia, et al. \"Imagenet: A large-scale hierarchical image database.\" 2009 IEEE conference on computer vision and pattern recognition(2009): 248-255."
+                    },
+                    {
+                        "ref-fulltext": "Aloysius, Neena, and M. Geetha. \"A review on deep convolutional neural networks.\" 2017 International Conference on Communication and Signal Processing (ICCSP)(2017): 0588-0592.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "A review on deep convolutional neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85046624318",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "0588",
+                                "@last": "0592"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Neena",
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aloysius",
+                                    "ce:indexed-name": "Aloysius N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Geetha",
+                                    "ce:indexed-name": "Geetha M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2017"
+                        },
+                        "ce:source-text": "Aloysius, Neena, and M. Geetha. \"A review on deep convolutional neural networks.\" 2017 International Conference on Communication and Signal Processing (ICCSP)(2017): 0588-0592."
+                    },
+                    {
+                        "ref-fulltext": "Modi, Arpit Sunilkumar. \"Review Article on Deep Learning Approaches.\" 2018 Second International Conference on Intelligent Computing and Control Systems (ICICCS)(2018): 1635-1639.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Review Article on Deep Learning Approaches"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85063807827",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1635",
+                                "@last": "1639"
+                            }},
+                            "ref-text": "(, )",
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "Arpit Sunilkumar",
+                                "@seq": "1",
+                                "ce:initials": "A.S.",
+                                "@_fa": "true",
+                                "ce:surname": "Modi",
+                                "ce:indexed-name": "Modi A.S."
+                            }]},
+                            "ref-sourcetitle": "2018 Second International Conference on Intelligent Computing and Control Systems (ICICCS)"
+                        },
+                        "ce:source-text": "Modi, Arpit Sunilkumar. \"Review Article on Deep Learning Approaches.\" 2018 Second International Conference on Intelligent Computing and Control Systems (ICICCS)(2018): 1635-1639."
+                    },
+                    {
+                        "ref-fulltext": "Aloysius, Neena, and M. Geetha. \"A review on deep convolutional neural networks.\" 2017 International Conference on Communication and Signal Processing (ICCSP)(2017): 0588-0592.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "A review on deep convolutional neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85046624318",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "0588",
+                                "@last": "0592"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Neena",
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aloysius",
+                                    "ce:indexed-name": "Aloysius N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Geetha",
+                                    "ce:indexed-name": "Geetha M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2017"
+                        },
+                        "ce:source-text": "Aloysius, Neena, and M. Geetha. \"A review on deep convolutional neural networks.\" 2017 International Conference on Communication and Signal Processing (ICCSP)(2017): 0588-0592."
+                    },
+                    {
+                        "ref-fulltext": "Sahiner, Berkman, et al. \"Classification of mass and normal breast tissue: a convolution neural network classifier with spatial domain and texture images.\" IEEE transactions on Medical Imaging 15.5 (1996): 598-610.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "Classification of mass and normal breast tissue: A convolution neural network classifier with spatial domain and texture images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030270445",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "15",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "598",
+                                    "@last": "610"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "ce:given-name": "Sahiner",
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Berkman",
+                                    "ce:indexed-name": "Berkman S."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE Transactions on Medical Imaging"
+                        },
+                        "ce:source-text": "Sahiner, Berkman, et al. \"Classification of mass and normal breast tissue: a convolution neural network classifier with spatial domain and texture images.\" IEEE transactions on Medical Imaging 15.5 (1996): 598-610."
+                    },
+                    {
+                        "ref-fulltext": "Hyndman, Rob J., and George Athanasopoulos. Forecasting: principles and practice. OTexts, 2018.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84871050584",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "OTexts",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Rob J.",
+                                    "@seq": "1",
+                                    "ce:initials": "R.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hyndman",
+                                    "ce:indexed-name": "Hyndman R.J."
+                                },
+                                {
+                                    "ce:given-name": "George",
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Athanasopoulos",
+                                    "ce:indexed-name": "Athanasopoulos G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Forecasting: Principles and Practice"
+                        },
+                        "ce:source-text": "Hyndman, Rob J., and George Athanasopoulos. Forecasting: principles and practice. OTexts, 2018."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Bangkok",
+        "@id": "60028190",
+        "affilname": "Chulalongkorn University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+        "affiliation-country": "Thailand"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85084793833",
+        "dc:description": "The challenging endeavor of a time series forecast model is to predict the future time series data accurately. Traditionally, the fundamental forecasting model in time series analysis is the autoregressive integrated moving average model or the ARIMA model requiring a model identification of a three-component vector which are the autoregressive order, the differencing order, and the moving average order before fitting coefficients of the model via the Box-Jenkins method. A model identification is analyzed via the sample autocorrelation function and the sample partial autocorrelation function which are effective tools for identifying the ARMA order but it is quite difficult for analysts. Even though a likelihood based-method is presented to automate this process by varying the ARIMA order and choosing the best one with the smallest criteria, such as Akaike information criterion. Nevertheless the obtained ARIMA model may not pass the residual diagnostic test. This paper presents the residual neural network model, called the self-identification ResNet-ARIMA order model to automatically learn the ARIMA order from known ARIMA time series data via sample autocorrelation function, the sample partial autocorrelation function and differencing time series images. In this work, the training time series data are randomly simulated and checked for stationary and invertibility properties before they are used. The result order from the model is used to generate and fit the ARIMA model by the Box-Jenkins method for predicting future values. The whole process of the forecasting time series algorithm is called the self-identification ResNet-ARIMA algorithm. The performance of the residual neural network model is evaluated by Precision, Recall and F1-score and is compared with the likelihood based-method and ResNET50. In addition, the performance of the forecasting time series algorithm is applied to the real world datasets to ensure the reliability by mean absolute percentage error, symmetric mean absolute percentage error, mean absolute error and root mean square error and this algorithm is confirmed with the residual diagnostic checks by the Ljung-Box test. From the experimental results, the new methodologies of this research outperforms other models in terms of identifying the order and predicting the future values.",
+        "prism:coverDate": "2020-01-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85084793833",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Paisit",
+            "preferred-name": {
+                "ce:given-name": "Paisit",
+                "ce:initials": "P.",
+                "ce:surname": "Khanarsa",
+                "ce:indexed-name": "Khanarsa P."
+            },
+            "@seq": "1",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Khanarsa",
+            "@auid": "57193923147",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57193923147",
+            "ce:indexed-name": "Khanarsa P."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85084793833"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85084793833&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85084793833&origin=inward"
+            }
+        ],
+        "source-id": "17700155820",
+        "citedby-count": "5",
+        "prism:volume": "15",
+        "subtype": "ar",
+        "dc:title": "Self-identification resnet-arima forecasting model",
+        "openaccess": "1",
+        "prism:issn": "22242856 19918763",
+        "publishercopyright": "© 2020, World Scientific and Engineering Academy and Society. All rights reserved.",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "WSEAS Transactions on Systems and Control",
+        "prism:pageRange": "196-211",
+        "prism:endingPage": "211",
+        "openaccessFlag": "true",
+        "prism:doi": "10.37394/23203.2020.15.21",
+        "prism:startingPage": "196",
+        "dc:identifier": "SCOPUS_ID:85084793833",
+        "dc:publisher": "World Scientific and Engineering Academy and SocietyAg. Ioannou Theologou 17-23, ZographouAthens15773mastorakis4567@gmail.com"
+    },
+    "idxterms": null,
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "ACF"
+        },
+        {
+            "@_fa": "true",
+            "$": "ARIMA"
+        },
+        {
+            "@_fa": "true",
+            "$": "Differencing time series"
+        },
+        {
+            "@_fa": "true",
+            "$": "Ljung-Box"
+        },
+        {
+            "@_fa": "true",
+            "$": "PACF"
+        },
+        {
+            "@_fa": "true",
+            "$": "ResNet"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Control and Systems Engineering",
+            "@code": "2207",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Control and Optimization",
+            "@code": "2606",
+            "@abbrev": "MATH"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Paisit",
+            "preferred-name": {
+                "ce:given-name": "Paisit",
+                "ce:initials": "P.",
+                "ce:surname": "Khanarsa",
+                "ce:indexed-name": "Khanarsa P."
+            },
+            "@seq": "1",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Khanarsa",
+            "@auid": "57193923147",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57193923147",
+            "ce:indexed-name": "Khanarsa P."
+        },
+        {
+            "ce:given-name": "Arthorn",
+            "preferred-name": {
+                "ce:given-name": "Arthorn",
+                "ce:initials": "A.",
+                "ce:surname": "Luangsodsa",
+                "ce:indexed-name": "Luangsodsa A."
+            },
+            "@seq": "2",
+            "ce:initials": "A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Luangsodsa",
+            "@auid": "57216820189",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57216820189",
+            "ce:indexed-name": "Luangsodsa A."
+        },
+        {
+            "ce:given-name": "Krung",
+            "preferred-name": {
+                "ce:given-name": "Krung",
+                "ce:initials": "K.",
+                "ce:surname": "Sinapiromsaran",
+                "ce:indexed-name": "Sinapiromsaran K."
+            },
+            "@seq": "3",
+            "ce:initials": "K.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Sinapiromsaran",
+            "@auid": "6505851402",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6505851402",
+            "ce:indexed-name": "Sinapiromsaran K."
+        }
+    ]}
+}}

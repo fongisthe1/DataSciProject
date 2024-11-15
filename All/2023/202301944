@@ -1,0 +1,2634 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "05",
+                "@timestamp": "2023-09-05T14:01:01.000001-04:00",
+                "@year": "2023",
+                "@month": "09"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2023",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "Chulalongkorn University",
+                    "xocs:funding-agency-acronym": "CU",
+                    "xocs:funding-agency": "Chulalongkorn University",
+                    "xocs:funding-id": "RA-MF-12/62",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002873",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Health Systems Research Institute",
+                    "xocs:funding-agency-acronym": "HSRI",
+                    "xocs:funding-agency": "Health Systems Research Institute",
+                    "xocs:funding-id": "HSRI 62-103",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100010724",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2023-09-06T15:40:34.693006Z",
+            "xocs:funding-text": "This study was supported in part by the Bureau of Tuberculosis, Thailand, the Health Systems Research Institute (HSRI 62-103), and the Ratchadapiseksompotch Matching Fund, Faculty of Medicine, Chulalongkorn University (RA-MF-12/62).",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "@afid": "60028190",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Chulalongkorn University"},
+                            {"$": "Faculty of Engineering"},
+                            {"$": "Department of Computer Engineering"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60028190",
+                            "@dptid": "113891981"
+                        },
+                        "@affiliation-instance-id": "OB2BibRecID-950454206-8c1836f3bbb1bd2db38018b8c31499ef-1",
+                        "ce:source-text": "Chulalongkorn University, Faculty of Engineering, Department of Computer Engineering, Bangkok, Thailand",
+                        "@dptid": "113891981"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Nuttapol",
+                            "preferred-name": {
+                                "ce:given-name": "Nuttapol",
+                                "ce:initials": "N.",
+                                "ce:surname": "Kamolkunasiri",
+                                "ce:indexed-name": "Kamolkunasiri N."
+                            },
+                            "@author-instance-id": "OB2BibRecID-950454206-a1a8394ec98abb6198044c2f38b66349-1",
+                            "@seq": "1",
+                            "ce:initials": "N.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Kamolkunasiri",
+                            "@auid": "58556630200",
+                            "ce:indexed-name": "Kamolkunasiri N."
+                        },
+                        {
+                            "ce:given-name": "Proadpran",
+                            "preferred-name": {
+                                "ce:given-name": "Proadpran",
+                                "ce:initials": "P.",
+                                "ce:surname": "Punyabukkana",
+                                "ce:indexed-name": "Punyabukkana P."
+                            },
+                            "@author-instance-id": "OB2BibRecID-950454206-844f89e62455f20dd57e87058347b305-1",
+                            "@seq": "2",
+                            "ce:initials": "P.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Punyabukkana",
+                            "@auid": "14018257100",
+                            "ce:indexed-name": "Punyabukkana P."
+                        },
+                        {
+                            "ce:given-name": "Ekapol",
+                            "preferred-name": {
+                                "ce:given-name": "Ekapol",
+                                "ce:initials": "E.",
+                                "ce:surname": "Chuangsuwanich",
+                                "ce:indexed-name": "Chuangsuwanich E."
+                            },
+                            "@author-instance-id": "OB2BibRecID-950454206-6682eee166e30cb42b38b24bfac230a0-1",
+                            "@seq": "3",
+                            "ce:initials": "E.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Chuangsuwanich",
+                            "@auid": "36987854100",
+                            "ce:indexed-name": "Chuangsuwanich E."
+                        }
+                    ]
+                },
+                "citation-title": "A Comparative Study on Out of Scope Detection for Chest X-ray Images",
+                "abstracts": "© 2023 IEEE.Image classification models in actual applications may receive input outside the intended data distribution. For crucial applications such as clinical decision-making, it is critical that a model can recognize and describe such out-of-distribution (OOD) inputs. The objective of this study is to investigate the efficacy of several approaches for OOD identification in medical images. We examine three classes of OOD detection methods (Classification models, Confidence-based models, and Generative models) on the data of X-ray images. We found that simple classification methods and HealthyGAN perform t he best overall. However, HealthyGAN cannot generalize to unseen scenarios, while classification models still retain some performance advantage. We also investigate the type of images that might be harder to detect as out of scope. We found that image crop-outs while being easily identifiable by humans, are more challenging for the models to detect.",
+                "correspondence": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Chulalongkorn University"},
+                                {"$": "Faculty of Engineering"},
+                                {"$": "Department of Computer Engineering"}
+                            ],
+                            "@affiliation-instance-id": "OB2BibRecID-950454206-8c1836f3bbb1bd2db38018b8c31499ef-1",
+                            "ce:source-text": "Chulalongkorn University, Faculty of Engineering, Department of Computer Engineering, Bangkok, Thailand"
+                        },
+                        "person": {
+                            "ce:given-name": "Nuttapol",
+                            "@author-instance-id": "OB2BibRecID-950454206-576173310c83a7a126750f0093f6600a-1",
+                            "ce:initials": "N.",
+                            "ce:surname": "Kamolkunasiri",
+                            "ce:indexed-name": "Kamolkunasiri N."
+                        }
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Chulalongkorn University"},
+                                {"$": "Faculty of Engineering"},
+                                {"$": "Department of Computer Engineering"}
+                            ],
+                            "@affiliation-instance-id": "OB2BibRecID-950454206-da072d5d9dc228be8ccced430c34273c-1",
+                            "ce:source-text": "Chulalongkorn University, Faculty of Engineering, Department of Computer Engineering, Bangkok, Thailand"
+                        },
+                        "person": {
+                            "ce:given-name": "Proadpran",
+                            "@author-instance-id": "OB2BibRecID-950454206-35051e292c3cbf609a3e9ae12c7dee32-1",
+                            "ce:initials": "P.",
+                            "ce:surname": "Punyabukkana",
+                            "ce:indexed-name": "Punyabukkana P."
+                        }
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Chulalongkorn University"},
+                                {"$": "Faculty of Engineering"},
+                                {"$": "Department of Computer Engineering"}
+                            ],
+                            "@affiliation-instance-id": "OB2BibRecID-950454206-c6f9f5703b8ff450f823e754ef50fcd9-1",
+                            "ce:source-text": "Chulalongkorn University, Faculty of Engineering, Department of Computer Engineering, Bangkok, Thailand"
+                        },
+                        "person": {
+                            "ce:given-name": "Ekapol",
+                            "@author-instance-id": "OB2BibRecID-950454206-b088f11b7b4181b2ef14eb24b8bf9e49-1",
+                            "ce:initials": "E.",
+                            "ce:surname": "Chuangsuwanich",
+                            "ce:indexed-name": "Chuangsuwanich E."
+                        }
+                    }
+                ],
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Chest radiography",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Image classification",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Image preprocessing",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Out-of-Distribution",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=10201904",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Proceedings of JCSSE 2023 - 20th International Joint Conference on Computer Science and Software Engineering",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"pagerange": {
+                        "@first": "73",
+                        "@last": "78"
+                    }},
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9798350300505",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "20th International Joint Conference on Computer Science and Software Engineering, JCSSE 2023",
+                            "confsponsors": {
+                                "confsponsor": [
+                                    {"$": "et al."},
+                                    {"$": "IEEE"},
+                                    {"$": "IEEE Computer Society Thailand Chapter"},
+                                    {"$": "IEEE Systems, Man, and Cybernetics Society (SMC) Thailand Chapter"},
+                                    {"$": "IEEE Thailand Section"},
+                                    {"$": "IEEE Xplore Digital Library"}
+                                ],
+                                "@complete": "n"
+                            },
+                            "confnumber": "20",
+                            "conforganization": "Department of Computer Science and Information Technology at Naresuan University",
+                            "confcatnumber": "CFP2332P-ART",
+                            "confseriestitle": "International Joint Conference on Computer Science and Software Engineering",
+                            "conflocation": {
+                                "venue": "King Naresuan Exhibition and Convention Center, Naresuan University",
+                                "@country": "tha",
+                                "city": "Phitsanulok"
+                            },
+                            "confcode": "191624",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "01",
+                                    "@year": "2023",
+                                    "@month": "07"
+                                },
+                                "startdate": {
+                                    "@day": "28",
+                                    "@year": "2023",
+                                    "@month": "06"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Proceedings of JCSSE 2023 - 20th International Joint Conference on Computer Science and Software Engineering",
+                    "publicationdate": {
+                        "year": "2023",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2023"
+                        }
+                    },
+                    "sourcetitle-abbrev": "Proc. JCSSE - Int. Jt. Conf. Comput. Sci. Softw. Eng.",
+                    "@country": "usa",
+                    "issuetitle": "Proceedings of JCSSE 2023 - 20th International Joint Conference on Computer Science and Software Engineering",
+                    "publicationyear": {"@first": "2023"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "@srcid": "21101174364"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1702"},
+                            {"$": "1705"},
+                            {"$": "1706"},
+                            {"$": "1707"},
+                            {"$": "1712"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "461.1",
+                                "classification-description": "Biomedical Engineering"
+                            },
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing and Image Processing"
+                            },
+                            {
+                                "classification-code": "746",
+                                "classification-description": "Imaging Techniques"
+                            },
+                            {
+                                "classification-code": "912.2",
+                                "classification-description": "Management"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "COMP"
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2023 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "04",
+                    "@timestamp": "BST 10:46:03",
+                    "@year": "2023",
+                    "@month": "09"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "642145581",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "950454206",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20233614666750",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20232598283",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20233277063",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85169292323",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85169292323",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/JCSSE58229.2023.10202003"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "38",
+                "reference": [
+                    {
+                        "ref-fulltext": "P. Márquez-Neila and R. Sznitman, \u201cImage data validation for medical systems,\u201d in International Conference on Medical Image Computing and Computer-Assisted Intervention. Springer, 2019, pp. 329\u2013337.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-9b3ee43553a51c3028c9e91c0c8d5dea-1",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Image data validation for medical systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85075681714",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "329",
+                                "@last": "337"
+                            }},
+                            "ref-text": "Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Márquez-Neila",
+                                    "ce:indexed-name": "Marquez-Neila P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sznitman",
+                                    "ce:indexed-name": "Sznitman R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Conference on Medical Image Computing and Computer-Assisted Intervention"
+                        },
+                        "ce:source-text": "P. Márquez-Neila and R. Sznitman, \u201cImage data validation for medical systems,\u201d in International Conference on Medical Image Computing and Computer-Assisted Intervention. Springer, 2019, pp. 329\u2013337."
+                    },
+                    {
+                        "ref-fulltext": "A. Bendale and T. E. Boult, \u201cTowards open set deep networks,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition, 2016, pp. 1563\u20131572.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-5b138729dbd7572638ab80842a38606f-2",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Towards open set deep networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84986325877",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1563",
+                                "@last": "1572"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bendale",
+                                    "ce:indexed-name": "Bendale A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boult",
+                                    "ce:indexed-name": "Boult T.E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE conference on computer vision and pattern recognition"
+                        },
+                        "ce:source-text": "A. Bendale and T. E. Boult, \u201cTowards open set deep networks,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition, 2016, pp. 1563\u20131572."
+                    },
+                    {
+                        "ref-fulltext": "T. DeVries and G. W. Taylor, \u201cLearning confidence for out-of-distribution detection in neural networks,\u201d arXiv preprint arXiv:1802.04865, 2018.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-585797b853e456e323ccdf402dcd942a-3",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1802.04865",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85064816363",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "arXiv preprint",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "DeVries",
+                                    "ce:indexed-name": "DeVries T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Taylor",
+                                    "ce:indexed-name": "Taylor G.W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Learning confidence for out-of-distribution detection in neural networks"
+                        },
+                        "ce:source-text": "T. DeVries and G. W. Taylor, \u201cLearning confidence for out-of-distribution detection in neural networks,\u201d arXiv preprint arXiv:1802.04865, 2018."
+                    },
+                    {
+                        "ref-fulltext": "D. Hendrycks and K. Gimpel, \u201cA baseline for detecting misclassified and out-of-distribution examples in neural networks,\u201d arXiv preprint arXiv:1610.02136, 2016.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-93f12d9c0dbc09eb8014f1a1e142563b-4",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1610.02136",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85045216762",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "arXiv preprint",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hendrycks",
+                                    "ce:indexed-name": "Hendrycks D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gimpel",
+                                    "ce:indexed-name": "Gimpel K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "A baseline for detecting misclassified and out-of-distribution examples in neural networks"
+                        },
+                        "ce:source-text": "D. Hendrycks and K. Gimpel, \u201cA baseline for detecting misclassified and out-of-distribution examples in neural networks,\u201d arXiv preprint arXiv:1610.02136, 2016."
+                    },
+                    {
+                        "ref-fulltext": "N. Japkowicz, C. Myers, M. Gluck et al., \u201cA novelty detection approach to classification,\u201d in IJCAI, vol. 1. Citeseer, 1995, pp. 518\u2013523.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-4e648021e6d6d63e3d735f3818613e22-5",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1995"},
+                            "ref-title": {"ref-titletext": "A novelty detection approach to classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0001201703",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "1"},
+                                "pagerange": {
+                                    "@first": "518",
+                                    "@last": "523"
+                                }
+                            },
+                            "ref-text": "Citeseer",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "N.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Japkowicz",
+                                        "ce:indexed-name": "Japkowicz N."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "C.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Myers",
+                                        "ce:indexed-name": "Myers C."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "M.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Gluck",
+                                        "ce:indexed-name": "Gluck M."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IJCAI"
+                        },
+                        "ce:source-text": "N. Japkowicz, C. Myers, M. Gluck et al., \u201cA novelty detection approach to classification,\u201d in IJCAI, vol. 1. Citeseer, 1995, pp. 518\u2013523."
+                    },
+                    {
+                        "ref-fulltext": "C. Baur, S. Denner, B. Wiestler, N. Navab, and S. Albarqouni, \u201cAutoencoders for unsupervised anomaly segmentation in brain MR images: a comparative study,\u201d Medical Image Analysis, vol. 69, p. 101952, 2021.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-615685da4b63d6d7ef231fc2bfc786f7-6",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Autoencoders for unsupervised anomaly segmentation in brain MR images: a comparative study"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85099435279",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "69"},
+                                "pagerange": {"@first": "101952"}
+                            },
+                            "ref-text": "2021",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Baur",
+                                    "ce:indexed-name": "Baur C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Denner",
+                                    "ce:indexed-name": "Denner S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wiestler",
+                                    "ce:indexed-name": "Wiestler B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Navab",
+                                    "ce:indexed-name": "Navab N."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Albarqouni",
+                                    "ce:indexed-name": "Albarqouni S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Medical Image Analysis"
+                        },
+                        "ce:source-text": "C. Baur, S. Denner, B. Wiestler, N. Navab, and S. Albarqouni, \u201cAutoencoders for unsupervised anomaly segmentation in brain MR images: a comparative study,\u201d Medical Image Analysis, vol. 69, p. 101952, 2021."
+                    },
+                    {
+                        "ref-fulltext": "N. Pawlowski, M. C. Lee, M. Rajchl, S. McDonagh, E. Ferrante, K. Kamnitsas, S. Cooke, S. Stevenson, A. Khetani, T. Newman et al., \u201cUnsupervised lesion detection in brain CT using bayesian convolutional autoencoders,\u201d 2018.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-65aa86a50a02a9a03408700c65936954-7",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85075659671",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "N.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Pawlowski",
+                                        "ce:indexed-name": "Pawlowski N."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "M.C.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Lee",
+                                        "ce:indexed-name": "Lee M.C."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "M.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Rajchl",
+                                        "ce:indexed-name": "Rajchl M."
+                                    },
+                                    {
+                                        "@seq": "4",
+                                        "ce:initials": "S.",
+                                        "@_fa": "true",
+                                        "ce:surname": "McDonagh",
+                                        "ce:indexed-name": "McDonagh S."
+                                    },
+                                    {
+                                        "@seq": "5",
+                                        "ce:initials": "E.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Ferrante",
+                                        "ce:indexed-name": "Ferrante E."
+                                    },
+                                    {
+                                        "@seq": "6",
+                                        "ce:initials": "K.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Kamnitsas",
+                                        "ce:indexed-name": "Kamnitsas K."
+                                    },
+                                    {
+                                        "@seq": "7",
+                                        "ce:initials": "S.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Cooke",
+                                        "ce:indexed-name": "Cooke S."
+                                    },
+                                    {
+                                        "@seq": "8",
+                                        "ce:initials": "S.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Stevenson",
+                                        "ce:indexed-name": "Stevenson S."
+                                    },
+                                    {
+                                        "@seq": "9",
+                                        "ce:initials": "A.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Khetani",
+                                        "ce:indexed-name": "Khetani A."
+                                    },
+                                    {
+                                        "@seq": "10",
+                                        "ce:initials": "T.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Newman",
+                                        "ce:indexed-name": "Newman T."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Unsupervised lesion detection in brain CT using bayesian convolutional autoencoders"
+                        },
+                        "ce:source-text": "N. Pawlowski, M. C. Lee, M. Rajchl, S. McDonagh, E. Ferrante, K. Kamnitsas, S. Cooke, S. Stevenson, A. Khetani, T. Newman et al., \u201cUnsupervised lesion detection in brain CT using bayesian convolutional autoencoders,\u201d 2018."
+                    },
+                    {
+                        "ref-fulltext": "T. Schlegl, P. Seeböck, S. M. Waldstein, U. Schmidt-Erfurth, and G. Langs, \u201cUnsupervised anomaly detection with generative adversarial networks to guide marker discovery,\u201d in International conference on information processing in medical imaging. Springer, 2017, pp. 146\u2013157.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-1d5dde3be72b7d033c7698507fb847ef-8",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Unsupervised anomaly detection with generative adversarial networks to guide marker discovery"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85020524815",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "146",
+                                "@last": "157"
+                            }},
+                            "ref-text": "Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schlegl",
+                                    "ce:indexed-name": "Schlegl T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Seeböck",
+                                    "ce:indexed-name": "Seebock P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Waldstein",
+                                    "ce:indexed-name": "Waldstein S.M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "U.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schmidt-Erfurth",
+                                    "ce:indexed-name": "Schmidt-Erfurth U."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Langs",
+                                    "ce:indexed-name": "Langs G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International conference on information processing in medical imaging"
+                        },
+                        "ce:source-text": "T. Schlegl, P. Seeböck, S. M. Waldstein, U. Schmidt-Erfurth, and G. Langs, \u201cUnsupervised anomaly detection with generative adversarial networks to guide marker discovery,\u201d in International conference on information processing in medical imaging. Springer, 2017, pp. 146\u2013157."
+                    },
+                    {
+                        "ref-fulltext": "A. Krizhevsky, G. Hinton et al., \u201cLearning multiple layers of features from tiny images,\u201d 2009.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-b4efbabb414a3e3d2a33daa51f4121ad-9",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77956002520",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "A.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Krizhevsky",
+                                        "ce:indexed-name": "Krizhevsky A."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "G.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Hinton",
+                                        "ce:indexed-name": "Hinton G."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Learning multiple layers of features from tiny images"
+                        },
+                        "ce:source-text": "A. Krizhevsky, G. Hinton et al., \u201cLearning multiple layers of features from tiny images,\u201d 2009."
+                    },
+                    {
+                        "ref-fulltext": "J. Wu, Q. Zhang, and G. Xu, \u201cTiny imagenet challenge,\u201d Technical report, 2017.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-0d75896e556840933325d5edf2b369b2-10",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Tiny imagenet challenge"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85072960571",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Q."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Technical report"
+                        },
+                        "ce:source-text": "J. Wu, Q. Zhang, and G. Xu, \u201cTiny imagenet challenge,\u201d Technical report, 2017."
+                    },
+                    {
+                        "ref-fulltext": "F. Yu, A. Seff, Y. Zhang, S. Song, T. Funkhouser, and J. Xiao, \u201cLsun: Construction of a large-scale image dataset using deep learning with humans in the loop,\u201d arXiv preprint arXiv:1506.03365, 2015.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-ebe3252ecd96c9028a0104c3ded735ff-11",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1506.03365",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84979976120",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "arXiv preprint",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Seff",
+                                    "ce:indexed-name": "Seff A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Song",
+                                    "ce:indexed-name": "Song S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Funkhouser",
+                                    "ce:indexed-name": "Funkhouser T."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xiao",
+                                    "ce:indexed-name": "Xiao J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Lsun: Construction of a large-scale image dataset using deep learning with humans in the loop"
+                        },
+                        "ce:source-text": "F. Yu, A. Seff, Y. Zhang, S. Song, T. Funkhouser, and J. Xiao, \u201cLsun: Construction of a large-scale image dataset using deep learning with humans in the loop,\u201d arXiv preprint arXiv:1506.03365, 2015."
+                    },
+                    {
+                        "ref-fulltext": "Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner, \u201cGradient-based learning applied to document recognition,\u201d Proceedings of the IEEE, vol. 86, no. 11, pp. 2278\u20132324, 1998.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-bf3bd878040beeaf73efc74467ee6a4a-12",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Gradient-based learning applied to document recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0032203257",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "86",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "2278",
+                                    "@last": "2324"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "LeCun",
+                                    "ce:indexed-name": "LeCun Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bottou",
+                                    "ce:indexed-name": "Bottou L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bengio",
+                                    "ce:indexed-name": "Bengio Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Haffner",
+                                    "ce:indexed-name": "Haffner P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE"
+                        },
+                        "ce:source-text": "Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner, \u201cGradient-based learning applied to document recognition,\u201d Proceedings of the IEEE, vol. 86, no. 11, pp. 2278\u20132324, 1998."
+                    },
+                    {
+                        "ref-fulltext": "J. P. Woodard and M. P. Carley-Spencer, \u201cNo-reference image quality metrics for structural MRI,\u201d Neuroinformatics, vol. 4, no. 3, pp. 243\u2013262, 2006.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-240f8196f0e28efefb6824f8a1a4bca1-13",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "No-reference image quality metrics for structural MRI"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33748336698",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "4",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "243",
+                                    "@last": "262"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Woodard",
+                                    "ce:indexed-name": "Woodard J.P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carley-Spencer",
+                                    "ce:indexed-name": "Carley-Spencer M.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neuroinformatics"
+                        },
+                        "ce:source-text": "J. P. Woodard and M. P. Carley-Spencer, \u201cNo-reference image quality metrics for structural MRI,\u201d Neuroinformatics, vol. 4, no. 3, pp. 243\u2013262, 2006."
+                    },
+                    {
+                        "ref-fulltext": "Z. Liu, Y. Wang, G. Gerig, S. Gouttard, R. Tao, T. Fletcher, and M. Styner, \u201cQuality control of diffusion weighted images,\u201d in Medical Imaging 2010: Advanced PACS-based Imaging Informatics and Therapeutic Applications, vol. 7628. SPIE, 2010, pp. 137\u2013145.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-1d89b938bac4f3550eb6f1e88aaa2fe9-14",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Quality control of diffusion weighted images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77953423985",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "7628"},
+                                "pagerange": {
+                                    "@first": "137",
+                                    "@last": "145"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gerig",
+                                    "ce:indexed-name": "Gerig G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gouttard",
+                                    "ce:indexed-name": "Gouttard S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tao",
+                                    "ce:indexed-name": "Tao R."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fletcher",
+                                    "ce:indexed-name": "Fletcher T."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Styner",
+                                    "ce:indexed-name": "Styner M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Medical Imaging 2010: Advanced PACS-based Imaging Informatics and Therapeutic Applications"
+                        },
+                        "ce:source-text": "Z. Liu, Y. Wang, G. Gerig, S. Gouttard, R. Tao, T. Fletcher, and M. Styner, \u201cQuality control of diffusion weighted images,\u201d in Medical Imaging 2010: Advanced PACS-based Imaging Informatics and Therapeutic Applications, vol. 7628. SPIE, 2010, pp. 137\u2013145."
+                    },
+                    {
+                        "ref-fulltext": "K. Lekadir, R. Merrifield, and G.-Z. Yang, \u201cOutlier detection and handling for robust 3-D active shape models search,\u201d IEEE Transactions on Medical Imaging, vol. 26, no. 2, pp. 212\u2013222, 2007.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-4266aca1d040b4e67bcd37d2ea9ee2aa-15",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Outlier detection and handling for robust 3-D active shape models search"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33847612851",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "26",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "212",
+                                    "@last": "222"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lekadir",
+                                    "ce:indexed-name": "Lekadir K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Merrifield",
+                                    "ce:indexed-name": "Merrifield R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.-Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang G.-Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Medical Imaging"
+                        },
+                        "ce:source-text": "K. Lekadir, R. Merrifield, and G.-Z. Yang, \u201cOutlier detection and handling for robust 3-D active shape models search,\u201d IEEE Transactions on Medical Imaging, vol. 26, no. 2, pp. 212\u2013222, 2007."
+                    },
+                    {
+                        "ref-fulltext": "D. K. Iakovidis, S. V. Georgakopoulos, M. Vasilakakis, A. Koulaouzidis, and V. P. Plagianakos, \u201cDetecting and locating gastrointestinal anomalies using deep learning and iterative cluster unification,\u201d IEEE transactions on medical imaging, vol. 37, no. 10, pp. 2196\u20132210, 2018.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-56e039bf4657c52228f70e0507002962-16",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Detecting and locating gastrointestinal anomalies using deep learning and iterative cluster unification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85047012325",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "37",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {
+                                    "@first": "2196",
+                                    "@last": "2210"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Iakovidis",
+                                    "ce:indexed-name": "Iakovidis D.K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Georgakopoulos",
+                                    "ce:indexed-name": "Georgakopoulos S.V."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vasilakakis",
+                                    "ce:indexed-name": "Vasilakakis M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koulaouzidis",
+                                    "ce:indexed-name": "Koulaouzidis A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "V.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Plagianakos",
+                                    "ce:indexed-name": "Plagianakos V.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE transactions on medical imaging"
+                        },
+                        "ce:source-text": "D. K. Iakovidis, S. V. Georgakopoulos, M. Vasilakakis, A. Koulaouzidis, and V. P. Plagianakos, \u201cDetecting and locating gastrointestinal anomalies using deep learning and iterative cluster unification,\u201d IEEE transactions on medical imaging, vol. 37, no. 10, pp. 2196\u20132210, 2018."
+                    },
+                    {
+                        "ref-fulltext": "C. Désir, S. Bernard, C. Petitjean, and L. Heutte, \u201cA random forest based approach for one class classification in medical imaging,\u201d in International Workshop on Machine Learning in Medical Imaging. Springer, 2012, pp. 250\u2013257.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-db7cf67ca4695df442aa81baf230818e-17",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "A random forest based approach for one class classification in medical imaging"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84870021480",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "250",
+                                "@last": "257"
+                            }},
+                            "ref-text": "Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Désir",
+                                    "ce:indexed-name": "Desir C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bernard",
+                                    "ce:indexed-name": "Bernard S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Petitjean",
+                                    "ce:indexed-name": "Petitjean C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Heutte",
+                                    "ce:indexed-name": "Heutte L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Workshop on Machine Learning in Medical Imaging"
+                        },
+                        "ce:source-text": "C. Désir, S. Bernard, C. Petitjean, and L. Heutte, \u201cA random forest based approach for one class classification in medical imaging,\u201d in International Workshop on Machine Learning in Medical Imaging. Springer, 2012, pp. 250\u2013257."
+                    },
+                    {
+                        "ref-fulltext": "C. Berger, M. Paschali, B. Glocker, and K. Kamnitsas, \u201cConfidence-based out-of-distribution detection: a comparative study and analysis,\u201d in Uncertainty for Safe Utilization of Machine Learning in Medical Imaging, and Perinatal Imaging, Placental and Preterm Image Analysis. Springer, 2021, pp. 122\u2013132.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-47363ec0faf9ee85db008a8df299d2ef-18",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Confidence-based out-of-distribution detection: a comparative study and analysis"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85117073868",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "122",
+                                "@last": "132"
+                            }},
+                            "ref-text": "Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Berger",
+                                    "ce:indexed-name": "Berger C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Paschali",
+                                    "ce:indexed-name": "Paschali M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Glocker",
+                                    "ce:indexed-name": "Glocker B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kamnitsas",
+                                    "ce:indexed-name": "Kamnitsas K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Uncertainty for Safe Utilization of Machine Learning in Medical Imaging, and Perinatal Imaging, Placental and Preterm Image Analysis"
+                        },
+                        "ce:source-text": "C. Berger, M. Paschali, B. Glocker, and K. Kamnitsas, \u201cConfidence-based out-of-distribution detection: a comparative study and analysis,\u201d in Uncertainty for Safe Utilization of Machine Learning in Medical Imaging, and Perinatal Imaging, Placental and Preterm Image Analysis. Springer, 2021, pp. 122\u2013132."
+                    },
+                    {
+                        "ref-fulltext": "T. Cao, C.-W. Huang, D. Y.-T. Hui, and J. P. Cohen, \u201cA benchmark of medical out of distribution detection,\u201d arXiv preprint arXiv:2007.04250, 2020.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-42d0f031c4e4243408e1ba0c4bc1bbb2-19",
+                        "@id": "19",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "2007.04250, 2020",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85118500148",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "arXiv preprint",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cao",
+                                    "ce:indexed-name": "Cao T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.-W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang C.-W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.Y.-T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hui",
+                                    "ce:indexed-name": "Hui D.Y.-T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cohen",
+                                    "ce:indexed-name": "Cohen J.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "A benchmark of medical out of distribution detection"
+                        },
+                        "ce:source-text": "T. Cao, C.-W. Huang, D. Y.-T. Hui, and J. P. Cohen, \u201cA benchmark of medical out of distribution detection,\u201d arXiv preprint arXiv:2007.04250, 2020."
+                    },
+                    {
+                        "ref-fulltext": "O. Zhang, J.-B. Delbrouck, and D. L. Rubin, \u201cOut of distribution detection for medical images,\u201d in Uncertainty for Safe Utilization of Machine Learning in Medical Imaging, and Perinatal Imaging, Placental and Preterm Image Analysis. Springer, 2021, pp. 102\u2013111.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-0c8359ffb84f404017b98580068264ed-20",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Out of distribution detection for medical images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85117143918",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "102",
+                                "@last": "111"
+                            }},
+                            "ref-text": "Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang O."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.-B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Delbrouck",
+                                    "ce:indexed-name": "Delbrouck J.-B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rubin",
+                                    "ce:indexed-name": "Rubin D.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Uncertainty for Safe Utilization of Machine Learning in Medical Imaging, and Perinatal Imaging, Placental and Preterm Image Analysis"
+                        },
+                        "ce:source-text": "O. Zhang, J.-B. Delbrouck, and D. L. Rubin, \u201cOut of distribution detection for medical images,\u201d in Uncertainty for Safe Utilization of Machine Learning in Medical Imaging, and Perinatal Imaging, Placental and Preterm Image Analysis. Springer, 2021, pp. 102\u2013111."
+                    },
+                    {
+                        "ref-fulltext": "J. Yang, K. Zhou, Y. Li, and Z. Liu, \u201cGeneralized out-of-distribution detection: A survey,\u201d arXiv preprint arXiv:2110.11334, 2021.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-cf8bbc1b97716381ba6f8561746bb6b3-21",
+                        "@id": "21",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "2110.11334, 2021",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85118844780",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "arXiv preprint",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Generalized out-of-distribution detection: A survey"
+                        },
+                        "ce:source-text": "J. Yang, K. Zhou, Y. Li, and Z. Liu, \u201cGeneralized out-of-distribution detection: A survey,\u201d arXiv preprint arXiv:2110.11334, 2021."
+                    },
+                    {
+                        "ref-fulltext": "K. Lee, K. Lee, H. Lee, and J. Shin, \u201cA simple unified framework for detecting out-of-distribution samples and adversarial attacks,\u201d Advances in neural information processing systems, vol. 31, 2018.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-f25b9ebbfdb402756e227ef2c0d13a35-22",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "A simple unified framework for detecting out-of-distribution samples and adversarial attacks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85064822451",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "31"}},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shin",
+                                    "ce:indexed-name": "Shin J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Advances in neural information processing systems"
+                        },
+                        "ce:source-text": "K. Lee, K. Lee, H. Lee, and J. Shin, \u201cA simple unified framework for detecting out-of-distribution samples and adversarial attacks,\u201d Advances in neural information processing systems, vol. 31, 2018."
+                    },
+                    {
+                        "ref-fulltext": "S. Liang, Y. Li, and R. Srikant, \u201cEnhancing the reliability of out-of-distribution image detection in neural networks,\u201d arXiv preprint arXiv:1706.02690, 2017.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-c2a59af676e0dca912de6dce8010d2dc-23",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1706.02690",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85045202668",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "arXiv preprint",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liang",
+                                    "ce:indexed-name": "Liang S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Srikant",
+                                    "ce:indexed-name": "Srikant R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Enhancing the reliability of out-of-distribution image detection in neural networks"
+                        },
+                        "ce:source-text": "S. Liang, Y. Li, and R. Srikant, \u201cEnhancing the reliability of out-of-distribution image detection in neural networks,\u201d arXiv preprint arXiv:1706.02690, 2017."
+                    },
+                    {
+                        "ref-fulltext": "K. Simonyan and A. Zisserman, \u201cVery deep convolutional networks for large-scale image recognition,\u201d arXiv preprint arXiv:1409.1556, 2014.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-980310667783d5430a4e3f2c5e57c7cc-24",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1409.1556",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84925410541",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "arXiv preprint",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Simonyan",
+                                    "ce:indexed-name": "Simonyan K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zisserman",
+                                    "ce:indexed-name": "Zisserman A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Very deep convolutional networks for large-scale image recognition"
+                        },
+                        "ce:source-text": "K. Simonyan and A. Zisserman, \u201cVery deep convolutional networks for large-scale image recognition,\u201d arXiv preprint arXiv:1409.1556, 2014."
+                    },
+                    {
+                        "ref-fulltext": "K. He, X. Zhang, S. Ren, and J. Sun, \u201cDeep residual learning for image recognition,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition, 2016, pp. 770\u2013778.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-bbdf7b714a8a0873c5ecf11bc0a63623-25",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Deep residual learning for image recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84986274465",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "770",
+                                "@last": "778"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang X."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ren",
+                                    "ce:indexed-name": "Ren S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE conference on computer vision and pattern recognition"
+                        },
+                        "ce:source-text": "K. He, X. Zhang, S. Ren, and J. Sun, \u201cDeep residual learning for image recognition,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition, 2016, pp. 770\u2013778."
+                    },
+                    {
+                        "ref-fulltext": "G. Huang, Z. Liu, L. Van Der Maaten, and K. Q. Weinberger, \u201cDensely connected convolutional networks,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition, 2017, pp. 4700\u20134708.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-142e1e4e964cb6f97da7a0fe155d3693-26",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Densely connected convolutional networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85013999932",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "4700",
+                                "@last": "4708"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van Der Maaten",
+                                    "ce:indexed-name": "Van Der Maaten L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Weinberger",
+                                    "ce:indexed-name": "Weinberger K.Q."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE conference on computer vision and pattern recognition"
+                        },
+                        "ce:source-text": "G. Huang, Z. Liu, L. Van Der Maaten, and K. Q. Weinberger, \u201cDensely connected convolutional networks,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition, 2017, pp. 4700\u20134708."
+                    },
+                    {
+                        "ref-fulltext": "K. Preechakul, S. Sriswasdi, B. Kijsirikul, and E. Chuangsuwanich, \u201cImproved image classification explainability with high-accuracy heatmaps,\u201d Iscience, vol. 25, no. 3, p. 103933, 2022.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-9f235e05873222ea3229e600868aec05-27",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-title": {"ref-titletext": "Improved image classification explainability with high-accuracy heatmaps"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85125426099",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "25",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {"@first": "103933"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Preechakul",
+                                    "ce:indexed-name": "Preechakul K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sriswasdi",
+                                    "ce:indexed-name": "Sriswasdi S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kijsirikul",
+                                    "ce:indexed-name": "Kijsirikul B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chuangsuwanich",
+                                    "ce:indexed-name": "Chuangsuwanich E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Iscience"
+                        },
+                        "ce:source-text": "K. Preechakul, S. Sriswasdi, B. Kijsirikul, and E. Chuangsuwanich, \u201cImproved image classification explainability with high-accuracy heatmaps,\u201d Iscience, vol. 25, no. 3, p. 103933, 2022."
+                    },
+                    {
+                        "ref-fulltext": "H. Zenati, M. Romain, C.-S. Foo, B. Lecouat, and V. Chandrasekhar, \u201cAdversarially learned anomaly detection,\u201d in 2018 IEEE International conference on data mining (ICDM). IEEE, 2018, pp. 727\u2013736.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-c5436f05fc26357d4e283db1fba70853-28",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Adversarially learned anomaly detection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85061365148",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "727",
+                                "@last": "736"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zenati",
+                                    "ce:indexed-name": "Zenati H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Romain",
+                                    "ce:indexed-name": "Romain M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.-S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Foo",
+                                    "ce:indexed-name": "Foo C.-S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lecouat",
+                                    "ce:indexed-name": "Lecouat B."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chandrasekhar",
+                                    "ce:indexed-name": "Chandrasekhar V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2018 IEEE International conference on data mining (ICDM)"
+                        },
+                        "ce:source-text": "H. Zenati, M. Romain, C.-S. Foo, B. Lecouat, and V. Chandrasekhar, \u201cAdversarially learned anomaly detection,\u201d in 2018 IEEE International conference on data mining (ICDM). IEEE, 2018, pp. 727\u2013736."
+                    },
+                    {
+                        "ref-fulltext": "T. Schlegl, P. Seeböck, S. M. Waldstein, G. Langs, and U. Schmidt-Erfurth, \u201cf-AnoGAN: Fast unsupervised anomaly detection with generative adversarial networks,\u201d Medical image analysis, vol. 54, pp. 30\u201344, 2019.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-3efab772ba4696196f733790dd01dd13-29",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "f-AnoGAN: Fast unsupervised anomaly detection with generative adversarial networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85062268629",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "54"},
+                                "pagerange": {
+                                    "@first": "30",
+                                    "@last": "44"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schlegl",
+                                    "ce:indexed-name": "Schlegl T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Seeböck",
+                                    "ce:indexed-name": "Seebock P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Waldstein",
+                                    "ce:indexed-name": "Waldstein S.M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Langs",
+                                    "ce:indexed-name": "Langs G."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "U.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schmidt-Erfurth",
+                                    "ce:indexed-name": "Schmidt-Erfurth U."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Medical image analysis"
+                        },
+                        "ce:source-text": "T. Schlegl, P. Seeböck, S. M. Waldstein, G. Langs, and U. Schmidt-Erfurth, \u201cf-AnoGAN: Fast unsupervised anomaly detection with generative adversarial networks,\u201d Medical image analysis, vol. 54, pp. 30\u201344, 2019."
+                    },
+                    {
+                        "ref-fulltext": "M. Arjovsky, S. Chintala, and L. Bottou, \u201cWasserstein generative adversarial networks,\u201d in International conference on machine learning. PMLR, 2017, pp. 214\u2013223.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-b9cbb3998e49c995222bf3df2f607a84-30",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Wasserstein generative adversarial networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85035363407",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "214",
+                                "@last": "223"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Arjovsky",
+                                    "ce:indexed-name": "Arjovsky M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chintala",
+                                    "ce:indexed-name": "Chintala S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bottou",
+                                    "ce:indexed-name": "Bottou L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International conference on machine learning. PMLR"
+                        },
+                        "ce:source-text": "M. Arjovsky, S. Chintala, and L. Bottou, \u201cWasserstein generative adversarial networks,\u201d in International conference on machine learning. PMLR, 2017, pp. 214\u2013223."
+                    },
+                    {
+                        "ref-fulltext": "H. Zenati, C. S. Foo, B. Lecouat, G. Manek, and V. R. Chandrasekhar, \u201cEfficient GAN-based anomaly detection,\u201d arXiv preprint arXiv:1802.06222, 2018.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-a3d4226d73c2e952c530157bc0d200eb-31",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1802.06222",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85057000290",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "arXiv preprint",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zenati",
+                                    "ce:indexed-name": "Zenati H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Foo",
+                                    "ce:indexed-name": "Foo C.S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lecouat",
+                                    "ce:indexed-name": "Lecouat B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Manek",
+                                    "ce:indexed-name": "Manek G."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "V.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chandrasekhar",
+                                    "ce:indexed-name": "Chandrasekhar V.R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Efficient GAN-based anomaly detection"
+                        },
+                        "ce:source-text": "H. Zenati, C. S. Foo, B. Lecouat, G. Manek, and V. R. Chandrasekhar, \u201cEfficient GAN-based anomaly detection,\u201d arXiv preprint arXiv:1802.06222, 2018."
+                    },
+                    {
+                        "ref-fulltext": "J. Donahue, P. Krähenbühl, and T. Darrell, \u201cAdversarial feature learning,\u201d arXiv preprint arXiv:1605.09782, 2016.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-b98e3c78b3dd96924629718b9c3e6175-32",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1605.09782",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84990042746",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "arXiv preprint",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Donahue",
+                                    "ce:indexed-name": "Donahue J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krähenbühl",
+                                    "ce:indexed-name": "Krahenbuhl P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Darrell",
+                                    "ce:indexed-name": "Darrell T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Adversarial feature learning"
+                        },
+                        "ce:source-text": "J. Donahue, P. Krähenbühl, and T. Darrell, \u201cAdversarial feature learning,\u201d arXiv preprint arXiv:1605.09782, 2016."
+                    },
+                    {
+                        "ref-fulltext": "S. Akcay, A. Atapour-Abarghouei, and T. P. Breckon, \u201cGanomaly: Semi-supervised anomaly detection via adversarial training,\u201d in Asian conference on computer vision. Springer, 2018, pp. 622\u2013637.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-93501c641f54d8b6d55efc6403d5c3d8-33",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Ganomaly: Semi-supervised anomaly detection via adversarial training"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85067239111",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "622",
+                                "@last": "637"
+                            }},
+                            "ref-text": "Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Akcay",
+                                    "ce:indexed-name": "Akcay S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Atapour-Abarghouei",
+                                    "ce:indexed-name": "Atapour-Abarghouei A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Breckon",
+                                    "ce:indexed-name": "Breckon T.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Asian conference on computer vision"
+                        },
+                        "ce:source-text": "S. Akcay, A. Atapour-Abarghouei, and T. P. Breckon, \u201cGanomaly: Semi-supervised anomaly detection via adversarial training,\u201d in Asian conference on computer vision. Springer, 2018, pp. 622\u2013637."
+                    },
+                    {
+                        "ref-fulltext": "M. M. Rahman Siddiquee, J. Shah, T. Wu, C. Chong, T. Schwedt, and B. Li, \u201cHealthyGAN: Learning from unannotated medical images to detect anomalies associated with human disease,\u201d in International Workshop on Simulation and Synthesis in Medical Imaging. Springer, 2022, pp. 43\u201354.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-d5ef1e6772f728dac53bd94b2f8db15a-34",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-title": {"ref-titletext": "HealthyGAN: Learning from unannotated medical images to detect anomalies associated with human disease"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85140490575",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "43",
+                                "@last": "54"
+                            }},
+                            "ref-text": "Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rahman Siddiquee",
+                                    "ce:indexed-name": "Rahman Siddiquee M.M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shah",
+                                    "ce:indexed-name": "Shah J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chong",
+                                    "ce:indexed-name": "Chong C."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schwedt",
+                                    "ce:indexed-name": "Schwedt T."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Workshop on Simulation and Synthesis in Medical Imaging"
+                        },
+                        "ce:source-text": "M. M. Rahman Siddiquee, J. Shah, T. Wu, C. Chong, T. Schwedt, and B. Li, \u201cHealthyGAN: Learning from unannotated medical images to detect anomalies associated with human disease,\u201d in International Workshop on Simulation and Synthesis in Medical Imaging. Springer, 2022, pp. 43\u201354."
+                    },
+                    {
+                        "ref-fulltext": "P. Isola, J.-Y. Zhu, T. Zhou, and A. A. Efros, \u201cImage-to-image translation with conditional adversarial networks,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition, 2017, pp. 1125\u20131134.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-daadf64280a0dcd2be137582c0391e55-35",
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Image-to-image translation with conditional adversarial networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85014051586",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1125",
+                                "@last": "1134"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Isola",
+                                    "ce:indexed-name": "Isola P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.-Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu J.-Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Efros",
+                                    "ce:indexed-name": "Efros A.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE conference on computer vision and pattern recognition"
+                        },
+                        "ce:source-text": "P. Isola, J.-Y. Zhu, T. Zhou, and A. A. Efros, \u201cImage-to-image translation with conditional adversarial networks,\u201d in Proceedings of the IEEE conference on computer vision and pattern recognition, 2017, pp. 1125\u20131134."
+                    },
+                    {
+                        "ref-fulltext": "S. Jaeger, S. Candemir, S. Antani, Y.-X. J. Wáng, P.-X. Lu, and G. Thoma, \u201cTwo public chest x-ray datasets for computer-aided screening of pulmonary diseases,\u201d Quantitative imaging in medicine and surgery, vol. 4, no. 6, p. 475, 2014.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-b138f95dbf0b8056fe0f1c1617251871-36",
+                        "@id": "36",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Two public chest x-ray datasets for computer-aided screening of pulmonary diseases"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84944252278",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "4",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {"@first": "475"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jaeger",
+                                    "ce:indexed-name": "Jaeger S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Candemir",
+                                    "ce:indexed-name": "Candemir S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Antani",
+                                    "ce:indexed-name": "Antani S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.-X.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wáng",
+                                    "ce:indexed-name": "Wang Y.-X.J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "P.-X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lu",
+                                    "ce:indexed-name": "Lu P.-X."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thoma",
+                                    "ce:indexed-name": "Thoma G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Quantitative imaging in medicine and surgery"
+                        },
+                        "ce:source-text": "S. Jaeger, S. Candemir, S. Antani, Y.-X. J. Wáng, P.-X. Lu, and G. Thoma, \u201cTwo public chest x-ray datasets for computer-aided screening of pulmonary diseases,\u201d Quantitative imaging in medicine and surgery, vol. 4, no. 6, p. 475, 2014."
+                    },
+                    {
+                        "ref-fulltext": "S. S. Halabi, L. M. Prevedello, J. Kalpathy-Cramer, A. B. Mamonov, A. Bilbily, M. Cicero, I. Pan, L. A. Pereira, R. T. Sousa, N. Abdala et al., \u201cThe RSNA pediatric bone age machine learning challenge,\u201d Radiology, vol. 290, no. 2, p. 498, 2019.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-ffadb54365f5692484fd96b24f646aaa-37",
+                        "@id": "37",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "The RSNA pediatric bone age machine learning challenge"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85060370230",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "290",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {"@first": "498"}
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "S.S.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Halabi",
+                                        "ce:indexed-name": "Halabi S.S."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "L.M.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Prevedello",
+                                        "ce:indexed-name": "Prevedello L.M."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "J.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Kalpathy-Cramer",
+                                        "ce:indexed-name": "Kalpathy-Cramer J."
+                                    },
+                                    {
+                                        "@seq": "4",
+                                        "ce:initials": "A.B.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Mamonov",
+                                        "ce:indexed-name": "Mamonov A.B."
+                                    },
+                                    {
+                                        "@seq": "5",
+                                        "ce:initials": "A.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Bilbily",
+                                        "ce:indexed-name": "Bilbily A."
+                                    },
+                                    {
+                                        "@seq": "6",
+                                        "ce:initials": "M.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Cicero",
+                                        "ce:indexed-name": "Cicero M."
+                                    },
+                                    {
+                                        "@seq": "7",
+                                        "ce:initials": "I.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Pan",
+                                        "ce:indexed-name": "Pan I."
+                                    },
+                                    {
+                                        "@seq": "8",
+                                        "ce:initials": "L.A.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Pereira",
+                                        "ce:indexed-name": "Pereira L.A."
+                                    },
+                                    {
+                                        "@seq": "9",
+                                        "ce:initials": "R.T.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Sousa",
+                                        "ce:indexed-name": "Sousa R.T."
+                                    },
+                                    {
+                                        "@seq": "10",
+                                        "ce:initials": "N.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Abdala",
+                                        "ce:indexed-name": "Abdala N."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Radiology"
+                        },
+                        "ce:source-text": "S. S. Halabi, L. M. Prevedello, J. Kalpathy-Cramer, A. B. Mamonov, A. Bilbily, M. Cicero, I. Pan, L. A. Pereira, R. T. Sousa, N. Abdala et al., \u201cThe RSNA pediatric bone age machine learning challenge,\u201d Radiology, vol. 290, no. 2, p. 498, 2019."
+                    },
+                    {
+                        "ref-fulltext": "G. Shih, C. C. Wu, S. S. Halabi, M. D. Kohli, L. M. Prevedello, T. S. Cook, A. Sharma, J. K. Amorosa, V. Arteaga, M. Galperin-Aizenberg et al., \u201cAugmenting the national institutes of health chest radiograph dataset with expert annotations of possible pneumonia,\u201d Radiology. Artificial intelligence, vol. 1, no. 1, 2019.",
+                        "@reference-instance-id": "OB2BibRecID-950454206-680dc482f98ca88c9ce80688f3579730-38",
+                        "@id": "38",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Augmenting the national institutes of health chest radiograph dataset with expert annotations of possible pneumonia"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85069888143",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "1",
+                                "@issue": "1"
+                            }},
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "G.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Shih",
+                                        "ce:indexed-name": "Shih G."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "C.C.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Wu",
+                                        "ce:indexed-name": "Wu C.C."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "S.S.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Halabi",
+                                        "ce:indexed-name": "Halabi S.S."
+                                    },
+                                    {
+                                        "@seq": "4",
+                                        "ce:initials": "M.D.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Kohli",
+                                        "ce:indexed-name": "Kohli M.D."
+                                    },
+                                    {
+                                        "@seq": "5",
+                                        "ce:initials": "L.M.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Prevedello",
+                                        "ce:indexed-name": "Prevedello L.M."
+                                    },
+                                    {
+                                        "@seq": "6",
+                                        "ce:initials": "T.S.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Cook",
+                                        "ce:indexed-name": "Cook T.S."
+                                    },
+                                    {
+                                        "@seq": "7",
+                                        "ce:initials": "A.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Sharma",
+                                        "ce:indexed-name": "Sharma A."
+                                    },
+                                    {
+                                        "@seq": "8",
+                                        "ce:initials": "J.K.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Amorosa",
+                                        "ce:indexed-name": "Amorosa J.K."
+                                    },
+                                    {
+                                        "@seq": "9",
+                                        "ce:initials": "V.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Arteaga",
+                                        "ce:indexed-name": "Arteaga V."
+                                    },
+                                    {
+                                        "@seq": "10",
+                                        "ce:initials": "M.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Galperin-Aizenberg",
+                                        "ce:indexed-name": "Galperin-Aizenberg M."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Radiology. Artificial intelligence"
+                        },
+                        "ce:source-text": "G. Shih, C. C. Wu, S. S. Halabi, M. D. Kohli, L. M. Prevedello, T. S. Cook, A. Sharma, J. K. Amorosa, V. Arteaga, M. Galperin-Aizenberg et al., \u201cAugmenting the national institutes of health chest radiograph dataset with expert annotations of possible pneumonia,\u201d Radiology. Artificial intelligence, vol. 1, no. 1, 2019."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Bangkok",
+        "@id": "60028190",
+        "affilname": "Chulalongkorn University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+        "affiliation-country": "Thailand"
+    },
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85169292323",
+        "dc:description": "Image classification models in actual applications may receive input outside the intended data distribution. For crucial applications such as clinical decision-making, it is critical that a model can recognize and describe such out-of-distribution (OOD) inputs. The objective of this study is to investigate the efficacy of several approaches for OOD identification in medical images. We examine three classes of OOD detection methods (Classification models, Confidence-based models, and Generative models) on the data of X-ray images. We found that simple classification methods and HealthyGAN perform t he best overall. However, HealthyGAN cannot generalize to unseen scenarios, while classification models still retain some performance advantage. We also investigate the type of images that might be harder to detect as out of scope. We found that image crop-outs while being easily identifiable by humans, are more challenging for the models to detect.",
+        "prism:coverDate": "2023-01-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85169292323",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Nuttapol",
+            "preferred-name": {
+                "ce:given-name": "Nuttapol",
+                "ce:initials": "N.",
+                "ce:surname": "Kamolkunasiri",
+                "ce:indexed-name": "Kamolkunasiri N."
+            },
+            "@seq": "1",
+            "ce:initials": "N.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Kamolkunasiri",
+            "@auid": "58556630200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58556630200",
+            "ce:indexed-name": "Kamolkunasiri N."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85169292323"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85169292323&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85169292323&origin=inward"
+            }
+        ],
+        "prism:isbn": "9798350300505",
+        "prism:publicationName": "Proceedings of JCSSE 2023 - 20th International Joint Conference on Computer Science and Software Engineering",
+        "source-id": "21101174364",
+        "citedby-count": "0",
+        "subtype": "cp",
+        "prism:pageRange": "73-78",
+        "dc:title": "A Comparative Study on Out of Scope Detection for Chest X-ray Images",
+        "prism:endingPage": "78",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/JCSSE58229.2023.10202003",
+        "prism:startingPage": "73",
+        "publishercopyright": "© 2023 IEEE.",
+        "dc:identifier": "SCOPUS_ID:85169292323",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Chest radiography",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Chest X-ray image",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Classification models",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Clinical decision making",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Comparatives studies",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Data distribution",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Detection methods",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Image preprocessing",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Images classification",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Out-of-distribution",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Chest radiography"
+        },
+        {
+            "@_fa": "true",
+            "$": "Image classification"
+        },
+        {
+            "@_fa": "true",
+            "$": "Image preprocessing"
+        },
+        {
+            "@_fa": "true",
+            "$": "Out-of-Distribution"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Artificial Intelligence",
+            "@code": "1702",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Networks and Communications",
+            "@code": "1705",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Vision and Pattern Recognition",
+            "@code": "1707",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Software",
+            "@code": "1712",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Nuttapol",
+            "preferred-name": {
+                "ce:given-name": "Nuttapol",
+                "ce:initials": "N.",
+                "ce:surname": "Kamolkunasiri",
+                "ce:indexed-name": "Kamolkunasiri N."
+            },
+            "@seq": "1",
+            "ce:initials": "N.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Kamolkunasiri",
+            "@auid": "58556630200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58556630200",
+            "ce:indexed-name": "Kamolkunasiri N."
+        },
+        {
+            "ce:given-name": "Proadpran",
+            "preferred-name": {
+                "ce:given-name": "Proadpran",
+                "ce:initials": "P.",
+                "ce:surname": "Punyabukkana",
+                "ce:indexed-name": "Punyabukkana P."
+            },
+            "@seq": "2",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Punyabukkana",
+            "@auid": "14018257100",
+            "author-url": "https://api.elsevier.com/content/author/author_id/14018257100",
+            "ce:indexed-name": "Punyabukkana P."
+        },
+        {
+            "ce:given-name": "Ekapol",
+            "preferred-name": {
+                "ce:given-name": "Ekapol",
+                "ce:initials": "E.",
+                "ce:surname": "Chuangsuwanich",
+                "ce:indexed-name": "Chuangsuwanich E."
+            },
+            "@seq": "3",
+            "ce:initials": "E.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Chuangsuwanich",
+            "@auid": "36987854100",
+            "author-url": "https://api.elsevier.com/content/author/author_id/36987854100",
+            "ce:indexed-name": "Chuangsuwanich E."
+        }
+    ]}
+}}

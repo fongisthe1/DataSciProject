@@ -1,0 +1,2728 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "21",
+                "@timestamp": "2023-04-21T22:42:29.000029-04:00",
+                "@year": "2023",
+                "@month": "04"
+            },
+            "ait:date-sort": {
+                "@day": "17",
+                "@year": "2022",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": {
+                "xocs:funding-agency-matched-string": "Chulalongkorn University",
+                "xocs:funding-agency-acronym": "CU",
+                "xocs:funding-agency": "Chulalongkorn University",
+                "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002873",
+                "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+            },
+            "xocs:funding-addon-generated-timestamp": "2022-06-07T16:38:15.105Z",
+            "xocs:funding-text": "The first author was supported by the scholarship from \u2018The 100th Anniversary Chulalongkorn University Fund for Doctoral Scholarship\u2019 and also \u2018The 90th Anniversary Chulalongkorn University Fund (Ratchadaphiseksomphot Endowment Fund)\u2019. We would like to thank the anonymous reviewers for their careful reading of the manuscript and constructive criticism. We would like to thank our colleagues Bao-Dai Nguyen-Hoang and Khanh Huynh for helping to prepare the data sets and Akshay Bhatia for contributing one baseline for this work.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "postal-code": "10300",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Department of Mathematics and Computer Science"},
+                                {"$": "Faculty of Science"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "113870560"
+                            },
+                            "@affiliation-instance-id": "2016542452-05ce2c59912778b90ece45f76973df1f",
+                            "ce:source-text": "Department of Mathematics and Computer Science, Faculty of Science, Chulalongkorn University, Bangkok 10300, Thailand",
+                            "@dptid": "113870560"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Yiping",
+                                "preferred-name": {
+                                    "ce:given-name": "Yiping",
+                                    "ce:initials": "Y.",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin Y."
+                                },
+                                "@author-instance-id": "2016542452-eaa5c5509d8b149f1c25725905954c0a",
+                                "@seq": "1",
+                                "ce:initials": "Y.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Jin",
+                                "@auid": "57208530918",
+                                "@orcid": "0000-0002-9599-9181",
+                                "ce:indexed-name": "Jin Y."
+                            },
+                            {
+                                "ce:given-name": "Dittaya",
+                                "preferred-name": {
+                                    "ce:given-name": "Dittaya",
+                                    "ce:initials": "D.",
+                                    "ce:surname": "Wanvarie",
+                                    "ce:indexed-name": "Wanvarie D."
+                                },
+                                "@author-instance-id": "2016542452-e79ed1f9bef4e1a7501ac6cbd21ece2c",
+                                "@seq": "2",
+                                "ce:initials": "D.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Wanvarie",
+                                "@auid": "36603800400",
+                                "ce:indexed-name": "Wanvarie D."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Singapore",
+                            "address-part": "8 Cross St",
+                            "postal-code": "048424",
+                            "@afid": "122484831",
+                            "@country": "sgp",
+                            "city": "Singapore",
+                            "organization": {"$": "Knorex Pte. Ltd."},
+                            "affiliation-id": {"@afid": "122484831"},
+                            "@affiliation-instance-id": "2016542452-fd7eb035b1181748eaddbd3989e50b4a",
+                            "ce:source-text": "Knorex Pte. Ltd., 8 Cross St, Singapore 048424, Singapore"
+                        },
+                        "author": [{
+                            "ce:given-name": "Phu T. V",
+                            "preferred-name": {
+                                "ce:given-name": "Phu T.V.",
+                                "ce:initials": "P.T.V.",
+                                "ce:surname": "Le",
+                                "ce:indexed-name": "Le P.T.V."
+                            },
+                            "@author-instance-id": "2016542452-c39cfa2a0d9eeb135f2a93ab66e1441a",
+                            "@seq": "3",
+                            "ce:initials": "P.T.V.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Le",
+                            "@auid": "57208527943",
+                            "ce:indexed-name": "Le P.T.V."
+                        }]
+                    }
+                ],
+                "citation-title": "Learning from noisy out-of-domain corpus using dataless classification",
+                "abstracts": "© The Author(s), 2020. Published by Cambridge University PressIn real-world applications, text classification models often suffer from a lack of accurately labelled documents. The available labelled documents may also be out of domain, making the trained model not able to perform well in the target domain. In this work, we mitigate the data problem of text classification using a two-stage approach. First, we mine representative keywords from a noisy out-of-domain data set using statistical methods. We then apply a dataless classification method to learn from the automatically selected keywords and unlabelled in-domain data. The proposed approach outperformed various supervised learning and dataless classification baselines by a large margin. We evaluated different keyword selection methods intrinsically and extrinsically by measuring their impact on the dataless classification accuracy. Last but not least, we conducted an in-depth analysis of the behaviour of the classifier and explained why the proposed dataless classification method outperformed supervised learning counterparts.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "postal-code": "10300",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Department of Mathematics and Computer Science"},
+                            {"$": "Faculty of Science"},
+                            {"$": "Chulalongkorn University"}
+                        ],
+                        "ce:source-text": "Department of Mathematics and Computer Science, Faculty of Science, Chulalongkorn University, Bangkok 10300, Thailand"
+                    },
+                    "person": {
+                        "ce:given-name": "Dittaya",
+                        "ce:initials": "D.",
+                        "ce:surname": "Wanvarie",
+                        "ce:indexed-name": "Wanvarie D."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Dataless classification",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Domain adaptation",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Noisy labels",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Text classification",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://uk.cambridge.org/journals/nle/",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Natural Language Engineering",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "28",
+                            "@issue": "1"
+                        },
+                        "pagerange": {
+                            "@first": "39",
+                            "@last": "69"
+                        }
+                    },
+                    "@type": "j",
+                    "sourcetitle": "Natural Language Engineering",
+                    "publicationdate": {
+                        "month": "01",
+                        "year": "2022",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "17 January 2022"
+                        },
+                        "day": "17"
+                    },
+                    "codencode": "NLENF",
+                    "sourcetitle-abbrev": "Nat Lang Eng",
+                    "@country": "gbr",
+                    "issn": [
+                        {
+                            "$": "14698110",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "13513249",
+                            "@type": "print"
+                        }
+                    ],
+                    "publicationyear": {"@first": "2022"},
+                    "publisher": {"publishername": "Cambridge University Press"},
+                    "@srcid": "28380"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "903.1",
+                                "classification-description": "Information Sources and Analysis"
+                            },
+                            {
+                                "classification-code": "903.3",
+                                "classification-description": "Information Retrieval and Use"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1712"},
+                            {"$": "1203"},
+                            {"$": "3310"},
+                            {"$": "1702"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "ARTS"},
+                            {"$": "SOCI"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "The first author was supported by the scholarship from \u2018The 100th Anniversary Chulalongkorn University Fund for Doctoral Scholarship\u2019 and also \u2018The 90th Anniversary Chulalongkorn University Fund (Ratchadaphiseksomphot Endowment Fund)\u2019. We would like to thank the anonymous reviewers for their careful reading of the manuscript and constructive criticism. We would like to thank our colleagues Bao-Dai Nguyen-Hoang and Khanh Huynh for helping to prepare the data sets and Akshay Bhatia for contributing one baseline for this work.",
+                        "@xml:lang": "eng"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2022 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "07",
+                    "@timestamp": "BST 07:07:44",
+                    "@year": "2022",
+                    "@month": "02"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "632161900",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "926492722",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20202608877319",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20202339545",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "20229001386459",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85086929838",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85086929838",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:pii": "S1351324920000340",
+                    "ce:doi": "10.1017/S1351324920000340"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "51",
+                "reference": [
+                    {
+                        "ref-fulltext": "Breve F.A., Zhao L. and Quiles M.G. ( 2010). Semi-supervised learning from imperfect data through particle cooperation and competition. In Proceedings of the 2010 International Joint Conference on Neural Networks (IJCNN), Barcelona, Spain. Institute of Electrical and Electronics Engineers, pp. 1\u2013 8.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85123967665",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "8"
+                            }},
+                            "ref-text": "and Semi-supervised learning from imperfect data through particle cooperation and competition In Proceedings of the International Joint Conference on Neural Networks IJCNN Barcelona Spain Institute of Electrical and Electronics Engineers pp \u2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Breve",
+                                    "ce:indexed-name": "Breve F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Quiles",
+                                    "ce:indexed-name": "Quiles M."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Breve F.A., Zhao L. and Quiles M.G. ( 2010). Semi-supervised learning from imperfect data through particle cooperation and competition. In Proceedings of the 2010 International Joint Conference on Neural Networks (IJCNN), Barcelona, Spain. Institute of Electrical and Electronics Engineers, pp. 1\u2013 8."
+                    },
+                    {
+                        "ref-fulltext": "Brodley C.E., Friedl M.A. et al. ( 1996). Identifying and eliminating mislabeled training instances. In Proceedings of the National Conference on Artificial Intelligence, Portland, Oregon. Association for the Advancement of Artificial Intelligence, pp. 799\u2013 805.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030354375",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "799",
+                                "@last": "805"
+                            }},
+                            "ref-text": "Identifying and eliminating mislabeled training instances In Proceedings of the National Conference on Artificial Intelligence Portland Oregon Association for the Advancement of Artificial Intelligence pp \u2013",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "C.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Brodley",
+                                        "ce:indexed-name": "Brodley C."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "M.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Friedl",
+                                        "ce:indexed-name": "Friedl M."
+                                    }
+                                ],
+                                "et-al": null
+                            }
+                        },
+                        "ce:source-text": "Brodley C.E., Friedl M.A. et al. ( 1996). Identifying and eliminating mislabeled training instances. In Proceedings of the National Conference on Artificial Intelligence, Portland, Oregon. Association for the Advancement of Artificial Intelligence, pp. 799\u2013 805."
+                    },
+                    {
+                        "ref-fulltext": "Carbonell J.G. and Goldstein J. ( 1998). The use of MMR, diversity-based reranking for reordering documents and producing summaries. In Proceedings of the 21st Annual International ACM SIGIR Conference on Research and Development in Information Retrieval, Melbourne, Australia, vol. 98. Association for Computing Machinery, pp. 335\u2013 336.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0032270694",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "335",
+                                "@last": "336"
+                            }},
+                            "ref-text": "and The use of MMR diversity-based reranking for reordering documents and producing summaries In Proceedings of the 21st Annual International ACM SIGIR Conference on Research and Development in Information Retrieval Melbourne Australia vol 98 Association for Computing Machinery pp \u2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carbonell",
+                                    "ce:indexed-name": "Carbonell J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Goldstein",
+                                    "ce:indexed-name": "Goldstein J."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Carbonell J.G. and Goldstein J. ( 1998). The use of MMR, diversity-based reranking for reordering documents and producing summaries. In Proceedings of the 21st Annual International ACM SIGIR Conference on Research and Development in Information Retrieval, Melbourne, Australia, vol. 98. Association for Computing Machinery, pp. 335\u2013 336."
+                    },
+                    {
+                        "ref-fulltext": "Chang M.W., Ratinov L.A., Roth D. and Srikumar V. ( 2008). Importance of semantic representation: Dataless classification. In Proceedings of the Twenty-Third AAAI Conference on Artificial Intelligence, Chicago, Illinois, vol. 2. Association for the Advancement of Artificial Intelligence, pp. 830\u2013 835.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "57749169921",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "830",
+                                "@last": "835"
+                            }},
+                            "ref-text": "and Importance of semantic representation Dataless classification In Proceedings of the Twenty-Third AAAI Conference on Artificial Intelligence Chicago Illinois vol 2 Association for the Advancement of Artificial Intelligence pp \u2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ratinov",
+                                    "ce:indexed-name": "Ratinov L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Roth",
+                                    "ce:indexed-name": "Roth D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Srikumar",
+                                    "ce:indexed-name": "Srikumar V."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Chang M.W., Ratinov L.A., Roth D. and Srikumar V. ( 2008). Importance of semantic representation: Dataless classification. In Proceedings of the Twenty-Third AAAI Conference on Artificial Intelligence, Chicago, Illinois, vol. 2. Association for the Advancement of Artificial Intelligence, pp. 830\u2013 835."
+                    },
+                    {
+                        "ref-fulltext": "Charoenphakdee N., Lee J., Jin Y., Wanvarie D. and Sugiyama M. ( 2019). Learning only from relevant keywords and unlabeled documents. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), Hong Kong, China. Association for Computational Linguistics, pp. 3984\u2013 3993.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85123963247",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3984",
+                                "@last": "3993"
+                            }},
+                            "ref-text": "and Learning only from relevant keywords and unlabeled documents In Proceedings of the Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing EMNLP-IJCNLP Hong Kong China Association for Computational Linguistics pp \u2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Charoenphakdee",
+                                    "ce:indexed-name": "Charoenphakdee N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wanvarie",
+                                    "ce:indexed-name": "Wanvarie D."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sugiyama",
+                                    "ce:indexed-name": "Sugiyama M."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Charoenphakdee N., Lee J., Jin Y., Wanvarie D. and Sugiyama M. ( 2019). Learning only from relevant keywords and unlabeled documents. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), Hong Kong, China. Association for Computational Linguistics, pp. 3984\u2013 3993."
+                    },
+                    {
+                        "ref-fulltext": "Dahlmeier D. ( 2017). On the challenges of translating NLP research into commercial products. In Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers), Vancouver, Canada, vol. 2. Association for Computational Linguistics, pp. 92\u2013 96.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85040565964",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "92",
+                                "@last": "96"
+                            }},
+                            "ref-text": "On the challenges of translating NLP research into commercial products In Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics Volume 2 Short Papers Vancouver Canada vol 2 Association for Computational Linguistics pp \u2013",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "D.",
+                                "@_fa": "true",
+                                "ce:surname": "Dahlmeier",
+                                "ce:indexed-name": "Dahlmeier D."
+                            }]}
+                        },
+                        "ce:source-text": "Dahlmeier D. ( 2017). On the challenges of translating NLP research into commercial products. In Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers), Vancouver, Canada, vol. 2. Association for Computational Linguistics, pp. 92\u2013 96."
+                    },
+                    {
+                        "ref-fulltext": "Dietterich T.G. ( 2000). An experimental comparison of three methods for constructing ensembles of decision trees: Bagging, boosting, and randomization. Machine Learning 40( 2), 139\u2013 157.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-title": {"ref-titletext": "An experimental comparison of three methods for constructing ensembles of decision trees: Bagging, boosting, and randomization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0034250160",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "40",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "139",
+                                    "@last": "157"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "T.",
+                                "@_fa": "true",
+                                "ce:surname": "Dietterich",
+                                "ce:indexed-name": "Dietterich T."
+                            }]},
+                            "ref-sourcetitle": "Machine Learning"
+                        },
+                        "ce:source-text": "Dietterich T.G. ( 2000). An experimental comparison of three methods for constructing ensembles of decision trees: Bagging, boosting, and randomization. Machine Learning 40( 2), 139\u2013 157."
+                    },
+                    {
+                        "ref-fulltext": "Druck G., Mann G. and McCallum A. ( 2008). Learning from labeled features using generalized expectation criteria. In Proceedings of the 31st Annual International ACM SIGIR Conference on Research and Development in Information Retrieval, Singapore, Singapore. Association for Computing Machinery, pp. 595\u2013 602.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "57349122015",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "595",
+                                "@last": "602"
+                            }},
+                            "ref-text": "and Learning from labeled features using generalized expectation criteria In Proceedings of the 31st Annual International ACM SIGIR Conference on Research and Development in Information Retrieval Singapore Singapore Association for Computing Machinery pp \u2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Druck",
+                                    "ce:indexed-name": "Druck G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mann",
+                                    "ce:indexed-name": "Mann G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McCallum",
+                                    "ce:indexed-name": "McCallum A."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Druck G., Mann G. and McCallum A. ( 2008). Learning from labeled features using generalized expectation criteria. In Proceedings of the 31st Annual International ACM SIGIR Conference on Research and Development in Information Retrieval, Singapore, Singapore. Association for Computing Machinery, pp. 595\u2013 602."
+                    },
+                    {
+                        "ref-fulltext": "Frénay B. and Verleysen M. ( 2014). Classification in the presence of label noise: A survey. IEEE Transactions on Neural Networks and Learning systems 25( 5), 845\u2013 869.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Classification in the presence of label noise: A survey"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84899651693",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "25",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "845",
+                                    "@last": "869"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Frénay",
+                                    "ce:indexed-name": "Frenay B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Verleysen",
+                                    "ce:indexed-name": "Verleysen M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Neural Networks and Learning systems"
+                        },
+                        "ce:source-text": "Frénay B. and Verleysen M. ( 2014). Classification in the presence of label noise: A survey. IEEE Transactions on Neural Networks and Learning systems 25( 5), 845\u2013 869."
+                    },
+                    {
+                        "ref-fulltext": "Gabrilovich E., Markovitch S. et al. ( 2007). Computing semantic relatedness using wikipedia-based explicit semantic analysis. In Proceedings of the Twentieth International Joint Conference on Artificial Intelligence, Hyderabad, vol. 7. International Joint Conferences on Artificial Intelligence, pp. 1606\u2013 1611.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84880915872",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1606",
+                                "@last": "1611"
+                            }},
+                            "ref-text": "Computing semantic relatedness using wikipedia-based explicit semantic analysis In Proceedings of the Twentieth International Joint Conference on Artificial Intelligence Hyderabad vol 7 International Joint Conferences on Artificial Intelligence pp \u2013",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "E.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Gabrilovich",
+                                        "ce:indexed-name": "Gabrilovich E."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "S.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Markovitch",
+                                        "ce:indexed-name": "Markovitch S."
+                                    }
+                                ],
+                                "et-al": null
+                            }
+                        },
+                        "ce:source-text": "Gabrilovich E., Markovitch S. et al. ( 2007). Computing semantic relatedness using wikipedia-based explicit semantic analysis. In Proceedings of the Twentieth International Joint Conference on Artificial Intelligence, Hyderabad, vol. 7. International Joint Conferences on Artificial Intelligence, pp. 1606\u2013 1611."
+                    },
+                    {
+                        "ref-fulltext": "Gamberger D., Lavrac N. and Groselj C. ( 1999). Experiments with noise filtering in a medical domain. In Proceedings of the Sixteenth International Conference on Machine Learning (ICML 1999), Bled, Slovenia. International Machine Learning Society, pp. 143\u2013 151.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0011984911",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "143",
+                                "@last": "151"
+                            }},
+                            "ref-text": "and Experiments with noise filtering in a medical domain In Proceedings of the Sixteenth International Conference on Machine Learning ICML Bled Slovenia International Machine Learning Society pp \u2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gamberger",
+                                    "ce:indexed-name": "Gamberger D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lavrac",
+                                    "ce:indexed-name": "Lavrac N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Groselj",
+                                    "ce:indexed-name": "Groselj C."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Gamberger D., Lavrac N. and Groselj C. ( 1999). Experiments with noise filtering in a medical domain. In Proceedings of the Sixteenth International Conference on Machine Learning (ICML 1999), Bled, Slovenia. International Machine Learning Society, pp. 143\u2013 151."
+                    },
+                    {
+                        "ref-fulltext": "Ganin Y., Ustinova E., Ajakan H., Germain P., Larochelle H., Laviolette F., Marchand M. and Lempitsky V. ( 2016). Domain-adversarial training of neural networks. Journal of Machine Learning Research 17( 1), 2096\u20132030. ISSN 1532-4435.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Domain-adversarial training of neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84979887690",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "17",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {"@first": "2096"}
+                            },
+                            "ref-text": "and \u20132030 ISSN 532-4435",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ganin",
+                                    "ce:indexed-name": "Ganin Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ustinova",
+                                    "ce:indexed-name": "Ustinova E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ajakan",
+                                    "ce:indexed-name": "Ajakan H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Germain",
+                                    "ce:indexed-name": "Germain P."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Larochelle",
+                                    "ce:indexed-name": "Larochelle H."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Laviolette",
+                                    "ce:indexed-name": "Laviolette F."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marchand",
+                                    "ce:indexed-name": "Marchand M."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lempitsky",
+                                    "ce:indexed-name": "Lempitsky V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Machine Learning Research"
+                        },
+                        "ce:source-text": "Ganin Y., Ustinova E., Ajakan H., Germain P., Larochelle H., Laviolette F., Marchand M. and Lempitsky V. ( 2016). Domain-adversarial training of neural networks. Journal of Machine Learning Research 17( 1), 2096\u20132030. ISSN 1532-4435."
+                    },
+                    {
+                        "ref-fulltext": "Gerlach R. and Stamey J. ( 2007). Bayesian model selection for logistic regression with misclassified outcomes. Statistical Modelling 7( 3), 255\u2013 273.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Bayesian model selection for logistic regression with misclassified outcomes"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "37449004573",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "7",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "255",
+                                    "@last": "273"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gerlach",
+                                    "ce:indexed-name": "Gerlach R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stamey",
+                                    "ce:indexed-name": "Stamey J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Statistical Modelling"
+                        },
+                        "ce:source-text": "Gerlach R. and Stamey J. ( 2007). Bayesian model selection for logistic regression with misclassified outcomes. Statistical Modelling 7( 3), 255\u2013 273."
+                    },
+                    {
+                        "ref-fulltext": "Howard J. and Ruder S. ( 2018). Universal language model fine-tuning for text classification. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), Melbourne, Australia. Association for Computational Linguistics, pp. 328\u2013 339.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85063079570",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "328",
+                                "@last": "339"
+                            }},
+                            "ref-text": "and Universal language model fine-tuning for text classification In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics Volume 1 Long Papers Melbourne Australia Association for Computational Linguistics pp \u2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Howard",
+                                    "ce:indexed-name": "Howard J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ruder",
+                                    "ce:indexed-name": "Ruder S."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Howard J. and Ruder S. ( 2018). Universal language model fine-tuning for text classification. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), Melbourne, Australia. Association for Computational Linguistics, pp. 328\u2013 339."
+                    },
+                    {
+                        "ref-fulltext": "Hsu P.L. and Robbins H. ( 1947). Complete convergence and the law of large numbers. Proceedings of the National Academy of Sciences of the United States of America 33( 2), 25.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1947"},
+                            "ref-title": {"ref-titletext": "Complete convergence and the law of large numbers"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003129058",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "33",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {"@first": "25"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hsu",
+                                    "ce:indexed-name": "Hsu P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Robbins",
+                                    "ce:indexed-name": "Robbins H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the National Academy of Sciences of the United States of America"
+                        },
+                        "ce:source-text": "Hsu P.L. and Robbins H. ( 1947). Complete convergence and the law of large numbers. Proceedings of the National Academy of Sciences of the United States of America 33( 2), 25."
+                    },
+                    {
+                        "ref-fulltext": "Jin Y., Wanvarie D. and Le P. ( 2017). Combining lightly-supervised text classification models for accurate contextual advertising. In Proceedings of the Eighth International Joint Conference on Natural Language Processing (Volume 1: Long Papers), Taipei, Taiwan, vol. 1. Asian Federation of Natural Language Processing, pp. 545\u2013 554.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85123964749",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "545",
+                                "@last": "554"
+                            }},
+                            "ref-text": "and Combining lightly-supervised text classification models for accurate contextual advertising In Proceedings of the Eighth International Joint Conference on Natural Language Processing Volume 1 Long Papers Taipei Taiwan vol 1 Asian Federation of Natural Language Processing pp \u2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wanvarie",
+                                    "ce:indexed-name": "Wanvarie D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Le",
+                                    "ce:indexed-name": "Le P."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Jin Y., Wanvarie D. and Le P. ( 2017). Combining lightly-supervised text classification models for accurate contextual advertising. In Proceedings of the Eighth International Joint Conference on Natural Language Processing (Volume 1: Long Papers), Taipei, Taiwan, vol. 1. Asian Federation of Natural Language Processing, pp. 545\u2013 554."
+                    },
+                    {
+                        "ref-fulltext": "King B. and Abney S.P. ( 2013). Labeling the languages of words in mixed-language documents using weakly supervised methods. In Proceedings of the 2013 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Atlanta, USA. Association for Computational Linguistics, pp. 1110\u2013 1119.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84904535805",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1110",
+                                "@last": "1119"
+                            }},
+                            "ref-text": "and Labeling the languages of words in mixed-language documents using weakly supervised methods In Proceedings of the Conference of the North American Chapter of the Association for Computational Linguistics Human Language Technologies Atlanta USA Association for Computational Linguistics pp \u2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "King",
+                                    "ce:indexed-name": "King B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abney",
+                                    "ce:indexed-name": "Abney S."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "King B. and Abney S.P. ( 2013). Labeling the languages of words in mixed-language documents using weakly supervised methods. In Proceedings of the 2013 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Atlanta, USA. Association for Computational Linguistics, pp. 1110\u2013 1119."
+                    },
+                    {
+                        "ref-fulltext": "Krizhevsky A., Sutskever I. and Hinton G.E. ( 2012). Imagenet classification with deep convolutional neural networks. In Advances in Neural Information Processing Systems 25, Lake Tahoe, Nevada, USA, pp. 1097\u2013 1105.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85123962728",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1097",
+                                "@last": "1105"
+                            }},
+                            "ref-text": "and Imagenet classification with deep convolutional neural networks In Advances in Neural Information Processing Systems 25 Lake Tahoe Nevada USA pp \u2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krizhevsky",
+                                    "ce:indexed-name": "Krizhevsky A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sutskever",
+                                    "ce:indexed-name": "Sutskever I."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hinton",
+                                    "ce:indexed-name": "Hinton G."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Krizhevsky A., Sutskever I. and Hinton G.E. ( 2012). Imagenet classification with deep convolutional neural networks. In Advances in Neural Information Processing Systems 25, Lake Tahoe, Nevada, USA, pp. 1097\u2013 1105."
+                    },
+                    {
+                        "ref-fulltext": "Lang K. ( 1995). Newsweeder: Learning to filter netnews. In Proceedings of the Twelfth International Conference on Machine Learning, Tahoe City, California, USA. International Machine Learning Society, pp. 331\u2013 339.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1995"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85142688646",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "331",
+                                "@last": "339"
+                            }},
+                            "ref-text": "Newsweeder Learning to filter netnews In Proceedings of the Twelfth International Conference on Machine Learning Tahoe City California USA International Machine Learning Society pp \u2013",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "K.",
+                                "@_fa": "true",
+                                "ce:surname": "Lang",
+                                "ce:indexed-name": "Lang K."
+                            }]}
+                        },
+                        "ce:source-text": "Lang K. ( 1995). Newsweeder: Learning to filter netnews. In Proceedings of the Twelfth International Conference on Machine Learning, Tahoe City, California, USA. International Machine Learning Society, pp. 331\u2013 339."
+                    },
+                    {
+                        "ref-fulltext": "Le Q. and Mikolov T. ( 2014). Distributed representations of sentences and documents. In Proceedings of the 31st International Conference on Machine Learning-Volume 32, Beijing, China. International Machine Learning Society, pp. 1188\u2013 1196.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84926067654",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1188",
+                                "@last": "1196"
+                            }},
+                            "ref-text": "and Distributed representations of sentences and documents In Proceedings of the 31st International Conference on Machine Learning-Volume 32 Beijing China International Machine Learning Society pp \u2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Le",
+                                    "ce:indexed-name": "Le Q."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mikolov",
+                                    "ce:indexed-name": "Mikolov T."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Le Q. and Mikolov T. ( 2014). Distributed representations of sentences and documents. In Proceedings of the 31st International Conference on Machine Learning-Volume 32, Beijing, China. International Machine Learning Society, pp. 1188\u2013 1196."
+                    },
+                    {
+                        "ref-fulltext": "Li C., Chen S., Xing J., Sun A. and Ma Z. ( 2018a). Seed-guided topic model for document filtering and classification. ACM Transactions on Information Systems (TOIS) 37( 1), 9.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85123965949",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "37",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {"@first": "9"}
+                            },
+                            "ref-text": "and a Seed-guided topic model for document filtering and classification ACM Transactions on Information Systems TOIS",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xing",
+                                    "ce:indexed-name": "Xing J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma Z."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Li C., Chen S., Xing J., Sun A. and Ma Z. ( 2018a). Seed-guided topic model for document filtering and classification. ACM Transactions on Information Systems (TOIS) 37( 1), 9."
+                    },
+                    {
+                        "ref-fulltext": "Li C., Xing J., Sun A. and Ma Z. ( 2016). Effective document labeling with very few seed words: A topic model approach. In Proceedings of the 25th ACM International on Conference on Information and Knowledge Management, Indianapolis, USA. Association for Computing Machinery, pp. 85\u2013 94.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84996598610",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "85",
+                                "@last": "94"
+                            }},
+                            "ref-text": "and Effective document labeling with very few seed words A topic model approach In Proceedings of the 25th ACM International on Conference on Information and Knowledge Management Indianapolis USA Association for Computing Machinery pp \u2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xing",
+                                    "ce:indexed-name": "Xing J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma Z."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Li C., Xing J., Sun A. and Ma Z. ( 2016). Effective document labeling with very few seed words: A topic model approach. In Proceedings of the 25th ACM International on Conference on Information and Knowledge Management, Indianapolis, USA. Association for Computing Machinery, pp. 85\u2013 94."
+                    },
+                    {
+                        "ref-fulltext": "Li C., Zhou W., Ji F., Duan Y. and Chen H. ( 2018b). A deep relevance model for zero-shot document filtering. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), Melbourne, Australia. Association for Computational Linguistics, pp. 2300\u2013 2310.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85058106201",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2300",
+                                "@last": "2310"
+                            }},
+                            "ref-text": "and A deep relevance model for zero-shot document filtering In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics Volume 1 Long Papers Melbourne Australia Association for Computational Linguistics pp \u2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ji",
+                                    "ce:indexed-name": "Ji F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Duan",
+                                    "ce:indexed-name": "Duan Y."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen H."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Li C., Zhou W., Ji F., Duan Y. and Chen H. ( 2018b). A deep relevance model for zero-shot document filtering. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), Melbourne, Australia. Association for Computational Linguistics, pp. 2300\u2013 2310."
+                    },
+                    {
+                        "ref-fulltext": "Li X. and Yang B. ( 2018). A pseudo label based dataless naive bayes algorithm for text classification with seed words. In Proceedings of the 27th International Conference on Computational Linguistics, Santa Fe, New Mexico, USA. Association for Computational Linguistics, pp. 1908\u20131917.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85086920691",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "and A pseudo label based dataless naive bayes algorithm for text classification with seed words In Proceedings of the 27th International Conference on Computational Linguistics Santa Fe New Mexico USA Association for Computational Linguistics pp 1908\u20131917",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang B."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Li X. and Yang B. ( 2018). A pseudo label based dataless naive bayes algorithm for text classification with seed words. In Proceedings of the 27th International Conference on Computational Linguistics, Santa Fe, New Mexico, USA. Association for Computational Linguistics, pp. 1908\u20131917."
+                    },
+                    {
+                        "ref-fulltext": "Maas A.L., Daly R.E., Pham P.T., Huang D., Ng A.Y. and Potts C. ( 2011). Learning word vectors for sentiment analysis. In Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies-Volume 1, Portland, Oregon, USA. Association for Computational Linguistics, pp. 142\u2013 150.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84859023447",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "142",
+                                "@last": "150"
+                            }},
+                            "ref-text": "and Learning word vectors for sentiment analysis In Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics Human Language Technologies-Volume 1 Portland Oregon USA Association for Computational Linguistics pp \u2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maas",
+                                    "ce:indexed-name": "Maas A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Daly",
+                                    "ce:indexed-name": "Daly R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pham",
+                                    "ce:indexed-name": "Pham P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang D."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ng",
+                                    "ce:indexed-name": "Ng A."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Potts",
+                                    "ce:indexed-name": "Potts C."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Maas A.L., Daly R.E., Pham P.T., Huang D., Ng A.Y. and Potts C. ( 2011). Learning word vectors for sentiment analysis. In Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies-Volume 1, Portland, Oregon, USA. Association for Computational Linguistics, pp. 142\u2013 150."
+                    },
+                    {
+                        "ref-fulltext": "Meng Y., Shen J., Zhang C. and Han J. ( 2018). Weakly-supervised neural text classification. In Proceedings of the 27th ACM International Conference on Information and Knowledge Management, Turin, Italy. Association for Computing Machinery, pp. 983\u2013 992.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85058063220",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "983",
+                                "@last": "992"
+                            }},
+                            "ref-text": "and Weakly-supervised neural text classification In Proceedings of the 27th ACM International Conference on Information and Knowledge Management Turin Italy Association for Computing Machinery pp \u2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Meng",
+                                    "ce:indexed-name": "Meng Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shen",
+                                    "ce:indexed-name": "Shen J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Han",
+                                    "ce:indexed-name": "Han J."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Meng Y., Shen J., Zhang C. and Han J. ( 2018). Weakly-supervised neural text classification. In Proceedings of the 27th ACM International Conference on Information and Knowledge Management, Turin, Italy. Association for Computing Machinery, pp. 983\u2013 992."
+                    },
+                    {
+                        "ref-fulltext": "Merity S., Xiong C., Bradbury J. and Socher R. ( 2016). Pointer sentinel mixture models. arXiv preprint.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85123967088",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "and Pointer sentinel mixture models arXiv preprint",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Merity",
+                                    "ce:indexed-name": "Merity S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xiong",
+                                    "ce:indexed-name": "Xiong C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bradbury",
+                                    "ce:indexed-name": "Bradbury J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Socher",
+                                    "ce:indexed-name": "Socher R."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Merity S., Xiong C., Bradbury J. and Socher R. ( 2016). Pointer sentinel mixture models. arXiv preprint."
+                    },
+                    {
+                        "ref-fulltext": "Mudinas A., Zhang D. and Levene M. ( 2018). Bootstrap domain-specific sentiment classifiers from unlabeled corpora. Transactions of the Association of Computational Linguistics 6, 269\u2013 285.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Bootstrap domain-specific sentiment classifiers from unlabeled corpora"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85081883730",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "6"},
+                                "pagerange": {
+                                    "@first": "269",
+                                    "@last": "285"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mudinas",
+                                    "ce:indexed-name": "Mudinas A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Levene",
+                                    "ce:indexed-name": "Levene M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Transactions of the Association of Computational Linguistics"
+                        },
+                        "ce:source-text": "Mudinas A., Zhang D. and Levene M. ( 2018). Bootstrap domain-specific sentiment classifiers from unlabeled corpora. Transactions of the Association of Computational Linguistics 6, 269\u2013 285."
+                    },
+                    {
+                        "ref-fulltext": "Nam J., Menca E.L. and Fürnkranz J. ( 2016). All-in text: Learning document, label, and word representations jointly. In Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence, Phoenix, Arizona, USA. Association for the Advancement of Artificial Intelligence.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85123965017",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "and All-in text Learning document label and word representations jointly In Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence Phoenix Arizona USA Association for the Advancement of Artificial Intelligence",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nam",
+                                    "ce:indexed-name": "Nam J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Menca",
+                                    "ce:indexed-name": "Menca E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fürnkranz",
+                                    "ce:indexed-name": "Furnkranz J."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Nam J., Menca E.L. and Fürnkranz J. ( 2016). All-in text: Learning document, label, and word representations jointly. In Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence, Phoenix, Arizona, USA. Association for the Advancement of Artificial Intelligence."
+                    },
+                    {
+                        "ref-fulltext": "Nam J., Menca E.L., Kim H.J. and Fürnkranz J. ( 2017). Maximizing subset accuracy with recurrent neural networks in multi-label classification. In Advances in Neural Information Processing Systems, Long Beach, CA, USA. Curran Associates, pp. 5413\u2013 5423.",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Maximizing subset accuracy with recurrent neural networks in multi-label classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85047012313",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "5413",
+                                "@last": "5423"
+                            }},
+                            "ref-text": "and Long Beach CA USA Curran Associates pp \u2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nam",
+                                    "ce:indexed-name": "Nam J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Menca",
+                                    "ce:indexed-name": "Menca E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fürnkranz",
+                                    "ce:indexed-name": "Furnkranz J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "In Advances in Neural Information Processing Systems"
+                        },
+                        "ce:source-text": "Nam J., Menca E.L., Kim H.J. and Fürnkranz J. ( 2017). Maximizing subset accuracy with recurrent neural networks in multi-label classification. In Advances in Neural Information Processing Systems, Long Beach, CA, USA. Curran Associates, pp. 5413\u2013 5423."
+                    },
+                    {
+                        "ref-fulltext": "Nettleton D.F., Orriols-Puig A. and Fornells A. ( 2010). A study of the effect of different types of noise on the precision of supervised learning techniques. Artificial Intelligence Review 33( 4), 275\u2013 306.",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "A study of the effect of different types of noise on the precision of supervised learning techniques"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84898030282",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "33",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "275",
+                                    "@last": "306"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nettleton",
+                                    "ce:indexed-name": "Nettleton D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Orriols-Puig",
+                                    "ce:indexed-name": "Orriols-Puig A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fornells",
+                                    "ce:indexed-name": "Fornells A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Artificial Intelligence Review"
+                        },
+                        "ce:source-text": "Nettleton D.F., Orriols-Puig A. and Fornells A. ( 2010). A study of the effect of different types of noise on the precision of supervised learning techniques. Artificial Intelligence Review 33( 4), 275\u2013 306."
+                    },
+                    {
+                        "ref-fulltext": "Nguyen-Hoang B.D., Pham-Hong B.T., Jin Y. and Le P. ( 2018). Genre-oriented web content extraction with deep convolutional neural networks and statistical methods. In Proceedings of the 32nd Pacific Asia Conference on Language, Information and Computation (PACLIC 32), Hong Kong, China. Association for Computational Linguistics, pp. 452\u2013 459.",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85123967885",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "452",
+                                "@last": "459"
+                            }},
+                            "ref-text": "and Genre-oriented web content extraction with deep convolutional neural networks and statistical methods In Proceedings of the 32nd Pacific Asia Conference on Language Information and Computation PACLIC 32 Hong Kong China Association for Computational Linguistics pp \u2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nguyen-Hoang",
+                                    "ce:indexed-name": "Nguyen-Hoang B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pham-Hong",
+                                    "ce:indexed-name": "Pham-Hong B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Le",
+                                    "ce:indexed-name": "Le P."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Nguyen-Hoang B.D., Pham-Hong B.T., Jin Y. and Le P. ( 2018). Genre-oriented web content extraction with deep convolutional neural networks and statistical methods. In Proceedings of the 32nd Pacific Asia Conference on Language, Information and Computation (PACLIC 32), Hong Kong, China. Association for Computational Linguistics, pp. 452\u2013 459."
+                    },
+                    {
+                        "ref-fulltext": "Pan S.J. and Yang Q. ( 2010). A survey on transfer learning. IEEE Transactions on Knowledge and Data Engineering 22( 10), 1345\u2013 1359.",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "A survey on transfer learning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77956031473",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "22",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {
+                                    "@first": "1345",
+                                    "@last": "1359"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pan",
+                                    "ce:indexed-name": "Pan S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang Q."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Knowledge and Data Engineering"
+                        },
+                        "ce:source-text": "Pan S.J. and Yang Q. ( 2010). A survey on transfer learning. IEEE Transactions on Knowledge and Data Engineering 22( 10), 1345\u2013 1359."
+                    },
+                    {
+                        "ref-fulltext": "Pappas N. and Henderson J. ( 2019). Gile: A generalized input-label embedding for text classification. Transactions of the Association for Computational Linguistics 7, 139\u2013 155.",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Gile: A generalized input-label embedding for text classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85080554478",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "7"},
+                                "pagerange": {
+                                    "@first": "139",
+                                    "@last": "155"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pappas",
+                                    "ce:indexed-name": "Pappas N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Henderson",
+                                    "ce:indexed-name": "Henderson J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Transactions of the Association for Computational Linguistics"
+                        },
+                        "ce:source-text": "Pappas N. and Henderson J. ( 2019). Gile: A generalized input-label embedding for text classification. Transactions of the Association for Computational Linguistics 7, 139\u2013 155."
+                    },
+                    {
+                        "ref-fulltext": "Peters M., Neumann M., Iyyer M., Gardner M., Clark C., Lee K. and Zettlemoyer L. ( 2018). Deep contextualized word representations. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers), New Orleans, Louisiana. Association for Computational Linguistics, pp. 2227\u2013 2237. doi: 10.18653/v1/N18-1202.",
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.18653/v1/N18-1202",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85083491761",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2227",
+                                "@last": "2237"
+                            }},
+                            "ref-text": "and Deep contextualized word representations In Proceedings of the Conference of the North American Chapter of the Association for Computational Linguistics Human Language Technologies Volume 1 Long Papers New Orleans Louisiana Association for Computational Linguistics pp \u2013 doi",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peters",
+                                    "ce:indexed-name": "Peters M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Neumann",
+                                    "ce:indexed-name": "Neumann M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Iyyer",
+                                    "ce:indexed-name": "Iyyer M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gardner",
+                                    "ce:indexed-name": "Gardner M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Clark",
+                                    "ce:indexed-name": "Clark C."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee K."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zettlemoyer",
+                                    "ce:indexed-name": "Zettlemoyer L."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Peters M., Neumann M., Iyyer M., Gardner M., Clark C., Lee K. and Zettlemoyer L. ( 2018). Deep contextualized word representations. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers), New Orleans, Louisiana. Association for Computational Linguistics, pp. 2227\u2013 2237. doi: 10.18653/v1/N18-1202."
+                    },
+                    {
+                        "ref-fulltext": "Ribeiro M.T., Singh S. and Guestrin C. ( 2016). \u201cwhy should I trust you?\u201d: Explaining the predictions of any classifier. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, San Francisco, CA, USA. Association for Computing Machinery, pp. 1135\u2013 1144.",
+                        "@id": "36",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84984985889",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1135",
+                                "@last": "1144"
+                            }},
+                            "ref-text": "and \u201cwhy should I trust you?\u201d Explaining the predictions of any classifier In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining San Francisco CA USA Association for Computing Machinery pp \u2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ribeiro",
+                                    "ce:indexed-name": "Ribeiro M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Singh",
+                                    "ce:indexed-name": "Singh S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guestrin",
+                                    "ce:indexed-name": "Guestrin C."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Ribeiro M.T., Singh S. and Guestrin C. ( 2016). \u201cwhy should I trust you?\u201d: Explaining the predictions of any classifier. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, San Francisco, CA, USA. Association for Computing Machinery, pp. 1135\u2013 1144."
+                    },
+                    {
+                        "ref-fulltext": "Sachan D, Zaheer M. and Salakhutdinov R. ( 2018). Investigating the working of text classifiers. In Proceedings of the 27th International Conference on Computational Linguistics, Santa Fe, New Mexico, USA. Association for Computational Linguistics, pp. 2120\u2013 2131.",
+                        "@id": "37",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85090803866",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2120",
+                                "@last": "2131"
+                            }},
+                            "ref-text": "and Investigating the working of text classifiers In Proceedings of the 27th International Conference on Computational Linguistics Santa Fe New Mexico USA Association for Computational Linguistics pp \u2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sachan",
+                                    "ce:indexed-name": "Sachan D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zaheer",
+                                    "ce:indexed-name": "Zaheer M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Salakhutdinov",
+                                    "ce:indexed-name": "Salakhutdinov R."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Sachan D, Zaheer M. and Salakhutdinov R. ( 2018). Investigating the working of text classifiers. In Proceedings of the 27th International Conference on Computational Linguistics, Santa Fe, New Mexico, USA. Association for Computational Linguistics, pp. 2120\u2013 2131."
+                    },
+                    {
+                        "ref-fulltext": "Settles B. ( 2011). Closing the loop: Fast, interactive semi-supervised annotation with queries on features and instances. In Proceedings of the Conference on Empirical Methods in Natural Language Processing, Edinburgh, Scotland. Association for Computational Linguistics, pp. 1467\u2013 1478.",
+                        "@id": "38",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "80053225377",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1467",
+                                "@last": "1478"
+                            }},
+                            "ref-text": "Closing the loop Fast interactive semi-supervised annotation with queries on features and instances In Proceedings of the Conference on Empirical Methods in Natural Language Processing Edinburgh Scotland Association for Computational Linguistics pp \u2013",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "B.",
+                                "@_fa": "true",
+                                "ce:surname": "Settles",
+                                "ce:indexed-name": "Settles B."
+                            }]}
+                        },
+                        "ce:source-text": "Settles B. ( 2011). Closing the loop: Fast, interactive semi-supervised annotation with queries on features and instances. In Proceedings of the Conference on Empirical Methods in Natural Language Processing, Edinburgh, Scotland. Association for Computational Linguistics, pp. 1467\u2013 1478."
+                    },
+                    {
+                        "ref-fulltext": "Song Y. and Roth D. ( 2014). On dataless hierarchical text classification. In Proceedings of the Twenty-Eighth AAAI Conference on Artificial Intelligence, Quebec, Canada. Association for the Advancement of Artificial Intelligence Press.",
+                        "@id": "39",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85123962044",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "and On dataless hierarchical text classification In Proceedings of the Twenty-Eighth AAAI Conference on Artificial Intelligence Quebec Canada Association for the Advancement of Artificial Intelligence Press",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Song",
+                                    "ce:indexed-name": "Song Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Roth",
+                                    "ce:indexed-name": "Roth D."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Song Y. and Roth D. ( 2014). On dataless hierarchical text classification. In Proceedings of the Twenty-Eighth AAAI Conference on Artificial Intelligence, Quebec, Canada. Association for the Advancement of Artificial Intelligence Press."
+                    },
+                    {
+                        "ref-fulltext": "Song Y., Upadhyay S., Peng H., Mayhew S. and Roth D. ( 2019). Toward any-language zero-shot topic classification of textual documents. Artificial Intelligence 274, 133\u2013 150.",
+                        "@id": "40",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Toward any-language zero-shot topic classification of textual documents"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85062493565",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "274"},
+                                "pagerange": {
+                                    "@first": "133",
+                                    "@last": "150"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Song",
+                                    "ce:indexed-name": "Song Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Upadhyay",
+                                    "ce:indexed-name": "Upadhyay S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peng",
+                                    "ce:indexed-name": "Peng H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mayhew",
+                                    "ce:indexed-name": "Mayhew S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Roth",
+                                    "ce:indexed-name": "Roth D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Artificial Intelligence"
+                        },
+                        "ce:source-text": "Song Y., Upadhyay S., Peng H., Mayhew S. and Roth D. ( 2019). Toward any-language zero-shot topic classification of textual documents. Artificial Intelligence 274, 133\u2013 150."
+                    },
+                    {
+                        "ref-fulltext": "Song Y., Upadhyay S., Peng H. and Roth D. ( 2016). Cross-lingual dataless classification for many languages. In Proceedings of the Twenty-Fifth International Joint Conference on Artificial Intelligence, New York, USA. International Joint Conferences on Artificial Intelligence, pp. 2901\u2013 2907.",
+                        "@id": "41",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85123963516",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2901",
+                                "@last": "2907"
+                            }},
+                            "ref-text": "and Cross-lingual dataless classification for many languages In Proceedings of the Twenty-Fifth International Joint Conference on Artificial Intelligence New York USA International Joint Conferences on Artificial Intelligence pp \u2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Song",
+                                    "ce:indexed-name": "Song Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Upadhyay",
+                                    "ce:indexed-name": "Upadhyay S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peng",
+                                    "ce:indexed-name": "Peng H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Roth",
+                                    "ce:indexed-name": "Roth D."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Song Y., Upadhyay S., Peng H. and Roth D. ( 2016). Cross-lingual dataless classification for many languages. In Proceedings of the Twenty-Fifth International Joint Conference on Artificial Intelligence, New York, USA. International Joint Conferences on Artificial Intelligence, pp. 2901\u2013 2907."
+                    },
+                    {
+                        "ref-fulltext": "Sun J.W., Zhao F.Y., Wang C.J. and Chen S.F. ( 2007). Identifying and correcting mislabeled training instances. In Future Generation Communication and Networking (FGCN 2007), Jeju-Island, Korea, vol. 1. Institute of Electrical and Electronics Engineers, pp. 244\u2013 250.",
+                        "@id": "42",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Identifying and correcting mislabeled training instances"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "52249086535",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "244",
+                                "@last": "250"
+                            }},
+                            "ref-text": "and In Future Generation Communication and Networking FGCN Jeju-Island vol 1 Institute of Electrical and Electronics Engineers pp \u2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Korea"
+                        },
+                        "ce:source-text": "Sun J.W., Zhao F.Y., Wang C.J. and Chen S.F. ( 2007). Identifying and correcting mislabeled training instances. In Future Generation Communication and Networking (FGCN 2007), Jeju-Island, Korea, vol. 1. Institute of Electrical and Electronics Engineers, pp. 244\u2013 250."
+                    },
+                    {
+                        "ref-fulltext": "Swartz T.B., Haitovsky Y., Vexler A. and Yang T.Y. ( 2004). Bayesian identifiability and misclassification in multinomial data. Canadian Journal of Statistics 32( 3), 285\u2013 302.",
+                        "@id": "43",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Bayesian identifiability and misclassification in multinomial data"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "10044294630",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "32",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "285",
+                                    "@last": "302"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Swartz",
+                                    "ce:indexed-name": "Swartz T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Haitovsky",
+                                    "ce:indexed-name": "Haitovsky Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vexler",
+                                    "ce:indexed-name": "Vexler A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Canadian Journal of Statistics"
+                        },
+                        "ce:source-text": "Swartz T.B., Haitovsky Y., Vexler A. and Yang T.Y. ( 2004). Bayesian identifiability and misclassification in multinomial data. Canadian Journal of Statistics 32( 3), 285\u2013 302."
+                    },
+                    {
+                        "ref-fulltext": "Wang S. and Manning C.D. ( 2012). Baselines and bigrams: Simple, good sentiment and topic classification. In Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics: Short Papers-Volume 2, Jeju Island, Korea. Association for Computational Linguistics, pp. 90\u2013 94.",
+                        "@id": "44",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84875872773",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "90",
+                                "@last": "94"
+                            }},
+                            "ref-text": "and Baselines and bigrams Simple good sentiment and topic classification In Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics Short Papers-Volume 2 Jeju Island Korea Association for Computational Linguistics pp \u2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Manning",
+                                    "ce:indexed-name": "Manning C."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Wang S. and Manning C.D. ( 2012). Baselines and bigrams: Simple, good sentiment and topic classification. In Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics: Short Papers-Volume 2, Jeju Island, Korea. Association for Computational Linguistics, pp. 90\u2013 94."
+                    },
+                    {
+                        "ref-fulltext": "Wang X., Wei F., Liu X., Zhou M. and Zhang M. ( 2011). Topic sentiment analysis in twitter: a graph-based hashtag sentiment classification approach. In Proceedings of the 20th ACM International Conference on Information and Knowledge Management, Glasgow, Scotland. Association for Computing Machinery, pp. 1031\u2013 1040.",
+                        "@id": "45",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "83055179484",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1031",
+                                "@last": "1040"
+                            }},
+                            "ref-text": "and Topic sentiment analysis in twitter a graph-based hashtag sentiment classification approach In Proceedings of the 20th ACM International Conference on Information and Knowledge Management Glasgow Scotland Association for Computing Machinery pp \u2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wei",
+                                    "ce:indexed-name": "Wei F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu X."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang M."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Wang X., Wei F., Liu X., Zhou M. and Zhang M. ( 2011). Topic sentiment analysis in twitter: a graph-based hashtag sentiment classification approach. In Proceedings of the 20th ACM International Conference on Information and Knowledge Management, Glasgow, Scotland. Association for Computing Machinery, pp. 1031\u2013 1040."
+                    },
+                    {
+                        "ref-fulltext": "Yin W., Hay J. and Roth D. ( 2019). Benchmarking zero-shot text classification: Datasets, evaluation and entailment approach. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), Hong Kong, China. Association for Computational Linguistics, pp. 3905\u2013 3914.",
+                        "@id": "46",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85123967833",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3905",
+                                "@last": "3914"
+                            }},
+                            "ref-text": "and Benchmarking zero-shot text classification Datasets evaluation and entailment approach In Proceedings of the Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing EMNLP-IJCNLP Hong Kong China Association for Computational Linguistics pp \u2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yin",
+                                    "ce:indexed-name": "Yin W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hay",
+                                    "ce:indexed-name": "Hay J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Roth",
+                                    "ce:indexed-name": "Roth D."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Yin W., Hay J. and Roth D. ( 2019). Benchmarking zero-shot text classification: Datasets, evaluation and entailment approach. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), Hong Kong, China. Association for Computational Linguistics, pp. 3905\u2013 3914."
+                    },
+                    {
+                        "ref-fulltext": "Yogatama D., Dyer C., Ling W. and Blunsom P. ( 2017). Generative and discriminative text classification with recurrent neural networks. In Proceedings of the 34th International Conference on Machine Learning (ICML 2017), Sydney, Australia. International Machine Learning Society.",
+                        "@id": "47",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85123962086",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "and Generative and discriminative text classification with recurrent neural networks In Proceedings of the 34th International Conference on Machine Learning ICML Sydney Australia International Machine Learning Society",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yogatama",
+                                    "ce:indexed-name": "Yogatama D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dyer",
+                                    "ce:indexed-name": "Dyer C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ling",
+                                    "ce:indexed-name": "Ling W."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Blunsom",
+                                    "ce:indexed-name": "Blunsom P."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Yogatama D., Dyer C., Ling W. and Blunsom P. ( 2017). Generative and discriminative text classification with recurrent neural networks. In Proceedings of the 34th International Conference on Machine Learning (ICML 2017), Sydney, Australia. International Machine Learning Society."
+                    },
+                    {
+                        "ref-fulltext": "Zha D. and Li C. ( 2019). Multi-label dataless text classification with topic modeling. Knowledge and Information Systems 61( 1), 137\u2013 160.",
+                        "@id": "48",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Multi-label dataless text classification with topic modeling"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85058103965",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "61",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "137",
+                                    "@last": "160"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zha",
+                                    "ce:indexed-name": "Zha D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Knowledge and Information Systems"
+                        },
+                        "ce:source-text": "Zha D. and Li C. ( 2019). Multi-label dataless text classification with topic modeling. Knowledge and Information Systems 61( 1), 137\u2013 160."
+                    },
+                    {
+                        "ref-fulltext": "Zhang X., Zhao J. and LeCun Y. ( 2015). Character-level convolutional networks for text classification. In Advances in Neural Information Processing Systems, Montreal, Canada. Curran Associates, pp. 649\u2013 657.",
+                        "@id": "49",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Character-level convolutional networks for text classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84965162393",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "649",
+                                "@last": "657"
+                            }},
+                            "ref-text": "and Montreal Canada Curran Associates pp \u2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "LeCun",
+                                    "ce:indexed-name": "LeCun Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "In Advances in Neural Information Processing Systems"
+                        },
+                        "ce:source-text": "Zhang X., Zhao J. and LeCun Y. ( 2015). Character-level convolutional networks for text classification. In Advances in Neural Information Processing Systems, Montreal, Canada. Curran Associates, pp. 649\u2013 657."
+                    },
+                    {
+                        "ref-fulltext": "Zheng R., Tian T., Hu Z., Iyer R., Sycara K. et al. ( 2016). Joint embedding of hierarchical categories and entities for concept categorization and dataless classification. In Proceedings of COLING 2016, the 26th International Conference on Computational Linguistics: Technical Papers, Osaka, Japanpp. The COLING 2016 Organising Committee, pp. 2678\u2013 2688.",
+                        "@id": "50",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85123966180",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2678",
+                                "@last": "2688"
+                            }},
+                            "ref-text": "Joint embedding of hierarchical categories and entities for concept categorization and dataless classification In Proceedings of COLING the 26th International Conference on Computational Linguistics Technical Papers Osaka Japanpp The COLING Organising Committee pp \u2013",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "R.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Zheng",
+                                        "ce:indexed-name": "Zheng R."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "T.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Tian",
+                                        "ce:indexed-name": "Tian T."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "Z.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Hu",
+                                        "ce:indexed-name": "Hu Z."
+                                    },
+                                    {
+                                        "@seq": "4",
+                                        "ce:initials": "R.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Iyer",
+                                        "ce:indexed-name": "Iyer R."
+                                    },
+                                    {
+                                        "@seq": "5",
+                                        "ce:initials": "K.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Sycara",
+                                        "ce:indexed-name": "Sycara K."
+                                    }
+                                ],
+                                "et-al": null
+                            }
+                        },
+                        "ce:source-text": "Zheng R., Tian T., Hu Z., Iyer R., Sycara K. et al. ( 2016). Joint embedding of hierarchical categories and entities for concept categorization and dataless classification. In Proceedings of COLING 2016, the 26th International Conference on Computational Linguistics: Technical Papers, Osaka, Japanpp. The COLING 2016 Organising Committee, pp. 2678\u2013 2688."
+                    },
+                    {
+                        "ref-fulltext": "Zipf G.K. ( 1949). The Principle of Least Effort: An Introduction to Human Ecology. Boston, USA: Addison Wesley.",
+                        "@id": "51",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1949"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003586256",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Boston USA Addison Wesley",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "G.",
+                                "@_fa": "true",
+                                "ce:surname": "Zipf",
+                                "ce:indexed-name": "Zipf G."
+                            }]},
+                            "ref-sourcetitle": "The Principle of Least Effort: An Introduction to Human Ecology"
+                        },
+                        "ce:source-text": "Zipf G.K. ( 1949). The Principle of Least Effort: An Introduction to Human Ecology. Boston, USA: Addison Wesley."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Singapore City",
+            "@id": "122484831",
+            "affilname": "Knorex Pte. Ltd.",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/122484831",
+            "affiliation-country": "Singapore"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85086929838",
+        "dc:description": "In real-world applications, text classification models often suffer from a lack of accurately labelled documents. The available labelled documents may also be out of domain, making the trained model not able to perform well in the target domain. In this work, we mitigate the data problem of text classification using a two-stage approach. First, we mine representative keywords from a noisy out-of-domain data set using statistical methods. We then apply a dataless classification method to learn from the automatically selected keywords and unlabelled in-domain data. The proposed approach outperformed various supervised learning and dataless classification baselines by a large margin. We evaluated different keyword selection methods intrinsically and extrinsically by measuring their impact on the dataless classification accuracy. Last but not least, we conducted an in-depth analysis of the behaviour of the classifier and explained why the proposed dataless classification method outperformed supervised learning counterparts.",
+        "prism:coverDate": "2022-01-17",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85086929838",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Yiping",
+            "preferred-name": {
+                "ce:given-name": "Yiping",
+                "ce:initials": "Y.",
+                "ce:surname": "Jin",
+                "ce:indexed-name": "Jin Y."
+            },
+            "@seq": "1",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Jin",
+            "@auid": "57208530918",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57208530918",
+            "ce:indexed-name": "Jin Y."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85086929838"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85086929838&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85086929838&origin=inward"
+            }
+        ],
+        "source-id": "28380",
+        "pii": "S1351324920000340",
+        "citedby-count": "0",
+        "prism:volume": "28",
+        "subtype": "ar",
+        "dc:title": "Learning from noisy out-of-domain corpus using dataless classification",
+        "openaccess": "0",
+        "prism:issn": "14698110 13513249",
+        "publishercopyright": "© The Author(s), 2020. Published by Cambridge University Press",
+        "prism:issueIdentifier": "1",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "Natural Language Engineering",
+        "prism:pageRange": "39-69",
+        "prism:endingPage": "69",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1017/S1351324920000340",
+        "prism:startingPage": "39",
+        "dc:identifier": "SCOPUS_ID:85086929838",
+        "dc:publisher": "Cambridge University Press"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Classification accuracy",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Classification methods",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "In-depth analysis",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Keyword selection",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Representative keywords",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Text classification",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Text classification models",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Two stage approach",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Dataless classification"
+        },
+        {
+            "@_fa": "true",
+            "$": "Domain adaptation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Noisy labels"
+        },
+        {
+            "@_fa": "true",
+            "$": "Text classification"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Software",
+            "@code": "1712",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Language and Linguistics",
+            "@code": "1203",
+            "@abbrev": "ARTS"
+        },
+        {
+            "@_fa": "true",
+            "$": "Linguistics and Language",
+            "@code": "3310",
+            "@abbrev": "SOCI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Artificial Intelligence",
+            "@code": "1702",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Yiping",
+            "preferred-name": {
+                "ce:given-name": "Yiping",
+                "ce:initials": "Y.",
+                "ce:surname": "Jin",
+                "ce:indexed-name": "Jin Y."
+            },
+            "@seq": "1",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Jin",
+            "@auid": "57208530918",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57208530918",
+            "ce:indexed-name": "Jin Y."
+        },
+        {
+            "ce:given-name": "Dittaya",
+            "preferred-name": {
+                "ce:given-name": "Dittaya",
+                "ce:initials": "D.",
+                "ce:surname": "Wanvarie",
+                "ce:indexed-name": "Wanvarie D."
+            },
+            "@seq": "2",
+            "ce:initials": "D.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Wanvarie",
+            "@auid": "36603800400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/36603800400",
+            "ce:indexed-name": "Wanvarie D."
+        },
+        {
+            "ce:given-name": "Phu T. V",
+            "preferred-name": {
+                "ce:given-name": "Phu T.V.",
+                "ce:initials": "P.T.V.",
+                "ce:surname": "Le",
+                "ce:indexed-name": "Le P.T.V."
+            },
+            "@seq": "3",
+            "ce:initials": "P.T.V.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "122484831",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/122484831"
+            },
+            "ce:surname": "Le",
+            "@auid": "57208527943",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57208527943",
+            "ce:indexed-name": "Le P.T.V."
+        }
+    ]}
+}}

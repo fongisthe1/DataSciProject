@@ -1,0 +1,2148 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "07",
+                "@timestamp": "2020-10-07T07:25:15.000015-04:00",
+                "@year": "2020",
+                "@month": "10"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2020",
+                "@month": "07"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "National Science and Technology Development Agency",
+                    "xocs:funding-agency-acronym": "สวทช",
+                    "xocs:funding-agency": "National Science and Technology Development Agency",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004192",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "TGIST",
+                    "xocs:funding-agency-acronym": "TGIST",
+                    "xocs:funding-agency": "Thailand Graduate Institute of Science and Technology",
+                    "xocs:funding-id": "SCA-CO-2561-7116TH",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100007209",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-02-03T07:19:44.676946Z",
+            "xocs:funding-text": "We gratefully acknowledge the support of the Thailand Graduate Institute of Science and Technology (TGIST: SCA-CO-2561-7116TH), National Science and Technology Development Agency (NSTDA). Authors\u2019 addresses: C. Udomcharoenchaikit and P. Vateekul (corresponding author), Chulalongkorn University Big Data Analytics and IoT Center (CUBIC), Department of Computer Engineering, Faculty of Engineering, Chulalongkorn University, 254 Phayathai Road, Pathumwan, Thailand 10330; emails: can.u@student.chula.ac.th, peerapon.v@chula.ac.th; P. Boonkwan, National Electronics and Computer Technology Center (NECTEC), 112 Phahonyothin Road, Khlong Nueng, Khlong Luang District, Pathumthani, Thailand, 12120; email: prachya.boonkwan@nectec.or.th. Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. Copyrights for components of this work owned by others than the author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specific permission and/or a fee. Request permissions from permissions@acm.org. © 2020 Copyright held by the owner/author(s). Publication rights licensed to ACM. 2375-4699/2020/05-ART53 $15.00 https://doi.org/10.1145/3383201",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Pathumwan",
+                            "organization": {"$": "Chulalongkorn University"},
+                            "affiliation-id": {"@afid": "60028190"},
+                            "ce:source-text": "Chulalongkorn University, Pathumwan, Thailand"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Can",
+                                "preferred-name": {
+                                    "ce:given-name": "Can",
+                                    "ce:initials": "C.",
+                                    "ce:surname": "Udomcharoenchaikit",
+                                    "ce:indexed-name": "Udomcharoenchaikit C."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "C.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Udomcharoenchaikit",
+                                "@auid": "57200652058",
+                                "ce:indexed-name": "Udomcharoenchaikit C."
+                            },
+                            {
+                                "ce:given-name": "Peerapon",
+                                "preferred-name": {
+                                    "ce:given-name": "Peerapon",
+                                    "ce:initials": "P.",
+                                    "ce:surname": "Vateekul",
+                                    "ce:indexed-name": "Vateekul P."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "P.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Vateekul",
+                                "@auid": "24829867400",
+                                "ce:indexed-name": "Vateekul P."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60011525",
+                            "@country": "tha",
+                            "city": "Pathumthani",
+                            "organization": {"$": "Nectec"},
+                            "affiliation-id": {"@afid": "60011525"},
+                            "ce:source-text": "NECTEC, Pathumthani, Thailand"
+                        },
+                        "author": [{
+                            "ce:given-name": "Prachya",
+                            "preferred-name": {
+                                "ce:given-name": "Prachya",
+                                "ce:initials": "P.",
+                                "ce:surname": "Boonkwan",
+                                "ce:indexed-name": "Boonkwan P."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "P.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Boonkwan",
+                            "@auid": "36917795200",
+                            "ce:indexed-name": "Boonkwan P."
+                        }]
+                    }
+                ],
+                "citation-title": "Adversarial Evaluation of Robust Neural Sequential Tagging Methods for Thai Language",
+                "abstracts": "© 2020 ACM.Sequential tagging tasks, such as Part-Of-Speech (POS) tagging and Named-Entity Recognition, are the building blocks of many natural language processing applications. Although prior works have reported promising results in standard settings, they often underperform on non-standard text, such as microblogs and social media. In this article, we introduce an adversarial evaluation scheme for the Thai language by creating adversarial examples based on known spelling errors. Furthermore, we propose novel methods including UNK masking, condition initialization with affixation embeddings, and untied-directional self-attention mechanism to enhance robustness and interpretability of the neural networks. We conducted experiments on two Thai corpora: BEST2010 and ORCHID. Our adversarial evaluation schemes reveal that bidirectional LSTM (BiLSTM) do not perform well on adversarial examples. Our best methods match the performance of the BiLSTM baseline model and outperform it on adversarial examples.",
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "named-entity recognition",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Neural networks",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "part-of-speech tagging",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://dl.acm.org/citation.cfm?id=J1521",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {"@xml:lang": "eng"},
+                    "volisspag": {"voliss": {
+                        "@volume": "19",
+                        "@issue": "4"
+                    }},
+                    "@type": "j",
+                    "sourcetitle": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+                    "publicationdate": {
+                        "month": "07",
+                        "year": "2020",
+                        "date-text": "July 2020",
+                        "day": "01"
+                    },
+                    "sourcetitle-abbrev": "ACM Trans. Asian Low Res. Lang. Inf. Process.",
+                    "@country": "usa",
+                    "issn": [
+                        {
+                            "$": "23754702",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "23754699",
+                            "@type": "print"
+                        }
+                    ],
+                    "publicationyear": {"@first": "2020"},
+                    "publisher": {
+                        "affiliation": {
+                            "address-part": "2 Penn Plaza, Suite 701",
+                            "postal-code": "NY 10121-0701",
+                            "@country": "usa",
+                            "city": "New York"
+                        },
+                        "publishername": "Association for Computing Machinery",
+                        "ce:e-address": {
+                            "$": "acmhelp@acm.org",
+                            "@type": "email"
+                        }
+                    },
+                    "article-number": "53",
+                    "@srcid": "21100784666"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "512.1.2",
+                                "classification-description": "Development Operations"
+                            },
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing"
+                            },
+                            {
+                                "classification-code": "751.5",
+                                "classification-description": "Speech"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "79.24",
+                            "classification-description": "PETROLEUM ENGINEERING"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": "1700"
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "COMP"
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "We gratefully acknowledge the support of the Thailand Graduate Institute of Science and Technology (TGIST: SCA-CO- 2561-7116TH), National Science and Technology Development Agency (NSTDA).",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": [
+                        {
+                            "grant-acronym": "NSTDA",
+                            "grant-agency": "National Science and Technology Development Agency"
+                        },
+                        {
+                            "grant-id": "SCA-CO-2561-7116TH",
+                            "grant-acronym": "TGIST",
+                            "grant-agency": "Thailand Graduate Institute of Science and Technology"
+                        }
+                    ]
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2020 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "06",
+                    "@timestamp": "BST 09:02:11",
+                    "@year": "2020",
+                    "@month": "10"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "633012893",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "928765903",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20204009301838",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20203505859",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85091874042",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85091874042",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1145/3383201"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "38",
+                "reference": [
+                    {
+                        "ref-fulltext": "Rami Al-Rfou and Steven Skiena. 2012. SpeedRead: A fast named entity recognition pipeline. In Proceedings of the International Conference on Computational Linguistics (COLING'12). 51-66.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "SpeedRead: A fast named entity recognition pipeline"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84876814046",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "51",
+                                "@last": "66"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Al-Rfou",
+                                    "ce:indexed-name": "Al-Rfou R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Skiena",
+                                    "ce:indexed-name": "Skiena S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the International Conference on Computational Linguistics (COLING'12)"
+                        },
+                        "ce:source-text": "Rami Al-Rfou and Steven Skiena. 2012. SpeedRead: A fast named entity recognition pipeline. In Proceedings of the International Conference on Computational Linguistics (COLING'12). 51-66."
+                    },
+                    {
+                        "ref-fulltext": "Wirote Aroonmanakun et al. 2007. Thoughts on word and sentence segmentation in Thai. In Proceedings of the 7th Symposium on Natural Language Processing. 85-90.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Thoughts on word and sentence segmentation in Thai"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "72449128391",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "85",
+                                "@last": "90"
+                            }},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aroonmanakun",
+                                    "ce:indexed-name": "Aroonmanakun W."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proceedings of the 7th Symposium on Natural Language Processing."
+                        },
+                        "ce:source-text": "Wirote Aroonmanakun et al. 2007. Thoughts on word and sentence segmentation in Thai. In Proceedings of the 7th Symposium on Natural Language Processing. 85-90."
+                    },
+                    {
+                        "ref-fulltext": "Yonatan Belinkov and Yonatan Bisk. 2018. Synthetic and natural noise both break neural machine translation. In Proceedings of the International Conference on Learning Representations.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Synthetic and natural noise both break neural machine translation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85083951352",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Belinkov",
+                                    "ce:indexed-name": "Belinkov Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bisk",
+                                    "ce:indexed-name": "Bisk Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the International Conference on Learning Representations"
+                        },
+                        "ce:source-text": "Yonatan Belinkov and Yonatan Bisk. 2018. Synthetic and natural noise both break neural machine translation. In Proceedings of the International Conference on Learning Representations."
+                    },
+                    {
+                        "ref-fulltext": "Piotr Bojanowski, Edouard Grave, Armand Joulin, and Tomas Mikolov. 2017. Enriching word vectors with subword information. Trans. Assoc. Comput. Ling. 5 (2017), 135-146.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Enriching word vectors with subword information"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85031013784",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "5"},
+                                "pagerange": {
+                                    "@first": "135",
+                                    "@last": "146"
+                                }
+                            },
+                            "ref-text": "2017",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bojanowski",
+                                    "ce:indexed-name": "Bojanowski P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grave",
+                                    "ce:indexed-name": "Grave E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Joulin",
+                                    "ce:indexed-name": "Joulin A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mikolov",
+                                    "ce:indexed-name": "Mikolov T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Trans. Assoc. Comput. Ling."
+                        },
+                        "ce:source-text": "Piotr Bojanowski, Edouard Grave, Armand Joulin, and Tomas Mikolov. 2017. Enriching word vectors with subword information. Trans. Assoc. Comput. Ling. 5 (2017), 135-146."
+                    },
+                    {
+                        "ref-fulltext": "Prachya Boonkwan and Thepchai Supnithi. 2017. Bidirectional deep learning of context representation for joint word segmentation and POS tagging. In Proceedings of the International Conference on Computer Science, Applied Mathematics and Applications. Springer, 184-196.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Bidirectional deep learning of context representation for joint word segmentation and POS tagging"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85025155460",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "184",
+                                "@last": "196"
+                            }},
+                            "ref-text": "Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boonkwan",
+                                    "ce:indexed-name": "Boonkwan P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Supnithi",
+                                    "ce:indexed-name": "Supnithi T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the International Conference on Computer Science, Applied Mathematics and Applications."
+                        },
+                        "ce:source-text": "Prachya Boonkwan and Thepchai Supnithi. 2017. Bidirectional deep learning of context representation for joint word segmentation and POS tagging. In Proceedings of the International Conference on Computer Science, Applied Mathematics and Applications. Springer, 184-196."
+                    },
+                    {
+                        "ref-fulltext": "Yong Cheng, Zhaopeng Tu, Fandong Meng, Junjie Zhai, and Yang Liu. 2018. Towards robust neural machine translation. In Proceedings of the 56th Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 1756-1766.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Towards robust neural machine translation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85063097343",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1756",
+                                "@last": "1766"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cheng",
+                                    "ce:indexed-name": "Cheng Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tu",
+                                    "ce:indexed-name": "Tu Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Meng",
+                                    "ce:indexed-name": "Meng F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhai",
+                                    "ce:indexed-name": "Zhai J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 56th Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+                        },
+                        "ce:source-text": "Yong Cheng, Zhaopeng Tu, Fandong Meng, Junjie Zhai, and Yang Liu. 2018. Towards robust neural machine translation. In Proceedings of the 56th Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 1756-1766."
+                    },
+                    {
+                        "ref-fulltext": "Jason P. C. Chiu and Eric Nichols. 2016. Named entity recognition with bidirectional LSTM-CNNs. Trans. Assoc. Comput. Ling. 4 (2016), 357-370.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Named entity recognition with bidirectional LSTM-CNNs"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85016097618",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "4"},
+                                "pagerange": {
+                                    "@first": "357",
+                                    "@last": "370"
+                                }
+                            },
+                            "ref-text": "2016",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.J.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chiu",
+                                    "ce:indexed-name": "Chiu C.J.P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nichols",
+                                    "ce:indexed-name": "Nichols E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Trans. Assoc. Comput. Ling."
+                        },
+                        "ce:source-text": "Jason P. C. Chiu and Eric Nichols. 2016. Named entity recognition with bidirectional LSTM-CNNs. Trans. Assoc. Comput. Ling. 4 (2016), 357-370."
+                    },
+                    {
+                        "ref-fulltext": "Leon Derczynski, Alan Ritter, Sam Clark, and Kalina Bontcheva. 2013. Twitter part-of-speech tagging for all: Overcoming sparse and noisy data. In Proceedings of the International Conference Recent Advances in Natural Language Processing (RANLP'13). 198-206.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Twitter part-of-speech tagging for all: Overcoming sparse and noisy data"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84890513273",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "198",
+                                "@last": "206"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Derczynski",
+                                    "ce:indexed-name": "Derczynski L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ritter",
+                                    "ce:indexed-name": "Ritter A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Clark",
+                                    "ce:indexed-name": "Clark S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bontcheva",
+                                    "ce:indexed-name": "Bontcheva K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the International Conference Recent Advances in Natural Language Processing (RANLP'13)"
+                        },
+                        "ce:source-text": "Leon Derczynski, Alan Ritter, Sam Clark, and Kalina Bontcheva. 2013. Twitter part-of-speech tagging for all: Overcoming sparse and noisy data. In Proceedings of the International Conference Recent Advances in Natural Language Processing (RANLP'13). 198-206."
+                    },
+                    {
+                        "ref-fulltext": "Javid Ebrahimi, Anyi Rao, Daniel Lowd, and Dejing Dou. 2018. HotFlip: White-box adversarial examples for text classification. In Proceedings of the 56th Meeting of the Association for Computational Linguistics (Volume 2: Short Papers). 31-36.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "HotFlip: White-box adversarial examples for text classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85058651747",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "31",
+                                "@last": "36"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ebrahimi",
+                                    "ce:indexed-name": "Ebrahimi J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rao",
+                                    "ce:indexed-name": "Rao A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lowd",
+                                    "ce:indexed-name": "Lowd D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dou",
+                                    "ce:indexed-name": "Dou D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 56th Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)"
+                        },
+                        "ce:source-text": "Javid Ebrahimi, Anyi Rao, Daniel Lowd, and Dejing Dou. 2018. HotFlip: White-box adversarial examples for text classification. In Proceedings of the 56th Meeting of the Association for Computational Linguistics (Volume 2: Short Papers). 31-36."
+                    },
+                    {
+                        "ref-fulltext": "Charles Carpenter Fries. 1952. The Structure of English. Harcourt, Brace and World.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1952"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003959389",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Harcourt, Brace and World",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "C.",
+                                "@_fa": "true",
+                                "ce:surname": "Carpenter Fries",
+                                "ce:indexed-name": "Carpenter Fries C."
+                            }]},
+                            "ref-sourcetitle": "The Structure of English"
+                        },
+                        "ce:source-text": "Charles Carpenter Fries. 1952. The Structure of English. Harcourt, Brace and World."
+                    },
+                    {
+                        "ref-fulltext": "Ian J. Goodfellow, Jonathon Shlens, and Christian Szegedy. 2015. Explaining and harnessing adversarial examples. In Proceedings of the International Conference on Learning Representations (ICLR'15).",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Explaining and harnessing adversarial examples"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85083951001",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "I.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Goodfellow",
+                                    "ce:indexed-name": "Goodfellow I.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shlens",
+                                    "ce:indexed-name": "Shlens J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Szegedy",
+                                    "ce:indexed-name": "Szegedy C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the International Conference on Learning Representations (ICLR'15)"
+                        },
+                        "ce:source-text": "Ian J. Goodfellow, Jonathon Shlens, and Christian Szegedy. 2015. Explaining and harnessing adversarial examples. In Proceedings of the International Conference on Learning Representations (ICLR'15)."
+                    },
+                    {
+                        "ref-fulltext": "Sepp Hochreiter and Jurgen Schmidhuber. 1997. Long short-term memory. Neural Comput. 9, 8 (1997), 1735-1780.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Long short-term memory"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0031573117",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "9",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "1735",
+                                    "@last": "1780"
+                                }
+                            },
+                            "ref-text": "1997",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hochreiter",
+                                    "ce:indexed-name": "Hochreiter S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schmidhuber",
+                                    "ce:indexed-name": "Schmidhuber J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neural Comput."
+                        },
+                        "ce:source-text": "Sepp Hochreiter and Jurgen Schmidhuber. 1997. Long short-term memory. Neural Comput. 9, 8 (1997), 1735-1780."
+                    },
+                    {
+                        "ref-fulltext": "Zhiheng Huang, Wei Xu, and Kai Yu. 2015. Bidirectional LSTM-CRF models for sequence tagging. arXiv preprint arXiv: 1508. 01991 (2015).",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1508. 01991",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84986233228",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "2015",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Bidirectional LSTM-CRF Models for Sequence Tagging"
+                        },
+                        "ce:source-text": "Zhiheng Huang, Wei Xu, and Kai Yu. 2015. Bidirectional LSTM-CRF models for sequence tagging. arXiv preprint arXiv: 1508. 01991 (2015)."
+                    },
+                    {
+                        "ref-fulltext": "Shoichi Iwasaki, Preeya Ingkaphirom, and Inkapiromu Puriya Horie. 2005. A Reference Grammar of Thai. Cambridge University Press.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "27844510484",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Cambridge University Press",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Iwasaki",
+                                    "ce:indexed-name": "Iwasaki S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ingkaphirom",
+                                    "ce:indexed-name": "Ingkaphirom P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Puriya Horie",
+                                    "ce:indexed-name": "Puriya Horie I."
+                                }
+                            ]},
+                            "ref-sourcetitle": "A Reference Grammar of Thai"
+                        },
+                        "ce:source-text": "Shoichi Iwasaki, Preeya Ingkaphirom, and Inkapiromu Puriya Horie. 2005. A Reference Grammar of Thai. Cambridge University Press."
+                    },
+                    {
+                        "ref-fulltext": "Mohit Iyyer, Varun Manjunatha, Jordan Boyd-Graber, and Hal Daume III. 2015. Deep unordered composition rivals syntactic methods for text classification. In Proceedings of the 53rd Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers). 1681-1691.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Deep unordered composition rivals syntactic methods for text classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84943803518",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1681",
+                                "@last": "1691"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Iyyer",
+                                    "ce:indexed-name": "Iyyer M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Manjunatha",
+                                    "ce:indexed-name": "Manjunatha V."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boyd-Graber",
+                                    "ce:indexed-name": "Boyd-Graber J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Daume",
+                                    "ce:suffix": "III",
+                                    "ce:indexed-name": "Daume H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 53rd Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)"
+                        },
+                        "ce:source-text": "Mohit Iyyer, Varun Manjunatha, Jordan Boyd-Graber, and Hal Daume III. 2015. Deep unordered composition rivals syntactic methods for text classification. In Proceedings of the 53rd Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers). 1681-1691."
+                    },
+                    {
+                        "ref-fulltext": "Amarin Jettakul, Chavisa Thamjarat, Kawin Liaowongphuthorn, Can Udomcharoenchaikit, Peerapon Vateekul, and Prachya Boonkwan. 2018. A comparative study on various deep learning techniques for Thai NLP lexical and syntactic tasks on noisy data. In Proceedings of the15th International Joint Conference on Computer Science and Software Engineering (JCSSE'18). IEEE, 1-6.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "A comparative study on various deep learning techniques for Thai NLP lexical and syntactic tasks on noisy data"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85057768529",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "6"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jettakul",
+                                    "ce:indexed-name": "Jettakul A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thamjarat",
+                                    "ce:indexed-name": "Thamjarat C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liaowongphuthorn",
+                                    "ce:indexed-name": "Liaowongphuthorn K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Udomcharoenchaikit",
+                                    "ce:indexed-name": "Udomcharoenchaikit C."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vateekul",
+                                    "ce:indexed-name": "Vateekul P."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boonkwan",
+                                    "ce:indexed-name": "Boonkwan P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the15th International Joint Conference on Computer Science and Software Engineering (JCSSE'18). IEEE"
+                        },
+                        "ce:source-text": "Amarin Jettakul, Chavisa Thamjarat, Kawin Liaowongphuthorn, Can Udomcharoenchaikit, Peerapon Vateekul, and Prachya Boonkwan. 2018. A comparative study on various deep learning techniques for Thai NLP lexical and syntactic tasks on noisy data. In Proceedings of the15th International Joint Conference on Computer Science and Software Engineering (JCSSE'18). IEEE, 1-6."
+                    },
+                    {
+                        "ref-fulltext": "Robin Jia and Percy Liang. 2017. Adversarial examples for evaluating reading comprehension systems. In Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP'17). 2021-2031.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Adversarial examples for evaluating reading comprehension systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85073143425",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2021",
+                                "@last": "2031"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jia",
+                                    "ce:indexed-name": "Jia R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liang",
+                                    "ce:indexed-name": "Liang P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP'17)"
+                        },
+                        "ce:source-text": "Robin Jia and Percy Liang. 2017. Adversarial examples for evaluating reading comprehension systems. In Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP'17). 2021-2031."
+                    },
+                    {
+                        "ref-fulltext": "Diederik P. Kingma and Jimmy Ba. 2015. Adam: A method for stochastic optimization. In Proceedings of the 3rd International Conference on Learning Representations (ICLR'15).",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Adam: A method for stochastic optimization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85083951076",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kingma",
+                                    "ce:indexed-name": "Kingma D.P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ba",
+                                    "ce:indexed-name": "Ba J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 3rd International Conference on Learning Representations (ICLR'15)"
+                        },
+                        "ce:source-text": "Diederik P. Kingma and Jimmy Ba. 2015. Adam: A method for stochastic optimization. In Proceedings of the 3rd International Conference on Learning Representations (ICLR'15)."
+                    },
+                    {
+                        "ref-fulltext": "Kanyanut Kriengket, Sawittree Jumpathong, Prachya Boonkwan, and Thepchai Supnithi. 2017. A cognitive and linguistic analysis of search queries of an online dictionary: A case study of LEXiTRON. In Proceedings of the Conference on Artificial Intelligence and Natural Language Processing (iSAI-NLP'17).",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "A cognitive and linguistic analysis of search queries of an online dictionary: A case study of LEXiTRON"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85091812324",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kriengket",
+                                    "ce:indexed-name": "Kriengket K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jumpathong",
+                                    "ce:indexed-name": "Jumpathong S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boonkwan",
+                                    "ce:indexed-name": "Boonkwan P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Supnithi",
+                                    "ce:indexed-name": "Supnithi T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Conference on Artificial Intelligence and Natural Language Processing (iSAI-NLP'17)"
+                        },
+                        "ce:source-text": "Kanyanut Kriengket, Sawittree Jumpathong, Prachya Boonkwan, and Thepchai Supnithi. 2017. A cognitive and linguistic analysis of search queries of an online dictionary: A case study of LEXiTRON. In Proceedings of the Conference on Artificial Intelligence and Natural Language Processing (iSAI-NLP'17)."
+                    },
+                    {
+                        "ref-fulltext": "John Lafferty, Andrew McCallum, and Fernando C. N. Pereira. 2001. Conditional random fields: Probabilistic models for segmenting and labeling sequence data. In Proceedings of the 18th International Conference on Machine Learning.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "Conditional random fields: Probabilistic models for segmenting and labeling sequence data"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0142192295",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lafferty",
+                                    "ce:indexed-name": "Lafferty J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McCallum",
+                                    "ce:indexed-name": "McCallum A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.F.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pereira",
+                                    "ce:indexed-name": "Pereira N.F.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 18th International Conference on Machine Learning"
+                        },
+                        "ce:source-text": "John Lafferty, Andrew McCallum, and Fernando C. N. Pereira. 2001. Conditional random fields: Probabilistic models for segmenting and labeling sequence data. In Proceedings of the 18th International Conference on Machine Learning."
+                    },
+                    {
+                        "ref-fulltext": "Theerapat Lapjaturapit, Kobkrit Viriyayudhakom, and Thanaruk Theeramunkong. 2018. Multi-candidate word segmentation using bi-directional LSTM neural networks. In Proceedings of the International Conference on Embedded Systems and Intelligent Technology & International Conference on Information and Communication Technology for Embedded Systems (ICESIT-ICICTES'18). IEEE, 1-6.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Multi-candidate word segmentation using bi-directional LSTM neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85053406346",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "6"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lapjaturapit",
+                                    "ce:indexed-name": "Lapjaturapit T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Viriyayudhakom",
+                                    "ce:indexed-name": "Viriyayudhakom K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Theeramunkong",
+                                    "ce:indexed-name": "Theeramunkong T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the International Conference on Embedded Systems and Intelligent Technology & International Conference on Information and Communication Technology for Embedded Systems (ICESIT-ICICTES'18). IEEE"
+                        },
+                        "ce:source-text": "Theerapat Lapjaturapit, Kobkrit Viriyayudhakom, and Thanaruk Theeramunkong. 2018. Multi-candidate word segmentation using bi-directional LSTM neural networks. In Proceedings of the International Conference on Embedded Systems and Intelligent Technology & International Conference on Information and Communication Technology for Embedded Systems (ICESIT-ICICTES'18). IEEE, 1-6."
+                    },
+                    {
+                        "ref-fulltext": "Zhouhan Lin, Minwei Feng, Cicero Nogueira dos Santos, Mo Yu, Bing Xiang, Bowen Zhou, and Yoshua Bengio. 2017. A structured self-attentive sentence embedding. arXiv preprint arXiv: 1703. 03130 (2017).",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1703. 03130",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85037335190",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "2017",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lin",
+                                    "ce:indexed-name": "Lin Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Feng",
+                                    "ce:indexed-name": "Feng M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nogueira Dos Santos",
+                                    "ce:indexed-name": "Nogueira Dos Santos C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xiang",
+                                    "ce:indexed-name": "Xiang B."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou B."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bengio",
+                                    "ce:indexed-name": "Bengio Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "A Structured Self-attentive Sentence Embedding"
+                        },
+                        "ce:source-text": "Zhouhan Lin, Minwei Feng, Cicero Nogueira dos Santos, Mo Yu, Bing Xiang, Bowen Zhou, and Yoshua Bengio. 2017. A structured self-attentive sentence embedding. arXiv preprint arXiv: 1703. 03130 (2017)."
+                    },
+                    {
+                        "ref-fulltext": "Wang Ling, Tiago Luis, Luis Marujo, Ramon Fernandez Astudillo, Silvio Amir, Chris Dyer, AlanW. Black, and Isabel Trancoso. 2015. Finding function in form: Compositional character models for open vocabulary word representation. In Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP'15).",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Finding function in form: Compositional character models for open vocabulary word representation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84959892473",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ling",
+                                    "ce:indexed-name": "Ling W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Luis",
+                                    "ce:indexed-name": "Luis T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marujo",
+                                    "ce:indexed-name": "Marujo L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fernandez Astudillo",
+                                    "ce:indexed-name": "Fernandez Astudillo R."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Amir",
+                                    "ce:indexed-name": "Amir S."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dyer",
+                                    "ce:indexed-name": "Dyer C."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "A.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Black",
+                                    "ce:indexed-name": "Black A.W."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Trancoso",
+                                    "ce:indexed-name": "Trancoso I."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP'15)"
+                        },
+                        "ce:source-text": "Wang Ling, Tiago Luis, Luis Marujo, Ramon Fernandez Astudillo, Silvio Amir, Chris Dyer, AlanW. Black, and Isabel Trancoso. 2015. Finding function in form: Compositional character models for open vocabulary word representation. In Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP'15)."
+                    },
+                    {
+                        "ref-fulltext": "Thang Luong, Richard Socher, and Christopher Manning. 2013. Better word representations with recursive neural networks for morphology. In Proceedings of the 17th Conference on Computational Natural Language Learning. 104-113.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Better word representations with recursive neural networks for morphology"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85069972274",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "104",
+                                "@last": "113"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Luong",
+                                    "ce:indexed-name": "Luong T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Socher",
+                                    "ce:indexed-name": "Socher R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Manning",
+                                    "ce:indexed-name": "Manning C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 17th Conference on Computational Natural Language Learning."
+                        },
+                        "ce:source-text": "Thang Luong, Richard Socher, and Christopher Manning. 2013. Better word representations with recursive neural networks for morphology. In Proceedings of the 17th Conference on Computational Natural Language Learning. 104-113."
+                    },
+                    {
+                        "ref-fulltext": "Xuezhe Ma and Eduard Hovy. 2016. End-to-end sequence labeling via bi-directional LSTM-CNNs-CRF. In Proceedings of the 54th Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 1064-1074.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "End-to-end sequence labeling via bi-directional LSTM-CNNs-CRF"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85011928654",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1064",
+                                "@last": "1074"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hovy",
+                                    "ce:indexed-name": "Hovy E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 54th Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+                        },
+                        "ce:source-text": "Xuezhe Ma and Eduard Hovy. 2016. End-to-end sequence labeling via bi-directional LSTM-CNNs-CRF. In Proceedings of the 54th Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 1064-1074."
+                    },
+                    {
+                        "ref-fulltext": "Xuezhe Ma and Fei Xia. 2014. Unsupervised dependency parsing with transferring distribution via parallel guidance and entropy regularization. In Proceedings of the 52nd Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 1337-1348.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Unsupervised dependency parsing with transferring distribution via parallel guidance and entropy regularization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84906922946",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1337",
+                                "@last": "1348"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xia",
+                                    "ce:indexed-name": "Xia F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 52nd Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+                        },
+                        "ce:source-text": "Xuezhe Ma and Fei Xia. 2014. Unsupervised dependency parsing with transferring distribution via parallel guidance and entropy regularization. In Proceedings of the 52nd Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 1337-1348."
+                    },
+                    {
+                        "ref-fulltext": "Makoto Minegishi. 2011. Description of Thai as an isolating language. Soc. Sci. Inf. 50, 1 (2011), 62-80.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Description of Thai as an isolating language"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79957881980",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "50",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "62",
+                                    "@last": "80"
+                                }
+                            },
+                            "ref-text": "2011",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "ce:surname": "Minegishi",
+                                "ce:indexed-name": "Minegishi M."
+                            }]},
+                            "ref-sourcetitle": "Soc. Sci. Inf."
+                        },
+                        "ce:source-text": "Makoto Minegishi. 2011. Description of Thai as an isolating language. Soc. Sci. Inf. 50, 1 (2011), 62-80."
+                    },
+                    {
+                        "ref-fulltext": "Nam Nguyen and Yunsong Guo. 2007. Comparisons of sequence labeling algorithms and extensions. In Proceedings of the 24th International Conference on Machine Learning. ACM, 681-688.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Comparisons of sequence labeling algorithms and extensions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34547982896",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "681",
+                                "@last": "688"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nguyen",
+                                    "ce:indexed-name": "Nguyen N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 24th International Conference on Machine Learning. ACM"
+                        },
+                        "ce:source-text": "Nam Nguyen and Yunsong Guo. 2007. Comparisons of sequence labeling algorithms and extensions. In Proceedings of the 24th International Conference on Machine Learning. ACM, 681-688."
+                    },
+                    {
+                        "ref-fulltext": "Matthew Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark, Kenton Lee, and Luke Zettlemoyer. 2018. Deep contextualized word representations. In Proceedings of the Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers). 2227-2237.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Deep contextualized word representations"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85083491761",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2227",
+                                "@last": "2237"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peters",
+                                    "ce:indexed-name": "Peters M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Neumann",
+                                    "ce:indexed-name": "Neumann M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Iyyer",
+                                    "ce:indexed-name": "Iyyer M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gardner",
+                                    "ce:indexed-name": "Gardner M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Clark",
+                                    "ce:indexed-name": "Clark C."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee K."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zettlemoyer",
+                                    "ce:indexed-name": "Zettlemoyer L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)"
+                        },
+                        "ce:source-text": "Matthew Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark, Kenton Lee, and Luke Zettlemoyer. 2018. Deep contextualized word representations. In Proceedings of the Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers). 2227-2237."
+                    },
+                    {
+                        "ref-fulltext": "Lev Ratinov and Dan Roth. 2009. Design challenges and misconceptions in named entity recognition. In Proceedings of the 13th Conference on Computational Natural Language Learning. Association for Computational Linguistics, 147-155.",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Design challenges and misconceptions in named entity recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84862300668",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "147",
+                                "@last": "155"
+                            }},
+                            "ref-text": "Association for Computational Linguistics",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ratinov",
+                                    "ce:indexed-name": "Ratinov L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Roth",
+                                    "ce:indexed-name": "Roth D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 13th Conference on Computational Natural Language Learning"
+                        },
+                        "ce:source-text": "Lev Ratinov and Dan Roth. 2009. Design challenges and misconceptions in named entity recognition. In Proceedings of the 13th Conference on Computational Natural Language Learning. Association for Computational Linguistics, 147-155."
+                    },
+                    {
+                        "ref-fulltext": "Graham Ernest Rawlinson. 1976. The Significance of Letter Position inWord Recognition. Ph. D. Dissertation. University of Nottingham.",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1976"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85091840576",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Ph. D. Dissertation. University of Nottingham",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "G.",
+                                "@_fa": "true",
+                                "ce:surname": "Ernest Rawlinson",
+                                "ce:indexed-name": "Ernest Rawlinson G."
+                            }]},
+                            "ref-sourcetitle": "The Significance of Letter Position InWord Recognition"
+                        },
+                        "ce:source-text": "Graham Ernest Rawlinson. 1976. The Significance of Letter Position inWord Recognition. Ph. D. Dissertation. University of Nottingham."
+                    },
+                    {
+                        "ref-fulltext": "Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin. 2018. Semantically equivalent adversarial rules for debugging NLP models. In Proceedings of the 56th Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 856-865.",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Semantically equivalent adversarial rules for debugging NLP models"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85061785761",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "856",
+                                "@last": "865"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tulio Ribeiro",
+                                    "ce:indexed-name": "Tulio Ribeiro M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Singh",
+                                    "ce:indexed-name": "Singh S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guestrin",
+                                    "ce:indexed-name": "Guestrin C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 56th Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+                        },
+                        "ce:source-text": "Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin. 2018. Semantically equivalent adversarial rules for debugging NLP models. In Proceedings of the 56th Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 856-865."
+                    },
+                    {
+                        "ref-fulltext": "Alan Ritter, Sam Clark, Oren Etzioni, et al. 2011. Named entity recognition in tweets: An experimental study. In Proceedings of the Conference on Empirical Methods in Natural Language Processing. Association for Computational Linguistics, 1524-1534.",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Named entity recognition in tweets: An experimental study"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "80053238545",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1524",
+                                "@last": "1534"
+                            }},
+                            "ref-text": "Association for Computational Linguistics",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "A.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Ritter",
+                                        "ce:indexed-name": "Ritter A."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "S.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Clark",
+                                        "ce:indexed-name": "Clark S."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "O.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Etzioni",
+                                        "ce:indexed-name": "Etzioni O."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proceedings of the Conference on Empirical Methods in Natural Language Processing."
+                        },
+                        "ce:source-text": "Alan Ritter, Sam Clark, Oren Etzioni, et al. 2011. Named entity recognition in tweets: An experimental study. In Proceedings of the Conference on Empirical Methods in Natural Language Processing. Association for Computational Linguistics, 1524-1534."
+                    },
+                    {
+                        "ref-fulltext": "Virach Sornlertlamvanich, Naoto Takahashi, and Hitoshi Isahara. 1998. Thai part-of-speech tagged corpus: ORCHID. In Proceedings of the Oriental COCOSDA Workshop. 131-138.",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Thai part-of-speech tagged corpus: ORCHID"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "52949100905",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "131",
+                                "@last": "138"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sornlertlamvanich",
+                                    "ce:indexed-name": "Sornlertlamvanich V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Takahashi",
+                                    "ce:indexed-name": "Takahashi N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Isahara",
+                                    "ce:indexed-name": "Isahara H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Oriental COCOSDA Workshop."
+                        },
+                        "ce:source-text": "Virach Sornlertlamvanich, Naoto Takahashi, and Hitoshi Isahara. 1998. Thai part-of-speech tagged corpus: ORCHID. In Proceedings of the Oriental COCOSDA Workshop. 131-138."
+                    },
+                    {
+                        "ref-fulltext": "Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov. 2014. Dropout: A simple way to prevent neural networks from overfitting. J. Mach. Learn. Res. 15, 1 (2014), 1929-1958.",
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Dropout: A simple way to prevent neural networks from overfitting"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84904163933",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "15",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "1929",
+                                    "@last": "1958"
+                                }
+                            },
+                            "ref-text": "2014",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Srivastava",
+                                    "ce:indexed-name": "Srivastava N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hinton",
+                                    "ce:indexed-name": "Hinton G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krizhevsky",
+                                    "ce:indexed-name": "Krizhevsky A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sutskever",
+                                    "ce:indexed-name": "Sutskever I."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Salakhutdinov",
+                                    "ce:indexed-name": "Salakhutdinov R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Mach. Learn. Res."
+                        },
+                        "ce:source-text": "Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov. 2014. Dropout: A simple way to prevent neural networks from overfitting. J. Mach. Learn. Res. 15, 1 (2014), 1929-1958."
+                    },
+                    {
+                        "ref-fulltext": "Christian Szegedy, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan, Ian Goodfellow, and Rob Fergus. 2014. Intriguing properties of neural networks. In Proceedings of the International Conference on Learning Representations. Retrieved from: http://arxiv. org/abs/1312. 6199.",
+                        "@id": "36",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://arxiv.org/abs/1312.6199",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Intriguing properties of neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85083953343",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Szegedy",
+                                    "ce:indexed-name": "Szegedy C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zaremba",
+                                    "ce:indexed-name": "Zaremba W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sutskever",
+                                    "ce:indexed-name": "Sutskever I."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bruna",
+                                    "ce:indexed-name": "Bruna J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Erhan",
+                                    "ce:indexed-name": "Erhan D."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Goodfellow",
+                                    "ce:indexed-name": "Goodfellow I."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fergus",
+                                    "ce:indexed-name": "Fergus R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the International Conference on Learning Representations"
+                        },
+                        "ce:source-text": "Christian Szegedy, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan, Ian Goodfellow, and Rob Fergus. 2014. Intriguing properties of neural networks. In Proceedings of the International Conference on Learning Representations. Retrieved from: http://arxiv. org/abs/1312. 6199."
+                    },
+                    {
+                        "ref-fulltext": "Can Udomcharoenchaikit, Peerapon Vateekul, and Prachya Boonkwan. 2017. Thai named-entity recognition using variational long short-term memory with conditional random field. In Proceedings of the Joint International Symposium on Artificial Intelligence and Natural Language Processing. Springer, 82-92.",
+                        "@id": "37",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Thai named-entity recognition using variational long short-term memory with conditional random field"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85091882410",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "82",
+                                "@last": "92"
+                            }},
+                            "ref-text": "Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Udomcharoenchaikit",
+                                    "ce:indexed-name": "Udomcharoenchaikit C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vateekul",
+                                    "ce:indexed-name": "Vateekul P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boonkwan",
+                                    "ce:indexed-name": "Boonkwan P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Joint International Symposium on Artificial Intelligence and Natural Language Processing"
+                        },
+                        "ce:source-text": "Can Udomcharoenchaikit, Peerapon Vateekul, and Prachya Boonkwan. 2017. Thai named-entity recognition using variational long short-term memory with conditional random field. In Proceedings of the Joint International Symposium on Artificial Intelligence and Natural Language Processing. Springer, 82-92."
+                    },
+                    {
+                        "ref-fulltext": "Rongxiang Weng, Shujian Huang, Zaixiang Zheng, Xinyu Dai, and Jiajun Chen. 2017. Neural machine translation with word predictions. In Proceedings of the Conference on Empirical Methods in Natural Language Processing. 136-145.",
+                        "@id": "38",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Neural machine translation with word predictions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85067845131",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "136",
+                                "@last": "145"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Weng",
+                                    "ce:indexed-name": "Weng R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zheng",
+                                    "ce:indexed-name": "Zheng Z."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dai",
+                                    "ce:indexed-name": "Dai X."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Conference on Empirical Methods in Natural Language Processing."
+                        },
+                        "ce:source-text": "Rongxiang Weng, Shujian Huang, Zaixiang Zheng, Xinyu Dai, and Jiajun Chen. 2017. Neural machine translation with word predictions. In Proceedings of the Conference on Empirical Methods in Natural Language Processing. 136-145."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Pathum Thani",
+            "@id": "60011525",
+            "affilname": "Thailand National Electronics and Computer Technology Center",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60011525",
+            "affiliation-country": "Thailand"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "prism:issueIdentifier": "4",
+        "eid": "2-s2.0-85091874042",
+        "dc:description": "Sequential tagging tasks, such as Part-Of-Speech (POS) tagging and Named-Entity Recognition, are the building blocks of many natural language processing applications. Although prior works have reported promising results in standard settings, they often underperform on non-standard text, such as microblogs and social media. In this article, we introduce an adversarial evaluation scheme for the Thai language by creating adversarial examples based on known spelling errors. Furthermore, we propose novel methods including UNK masking, condition initialization with affixation embeddings, and untied-directional self-attention mechanism to enhance robustness and interpretability of the neural networks. We conducted experiments on two Thai corpora: BEST2010 and ORCHID. Our adversarial evaluation schemes reveal that bidirectional LSTM (BiLSTM) do not perform well on adversarial examples. Our best methods match the performance of the BiLSTM baseline model and outperform it on adversarial examples.",
+        "prism:coverDate": "2020-07-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85091874042",
+        "subtypeDescription": "Article",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Can",
+            "preferred-name": {
+                "ce:given-name": "Can",
+                "ce:initials": "C.",
+                "ce:surname": "Udomcharoenchaikit",
+                "ce:indexed-name": "Udomcharoenchaikit C."
+            },
+            "@seq": "1",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Udomcharoenchaikit",
+            "@auid": "57200652058",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57200652058",
+            "ce:indexed-name": "Udomcharoenchaikit C."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85091874042"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85091874042&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85091874042&origin=inward"
+            }
+        ],
+        "prism:publicationName": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+        "source-id": "21100784666",
+        "citedby-count": "2",
+        "prism:volume": "19",
+        "subtype": "ar",
+        "dc:title": "Adversarial Evaluation of Robust Neural Sequential Tagging Methods for Thai Language",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1145/3383201",
+        "prism:issn": "23754702 23754699",
+        "publishercopyright": "© 2020 ACM.",
+        "article-number": "53",
+        "dc:identifier": "SCOPUS_ID:85091874042",
+        "dc:publisher": "Association for Computing Machinery2 Penn Plaza, Suite 701New YorkNY 10121-0701acmhelp@acm.org"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Attention mechanisms",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Building blockes",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Evaluation scheme",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Interpretability",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Named entity recognition",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Natural language processing applications",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Part of speech tagging",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Standard setting",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "named-entity recognition"
+        },
+        {
+            "@_fa": "true",
+            "$": "Neural networks"
+        },
+        {
+            "@_fa": "true",
+            "$": "part-of-speech tagging"
+        }
+    ]},
+    "subject-areas": {"subject-area": [{
+        "@_fa": "true",
+        "$": "Computer Science (all)",
+        "@code": "1700",
+        "@abbrev": "COMP"
+    }]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Can",
+            "preferred-name": {
+                "ce:given-name": "Can",
+                "ce:initials": "C.",
+                "ce:surname": "Udomcharoenchaikit",
+                "ce:indexed-name": "Udomcharoenchaikit C."
+            },
+            "@seq": "1",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Udomcharoenchaikit",
+            "@auid": "57200652058",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57200652058",
+            "ce:indexed-name": "Udomcharoenchaikit C."
+        },
+        {
+            "ce:given-name": "Prachya",
+            "preferred-name": {
+                "ce:given-name": "Prachya",
+                "ce:initials": "P.",
+                "ce:surname": "Boonkwan",
+                "ce:indexed-name": "Boonkwan P."
+            },
+            "@seq": "2",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60011525",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60011525"
+            },
+            "ce:surname": "Boonkwan",
+            "@auid": "36917795200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/36917795200",
+            "ce:indexed-name": "Boonkwan P."
+        },
+        {
+            "ce:given-name": "Peerapon",
+            "preferred-name": {
+                "ce:given-name": "Peerapon",
+                "ce:initials": "P.",
+                "ce:surname": "Vateekul",
+                "ce:indexed-name": "Vateekul P."
+            },
+            "@seq": "3",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Vateekul",
+            "@auid": "24829867400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/24829867400",
+            "ce:indexed-name": "Vateekul P."
+        }
+    ]}
+}}

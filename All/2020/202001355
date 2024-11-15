@@ -1,0 +1,1175 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "07",
+                "@timestamp": "2021-01-07T07:32:04.000004-05:00",
+                "@year": "2021",
+                "@month": "01"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2020",
+                "@month": "07"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "NINDS",
+                    "xocs:funding-agency-acronym": "NINDS",
+                    "xocs:funding-agency": "National Institute of Neurological Disorders and Stroke",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100000065",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/6252001/"
+                },
+                {
+                    "xocs:funding-agency-acronym": "NCATS",
+                    "xocs:funding-agency": "National Center for Advancing Translational Sciences",
+                    "xocs:funding-id": "UL1TR001108",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100006108",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/6252001"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2023-03-16T20:41:48.768314Z",
+            "xocs:funding-text": "The genotyping and clinical data of samples for PD were provided by the National Institute of Neurological Disorders and Stroke (NINDS).",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Department of Statistics"},
+                                {"$": "Faculty of Commerce and Accountancy"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "104425687"
+                            },
+                            "ce:source-text": "Department of Statistics, Faculty of Commerce and Accountancy, Chulalongkorn University, Bangkok, Thailand.",
+                            "@dptid": "104425687"
+                        },
+                        "author": [{
+                            "ce:given-name": "Vitara",
+                            "preferred-name": {
+                                "ce:given-name": "Vitara",
+                                "ce:initials": "V.",
+                                "ce:surname": "Pungpapong",
+                                "ce:indexed-name": "Pungpapong V."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "V.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Pungpapong",
+                            "@auid": "35068399800",
+                            "ce:indexed-name": "Pungpapong V."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "United States",
+                            "@afid": "60028629",
+                            "@country": "usa",
+                            "city": "West Lafayette",
+                            "organization": [
+                                {"$": "Department of Statistics"},
+                                {"$": "Purdue University"}
+                            ],
+                            "affiliation-id": [
+                                {"@afid": "60028629"},
+                                {"@afid": "60009254"}
+                            ],
+                            "state": "IN",
+                            "ce:source-text": "Department of Statistics, Purdue University, West Lafayette, Indiana, USA."
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Min",
+                                "preferred-name": {
+                                    "ce:given-name": "Min",
+                                    "ce:initials": "M.",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang M."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Zhang",
+                                "@auid": "56480890100",
+                                "ce:indexed-name": "Zhang M."
+                            },
+                            {
+                                "ce:given-name": "Dabao",
+                                "preferred-name": {
+                                    "ce:given-name": "Dabao",
+                                    "ce:initials": "D.",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang D."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "D.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Zhang",
+                                "@auid": "8409502300",
+                                "ce:indexed-name": "Zhang D."
+                            }
+                        ]
+                    }
+                ],
+                "citation-title": "Integrating Biological Knowledge into Case-Control Analysis through Iterated Conditional Modes/Medians Algorithm",
+                "abstracts": "© Copyright 2020, Mary Ann Liebert, Inc., publishers 2020.Logistic regression is an effective tool in case-control analysis. With the advanced high throughput technology, a quest to seek a fast and efficient method in fitting high-dimensional logistic regression has gained much interest. An empirical Bayes model for logistic regression is considered in this article. A spike-and-slab prior is used for variable selection purpose, which plays a vital role in building an effective predictive model while making model interpretable. To increase the power of variable selection, we incorporate biological knowledge through the Ising prior. The development of the iterated conditional modes/medians (ICM/M) algorithm is proposed to fit the logistic model that has computational advantage over Markov Chain Monte Carlo (MCMC) algorithms. The implementation of the ICM/M algorithm for both linear and logistic models can be found in R package icmm that is freely available on Comprehensive R Archive Network (CRAN). Simulation studies were carried out to assess the performances of our method, with lasso and adaptive lasso as benchmark. Overall, the simulation studies show that the ICM/M outperform the others in terms of number of false positives and have competitive predictive ability. An application to a real data set from Parkinson's disease study was also carried out for illustration. To identify important variables, our approach provides flexibility to select variables based on local posterior probabilities while controlling false discovery rate at a desired level rather than relying only on regression coefficients.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "postal-code": "10330",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Department of Statistics"},
+                            {"$": "Faculty of Commerce and Accountancy"},
+                            {"$": "Chulalongkorn University"}
+                        ],
+                        "ce:source-text": "Department of Statistics Faculty of Commerce and Accountancy Chulalongkorn University Bangkok 10330 Thailand"
+                    },
+                    "person": {
+                        "ce:given-name": "Vitara",
+                        "ce:initials": "V.",
+                        "ce:surname": "Pungpapong",
+                        "ce:indexed-name": "Pungpapong V."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "empirical Bayes variable selection",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "genome-wide association studies",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "iterated conditional modes/medians",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "logistic regression",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "single nucleotide polymorphism",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "www.liebertonline.com/cmb",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Journal of Computational Biology",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "27",
+                            "@issue": "7"
+                        },
+                        "pagerange": {
+                            "@first": "1171",
+                            "@last": "1179"
+                        }
+                    },
+                    "@type": "j",
+                    "sourcetitle": "Journal of Computational Biology",
+                    "publicationdate": {
+                        "month": "07",
+                        "year": "2020",
+                        "date-text": "July 2020",
+                        "day": "01"
+                    },
+                    "codencode": "JCOBE",
+                    "sourcetitle-abbrev": "J. Comput. Biol.",
+                    "@country": "usa",
+                    "issn": {
+                        "$": "10665277",
+                        "@type": "print"
+                    },
+                    "publicationyear": {"@first": "2020"},
+                    "publisher": {
+                        "publishername": "Mary Ann Liebert Inc.",
+                        "ce:e-address": {
+                            "$": "info@liebertpub.com",
+                            "@type": "email"
+                        }
+                    },
+                    "@srcid": "29581"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CABSCLASS",
+                        "classification": {
+                            "classification-code": "99",
+                            "classification-description": "General"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2611"},
+                            {"$": "1312"},
+                            {"$": "1311"},
+                            {"$": "2605"},
+                            {"$": "1703"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "MATH"},
+                            {"$": "BIOC"},
+                            {"$": "COMP"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "The genotyping and clinical data of samples for PD were provided by the National Institute of Neurological Disorders and Stroke (NINDS).",
+                        "@xml:lang": "eng"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2020 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CABS"},
+                    {"$": "EMBIO"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"},
+                    {"$": "MEDL"}
+                ],
+                "history": {"date-created": {
+                    "@day": "26",
+                    "@timestamp": "BST 04:44:59",
+                    "@year": "2020",
+                    "@month": "09"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "632900706",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "2020335714",
+                            "@idtype": "CABS"
+                        },
+                        {
+                            "$": "928510717",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "2018970768",
+                            "@idtype": "EMBIO"
+                        },
+                        {
+                            "$": "20202234202",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20203364182",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85088487781",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85088487781",
+                            "@idtype": "SGR"
+                        },
+                        {
+                            "$": "629799144",
+                            "@idtype": "PUIsecondary"
+                        },
+                        {
+                            "$": "31692371",
+                            "@idtype": "MEDL"
+                        },
+                        {
+                            "$": "76917599",
+                            "@idtype": "OSIN"
+                        }
+                    ],
+                    "ce:doi": "10.1089/cmb.2019.0319"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "16",
+                "reference": [
+                    {
+                        "ref-fulltext": "Andersson, F., Werrel, E., McMorran, L., et al. 2011. The effect of Parkinson's-disease-associated mutations on the deubiquitinating enzyme uch-l1. J. Mol. Biol. 407, 261-272.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "The effect of Parkinson's-disease-associated mutations on the deubiquitinating enzyme uch-l1"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79952312358",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "407"},
+                                "pagerange": {
+                                    "@first": "261",
+                                    "@last": "272"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "F.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Andersson",
+                                        "ce:indexed-name": "Andersson F."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "E.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Werrel",
+                                        "ce:indexed-name": "Werrel E."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "L.",
+                                        "@_fa": "true",
+                                        "ce:surname": "McMorran",
+                                        "ce:indexed-name": "McMorran L."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "J. Mol. Biol"
+                        },
+                        "ce:source-text": "Andersson, F., Werrel, E., McMorran, L., et al. 2011. The effect of Parkinson's-disease-associated mutations on the deubiquitinating enzyme uch-l1. J. Mol. Biol. 407, 261-272."
+                    },
+                    {
+                        "ref-fulltext": "Besag, J. 1975. Statistical analysis of non-lattice data. J. R. Stat. Soc. D Stat. 24, 179-195.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1975"},
+                            "ref-title": {"ref-titletext": "Statistical analysis of non-lattice data"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0000582521",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "24"},
+                                "pagerange": {
+                                    "@first": "179",
+                                    "@last": "195"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "ce:surname": "Besag",
+                                "ce:indexed-name": "Besag J."
+                            }]},
+                            "ref-sourcetitle": "J. R. Stat. Soc. D Stat"
+                        },
+                        "ce:source-text": "Besag, J. 1975. Statistical analysis of non-lattice data. J. R. Stat. Soc. D Stat. 24, 179-195."
+                    },
+                    {
+                        "ref-fulltext": "Hernandez, D., Reed, X., and Singleton, A. 2016. Genetics in Parkinson disease: Mendelian vs. non-mendelian inheritance. J. Neurochem. 139, 59-74.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Genetics in Parkinson disease: Mendelian vs"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85027920043",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "139"},
+                                "pagerange": {
+                                    "@first": "59",
+                                    "@last": "74"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hernandez",
+                                    "ce:indexed-name": "Hernandez D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Reed",
+                                    "ce:indexed-name": "Reed X."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Singleton",
+                                    "ce:indexed-name": "Singleton A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Non-mendelian Inheritance. J. Neurochem"
+                        },
+                        "ce:source-text": "Hernandez, D., Reed, X., and Singleton, A. 2016. Genetics in Parkinson disease: Mendelian vs. non-mendelian inheritance. J. Neurochem. 139, 59-74."
+                    },
+                    {
+                        "ref-fulltext": "Johnstone, I.M., and Silverman, B.W. 2004. Needles and straw in haystacks: Empirical bays estimates of possibly sparse sequence. Ann. Stat. 32, 1594-1649.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Needles and straw in haystacks: Empirical bays estimates of possibly sparse sequence"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "3543030265",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "32"},
+                                "pagerange": {
+                                    "@first": "1594",
+                                    "@last": "1649"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "I.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Johnstone",
+                                    "ce:indexed-name": "Johnstone I.M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Silverman",
+                                    "ce:indexed-name": "Silverman B.W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Ann. Stat"
+                        },
+                        "ce:source-text": "Johnstone, I.M., and Silverman, B.W. 2004. Needles and straw in haystacks: Empirical bays estimates of possibly sparse sequence. Ann. Stat. 32, 1594-1649."
+                    },
+                    {
+                        "ref-fulltext": "Klien, C., and Westenberger, A. 2012. Genetics of Parkinson's disease. Cold Spring Harb. Perspect. Med. 2, 1-15.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Genetics of Parkinson's disease"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85091200412",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2"},
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "15"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Klien",
+                                    "ce:indexed-name": "Klien C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Westenberger",
+                                    "ce:indexed-name": "Westenberger A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Cold Spring Harb. Perspect. Med"
+                        },
+                        "ce:source-text": "Klien, C., and Westenberger, A. 2012. Genetics of Parkinson's disease. Cold Spring Harb. Perspect. Med. 2, 1-15."
+                    },
+                    {
+                        "ref-fulltext": "Li, F., and Zhang, N. 2010. Bayesian variable selection in structured high-dimensional covariate spaces with application in genomics. J. Am. Stat. Assoc. 105, 1202-1214.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Bayesian variable selection in structured high-dimensional covariate spaces with application in genomics"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "78649419087",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "105"},
+                                "pagerange": {
+                                    "@first": "1202",
+                                    "@last": "1214"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Am. Stat. Assoc"
+                        },
+                        "ce:source-text": "Li, F., and Zhang, N. 2010. Bayesian variable selection in structured high-dimensional covariate spaces with application in genomics. J. Am. Stat. Assoc. 105, 1202-1214."
+                    },
+                    {
+                        "ref-fulltext": "Lill, C. 2016. Genetics of Parkinson's disease. Mol. Cell. Probes. 30, 386-396.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Genetics of Parkinson's disease"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84997497966",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "30"},
+                                "pagerange": {
+                                    "@first": "386",
+                                    "@last": "396"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "C.",
+                                "@_fa": "true",
+                                "ce:surname": "Lill",
+                                "ce:indexed-name": "Lill C."
+                            }]},
+                            "ref-sourcetitle": "Mol. Cell. Probes"
+                        },
+                        "ce:source-text": "Lill, C. 2016. Genetics of Parkinson's disease. Mol. Cell. Probes. 30, 386-396."
+                    },
+                    {
+                        "ref-fulltext": "Pankratz, N., Wilk, J., Latourelle, J., et al. 2009. Genomewide association study for susceptibility genes contributing to familial Parkinson disease. Hum. Genet. 124, 593-605.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Genomewide association study for susceptibility genes contributing to familial Parkinson disease"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "58149100151",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "124"},
+                                "pagerange": {
+                                    "@first": "593",
+                                    "@last": "605"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "N.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Pankratz",
+                                        "ce:indexed-name": "Pankratz N."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "J.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Wilk",
+                                        "ce:indexed-name": "Wilk J."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "J.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Latourelle",
+                                        "ce:indexed-name": "Latourelle J."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Hum. Genet"
+                        },
+                        "ce:source-text": "Pankratz, N., Wilk, J., Latourelle, J., et al. 2009. Genomewide association study for susceptibility genes contributing to familial Parkinson disease. Hum. Genet. 124, 593-605."
+                    },
+                    {
+                        "ref-fulltext": "Polito, L., Greco, A., and Seripa, D. 2016. Genetic profile, environmental exposure, and their interaction in Parkinson's disease. Parkinsons Dis. 2016, 1-9.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Genetic profile, environmental exposure, and their interaction in Parkinson's disease"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84959449135",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2016"},
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "9"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Polito",
+                                    "ce:indexed-name": "Polito L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Greco",
+                                    "ce:indexed-name": "Greco A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Seripa",
+                                    "ce:indexed-name": "Seripa D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Parkinsons Dis"
+                        },
+                        "ce:source-text": "Polito, L., Greco, A., and Seripa, D. 2016. Genetic profile, environmental exposure, and their interaction in Parkinson's disease. Parkinsons Dis. 2016, 1-9."
+                    },
+                    {
+                        "ref-fulltext": "Pungpapong, V., Zhang, M., and Zhang, D. 2015. Selecting massive variables using an iterated conditional modes/medians algorithm. Electron. J. Stat. 9, 1243-1266.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Selecting massive variables using an iterated conditional modes/medians algorithm"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84937865570",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "9"},
+                                "pagerange": {
+                                    "@first": "1243",
+                                    "@last": "1266"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pungpapong",
+                                    "ce:indexed-name": "Pungpapong V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Electron. J. Stat"
+                        },
+                        "ce:source-text": "Pungpapong, V., Zhang, M., and Zhang, D. 2015. Selecting massive variables using an iterated conditional modes/medians algorithm. Electron. J. Stat. 9, 1243-1266."
+                    },
+                    {
+                        "ref-fulltext": "Rocková, V., and George, E. 2014. EMVS: TheEMapproach to Bayesian variable selection. J. Am. Stat. Assoc. 109, 828-846.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "EMVS: TheEMapproach to Bayesian variable selection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84987864133",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "109"},
+                                "pagerange": {
+                                    "@first": "828",
+                                    "@last": "846"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rocková",
+                                    "ce:indexed-name": "Rockova V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "George",
+                                    "ce:indexed-name": "George E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Am. Stat. Assoc"
+                        },
+                        "ce:source-text": "Rocková, V., and George, E. 2014. EMVS: TheEMapproach to Bayesian variable selection. J. Am. Stat. Assoc. 109, 828-846."
+                    },
+                    {
+                        "ref-fulltext": "Rouillard, A., Gundersen, G., Fernandez, N., et al. 2016. The harmonizome: A collection of processed datasets gathered to serve and mine knowledge about genes and proteins. Database (Oxford) 2016, 1-16.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "The harmonizome: A collection of processed datasets gathered to serve and mine knowledge about genes and proteins"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85011663517",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2016"},
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "16"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "A.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Rouillard",
+                                        "ce:indexed-name": "Rouillard A."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "G.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Gundersen",
+                                        "ce:indexed-name": "Gundersen G."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "N.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Fernandez",
+                                        "ce:indexed-name": "Fernandez N."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Database (Oxford)"
+                        },
+                        "ce:source-text": "Rouillard, A., Gundersen, G., Fernandez, N., et al. 2016. The harmonizome: A collection of processed datasets gathered to serve and mine knowledge about genes and proteins. Database (Oxford) 2016, 1-16."
+                    },
+                    {
+                        "ref-fulltext": "Simon-Sanchez, J., Schulte, C., Bras, J., et al. 2009. Genome-wide association study reveals genetic risk underlying Parkinson's disease. Nat. Genet. 41, 1308-1312.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Genome-wide association study reveals genetic risk underlying Parkinson's disease"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "70549088602",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "41"},
+                                "pagerange": {
+                                    "@first": "1308",
+                                    "@last": "1312"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "J.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Simon-Sanchez",
+                                        "ce:indexed-name": "Simon-Sanchez J."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "C.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Schulte",
+                                        "ce:indexed-name": "Schulte C."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "J.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Bras",
+                                        "ce:indexed-name": "Bras J."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Nat. Genet"
+                        },
+                        "ce:source-text": "Simon-Sanchez, J., Schulte, C., Bras, J., et al. 2009. Genome-wide association study reveals genetic risk underlying Parkinson's disease. Nat. Genet. 41, 1308-1312."
+                    },
+                    {
+                        "ref-fulltext": "Stingo, F., Chen, Y., Tadesse, M., et al. 2011. Incorporating biological information into linear models: A Bayesian approach to the selection of pathways and genes. Ann. Appl. Stat. 5, 1978-2002.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Incorporating biological information into linear models: A Bayesian approach to the selection of pathways and genes"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "80053590625",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "5"},
+                                "pagerange": {
+                                    "@first": "1978",
+                                    "@last": "2002"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "F.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Stingo",
+                                        "ce:indexed-name": "Stingo F."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "Y.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Chen",
+                                        "ce:indexed-name": "Chen Y."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "M.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Tadesse",
+                                        "ce:indexed-name": "Tadesse M."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Ann. Appl. Stat"
+                        },
+                        "ce:source-text": "Stingo, F., Chen, Y., Tadesse, M., et al. 2011. Incorporating biological information into linear models: A Bayesian approach to the selection of pathways and genes. Ann. Appl. Stat. 5, 1978-2002."
+                    },
+                    {
+                        "ref-fulltext": "Tibshirani, R. 1996. Regression shrinkage and selection via the lasso. J. R. Stat. Soc. B 58, 267-288.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "Regression shrinkage and selection via the lasso"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0001287271",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "58"},
+                                "pagerange": {
+                                    "@first": "267",
+                                    "@last": "288"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.",
+                                "@_fa": "true",
+                                "ce:surname": "Tibshirani",
+                                "ce:indexed-name": "Tibshirani R."
+                            }]},
+                            "ref-sourcetitle": "J. R. Stat. Soc. B"
+                        },
+                        "ce:source-text": "Tibshirani, R. 1996. Regression shrinkage and selection via the lasso. J. R. Stat. Soc. B 58, 267-288."
+                    },
+                    {
+                        "ref-fulltext": "Zou, H. 2006. The adaptive lasso and its oracle properties. J. Am. Stat. Assoc. 101, 1418-1429.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "The adaptive lasso and its oracle properties"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33846114377",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "101"},
+                                "pagerange": {
+                                    "@first": "1418",
+                                    "@last": "1429"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "H.",
+                                "@_fa": "true",
+                                "ce:surname": "Zou",
+                                "ce:indexed-name": "Zou H."
+                            }]},
+                            "ref-sourcetitle": "J. Am. Stat. Assoc"
+                        },
+                        "ce:source-text": "Zou, H. 2006. The adaptive lasso and its oracle properties. J. Am. Stat. Assoc. 101, 1418-1429."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "West Lafayette",
+            "@id": "60028629",
+            "affilname": "College of Science",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028629",
+            "affiliation-country": "United States"
+        },
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85088487781",
+        "dc:description": "Logistic regression is an effective tool in case-control analysis. With the advanced high throughput technology, a quest to seek a fast and efficient method in fitting high-dimensional logistic regression has gained much interest. An empirical Bayes model for logistic regression is considered in this article. A spike-and-slab prior is used for variable selection purpose, which plays a vital role in building an effective predictive model while making model interpretable. To increase the power of variable selection, we incorporate biological knowledge through the Ising prior. The development of the iterated conditional modes/medians (ICM/M) algorithm is proposed to fit the logistic model that has computational advantage over Markov Chain Monte Carlo (MCMC) algorithms. The implementation of the ICM/M algorithm for both linear and logistic models can be found in R package icmm that is freely available on Comprehensive R Archive Network (CRAN). Simulation studies were carried out to assess the performances of our method, with lasso and adaptive lasso as benchmark. Overall, the simulation studies show that the ICM/M outperform the others in terms of number of false positives and have competitive predictive ability. An application to a real data set from Parkinson's disease study was also carried out for illustration. To identify important variables, our approach provides flexibility to select variables based on local posterior probabilities while controlling false discovery rate at a desired level rather than relying only on regression coefficients.",
+        "pubmed-id": "31692371",
+        "prism:coverDate": "2020-07-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85088487781",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Vitara",
+            "preferred-name": {
+                "ce:given-name": "Vitara",
+                "ce:initials": "V.",
+                "ce:surname": "Pungpapong",
+                "ce:indexed-name": "Pungpapong V."
+            },
+            "@seq": "1",
+            "ce:initials": "V.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Pungpapong",
+            "@auid": "35068399800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/35068399800",
+            "ce:indexed-name": "Pungpapong V."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85088487781"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85088487781&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85088487781&origin=inward"
+            }
+        ],
+        "source-id": "29581",
+        "citedby-count": "1",
+        "prism:volume": "27",
+        "subtype": "ar",
+        "dc:title": "Integrating Biological Knowledge into Case-Control Analysis through Iterated Conditional Modes/Medians Algorithm",
+        "openaccess": "2",
+        "prism:issn": "10665277",
+        "publishercopyright": "© Copyright 2020, Mary Ann Liebert, Inc., publishers 2020.",
+        "prism:issueIdentifier": "7",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "Journal of Computational Biology",
+        "prism:pageRange": "1171-1179",
+        "prism:endingPage": "1179",
+        "openaccessFlag": null,
+        "prism:doi": "10.1089/cmb.2019.0319",
+        "prism:startingPage": "1171",
+        "dc:identifier": "SCOPUS_ID:85088487781",
+        "dc:publisher": "Mary Ann Liebert Inc.info@liebertpub.com"
+    },
+    "idxterms": null,
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "empirical Bayes variable selection"
+        },
+        {
+            "@_fa": "true",
+            "$": "genome-wide association studies"
+        },
+        {
+            "@_fa": "true",
+            "$": "iterated conditional modes/medians"
+        },
+        {
+            "@_fa": "true",
+            "$": "logistic regression"
+        },
+        {
+            "@_fa": "true",
+            "$": "single nucleotide polymorphism"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Modeling and Simulation",
+            "@code": "2611",
+            "@abbrev": "MATH"
+        },
+        {
+            "@_fa": "true",
+            "$": "Molecular Biology",
+            "@code": "1312",
+            "@abbrev": "BIOC"
+        },
+        {
+            "@_fa": "true",
+            "$": "Genetics",
+            "@code": "1311",
+            "@abbrev": "BIOC"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computational Mathematics",
+            "@code": "2605",
+            "@abbrev": "MATH"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computational Theory and Mathematics",
+            "@code": "1703",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Vitara",
+            "preferred-name": {
+                "ce:given-name": "Vitara",
+                "ce:initials": "V.",
+                "ce:surname": "Pungpapong",
+                "ce:indexed-name": "Pungpapong V."
+            },
+            "@seq": "1",
+            "ce:initials": "V.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Pungpapong",
+            "@auid": "35068399800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/35068399800",
+            "ce:indexed-name": "Pungpapong V."
+        },
+        {
+            "ce:given-name": "Min",
+            "preferred-name": {
+                "ce:given-name": "Min",
+                "ce:initials": "M.",
+                "ce:surname": "Zhang",
+                "ce:indexed-name": "Zhang M."
+            },
+            "@seq": "2",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028629",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028629"
+            },
+            "ce:surname": "Zhang",
+            "@auid": "56480890100",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56480890100",
+            "ce:indexed-name": "Zhang M."
+        },
+        {
+            "ce:given-name": "Dabao",
+            "preferred-name": {
+                "ce:given-name": "Dabao",
+                "ce:initials": "D.",
+                "ce:surname": "Zhang",
+                "ce:indexed-name": "Zhang D."
+            },
+            "@seq": "3",
+            "ce:initials": "D.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028629",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028629"
+            },
+            "ce:surname": "Zhang",
+            "@auid": "8409502300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/8409502300",
+            "ce:indexed-name": "Zhang D."
+        }
+    ]}
+}}

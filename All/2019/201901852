@@ -1,0 +1,1785 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "07",
+                "@timestamp": "2021-11-07T02:23:03.000003-05:00",
+                "@year": "2021",
+                "@month": "11"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2019",
+                "@month": "03"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-acronym": "JSPS",
+                    "xocs:funding-agency": "Japan Society for the Promotion of Science",
+                    "xocs:funding-id": [
+                        {"$": "18H03212"},
+                        {"$": "18KK0277"}
+                    ],
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001691",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1861060/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "JICA",
+                    "xocs:funding-agency-acronym": "JICA",
+                    "xocs:funding-agency": "Japan International Cooperation Agency",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004532",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1861060/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Ministry of Internal Affairs and Communications",
+                    "xocs:funding-agency-acronym": "MIC",
+                    "xocs:funding-agency": "Ministry of Internal Affairs and Communications",
+                    "xocs:funding-id": "185001003",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100009105",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1861060/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-05-24T10:58:20.036Z",
+            "xocs:funding-text": "Funding: This research has been supported in parts by the Collaborative Research Project entitled Video Processing and Transmission, JICA Project for AUN/SEED-Net, Japan and the Ministry of Internal Affairs and Communications for SCOPE Program (185001003).",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "postal-code": "10330",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Department of Electrical Engineering"},
+                                {"$": "Faculty of Engineering"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "113845132"
+                            },
+                            "@dptid": "113845132"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Htoo Maung",
+                                "preferred-name": {
+                                    "ce:given-name": "Htoo Maung",
+                                    "ce:initials": "H.M.",
+                                    "ce:surname": "Maung",
+                                    "ce:indexed-name": "Maung H.M."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "H.M.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Maung",
+                                "@auid": "57190291546",
+                                "ce:indexed-name": "Maung H.M."
+                            },
+                            {
+                                "ce:given-name": "Supavadee",
+                                "preferred-name": {
+                                    "ce:given-name": "Supavadee",
+                                    "ce:initials": "S.",
+                                    "ce:surname": "Aramvith",
+                                    "ce:indexed-name": "Aramvith S."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Aramvith",
+                                "@auid": "8943602000",
+                                "ce:indexed-name": "Aramvith S."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Japan",
+                            "postal-code": "060-0814",
+                            "@afid": "60014652",
+                            "@country": "jpn",
+                            "city": "Sapporo",
+                            "organization": [
+                                {"$": "Graduate School of Information Science and Technology"},
+                                {"$": "Hokkaido University"}
+                            ],
+                            "affiliation-id": {"@afid": "60014652"}
+                        },
+                        "author": [{
+                            "ce:given-name": "Yoshikazu",
+                            "preferred-name": {
+                                "ce:given-name": "Yoshikazu",
+                                "ce:initials": "Y.",
+                                "ce:surname": "Miyanaga",
+                                "ce:indexed-name": "Miyanaga Y."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "Y.",
+                            "@date-locked": "2019-10-14T13:59:33.317",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Miyanaga",
+                            "@auid": "55552585800",
+                            "ce:indexed-name": "Miyanaga Y."
+                        }]
+                    }
+                ],
+                "citation-title": "Hierarchical-p reference picture selection based error resilient video coding framework for high efficiency video coding transmission applications",
+                "abstracts": "© 2019 by the authors. Licensee MDPI, Basel, Switzerland.In this paper, a new reference picture selection (RPS) is proposed for a high efficiency video coding (HEVC) framework. In recent studies, HEVC has been shown to be sensitive to packet error which is unavoidable in transmission applications especially for wireless networks. RPS is an effective error resilient technique for video transmission systems where a feedback channel with short round trip delay time is available. However, its procedure cannot directly apply to the HEVC framework and thus this paper expands it. In RPS, error propagation can still happen during round trip delay time. To alleviate the effect of error propagation for better quality, the proposed algorithm considers both the RPS technique and the region-based intra mode selection method by using some novel features of HEVC. Experimental results demonstrate that the proposed method outperforms the hierarchical-P RPS algorithm in terms of PSNR and other metrics. The average PSNR improvement of the proposed algorithm over the reference algorithm under 10% packet error rate is 1.56 dB for 1080p sequences, 2.32 dB for 720p sequences and 1.01 dB for wide video graphics array (WVGA) sequences, respectively. The performance of proposed method is also tested for applications where feedback information is not available. The proposed method shows noticeable improvement for video sequences that contain low or moderate level of motions.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "postal-code": "10330",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Department of Electrical Engineering"},
+                            {"$": "Faculty of Engineering"},
+                            {"$": "Chulalongkorn University"}
+                        ]
+                    },
+                    "person": {
+                        "ce:given-name": "Supavadee",
+                        "ce:initials": "S.",
+                        "ce:surname": "Aramvith",
+                        "ce:indexed-name": "Aramvith S."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Error propagation",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Error resilient coding",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "HEVC",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Reference picture selection",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Video coding",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Video communications",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Wireless video transmission",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "https://www.mdpi.com/2079-9292/8/3/310/pdf",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {"@xml:lang": "eng"},
+                    "volisspag": {"voliss": {
+                        "@volume": "8",
+                        "@issue": "3"
+                    }},
+                    "@type": "j",
+                    "sourcetitle": "Electronics (Switzerland)",
+                    "publicationdate": {
+                        "month": "03",
+                        "year": "2019",
+                        "date-text": "March 2019",
+                        "day": "01"
+                    },
+                    "sourcetitle-abbrev": "Electronics (Switzerland)",
+                    "@country": "che",
+                    "issn": {
+                        "$": "20799292",
+                        "@type": "electronic"
+                    },
+                    "publicationyear": {"@first": "2019"},
+                    "publisher": {
+                        "publishername": "MDPI AG",
+                        "ce:e-address": {
+                            "$": "membranes@mdpi.com",
+                            "@type": "email"
+                        }
+                    },
+                    "article-number": "310",
+                    "@srcid": "21100829272"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2207"},
+                            {"$": "1711"},
+                            {"$": "1708"},
+                            {"$": "1705"},
+                            {"$": "2208"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "ENGI"},
+                            {"$": "COMP"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This research has been supported in parts by the Collaborative Research Project entitled Video Processing and Transmission, JICA Project for AUN/SEED-Net, Japan and the Ministry of Internal Affairs and Communications for SCOPE Program (185001003).",
+                        "@xml:lang": "eng"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2019 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "SNCPX"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "12",
+                    "@timestamp": "BST 08:06:57",
+                    "@year": "2019",
+                    "@month": "04"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2001739983",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "916724365",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20190631053",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20191006894",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "2019040406",
+                            "@idtype": "SNCPX"
+                        },
+                        {
+                            "$": "20190002747111",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85064047467",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85064047467",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.3390/electronics8030310"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "29",
+                "reference": [
+                    {
+                        "ref-fulltext": "Sullivan, G.J.; Ohm, J.R.; Han, W.J.; Wiegand, T. Overview of the high efficiency video coding (HEVC) standard. IEEE Trans. Circuits Syst. Video Technol. 2012, 22, 1649\u20131668. [CrossRef]",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Overview of the high efficiency video coding (HEVC) standard"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84872253926",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "22"},
+                                "pagerange": {
+                                    "@first": "1649",
+                                    "@last": "1668"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sullivan",
+                                    "ce:indexed-name": "Sullivan G.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ohm",
+                                    "ce:indexed-name": "Ohm J.R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Han",
+                                    "ce:indexed-name": "Han W.J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wiegand",
+                                    "ce:indexed-name": "Wiegand T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Circuits Syst. Video Technol."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Piñol, P.; Torres, A.; López, O.; Martinez, M.; Malumbres, M.P. Evaluating HEVC video delivery in VANET scenarios. In Proceedings of the 2013 IFIP Wireless Days (WD 2013), Valencia, Spain, 13\u201315 November 2013.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Evaluating HEVC video delivery in VANET scenarios"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84893571621",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Valencia, Spain, 13\u201315 November 2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Piñol",
+                                    "ce:indexed-name": "Pinol P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Torres",
+                                    "ce:indexed-name": "Torres A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "López",
+                                    "ce:indexed-name": "Lopez O."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Martinez",
+                                    "ce:indexed-name": "Martinez M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Malumbres",
+                                    "ce:indexed-name": "Malumbres M.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2013 IFIP Wireless Days (WD 2013)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Aabed, M.A.; AlRegib, G. No-reference quality assessment of HEVC videos in loss-prone networks. In Proceedings of the 2014 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2014), Florence, Italy, 4\u20139 May 2014.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "No-reference quality assessment of HEVC videos in loss-prone networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84905229941",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Florence, Italy, 4\u20139 May 2014",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aabed",
+                                    "ce:indexed-name": "Aabed M.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alregib",
+                                    "ce:indexed-name": "Alregib G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2014 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2014)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Nightingale, J.; Wang, Q.; Grecos, C.; Goma, S. The impact of network impairment on quality of experience (QoE) in H. 265/HEVC video streaming. IEEE Trans. Consum. Electron. 2014, 60, 242\u2013250. [CrossRef]",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "The impact of network impairment on quality of experience (QoE) in H. 265/HEVC video streaming"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84904657702",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "60"},
+                                "pagerange": {
+                                    "@first": "242",
+                                    "@last": "250"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nightingale",
+                                    "ce:indexed-name": "Nightingale J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Q."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grecos",
+                                    "ce:indexed-name": "Grecos C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Goma",
+                                    "ce:indexed-name": "Goma S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Consum. Electron."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ferroukhi, M.; Ouahabi, A.; Attari, M.; Habchi, Y.; Taleb-Ahmed, A. Medical Video Coding Based on 2nd-Generation Wavelets: Performance Evaluation. Electronics 2019, 8, 88. [CrossRef]",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Medical Video Coding Based on 2nd-Generation Wavelets: Performance Evaluation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85060381406",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "8"},
+                                "pagerange": {"@first": "88"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ferroukhi",
+                                    "ce:indexed-name": "Ferroukhi M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ouahabi",
+                                    "ce:indexed-name": "Ouahabi A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Attari",
+                                    "ce:indexed-name": "Attari M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Habchi",
+                                    "ce:indexed-name": "Habchi Y."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Taleb-Ahmed",
+                                    "ce:indexed-name": "Taleb-Ahmed A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Electronics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Wiegand, T.; Sullivan, G.; Bjøntegaard, G.; Luthra, A. Overview of the H. 264/AVC video coding standard. IEEE Trans. Circuits Syst. Video Technol. 2003, 13, 560\u2013576. [CrossRef]",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Overview of the H. 264/AVC video coding standard"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0042631515",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "13"},
+                                "pagerange": {
+                                    "@first": "560",
+                                    "@last": "576"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wiegand",
+                                    "ce:indexed-name": "Wiegand T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sullivan",
+                                    "ce:indexed-name": "Sullivan G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bjøntegaard",
+                                    "ce:indexed-name": "Bjontegaard G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Luthra",
+                                    "ce:indexed-name": "Luthra A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Circuits Syst. Video Technol."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Girod, B.; Farber, N. Feedback-based error control for mobile video transmission. Proc. IEEE. 1999, 87, 1707\u20131723. [CrossRef]",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "Feedback-based error control for mobile video transmission"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0033343653",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "87"},
+                                "pagerange": {
+                                    "@first": "1707",
+                                    "@last": "1723"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Girod",
+                                    "ce:indexed-name": "Girod B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Farber",
+                                    "ce:indexed-name": "Farber N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Fukunaga, S.; Nakai, T.; Inoue, H. Error resilient video coding by dynamic replacing of reference pictures. In Proceedings of the 1996 IEEE Global Telecommunications Conference (GLOBECOM\u201996), London, UK, 18\u201328 November 1996.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "Error resilient video coding by dynamic replacing of reference pictures"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030350230",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "18",
+                                "@last": "28"
+                            }},
+                            "ref-text": "London, UK, November",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fukunaga",
+                                    "ce:indexed-name": "Fukunaga S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nakai",
+                                    "ce:indexed-name": "Nakai T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Inoue",
+                                    "ce:indexed-name": "Inoue H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 1996 IEEE Global Telecommunications Conference (GLOBECOM\u201996)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Bjøntegaard, G. An Error Resilience Method Based on Back Channel Signaling and FEC; ITU-T/SG15/LBC-96-033; Telenor R&D: San Jose, CA, USA, 1996.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "20444502662",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "ITU-T/SG15/LBC-96-033; Telenor R&D: San Jose, CA, USA",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "G.",
+                                "@_fa": "true",
+                                "ce:surname": "Bjøntegaard",
+                                "ce:indexed-name": "Bjontegaard G."
+                            }]},
+                            "ref-sourcetitle": "An Error Resilience Method Based on Back Channel Signaling and FEC"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Tu, W.; Steinbach, E. Proxy-based reference picture selection for error resilient conversational video in mobile networks. IEEE Trans. Circuits Syst. Video Technol. 2009, 19, 151\u2013164. [CrossRef]",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Proxy-based reference picture selection for error resilient conversational video in mobile networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "59649099522",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "19"},
+                                "pagerange": {
+                                    "@first": "151",
+                                    "@last": "164"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tu",
+                                    "ce:indexed-name": "Tu W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Steinbach",
+                                    "ce:indexed-name": "Steinbach E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Circuits Syst. Video Technol."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Liu, C.; Wang, Y.K.; Hannuksela, M.M.; Chen, Y.; Sujeet, M.; Gabbouj, M. RTP/AVPF compliant feedback for error resilient video coding in conversational applications. In Proceedings of the 9th International Symposium on Communications and Information Technology (ISCIT 2009), Incheon, Korea, 28\u201330 September 2009.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "RTP/AVPF compliant feedback for error resilient video coding in conversational applications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "74549128497",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Incheon, Korea, 28\u201330 September 2009",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Y.K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hannuksela",
+                                    "ce:indexed-name": "Hannuksela M.M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen Y."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sujeet",
+                                    "ce:indexed-name": "Sujeet M."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gabbouj",
+                                    "ce:indexed-name": "Gabbouj M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 9Th International Symposium on Communications and Information Technology (ISCIT 2009)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Schierl, T.; Hannuksela, M.M.; Wang, Y.K.; Wenger, S. System layer integration of high efficiency video coding. IEEE Trans. Circuits Syst. Video Technol. 2012, 22, 1871\u20131884. [CrossRef]",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "System layer integration of high efficiency video coding"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84872230928",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "22"},
+                                "pagerange": {
+                                    "@first": "1871",
+                                    "@last": "1884"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schierl",
+                                    "ce:indexed-name": "Schierl T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hannuksela",
+                                    "ce:indexed-name": "Hannuksela M.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Y.K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wenger",
+                                    "ce:indexed-name": "Wenger S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Circuits Syst. Video Technol."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Sjoberg, R.; Chen, Y.; Fujibayashi, A.; Hannuksela, M.M.; Samuelsson, J.; Tan, T.K.; Wang, Y.K.; Wenger, S. Overview of HEVC high-level syntax and reference picture management. IEEE Trans. Circuits Syst. Video Technol. 2012, 22, 1858\u20131870. [CrossRef]",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Overview of HEVC high-level syntax and reference picture management"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84872253276",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "22"},
+                                "pagerange": {
+                                    "@first": "1858",
+                                    "@last": "1870"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sjoberg",
+                                    "ce:indexed-name": "Sjoberg R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fujibayashi",
+                                    "ce:indexed-name": "Fujibayashi A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hannuksela",
+                                    "ce:indexed-name": "Hannuksela M.M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Samuelsson",
+                                    "ce:indexed-name": "Samuelsson J."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "T.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tan",
+                                    "ce:indexed-name": "Tan T.K."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "Y.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Y.K."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wenger",
+                                    "ce:indexed-name": "Wenger S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Circuits Syst. Video Technol."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Hong, D.; Horowitz, M.; Eleftheriadis, A.; Wiegand, T. H.264 hierarchical P coding in the context of ultra-low delay, low complexity applications. In Proceedings of the 28th Picture Coding Symposium (PCS 2010), Nagoya, Japan, 7\u201310 December 2010.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "H.264 hierarchical P coding in the context of ultra-low delay, low complexity applications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79951785591",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Nagoya, Japan, 7\u201310 December",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hong",
+                                    "ce:indexed-name": "Hong D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Horowitz",
+                                    "ce:indexed-name": "Horowitz M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Eleftheriadis",
+                                    "ce:indexed-name": "Eleftheriadis A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wiegand",
+                                    "ce:indexed-name": "Wiegand T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 28Th Picture Coding Symposium (PCS 2010)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Maung, H.M.; Aramvith, S.; Miyanaga, Y. Region-of-interest based error resilient method for HEVC video transmission. In Proceedings of the 15th International Symposium on Communications and Information Technologies (ISCIT 2015), Nara, Japan, 7\u20139 October 2015.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Region-of-interest based error resilient method for HEVC video transmission"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84979075811",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Nara, Japan, 7\u20139 October 2015",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maung",
+                                    "ce:indexed-name": "Maung H.M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aramvith",
+                                    "ce:indexed-name": "Aramvith S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Miyanaga",
+                                    "ce:indexed-name": "Miyanaga Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 15Th International Symposium on Communications and Information Technologies (ISCIT 2015)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Maung, H.M.; Aramvith, S.; Miyanaga, Y. Improve region-of-interest based rate control for error resilient HEVC framework. In Proceedings of the 2016 International Conference on Digital Signal Processing (DSP), Beijing, China, 16\u201318 October 2016.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Improve region-of-interest based rate control for error resilient HEVC framework"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85016184589",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Beijing, China, 16\u201318 October 2016",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.M.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maungaramvith",
+                                    "ce:indexed-name": "Maungaramvith H.M.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Miyanaga",
+                                    "ce:indexed-name": "Miyanaga Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2016 International Conference on Digital Signal Processing (DSP)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Maung, H.M.; Aramvith, S.; Miyanaga, Y. Error resilience aware rate control and mode selection for HEVC video transmission. In Proceedings of the IEEE International Conference on Consumer Electronics (ICCE 2017), Las Vegas, NV, USA, 8\u201310 January 2017.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Error resilience aware rate control and mode selection for HEVC video transmission"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85018259670",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Las Vegas, NV, USA, 8\u201310 January 2017",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maung",
+                                    "ce:indexed-name": "Maung H.M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aramvith",
+                                    "ce:indexed-name": "Aramvith S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Miyanaga",
+                                    "ce:indexed-name": "Miyanaga Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE International Conference on Consumer Electronics (ICCE 2017)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Carreira, J.; Assunção, P.; Faria, S.; Ekmekcioglu, E.; Kondoz, A.; Lim, H. Reference picture selection using checkerboard pattern for resilient video coding. In Proceedings of the IEEE Visual Communications and Image Processing (VCIP), Singapore, 13\u201316 December 2015.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Reference picture selection using checkerboard pattern for resilient video coding"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84978997840",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Singapore, 13\u201316 December 2015",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carreira",
+                                    "ce:indexed-name": "Carreira J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Assunção",
+                                    "ce:indexed-name": "Assuncao P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Faria",
+                                    "ce:indexed-name": "Faria S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ekmekcioglu",
+                                    "ce:indexed-name": "Ekmekcioglu E."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kondoz",
+                                    "ce:indexed-name": "Kondoz A."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lim",
+                                    "ce:indexed-name": "Lim H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE Visual Communications and Image Processing (VCIP)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Haßlinger, G.; Hohlfeld, O. The Gilbert-Elliott model for packet loss in real time services on the Internet. In Proceedings of the 14th GI/ITG Conference on Measurement, Modelling and Evaluation of Computer and Communication Systems (MMB 2008), Dortmund, Germany, 31 March\u20132 April 2008.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "The Gilbert-Elliott model for packet loss in real time services on the Internet"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84892647749",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Dortmund, Germany, 31 March\u20132 April",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Haßlinger",
+                                    "ce:indexed-name": "Hasslinger G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hohlfeld",
+                                    "ce:indexed-name": "Hohlfeld O."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 14Th GI/ITG Conference on Measurement, Modelling and Evaluation of Computer and Communication Systems (MMB 2008"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Li, B.; Li, H.; Li, L.; Zhang, J. Rate Control by R-lambda Model for SHVC. Document JCTVC-M0037, ITU-T/ISO/IEC Joint Collaborative Team on Video Coding (JCT-VC). 2013. Available online: http://phenix. int-evry.fr/jct/doc_end_user/current_document.php?id=7288 (accessed on 2 January 2019).",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://phenix.int-evry.fr/jct/doc_end_user/current_document.php?id=7288",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84888165036",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Document JCTVC-M0037, ITU-T/ISO/IEC Joint Collaborative Team on Video Coding (JCT-VC), accessed on 2 January 2019",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Rate Control by R-Lambda Model for SHVC"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Li, B.; Li, H.; Li, L.; Zhang, J. λ Domain Rate Control Algorithm for High Efficiency Video Coding. IEEE Trans. Image Process. 2014, 23, 3841\u20133854. [CrossRef] [PubMed]",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "λ Domain Rate Control Algorithm for High Efficiency Video Coding"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84905283393",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "23"},
+                                "pagerange": {
+                                    "@first": "3841",
+                                    "@last": "3854"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Image Process"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "McCann, K.; Bross, B.; Han, W.J.; Kim, I.K.; Sugimoto, K.; Sullivan, G.J. High Efficiency Video Coding (HEVC) Test Model 15 (HM 15) Encoder Description. Document JCTVC-Q1002. 2014. Available online: http://phenix.int-evry.fr/jct/doc_end_user/current_document.php?id=9103 (accessed on 18 September 2018).",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://phenix.int-evry.fr/jct/doc_end_user/current_document.php?id=9103",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84883419106",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Available online, (accessed on 18 September 2018)",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McCann",
+                                    "ce:indexed-name": "McCann K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bross",
+                                    "ce:indexed-name": "Bross B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Han",
+                                    "ce:indexed-name": "Han W.J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "I.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim I.K."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sugimoto",
+                                    "ce:indexed-name": "Sugimoto K."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "G.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sullivan",
+                                    "ce:indexed-name": "Sullivan G.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "High Efficiency Video Coding (HEVC) Test Model 15 (HM 15) Encoder Description. Document JCTVC-Q1002"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Bossen, F. Common Test Conditions and Software Reference Configurations. Document Rec. JCTVC-J1100. Stockholm, Sweden, 2012. Available online: http://phenix.int-evry.fr/jct/doc_end_user/current_document. php?id=6469 (accessed on 2 January 2019).",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://phenix.int-evry.fr/jct/doc_end_user/current_document.php?id=6469",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79958165667",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Document Rec. JCTVC-J1100. Stockholm, Sweden, 2012, accessed on 2 January 2019",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "F.",
+                                "@_fa": "true",
+                                "ce:surname": "Bossen",
+                                "ce:indexed-name": "Bossen F."
+                            }]},
+                            "ref-sourcetitle": "Common Test Conditions and Software Reference Configurations"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ren, G.; Li, P.; Wang, G. A novel hybrid coarse-to-fine digital image stabilization algorithm. Inform. Technol. J. 2010, 9, 1390\u20131396. [CrossRef]",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "A novel hybrid coarse-to-fine digital image stabilization algorithm"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77956463805",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "9"},
+                                "pagerange": {
+                                    "@first": "1390",
+                                    "@last": "1396"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ren",
+                                    "ce:indexed-name": "Ren G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Inform. Technol. J."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Hu, H.M.; Li, B.; Lin, W.; Li, W.; Sun, M.T. Region-based rate control for H. 264/AVC for low bit-rate applications. IEEE Trans. Circuits Syst. Video Technol 2012, 22, 1564\u20131576. [CrossRef]",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Region-based rate control for H. 264/AVC for low bit-rate applications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84875749120",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "22"},
+                                "pagerange": {
+                                    "@first": "1564",
+                                    "@last": "1576"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu H.M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lin",
+                                    "ce:indexed-name": "Lin W."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li W."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun M.T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Circuits Syst. Video Technol"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Joint Call for Proposals on Video Compression Technology. ITU-T SG16/Q6 document VCEG-AM91 and ISO/IEC MPEG Document N11113, ITU-T and ISO/IEC JTC 1. 2010. Available online: https://www.itu.int/wftp3/av-arch/jctvc-site/2010_04_A_Dresden/JCTVC-A114.doc (accessed on 2 January 2019).",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.itu.int/wftp3/av-arch/jctvc-site/2010_04_A_Dresden/JCTVC-A114.doc",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85064061674",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Joint Call for Proposals on Video Compression Technology. ITU-T SG16/Q6 document VCEG-AM91 and ISO/IEC MPEG Document N11113, ITU-T and ISO/IEC JTC 1. 2010, accessed on 2 January 2019"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Wenger, S. Nal Unit Loss Software. Document JCTVC-H0072, ITU-T/ISO/IEC Joint Collaborative Team on Video Coding (JCT-VC). 2012. Available online: http://phenix.int-evry.fr/jct/doc_end_user/current_ document.php?id=4373 (accessed on 25 December 2018).",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://phenix.int-evry.fr/jct/doc_end_user/current_document.php?id=4373",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84861956872",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Document JCTVC-H0072, ITU-T/ISO/IEC Joint Collaborative Team on Video Coding (JCT-VC), accessed on 25 December 2018",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "ce:surname": "Wenger",
+                                "ce:indexed-name": "Wenger S."
+                            }]},
+                            "ref-sourcetitle": "Nal Unit Loss Software"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Wang, Z.; Bovik, A.C.; Sheikh, H.R.; Simoncelli, E.P. Image quality assessment: from error visibility to structural similarity. IEEE Trans. Image Process. 2004, 13, 600\u2013612. [CrossRef] [PubMed]",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Image quality assessment: From error visibility to structural similarity"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "1942436689",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "13"},
+                                "pagerange": {
+                                    "@first": "600",
+                                    "@last": "612"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bovik",
+                                    "ce:indexed-name": "Bovik A.C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sheikh",
+                                    "ce:indexed-name": "Sheikh H.R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "E.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Simoncelli",
+                                    "ce:indexed-name": "Simoncelli E.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Image Process."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Zhang, L.; Zhang, L.; Mou, X.; Zhang, D. FSIM: A Feature Similarity Index for Image Quality Assessment. IEEE Trans. Image Process. 2011, 20, 2378\u20132386. [CrossRef] [PubMed]",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "FSIM: A Feature Similarity Index for Image Quality Assessment"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79960509746",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "20"},
+                                "pagerange": {
+                                    "@first": "2378",
+                                    "@last": "2386"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mou",
+                                    "ce:indexed-name": "Mou X."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Image Process."
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Sapporo",
+            "@id": "60014652",
+            "affilname": "Hokkaido University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60014652",
+            "affiliation-country": "Japan"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "prism:issueIdentifier": "3",
+        "eid": "2-s2.0-85064047467",
+        "dc:description": "In this paper, a new reference picture selection (RPS) is proposed for a high efficiency video coding (HEVC) framework. In recent studies, HEVC has been shown to be sensitive to packet error which is unavoidable in transmission applications especially for wireless networks. RPS is an effective error resilient technique for video transmission systems where a feedback channel with short round trip delay time is available. However, its procedure cannot directly apply to the HEVC framework and thus this paper expands it. In RPS, error propagation can still happen during round trip delay time. To alleviate the effect of error propagation for better quality, the proposed algorithm considers both the RPS technique and the region-based intra mode selection method by using some novel features of HEVC. Experimental results demonstrate that the proposed method outperforms the hierarchical-P RPS algorithm in terms of PSNR and other metrics. The average PSNR improvement of the proposed algorithm over the reference algorithm under 10% packet error rate is 1.56 dB for 1080p sequences, 2.32 dB for 720p sequences and 1.01 dB for wide video graphics array (WVGA) sequences, respectively. The performance of proposed method is also tested for applications where feedback information is not available. The proposed method shows noticeable improvement for video sequences that contain low or moderate level of motions.",
+        "prism:coverDate": "2019-03-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85064047467",
+        "subtypeDescription": "Article",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Htoo Maung",
+            "preferred-name": {
+                "ce:given-name": "Htoo Maung",
+                "ce:initials": "H.M.",
+                "ce:surname": "Maung",
+                "ce:indexed-name": "Maung H.M."
+            },
+            "@seq": "1",
+            "ce:initials": "H.M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Maung",
+            "@auid": "57190291546",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57190291546",
+            "ce:indexed-name": "Maung H.M."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85064047467"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85064047467&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85064047467&origin=inward"
+            }
+        ],
+        "prism:publicationName": "Electronics (Switzerland)",
+        "source-id": "21100829272",
+        "citedby-count": "2",
+        "prism:volume": "8",
+        "subtype": "ar",
+        "dc:title": "Hierarchical-p reference picture selection based error resilient video coding framework for high efficiency video coding transmission applications",
+        "openaccess": "1",
+        "openaccessFlag": "true",
+        "prism:doi": "10.3390/electronics8030310",
+        "prism:issn": "20799292",
+        "publishercopyright": "© 2019 by the authors. Licensee MDPI, Basel, Switzerland.",
+        "article-number": "310",
+        "dc:identifier": "SCOPUS_ID:85064047467",
+        "dc:publisher": "MDPI AGmembranes@mdpi.com"
+    },
+    "idxterms": null,
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Error propagation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Error resilient coding"
+        },
+        {
+            "@_fa": "true",
+            "$": "HEVC"
+        },
+        {
+            "@_fa": "true",
+            "$": "Reference picture selection"
+        },
+        {
+            "@_fa": "true",
+            "$": "Video coding"
+        },
+        {
+            "@_fa": "true",
+            "$": "Video communications"
+        },
+        {
+            "@_fa": "true",
+            "$": "Wireless video transmission"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Control and Systems Engineering",
+            "@code": "2207",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Signal Processing",
+            "@code": "1711",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Hardware and Architecture",
+            "@code": "1708",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Networks and Communications",
+            "@code": "1705",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Htoo Maung",
+            "preferred-name": {
+                "ce:given-name": "Htoo Maung",
+                "ce:initials": "H.M.",
+                "ce:surname": "Maung",
+                "ce:indexed-name": "Maung H.M."
+            },
+            "@seq": "1",
+            "ce:initials": "H.M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Maung",
+            "@auid": "57190291546",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57190291546",
+            "ce:indexed-name": "Maung H.M."
+        },
+        {
+            "ce:given-name": "Supavadee",
+            "preferred-name": {
+                "ce:given-name": "Supavadee",
+                "ce:initials": "S.",
+                "ce:surname": "Aramvith",
+                "ce:indexed-name": "Aramvith S."
+            },
+            "@seq": "2",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Aramvith",
+            "@auid": "8943602000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/8943602000",
+            "ce:indexed-name": "Aramvith S."
+        },
+        {
+            "ce:given-name": "Yoshikazu",
+            "preferred-name": {
+                "ce:given-name": "Yoshikazu",
+                "ce:initials": "Y.",
+                "ce:surname": "Miyanaga",
+                "ce:indexed-name": "Miyanaga Y."
+            },
+            "@seq": "3",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60014652",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60014652"
+            },
+            "ce:surname": "Miyanaga",
+            "@auid": "55552585800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55552585800",
+            "ce:indexed-name": "Miyanaga Y."
+        }
+    ]}
+}}

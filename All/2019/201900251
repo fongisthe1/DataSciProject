@@ -1,0 +1,2958 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "17",
+                "@timestamp": "2020-02-17T07:13:39.000039-05:00",
+                "@year": "2020",
+                "@month": "02"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2019",
+                "@month": "12"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {"xocs:funding-agency-matched-string": "MSTP"},
+                {
+                    "xocs:funding-agency-matched-string": "NIH",
+                    "xocs:funding-agency-acronym": "NIH",
+                    "xocs:funding-agency": "National Institutes of Health",
+                    "xocs:funding-id": "T32 GM007280",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100000002",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/6252001/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "NIAID",
+                    "xocs:funding-agency-acronym": "NIAID",
+                    "xocs:funding-agency": "National Institute of Allergy and Infectious Diseases",
+                    "xocs:funding-id": [
+                        {"$": "HHSN272201400008C"},
+                        {"$": "P01 AI097092"},
+                        {"$": "U19 AI109946"}
+                    ],
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100000060",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/6252001/"
+                },
+                {
+                    "xocs:funding-agency-acronym": "DIR, NIAID",
+                    "xocs:funding-agency": "Division of Intramural Research, National Institute of Allergy and Infectious Diseases",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100006492",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/6252001/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-11-29T07:15:03.376744Z",
+            "xocs:funding-text": "We thank Guha Arunkumar for providing the X-31 and X-79 challenge viruses; Shirin Strohmeier, Fatima Amanat, and Andres Javier for providing recombinant hemagglutinin proteins; and Randy Albrecht and Wen-Chun (Claire) Liu for providing the ferret antisera. This work was partially funded by the NIAID\u2019s Centers of Excellence for Influenza Research and Surveillance (HHSN272201400008C to P.P. and F.K.), grants P01 AI097092 (to P.P.) and U19 AI109946 (to P.P. and F.K.). F.B. thanks the Germany Academy of Sciences Leopoldina for a postdoctoral stipend. M.J.B. is supported by the MSTP Training Grant NIH T32 GM007280 (P.P. PI).",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "United States",
+                            "@afid": "60012981",
+                            "@country": "usa",
+                            "city": "New York",
+                            "organization": [
+                                {"$": "Department of Microbiology"},
+                                {"$": "Icahn School of Medicine at Mount Sinai"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60012981",
+                                "@dptid": "112681772"
+                            },
+                            "state": "NY",
+                            "ce:source-text": "Department of Microbiology, Icahn School of Medicine at Mount Sinai, New York, NY, USA",
+                            "@dptid": "112681772"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Felix",
+                                "preferred-name": {
+                                    "ce:given-name": "Felix",
+                                    "ce:initials": "F.",
+                                    "ce:surname": "Broecker",
+                                    "ce:indexed-name": "Broecker F."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "F.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Broecker",
+                                "@auid": "55454424500",
+                                "ce:indexed-name": "Broecker F."
+                            },
+                            {
+                                "ce:given-name": "Sean T. H.",
+                                "preferred-name": {
+                                    "ce:given-name": "Sean T.H.",
+                                    "ce:initials": "S.T.H.",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu S."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "S.T.H.",
+                                "@date-locked": "2019-08-17T04:18:23.328",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Liu",
+                                "@auid": "57204156366",
+                                "ce:indexed-name": "Liu S.T.H."
+                            },
+                            {
+                                "ce:given-name": "Weina",
+                                "preferred-name": {
+                                    "ce:given-name": "Weina",
+                                    "ce:initials": "W.",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun W."
+                                },
+                                "@seq": "4",
+                                "ce:initials": "W.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Sun",
+                                "@auid": "57194336866",
+                                "ce:indexed-name": "Sun W."
+                            },
+                            {
+                                "ce:given-name": "Mark J.",
+                                "preferred-name": {
+                                    "ce:given-name": "Mark J.",
+                                    "ce:initials": "M.J.",
+                                    "ce:surname": "Bailey",
+                                    "ce:indexed-name": "Bailey M."
+                                },
+                                "@seq": "5",
+                                "ce:initials": "M.J.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Bailey",
+                                "@auid": "56249434600",
+                                "ce:indexed-name": "Bailey M.J."
+                            },
+                            {
+                                "ce:given-name": "Raffael",
+                                "preferred-name": {
+                                    "ce:given-name": "Raffael",
+                                    "ce:initials": "R.",
+                                    "ce:surname": "Nachbagauer",
+                                    "ce:indexed-name": "Nachbagauer R."
+                                },
+                                "@seq": "6",
+                                "ce:initials": "R.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Nachbagauer",
+                                "@auid": "57193496338",
+                                "@orcid": "0000-0001-5568-5420",
+                                "ce:indexed-name": "Nachbagauer R."
+                            },
+                            {
+                                "ce:given-name": "Florian",
+                                "preferred-name": {
+                                    "ce:given-name": "Florian",
+                                    "ce:initials": "F.",
+                                    "ce:surname": "Krammer",
+                                    "ce:indexed-name": "Krammer F."
+                                },
+                                "@seq": "7",
+                                "ce:initials": "F.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Krammer",
+                                "@auid": "35362059600",
+                                "ce:indexed-name": "Krammer F."
+                            },
+                            {
+                                "ce:given-name": "Peter",
+                                "preferred-name": {
+                                    "ce:given-name": "Peter",
+                                    "ce:initials": "P.",
+                                    "ce:surname": "Palese",
+                                    "ce:indexed-name": "Palese P."
+                                },
+                                "@seq": "8",
+                                "ce:initials": "P.",
+                                "@date-locked": "2020-02-17T07:00:39.639",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Palese",
+                                "@auid": "7005752957",
+                                "ce:indexed-name": "Palese P."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Center of Excellence in Clinical Virology"},
+                                {"$": "Department of Pediatrics"},
+                                {"$": "Faculty of Medicine"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "104425637"
+                            },
+                            "ce:source-text": "Center of Excellence in Clinical Virology, Department of Pediatrics, Faculty of Medicine, Chulalongkorn University, Bangkok, Thailand",
+                            "@dptid": "104425637"
+                        },
+                        "author": [{
+                            "ce:given-name": "Nungruthai",
+                            "preferred-name": {
+                                "ce:given-name": "Nungruthai",
+                                "ce:initials": "N.",
+                                "ce:surname": "Suntronwong",
+                                "ce:indexed-name": "Suntronwong N."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "N.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Suntronwong",
+                            "@auid": "57189067135",
+                            "@orcid": "0000-0002-0714-6470",
+                            "ce:indexed-name": "Suntronwong N."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "United States",
+                            "@afid": "60012981",
+                            "@country": "usa",
+                            "city": "New York",
+                            "organization": [
+                                {"$": "Division of Infectious Diseases"},
+                                {"$": "Department of Medicine"},
+                                {"$": "Icahn School of Medicine at Mount Sinai"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60012981",
+                                "@dptid": "105416777"
+                            },
+                            "state": "NY",
+                            "ce:source-text": "Division of Infectious Diseases, Department of Medicine, Icahn School of Medicine at Mount Sinai, New York, NY, USA",
+                            "@dptid": "105416777"
+                        },
+                        "author": [{
+                            "ce:given-name": "Peter",
+                            "preferred-name": {
+                                "ce:given-name": "Peter",
+                                "ce:initials": "P.",
+                                "ce:surname": "Palese",
+                                "ce:indexed-name": "Palese P."
+                            },
+                            "@seq": "8",
+                            "ce:initials": "P.",
+                            "@date-locked": "2020-02-17T07:00:39.639",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Palese",
+                            "@auid": "7005752957",
+                            "ce:indexed-name": "Palese P."
+                        }]
+                    }
+                ],
+                "citation-title": "A mosaic hemagglutinin-based influenza virus vaccine candidate protects mice from challenge with divergent H3N2 strains",
+                "abstracts": "© 2019, The Author(s).Current seasonal influenza virus vaccines only provide limited, short-lived protection, and antigenic drift in the hemagglutinin surface glycoprotein necessitates their annual re-formulation and re-administration. To overcome these limitations, universal vaccine strategies that aim at eliciting broadly protective antibodies to conserved epitopes of the hemagglutinin show promise for protecting against diverse and drifted influenza viruses. Here a vaccination strategy that focuses antibody responses to conserved epitopes of the H3 hemagglutinin is described. The approach is based on antigenic silencing of the immunodominant major antigenic sites of an H3 protein from 2014 by replacing them with corresponding sequences of exotic avian hemagglutinins, yielding \u201cmosaic\u201d hemagglutinins. In mice, vaccination with inactivated viruses expressing mosaic hemagglutinins induced highly cross-reactive antibodies against the H3 stalk domain that elicited Fc-mediated effector functions in vitro. In addition, the mosaic viruses elicited head-specific antibodies with neutralizing and hemagglutination-inhibiting activity against recent H3N2 viruses in vitro. Immune sera protected mice from heterologous challenge with viruses carrying H3 proteins from 1968 and 1982, whereas immune sera generated with a seasonal vaccine did not protect. Consequently, the mosaic vaccination approach provides a promising avenue toward a universal influenza virus vaccine.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "United States",
+                        "@country": "usa",
+                        "city": "New York",
+                        "organization": [
+                            {"$": "Department of Microbiology"},
+                            {"$": "Icahn School of Medicine at Mount Sinai"}
+                        ],
+                        "state": "NY",
+                        "ce:source-text": "Department of Microbiology, Icahn School of Medicine at Mount Sinai, New York, NY, USA"
+                    },
+                    "person": {
+                        "ce:given-name": "Peter",
+                        "ce:initials": "P.",
+                        "ce:surname": "Palese",
+                        "ce:indexed-name": "Palese P."
+                    }
+                },
+                "citation-info": {
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "https://www.nature.com/npjvaccines/",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {"@xml:lang": "eng"},
+                    "volisspag": {"voliss": {
+                        "@volume": "4",
+                        "@issue": "1"
+                    }},
+                    "@type": "j",
+                    "sourcetitle": "npj Vaccines",
+                    "publicationdate": {
+                        "month": "12",
+                        "year": "2019",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "1 December 2019"
+                        },
+                        "day": "01"
+                    },
+                    "sourcetitle-abbrev": "npj Vaccines",
+                    "@country": "gbr",
+                    "issn": {
+                        "$": "20590105",
+                        "@type": "electronic"
+                    },
+                    "publicationyear": {"@first": "2019"},
+                    "publisher": {
+                        "affiliation": {
+                            "address-part": "Houndmills",
+                            "postal-code": "RG21 6XS",
+                            "@country": "gbr",
+                            "city": "Basingstoke, Hampshire"
+                        },
+                        "publishername": "Nature Publishing Group"
+                    },
+                    "article-number": "31",
+                    "@srcid": "21100850730"
+                },
+                "enhancement": {
+                    "classificationgroup": {"classifications": [
+                        {
+                            "@type": "EMCLASS",
+                            "classification": [
+                                {
+                                    "classification-code": "26",
+                                    "classification-description": "Immunology, Serology and Transplantation"
+                                },
+                                {
+                                    "classification-code": "37",
+                                    "classification-description": "Drug Literature Index"
+                                },
+                                {
+                                    "classification-code": "4",
+                                    "classification-description": "Microbiology: Bacteriology, Mycology, Parasitology and Virology"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "ASJC",
+                            "classification": [
+                                {"$": "2403"},
+                                {"$": "3004"},
+                                {"$": "2725"},
+                                {"$": "2736"}
+                            ]
+                        },
+                        {
+                            "@type": "SUBJABBR",
+                            "classification": [
+                                {"$": "IMMU"},
+                                {"$": "PHAR"},
+                                {"$": "MEDI"}
+                            ]
+                        }
+                    ]},
+                    "tradenamegroup": {"tradenames": {
+                        "trademanuitem": {
+                            "tradename": "fluarix quadrivalent",
+                            "manufacturer": "Glaxo SmithKline"
+                        },
+                        "@type": "TNM"
+                    }},
+                    "chemicalgroup": {"chemicals": {
+                        "@source": "esbd",
+                        "chemical": {
+                            "cas-registry-number": "97794-27-9",
+                            "chemical-name": "immunoglobulin G"
+                        }
+                    }},
+                    "manufacturergroup": {"manufacturers": {
+                        "@type": "MNF",
+                        "manufacturer": "Glaxo SmithKline"
+                    }}
+                },
+                "grantlist": {
+                    "@complete": "y",
+                    "grant": [
+                        {
+                            "grant-id": "HHSN272201400008C",
+                            "grant-acronym": "DIR, NIAID",
+                            "grant-agency": {
+                                "@iso-code": "usa",
+                                "$": "Division of Intramural Research, National Institute of Allergy and Infectious Diseases"
+                            },
+                            "grant-agency-id": "100006492"
+                        },
+                        {
+                            "grant-id": "HHSN272201400008C",
+                            "grant-acronym": "NIAID",
+                            "grant-agency": {
+                                "@iso-code": "usa",
+                                "$": "National Institute of Allergy and Infectious Diseases"
+                            },
+                            "grant-agency-id": "100000060"
+                        },
+                        {
+                            "grant-id": "P01 AI097092",
+                            "grant-acronym": "NIAID",
+                            "grant-agency": {
+                                "@iso-code": "usa",
+                                "$": "National Institute of Allergy and Infectious Diseases"
+                            },
+                            "grant-agency-id": "100000060"
+                        },
+                        {
+                            "grant-id": "U19 AI109946",
+                            "grant-acronym": "DIR, NIAID",
+                            "grant-agency": {
+                                "@iso-code": "usa",
+                                "$": "Division of Intramural Research, National Institute of Allergy and Infectious Diseases"
+                            },
+                            "grant-agency-id": "100006492"
+                        },
+                        {
+                            "grant-id": "U19 AI109946",
+                            "grant-acronym": "NIAID",
+                            "grant-agency": {
+                                "@iso-code": "usa",
+                                "$": "National Institute of Allergy and Infectious Diseases"
+                            },
+                            "grant-agency-id": "100000060"
+                        }
+                    ]
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2019 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "EMBASE"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "27",
+                    "@timestamp": "BST 03:13:23",
+                    "@year": "2019",
+                    "@month": "07"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "628591886",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "918820952",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20190517082",
+                            "@idtype": "EMBASE"
+                        },
+                        {
+                            "$": "20191406008",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20192081183",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85069474959",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85069474959",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1038/s41541-019-0126-4"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "48",
+                "reference": [
+                    {
+                        "ref-fulltext": "Krammer, F. et al. Influenza. Nat. Rev. Dis. Prim. 4, 3 (2018).",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Influenza"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1038/s41572-018-0002-y",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR1",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85049211080",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "4"},
+                                "pagerange": {"@first": "3"}
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krammer",
+                                    "ce:indexed-name": "Krammer F."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Nat. Rev. Dis. Prim."
+                        },
+                        "ce:source-text": "Krammer, F. et al. Influenza. Nat. Rev. Dis. Prim. 4, 3 (2018)."
+                    },
+                    {
+                        "ref-fulltext": "Gerdil, C. et al. The annual production cycle for influenza vaccine. Vaccine 21, 1776\u20131779 (2003).",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "The annual production cycle for influenza vaccine"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/S0264-410X(03)00071-9",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR2",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0037402228",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "21"},
+                                "pagerange": {
+                                    "@first": "1776",
+                                    "@last": "1779"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gerdil",
+                                    "ce:indexed-name": "Gerdil C."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Vaccine"
+                        },
+                        "ce:source-text": "Gerdil, C. et al. The annual production cycle for influenza vaccine. Vaccine 21, 1776\u20131779 (2003)."
+                    },
+                    {
+                        "ref-fulltext": "Krammer, F. & Palese, P. Universal influenza virus vaccines that target the conserved hemagglutinin stalk and conserved sites in the head domain. J. Infect. Dis. 219 (Suppl 1), S62\u2013S67 (2019).",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Universal influenza virus vaccines that target the conserved hemagglutinin stalk and conserved sites in the head domain"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR3",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85064496397",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "219"},
+                                "pagerange": {
+                                    "@first": "S62",
+                                    "@last": "S67"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krammer",
+                                    "ce:indexed-name": "Krammer F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Palese",
+                                    "ce:indexed-name": "Palese P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Infect. Dis."
+                        },
+                        "ce:source-text": "Krammer, F. & Palese, P. Universal influenza virus vaccines that target the conserved hemagglutinin stalk and conserved sites in the head domain. J. Infect. Dis. 219 (Suppl 1), S62\u2013S67 (2019)."
+                    },
+                    {
+                        "ref-fulltext": "Tricco, A. C. et al. Comparing influenza vaccine efficacy against mismatched and matched strains: a systematic review and meta-analysis. BMC Med. 11, 153 (2013).",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Comparing influenza vaccine efficacy against mismatched and matched strains: a systematic review and meta-analysis"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1186/1741-7015-11-153",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR4",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "153",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "84879212793",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "11"}},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "A.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tricco",
+                                    "ce:indexed-name": "Tricco A.C."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "BMC Med."
+                        },
+                        "ce:source-text": "Tricco, A. C. et al. Comparing influenza vaccine efficacy against mismatched and matched strains: a systematic review and meta-analysis. BMC Med. 11, 153 (2013)."
+                    },
+                    {
+                        "ref-fulltext": "Zost, S. J. et al. Contemporary H3N2 influenza viruses have a glycosylation site that alters binding of antibodies elicited by egg-adapted vaccine strains. Proc. Natl Acad. Sci. USA 114, 12578\u201312583 (2017).",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Contemporary H3N2 influenza viruses have a glycosylation site that alters binding of antibodies elicited by egg-adapted vaccine strains"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1073/pnas.1712377114",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR5",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85034580209",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "114"},
+                                "pagerange": {
+                                    "@first": "12578",
+                                    "@last": "12583"
+                                }
+                            },
+                            "ref-text": "COI: 1:CAS:528:DC%2BC2sXhslKru7rM",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "S.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zost",
+                                    "ce:indexed-name": "Zost S.J."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proc. Natl Acad. Sci. USA"
+                        },
+                        "ce:source-text": "Zost, S. J. et al. Contemporary H3N2 influenza viruses have a glycosylation site that alters binding of antibodies elicited by egg-adapted vaccine strains. Proc. Natl Acad. Sci. USA 114, 12578\u201312583 (2017)."
+                    },
+                    {
+                        "ref-fulltext": "Gavigan, P. & McCullers, J. A. Influenza: annual seasonal severity. Curr. Opin. Pediatr. 31, 112\u2013118 (2019).",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Influenza: annual seasonal severity"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1097/MOP.0000000000000712",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR6",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85059498780",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "31"},
+                                "pagerange": {
+                                    "@first": "112",
+                                    "@last": "118"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gavigan",
+                                    "ce:indexed-name": "Gavigan P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McCullers",
+                                    "ce:indexed-name": "McCullers J.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Curr. Opin. Pediatr."
+                        },
+                        "ce:source-text": "Gavigan, P. & McCullers, J. A. Influenza: annual seasonal severity. Curr. Opin. Pediatr. 31, 112\u2013118 (2019)."
+                    },
+                    {
+                        "ref-fulltext": "Turbelin, C. et al. Age distribution of influenza like illness cases during post-pandemic A(H3N2): comparison with the twelve previous seasons, in France. PLoS ONE 8, e65919 (2013).",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Age distribution of influenza like illness cases during post-pandemic A(H3N2): comparison with the twelve previous seasons, in France"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1371/journal.pone.0065919",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR7",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "e65919",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "84878755332",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "8"}},
+                            "ref-text": "COI: 1:CAS:528:DC%2BC3sXpvFWltr0%3D",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Turbelin",
+                                    "ce:indexed-name": "Turbelin C."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "PLoS ONE"
+                        },
+                        "ce:source-text": "Turbelin, C. et al. Age distribution of influenza like illness cases during post-pandemic A(H3N2): comparison with the twelve previous seasons, in France. PLoS ONE 8, e65919 (2013)."
+                    },
+                    {
+                        "ref-fulltext": "Rambaut, A. et al. The genomic and epidemiological dynamics of human influenza A virus. Nature 453, 615\u2013619 (2008).",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "The genomic and epidemiological dynamics of human influenza A virus"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1038/nature06945",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR8",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "44449164435",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "453"},
+                                "pagerange": {
+                                    "@first": "615",
+                                    "@last": "619"
+                                }
+                            },
+                            "ref-text": "COI: 1:CAS:528:DC%2BD1cXmsVKqtbo%3D",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rambaut",
+                                    "ce:indexed-name": "Rambaut A."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Nature"
+                        },
+                        "ce:source-text": "Rambaut, A. et al. The genomic and epidemiological dynamics of human influenza A virus. Nature 453, 615\u2013619 (2008)."
+                    },
+                    {
+                        "ref-fulltext": "Khiabanian, H., Farrell, G. M., St George, K. & Rabadan, R. Differences in patient age distribution between influenza A subtypes. PLoS ONE 4, e6832 (2009).",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Differences in patient age distribution between influenza A subtypes"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1371/journal.pone.0006832",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR9",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "e6832",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "69949120069",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "4"}},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Khiabanian",
+                                    "ce:indexed-name": "Khiabanian H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Farrell",
+                                    "ce:indexed-name": "Farrell G.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "St George",
+                                    "ce:indexed-name": "St George K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rabadan",
+                                    "ce:indexed-name": "Rabadan R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "PLoS ONE"
+                        },
+                        "ce:source-text": "Khiabanian, H., Farrell, G. M., St George, K. & Rabadan, R. Differences in patient age distribution between influenza A subtypes. PLoS ONE 4, e6832 (2009)."
+                    },
+                    {
+                        "ref-fulltext": "Olson, D. R. et al. Monitoring the impact of influenza by age: emergency department fever and respiratory complaint surveillance in New York City. PLoS Med. 4, e247 (2007).",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Monitoring the impact of influenza by age: emergency department fever and respiratory complaint surveillance in New York City"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1371/journal.pmed.0040247",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR10",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "e247",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "34548397297",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "4"}},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "D.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Olson",
+                                    "ce:indexed-name": "Olson D.R."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "PLoS Med."
+                        },
+                        "ce:source-text": "Olson, D. R. et al. Monitoring the impact of influenza by age: emergency department fever and respiratory complaint surveillance in New York City. PLoS Med. 4, e247 (2007)."
+                    },
+                    {
+                        "ref-fulltext": "Wu, N. C. & Wilson, I. A. Structural insights into the design of novel anti-influenza therapies. Nat. Struct. Mol. Biol. 25, 115\u2013121 (2012).",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Structural insights into the design of novel anti-influenza therapies"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1038/s41594-018-0025-9",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR11",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85042790793",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "25"},
+                                "pagerange": {
+                                    "@first": "115",
+                                    "@last": "121"
+                                }
+                            },
+                            "ref-text": "COI: 1:CAS:528:DC%2BC38XlsFSgtLs%3D",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu N.C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "I.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wilson",
+                                    "ce:indexed-name": "Wilson I.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Nat. Struct. Mol. Biol."
+                        },
+                        "ce:source-text": "Wu, N. C. & Wilson, I. A. Structural insights into the design of novel anti-influenza therapies. Nat. Struct. Mol. Biol. 25, 115\u2013121 (2012)."
+                    },
+                    {
+                        "ref-fulltext": "Wrammert, J. et al. Rapid cloning of high-affinity human monoclonal antibodies against influenza virus. Nature 453, 667\u2013671 (2008).",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Rapid cloning of high-affinity human monoclonal antibodies against influenza virus"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1038/nature06890",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR12",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "44449118948",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "453"},
+                                "pagerange": {
+                                    "@first": "667",
+                                    "@last": "671"
+                                }
+                            },
+                            "ref-text": "COI: 1:CAS:528:DC%2BD1cXmsVKqtLc%3D",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wrammert",
+                                    "ce:indexed-name": "Wrammert J."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Nature"
+                        },
+                        "ce:source-text": "Wrammert, J. et al. Rapid cloning of high-affinity human monoclonal antibodies against influenza virus. Nature 453, 667\u2013671 (2008)."
+                    },
+                    {
+                        "ref-fulltext": "Krammer, F. The human antibody response to influenza A virus infection and vaccination. Nat. Rev. Immunol. 19, 383\u2013397 (2019).",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "The human antibody response to influenza A virus infection and vaccination"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1038/s41577-019-0143-6",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR13",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85062590703",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "19",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "383",
+                                    "@last": "397"
+                                }
+                            },
+                            "ref-text": "COI: 1:CAS:528:DC%2BC1MXmsFCiurw%3D",
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "Florian",
+                                "@seq": "1",
+                                "ce:initials": "F.",
+                                "@_fa": "true",
+                                "ce:surname": "Krammer",
+                                "ce:indexed-name": "Krammer F."
+                            }]},
+                            "ref-sourcetitle": "Nature Reviews Immunology"
+                        },
+                        "ce:source-text": "Krammer, F. The human antibody response to influenza A virus infection and vaccination. Nat. Rev. Immunol. 19, 383\u2013397 (2019)."
+                    },
+                    {
+                        "ref-fulltext": "Gerhard, W., Yewdell, J., Frankel, M. E. & Webster, R. Antigenic structure of influenza virus haemagglutinin defined by hybridoma antibodies. Nature 290, 713\u2013717 (1981).",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1981"},
+                            "ref-title": {"ref-titletext": "Antigenic structure of influenza virus haemagglutinin defined by hybridoma antibodies"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1038/290713a0",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR14",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0019827545",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "290"},
+                                "pagerange": {
+                                    "@first": "713",
+                                    "@last": "717"
+                                }
+                            },
+                            "ref-text": "COI: 1:CAS:528:DyaL3MXksF2ksro%3D",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gerhard",
+                                    "ce:indexed-name": "Gerhard W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yewdell",
+                                    "ce:indexed-name": "Yewdell J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Frankel",
+                                    "ce:indexed-name": "Frankel M.E."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Webster",
+                                    "ce:indexed-name": "Webster R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Nature"
+                        },
+                        "ce:source-text": "Gerhard, W., Yewdell, J., Frankel, M. E. & Webster, R. Antigenic structure of influenza virus haemagglutinin defined by hybridoma antibodies. Nature 290, 713\u2013717 (1981)."
+                    },
+                    {
+                        "ref-fulltext": "Wilson, I. A., Skehel, J. J. & Wiley, D. C. Structure of the haemagglutinin membrane glycoprotein of influenza virus at 3 A resolution. Nature 289, 366\u2013373 (1981).",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1981"},
+                            "ref-title": {"ref-titletext": "Structure of the haemagglutinin membrane glycoprotein of influenza virus at 3 A resolution"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1038/289366a0",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR15",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0019890491",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "289"},
+                                "pagerange": {
+                                    "@first": "366",
+                                    "@last": "373"
+                                }
+                            },
+                            "ref-text": "COI: 1:CAS:528:DyaL3MXhvFSjtb8%3D",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "I.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wilson",
+                                    "ce:indexed-name": "Wilson I.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Skehel",
+                                    "ce:indexed-name": "Skehel J.J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wiley",
+                                    "ce:indexed-name": "Wiley D.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Nature"
+                        },
+                        "ce:source-text": "Wilson, I. A., Skehel, J. J. & Wiley, D. C. Structure of the haemagglutinin membrane glycoprotein of influenza virus at 3 A resolution. Nature 289, 366\u2013373 (1981)."
+                    },
+                    {
+                        "ref-fulltext": "Wiley, D. C., Wilson, I. A. & Skehel, J. J. Structural identification of the antibody-binding sites of Hong Kong influenza haemagglutinin and their involvement in antigenic variation. Nature 289, 373\u2013378 (1981).",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1981"},
+                            "ref-title": {"ref-titletext": "Structural identification of the antibody-binding sites of Hong Kong influenza haemagglutinin and their involvement in antigenic variation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1038/289373a0",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR16",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0019432165",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "289"},
+                                "pagerange": {
+                                    "@first": "373",
+                                    "@last": "378"
+                                }
+                            },
+                            "ref-text": "COI: 1:CAS:528:DyaL3MXhvFSjtbw%3D",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wiley",
+                                    "ce:indexed-name": "Wiley D.C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "I.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wilson",
+                                    "ce:indexed-name": "Wilson I.A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Skehel",
+                                    "ce:indexed-name": "Skehel J.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Nature"
+                        },
+                        "ce:source-text": "Wiley, D. C., Wilson, I. A. & Skehel, J. J. Structural identification of the antibody-binding sites of Hong Kong influenza haemagglutinin and their involvement in antigenic variation. Nature 289, 373\u2013378 (1981)."
+                    },
+                    {
+                        "ref-fulltext": "Chen, C. J. et al. Influenza A viruses expressing intra- or intergroup chimeric hemagglutinins. J. Virol. 90, 3789\u20133793 (2016).",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Influenza A viruses expressing intra- or intergroup chimeric hemagglutinins"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1128/JVI.03060-15",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR17",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84959382536",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "90"},
+                                "pagerange": {
+                                    "@first": "3789",
+                                    "@last": "3793"
+                                }
+                            },
+                            "ref-text": "COI: 1:CAS:528:DC%2BC28Xht12htbfP",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "C.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen C.J."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "J. Virol."
+                        },
+                        "ce:source-text": "Chen, C. J. et al. Influenza A viruses expressing intra- or intergroup chimeric hemagglutinins. J. Virol. 90, 3789\u20133793 (2016)."
+                    },
+                    {
+                        "ref-fulltext": "Krammer, F., Pica, N., Hai, R., Margine, I. & Palese, P. Chimeric hemagglutinin influenza virus vaccine constructs elicit broadly protective stalk-specific antibodies. J. Virol. 87, 6542\u20136550 (2013).",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Chimeric hemagglutinin influenza virus vaccine constructs elicit broadly protective stalk-specific antibodies"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1128/JVI.00641-13",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR18",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84878611784",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "87"},
+                                "pagerange": {
+                                    "@first": "6542",
+                                    "@last": "6550"
+                                }
+                            },
+                            "ref-text": "COI: 1:CAS:528:DC%2BC3sXptlKksbw%3D",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krammer",
+                                    "ce:indexed-name": "Krammer F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pica",
+                                    "ce:indexed-name": "Pica N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hai",
+                                    "ce:indexed-name": "Hai R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Margine",
+                                    "ce:indexed-name": "Margine I."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Palese",
+                                    "ce:indexed-name": "Palese P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Virol."
+                        },
+                        "ce:source-text": "Krammer, F., Pica, N., Hai, R., Margine, I. & Palese, P. Chimeric hemagglutinin influenza virus vaccine constructs elicit broadly protective stalk-specific antibodies. J. Virol. 87, 6542\u20136550 (2013)."
+                    },
+                    {
+                        "ref-fulltext": "Margine, I. et al. Hemagglutinin stalk-based universal vaccine constructs protect against group 2 influenza A viruses. J. Virol. 87, 10435\u201310446 (2013).",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Hemagglutinin stalk-based universal vaccine constructs protect against group 2 influenza A viruses"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1128/JVI.01715-13",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR19",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84885950726",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "87"},
+                                "pagerange": {
+                                    "@first": "10435",
+                                    "@last": "10446"
+                                }
+                            },
+                            "ref-text": "COI: 1:CAS:528:DC%2BC3sXhsVygtLzK",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Margine",
+                                    "ce:indexed-name": "Margine I."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "J. Virol."
+                        },
+                        "ce:source-text": "Margine, I. et al. Hemagglutinin stalk-based universal vaccine constructs protect against group 2 influenza A viruses. J. Virol. 87, 10435\u201310446 (2013)."
+                    },
+                    {
+                        "ref-fulltext": "Nachbagauer, R. et al. Hemagglutinin stalk immunity reduces influenza virus replication and transmission in ferrets. J. Virol. 90, 3268\u20133273 (2015).",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Hemagglutinin stalk immunity reduces influenza virus replication and transmission in ferrets"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1128/JVI.02481-15",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR20",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84961114525",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "90"},
+                                "pagerange": {
+                                    "@first": "3268",
+                                    "@last": "3273"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nachbagauer",
+                                    "ce:indexed-name": "Nachbagauer R."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "J. Virol."
+                        },
+                        "ce:source-text": "Nachbagauer, R. et al. Hemagglutinin stalk immunity reduces influenza virus replication and transmission in ferrets. J. Virol. 90, 3268\u20133273 (2015)."
+                    },
+                    {
+                        "ref-fulltext": "Krammer, F. et al. Assessment of influenza virus hemagglutinin stalk-based immunity in ferrets. J. Virol. 88, 3432\u20133442 (2014).",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Assessment of influenza virus hemagglutinin stalk-based immunity in ferrets"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1128/JVI.03004-13",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR21",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84896720073",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "88"},
+                                "pagerange": {
+                                    "@first": "3432",
+                                    "@last": "3442"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krammer",
+                                    "ce:indexed-name": "Krammer F."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "J. Virol."
+                        },
+                        "ce:source-text": "Krammer, F. et al. Assessment of influenza virus hemagglutinin stalk-based immunity in ferrets. J. Virol. 88, 3432\u20133442 (2014)."
+                    },
+                    {
+                        "ref-fulltext": "Nachbagauer, R. et al. A universal influenza virus vaccine candidate confers protection against pandemic H1N1 infection in preclinical ferret studies. NPJ Vaccines 2, 26 (2017).",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "A universal influenza virus vaccine candidate confers protection against pandemic H1N1 infection in preclinical ferret studies"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1038/s41541-017-0026-4",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR22",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "26",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "85041487503",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "2"}},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nachbagauer",
+                                    "ce:indexed-name": "Nachbagauer R."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "NPJ Vaccines"
+                        },
+                        "ce:source-text": "Nachbagauer, R. et al. A universal influenza virus vaccine candidate confers protection against pandemic H1N1 infection in preclinical ferret studies. NPJ Vaccines 2, 26 (2017)."
+                    },
+                    {
+                        "ref-fulltext": "Ermler, M. E. et al. Chimeric hemagglutinin constructs induce broad protection against influenza B virus challenge in the mouse model. J. Virol. 91, e00286\u201317 (2017).",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Chimeric hemagglutinin constructs induce broad protection against influenza B virus challenge in the mouse model"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1128/JVI.00286-17",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR23",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85019667062",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "91"},
+                                "pagerange": {
+                                    "@first": "e00286",
+                                    "@last": "e217"
+                                }
+                            },
+                            "ref-text": "COI: 1:CAS:528:DC%2BC2sXht1emu7bN",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "M.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ermler",
+                                    "ce:indexed-name": "Ermler M.E."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "J. Virol."
+                        },
+                        "ce:source-text": "Ermler, M. E. et al. Chimeric hemagglutinin constructs induce broad protection against influenza B virus challenge in the mouse model. J. Virol. 91, e00286\u201317 (2017)."
+                    },
+                    {
+                        "ref-fulltext": "Sun, W. et al. Development of influenza B universal vaccine candidates using the \u201cMosaic\u201d hemagglutinin approach. J. Virol. 10.1128/JVI.00333-19 (2019).",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Development of influenza B universal vaccine candidates using the \u201cMosaic\u201d hemagglutinin approach"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1128/JVI.00333-19",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR24",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85066506967",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun W."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "J. Virol."
+                        },
+                        "ce:source-text": "Sun, W. et al. Development of influenza B universal vaccine candidates using the \u201cMosaic\u201d hemagglutinin approach. J. Virol. 10.1128/JVI.00333-19 (2019)."
+                    },
+                    {
+                        "ref-fulltext": "Wu, X. et al. Rational design of envelope identifies broadly neutralizing human monoclonal antibodies to HIV-1. Science 329, 856\u2013861 (2010).",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Rational design of envelope identifies broadly neutralizing human monoclonal antibodies to HIV-1"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1126/science.1187659",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR25",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "77954920017",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "329"},
+                                "pagerange": {
+                                    "@first": "856",
+                                    "@last": "861"
+                                }
+                            },
+                            "ref-text": "COI: 1:CAS:528:DC%2BC3cXpvV2hsr0%3D",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu X."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Science"
+                        },
+                        "ce:source-text": "Wu, X. et al. Rational design of envelope identifies broadly neutralizing human monoclonal antibodies to HIV-1. Science 329, 856\u2013861 (2010)."
+                    },
+                    {
+                        "ref-fulltext": "Broecker, F. et al. Immunodominance of antigenic site B in the hemagglutinin of the current H3N2 influenza virus in humans and mice. J. Virol. 92, e01100\u2013e01118 (2018).",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Immunodominance of antigenic site B in the hemagglutinin of the current H3N2 influenza virus in humans and mice"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1128/JVI.01100-18",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR26",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85054764341",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "92"},
+                                "pagerange": {
+                                    "@first": "e01100",
+                                    "@last": "e01118"
+                                }
+                            },
+                            "ref-text": "COI: 1:CAS:528:DC%2BC1cXitlWrsb3L",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Broecker",
+                                    "ce:indexed-name": "Broecker F."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "J. Virol."
+                        },
+                        "ce:source-text": "Broecker, F. et al. Immunodominance of antigenic site B in the hemagglutinin of the current H3N2 influenza virus in humans and mice. J. Virol. 92, e01100\u2013e01118 (2018)."
+                    },
+                    {
+                        "ref-fulltext": "Tan, G. S. et al. Characterization of a broadly neutralizing monoclonal antibody that targets the fusion domain of group 2 influenza A virus hemagglutinin. J. Virol. 88, 13580\u201313592 (2014).",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Characterization of a broadly neutralizing monoclonal antibody that targets the fusion domain of group 2 influenza A virus hemagglutinin"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1128/JVI.02289-14",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR27",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84911434712",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "88"},
+                                "pagerange": {
+                                    "@first": "13580",
+                                    "@last": "13592"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "G.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tan",
+                                    "ce:indexed-name": "Tan G.S."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "J. Virol."
+                        },
+                        "ce:source-text": "Tan, G. S. et al. Characterization of a broadly neutralizing monoclonal antibody that targets the fusion domain of group 2 influenza A virus hemagglutinin. J. Virol. 88, 13580\u201313592 (2014)."
+                    },
+                    {
+                        "ref-fulltext": "Dreyfus, C. et al. Highly conserved protective epitopes on influenza B viruses. Science 337, 1343\u20131348 (2012).",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Highly conserved protective epitopes on influenza B viruses"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1126/science.1222908",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR28",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84866122029",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "337"},
+                                "pagerange": {
+                                    "@first": "1343",
+                                    "@last": "1348"
+                                }
+                            },
+                            "ref-text": "COI: 1:CAS:528:DC%2BC38XhtlaitL%2FK",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dreyfus",
+                                    "ce:indexed-name": "Dreyfus C."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Science"
+                        },
+                        "ce:source-text": "Dreyfus, C. et al. Highly conserved protective epitopes on influenza B viruses. Science 337, 1343\u20131348 (2012)."
+                    },
+                    {
+                        "ref-fulltext": "Chromikova, V., Zaragoza, M. A. & Krammer, F. Generation of a serum free CHO DG44 cell line stably producing a broadly protective anti-influenza virus monoclonal antibody. PLoS ONE 12, e0183315 (2017).",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Generation of a serum free CHO DG44 cell line stably producing a broadly protective anti-influenza virus monoclonal antibody"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1371/journal.pone.0183315",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR29",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "e0183315",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "85029419644",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "12"}},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chromikova",
+                                    "ce:indexed-name": "Chromikova V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zaragoza",
+                                    "ce:indexed-name": "Zaragoza M.A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krammer",
+                                    "ce:indexed-name": "Krammer F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "PLoS ONE"
+                        },
+                        "ce:source-text": "Chromikova, V., Zaragoza, M. A. & Krammer, F. Generation of a serum free CHO DG44 cell line stably producing a broadly protective anti-influenza virus monoclonal antibody. PLoS ONE 12, e0183315 (2017)."
+                    },
+                    {
+                        "ref-fulltext": "Cox, R. J. Correlates of protection to influenza virus, where do we go from here? Hum. Vaccines Immunother. 9, 405\u2013408 (2013).",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Correlates of protection to influenza virus, where do we go from here?"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.4161/hv.22908",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR30",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84874674301",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "9"},
+                                "pagerange": {
+                                    "@first": "405",
+                                    "@last": "408"
+                                }
+                            },
+                            "ref-text": "COI: 1:CAS:528:DC%2BC3sXhvVyit7rN",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.J.",
+                                "@_fa": "true",
+                                "ce:surname": "Cox",
+                                "ce:indexed-name": "Cox R.J."
+                            }]},
+                            "ref-sourcetitle": "Hum. Vaccines Immunother."
+                        },
+                        "ce:source-text": "Cox, R. J. Correlates of protection to influenza virus, where do we go from here? Hum. Vaccines Immunother. 9, 405\u2013408 (2013)."
+                    },
+                    {
+                        "ref-fulltext": "Jacobsen, H. et al. Influenza virus hemagglutinin stalk-specific antibodies in human serum are a surrogate marker for in vivo protection in a serum transfer mouse challenge model. mBio 8, e01463\u201317 (2017).",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Influenza virus hemagglutinin stalk-specific antibodies in human serum are a surrogate marker for in vivo protection in a serum transfer mouse challenge model"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1128/mBio.01463-17",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR31",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85033697284",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "8"},
+                                "pagerange": {
+                                    "@first": "e01463",
+                                    "@last": "e1417"
+                                }
+                            },
+                            "ref-text": "COI: 1:CAS:528:DC%2BC1cXitFCit7rN",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jacobsen",
+                                    "ce:indexed-name": "Jacobsen H."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "mBio"
+                        },
+                        "ce:source-text": "Jacobsen, H. et al. Influenza virus hemagglutinin stalk-specific antibodies in human serum are a surrogate marker for in vivo protection in a serum transfer mouse challenge model. mBio 8, e01463\u201317 (2017)."
+                    },
+                    {
+                        "ref-fulltext": "Mullarkey, C. E. et al. Broadly neutralizing hemagglutinin stalk-specific antibodies induce potent phagocytosis of immune complexes by neutrophils in an Fc-dependent manner. mBio 7, e01624\u201316 (2016).",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Broadly neutralizing hemagglutinin stalk-specific antibodies induce potent phagocytosis of immune complexes by neutrophils in an Fc-dependent manner"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1128/mBio.01624-16",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR32",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84994423081",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "7"},
+                                "pagerange": {
+                                    "@first": "e01624",
+                                    "@last": "e1616"
+                                }
+                            },
+                            "ref-text": "COI: 1:CAS:528:DC%2BC1cXmsleh",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "C.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mullarkey",
+                                    "ce:indexed-name": "Mullarkey C.E."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "mBio"
+                        },
+                        "ce:source-text": "Mullarkey, C. E. et al. Broadly neutralizing hemagglutinin stalk-specific antibodies induce potent phagocytosis of immune complexes by neutrophils in an Fc-dependent manner. mBio 7, e01624\u201316 (2016)."
+                    },
+                    {
+                        "ref-fulltext": "Leon, P. E. et al. Optimal activation of Fc-mediated effector functions by influenza virus hemagglutinin antibodies requires two points of contact. Proc. Natl Acad. Sci. USA 113, E5944\u2013E5951 (2016).",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Optimal activation of Fc-mediated effector functions by influenza virus hemagglutinin antibodies requires two points of contact"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1073/pnas.1613225113",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR33",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84989895227",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "113"},
+                                "pagerange": {
+                                    "@first": "E5944",
+                                    "@last": "E5951"
+                                }
+                            },
+                            "ref-text": "COI: 1:CAS:528:DC%2BC28XhsFarsLnL",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "P.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Leon",
+                                    "ce:indexed-name": "Leon P.E."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proc. Natl Acad. Sci. USA"
+                        },
+                        "ce:source-text": "Leon, P. E. et al. Optimal activation of Fc-mediated effector functions by influenza virus hemagglutinin antibodies requires two points of contact. Proc. Natl Acad. Sci. USA 113, E5944\u2013E5951 (2016)."
+                    },
+                    {
+                        "ref-fulltext": "Bailey, M. J., Broecker, F., Leon, P. E. & Tan, G. S. A method to assess fc-mediated effector functions induced by influenza hemagglutinin specific antibodies. J. Vis. Exp. 132, e56256 (2018).",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "A method to assess fc-mediated effector functions induced by influenza hemagglutinin specific antibodies"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR34",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "e56256",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "85049254881",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "132"}},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bailey",
+                                    "ce:indexed-name": "Bailey M.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Broecker",
+                                    "ce:indexed-name": "Broecker F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Leon",
+                                    "ce:indexed-name": "Leon P.E."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tan",
+                                    "ce:indexed-name": "Tan G.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Vis. Exp."
+                        },
+                        "ce:source-text": "Bailey, M. J., Broecker, F., Leon, P. E. & Tan, G. S. A method to assess fc-mediated effector functions induced by influenza hemagglutinin specific antibodies. J. Vis. Exp. 132, e56256 (2018)."
+                    },
+                    {
+                        "ref-fulltext": "DiLillo, D. J., Tan, G. S., Palese, P. & Ravetch, J. V. Broadly neutralizing hemagglutinin stalk-specific antibodies require FcγR interactions for protection against influenza virus in vivo. Nat. Med. 20, 143\u2013151 (2014).",
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Broadly neutralizing hemagglutinin stalk-specific antibodies require FcγR interactions for protection against influenza virus in vivo"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1038/nm.3443",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR35",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84893797938",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "20"},
+                                "pagerange": {
+                                    "@first": "143",
+                                    "@last": "151"
+                                }
+                            },
+                            "ref-text": "COI: 1:CAS:528:DC%2BC2cXmtVWjsA%3D%3D",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "DiLillo",
+                                    "ce:indexed-name": "DiLillo D.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tan",
+                                    "ce:indexed-name": "Tan G.S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Palese",
+                                    "ce:indexed-name": "Palese P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ravetch",
+                                    "ce:indexed-name": "Ravetch J.V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Nat. Med."
+                        },
+                        "ce:source-text": "DiLillo, D. J., Tan, G. S., Palese, P. & Ravetch, J. V. Broadly neutralizing hemagglutinin stalk-specific antibodies require FcγR interactions for protection against influenza virus in vivo. Nat. Med. 20, 143\u2013151 (2014)."
+                    },
+                    {
+                        "ref-fulltext": "Groves, H. T. et al. Mouse models of influenza infection with circulating strains to test seasonal vaccine efficacy. Front. Immunol. 9, 126 (2018).",
+                        "@id": "36",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Mouse models of influenza infection with circulating strains to test seasonal vaccine efficacy"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.3389/fimmu.2018.00126",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR36",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85041584839",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "9"},
+                                "pagerange": {"@first": "126"}
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "H.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Groves",
+                                    "ce:indexed-name": "Groves H.T."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Front. Immunol."
+                        },
+                        "ce:source-text": "Groves, H. T. et al. Mouse models of influenza infection with circulating strains to test seasonal vaccine efficacy. Front. Immunol. 9, 126 (2018)."
+                    },
+                    {
+                        "ref-fulltext": "Domnich, A. et al. Effectiveness of MF59-adjuvanted seasonal influenza vaccine in the elderly: a systematic review and meta-analysis. Vaccine 35, 513\u2013520 (2017).",
+                        "@id": "37",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Effectiveness of MF59-adjuvanted seasonal influenza vaccine in the elderly: a systematic review and meta-analysis"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/j.vaccine.2016.12.011",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR37",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85009260860",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "35"},
+                                "pagerange": {
+                                    "@first": "513",
+                                    "@last": "520"
+                                }
+                            },
+                            "ref-text": "COI: 1:CAS:528:DC%2BC28XitFGitbfN",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Domnich",
+                                    "ce:indexed-name": "Domnich A."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Vaccine"
+                        },
+                        "ce:source-text": "Domnich, A. et al. Effectiveness of MF59-adjuvanted seasonal influenza vaccine in the elderly: a systematic review and meta-analysis. Vaccine 35, 513\u2013520 (2017)."
+                    },
+                    {
+                        "ref-fulltext": "Gao, R. et al. Human infection with a novel avian-origin influenza A (H7N9) virus. N. Engl. J. Med. 368, 1888\u20131897 (2013).",
+                        "@id": "38",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Human infection with a novel avian-origin influenza A (H7N9) virus"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1056/NEJMoa1304459",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR38",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84877785371",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "368"},
+                                "pagerange": {
+                                    "@first": "1888",
+                                    "@last": "1897"
+                                }
+                            },
+                            "ref-text": "COI: 1:CAS:528:DC%2BC3sXnsl2gsrc%3D",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gao",
+                                    "ce:indexed-name": "Gao R."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "N. Engl. J. Med."
+                        },
+                        "ce:source-text": "Gao, R. et al. Human infection with a novel avian-origin influenza A (H7N9) virus. N. Engl. J. Med. 368, 1888\u20131897 (2013)."
+                    },
+                    {
+                        "ref-fulltext": "Larkin, M. A. et al. Clustal W and Clustal X version 2.0. Bioinformatics 23, 2947\u20132948 (2007).",
+                        "@id": "39",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Clustal W and Clustal X version 2.0"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1093/bioinformatics/btm404",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR39",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "36448991500",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "23"},
+                                "pagerange": {
+                                    "@first": "2947",
+                                    "@last": "2948"
+                                }
+                            },
+                            "ref-text": "COI: 1:CAS:528:DC%2BD2sXhtlaqsL%2FM",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "M.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Larkin",
+                                    "ce:indexed-name": "Larkin M.A."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Bioinformatics"
+                        },
+                        "ce:source-text": "Larkin, M. A. et al. Clustal W and Clustal X version 2.0. Bioinformatics 23, 2947\u20132948 (2007)."
+                    },
+                    {
+                        "ref-fulltext": "Fulton, B. O., Sun, W., Heaton, N. S. & Palese, P. The influenza B virus hemagglutinin head domain is less tolerant to transposon mutagenesis than that of the influenza A virus. J. Virol. 92, e00754\u201318 (2018).",
+                        "@id": "40",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "The influenza B virus hemagglutinin head domain is less tolerant to transposon mutagenesis than that of the influenza A virus"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1128/JVI.00754-18",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR40",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85050813049",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "92"},
+                                "pagerange": {
+                                    "@first": "e00754",
+                                    "@last": "e718"
+                                }
+                            },
+                            "ref-text": "COI: 1:CAS:528:DC%2BC1cXitVaksLrK",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fulton",
+                                    "ce:indexed-name": "Fulton B.O."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Heaton",
+                                    "ce:indexed-name": "Heaton N.S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Palese",
+                                    "ce:indexed-name": "Palese P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Virol."
+                        },
+                        "ce:source-text": "Fulton, B. O., Sun, W., Heaton, N. S. & Palese, P. The influenza B virus hemagglutinin head domain is less tolerant to transposon mutagenesis than that of the influenza A virus. J. Virol. 92, e00754\u201318 (2018)."
+                    },
+                    {
+                        "ref-fulltext": "Hai, R. et al. Influenza viruses expressing chimeric hemagglutinins: globular head and stalk domains derived from different subtypes. J. Virol. 86, 5774\u20135781 (2012).",
+                        "@id": "41",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Influenza viruses expressing chimeric hemagglutinins: globular head and stalk domains derived from different subtypes"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1128/JVI.00137-12",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR41",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84861325359",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "86"},
+                                "pagerange": {
+                                    "@first": "5774",
+                                    "@last": "5781"
+                                }
+                            },
+                            "ref-text": "COI: 1:CAS:528:DC%2BC38XmslOit7k%3D",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hai",
+                                    "ce:indexed-name": "Hai R."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "J. Virol."
+                        },
+                        "ce:source-text": "Hai, R. et al. Influenza viruses expressing chimeric hemagglutinins: globular head and stalk domains derived from different subtypes. J. Virol. 86, 5774\u20135781 (2012)."
+                    },
+                    {
+                        "ref-fulltext": "He, W. et al. Alveolar macrophages are critical for broadly-reactive antibody-mediated protection against influenza A virus in mice. Nat. Commun. 8, 846 (2017).",
+                        "@id": "42",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Alveolar macrophages are critical for broadly-reactive antibody-mediated protection against influenza A virus in mice"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1038/s41467-017-00928-3",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR42",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "846",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "85031008840",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "8"}},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He W."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Nat. Commun."
+                        },
+                        "ce:source-text": "He, W. et al. Alveolar macrophages are critical for broadly-reactive antibody-mediated protection against influenza A virus in mice. Nat. Commun. 8, 846 (2017)."
+                    },
+                    {
+                        "ref-fulltext": "Krammer, F. A carboxy-terminal trimerization domain stabilizes conformational epitopes on the stalk domain of soluble recombinant hemagglutinin substrates. PLoS ONE 7, e43603 (2012).",
+                        "@id": "43",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "A carboxy-terminal trimerization domain stabilizes conformational epitopes on the stalk domain of soluble recombinant hemagglutinin substrates"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1371/journal.pone.0043603",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR43",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "e43603",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "84865289490",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "7"}},
+                            "ref-text": "COI: 1:CAS:528:DC%2BC38Xht1KhtrrN",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "F.",
+                                "@_fa": "true",
+                                "ce:surname": "Krammer",
+                                "ce:indexed-name": "Krammer F."
+                            }]},
+                            "ref-sourcetitle": "PLoS ONE"
+                        },
+                        "ce:source-text": "Krammer, F. A carboxy-terminal trimerization domain stabilizes conformational epitopes on the stalk domain of soluble recombinant hemagglutinin substrates. PLoS ONE 7, e43603 (2012)."
+                    },
+                    {
+                        "ref-fulltext": "Amanat, F., Meade, P., Strohmeier, S. & Krammer, F. Cross-reactive antibodies binding to H4 hemagglutinin protect against lethal H4N6 influenza virus challenge in the mouse model. Emerg. Microbes Infect. 8, 155\u2013168 (2019).",
+                        "@id": "44",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Cross-reactive antibodies binding to H4 hemagglutinin protect against lethal H4N6 influenza virus challenge in the mouse model"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1080/22221751.2018.1564369",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR44",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85062823244",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "8"},
+                                "pagerange": {
+                                    "@first": "155",
+                                    "@last": "168"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Amanat",
+                                    "ce:indexed-name": "Amanat F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Meade",
+                                    "ce:indexed-name": "Meade P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Strohmeier",
+                                    "ce:indexed-name": "Strohmeier S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krammer",
+                                    "ce:indexed-name": "Krammer F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Emerg. Microbes Infect."
+                        },
+                        "ce:source-text": "Amanat, F., Meade, P., Strohmeier, S. & Krammer, F. Cross-reactive antibodies binding to H4 hemagglutinin protect against lethal H4N6 influenza virus challenge in the mouse model. Emerg. Microbes Infect. 8, 155\u2013168 (2019)."
+                    },
+                    {
+                        "ref-fulltext": "Stadlbauer, D., Amanat, F., Strohmeier, S., Nachbagauer, R. & Krammer, F. Cross-reactive mouse monoclonal antibodies raised against the hemagglutinin of A/Shanghai/1/2013 (H7N9) protect against novel H7 virus isolates in the mouse model. Emerg. Microbes Infect. 7, 110 (2018).",
+                        "@id": "45",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Cross-reactive mouse monoclonal antibodies raised against the hemagglutinin of A/Shanghai/1/2013 (H7N9) protect against novel H7 virus isolates in the mouse model"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1038/s41426-018-0115-0",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR45",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "110",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "85048882247",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "7"}},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stadlbauer",
+                                    "ce:indexed-name": "Stadlbauer D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Amanat",
+                                    "ce:indexed-name": "Amanat F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Strohmeier",
+                                    "ce:indexed-name": "Strohmeier S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nachbagauer",
+                                    "ce:indexed-name": "Nachbagauer R."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krammer",
+                                    "ce:indexed-name": "Krammer F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Emerg. Microbes Infect."
+                        },
+                        "ce:source-text": "Stadlbauer, D., Amanat, F., Strohmeier, S., Nachbagauer, R. & Krammer, F. Cross-reactive mouse monoclonal antibodies raised against the hemagglutinin of A/Shanghai/1/2013 (H7N9) protect against novel H7 virus isolates in the mouse model. Emerg. Microbes Infect. 7, 110 (2018)."
+                    },
+                    {
+                        "ref-fulltext": "Benne, C. A. et al. Comparison of neutralizing and hemagglutination-inhibiting antibody responses to influenza A virus vaccination of human immunodeficiency virus-infected individuals. Clin. Diagn. Lab. Immunol. 5, 114\u2013117 (1998).",
+                        "@id": "46",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Comparison of neutralizing and hemagglutination-inhibiting antibody responses to influenza A virus vaccination of human immunodeficiency virus-infected individuals"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR46",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0031907848",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "5"},
+                                "pagerange": {
+                                    "@first": "114",
+                                    "@last": "117"
+                                }
+                            },
+                            "ref-text": "COI: 1:STN:280:DyaK1c7hsFChtA%3D%3D, PID: 9455891",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "C.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Benne",
+                                    "ce:indexed-name": "Benne C.A."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Clin. Diagn. Lab. Immunol."
+                        },
+                        "ce:source-text": "Benne, C. A. et al. Comparison of neutralizing and hemagglutination-inhibiting antibody responses to influenza A virus vaccination of human immunodeficiency virus-infected individuals. Clin. Diagn. Lab. Immunol. 5, 114\u2013117 (1998)."
+                    },
+                    {
+                        "ref-fulltext": "Lee, P. S. et al. Receptor mimicry by antibody F045-092 facilitates universal binding to the H3 subtype of influenza virus. Nat. Commun. 5, 3614 (2014).",
+                        "@id": "47",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Receptor mimicry by antibody F045-092 facilitates universal binding to the H3 subtype of influenza virus"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1038/ncomms4614",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR47",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "3614",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "84911404794",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "5"}},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "P.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee P.S."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Nat. Commun."
+                        },
+                        "ce:source-text": "Lee, P. S. et al. Receptor mimicry by antibody F045-092 facilitates universal binding to the H3 subtype of influenza virus. Nat. Commun. 5, 3614 (2014)."
+                    },
+                    {
+                        "ref-fulltext": "Pettersen, E. F. et al. UCSF Chimera\u2014a visualization system for exploratory research and analysis. J. Comput. Chem. 25, 1605\u20131612 (2004).",
+                        "@id": "48",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "UCSF Chimera\u2014a visualization system for exploratory research and analysis"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1002/jcc.20084",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR48",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "4444221565",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "25"},
+                                "pagerange": {
+                                    "@first": "1605",
+                                    "@last": "1612"
+                                }
+                            },
+                            "ref-text": "COI: 1:CAS:528:DC%2BD2cXmvVOhsbs%3D",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "E.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pettersen",
+                                    "ce:indexed-name": "Pettersen E.F."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "J. Comput. Chem."
+                        },
+                        "ce:source-text": "Pettersen, E. F. et al. UCSF Chimera\u2014a visualization system for exploratory research and analysis. J. Comput. Chem. 25, 1605\u20131612 (2004)."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "New York",
+            "@id": "60012981",
+            "affilname": "Icahn School of Medicine at Mount Sinai",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012981",
+            "affiliation-country": "United States"
+        },
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "prism:issueIdentifier": "1",
+        "eid": "2-s2.0-85069474959",
+        "dc:description": "Current seasonal influenza virus vaccines only provide limited, short-lived protection, and antigenic drift in the hemagglutinin surface glycoprotein necessitates their annual re-formulation and re-administration. To overcome these limitations, universal vaccine strategies that aim at eliciting broadly protective antibodies to conserved epitopes of the hemagglutinin show promise for protecting against diverse and drifted influenza viruses. Here a vaccination strategy that focuses antibody responses to conserved epitopes of the H3 hemagglutinin is described. The approach is based on antigenic silencing of the immunodominant major antigenic sites of an H3 protein from 2014 by replacing them with corresponding sequences of exotic avian hemagglutinins, yielding \u201cmosaic\u201d hemagglutinins. In mice, vaccination with inactivated viruses expressing mosaic hemagglutinins induced highly cross-reactive antibodies against the H3 stalk domain that elicited Fc-mediated effector functions in vitro. In addition, the mosaic viruses elicited head-specific antibodies with neutralizing and hemagglutination-inhibiting activity against recent H3N2 viruses in vitro. Immune sera protected mice from heterologous challenge with viruses carrying H3 proteins from 1968 and 1982, whereas immune sera generated with a seasonal vaccine did not protect. Consequently, the mosaic vaccination approach provides a promising avenue toward a universal influenza virus vaccine.",
+        "prism:coverDate": "2019-12-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85069474959",
+        "subtypeDescription": "Article",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Felix",
+            "preferred-name": {
+                "ce:given-name": "Felix",
+                "ce:initials": "F.",
+                "ce:surname": "Broecker",
+                "ce:indexed-name": "Broecker F."
+            },
+            "@seq": "1",
+            "ce:initials": "F.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60012981",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012981"
+            },
+            "ce:surname": "Broecker",
+            "@auid": "55454424500",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55454424500",
+            "ce:indexed-name": "Broecker F."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85069474959"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85069474959&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85069474959&origin=inward"
+            }
+        ],
+        "prism:publicationName": "npj Vaccines",
+        "source-id": "21100850730",
+        "citedby-count": "27",
+        "prism:volume": "4",
+        "subtype": "ar",
+        "dc:title": "A mosaic hemagglutinin-based influenza virus vaccine candidate protects mice from challenge with divergent H3N2 strains",
+        "openaccess": "1",
+        "openaccessFlag": "true",
+        "prism:doi": "10.1038/s41541-019-0126-4",
+        "prism:issn": "20590105",
+        "publishercopyright": "© 2019, The Author(s).",
+        "article-number": "31",
+        "dc:identifier": "SCOPUS_ID:85069474959",
+        "dc:publisher": "Nature Publishing GroupHoundmillsBasingstoke, HampshireRG21 6XS"
+    },
+    "idxterms": null,
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": null,
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Immunology",
+            "@code": "2403",
+            "@abbrev": "IMMU"
+        },
+        {
+            "@_fa": "true",
+            "$": "Pharmacology",
+            "@code": "3004",
+            "@abbrev": "PHAR"
+        },
+        {
+            "@_fa": "true",
+            "$": "Infectious Diseases",
+            "@code": "2725",
+            "@abbrev": "MEDI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Pharmacology (medical)",
+            "@code": "2736",
+            "@abbrev": "MEDI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Felix",
+            "preferred-name": {
+                "ce:given-name": "Felix",
+                "ce:initials": "F.",
+                "ce:surname": "Broecker",
+                "ce:indexed-name": "Broecker F."
+            },
+            "@seq": "1",
+            "ce:initials": "F.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60012981",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012981"
+            },
+            "ce:surname": "Broecker",
+            "@auid": "55454424500",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55454424500",
+            "ce:indexed-name": "Broecker F."
+        },
+        {
+            "ce:given-name": "Sean T. H.",
+            "preferred-name": {
+                "ce:given-name": "Sean T.H.",
+                "ce:initials": "S.T.H.",
+                "ce:surname": "Liu",
+                "ce:indexed-name": "Liu S."
+            },
+            "@seq": "2",
+            "ce:initials": "S.T.H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60012981",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012981"
+            },
+            "ce:surname": "Liu",
+            "@auid": "57204156366",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57204156366",
+            "ce:indexed-name": "Liu S.T.H."
+        },
+        {
+            "ce:given-name": "Nungruthai",
+            "preferred-name": {
+                "ce:given-name": "Nungruthai",
+                "ce:initials": "N.",
+                "ce:surname": "Suntronwong",
+                "ce:indexed-name": "Suntronwong N."
+            },
+            "@seq": "3",
+            "ce:initials": "N.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Suntronwong",
+            "@auid": "57189067135",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57189067135",
+            "ce:indexed-name": "Suntronwong N."
+        },
+        {
+            "ce:given-name": "Weina",
+            "preferred-name": {
+                "ce:given-name": "Weina",
+                "ce:initials": "W.",
+                "ce:surname": "Sun",
+                "ce:indexed-name": "Sun W."
+            },
+            "@seq": "4",
+            "ce:initials": "W.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60012981",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012981"
+            },
+            "ce:surname": "Sun",
+            "@auid": "57194336866",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57194336866",
+            "ce:indexed-name": "Sun W."
+        },
+        {
+            "ce:given-name": "Mark J.",
+            "preferred-name": {
+                "ce:given-name": "Mark J.",
+                "ce:initials": "M.J.",
+                "ce:surname": "Bailey",
+                "ce:indexed-name": "Bailey M."
+            },
+            "@seq": "5",
+            "ce:initials": "M.J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60012981",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012981"
+            },
+            "ce:surname": "Bailey",
+            "@auid": "56249434600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56249434600",
+            "ce:indexed-name": "Bailey M.J."
+        },
+        {
+            "ce:given-name": "Raffael",
+            "preferred-name": {
+                "ce:given-name": "Raffael",
+                "ce:initials": "R.",
+                "ce:surname": "Nachbagauer",
+                "ce:indexed-name": "Nachbagauer R."
+            },
+            "@seq": "6",
+            "ce:initials": "R.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60012981",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012981"
+            },
+            "ce:surname": "Nachbagauer",
+            "@auid": "57193496338",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57193496338",
+            "ce:indexed-name": "Nachbagauer R."
+        },
+        {
+            "ce:given-name": "Florian",
+            "preferred-name": {
+                "ce:given-name": "Florian",
+                "ce:initials": "F.",
+                "ce:surname": "Krammer",
+                "ce:indexed-name": "Krammer F."
+            },
+            "@seq": "7",
+            "ce:initials": "F.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60012981",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012981"
+            },
+            "ce:surname": "Krammer",
+            "@auid": "35362059600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/35362059600",
+            "ce:indexed-name": "Krammer F."
+        },
+        {
+            "ce:given-name": "Peter",
+            "preferred-name": {
+                "ce:given-name": "Peter",
+                "ce:initials": "P.",
+                "ce:surname": "Palese",
+                "ce:indexed-name": "Palese P."
+            },
+            "@seq": "8",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60012981",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012981"
+                },
+                {
+                    "@id": "60012981",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012981"
+                }
+            ],
+            "ce:surname": "Palese",
+            "@auid": "7005752957",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7005752957",
+            "ce:indexed-name": "Palese P."
+        }
+    ]}
+}}

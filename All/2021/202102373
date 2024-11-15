@@ -1,0 +1,1861 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "08",
+                "@timestamp": "2022-12-08T05:23:14.000014-05:00",
+                "@year": "2022",
+                "@month": "12"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2021",
+                "@month": "04"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "Chulalongkorn University",
+                    "xocs:funding-agency-acronym": "CU",
+                    "xocs:funding-agency": "Chulalongkorn University",
+                    "xocs:funding-id": "CU GR 62 64 21 10",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002873",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "JICA",
+                    "xocs:funding-agency-acronym": "JICA",
+                    "xocs:funding-agency": "Japan International Cooperation Agency",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004532",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1861060/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-06-03T19:03:32.192Z",
+            "xocs:funding-text": "This research is funded by Chulalongkorn University (Grant No. CU GR 62 64 21 10) and the JICA Project for AUN/SEED-Net. The authors would also like to thank Associate Professor Dr. Wanchai Yodsudjai, Department of Civil Engineering, Kasetsart University for providing results from ABAQUS analysis.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "postal-code": "10330",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Applied Mechanics and Structures Research Unit"},
+                                {"$": "Department of Civil Engineering"},
+                                {"$": "Faculty of Engineering Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "104425662"
+                            },
+                            "ce:source-text": "Applied Mechanics and Structures Research Unit, Department of Civil Engineering, Faculty of Engineering Chulalongkorn University, Bangkok 10330, Thailand",
+                            "@dptid": "104425662"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Binh V.",
+                                "preferred-name": {
+                                    "ce:given-name": "Binh V.",
+                                    "ce:initials": "B.V.",
+                                    "ce:surname": "Pham",
+                                    "ce:indexed-name": "Pham B.V."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "B.V.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Pham",
+                                "@auid": "57216910641",
+                                "ce:indexed-name": "Pham B.V."
+                            },
+                            {
+                                "ce:given-name": "Jaroon",
+                                "preferred-name": {
+                                    "ce:given-name": "Jaroon",
+                                    "ce:initials": "J.",
+                                    "ce:surname": "Rungamornrat",
+                                    "ce:indexed-name": "Rungamornrat J."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "J.",
+                                "@date-locked": "2022-12-08T05:17:38.267",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Rungamornrat",
+                                "@auid": "57967892200",
+                                "ce:indexed-name": "Rungamornrat J."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Viet Nam",
+                            "postal-code": "740128",
+                            "@afid": "60078566",
+                            "@country": "vnm",
+                            "organization": [
+                                {"$": "Faculty of Civil Engineering"},
+                                {"$": "Ho Chi Minh City"},
+                                {"$": "Vietnam National University Ho Chi Minh City"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60078566",
+                                "@dptid": "109220350"
+                            },
+                            "ce:source-text": "Faculty of Civil Engineering, Ho Chi Minh City, University of Technology, Vietnam National University Ho Chi Minh City 740128, Vietnam",
+                            "@dptid": "109220350"
+                        },
+                        "author": [{
+                            "ce:given-name": "Thai Binh",
+                            "preferred-name": {
+                                "ce:given-name": "Thai Binh",
+                                "ce:initials": "T.B.",
+                                "ce:surname": "Nguyen",
+                                "ce:indexed-name": "Nguyen T.B."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "T.B.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Nguyen",
+                            "@auid": "57209166144",
+                            "ce:indexed-name": "Nguyen T.B."
+                        }]
+                    }
+                ],
+                "citation-title": "Analysis of Cracked Body Strengthened by Adhesively Bonded Patches by BEM-FEM Coupling",
+                "abstracts": "© 2021 World Scientific Publishing Company.This paper presents an efficient numerical technique capable of handling the stress analysis of three-dimensional cracked bodies strengthened by adhesively bonded patches. The proposed technique is implemented within the framework of the coupling of the weakly singular boundary integral equation method and the standard finite element procedure. The former is applied to efficiently treat the elastic body containing cracks, whereas the latter is adopted to handle both the adhesive layers and patches. The approximation of the near-front relative crack-face displacement is enhanced by using local interpolation functions that can capture the right asymptotic behavior. This also offers the direct calculation of the stress intensity factors along the crack front. A selected set of results is reported to demonstrate the capability of the proposed technique and the influence of various parameters on the performance of the strengthening.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "postal-code": "10330",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Applied Mechanics and Structures Research Unit"},
+                            {"$": "Department of Civil Engineering"},
+                            {"$": "Faculty of Engineering Chulalongkorn University"}
+                        ],
+                        "ce:source-text": "Applied Mechanics and Structures Research Unit, Department of Civil Engineering, Faculty of Engineering Chulalongkorn University, Bangkok 10330, Thailand"
+                    },
+                    "person": {
+                        "ce:given-name": "Jaroon",
+                        "ce:initials": "J.",
+                        "ce:surname": "Rungamornrat",
+                        "ce:indexed-name": "Rungamornrat J."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "bonded patches",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Boundary integral equation method",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "cracked body",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "finite element method",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "stress intensity factors",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://www.worldscinet.com/ijcm/ijcm.shtml",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "International Journal of Computational Methods",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"voliss": {
+                        "@volume": "18",
+                        "@issue": "3"
+                    }},
+                    "@type": "j",
+                    "sourcetitle": "International Journal of Computational Methods",
+                    "publicationdate": {
+                        "month": "04",
+                        "year": "2021",
+                        "date-text": "April 2021",
+                        "day": "01"
+                    },
+                    "sourcetitle-abbrev": "Int. J. Comput. Methods",
+                    "@country": "sgp",
+                    "issn": [
+                        {
+                            "$": "17936969",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "02198762",
+                            "@type": "print"
+                        }
+                    ],
+                    "publicationyear": {"@first": "2021"},
+                    "publisher": {"publishername": "World Scientific"},
+                    "article-number": "2041013",
+                    "@srcid": "4900152403"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "921.2",
+                                "classification-description": "Calculus"
+                            },
+                            {
+                                "classification-code": "921.6",
+                                "classification-description": "Numerical Methods"
+                            },
+                            {
+                                "classification-code": "951",
+                                "classification-description": "Materials Science"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1701"},
+                            {"$": "2605"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "MATH"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2021 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "08",
+                    "@timestamp": "BST 06:17:26",
+                    "@year": "2021",
+                    "@month": "04"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "633728100",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "930361033",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20205209679098",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20204466385",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85099516363",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85099516363",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1142/S0219876220410133"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "31",
+                "reference": [
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Alaimo, A., Milazzo, A. and Orlando, C. [2009] \"Boundary elements analysis of adhesively bonded piezoelectric active repair, \" Eng. Fract. Mech. 76(4), 500?511.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Boundary elements analysis of adhesively bonded piezoelectric active repair"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "60649096861",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "76",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "500",
+                                    "@last": "511"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alaimo",
+                                    "ce:indexed-name": "Alaimo A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Milazzo",
+                                    "ce:indexed-name": "Milazzo A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Orlando",
+                                    "ce:indexed-name": "Orlando C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Eng. Fract. Mech"
+                        },
+                        "ce:source-text": "Alaimo, A., Milazzo, A. and Orlando, C. [2009] \"Boundary elements analysis of adhesively bonded piezoelectric active repair, \" Eng. Fract. Mech. 76(4), 500?511."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Arendt, C. and Sun, C.T. [1994] \"Bending effects of unsymmetric adhesively bonded composite repairs on cracked aluminum panels.\"",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1994"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0002531767",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Arendt",
+                                    "ce:indexed-name": "Arendt C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun C.T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Bending effects of unsymmetric adhesively bonded composite repairs on cracked aluminum panels"
+                        },
+                        "ce:source-text": "Arendt, C. and Sun, C.T. [1994] \"Bending effects of unsymmetric adhesively bonded composite repairs on cracked aluminum panels.\""
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Baker, A. A. and Jones, R. [1988] Bonded Repair of Aircraft Structures (Martinus Nijhoff, Dordrecht, 1988).",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1988"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003536977",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "[1988] (Martinus Nijhoff, Dordrecht)",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A. A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Baker",
+                                    "ce:indexed-name": "Baker A. A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jones",
+                                    "ce:indexed-name": "Jones R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Bonded Repair of Aircraft Structures"
+                        },
+                        "ce:source-text": "Baker, A. A. and Jones, R. [1988] Bonded Repair of Aircraft Structures (Martinus Nijhoff, Dordrecht, 1988)."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Bathe, K. J. [2006] Finite Element Procedures (Klaus-Jurgen Bathe).",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003474648",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "(Klaus-Jurgen Bathe)",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "K. J.",
+                                "@_fa": "true",
+                                "ce:surname": "Bathe",
+                                "ce:indexed-name": "Bathe K. J."
+                            }]},
+                            "ref-sourcetitle": "Finite Element Procedures"
+                        },
+                        "ce:source-text": "Bathe, K. J. [2006] Finite Element Procedures (Klaus-Jurgen Bathe)."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Hughes, T. J. [2012] The Finite Element Method: Linear Static and Dynamic Finite Element Analysis (Courier Corporation).",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003546215",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "(Courier Corporation)",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "T. J.",
+                                "@_fa": "true",
+                                "ce:surname": "Hughes",
+                                "ce:indexed-name": "Hughes T. J."
+                            }]},
+                            "ref-sourcetitle": "The Finite Element Method: Linear Static and Dynamic Finite Element Analysis"
+                        },
+                        "ce:source-text": "Hughes, T. J. [2012] The Finite Element Method: Linear Static and Dynamic Finite Element Analysis (Courier Corporation)."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Jiann-Quo, T. and Kam-Lun, S. [1991] \"Analysis of cracked plates with a bonded patch, \" Eng. Fract. Mech. 40(6), 1055?1065.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1991"},
+                            "ref-title": {"ref-titletext": "Analysis of cracked plates with a bonded patch"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0026396554",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "40",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "1055",
+                                    "@last": "1065"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiann-Quo",
+                                    "ce:indexed-name": "Jiann-Quo T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kam-Lun",
+                                    "ce:indexed-name": "Kam-Lun S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Eng. Fract. Mech"
+                        },
+                        "ce:source-text": "Jiann-Quo, T. and Kam-Lun, S. [1991] \"Analysis of cracked plates with a bonded patch, \" Eng. Fract. Mech. 40(6), 1055?1065."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Jones, R. [1984] \"Bonded repair of damage, \" J. Aeronaut. Soc. India.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1984"},
+                            "ref-title": {"ref-titletext": "Bonded repair of damage"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0040729578",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.",
+                                "@_fa": "true",
+                                "ce:surname": "Jones",
+                                "ce:indexed-name": "Jones R."
+                            }]},
+                            "ref-sourcetitle": "J. Aeronaut. Soc. India."
+                        },
+                        "ce:source-text": "Jones, R. [1984] \"Bonded repair of damage, \" J. Aeronaut. Soc. India."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Li, S., Mear, M. E. and Xiao, L. [1998] \"Symmetric weak-form integral equation method for three-dimensional fracture analysis, \" Comput. Methods Appl. Mech. Eng. 151(3?4), 435?459.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Symmetric weak-form integral equation method for three-dimensional fracture analysis"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0031699679",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "151",
+                                    "@issue": "3?4"
+                                },
+                                "pagerange": {
+                                    "@first": "435",
+                                    "@last": "459"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M. E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mear",
+                                    "ce:indexed-name": "Mear M. E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xiao",
+                                    "ce:indexed-name": "Xiao L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Comput. Methods Appl. Mech. Eng"
+                        },
+                        "ce:source-text": "Li, S., Mear, M. E. and Xiao, L. [1998] \"Symmetric weak-form integral equation method for three-dimensional fracture analysis, \" Comput. Methods Appl. Mech. Eng. 151(3?4), 435?459."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Liu, H. B., Zhao, X. L. and Al-Mahaidi, R. [2009] \"Boundary element analysis of CFRP reinforced steel plates, \" Compos. Struct. 91(1), 74?83.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Boundary element analysis of CFRP reinforced steel plates"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "67349287839",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "91",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "74",
+                                    "@last": "83"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H. B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu H. B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X. L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao X. L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Al-Mahaidi",
+                                    "ce:indexed-name": "Al-Mahaidi R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Compos. Struct"
+                        },
+                        "ce:source-text": "Liu, H. B., Zhao, X. L. and Al-Mahaidi, R. [2009] \"Boundary element analysis of CFRP reinforced steel plates, \" Compos. Struct. 91(1), 74?83."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Pisa, C. D. and Aliabadi, M. H. [2015] \"Boundary element analysis of stiffened panels with repair patches, \" Eng. Anal. Bound. Elem. 56, 162?175.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Boundary element analysis of stiffened panels with repair patches"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84924988087",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "56"},
+                                "pagerange": {
+                                    "@first": "162",
+                                    "@last": "175"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C. D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pisa",
+                                    "ce:indexed-name": "Pisa C. D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M. H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aliabadi",
+                                    "ce:indexed-name": "Aliabadi M. H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Eng. Anal. Bound. Elem"
+                        },
+                        "ce:source-text": "Pisa, C. D. and Aliabadi, M. H. [2015] \"Boundary element analysis of stiffened panels with repair patches, \" Eng. Anal. Bound. Elem. 56, 162?175."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Riccio, A., Di Felice, G., Scaramuzzino, F. and Sellitto, A. [2014] \"A practical tool for the preliminary design of bonded composite repairs, \" Appl. Compos. Mater. 21(3), 495?509.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "A practical tool for the preliminary design of bonded composite repairs"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84905081364",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "21",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "495",
+                                    "@last": "509"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Riccio",
+                                    "ce:indexed-name": "Riccio A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Di Felice",
+                                    "ce:indexed-name": "Di Felice G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Scaramuzzino",
+                                    "ce:indexed-name": "Scaramuzzino F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sellitto",
+                                    "ce:indexed-name": "Sellitto A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Appl. Compos. Mater"
+                        },
+                        "ce:source-text": "Riccio, A., Di Felice, G., Scaramuzzino, F. and Sellitto, A. [2014] \"A practical tool for the preliminary design of bonded composite repairs, \" Appl. Compos. Mater. 21(3), 495?509."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Riccio, A., Ricchiuto, R., Di Caprio, F., Sellitto, A. and Raimondo, A. [2017] \"Numerical investigation of constitutive material models on bonded joints in scarf repaired composite laminates, \" Eng. Fract. Mech. 173, 91?106.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Numerical investigation of constitutive material models on bonded joints in scarf repaired composite laminates"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85009476065",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "173"},
+                                "pagerange": {
+                                    "@first": "91",
+                                    "@last": "106"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Riccio",
+                                    "ce:indexed-name": "Riccio A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ricchiuto",
+                                    "ce:indexed-name": "Ricchiuto R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Di Caprio",
+                                    "ce:indexed-name": "Di Caprio F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sellitto",
+                                    "ce:indexed-name": "Sellitto A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Raimondo",
+                                    "ce:indexed-name": "Raimondo A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Eng. Fract. Mech"
+                        },
+                        "ce:source-text": "Riccio, A., Ricchiuto, R., Di Caprio, F., Sellitto, A. and Raimondo, A. [2017] \"Numerical investigation of constitutive material models on bonded joints in scarf repaired composite laminates, \" Eng. Fract. Mech. 173, 91?106."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Rose, L. R. F. [1981] \"An application of the inclusion analogy for bonded reinforcements, \" Int. J. Solids Struct. 17(8), 827?838.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1981"},
+                            "ref-title": {"ref-titletext": "An application of the inclusion analogy for bonded reinforcements"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0019392130",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "17",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "827",
+                                    "@last": "838"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "L. R. F.",
+                                "@_fa": "true",
+                                "ce:surname": "Rose",
+                                "ce:indexed-name": "Rose L. R. F."
+                            }]},
+                            "ref-sourcetitle": "Int. J. Solids Struct"
+                        },
+                        "ce:source-text": "Rose, L. R. F. [1981] \"An application of the inclusion analogy for bonded reinforcements, \" Int. J. Solids Struct. 17(8), 827?838."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Rungamornrat, J. and Mear, M. E. [2008a] \"Weakly-singular, weak-form integral equations for cracks in three-dimensional anisotropic media, \" Int. J. Solids Struct. 45(5), 1283? 1301.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Weakly-singular, weak-form integral equations for cracks in three-dimensional anisotropic media"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "38049091469",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "45",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "1283",
+                                    "@last": "1301"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rungamornrat",
+                                    "ce:indexed-name": "Rungamornrat J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M. E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mear",
+                                    "ce:indexed-name": "Mear M. E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Solids Struct"
+                        },
+                        "ce:source-text": "Rungamornrat, J. and Mear, M. E. [2008a] \"Weakly-singular, weak-form integral equations for cracks in three-dimensional anisotropic media, \" Int. J. Solids Struct. 45(5), 1283? 1301."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Rungamornrat, J. and Mear, M. E. [2008b] \"A weakly-singular SGBEM for analysis of cracks in 3D anisotropic media, \" Comput. Methods Appl. Mech. Eng. 197(49?50), 4319?4332.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "A weakly-singular SGBEM for analysis of cracks in 3D anisotropic media"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "50349090888",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "197",
+                                    "@issue": "49?50"
+                                },
+                                "pagerange": {
+                                    "@first": "4319",
+                                    "@last": "4332"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rungamornrat",
+                                    "ce:indexed-name": "Rungamornrat J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M. E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mear",
+                                    "ce:indexed-name": "Mear M. E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Comput. Methods Appl. Mech. Eng"
+                        },
+                        "ce:source-text": "Rungamornrat, J. and Mear, M. E. [2008b] \"A weakly-singular SGBEM for analysis of cracks in 3D anisotropic media, \" Comput. Methods Appl. Mech. Eng. 197(49?50), 4319?4332."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Rungamornrat, J., Sukulthanasorn, N. and Mear, M. E. [2019] \"Analysis for T-stress of cracks in 3D anisotropic elastic media by weakly singular integral equation method, \" Comput. Methods Appl. Mech. Eng. 347, 1004?1029.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Analysis for T-stress of cracks in 3D anisotropic elastic media by weakly singular integral equation method"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85060939199",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "347"},
+                                "pagerange": {
+                                    "@first": "1004",
+                                    "@last": "1029"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rungamornrat",
+                                    "ce:indexed-name": "Rungamornrat J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sukulthanasorn",
+                                    "ce:indexed-name": "Sukulthanasorn N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M. E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mear",
+                                    "ce:indexed-name": "Mear M. E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Comput. Methods Appl. Mech. Eng"
+                        },
+                        "ce:source-text": "Rungamornrat, J., Sukulthanasorn, N. and Mear, M. E. [2019] \"Analysis for T-stress of cracks in 3D anisotropic elastic media by weakly singular integral equation method, \" Comput. Methods Appl. Mech. Eng. 347, 1004?1029."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Salgado, N. K. and Aliabadi, M. H. [1996] \"The application of the dual boundary element method to the analysis of cracked stiffened panels, \" Eng. Fract. Mech. 54(1), 91?105.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "The application of the dual boundary element method to the analysis of cracked stiffened panels"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030150060",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "54",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "91",
+                                    "@last": "105"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N. K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Salgado",
+                                    "ce:indexed-name": "Salgado N. K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M. H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aliabadi",
+                                    "ce:indexed-name": "Aliabadi M. H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Eng. Fract. Mech"
+                        },
+                        "ce:source-text": "Salgado, N. K. and Aliabadi, M. H. [1996] \"The application of the dual boundary element method to the analysis of cracked stiffened panels, \" Eng. Fract. Mech. 54(1), 91?105."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Salgado, N. K. and Aliabadi, M. H. [1998] \"The boundary element analysis of cracked stiffened sheets, reinforced by adhesively bonded patches, \" Int. J. Numer. Methods Eng. 42(2), 195?217.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "The boundary element analysis of cracked stiffened sheets, reinforced by adhesively bonded patches"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0032072607",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "42",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "195",
+                                    "@last": "217"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N. K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Salgado",
+                                    "ce:indexed-name": "Salgado N. K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M. H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aliabadi",
+                                    "ce:indexed-name": "Aliabadi M. H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Numer. Methods Eng"
+                        },
+                        "ce:source-text": "Salgado, N. K. and Aliabadi, M. H. [1998] \"The boundary element analysis of cracked stiffened sheets, reinforced by adhesively bonded patches, \" Int. J. Numer. Methods Eng. 42(2), 195?217."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Sekine, H., Yan, B. and Yasuho, T. [2005] \"Numerical simulation study of fatigue crack growth behavior of cracked aluminum panels repaired with a FRP composite patch using combined BEM/FEM, \" Eng. Fract. Mech. 72(16), 2549?2563.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Numerical simulation study of fatigue crack growth behavior of cracked aluminum panels repaired with a FRP composite patch using combined BEM/FEM"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "22344450230",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "72",
+                                    "@issue": "16"
+                                },
+                                "pagerange": {
+                                    "@first": "2549",
+                                    "@last": "2563"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sekine",
+                                    "ce:indexed-name": "Sekine H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yan",
+                                    "ce:indexed-name": "Yan B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yasuho",
+                                    "ce:indexed-name": "Yasuho T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Eng. Fract. Mech"
+                        },
+                        "ce:source-text": "Sekine, H., Yan, B. and Yasuho, T. [2005] \"Numerical simulation study of fatigue crack growth behavior of cracked aluminum panels repaired with a FRP composite patch using combined BEM/FEM, \" Eng. Fract. Mech. 72(16), 2549?2563."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Sellitto, A., Riccio, A., Russo, A., Zarrelli, M., Toscano, C. and Lopresto, V. [2019] \"Compressive behaviour of a damaged omega stiffened panel: Damage detection and numerical analysis, \" Compos. Struct. 209, 300?316.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Compressive behaviour of a damaged omega stiffened panel: Damage detection and numerical analysis"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85055910219",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "209"},
+                                "pagerange": {
+                                    "@first": "300",
+                                    "@last": "316"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sellitto",
+                                    "ce:indexed-name": "Sellitto A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Riccio",
+                                    "ce:indexed-name": "Riccio A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Russo",
+                                    "ce:indexed-name": "Russo A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zarrelli",
+                                    "ce:indexed-name": "Zarrelli M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Toscano",
+                                    "ce:indexed-name": "Toscano C."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lopresto",
+                                    "ce:indexed-name": "Lopresto V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Compos. Struct"
+                        },
+                        "ce:source-text": "Sellitto, A., Riccio, A., Russo, A., Zarrelli, M., Toscano, C. and Lopresto, V. [2019] \"Compressive behaviour of a damaged omega stiffened panel: Damage detection and numerical analysis, \" Compos. Struct. 209, 300?316."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Sun, C.T., Klug, J. and Arendt, C. [1996] \"Analysis of cracked aluminum plates repaired with bonded composite panels, \" AIAA J. 34(2), 369?374.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "Analysis of cracked aluminum plates repaired with bonded composite panels"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030079820",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "34",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "369",
+                                    "@last": "374"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun C.T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Klug",
+                                    "ce:indexed-name": "Klug J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Arendt",
+                                    "ce:indexed-name": "Arendt C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "AIAA J"
+                        },
+                        "ce:source-text": "Sun, C.T., Klug, J. and Arendt, C. [1996] \"Analysis of cracked aluminum plates repaired with bonded composite panels, \" AIAA J. 34(2), 369?374."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Useche, J., Sollero, P., Albuquerque, E.L. and Palermo, L. [2008] \"Boundary element analysis of cracked thick plates repaired with adhesively bonded composite patches, \" SDHM: Struct. Durab. Health Monit. 4(2), 107?116.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Boundary element analysis of cracked thick plates repaired with adhesively bonded composite patches"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "65549108759",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "4",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "107",
+                                    "@last": "116"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Useche",
+                                    "ce:indexed-name": "Useche J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sollero",
+                                    "ce:indexed-name": "Sollero P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Albuquerque",
+                                    "ce:indexed-name": "Albuquerque E.L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Palermo",
+                                    "ce:indexed-name": "Palermo L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "SDHM: Struct. Durab. Health Monit"
+                        },
+                        "ce:source-text": "Useche, J., Sollero, P., Albuquerque, E.L. and Palermo, L. [2008] \"Boundary element analysis of cracked thick plates repaired with adhesively bonded composite patches, \" SDHM: Struct. Durab. Health Monit. 4(2), 107?116."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Wen, P. H., Aliabadi, M. H. and Young, A. [2000] \"Stiffened cracked plates analysis by dual boundary element method, \" Int. J. Fract. 106(3), 245?258.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-title": {"ref-titletext": "Stiffened cracked plates analysis by dual boundary element method"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0034484297",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "106",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "245",
+                                    "@last": "258"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P. H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wen",
+                                    "ce:indexed-name": "Wen P. H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M. H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aliabadi",
+                                    "ce:indexed-name": "Aliabadi M. H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Young",
+                                    "ce:indexed-name": "Young A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Fract"
+                        },
+                        "ce:source-text": "Wen, P. H., Aliabadi, M. H. and Young, A. [2000] \"Stiffened cracked plates analysis by dual boundary element method, \" Int. J. Fract. 106(3), 245?258."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Wen, P. H., Aliabadi, M.H. and Young, A. [2002] \"Boundary element analysis of flat cracked panels with adhesively bonded patches, \" Eng. Fract. Mech. 69(18), 2129?2146.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Boundary element analysis of flat cracked panels with adhesively bonded patches"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0037191425",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "69",
+                                    "@issue": "18"
+                                },
+                                "pagerange": {
+                                    "@first": "2129",
+                                    "@last": "2146"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P. H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wen",
+                                    "ce:indexed-name": "Wen P. H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aliabadi",
+                                    "ce:indexed-name": "Aliabadi M.H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Young",
+                                    "ce:indexed-name": "Young A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Eng. Fract. Mech"
+                        },
+                        "ce:source-text": "Wen, P. H., Aliabadi, M.H. and Young, A. [2002] \"Boundary element analysis of flat cracked panels with adhesively bonded patches, \" Eng. Fract. Mech. 69(18), 2129?2146."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Wen, P. H., Aliabadi, M. H. and Young, A. [2003] \"Boundary element analysis of curved cracked panels with adhesively bonded patches, \" Int. J. Numer. Methods Eng. 58(1), 43?61.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Boundary element analysis of curved cracked panels with adhesively bonded patches"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0141683954",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "58",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "43",
+                                    "@last": "61"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P. H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wen",
+                                    "ce:indexed-name": "Wen P. H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M. H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aliabadi",
+                                    "ce:indexed-name": "Aliabadi M. H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Young",
+                                    "ce:indexed-name": "Young A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Numer. Methods Eng"
+                        },
+                        "ce:source-text": "Wen, P. H., Aliabadi, M. H. and Young, A. [2003] \"Boundary element analysis of curved cracked panels with adhesively bonded patches, \" Int. J. Numer. Methods Eng. 58(1), 43?61."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Widagdo, D. and Aliabadi, M. H. [2001] \"Boundary element analysis of cracked panels repaired by mechanically fastened composite patches, \" Eng. Anal. Bound. Elem. 25(4? 5), 339?345.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "Boundary element analysis of cracked panels repaired by mechanically fastened composite patches"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0035302078",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "25",
+                                    "@issue": "4? 5"
+                                },
+                                "pagerange": {
+                                    "@first": "339",
+                                    "@last": "345"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Widagdo",
+                                    "ce:indexed-name": "Widagdo D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M. H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aliabadi",
+                                    "ce:indexed-name": "Aliabadi M. H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Eng. Anal. Bound. Elem"
+                        },
+                        "ce:source-text": "Widagdo, D. and Aliabadi, M. H. [2001] \"Boundary element analysis of cracked panels repaired by mechanically fastened composite patches, \" Eng. Anal. Bound. Elem. 25(4? 5), 339?345."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Xiao, L. [1998] Symmetric weak-form integral equation method for three-dimensional fracture analysis, Ph.D. Dissertation, University of Texas at Austin, USA.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0041390276",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Ph.D. Dissertation, University of Texas at Austin, USA",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "L.",
+                                "@_fa": "true",
+                                "ce:surname": "Xiao",
+                                "ce:indexed-name": "Xiao L."
+                            }]},
+                            "ref-sourcetitle": "Symmetric weak-form integral equation method for three-dimensional fracture analysis"
+                        },
+                        "ce:source-text": "Xiao, L. [1998] Symmetric weak-form integral equation method for three-dimensional fracture analysis, Ph.D. Dissertation, University of Texas at Austin, USA."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Yates, J. R., Zanganeh, M. and Tai, Y. H. [2010] \"Quantifying crack tip displacement fields with DIC, \" Eng. Fract. Mech. 77, 2063?2076.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Quantifying crack tip displacement fields with DIC"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77954028170",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "77"},
+                                "pagerange": {
+                                    "@first": "2063",
+                                    "@last": "2076"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J. R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yates",
+                                    "ce:indexed-name": "Yates J. R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zanganeh",
+                                    "ce:indexed-name": "Zanganeh M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y. H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tai",
+                                    "ce:indexed-name": "Tai Y. H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Eng. Fract. Mech"
+                        },
+                        "ce:source-text": "Yates, J. R., Zanganeh, M. and Tai, Y. H. [2010] \"Quantifying crack tip displacement fields with DIC, \" Eng. Fract. Mech. 77, 2063?2076."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Young, A., Rooke, D. P. and Cartwright, D. J. [1992] \"Analysis of patched and stiffened cracked panels using the boundary element method, \" Int. J. Solids Struct. 29(17), 2201?2216.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "ref-title": {"ref-titletext": "Analysis of patched and stiffened cracked panels using the boundary element method"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0027097448",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "29",
+                                    "@issue": "17"
+                                },
+                                "pagerange": {
+                                    "@first": "2201",
+                                    "@last": "2216"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Young",
+                                    "ce:indexed-name": "Young A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D. P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rooke",
+                                    "ce:indexed-name": "Rooke D. P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D. J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cartwright",
+                                    "ce:indexed-name": "Cartwright D. J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Solids Struct"
+                        },
+                        "ce:source-text": "Young, A., Rooke, D. P. and Cartwright, D. J. [1992] \"Analysis of patched and stiffened cracked panels using the boundary element method, \" Int. J. Solids Struct. 29(17), 2201?2216."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Yu, Q. Q., Zhao, X. L., Chen, T., Gu, X. L. and Xiao, Z. G. [2014] \"Crack propagation prediction of CFRP retrofitted steel plates with different degrees of damage using BEM, \" Thin Wall. Struct. 82, 145?158.",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Crack propagation prediction of CFRP retrofitted steel plates with different degrees of damage using BEM"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84900305953",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "82"},
+                                "pagerange": {
+                                    "@first": "145",
+                                    "@last": "158"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Q. Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu Q. Q."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X. L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao X. L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X. L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gu",
+                                    "ce:indexed-name": "Gu X. L."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Z. G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xiao",
+                                    "ce:indexed-name": "Xiao Z. G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Thin Wall. Struct"
+                        },
+                        "ce:source-text": "Yu, Q. Q., Zhao, X. L., Chen, T., Gu, X. L. and Xiao, Z. G. [2014] \"Crack propagation prediction of CFRP retrofitted steel plates with different degrees of damage using BEM, \" Thin Wall. Struct. 82, 145?158."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Zienkiewicz, O. C. and Taylor, R. L. [2000] The Finite Element Method: Solid Mechanics (Butterworth-Heinemann).",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003453202",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "(Butterworth-Heinemann)",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O. C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zienkiewicz",
+                                    "ce:indexed-name": "Zienkiewicz O. C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R. L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Taylor",
+                                    "ce:indexed-name": "Taylor R. L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "The Finite Element Method: Solid Mechanics"
+                        },
+                        "ce:source-text": "Zienkiewicz, O. C. and Taylor, R. L. [2000] The Finite Element Method: Solid Mechanics (Butterworth-Heinemann)."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Ho Chi Minh City",
+            "@id": "60078566",
+            "affilname": "Viet Nam National University Ho Chi Minh City",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60078566",
+            "affiliation-country": "Viet Nam"
+        },
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "prism:issueIdentifier": "3",
+        "eid": "2-s2.0-85099516363",
+        "dc:description": "This paper presents an efficient numerical technique capable of handling the stress analysis of three-dimensional cracked bodies strengthened by adhesively bonded patches. The proposed technique is implemented within the framework of the coupling of the weakly singular boundary integral equation method and the standard finite element procedure. The former is applied to efficiently treat the elastic body containing cracks, whereas the latter is adopted to handle both the adhesive layers and patches. The approximation of the near-front relative crack-face displacement is enhanced by using local interpolation functions that can capture the right asymptotic behavior. This also offers the direct calculation of the stress intensity factors along the crack front. A selected set of results is reported to demonstrate the capability of the proposed technique and the influence of various parameters on the performance of the strengthening.",
+        "prism:coverDate": "2021-04-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85099516363",
+        "subtypeDescription": "Article",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Binh V.",
+            "preferred-name": {
+                "ce:given-name": "Binh V.",
+                "ce:initials": "B.V.",
+                "ce:surname": "Pham",
+                "ce:indexed-name": "Pham B.V."
+            },
+            "@seq": "1",
+            "ce:initials": "B.V.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Pham",
+            "@auid": "57216910641",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57216910641",
+            "ce:indexed-name": "Pham B.V."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85099516363"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85099516363&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85099516363&origin=inward"
+            }
+        ],
+        "prism:publicationName": "International Journal of Computational Methods",
+        "source-id": "4900152403",
+        "citedby-count": "0",
+        "prism:volume": "18",
+        "subtype": "ar",
+        "dc:title": "Analysis of Cracked Body Strengthened by Adhesively Bonded Patches by BEM-FEM Coupling",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1142/S0219876220410133",
+        "prism:issn": "17936969 02198762",
+        "publishercopyright": "© 2021 World Scientific Publishing Company.",
+        "article-number": "2041013",
+        "dc:identifier": "SCOPUS_ID:85099516363",
+        "dc:publisher": "World Scientific"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Adhesively bonded",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Asymptotic behaviors",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "BEM-FEM coupling",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Direct calculation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Local interpolation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Numerical techniques",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Standard finite element",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Weakly singular",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "bonded patches"
+        },
+        {
+            "@_fa": "true",
+            "$": "Boundary integral equation method"
+        },
+        {
+            "@_fa": "true",
+            "$": "cracked body"
+        },
+        {
+            "@_fa": "true",
+            "$": "finite element method"
+        },
+        {
+            "@_fa": "true",
+            "$": "stress intensity factors"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Computer Science (miscellaneous)",
+            "@code": "1701",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computational Mathematics",
+            "@code": "2605",
+            "@abbrev": "MATH"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Binh V.",
+            "preferred-name": {
+                "ce:given-name": "Binh V.",
+                "ce:initials": "B.V.",
+                "ce:surname": "Pham",
+                "ce:indexed-name": "Pham B.V."
+            },
+            "@seq": "1",
+            "ce:initials": "B.V.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Pham",
+            "@auid": "57216910641",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57216910641",
+            "ce:indexed-name": "Pham B.V."
+        },
+        {
+            "ce:given-name": "Thai Binh",
+            "preferred-name": {
+                "ce:given-name": "Thai Binh",
+                "ce:initials": "T.B.",
+                "ce:surname": "Nguyen",
+                "ce:indexed-name": "Nguyen T.B."
+            },
+            "@seq": "2",
+            "ce:initials": "T.B.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60078566",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60078566"
+            },
+            "ce:surname": "Nguyen",
+            "@auid": "57209166144",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57209166144",
+            "ce:indexed-name": "Nguyen T.B."
+        },
+        {
+            "ce:given-name": "Jaroon",
+            "preferred-name": {
+                "ce:given-name": "Jaroon",
+                "ce:initials": "J.",
+                "ce:surname": "Rungamornrat",
+                "ce:indexed-name": "Rungamornrat J."
+            },
+            "@seq": "3",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Rungamornrat",
+            "@auid": "57967892200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57967892200",
+            "ce:indexed-name": "Rungamornrat J."
+        }
+    ]}
+}}

@@ -1,0 +1,1395 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "05",
+                "@timestamp": "2021-02-05T17:29:54.000054-05:00",
+                "@year": "2021",
+                "@month": "02"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2019",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {"xocs:funding-agency-matched-string": "Chula Computer Engineering"},
+                {
+                    "xocs:funding-agency-matched-string": "Chulalongkorn University",
+                    "xocs:funding-agency-acronym": "CU",
+                    "xocs:funding-agency": "Chulalongkorn University",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002873",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-05-09T08:14:09.195454Z",
+            "xocs:funding-text": "This research was supported by Chula Computer Engineering Graduate Scholarship for CP Alumni, Chulalongkorn University. The authors would like to thank all members of ISEL, family, and friends for their help.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Chulalongkorn University Big Data Analytics and IoT Center (CUBIC)"},
+                                {"$": "Department of Computer Engineering"},
+                                {"$": "Faculty of Engineering"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "113891981"
+                            },
+                            "@dptid": "113891981"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Nuttun",
+                                "preferred-name": {
+                                    "ce:given-name": "Nuttun",
+                                    "ce:initials": "N.",
+                                    "ce:surname": "Virojboonkiate",
+                                    "ce:indexed-name": "Virojboonkiate N."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "N.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Virojboonkiate",
+                                "@auid": "57202293476",
+                                "@orcid": "0000-0002-9959-5491",
+                                "ce:indexed-name": "Virojboonkiate N."
+                            },
+                            {
+                                "ce:given-name": "Adsadawut",
+                                "preferred-name": {
+                                    "ce:given-name": "Adsadawut",
+                                    "ce:initials": "A.",
+                                    "ce:surname": "Chanakitkarnchok",
+                                    "ce:indexed-name": "Chanakitkarnchok A."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Chanakitkarnchok",
+                                "@auid": "57191331894",
+                                "ce:indexed-name": "Chanakitkarnchok A."
+                            },
+                            {
+                                "ce:given-name": "Peerapon",
+                                "preferred-name": {
+                                    "ce:given-name": "Peerapon",
+                                    "ce:initials": "P.",
+                                    "ce:surname": "Vateekul",
+                                    "ce:indexed-name": "Vateekul P."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "P.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Vateekul",
+                                "@auid": "24829867400",
+                                "ce:indexed-name": "Vateekul P."
+                            },
+                            {
+                                "ce:given-name": "Kultida",
+                                "preferred-name": {
+                                    "ce:given-name": "Kultida",
+                                    "ce:initials": "K.",
+                                    "ce:surname": "Rojviboonchai",
+                                    "ce:indexed-name": "Rojviboonchai K."
+                                },
+                                "@seq": "4",
+                                "ce:initials": "K.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Rojviboonchai",
+                                "@auid": "56054228300",
+                                "@orcid": "0000-0002-5251-4690",
+                                "ce:indexed-name": "Rojviboonchai K."
+                            }
+                        ]
+                    },
+                    {"author": [{
+                        "ce:given-name": "Mohammad H. Y.",
+                        "preferred-name": {
+                            "ce:given-name": "Mohammad H.Y.",
+                            "ce:initials": "M.H.Y.",
+                            "ce:surname": "Moghaddam",
+                            "ce:indexed-name": "Moghaddam M.H.Y."
+                        },
+                        "@seq": "5",
+                        "ce:initials": "M.H.Y.",
+                        "@_fa": "true",
+                        "@type": "auth",
+                        "ce:surname": "Moghaddam",
+                        "@auid": "57215509896",
+                        "ce:indexed-name": "Moghaddam M.H.Y."
+                    }]}
+                ],
+                "citation-title": "Public transport driver identification system using histogram of acceleration data",
+                "abstracts": "© 2019 Nuttun Virojboonkiate et al.This paper introduces a driver identification system architecture for public transport which utilizes only acceleration sensor data. The system architecture consists of three main modules which are the data collection, data preprocessing, and driver identification module. Data were collected from real operation of campus shuttle buses. In the data preprocessing module, a filtering module is proposed to remove the inactive period of the public transport data. To extract the unique behavior of the driver, a histogram of acceleration sensor data is proposed as a main feature of driver identification. The performance of our system is evaluated in many important aspects, considering axis of acceleration, sliding window size, number of drivers, classifier algorithms, and driving period. Additionally, the case study of impostor detection is implemented by modifying the driver identification module to identify a car thief or carjacking. Our driver identification system can achieve up to 99% accuracy and the impostor detection system can achieve the F1 score of 0.87. As a result, our system architecture can be used as a guideline for implementing the real driver identification system and further driver identification researches.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Chulalongkorn University Big Data Analytics and IoT Center (CUBIC)"},
+                            {"$": "Department of Computer Engineering"},
+                            {"$": "Faculty of Engineering"},
+                            {"$": "Chulalongkorn University"}
+                        ]
+                    },
+                    "person": {
+                        "ce:given-name": "Kultida",
+                        "ce:initials": "K.",
+                        "ce:surname": "Rojviboonchai",
+                        "ce:indexed-name": "Rojviboonchai K."
+                    }
+                },
+                "citation-info": {
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "https://www.hindawi.com/journals/jat/",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Journal of Advanced Transportation",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"voliss": {"@volume": "2019"}},
+                    "@type": "j",
+                    "sourcetitle": "Journal of Advanced Transportation",
+                    "publicationdate": {
+                        "year": "2019",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2019"
+                        }
+                    },
+                    "codencode": "JATRD",
+                    "sourcetitle-abbrev": "J Adv Transp",
+                    "@country": "gbr",
+                    "issn": [
+                        {
+                            "$": "20423195",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "01976729",
+                            "@type": "print"
+                        }
+                    ],
+                    "publicationyear": {"@first": "2019"},
+                    "publisher": {
+                        "affiliation": {
+                            "address-part": "410 Park Avenue, 15th Floor, 287 pmb",
+                            "postal-code": "NY 10022",
+                            "@country": "usa",
+                            "city": "New York"
+                        },
+                        "publishername": "Hindawi Limited"
+                    },
+                    "article-number": "6372597",
+                    "@srcid": "18895"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": {
+                            "classification-code": "723.2",
+                            "classification-description": "Data Processing"
+                        }
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2203"},
+                            {"$": "2002"},
+                            {"$": "2210"},
+                            {"$": "1706"},
+                            {"$": "1408"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "ENGI"},
+                            {"$": "ECON"},
+                            {"$": "COMP"},
+                            {"$": "BUSI"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This researchwas supported by ChulaComputer Engineering Graduate Scholarship for CP Alumni, Chulalongkorn University. The authors would like to thank all members of ISEL, family, and friends for their help.",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": {
+                        "grant-acronym": "CU",
+                        "grant-agency": {
+                            "@iso-code": "tha",
+                            "$": "Chulalongkorn University"
+                        },
+                        "grant-agency-id": "501100002873"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2019 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "07",
+                    "@timestamp": "BST 07:31:37",
+                    "@year": "2019",
+                    "@month": "03"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "626558341",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "915954226",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20191006591953",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20190379421",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20190635233",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "20190635234",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85062370131",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85062370131",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1155/2019/6372597"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "21",
+                "reference": [
+                    {
+                        "ref-fulltext": "Statista, Internet of Things (IoT) connected devices installed base worldwide from 2015 to 2025 (in billions), 2016, https://www.statista.com/statistics/471264/iot-number-ofconnected-devices-worldwide/.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.statista.com/statistics/471264/iot-number-ofconnected-devices-worldwide/",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85054056572",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Statista",
+                            "ref-sourcetitle": "Internet of Things (IoT) Connected Devices Installed Base Worldwide from 2015 to 2025 (In Billions)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Gartner, Gartner Says 8.4 Billion Connected \"Things\" Will Be in Use in 2017, Up 31 Percent From 2016, 2017, https://www.gartner.com/newsroom/id/3598917.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.gartner.com/newsroom/id/3598917",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85062361388",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Gartner, Gartner Says 8.4 Billion Connected",
+                            "ref-sourcetitle": "Things Will Be in Use in 2017, Up 31 Percent from"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ericsson, \"Internet of Things forecast, \" 2018, https://www .ericsson.com/en/mobility-report/internet-of-things-forecast.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.ericsson.com/en/mobility-report/internet-of-things-forecast",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85068615588",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Ericsson",
+                            "ref-sourcetitle": "Internet of Things Forecast"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Gartner, Gartner Says By 2020, a Quarter Billion Connected Vehicles Will Enable New In-Vehicle Services and Automated Driving Capabilities, 2015, https://www.gartner.com/newsroom/id/2970017.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.gartner.com/newsroom/id/2970017",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84946227996",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Gartner",
+                            "ref-sourcetitle": "Gartner Says by 2020, A Quarter Billion Connected Vehicles Will Enable New In-Vehicle Services and Automated Driving Capabilities"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "C. Marina Martinez, M. Heucke, F.-Y. Wang, B. Gao, D. Cao, \"Driving style recognition for intelligent vehicle control and advanced driver assistance: A survey, \" IEEE Transactions on Intelligent Transportation Systems, vol. 19, no. 3, pp. 666-676, 2018.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Driving style recognition for intelligent vehicle control and advanced driver assistance: A survey"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85029005380",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "19",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "666",
+                                    "@last": "676"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marina Martinez",
+                                    "ce:indexed-name": "Marina Martinez C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Heucke",
+                                    "ce:indexed-name": "Heucke M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.-Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang F.-Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gao",
+                                    "ce:indexed-name": "Gao B."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cao",
+                                    "ce:indexed-name": "Cao D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Intelligent Transportation Systems"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "INTERPOL, Vehicle crime, 2017, https://www.interpol.int/Crime-areas/Vehicle-crime/Database-statistics.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.interpol.int/Crime-areas/Vehicle-crime/Database-statistics",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85062342554",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "INTERPOL",
+                            "ref-sourcetitle": "Vehicle Crime"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "C. Miyajima, Y. Nishiwaki, K. Ozawa et al., \"Driver modeling based on driving behavior and its evaluation in driver identification, \" Proceedings of the IEEE, vol. 95, no. 2, pp. 427-437, 2007.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Driver modeling based on driving behavior and its evaluation in driver identification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "56149104498",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "95",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "427",
+                                    "@last": "437"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "C.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Miyajima",
+                                        "ce:indexed-name": "Miyajima C."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "Y.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Nishiwaki",
+                                        "ce:indexed-name": "Nishiwaki Y."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "K.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Ozawa",
+                                        "ce:indexed-name": "Ozawa K."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proceedings of the IEEE"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A.Wahab, C. Quek, C. K. Tan, K. Takeda, \"Driving profile modeling and recognition based on soft computing approach, \" IEEE Transactions on Neural Networks and Learning Systems, vol. 20, no. 4, pp. 563-582, 2009.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Driving profile modeling and recognition based on soft computing approach"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "65149084774",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "20",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "563",
+                                    "@last": "582"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wahab",
+                                    "ce:indexed-name": "Wahab A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Quek",
+                                    "ce:indexed-name": "Quek C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tan",
+                                    "ce:indexed-name": "Tan C.K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Takeda",
+                                    "ce:indexed-name": "Takeda K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Neural Networks and Learning Systems"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "I. Del Campo, R. Finker, M. V. Martinez, J. Echanobe, F. Doctor, \"A real-time driver identification system based on artificial neural networks and cepstral analysis, \" in Proceedings of the 2014 International Joint Conference on Neural Networks, IJCNN 2014, pp. 1848-1855, China, July 2014.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "A real-time driver identification system based on artificial neural networks and cepstral analysis"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84908480213",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1848",
+                                "@last": "1855"
+                            }},
+                            "ref-text": "IJCNN China, July 2014",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Del Campo",
+                                    "ce:indexed-name": "Del Campo I."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Finker",
+                                    "ce:indexed-name": "Finker R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Martinez",
+                                    "ce:indexed-name": "Martinez M.V."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Echanobe",
+                                    "ce:indexed-name": "Echanobe J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Doctor",
+                                    "ce:indexed-name": "Doctor F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2014 International Joint Conference on Neural Networks"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "M. Enev, A. Takakuwa, K. Koscher, T. Kohno, \"Automobile driver fingerprinting, \" Proceedings on Privacy Enhancing Technologies, vol. 2016, no. 1, 2016.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Automobile driver fingerprinting"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84989922327",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@issue": "1"},
+                                "pagerange": {"@first": "2016"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Enev",
+                                    "ce:indexed-name": "Enev M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Takakuwa",
+                                    "ce:indexed-name": "Takakuwa A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koscher",
+                                    "ce:indexed-name": "Koscher K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kohno",
+                                    "ce:indexed-name": "Kohno T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings on Privacy Enhancing Technologies"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "D.Hallac, A. Sharang, R. Stahlmann et al., \"Driver identification using automobile sensor data froma single turn, \" in Proceedings of the 19th IEEE International Conference on Intelligent Transportation Systems, ITSC 2016, pp. 953-958, Brazil, November 2016.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Driver identification using automobile sensor data froma single turn"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85010065750",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "953",
+                                "@last": "958"
+                            }},
+                            "ref-text": "Brazil, November",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "D.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Hallac",
+                                        "ce:indexed-name": "Hallac D."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "A.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Sharang",
+                                        "ce:indexed-name": "Sharang A."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "R.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Stahlmann",
+                                        "ce:indexed-name": "Stahlmann R."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proceedings of the 19th IEEE International Conference on Intelligent Transportation Systems, ITSC 2016"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "M. V. Martnez, J. Echanobe, I. Del Campo, \"Driver identification and impostor detection based on driving behavior signals, \" in Proceedings of the 19th IEEE International Conference on Intelligent Transportation Systems, ITSC 2016, pp. 372-378, Brazil, November 2016.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Driver identification and impostor detection based on driving behavior signals"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85010042077",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "372",
+                                "@last": "378"
+                            }},
+                            "ref-text": "Brazil, November",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Martnez",
+                                    "ce:indexed-name": "Martnez M.V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Echanobe",
+                                    "ce:indexed-name": "Echanobe J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Del Campo",
+                                    "ce:indexed-name": "Del Campo I."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 19th IEEE International Conference on Intelligent Transportation Systems, ITSC 2016"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "N. C. Fung, B. Wallace, A. D. C. Chan et al., \"Driver identification using vehicle acceleration and deceleration events from naturalistic driving of older drivers, \" in Proceedings of the 12th IEEE International Symposium on Medical Measurements and Applications, MeMeA 2017, pp. 33-38, USA, May 2017.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Driver identification using vehicle acceleration and deceleration events from naturalistic driving of older drivers"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85027887277",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "33",
+                                "@last": "38"
+                            }},
+                            "ref-text": "MeMeA USA, May 2017",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "N.C.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Fung",
+                                        "ce:indexed-name": "Fung N.C."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "B.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Wallace",
+                                        "ce:indexed-name": "Wallace B."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "A.D.C.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Chan",
+                                        "ce:indexed-name": "Chan A.D.C."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proceedings of the 12th IEEE International Symposium on Medical Measurements and Applications"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Ezzini, I. Berrada, M. Ghogho, \"Who isbehindthewheel Driver identification and fingerprinting, \" Journal of Big Data, vol. 5, no. 1, p. 9, 2018.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Who isbehindthewheel Driver identification and fingerprinting"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85042666514",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "5",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {"@first": "9"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ezzini",
+                                    "ce:indexed-name": "Ezzini S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Berrada",
+                                    "ce:indexed-name": "Berrada I."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ghogho",
+                                    "ce:indexed-name": "Ghogho M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Big Data"
+                        }
+                    },
+                    {
+                        "@date-locked": "2021-02-05T00:00:00.000",
+                        "ref-fulltext": "F. Martinelli, F. Mercaldo, A. Orlando, V. Nardone, A. Santone, A. K. Sangaiah, \"Human behavior characterization for driving style recognition in vehicle system, \" Computers and Electrical Engineering, 2018.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Human behavior characterization for driving style recognition in vehicle system"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85039902193",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Martinelli",
+                                    "ce:indexed-name": "Martinelli F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mercaldo",
+                                    "ce:indexed-name": "Mercaldo F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Orlando",
+                                    "ce:indexed-name": "Orlando A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nardone",
+                                    "ce:indexed-name": "Nardone V."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Santone",
+                                    "ce:indexed-name": "Santone A."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "A.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sangaiah",
+                                    "ce:indexed-name": "Sangaiah A.K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computers and Electrical Engineering"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "L. Moreira-Matias and H. Farah, \"On developing a driver identification methodology using in-vehicle data recorders, \" IEEE Transactions on Intelligent Transportation Systems, vol. 18, no. 9, pp. 2387-2396, 2017.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "On developing a driver identification methodology using in-vehicle data recorders"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85009997629",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "18",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {
+                                    "@first": "2387",
+                                    "@last": "2396"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Moreira-Matias",
+                                    "ce:indexed-name": "Moreira-Matias L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Farah",
+                                    "ce:indexed-name": "Farah H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Intelligent Transportation Systems"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Jafarnejad, G. Castignani, T. Engel, \"Towards a realtime driver identification mechanism based on driving sensing data, \" in Proceedings of the 20th IEEE International Conference on Intelligent Transportation Systems, ITSC 2017, pp. 1-7, Japan, October 2017.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Towards a realtime driver identification mechanism based on driving sensing data"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85046298467",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "7"
+                            }},
+                            "ref-text": "Japan, October",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jafarnejad",
+                                    "ce:indexed-name": "Jafarnejad S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Castignani",
+                                    "ce:indexed-name": "Castignani G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Engel",
+                                    "ce:indexed-name": "Engel T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 20th IEEE International Conference on Intelligent Transportation Systems, ITSC 2017"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "P. Phumphuang, P. Wuttidittachotti, C. Saiprasert, \"Driver identification using variance of the acceleration data, \" in Proceedings of the 19th International Computer Science and Engineering Conference, ICSEC 2015, pp. 1-6, IEEE, Thailand, 2015.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Driver identification using variance of the acceleration data"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84964335179",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "6"
+                            }},
+                            "ref-text": "IEEE, Thailand",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Phumphuang",
+                                    "ce:indexed-name": "Phumphuang P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wuttidittachotti",
+                                    "ce:indexed-name": "Wuttidittachotti P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Saiprasert",
+                                    "ce:indexed-name": "Saiprasert C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 19th International Computer Science and Engineering Conference, ICSEC 2015"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "N. Virojboonkiate, P. Vateekul, K. Rojviboonchai, \"Driver identification using histogram and neural network from acceleration data, \" in Proceedings of the 17th IEEE International Conference on Communication Technology, ICCT2017, pp. 1560-1564, China, October 2017.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Driver identification using histogram and neural network from acceleration data"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85047745274",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1560",
+                                "@last": "1564"
+                            }},
+                            "ref-text": "China, October",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Virojboonkiate",
+                                    "ce:indexed-name": "Virojboonkiate N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vateekul",
+                                    "ce:indexed-name": "Vateekul P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rojviboonchai",
+                                    "ce:indexed-name": "Rojviboonchai K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 17th IEEE International Conference on Communication Technology, ICCT2017"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. Chowdhury, T. Chakravarty, A. Ghose, T. Banerjee, P. Balamuralidhar, \"Investigations on Driver Unique Identification from Smartphone's GPS Data Alone, \" Journal of Advanced Transportation, vol. 2018, Article ID 9702730, 11 pages, 2018.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Investigations on driver unique identification from smartphone's GPS data alone"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "9702730",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "85042505305",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2018"},
+                                "pagerange": {"@first": "11"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chowdhury",
+                                    "ce:indexed-name": "Chowdhury A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chakravarty",
+                                    "ce:indexed-name": "Chakravarty T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ghose",
+                                    "ce:indexed-name": "Ghose A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Banerjee",
+                                    "ce:indexed-name": "Banerjee T."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Balamuralidhar",
+                                    "ce:indexed-name": "Balamuralidhar P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Advanced Transportation"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "InvenSense, MPU-6050 Six-Axis (Gyro + Accelerometer) MEMS MotionTracking-Devices, 2013, https://www.invensense.com/products/motion-tracking/6-axis/mpu-6050/.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.invensense.com/products/motion-tracking/6-axis/mpu-6050/",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85062365953",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "InvenSense",
+                            "ref-sourcetitle": "MPU-6050 Six-Axis (Gyro + Accelerometer) MEMS MotionTrackingDevices"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Bangkok",
+        "@id": "60028190",
+        "affilname": "Chulalongkorn University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+        "affiliation-country": "Thailand"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85062370131",
+        "dc:description": "This paper introduces a driver identification system architecture for public transport which utilizes only acceleration sensor data. The system architecture consists of three main modules which are the data collection, data preprocessing, and driver identification module. Data were collected from real operation of campus shuttle buses. In the data preprocessing module, a filtering module is proposed to remove the inactive period of the public transport data. To extract the unique behavior of the driver, a histogram of acceleration sensor data is proposed as a main feature of driver identification. The performance of our system is evaluated in many important aspects, considering axis of acceleration, sliding window size, number of drivers, classifier algorithms, and driving period. Additionally, the case study of impostor detection is implemented by modifying the driver identification module to identify a car thief or carjacking. Our driver identification system can achieve up to 99% accuracy and the impostor detection system can achieve the F1 score of 0.87. As a result, our system architecture can be used as a guideline for implementing the real driver identification system and further driver identification researches.",
+        "prism:coverDate": "2019-01-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85062370131",
+        "subtypeDescription": "Article",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Nuttun",
+            "preferred-name": {
+                "ce:given-name": "Nuttun",
+                "ce:initials": "N.",
+                "ce:surname": "Virojboonkiate",
+                "ce:indexed-name": "Virojboonkiate N."
+            },
+            "@seq": "1",
+            "ce:initials": "N.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Virojboonkiate",
+            "@auid": "57202293476",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57202293476",
+            "ce:indexed-name": "Virojboonkiate N."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85062370131"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85062370131&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85062370131&origin=inward"
+            }
+        ],
+        "prism:publicationName": "Journal of Advanced Transportation",
+        "source-id": "18895",
+        "citedby-count": "9",
+        "prism:volume": "2019",
+        "subtype": "ar",
+        "dc:title": "Public transport driver identification system using histogram of acceleration data",
+        "openaccess": "1",
+        "openaccessFlag": "true",
+        "prism:doi": "10.1155/2019/6372597",
+        "prism:issn": "20423195 01976729",
+        "publishercopyright": "© 2019 Nuttun Virojboonkiate et al.",
+        "article-number": "6372597",
+        "dc:identifier": "SCOPUS_ID:85062370131",
+        "dc:publisher": "Hindawi Limited410 Park Avenue, 15th Floor, 287 pmbNew YorkNY 10022"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Acceleration data",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Acceleration sensors",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Classifier algorithms",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Data preprocessing",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Detection system",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Driver identification",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Public transport",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "System architectures",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": null,
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Automotive Engineering",
+            "@code": "2203",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Economics and Econometrics",
+            "@code": "2002",
+            "@abbrev": "ECON"
+        },
+        {
+            "@_fa": "true",
+            "$": "Mechanical Engineering",
+            "@code": "2210",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Strategy and Management",
+            "@code": "1408",
+            "@abbrev": "BUSI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Nuttun",
+            "preferred-name": {
+                "ce:given-name": "Nuttun",
+                "ce:initials": "N.",
+                "ce:surname": "Virojboonkiate",
+                "ce:indexed-name": "Virojboonkiate N."
+            },
+            "@seq": "1",
+            "ce:initials": "N.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Virojboonkiate",
+            "@auid": "57202293476",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57202293476",
+            "ce:indexed-name": "Virojboonkiate N."
+        },
+        {
+            "ce:given-name": "Adsadawut",
+            "preferred-name": {
+                "ce:given-name": "Adsadawut",
+                "ce:initials": "A.",
+                "ce:surname": "Chanakitkarnchok",
+                "ce:indexed-name": "Chanakitkarnchok A."
+            },
+            "@seq": "2",
+            "ce:initials": "A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Chanakitkarnchok",
+            "@auid": "57191331894",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57191331894",
+            "ce:indexed-name": "Chanakitkarnchok A."
+        },
+        {
+            "ce:given-name": "Peerapon",
+            "preferred-name": {
+                "ce:given-name": "Peerapon",
+                "ce:initials": "P.",
+                "ce:surname": "Vateekul",
+                "ce:indexed-name": "Vateekul P."
+            },
+            "@seq": "3",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Vateekul",
+            "@auid": "24829867400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/24829867400",
+            "ce:indexed-name": "Vateekul P."
+        },
+        {
+            "ce:given-name": "Kultida",
+            "preferred-name": {
+                "ce:given-name": "Kultida",
+                "ce:initials": "K.",
+                "ce:surname": "Rojviboonchai",
+                "ce:indexed-name": "Rojviboonchai K."
+            },
+            "@seq": "4",
+            "ce:initials": "K.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Rojviboonchai",
+            "@auid": "56054228300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56054228300",
+            "ce:indexed-name": "Rojviboonchai K."
+        },
+        {
+            "ce:given-name": "Mohammad H. Y.",
+            "preferred-name": {
+                "ce:given-name": "Mohammad H.Y.",
+                "ce:initials": "M.H.Y.",
+                "ce:surname": "Moghaddam",
+                "ce:indexed-name": "Moghaddam M.H.Y."
+            },
+            "@seq": "5",
+            "ce:initials": "M.H.Y.",
+            "@_fa": "true",
+            "ce:surname": "Moghaddam",
+            "@auid": "57215509896",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57215509896",
+            "ce:indexed-name": "Moghaddam M.H.Y."
+        }
+    ]}
+}}

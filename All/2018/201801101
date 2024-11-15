@@ -1,0 +1,1340 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "28",
+                "@timestamp": "2022-11-28T07:09:19.000019-05:00",
+                "@year": "2022",
+                "@month": "11"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2018",
+                "@month": "07"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": {
+                "xocs:funding-agency-matched-string": "Chulalongkorn University",
+                "xocs:funding-agency-acronym": "CU",
+                "xocs:funding-agency": "Chulalongkorn University",
+                "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002873",
+                "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+            },
+            "xocs:funding-addon-generated-timestamp": "2021-05-29T13:11:47.281Z",
+            "xocs:funding-text": "This research is supported by Rachadapisek Sompote Fund for Postdoctoral Fellowship, Chulalongkorn University. The authors would like to thank Prof. Shinji Hara for his fruitful discussions and helpful suggestions. The authors are grateful to Department of Electrical Engineering, Faculty of Engineering, Chulalongkorn University for providing research facility.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "address-part": "254 Phayathai Road, Pathumwan",
+                            "postal-code": "10330",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Department of Electrical Engineering"},
+                                {"$": "Faculty of Engineering"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "113845132"
+                            },
+                            "@affiliation-instance-id": "S0167691118300823-d554f5ca7b9ec06e95d4f211e20c2886",
+                            "@dptid": "113845132"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Tanagorn",
+                                "preferred-name": {
+                                    "ce:given-name": "Tanagorn",
+                                    "ce:initials": "T.",
+                                    "ce:surname": "Jennawasin",
+                                    "ce:indexed-name": "Jennawasin T."
+                                },
+                                "@author-instance-id": "S0167691118300823-2197c4f1e3f1af0e98b57c3378345901",
+                                "@seq": "1",
+                                "ce:initials": "T.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Jennawasin",
+                                "@auid": "23569263400",
+                                "ce:indexed-name": "Jennawasin T."
+                            },
+                            {
+                                "ce:given-name": "David",
+                                "preferred-name": {
+                                    "ce:given-name": "David",
+                                    "ce:initials": "D.",
+                                    "ce:surname": "Banjerdpongchai",
+                                    "ce:indexed-name": "Banjerdpongchai D."
+                                },
+                                "@author-instance-id": "S0167691118300823-470d6dddbb7be55016a4678f8471f36e",
+                                "@seq": "2",
+                                "ce:initials": "D.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Banjerdpongchai",
+                                "@auid": "57977758500",
+                                "ce:indexed-name": "Banjerdpongchai D."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "address-part": "126 Pracha Uthit Rd., Bang Mod, Thung Khru",
+                            "postal-code": "10140",
+                            "@afid": "60008786",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Department of Control System and Instrumentation Engineering"},
+                                {"$": "Faculty of Engineering"},
+                                {"$": "King Mongkuts University of Technology Thonburi"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60008786",
+                                "@dptid": "104913703"
+                            },
+                            "@affiliation-instance-id": "S0167691118300823-15574390c292a292d9189fd9adbd541b",
+                            "@dptid": "104913703"
+                        },
+                        "author": [{
+                            "ce:given-name": "Tanagorn",
+                            "preferred-name": {
+                                "ce:given-name": "Tanagorn",
+                                "ce:initials": "T.",
+                                "ce:surname": "Jennawasin",
+                                "ce:indexed-name": "Jennawasin T."
+                            },
+                            "@author-instance-id": "S0167691118300823-2197c4f1e3f1af0e98b57c3378345901",
+                            "@seq": "1",
+                            "ce:initials": "T.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Jennawasin",
+                            "@auid": "23569263400",
+                            "ce:indexed-name": "Jennawasin T."
+                        }]
+                    }
+                ],
+                "citation-title": "Design of state-feedback control for polynomial systems with quadratic performance criterion and control input constraints",
+                "abstracts": "© 2018 Elsevier B.V.This paper presents a novel convex optimization approach to design state-feedback control for polynomial systems. Design criteria are comprised of a quadratic cost function and bounded magnitudes of control inputs. Specifically, we formulate a control synthesis of closed-loop systems operated in a given bounded domain characterized by a semi-algebraic set. We consider an extended class of rational Lyapunov functions and derive an upper bound of the cost function, together with a state-feedback control law. By exploiting bounds on the control input magnitudes, the controller design condition can be cast as a parameter-dependent linear matrix inequality (PDLMI), which is convex optimization and can be efficiently solved by sum-of-squares (SOS) technique. In addition, we derive a sufficient condition to compute a lower bound of the cost function. When choosing polynomial structure of the solution candidate, the lower bound can also be written as PDLMI. Numerical examples are provided to illustrate the effectiveness of the proposed design.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "address-part": "254 Phayathai Road, Pathumwan",
+                        "postal-code": "10330",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Department of Electrical Engineering"},
+                            {"$": "Faculty of Engineering"},
+                            {"$": "Chulalongkorn University"}
+                        ]
+                    },
+                    "person": {
+                        "ce:given-name": "David",
+                        "ce:initials": "D.",
+                        "ce:surname": "Banjerdpongchai",
+                        "ce:indexed-name": "Banjerdpongchai D."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Control input constraint",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Convex optimization",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Polynomial systems",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Quadratic performance criterion",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Rational Lyapunov functions",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "State-feedback control",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "codencode": "SCLED",
+                    "sourcetitle-abbrev": "Syst Control Lett",
+                    "@country": "nld",
+                    "translated-sourcetitle": {
+                        "$": "Systems and Control Letters",
+                        "@xml:lang": "eng"
+                    },
+                    "issn": {
+                        "$": "01676911",
+                        "@type": "print"
+                    },
+                    "volisspag": {
+                        "voliss": {"@volume": "117"},
+                        "pagerange": {
+                            "@first": "53",
+                            "@last": "59"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2018"},
+                    "publisher": {"publishername": "Elsevier B.V."},
+                    "sourcetitle": "Systems and Control Letters",
+                    "@srcid": "25563",
+                    "publicationdate": {
+                        "month": "07",
+                        "year": "2018",
+                        "date-text": "July 2018",
+                        "day": "01"
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "731.1",
+                                "classification-description": "Control Systems"
+                            },
+                            {
+                                "classification-code": "732.1",
+                                "classification-description": "Control Equipment"
+                            },
+                            {
+                                "classification-code": "911",
+                                "classification-description": "Cost and Value Engineering; Industrial Economics"
+                            },
+                            {
+                                "classification-code": "921",
+                                "classification-description": "Applied Mathematics"
+                            },
+                            {
+                                "classification-code": "961",
+                                "classification-description": "Systems Science"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2207"},
+                            {"$": "1700"},
+                            {"$": "2210"},
+                            {"$": "2208"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "ENGI"},
+                            {"$": "COMP"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2018 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "28",
+                    "@timestamp": "BST 10:18:50",
+                    "@year": "2018",
+                    "@month": "05"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2000786214",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "910819429",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20182205241370",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20180907370",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20181652293",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85047326920",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85047326920",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:pii": "S0167691118300823",
+                    "ce:doi": "10.1016/j.sysconle.2018.05.004"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "19",
+                "reference": [
+                    {
+                        "ref-fulltext": "Ben-Tal, A., Nemirovski, A., On tractable approximations of uncertain linear matrix inequalities affected by interval uncertainty. SIAM J. Optim. 12:3 (2002), 811\u2013833.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "On tractable approximations of uncertain linear matrix inequalities affected by interval uncertainty"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b1",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0036353423",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "12",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "811",
+                                    "@last": "833"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ben-Tal",
+                                    "ce:indexed-name": "Ben-Tal A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nemirovski",
+                                    "ce:indexed-name": "Nemirovski A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "SIAM J. Optim."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Scherer, C.W., Hol, C.W.J., Matrix sum-of-squares relaxations for robust semi-definite programs. Math. Program. B 107:1\u20132 (2006), 189\u2013211.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Matrix sum-of-squares relaxations for robust semi-definite programs"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b2",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "33644666304",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "107",
+                                    "@issue": "1-2"
+                                },
+                                "pagerange": {
+                                    "@first": "189",
+                                    "@last": "211"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Scherer",
+                                    "ce:indexed-name": "Scherer C.W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.W.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hol",
+                                    "ce:indexed-name": "Hol C.W.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Math. Program. B"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ichihara, H., Optimal control for polynomial systems using matrix sum of squares relaxation. IEEE Trans. Automat. Control 54:5 (2009), 1048\u20131053.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Optimal control for polynomial systems using matrix sum of squares relaxation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b3",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "67349258987",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "54",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "1048",
+                                    "@last": "1053"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "H.",
+                                "@_fa": "true",
+                                "ce:surname": "Ichihara",
+                                "ce:indexed-name": "Ichihara H."
+                            }]},
+                            "ref-sourcetitle": "IEEE Trans. Automat. Control"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Prajna, A. Papachristodoulou, F. Wu, Nonlinear control synthesis by sum of squares optimization: A Lyapunov-based approach, in: Proceedings of the Asian Control Conference, Melbourne, Australia, 2004, pp. 157\u2013165.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Nonlinear control synthesis by sum of squares optimization: A Lyapunov-based approach"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b4",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "16244409837",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "157",
+                                "@last": "165"
+                            }},
+                            "ref-text": "Proceedings of the Asian Control Conference, Melbourne, Australia",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Prajna",
+                                    "ce:indexed-name": "Prajna S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Papachristodoulou",
+                                    "ce:indexed-name": "Papachristodoulou A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu F."
+                                }
+                            ]}
+                        }
+                    },
+                    {
+                        "ref-fulltext": "D. Zhao, J. Wang, An improved nonlinear H∞synthesis for parameter-dependent polynomial nonlinear systems using SOS programming, in: Proceedings of the 2009 American Control Conference, St. Louis, USA, 2009, pp. 796\u2013801.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b5",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "70449639851",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "796",
+                                "@last": "801"
+                            }},
+                            "ref-text": "An improved nonlinear H∞synthesis for parameter-dependent polynomial nonlinear systems using SOS programming, in: Proceedings of the 2009 American Control Conference, St. Louis, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang J."
+                                }
+                            ]}
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Zheng, Q., Wu, F., Regional stabilisation of polynomial non-linear systems using rational Lyapunov functions. Internat. J. Control 82:9 (2009), 1605\u20131615.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Regional stabilisation of polynomial non-linear systems using rational Lyapunov functions"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b6",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "68949159949",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "82",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {
+                                    "@first": "1605",
+                                    "@last": "1615"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zheng",
+                                    "ce:indexed-name": "Zheng Q."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Internat. J. Control"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Chesi, G., Estimation and control of the robust domain of attraction via rational Lyapunov functions. Automatica 49:4 (2013), 1051\u20131057.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Estimation and control of the robust domain of attraction via rational Lyapunov functions"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b7",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84875229266",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "49",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "1051",
+                                    "@last": "1057"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "G.",
+                                "@_fa": "true",
+                                "ce:surname": "Chesi",
+                                "ce:indexed-name": "Chesi G."
+                            }]},
+                            "ref-sourcetitle": "Automatica"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ebenbauer, C., Allgower, F., Stability analysis of constrained control systems: An alternative approach. Systems Control Lett. 56:2 (2007), 93\u201398.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Stability analysis of constrained control systems: An alternative approach"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b8",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "33845212775",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "56",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "93",
+                                    "@last": "98"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ebenbauer",
+                                    "ce:indexed-name": "Ebenbauer C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Allgower",
+                                    "ce:indexed-name": "Allgower F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Systems Control Lett."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Gußner, T., Jost, M., Adamy, J., Controller design for a class of nonlinear systems with input saturation using convex optimization. Systems Control Lett. 61:1 (2012), 258\u2013265.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Controller design for a class of nonlinear systems with input saturation using convex optimization"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b9",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "82955189187",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "61",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "258",
+                                    "@last": "265"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gußner",
+                                    "ce:indexed-name": "Gussner T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jost",
+                                    "ce:indexed-name": "Jost M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Adamy",
+                                    "ce:indexed-name": "Adamy J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Systems Control Lett."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Valmorbida, G., Anderson, J., Region of attraction estimation using invariant sets and rational Lyapunov functions. Automatica 75 (2017), 37\u201345.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Region of attraction estimation using invariant sets and rational Lyapunov functions"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b10",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84994339087",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "75"},
+                                "pagerange": {
+                                    "@first": "37",
+                                    "@last": "45"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Valmorbida",
+                                    "ce:indexed-name": "Valmorbida G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Anderson",
+                                    "ce:indexed-name": "Anderson J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Automatica"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Parrilo, P.A., Structured semidefinite programs and semialgebraic geometry methods in robustness and optimization. (Ph.D. thesis), 2000, California Institute of Technology, USA.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-title": {"ref-titletext": "Structured semidefinite programs and semialgebraic geometry methods in robustness and optimization"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b11",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0003406070",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "(Ph.D. thesis) California Institute of Technology USA",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "P.A.",
+                                "@_fa": "true",
+                                "ce:surname": "Parrilo",
+                                "ce:indexed-name": "Parrilo P.A."
+                            }]}
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ichihara, H., A convex approach to state feedback synthesis for polynomial nonlinear systems with input saturation. SICE J. Control Meas. Syst. Integr. 6:3 (2013), 186\u2013193.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "A convex approach to state feedback synthesis for polynomial nonlinear systems with input saturation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b12",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85027590161",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "6",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "186",
+                                    "@last": "193"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "H.",
+                                "@_fa": "true",
+                                "ce:surname": "Ichihara",
+                                "ce:indexed-name": "Ichihara H."
+                            }]},
+                            "ref-sourcetitle": "SICE J. Control Meas. Syst. Integr."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Jennawasin, T., Kawanishi, M., Narikiyo, T., Performance bounds for optimal control of polynomial systems: A convex optimization approach. SICE J. Control Meas. Syst. Integr. 4:6 (2011), 423\u2013429.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Performance bounds for optimal control of polynomial systems: A convex optimization approach"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b13",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84906573115",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "4",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "423",
+                                    "@last": "429"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jennawasin",
+                                    "ce:indexed-name": "Jennawasin T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kawanishi",
+                                    "ce:indexed-name": "Kawanishi M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Narikiyo",
+                                    "ce:indexed-name": "Narikiyo T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "SICE J. Control Meas. Syst. Integr."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Valmorbida, G., Tarbouriech, S., Garcia, G., Design of polynomial control laws for polynomial systems subject to actuator saturation. IEEE Trans. Automat. Control 58:7 (2013), 1758\u20131770.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Design of polynomial control laws for polynomial systems subject to actuator saturation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b14",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84879907188",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "58",
+                                    "@issue": "7"
+                                },
+                                "pagerange": {
+                                    "@first": "1758",
+                                    "@last": "1770"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Valmorbida",
+                                    "ce:indexed-name": "Valmorbida G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tarbouriech",
+                                    "ce:indexed-name": "Tarbouriech S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Garcia",
+                                    "ce:indexed-name": "Garcia G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Automat. Control"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "T. Jennawasin, D. Banjerdpongchai, Design of state-feedback quadratic regulator for polynomial systems using sum-of-squares approach, in: Proceedings of the 2016 international automatic control conference, Taichung, Taiwan, 2016, pp. 116\u2013121.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Design of state-feedback quadratic regulator for polynomial systems using sum-of-squares approach"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b15",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85027550889",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "116",
+                                "@last": "121"
+                            }},
+                            "ref-text": "Proceedings of the 2016 international automatic control conference, Taichung, Taiwan",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jennawasin",
+                                    "ce:indexed-name": "Jennawasin T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Banjerdpongchai",
+                                    "ce:indexed-name": "Banjerdpongchai D."
+                                }
+                            ]}
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Vidyasagar, M., Nonlinear systems analysis. second ed., 2002, SIAM, Philadelphia.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Nonlinear systems analysis"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b16",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "55649094865",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "second ed. SIAM Philadelphia",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "ce:surname": "Vidyasagar",
+                                "ce:indexed-name": "Vidyasagar M."
+                            }]}
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Anderson, B.D.O., Moore, J.B., Optimal control: Linear quadratic methods. 1990, Prentice-Hall, NJ.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1990"},
+                            "ref-title": {"ref-titletext": "Optimal control: Linear quadratic methods"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b17",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0003650411",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Prentice-Hall NJ",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.D.O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Anderson",
+                                    "ce:indexed-name": "Anderson B.D.O."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Moore",
+                                    "ce:indexed-name": "Moore J.B."
+                                }
+                            ]}
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. Löfberg, YALMIP: A toolbox for modeling and optimization in MATLAB, in: Proceedings of the 2004 IEEE international symposium on CACSD, Taipei, Taiwan, 2004, pp. 284\u2013289.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "YALMIP: A toolbox for modeling and optimization in MATLAB"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b18",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "20344396845",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "284",
+                                "@last": "289"
+                            }},
+                            "ref-text": "Proceedings of the 2004 IEEE international symposium on CACSD, Taipei, Taiwan",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "ce:surname": "Löfberg",
+                                "ce:indexed-name": "Lofberg J."
+                            }]}
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Prajna, S., Parrilo, P.A., Rantzers, A., Nonlinear control synthesis by convex optimization. IEEE Trans. Automat. Control 49:2 (2004), 310\u2013314.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Nonlinear control synthesis by convex optimization"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b19",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "1442288703",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "49",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "310",
+                                    "@last": "314"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Prajna",
+                                    "ce:indexed-name": "Prajna S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Parrilo",
+                                    "ce:indexed-name": "Parrilo P.A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rantzers",
+                                    "ce:indexed-name": "Rantzers A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Automat. Control"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Thonburi",
+            "@id": "60008786",
+            "affilname": "King Mongkut's University of Technology Thonburi",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60008786",
+            "affiliation-country": "Thailand"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85047326920",
+        "dc:description": "This paper presents a novel convex optimization approach to design state-feedback control for polynomial systems. Design criteria are comprised of a quadratic cost function and bounded magnitudes of control inputs. Specifically, we formulate a control synthesis of closed-loop systems operated in a given bounded domain characterized by a semi-algebraic set. We consider an extended class of rational Lyapunov functions and derive an upper bound of the cost function, together with a state-feedback control law. By exploiting bounds on the control input magnitudes, the controller design condition can be cast as a parameter-dependent linear matrix inequality (PDLMI), which is convex optimization and can be efficiently solved by sum-of-squares (SOS) technique. In addition, we derive a sufficient condition to compute a lower bound of the cost function. When choosing polynomial structure of the solution candidate, the lower bound can also be written as PDLMI. Numerical examples are provided to illustrate the effectiveness of the proposed design.",
+        "prism:coverDate": "2018-07-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85047326920",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Tanagorn",
+            "preferred-name": {
+                "ce:given-name": "Tanagorn",
+                "ce:initials": "T.",
+                "ce:surname": "Jennawasin",
+                "ce:indexed-name": "Jennawasin T."
+            },
+            "@seq": "1",
+            "ce:initials": "T.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60028190",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+                },
+                {
+                    "@id": "60008786",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60008786"
+                }
+            ],
+            "ce:surname": "Jennawasin",
+            "@auid": "23569263400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/23569263400",
+            "ce:indexed-name": "Jennawasin T."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85047326920"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85047326920&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85047326920&origin=inward"
+            }
+        ],
+        "source-id": "25563",
+        "pii": "S0167691118300823",
+        "citedby-count": "13",
+        "prism:volume": "117",
+        "subtype": "ar",
+        "dc:title": "Design of state-feedback control for polynomial systems with quadratic performance criterion and control input constraints",
+        "openaccess": "0",
+        "prism:issn": "01676911",
+        "publishercopyright": "© 2018 Elsevier B.V.",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "Systems and Control Letters",
+        "prism:pageRange": "53-59",
+        "prism:endingPage": "59",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1016/j.sysconle.2018.05.004",
+        "prism:startingPage": "53",
+        "dc:identifier": "SCOPUS_ID:85047326920",
+        "dc:publisher": "Elsevier B.V."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Control input constraints",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Optimization approach",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Parameter-dependent linear matrix inequality",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Polynomial systems",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Quadratic cost functions",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Quadratic performance criterion",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "State feedback control law",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Sum-of-squares techniques",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Control input constraint"
+        },
+        {
+            "@_fa": "true",
+            "$": "Convex optimization"
+        },
+        {
+            "@_fa": "true",
+            "$": "Polynomial systems"
+        },
+        {
+            "@_fa": "true",
+            "$": "Quadratic performance criterion"
+        },
+        {
+            "@_fa": "true",
+            "$": "Rational Lyapunov functions"
+        },
+        {
+            "@_fa": "true",
+            "$": "State-feedback control"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Control and Systems Engineering",
+            "@code": "2207",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science (all)",
+            "@code": "1700",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Mechanical Engineering",
+            "@code": "2210",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Tanagorn",
+            "preferred-name": {
+                "ce:given-name": "Tanagorn",
+                "ce:initials": "T.",
+                "ce:surname": "Jennawasin",
+                "ce:indexed-name": "Jennawasin T."
+            },
+            "@seq": "1",
+            "ce:initials": "T.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60028190",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+                },
+                {
+                    "@id": "60008786",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60008786"
+                }
+            ],
+            "ce:surname": "Jennawasin",
+            "@auid": "23569263400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/23569263400",
+            "ce:indexed-name": "Jennawasin T."
+        },
+        {
+            "ce:given-name": "David",
+            "preferred-name": {
+                "ce:given-name": "David",
+                "ce:initials": "D.",
+                "ce:surname": "Banjerdpongchai",
+                "ce:indexed-name": "Banjerdpongchai D."
+            },
+            "@seq": "2",
+            "ce:initials": "D.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Banjerdpongchai",
+            "@auid": "57977758500",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57977758500",
+            "ce:indexed-name": "Banjerdpongchai D."
+        }
+    ]}
+}}

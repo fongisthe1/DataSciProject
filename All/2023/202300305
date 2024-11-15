@@ -1,0 +1,2429 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "14",
+                "@timestamp": "2023-09-14T07:09:34.000034-04:00",
+                "@year": "2023",
+                "@month": "09"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2023",
+                "@month": "09"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": {
+                "xocs:funding-agency-matched-string": "Horizon Europe research and innovation programme",
+                "xocs:funding-id": "101097560"
+            },
+            "xocs:funding-addon-generated-timestamp": "2023-09-14T08:18:48.718Z",
+            "xocs:funding-text": "This work has received funding from the KDT Joint Undertaken as part of the European Union\u2019s Horizon Europe research and innovation programme, CLEVER Project, grant agreement No. 101097560.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "address-part": "Pathumwan",
+                            "postal-code": "10330",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Department of Computer Engineering"},
+                                {"$": "Faculty of Engineering"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "113891981"
+                            },
+                            "@affiliation-instance-id": "OB2BibRecID-950637300-b9bc9a2be2b9a75e96e9dbf55eb91058-1",
+                            "ce:source-text": "Department of Computer Engineering, Faculty of Engineering, Chulalongkorn University, Pathumwan, Bangkok 10330, Thailand",
+                            "@dptid": "113891981"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Rana",
+                                "preferred-name": {
+                                    "ce:given-name": "Rana",
+                                    "ce:initials": "R.",
+                                    "ce:surname": "Abu Bakar",
+                                    "ce:indexed-name": "Abu Bakar R."
+                                },
+                                "@author-instance-id": "OB2BibRecID-950637300-baa076c2d875c31b749a0be0ae48129f-1",
+                                "@seq": "1",
+                                "ce:initials": "R.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Abu Bakar",
+                                "@auid": "57945837400",
+                                "@orcid": "0000-0002-4206-4999",
+                                "ce:indexed-name": "Abu Bakar R."
+                            },
+                            {
+                                "ce:given-name": "Boonserm",
+                                "preferred-name": {
+                                    "ce:given-name": "Boonserm",
+                                    "ce:initials": "B.",
+                                    "ce:surname": "Kijsirikul",
+                                    "ce:indexed-name": "Kijsirikul B."
+                                },
+                                "@author-instance-id": "OB2BibRecID-950637300-02933fdd82065ed00d46b84843b36de5-1",
+                                "@seq": "2",
+                                "ce:initials": "B.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Kijsirikul",
+                                "@auid": "6603602953",
+                                "ce:indexed-name": "Kijsirikul B."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Italy",
+                            "postal-code": "56124",
+                            "@afid": "60103966",
+                            "@country": "ita",
+                            "city": "Pisa",
+                            "organization": {"$": "CNIT"},
+                            "affiliation-id": {"@afid": "60103966"},
+                            "@affiliation-instance-id": "OB2BibRecID-950637300-0355814d0f9b43f831704ce0a749d762-1",
+                            "ce:source-text": "CNIT, Pisa, 56124, Italy"
+                        },
+                        "author": [{
+                            "ce:given-name": "Rana",
+                            "preferred-name": {
+                                "ce:given-name": "Rana",
+                                "ce:initials": "R.",
+                                "ce:surname": "Abu Bakar",
+                                "ce:indexed-name": "Abu Bakar R."
+                            },
+                            "@author-instance-id": "OB2BibRecID-950637300-255213405ef9173af6ee0d75c89a28ae-1",
+                            "@seq": "1",
+                            "ce:initials": "R.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Abu Bakar",
+                            "@auid": "57945837400",
+                            "ce:indexed-name": "Abu Bakar R."
+                        }]
+                    }
+                ],
+                "citation-title": "Enhancing Network Visibility and Security with Advanced Port Scanning Techniques",
+                "abstracts": "© 2023 by the authors.Network security is paramount in today\u2019s digital landscape, where cyberthreats continue to evolve and pose significant risks. We propose a DPDK-based scanner based on a study on advanced port scanning techniques to improve network visibility and security. The traditional port scanning methods suffer from speed, accuracy, and efficiency limitations, hindering effective threat detection and mitigation. In this paper, we develop and implement advanced techniques such as protocol-specific probes and evasive scan techniques to enhance the visibility and security of networks. We also evaluate network scanning performance and scalability using programmable hardware, including smart NICs and DPDK-based frameworks, along with in-network processing, data parallelization, and hardware acceleration. Additionally, we leverage application-level protocol parsing to accelerate network discovery and mapping, analyzing protocol-specific information. In our experimental evaluation, our proposed DPDK-based scanner demonstrated a significant improvement in target scanning speed, achieving a 2× speedup compared to other scanners in a target scanning environment. Furthermore, our scanner achieved a high accuracy rate of 99.5% in identifying open ports. Notably, our solution also exhibited a lower CPU and memory utilization, with an approximately 40% reduction compared to alternative scanners. These results highlight the effectiveness and efficiency of our proposed scanning techniques in enhancing network visibility and security. The outcomes of this research contribute to the field by providing insights and innovations to improve network security, identify vulnerabilities, and optimize network performance.",
+                "correspondence": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "address-part": "Pathumwan",
+                            "postal-code": "10330",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Department of Computer Engineering"},
+                                {"$": "Faculty of Engineering"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "@affiliation-instance-id": "OB2BibRecID-950637300-b9bc9a2be2b9a75e96e9dbf55eb91058-1",
+                            "ce:source-text": "Department of Computer Engineering, Faculty of Engineering, Chulalongkorn University, Pathumwan, Bangkok 10330, Thailand"
+                        },
+                        "person": {
+                            "ce:given-name": "Rana",
+                            "@author-instance-id": "OB2BibRecID-950637300-4848e9f237103933df4b70c3c2736cbb-1",
+                            "ce:initials": "R.",
+                            "ce:surname": "Abu Bakar",
+                            "ce:indexed-name": "Abu Bakar R."
+                        }
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "address-part": "Bangkok",
+                            "postal-code": "10330",
+                            "@country": "tha",
+                            "city": "Pathumwan",
+                            "organization": [
+                                {"$": "Department of Computer Engineering"},
+                                {"$": "Faculty of Engineering"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "@affiliation-instance-id": "OB2BibRecID-950637300-3890d7e7877f116880aca72135e43641-1",
+                            "ce:source-text": "Department of Computer Engineering, Faculty of Engineering, Chulalongkorn University, Pathumwan, Bangkok 10330, Thailand"
+                        },
+                        "person": {
+                            "ce:given-name": "Boonserm",
+                            "@author-instance-id": "OB2BibRecID-950637300-93e5915b8e4cf4eb53da33c11bf61cb5-1",
+                            "ce:initials": "B.",
+                            "ce:surname": "Kijsirikul",
+                            "ce:indexed-name": "Kijsirikul B."
+                        }
+                    }
+                ],
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "intrusion detection system",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "network security",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "network visibility",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "port scanning",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "vulnerability assessment",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://www.mdpi.com/journal/sensors",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Sensors",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"voliss": {
+                        "@volume": "23",
+                        "@issue": "17"
+                    }},
+                    "@type": "j",
+                    "sourcetitle": "Sensors",
+                    "publicationdate": {
+                        "month": "09",
+                        "year": "2023",
+                        "date-text": "September 2023",
+                        "day": "01"
+                    },
+                    "sourcetitle-abbrev": "Sensors",
+                    "@country": "che",
+                    "issn": {
+                        "$": "14248220",
+                        "@type": "print"
+                    },
+                    "publicationyear": {"@first": "2023"},
+                    "publisher": {"publishername": "Multidisciplinary Digital Publishing Institute (MDPI)"},
+                    "article-number": "7541",
+                    "@srcid": "130124"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "722.3",
+                                "classification-description": "Data Communication, Equipment and Techniques"
+                            },
+                            {
+                                "classification-code": "723",
+                                "classification-description": "Computer Software, Data Handling and Applications"
+                            },
+                            {
+                                "classification-code": "741.2",
+                                "classification-description": "Vision"
+                            },
+                            {
+                                "classification-code": "913.1",
+                                "classification-description": "Production Engineering"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1602"},
+                            {"$": "1710"},
+                            {"$": "3107"},
+                            {"$": "1303"},
+                            {"$": "3105"},
+                            {"$": "2208"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "CHEM"},
+                            {"$": "COMP"},
+                            {"$": "PHYS"},
+                            {"$": "BIOC"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This work has received funding from the KDT Joint Undertaken as part of the European Union\u2019s Horizon Europe research and innovation programme, CLEVER Project, grant agreement No. 101097560.",
+                        "@xml:lang": "eng"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2023 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"},
+                    {"$": "MEDL"}
+                ],
+                "history": {"date-created": {
+                    "@day": "13",
+                    "@timestamp": "BST 07:04:00",
+                    "@year": "2023",
+                    "@month": "09"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2025319866",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "950637300",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20233714711886",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20232736295",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20233409605",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "20239030235108",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85170338559",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85170338559",
+                            "@idtype": "SGR"
+                        },
+                        {
+                            "$": "642228488",
+                            "@idtype": "PUIsecondary"
+                        },
+                        {
+                            "$": "37687997",
+                            "@idtype": "MEDL"
+                        },
+                        {
+                            "$": "78324399",
+                            "@idtype": "OSIN"
+                        }
+                    ],
+                    "ce:doi": "10.3390/s23177541"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "32",
+                "reference": [
+                    {
+                        "ref-fulltext": "Choo K.K.R. The cyber threat landscape: Challenges and future research directions Comput. Secur. 2011 30 719 731 10.1016/j.cose.2011.08.004",
+                        "@reference-instance-id": "OB2BibRecID-950637300-84ce41ec68fe39535f3f255110a176f1-1",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "The cyber threat landscape: Challenges and future research directions"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/j.cose.2011.08.004",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "B1-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "80955142795",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "30"},
+                                "pagerange": {
+                                    "@first": "719",
+                                    "@last": "731"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "K.K.R.",
+                                "@_fa": "true",
+                                "ce:surname": "Choo",
+                                "ce:indexed-name": "Choo K.K.R."
+                            }]},
+                            "ref-sourcetitle": "Comput. Secur"
+                        },
+                        "ce:source-text": "Choo K.K.R. The cyber threat landscape: Challenges and future research directions Comput. Secur. 2011 30 719 731 10.1016/j.cose.2011.08.004"
+                    },
+                    {
+                        "ref-fulltext": "Rizvi S. Orr R. Cox A. Ashokkumar P. Rizvi M.R. Identifying the attack surface for IoT network Internet Things 2020 9 100162 10.1016/j.iot.2020.100162",
+                        "@reference-instance-id": "OB2BibRecID-950637300-59ee1773b15563bd9247b7d1f6d76153-2",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Identifying the attack surface for IoT network"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/j.iot.2020.100162",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "B2-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85084535895",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "9"},
+                                "pagerange": {"@first": "100162"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rizvi",
+                                    "ce:indexed-name": "Rizvi S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Orr",
+                                    "ce:indexed-name": "Orr R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cox",
+                                    "ce:indexed-name": "Cox A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ashokkumar",
+                                    "ce:indexed-name": "Ashokkumar P."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rizvi",
+                                    "ce:indexed-name": "Rizvi M.R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Internet Things"
+                        },
+                        "ce:source-text": "Rizvi S. Orr R. Cox A. Ashokkumar P. Rizvi M.R. Identifying the attack surface for IoT network Internet Things 2020 9 100162 10.1016/j.iot.2020.100162"
+                    },
+                    {
+                        "ref-fulltext": "Zissis D. Lekkas D. Addressing cloud computing security issues Future Gener. Comput. Syst. 2012 28 583 592 10.1016/j.future.2010.12.006",
+                        "@reference-instance-id": "OB2BibRecID-950637300-ae9564a2de22884744db81d00868d680-3",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Addressing cloud computing security issues"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/j.future.2010.12.006",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "B3-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "79959557055",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "28"},
+                                "pagerange": {
+                                    "@first": "583",
+                                    "@last": "592"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zissis",
+                                    "ce:indexed-name": "Zissis D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lekkas",
+                                    "ce:indexed-name": "Lekkas D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Future Gener. Comput. Syst"
+                        },
+                        "ce:source-text": "Zissis D. Lekkas D. Addressing cloud computing security issues Future Gener. Comput. Syst. 2012 28 583 592 10.1016/j.future.2010.12.006"
+                    },
+                    {
+                        "ref-fulltext": "Alcaraz C. Zeadally S. Critical infrastructure protection: Requirements and challenges for the 21st century Int. J. Crit. Infrastruct. Prot. 2015 8 53 66 10.1016/j.ijcip.2014.12.002",
+                        "@reference-instance-id": "OB2BibRecID-950637300-880dd3630394a2b8513784cb7d0a866e-4",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Critical infrastructure protection: Requirements and challenges for the 21st century"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/j.ijcip.2014.12.002",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "B4-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84922217316",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "8"},
+                                "pagerange": {
+                                    "@first": "53",
+                                    "@last": "66"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alcaraz",
+                                    "ce:indexed-name": "Alcaraz C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zeadally",
+                                    "ce:indexed-name": "Zeadally S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Crit. Infrastruct. Prot"
+                        },
+                        "ce:source-text": "Alcaraz C. Zeadally S. Critical infrastructure protection: Requirements and challenges for the 21st century Int. J. Crit. Infrastruct. Prot. 2015 8 53 66 10.1016/j.ijcip.2014.12.002"
+                    },
+                    {
+                        "ref-fulltext": "Tariq N. Asim M. Al-Obeidat F. Zubair Farooqi M. Baker T. Hammoudeh M. Ghafir I. The security of big data in fog-enabled IoT applications including blockchain: A survey Sensors 2019 19 1788 10.3390/s19081788 31013993",
+                        "@reference-instance-id": "OB2BibRecID-950637300-b92fbf74e1d7a61511a17b2d84b6d2e2-5",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "The security of big data in fog-enabled IoT applications including blockchain: A survey"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.3390/s19081788",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "B5-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "1788",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "85065293171",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "19"}},
+                            "ref-text": "31013993",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tariq",
+                                    "ce:indexed-name": "Tariq N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Asim",
+                                    "ce:indexed-name": "Asim M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Al-Obeidat",
+                                    "ce:indexed-name": "Al-Obeidat F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zubair Farooqi",
+                                    "ce:indexed-name": "Zubair Farooqi M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Baker",
+                                    "ce:indexed-name": "Baker T."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hammoudeh",
+                                    "ce:indexed-name": "Hammoudeh M."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ghafir",
+                                    "ce:indexed-name": "Ghafir I."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sensors"
+                        },
+                        "ce:source-text": "Tariq N. Asim M. Al-Obeidat F. Zubair Farooqi M. Baker T. Hammoudeh M. Ghafir I. The security of big data in fog-enabled IoT applications including blockchain: A survey Sensors 2019 19 1788 10.3390/s19081788 31013993"
+                    },
+                    {
+                        "ref-fulltext": "Kimani K. Oduol V. Langat K. Cyber security challenges for IoT-based smart grid networks Int. J. Crit. Infrastruct. Prot. 2019 25 36 49 10.1016/j.ijcip.2019.01.001",
+                        "@reference-instance-id": "OB2BibRecID-950637300-0dd1d63f43f610da338813bdd6a97837-6",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Cyber security challenges for IoT-based smart grid networks"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/j.ijcip.2019.01.001",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "B6-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85061432230",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "25"},
+                                "pagerange": {
+                                    "@first": "36",
+                                    "@last": "49"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kimani",
+                                    "ce:indexed-name": "Kimani K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oduol",
+                                    "ce:indexed-name": "Oduol V."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Langat",
+                                    "ce:indexed-name": "Langat K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Crit. Infrastruct. Prot"
+                        },
+                        "ce:source-text": "Kimani K. Oduol V. Langat K. Cyber security challenges for IoT-based smart grid networks Int. J. Crit. Infrastruct. Prot. 2019 25 36 49 10.1016/j.ijcip.2019.01.001"
+                    },
+                    {
+                        "ref-fulltext": "Humayun M. Niazi M. Jhanjhi N. Alshayeb M. Mahmood S. Cyber security threats and vulnerabilities: A systematic mapping study Arab. J. Sci. Eng. 2020 45 3171 3189 10.1007/s13369-019-04319-2",
+                        "@reference-instance-id": "OB2BibRecID-950637300-0a5b79ac16ab11d680e0e8ffa414843c-7",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Cyber security threats and vulnerabilities: A systematic mapping study"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/s13369-019-04319-2",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "B7-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85077625354",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "45"},
+                                "pagerange": {
+                                    "@first": "3171",
+                                    "@last": "3189"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Humayun",
+                                    "ce:indexed-name": "Humayun M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Niazi",
+                                    "ce:indexed-name": "Niazi M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jhanjhi",
+                                    "ce:indexed-name": "Jhanjhi N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alshayeb",
+                                    "ce:indexed-name": "Alshayeb M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mahmood",
+                                    "ce:indexed-name": "Mahmood S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Arab. J. Sci. Eng"
+                        },
+                        "ce:source-text": "Humayun M. Niazi M. Jhanjhi N. Alshayeb M. Mahmood S. Cyber security threats and vulnerabilities: A systematic mapping study Arab. J. Sci. Eng. 2020 45 3171 3189 10.1007/s13369-019-04319-2"
+                    },
+                    {
+                        "ref-fulltext": "Kreutz D. Ramos F.M. Verissimo P. Towards secure and dependable software-defined networks Proceedings of the Second ACM SIGCOMM Workshop on Hot Topics in Software Defined Networking Hong Kong, China 16 August 2013 55 60",
+                        "@reference-instance-id": "OB2BibRecID-950637300-b4925350654124e73f22b1a1a7777c5e-8",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Towards secure and dependable software-defined networks"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "B8-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84883671159",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "55",
+                                "@last": "60"
+                            }},
+                            "ref-text": "Hong Kong, China, 16 August 2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kreutz",
+                                    "ce:indexed-name": "Kreutz D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ramos",
+                                    "ce:indexed-name": "Ramos F.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Verissimo",
+                                    "ce:indexed-name": "Verissimo P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Second ACM SIGCOMM Workshop on Hot Topics in Software Defined Networking"
+                        },
+                        "ce:source-text": "Kreutz D. Ramos F.M. Verissimo P. Towards secure and dependable software-defined networks Proceedings of the Second ACM SIGCOMM Workshop on Hot Topics in Software Defined Networking Hong Kong, China 16 August 2013 55 60"
+                    },
+                    {
+                        "ref-fulltext": "Tang F. Kawamoto Y. Kato N. Yano K. Suzuki Y. Probe delay based adaptive port scanning for IoT devices with private IP address behind NAT IEEE Netw. 2019 34 195 201 10.1109/MNET.001.1900264",
+                        "@reference-instance-id": "OB2BibRecID-950637300-978b5d24aa314742413080b16d51333c-9",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Probe delay based adaptive port scanning for IoT devices with private IP address behind NAT"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/MNET.001.1900264",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "B9-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85073720484",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "34"},
+                                "pagerange": {
+                                    "@first": "195",
+                                    "@last": "201"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kawamoto",
+                                    "ce:indexed-name": "Kawamoto Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kato",
+                                    "ce:indexed-name": "Kato N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yano",
+                                    "ce:indexed-name": "Yano K."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Suzuki",
+                                    "ce:indexed-name": "Suzuki Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Netw"
+                        },
+                        "ce:source-text": "Tang F. Kawamoto Y. Kato N. Yano K. Suzuki Y. Probe delay based adaptive port scanning for IoT devices with private IP address behind NAT IEEE Netw. 2019 34 195 201 10.1109/MNET.001.1900264"
+                    },
+                    {
+                        "ref-fulltext": "Nunnally T. Chi P. Abdullah K. Uluagac A.S. Copeland J.A. Beyah R. P3D: A parallel 3D coordinate visualization for advanced network scans Proceedings of the 2013 IEEE International Conference on Communications (ICC) Budapest, Hungary 9\u201313 June 2013 2052 2057",
+                        "@reference-instance-id": "OB2BibRecID-950637300-f77b01d4de11f73915968dc486740e2d-10",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "P3D: A parallel 3D coordinate visualization for advanced network scans"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "B10-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84891357842",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2052",
+                                "@last": "2057"
+                            }},
+                            "ref-text": "Budapest, Hungary, 9\u201313 June 2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nunnally",
+                                    "ce:indexed-name": "Nunnally T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chi",
+                                    "ce:indexed-name": "Chi P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abdullah",
+                                    "ce:indexed-name": "Abdullah K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Uluagac",
+                                    "ce:indexed-name": "Uluagac A.S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Copeland",
+                                    "ce:indexed-name": "Copeland J.A."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Beyah",
+                                    "ce:indexed-name": "Beyah R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2013 IEEE International Conference on Communications (ICC)"
+                        },
+                        "ce:source-text": "Nunnally T. Chi P. Abdullah K. Uluagac A.S. Copeland J.A. Beyah R. P3D: A parallel 3D coordinate visualization for advanced network scans Proceedings of the 2013 IEEE International Conference on Communications (ICC) Budapest, Hungary 9\u201313 June 2013 2052 2057"
+                    },
+                    {
+                        "ref-fulltext": "Durumeric Z. Wustrow E. Halderman J.A. {ZMap}: Fast internet-wide scanning and its security applications Proceedings of the 22nd USENIX Security Symposium (USENIX Security 13) Washington, DC, USA 14\u201316 August 2013 605 620",
+                        "@reference-instance-id": "OB2BibRecID-950637300-2057e38133edf1facb912363d7281176-11",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "{ZMap}: Fast internet-wide scanning and its security applications"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "B11-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85064040125",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "605",
+                                "@last": "620"
+                            }},
+                            "ref-text": "Washington, DC, USA, 14\u201316 August 2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Durumeric",
+                                    "ce:indexed-name": "Durumeric Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wustrow",
+                                    "ce:indexed-name": "Wustrow E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Halderman",
+                                    "ce:indexed-name": "Halderman J.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 22nd USENIX Security Symposium (USENIX Security 13)"
+                        },
+                        "ce:source-text": "Durumeric Z. Wustrow E. Halderman J.A. {ZMap}: Fast internet-wide scanning and its security applications Proceedings of the 22nd USENIX Security Symposium (USENIX Security 13) Washington, DC, USA 14\u201316 August 2013 605 620"
+                    },
+                    {
+                        "ref-fulltext": "Zhou Y. Xi Z. Zhang D. Wang Y. Wang J. Xu M. Wu J. Hypertester: High-performance network testing driven by programmable switches Proceedings of the 15th International Conference on Emerging Networking Experiments and Technologies Orlando, FL, USA 9\u201312 December 2019 30 43",
+                        "@reference-instance-id": "OB2BibRecID-950637300-eafe3d615059f86a4eeadb835ef91eb8-12",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Hypertester: High-performance network testing driven by programmable switches"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "B12-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85077234448",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "30",
+                                "@last": "43"
+                            }},
+                            "ref-text": "Orlando, FL, USA, 9\u201312 December 2019",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xi",
+                                    "ce:indexed-name": "Xi Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Y."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang J."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu M."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 15th International Conference on Emerging Networking Experiments and Technologies"
+                        },
+                        "ce:source-text": "Zhou Y. Xi Z. Zhang D. Wang Y. Wang J. Xu M. Wu J. Hypertester: High-performance network testing driven by programmable switches Proceedings of the 15th International Conference on Emerging Networking Experiments and Technologies Orlando, FL, USA 9\u201312 December 2019 30 43"
+                    },
+                    {
+                        "ref-fulltext": "Pospisil O. Blazek P. Fujdiak R. Misurec J. Active scanning in the industrial control systems Proceedings of the 2021 International Symposium on Computer Science and Intelligent Controls (ISCSIC) Rome, Italy 12\u201314 November 2021 227 232",
+                        "@reference-instance-id": "OB2BibRecID-950637300-76a5f2058c2a5f86fd4e989118f62fba-13",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Active scanning in the industrial control systems"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "B13-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85124148801",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "227",
+                                "@last": "232"
+                            }},
+                            "ref-text": "Rome, Italy, 12\u201314 November 2021",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pospisil",
+                                    "ce:indexed-name": "Pospisil O."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Blazek",
+                                    "ce:indexed-name": "Blazek P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fujdiak",
+                                    "ce:indexed-name": "Fujdiak R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Misurec",
+                                    "ce:indexed-name": "Misurec J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2021 International Symposium on Computer Science and Intelligent Controls (ISCSIC)"
+                        },
+                        "ce:source-text": "Pospisil O. Blazek P. Fujdiak R. Misurec J. Active scanning in the industrial control systems Proceedings of the 2021 International Symposium on Computer Science and Intelligent Controls (ISCSIC) Rome, Italy 12\u201314 November 2021 227 232"
+                    },
+                    {
+                        "ref-fulltext": "Herath T. Rao H.R. Encouraging information security behaviors in organizations: Role of penalties, pressures and perceived effectiveness Decis. Support Syst. 2009 47 154 165 10.1016/j.dss.2009.02.005",
+                        "@reference-instance-id": "OB2BibRecID-950637300-fbe404196812f2d7e0f675d1c586e06f-14",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Encouraging information security behaviors in organizations: Role of penalties, pressures and perceived effectiveness"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/j.dss.2009.02.005",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "B14-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "67349144062",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "47"},
+                                "pagerange": {
+                                    "@first": "154",
+                                    "@last": "165"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Herath",
+                                    "ce:indexed-name": "Herath T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rao",
+                                    "ce:indexed-name": "Rao H.R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Decis. Support Syst"
+                        },
+                        "ce:source-text": "Herath T. Rao H.R. Encouraging information security behaviors in organizations: Role of penalties, pressures and perceived effectiveness Decis. Support Syst. 2009 47 154 165 10.1016/j.dss.2009.02.005"
+                    },
+                    {
+                        "ref-fulltext": "Zerlang J. GDPR: A milestone in convergence for cyber-security and compliance Netw. Secur. 2017 2017 8 11 10.1016/S1353-4858(17)30060-0",
+                        "@reference-instance-id": "OB2BibRecID-950637300-eeea51f489da1603589bc02c0a93e7dc-15",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "GDPR: A milestone in convergence for cyber-security and compliance"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/S1353-4858(17)30060-0",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "B15-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85021265642",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2017"},
+                                "pagerange": {
+                                    "@first": "8",
+                                    "@last": "11"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "ce:surname": "Zerlang",
+                                "ce:indexed-name": "Zerlang J."
+                            }]},
+                            "ref-sourcetitle": "Netw. Secur"
+                        },
+                        "ce:source-text": "Zerlang J. GDPR: A milestone in convergence for cyber-security and compliance Netw. Secur. 2017 2017 8 11 10.1016/S1353-4858(17)30060-0"
+                    },
+                    {
+                        "ref-fulltext": "George A.S. Sagayarajan S. Securing Cloud Application Infrastructure: Understanding the Penetration Testing Challenges of IaaS, PaaS, and SaaS Environments Partn. Univ. Int. Res. J. 2023 2 24 34",
+                        "@reference-instance-id": "OB2BibRecID-950637300-ce3397a42d174c2245a51875e85486d1-16",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2023"},
+                            "ref-title": {"ref-titletext": "Securing Cloud Application Infrastructure: Understanding the Penetration Testing Challenges of IaaS, PaaS, and SaaS Environments"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "B16-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85168103833",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2"},
+                                "pagerange": {
+                                    "@first": "24",
+                                    "@last": "34"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "George",
+                                    "ce:indexed-name": "George A.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sagayarajan",
+                                    "ce:indexed-name": "Sagayarajan S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Partn. Univ. Int. Res. J"
+                        },
+                        "ce:source-text": "George A.S. Sagayarajan S. Securing Cloud Application Infrastructure: Understanding the Penetration Testing Challenges of IaaS, PaaS, and SaaS Environments Partn. Univ. Int. Res. J. 2023 2 24 34"
+                    },
+                    {
+                        "ref-fulltext": "Javaid M. Haleem A. Singh R.P. Suman R. Towards insighting cybersecurity for healthcare domains: A comprehensive review of recent practices and trends Cyber Secur. Appl. 2023 1 100016 10.1016/j.csa.2023.100016",
+                        "@reference-instance-id": "OB2BibRecID-950637300-3bc7ca5d817dba6b2b95f551c5b865fc-17",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2023"},
+                            "ref-title": {"ref-titletext": "Towards insighting cybersecurity for healthcare domains: A comprehensive review of recent practices and trends"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/j.csa.2023.100016",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "B17-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85164320382",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "1"},
+                                "pagerange": {"@first": "100016"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Javaid",
+                                    "ce:indexed-name": "Javaid M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Haleem",
+                                    "ce:indexed-name": "Haleem A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Singh",
+                                    "ce:indexed-name": "Singh R.P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Suman",
+                                    "ce:indexed-name": "Suman R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Cyber Secur. Appl"
+                        },
+                        "ce:source-text": "Javaid M. Haleem A. Singh R.P. Suman R. Towards insighting cybersecurity for healthcare domains: A comprehensive review of recent practices and trends Cyber Secur. Appl. 2023 1 100016 10.1016/j.csa.2023.100016"
+                    },
+                    {
+                        "ref-fulltext": "Fatima A. Khan T.A. Abdellatif T.M. Zulfiqar S. Asif M. Safi W. Al Hamadi H. Al-Kassem A.H. Impact and Research Challenges of Penetrating Testing and Vulnerability Assessment on Network Threat Proceedings of the 2023 International Conference on Business Analytics for Technology and Security (ICBATS) Dubai, United Arab Emirates 7\u20138 March 2023 1 8",
+                        "@reference-instance-id": "OB2BibRecID-950637300-27f12d2fad3479e872e501eeb55057b1-18",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Impact and Research Challenges of Penetrating Testing and Vulnerability Assessment on Network Threat"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "B18-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85160682814",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "8"
+                            }},
+                            "ref-text": "Dubai, United Arab Emirates, 7\u20138 March 2023",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fatima",
+                                    "ce:indexed-name": "Fatima A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Khan",
+                                    "ce:indexed-name": "Khan T.A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abdellatif",
+                                    "ce:indexed-name": "Abdellatif T.M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zulfiqar",
+                                    "ce:indexed-name": "Zulfiqar S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Asif",
+                                    "ce:indexed-name": "Asif M."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Safi",
+                                    "ce:indexed-name": "Safi W."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Al Hamadi",
+                                    "ce:indexed-name": "Al Hamadi H."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "A.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Al-Kassem",
+                                    "ce:indexed-name": "Al-Kassem A.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2023 International Conference on Business Analytics for Technology and Security (ICBATS)"
+                        },
+                        "ce:source-text": "Fatima A. Khan T.A. Abdellatif T.M. Zulfiqar S. Asif M. Safi W. Al Hamadi H. Al-Kassem A.H. Impact and Research Challenges of Penetrating Testing and Vulnerability Assessment on Network Threat Proceedings of the 2023 International Conference on Business Analytics for Technology and Security (ICBATS) Dubai, United Arab Emirates 7\u20138 March 2023 1 8"
+                    },
+                    {
+                        "ref-fulltext": "Aslan Ö. Aktuğ S.S. Ozkan-Okay M. Yilmaz A.A. Akin E. A comprehensive review of cyber security vulnerabilities, threats, attacks, and solutions Electronics 2023 12 1333 10.3390/electronics12061333",
+                        "@reference-instance-id": "OB2BibRecID-950637300-5c4071962fbb579b17b0cea246d0d3fc-19",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2023"},
+                            "ref-title": {"ref-titletext": "A comprehensive review of cyber security vulnerabilities, threats, attacks, and solutions"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.3390/electronics12061333",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "B19-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "1333",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "85151702439",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "12"}},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Ö.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aslan",
+                                    "ce:indexed-name": "Aslan O."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aktuğ",
+                                    "ce:indexed-name": "Aktug S.S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ozkan-Okay",
+                                    "ce:indexed-name": "Ozkan-Okay M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yilmaz",
+                                    "ce:indexed-name": "Yilmaz A.A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Akin",
+                                    "ce:indexed-name": "Akin E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Electronics"
+                        },
+                        "ce:source-text": "Aslan Ö. Aktuğ S.S. Ozkan-Okay M. Yilmaz A.A. Akin E. A comprehensive review of cyber security vulnerabilities, threats, attacks, and solutions Electronics 2023 12 1333 10.3390/electronics12061333"
+                    },
+                    {
+                        "ref-fulltext": "Shukla S. George J.P. Tiwari K. Kureethara J.V. Data Security Data Ethics and Challenges Springer Singapore 2022 41 59",
+                        "@reference-instance-id": "OB2BibRecID-950637300-9d19c1199c66d5e09597fe7727315e43-20",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-title": {"ref-titletext": "Data Security"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "B20-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85127726263",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "41",
+                                "@last": "59"
+                            }},
+                            "ref-text": "Springer, Singapore",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shukla",
+                                    "ce:indexed-name": "Shukla S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "George",
+                                    "ce:indexed-name": "George J.P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tiwari",
+                                    "ce:indexed-name": "Tiwari K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kureethara",
+                                    "ce:indexed-name": "Kureethara J.V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Data Ethics and Challenges"
+                        },
+                        "ce:source-text": "Shukla S. George J.P. Tiwari K. Kureethara J.V. Data Security Data Ethics and Challenges Springer Singapore 2022 41 59"
+                    },
+                    {
+                        "ref-fulltext": "Barnett R.J. Irwin B. Towards a Taxonomy of Network Scanning Techniques SAICSIT \u201908: Proceedings of the 2008 Annual Research Conference of the South African Institute of Computer Scientists and Information Technologists on IT Research in Developing Countries: Riding the Wave of Technology Wilderness, South Africa 6\u20138 October 2008 Association for Computing Machinery New York, NY, USA 2008 1 7 10.1145/1456659.1456660",
+                        "@reference-instance-id": "OB2BibRecID-950637300-20448220bfea46ee6a3266ba9760ce01-21",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Towards a Taxonomy of Network Scanning Techniques"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/1456659.1456660",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "B21-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "70049087018",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "7"
+                            }},
+                            "ref-text": "Wilderness, South Africa, 6\u20138 October 2008, Association for Computing Machinery, New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Barnett",
+                                    "ce:indexed-name": "Barnett R.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Irwin",
+                                    "ce:indexed-name": "Irwin B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "SAICSIT \u201908: Proceedings of the 2008 Annual Research Conference of the South African Institute of Computer Scientists and Information Technologists on IT Research in Developing Countries: Riding the Wave of Technology"
+                        },
+                        "ce:source-text": "Barnett R.J. Irwin B. Towards a Taxonomy of Network Scanning Techniques SAICSIT \u201908: Proceedings of the 2008 Annual Research Conference of the South African Institute of Computer Scientists and Information Technologists on IT Research in Developing Countries: Riding the Wave of Technology Wilderness, South Africa 6\u20138 October 2008 Association for Computing Machinery New York, NY, USA 2008 1 7 10.1145/1456659.1456660"
+                    },
+                    {
+                        "ref-fulltext": "Calderon P. Nmap Network Exploration and Security Auditing Cookbook: Network Discovery and Security Scanning at Your Fingertips Packt Publishing Ltd. Birmingham, UK 2021 18 30",
+                        "@reference-instance-id": "OB2BibRecID-950637300-ad606b1fdb41c5b5d6fe33d9b76e4018-22",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "B22-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85170376250",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "18",
+                                "@last": "30"
+                            }},
+                            "ref-text": "Packt Publishing Ltd., Birmingham, UK",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "P.",
+                                "@_fa": "true",
+                                "ce:surname": "Calderon",
+                                "ce:indexed-name": "Calderon P."
+                            }]},
+                            "ref-sourcetitle": "Nmap Network Exploration and Security Auditing Cookbook: Network Discovery and Security Scanning at Your Fingertips"
+                        },
+                        "ce:source-text": "Calderon P. Nmap Network Exploration and Security Auditing Cookbook: Network Discovery and Security Scanning at Your Fingertips Packt Publishing Ltd. Birmingham, UK 2021 18 30"
+                    },
+                    {
+                        "ref-fulltext": "Leonard D. Loguinov D. Demystifying service discovery: Implementing an internet-wide scanner Proceedings of the 10th ACM SIGCOMM Conference on Internet Measurement Melbourne, Australia 1\u20133 November 2010 109 122",
+                        "@reference-instance-id": "OB2BibRecID-950637300-5eab4ff71f6a99be5c6dbac117ce8b78-23",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Demystifying service discovery: Implementing an internet-wide scanner"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "B23-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "78650916363",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "109",
+                                "@last": "122"
+                            }},
+                            "ref-text": "Melbourne, Australia, 1\u20133 November 2010",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Leonard",
+                                    "ce:indexed-name": "Leonard D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Loguinov",
+                                    "ce:indexed-name": "Loguinov D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 10th ACM SIGCOMM Conference on Internet Measurement"
+                        },
+                        "ce:source-text": "Leonard D. Loguinov D. Demystifying service discovery: Implementing an internet-wide scanner Proceedings of the 10th ACM SIGCOMM Conference on Internet Measurement Melbourne, Australia 1\u20133 November 2010 109 122"
+                    },
+                    {
+                        "ref-fulltext": "Li G. Zhang M. Guo C. Bao H. Xu M. Hu H. Li F. {IMap}: Fast and Scalable {In-Network} Scanning with Programmable Switches Proceedings of the 19th USENIX Symposium on Networked Systems Design and Implementation (NSDI 22) Renton, WA, USA 4\u20136 April 2022 667 681",
+                        "@reference-instance-id": "OB2BibRecID-950637300-0371b690ebbb186f8642c4b65b2f1c35-24",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "{IMap}: Fast and Scalable {In-Network} Scanning with Programmable Switches"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "B24-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85140993569",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "667",
+                                "@last": "681"
+                            }},
+                            "ref-text": "Renton, WA, USA, 4\u20136 April 2022",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bao",
+                                    "ce:indexed-name": "Bao H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu M."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu H."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 19th USENIX Symposium on Networked Systems Design and Implementation (NSDI 22)"
+                        },
+                        "ce:source-text": "Li G. Zhang M. Guo C. Bao H. Xu M. Hu H. Li F. {IMap}: Fast and Scalable {In-Network} Scanning with Programmable Switches Proceedings of the 19th USENIX Symposium on Networked Systems Design and Implementation (NSDI 22) Renton, WA, USA 4\u20136 April 2022 667 681"
+                    },
+                    {
+                        "ref-fulltext": "Heo H. Shin S. Who is knocking on the telnet port: A large-scale empirical study of network scanning Proceedings of the 2018 on Asia Conference on Computer and Communications Security Incheon, Republic of Korea 4 June 2018 2018 625 636",
+                        "@reference-instance-id": "OB2BibRecID-950637300-71c40332bb09ceaa94b6f13ece4c3ac3-25",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Who is knocking on the telnet port: A large-scale empirical study of network scanning"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "B25-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85049167122",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "625",
+                                "@last": "636"
+                            }},
+                            "ref-text": "Incheon, Republic of Korea, 4 June 2018",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Heo",
+                                    "ce:indexed-name": "Heo H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shin",
+                                    "ce:indexed-name": "Shin S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2018 on Asia Conference on Computer and Communications Security"
+                        },
+                        "ce:source-text": "Heo H. Shin S. Who is knocking on the telnet port: A large-scale empirical study of network scanning Proceedings of the 2018 on Asia Conference on Computer and Communications Security Incheon, Republic of Korea 4 June 2018 2018 625 636"
+                    },
+                    {
+                        "ref-fulltext": "Jain T. Jain N. Framework for Web application vulnerability discovery and mitigation by customizing rules through ModSecurity Proceedings of the 2019 6th International Conference on Signal Processing and Integrated Networks (SPIN) Noida, India 7\u20138 March 2019 2019 643 648",
+                        "@reference-instance-id": "OB2BibRecID-950637300-f671887aaccb9c1b1ef123db40bc6173-26",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Framework for Web application vulnerability discovery and mitigation by customizing rules through ModSecurity"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "B26-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85066883438",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "643",
+                                "@last": "648"
+                            }},
+                            "ref-text": "Noida, India, 7\u20138 March 2019",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jain",
+                                    "ce:indexed-name": "Jain T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jain",
+                                    "ce:indexed-name": "Jain N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2019 6th International Conference on Signal Processing and Integrated Networks (SPIN)"
+                        },
+                        "ce:source-text": "Jain T. Jain N. Framework for Web application vulnerability discovery and mitigation by customizing rules through ModSecurity Proceedings of the 2019 6th International Conference on Signal Processing and Integrated Networks (SPIN) Noida, India 7\u20138 March 2019 2019 643 648"
+                    },
+                    {
+                        "ref-fulltext": "Kumar A. Lim T.J. EDIMA: Early detection of IoT malware network activity using machine learning techniques Proceedings of the 2019 IEEE 5th World Forum on Internet of Things (WF-IoT) Limerick, Ireland 15\u201318 April 2019 289 294",
+                        "@reference-instance-id": "OB2BibRecID-950637300-0851f5d5278031010a69850b0ca597c5-27",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "EDIMA: Early detection of IoT malware network activity using machine learning techniques"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "B27-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85073914241",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "289",
+                                "@last": "294"
+                            }},
+                            "ref-text": "Limerick, Ireland, 15\u201318 April 2019",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kumar",
+                                    "ce:indexed-name": "Kumar A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lim",
+                                    "ce:indexed-name": "Lim T.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2019 IEEE 5th World Forum on Internet of Things (WF-IoT)"
+                        },
+                        "ce:source-text": "Kumar A. Lim T.J. EDIMA: Early detection of IoT malware network activity using machine learning techniques Proceedings of the 2019 IEEE 5th World Forum on Internet of Things (WF-IoT) Limerick, Ireland 15\u201318 April 2019 289 294"
+                    },
+                    {
+                        "ref-fulltext": "Emmerich P. Gallenmüller S. Raumer D. Wohlfart F. Carle G. Moongen: A scriptable high-speed packet generator Proceedings of the 2015 Internet Measurement Conference Tokyo, Japan 28\u201330 October 2015 275 287",
+                        "@reference-instance-id": "OB2BibRecID-950637300-bd74b7a4bd12297b20bd2cde2d33188b-28",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Moongen: A scriptable high-speed packet generator"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "B28-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84954101391",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "275",
+                                "@last": "287"
+                            }},
+                            "ref-text": "Tokyo, Japan, 28\u201330 October 2015",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Emmerich",
+                                    "ce:indexed-name": "Emmerich P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gallenmüller",
+                                    "ce:indexed-name": "Gallenmuller S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Raumer",
+                                    "ce:indexed-name": "Raumer D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wohlfart",
+                                    "ce:indexed-name": "Wohlfart F."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carle",
+                                    "ce:indexed-name": "Carle G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2015 Internet Measurement Conference"
+                        },
+                        "ce:source-text": "Emmerich P. Gallenmüller S. Raumer D. Wohlfart F. Carle G. Moongen: A scriptable high-speed packet generator Proceedings of the 2015 Internet Measurement Conference Tokyo, Japan 28\u201330 October 2015 275 287"
+                    },
+                    {
+                        "ref-fulltext": "Wan G. Gong F. Barbette T. Durumeric Z. Retina: Analyzing 100 GbE traffic on commodity hardware Proceedings of the ACM SIGCOMM 2022 Conference Amsterdam, The Netherlands 22\u201326 August 2022 530 544",
+                        "@reference-instance-id": "OB2BibRecID-950637300-72b3f82a6e56d18f8a2b674506bad4c9-29",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Retina: Analyzing 100 GbE traffic on commodity hardware"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "B29-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85138121753",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "530",
+                                "@last": "544"
+                            }},
+                            "ref-text": "Amsterdam, The Netherlands, 22\u201326 August 2022",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wan",
+                                    "ce:indexed-name": "Wan G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gong",
+                                    "ce:indexed-name": "Gong F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Barbette",
+                                    "ce:indexed-name": "Barbette T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Durumeric",
+                                    "ce:indexed-name": "Durumeric Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the ACM SIGCOMM 2022 Conference"
+                        },
+                        "ce:source-text": "Wan G. Gong F. Barbette T. Durumeric Z. Retina: Analyzing 100 GbE traffic on commodity hardware Proceedings of the ACM SIGCOMM 2022 Conference Amsterdam, The Netherlands 22\u201326 August 2022 530 544"
+                    },
+                    {
+                        "ref-fulltext": "Panda S. Feng Y. Kulkarni S.G. Ramakrishnan K. Duffield N. Bhuyan L.N. SmartWatch: Accurate traffic analysis and flow-state tracking for intrusion prevention using SmartNICs Proceedings of the 17th International Conference on Emerging Networking EXperiments and Technologies Munich, Germany 7\u201310 December 2021 60 75",
+                        "@reference-instance-id": "OB2BibRecID-950637300-b39763f950f76ed5e1939524554834b0-30",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "SmartWatch: Accurate traffic analysis and flow-state tracking for intrusion prevention using SmartNICs"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "B30-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85121593701",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "60",
+                                "@last": "75"
+                            }},
+                            "ref-text": "Munich, Germany, 7\u201310 December 2021",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Panda",
+                                    "ce:indexed-name": "Panda S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Feng",
+                                    "ce:indexed-name": "Feng Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kulkarni",
+                                    "ce:indexed-name": "Kulkarni S.G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ramakrishnan",
+                                    "ce:indexed-name": "Ramakrishnan K."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Duffield",
+                                    "ce:indexed-name": "Duffield N."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "L.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bhuyan",
+                                    "ce:indexed-name": "Bhuyan L.N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 17th International Conference on Emerging Networking EXperiments and Technologies"
+                        },
+                        "ce:source-text": "Panda S. Feng Y. Kulkarni S.G. Ramakrishnan K. Duffield N. Bhuyan L.N. SmartWatch: Accurate traffic analysis and flow-state tracking for intrusion prevention using SmartNICs Proceedings of the 17th International Conference on Emerging Networking EXperiments and Technologies Munich, Germany 7\u201310 December 2021 60 75"
+                    },
+                    {
+                        "ref-fulltext": "Gong Q. DeMar P. Altunay M. ThunderSecure: Deploying real-time intrusion detection for 100G research networks by leveraging stream-based features and one-class classification network Int. J. Inf. Secur. 2022 21 799 812 10.1007/s10207-022-00584-9",
+                        "@reference-instance-id": "OB2BibRecID-950637300-1cdf898df88441aff3023748ae476ed0-31",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-title": {"ref-titletext": "ThunderSecure: Deploying real-time intrusion detection for 100G research networks by leveraging stream-based features and one-class classification network"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/s10207-022-00584-9",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "B31-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85126345783",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "21"},
+                                "pagerange": {
+                                    "@first": "799",
+                                    "@last": "812"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gong",
+                                    "ce:indexed-name": "Gong Q."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "DeMar",
+                                    "ce:indexed-name": "DeMar P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Altunay",
+                                    "ce:indexed-name": "Altunay M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Inf. Secur"
+                        },
+                        "ce:source-text": "Gong Q. DeMar P. Altunay M. ThunderSecure: Deploying real-time intrusion detection for 100G research networks by leveraging stream-based features and one-class classification network Int. J. Inf. Secur. 2022 21 799 812 10.1007/s10207-022-00584-9"
+                    },
+                    {
+                        "ref-fulltext": "Han J. Kim S. Cho D. Choi B. Ha J. Han D. A secure middlebox framework for enabling visibility over multiple encryption protocols IEEE/ACM Trans. Netw. 2020 28 2727 2740 10.1109/TNET.2020.3016785",
+                        "@reference-instance-id": "OB2BibRecID-950637300-906cfbeeaf2a5fb8c2b8d6420346b346-32",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "A secure middlebox framework for enabling visibility over multiple encryption protocols"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/TNET.2020.3016785",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "B32-sensors-23-07541",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85090444738",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "28"},
+                                "pagerange": {
+                                    "@first": "2727",
+                                    "@last": "2740"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Han",
+                                    "ce:indexed-name": "Han J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cho",
+                                    "ce:indexed-name": "Cho D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Choi",
+                                    "ce:indexed-name": "Choi B."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ha",
+                                    "ce:indexed-name": "Ha J."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Han",
+                                    "ce:indexed-name": "Han D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE/ACM Trans. Netw"
+                        },
+                        "ce:source-text": "Han J. Kim S. Cho D. Choi B. Ha J. Han D. A secure middlebox framework for enabling visibility over multiple encryption protocols IEEE/ACM Trans. Netw. 2020 28 2727 2740 10.1109/TNET.2020.3016785"
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Parma",
+            "@id": "60103966",
+            "affilname": "Consorzio Nazionale Interuniversitario per le Telecomunicazioni",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60103966",
+            "affiliation-country": "Italy"
+        },
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85170338559",
+        "dc:description": "Network security is paramount in today\u2019s digital landscape, where cyberthreats continue to evolve and pose significant risks. We propose a DPDK-based scanner based on a study on advanced port scanning techniques to improve network visibility and security. The traditional port scanning methods suffer from speed, accuracy, and efficiency limitations, hindering effective threat detection and mitigation. In this paper, we develop and implement advanced techniques such as protocol-specific probes and evasive scan techniques to enhance the visibility and security of networks. We also evaluate network scanning performance and scalability using programmable hardware, including smart NICs and DPDK-based frameworks, along with in-network processing, data parallelization, and hardware acceleration. Additionally, we leverage application-level protocol parsing to accelerate network discovery and mapping, analyzing protocol-specific information. In our experimental evaluation, our proposed DPDK-based scanner demonstrated a significant improvement in target scanning speed, achieving a 2× speedup compared to other scanners in a target scanning environment. Furthermore, our scanner achieved a high accuracy rate of 99.5% in identifying open ports. Notably, our solution also exhibited a lower CPU and memory utilization, with an approximately 40% reduction compared to alternative scanners. These results highlight the effectiveness and efficiency of our proposed scanning techniques in enhancing network visibility and security. The outcomes of this research contribute to the field by providing insights and innovations to improve network security, identify vulnerabilities, and optimize network performance.",
+        "pubmed-id": "37687997",
+        "prism:coverDate": "2023-09-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85170338559",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Rana",
+            "preferred-name": {
+                "ce:given-name": "Rana",
+                "ce:initials": "R.",
+                "ce:surname": "Abu Bakar",
+                "ce:indexed-name": "Abu Bakar R."
+            },
+            "@seq": "1",
+            "ce:initials": "R.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60028190",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+                },
+                {
+                    "@id": "60103966",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60103966"
+                }
+            ],
+            "ce:surname": "Abu Bakar",
+            "@auid": "57945837400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57945837400",
+            "ce:indexed-name": "Abu Bakar R."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85170338559"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85170338559&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85170338559&origin=inward"
+            }
+        ],
+        "source-id": "130124",
+        "citedby-count": "0",
+        "prism:volume": "23",
+        "subtype": "ar",
+        "dc:title": "Enhancing Network Visibility and Security with Advanced Port Scanning Techniques",
+        "openaccess": "1",
+        "prism:issn": "14248220",
+        "publishercopyright": "© 2023 by the authors.",
+        "article-number": "7541",
+        "prism:issueIdentifier": "17",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "Sensors",
+        "openaccessFlag": "true",
+        "prism:doi": "10.3390/s23177541",
+        "dc:identifier": "SCOPUS_ID:85170338559",
+        "dc:publisher": "Multidisciplinary Digital Publishing Institute (MDPI)"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Accuracy limitations",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Cyberthreats",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Intrusion Detection Systems",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Network visibility",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Networks security",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Port scanning",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Scanning methods",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Scanning techniques",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Speed accuracy",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Vulnerability assessments",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "intrusion detection system"
+        },
+        {
+            "@_fa": "true",
+            "$": "network security"
+        },
+        {
+            "@_fa": "true",
+            "$": "network visibility"
+        },
+        {
+            "@_fa": "true",
+            "$": "port scanning"
+        },
+        {
+            "@_fa": "true",
+            "$": "vulnerability assessment"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Analytical Chemistry",
+            "@code": "1602",
+            "@abbrev": "CHEM"
+        },
+        {
+            "@_fa": "true",
+            "$": "Information Systems",
+            "@code": "1710",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Atomic and Molecular Physics, and Optics",
+            "@code": "3107",
+            "@abbrev": "PHYS"
+        },
+        {
+            "@_fa": "true",
+            "$": "Biochemistry",
+            "@code": "1303",
+            "@abbrev": "BIOC"
+        },
+        {
+            "@_fa": "true",
+            "$": "Instrumentation",
+            "@code": "3105",
+            "@abbrev": "PHYS"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Rana",
+            "preferred-name": {
+                "ce:given-name": "Rana",
+                "ce:initials": "R.",
+                "ce:surname": "Abu Bakar",
+                "ce:indexed-name": "Abu Bakar R."
+            },
+            "@seq": "1",
+            "ce:initials": "R.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60028190",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+                },
+                {
+                    "@id": "60103966",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60103966"
+                }
+            ],
+            "ce:surname": "Abu Bakar",
+            "@auid": "57945837400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57945837400",
+            "ce:indexed-name": "Abu Bakar R."
+        },
+        {
+            "ce:given-name": "Boonserm",
+            "preferred-name": {
+                "ce:given-name": "Boonserm",
+                "ce:initials": "B.",
+                "ce:surname": "Kijsirikul",
+                "ce:indexed-name": "Kijsirikul B."
+            },
+            "@seq": "2",
+            "ce:initials": "B.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Kijsirikul",
+            "@auid": "6603602953",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6603602953",
+            "ce:indexed-name": "Kijsirikul B."
+        }
+    ]}
+}}

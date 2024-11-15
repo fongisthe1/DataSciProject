@@ -1,0 +1,3344 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "08",
+                "@timestamp": "2022-06-08T18:51:14.000014-04:00",
+                "@year": "2022",
+                "@month": "06"
+            },
+            "ait:date-sort": {
+                "@day": "10",
+                "@year": "2018",
+                "@month": "12"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding-addon-generated-timestamp": "2021-06-02T12:09:12.259Z",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "United States",
+                            "@afid": "60028190",
+                            "@country": "usa",
+                            "city": "Santa Clara",
+                            "organization": [
+                                {"$": "Department of Computer Engineering"},
+                                {"$": "Faculty of Engineering"},
+                                {"$": "Chulalongkorn University Bangkok"},
+                                {"$": "Thailand NVIDIA Research"}
+                            ],
+                            "affiliation-id": [
+                                {
+                                    "@afid": "60028190",
+                                    "@dptid": "113891981"
+                                },
+                                {"@afid": "60076695"}
+                            ],
+                            "state": "CA",
+                            "@dptid": "113891981"
+                        },
+                        "author": [{
+                            "ce:given-name": "Nuttapong",
+                            "preferred-name": {
+                                "ce:given-name": "Nuttapong",
+                                "ce:initials": "N.",
+                                "ce:surname": "Chentanez",
+                                "ce:indexed-name": "Chentanez N."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "N.",
+                            "@date-locked": "2020-06-26T05:18:53.976",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Chentanez",
+                            "@auid": "14824789300",
+                            "ce:indexed-name": "Chentanez N."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "United States",
+                            "@afid": "60076695",
+                            "@country": "usa",
+                            "city": "Santa Clara",
+                            "organization": {"$": "NVIDIA Research"},
+                            "affiliation-id": {"@afid": "60076695"},
+                            "state": "CA"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Matthias",
+                                "preferred-name": {
+                                    "ce:given-name": "Matthias",
+                                    "ce:initials": "M.",
+                                    "ce:surname": "Müller",
+                                    "ce:indexed-name": "Müller M."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Müller",
+                                "@auid": "57213094877",
+                                "ce:indexed-name": "Muller M."
+                            },
+                            {
+                                "ce:given-name": "Miles",
+                                "preferred-name": {
+                                    "ce:given-name": "Miles",
+                                    "ce:initials": "M.",
+                                    "ce:surname": "Macklin",
+                                    "ce:indexed-name": "Macklin M."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Macklin",
+                                "@auid": "55805366300",
+                                "ce:indexed-name": "Macklin M."
+                            },
+                            {
+                                "ce:given-name": "Viktor",
+                                "preferred-name": {
+                                    "ce:given-name": "Viktor",
+                                    "ce:initials": "V.",
+                                    "ce:surname": "Makoviychuk",
+                                    "ce:indexed-name": "Makoviychuk V."
+                                },
+                                "@seq": "4",
+                                "ce:initials": "V.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Makoviychuk",
+                                "@auid": "57206661491",
+                                "ce:indexed-name": "Makoviychuk V."
+                            },
+                            {
+                                "ce:given-name": "Stefan",
+                                "preferred-name": {
+                                    "ce:given-name": "Stefan",
+                                    "ce:initials": "S.",
+                                    "ce:surname": "Jeschke",
+                                    "ce:indexed-name": "Jeschke S."
+                                },
+                                "@seq": "5",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Jeschke",
+                                "@auid": "10141789000",
+                                "ce:indexed-name": "Jeschke S."
+                            }
+                        ]
+                    }
+                ],
+                "citation-title": "Physics-based motion capture imitation with deep reinforcement learning",
+                "abstracts": "© 2018 Association for Computing Machinery.We introduce a deep reinforcement learning method that learns to control articulated humanoid bodies to imitate given target motions closely when simulated in a physics simulator. The target motion, which may not have been seen by the agent and can be noisy, is supplied at runtime. Our method can recover balance from moderate external disturbances and keep imitating the target motion. When subjected to large disturbances that cause the humanoid to fall down, our method can control the character to get up and recover to track the motion. Our method is trained to imitate the mocap clips from the CMU motion capture database and a number of other publicly available databases. We use a state-of-the-art deep reinforcement learning algorithm to learn to dynamically control the gain of PD controllers, whose target angles are derived from the mocap clip and to apply corrective torques with the goal of imitating the provided motion clip as closely as possible. Both the simulation and the learning algorithms are parallelized and run on the GPU. We demonstrate that the proposed method can control the character to imitate a wide variety of motions such as running, walking, dancing, jumping, kicking, punching, standing up, and so on.",
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Character Controller",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Deep Learning",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Mocap",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Neural Network",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Simulation",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://dl.acm.org/citation.cfm?id=3274247",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Proceedings - MIG 2018: ACM SIGGRAPH Conference on Motion, Interaction, and Games",
+                        "@xml:lang": "eng"
+                    },
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781450360159",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "11th Annual International Conference on Motion, Interaction and Games, MIG 2018",
+                            "confsponsors": {
+                                "confsponsor": "ACM SIGGRAPH",
+                                "@complete": "n"
+                            },
+                            "confnumber": "11",
+                            "confseriestitle": "International Conference on Motion, Interaction and Games",
+                            "conflocation": {
+                                "@country": "cyp",
+                                "city": "Limassol"
+                            },
+                            "confcode": "144684",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "10",
+                                    "@year": "2018",
+                                    "@month": "11"
+                                },
+                                "startdate": {
+                                    "@day": "08",
+                                    "@year": "2018",
+                                    "@month": "11"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Proceedings - MIG 2018: ACM SIGGRAPH Conference on Motion, Interaction, and Games",
+                    "contributor-group": {"contributor": {
+                        "ce:given-name": "Stephen N.",
+                        "@seq": "1",
+                        "ce:initials": "S.N.",
+                        "ce:surname": "Spencer",
+                        "@role": "edit",
+                        "ce:indexed-name": "Spencer S.N."
+                    }},
+                    "publicationdate": {
+                        "month": "12",
+                        "year": "2018",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "10 December 2018"
+                        },
+                        "day": "10"
+                    },
+                    "sourcetitle-abbrev": "Proc. - MIG : ACM SIGGRAPH Conf. Motion, Interact., Games",
+                    "@country": "usa",
+                    "issuetitle": "Proceedings - MIG 2018: ACM SIGGRAPH Conference on Motion, Interaction, and Games",
+                    "publicationyear": {"@first": "2018"},
+                    "publisher": {
+                        "publishername": "Association for Computing Machinery, Inc",
+                        "ce:e-address": {
+                            "$": "acmhelp@acm.org",
+                            "@type": "email"
+                        }
+                    },
+                    "@srcid": "21100898967"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "3304"},
+                            {"$": "1709"},
+                            {"$": "1706"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "723.4",
+                                "classification-description": "Artificial Intelligence"
+                            },
+                            {
+                                "classification-code": "723.5",
+                                "classification-description": "Computer Applications"
+                            },
+                            {
+                                "classification-code": "732.1",
+                                "classification-description": "Control Equipment"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "SOCI"},
+                            {"$": "COMP"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2019 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "23",
+                    "@timestamp": "BST 14:05:54",
+                    "@year": "2019",
+                    "@month": "02"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "626447559",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "915805498",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20190806535098",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "85061839078",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85061839078",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1145/3274247.3274506"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "54",
+                "reference": [
+                    {
+                        "ref-fulltext": "[n. d.]. CMU Motion Capture Database. http://mocap.cs.cmu.edu/.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://mocap.cs.cmu.edu/",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84876774953",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "n. d",
+                            "ref-sourcetitle": "CMU Motion Capture Database"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "[n. d.]. RoboSchool. https://github.com/openai/roboschool.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-website": {
+                                "websitename": "RoboSchool",
+                                "ce:e-address": {
+                                    "$": "https://github.com/openai/roboschool",
+                                    "@type": "email"
+                                }
+                            },
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85061794757",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "n. d"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Martín Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen, Craig Citro, Greg S. Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin, Sanjay Ghe-mawat, Ian Goodfellow, Andrew Harp, Geoffrey Irving, Michael Isard, Yangqing Jia, Rafal Jozefowicz, Lukasz Kaiser, Manjunath Kudlur, Josh Levenberg, Dandelion Mané, Rajat Monga, Sherry Moore, Derek Murray, Chris Olah, Mike Schuster, Jonathon Shlens, Benoit Steiner, Ilya Sutskever, Kunal Talwar, Paul Tucker, Vincent Vanhoucke, Vijay Vasudevan, Fernanda Viégas, Oriol Vinyals, Pete Warden, Martin Wattenberg, Martin Wicke, Yuan Yu, and Xiaoqiang Zheng. 2015. TensorFlow: Large-Scale Machine Learning on Heterogeneous Systems. https://www.tensorflow.org/ Software available from tensorflow.org.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.tensorflow.org/Softwareavailablefromtensorflow.org",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84958264664",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abadi",
+                                    "ce:indexed-name": "Abadi M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Agarwal",
+                                    "ce:indexed-name": "Agarwal A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Barham",
+                                    "ce:indexed-name": "Barham P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brevdo",
+                                    "ce:indexed-name": "Brevdo E."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen Z."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Citro",
+                                    "ce:indexed-name": "Citro C."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "G.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Corrado",
+                                    "ce:indexed-name": "Corrado G.S."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Davis",
+                                    "ce:indexed-name": "Davis A."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dean",
+                                    "ce:indexed-name": "Dean J."
+                                },
+                                {
+                                    "@seq": "10",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Devin",
+                                    "ce:indexed-name": "Devin M."
+                                },
+                                {
+                                    "@seq": "11",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ghe-Mawat",
+                                    "ce:indexed-name": "Ghe-Mawat S."
+                                },
+                                {
+                                    "@seq": "12",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Goodfellow",
+                                    "ce:indexed-name": "Goodfellow I."
+                                },
+                                {
+                                    "@seq": "13",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Harp",
+                                    "ce:indexed-name": "Harp A."
+                                },
+                                {
+                                    "@seq": "14",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Irving",
+                                    "ce:indexed-name": "Irving G."
+                                },
+                                {
+                                    "@seq": "15",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Isard",
+                                    "ce:indexed-name": "Isard M."
+                                },
+                                {
+                                    "@seq": "16",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jia",
+                                    "ce:indexed-name": "Jia Y."
+                                },
+                                {
+                                    "@seq": "17",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jozefowicz",
+                                    "ce:indexed-name": "Jozefowicz R."
+                                },
+                                {
+                                    "@seq": "18",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kaiser",
+                                    "ce:indexed-name": "Kaiser L."
+                                },
+                                {
+                                    "@seq": "19",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kudlur",
+                                    "ce:indexed-name": "Kudlur M."
+                                },
+                                {
+                                    "@seq": "20",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Levenberg",
+                                    "ce:indexed-name": "Levenberg J."
+                                },
+                                {
+                                    "@seq": "21",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mané",
+                                    "ce:indexed-name": "Mane D."
+                                },
+                                {
+                                    "@seq": "22",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Monga",
+                                    "ce:indexed-name": "Monga R."
+                                },
+                                {
+                                    "@seq": "23",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Moore",
+                                    "ce:indexed-name": "Moore S."
+                                },
+                                {
+                                    "@seq": "24",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Murray",
+                                    "ce:indexed-name": "Murray D."
+                                },
+                                {
+                                    "@seq": "25",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Olah",
+                                    "ce:indexed-name": "Olah C."
+                                },
+                                {
+                                    "@seq": "26",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schuster",
+                                    "ce:indexed-name": "Schuster M."
+                                },
+                                {
+                                    "@seq": "27",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shlens",
+                                    "ce:indexed-name": "Shlens J."
+                                },
+                                {
+                                    "@seq": "28",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Steiner",
+                                    "ce:indexed-name": "Steiner B."
+                                },
+                                {
+                                    "@seq": "29",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sutskever",
+                                    "ce:indexed-name": "Sutskever I."
+                                },
+                                {
+                                    "@seq": "30",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Talwar",
+                                    "ce:indexed-name": "Talwar K."
+                                },
+                                {
+                                    "@seq": "31",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tucker",
+                                    "ce:indexed-name": "Tucker P."
+                                },
+                                {
+                                    "@seq": "32",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vanhoucke",
+                                    "ce:indexed-name": "Vanhoucke V."
+                                },
+                                {
+                                    "@seq": "33",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vasudevan",
+                                    "ce:indexed-name": "Vasudevan V."
+                                },
+                                {
+                                    "@seq": "34",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Viégas",
+                                    "ce:indexed-name": "Viegas F."
+                                },
+                                {
+                                    "@seq": "35",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vinyals",
+                                    "ce:indexed-name": "Vinyals O."
+                                },
+                                {
+                                    "@seq": "36",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Warden",
+                                    "ce:indexed-name": "Warden P."
+                                },
+                                {
+                                    "@seq": "37",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wattenberg",
+                                    "ce:indexed-name": "Wattenberg M."
+                                },
+                                {
+                                    "@seq": "38",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wicke",
+                                    "ce:indexed-name": "Wicke M."
+                                },
+                                {
+                                    "@seq": "39",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu Y."
+                                },
+                                {
+                                    "@seq": "40",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zheng",
+                                    "ce:indexed-name": "Zheng X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "TensorFlow: Large-Scale Machine Learning on Heterogeneous Systems"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Mazen Al Borno, Martin de Lasa, and Aaron Hertzmann. 2013. Trajectory Optimization for Full-Body Movements with Complex Contacts. IEEE Transactions on Visualization and Computer Graphics 19, 8 (Aug. 2013), 1405-1414.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Trajectory optimization for full-body movements with complex contacts"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84879209923",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "19",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "1405",
+                                    "@last": "1414"
+                                }
+                            },
+                            "ref-text": "Aug. 2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Borno",
+                                    "ce:indexed-name": "Borno M.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "De Lasa",
+                                    "ce:indexed-name": "De Lasa M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hertzmann",
+                                    "ce:indexed-name": "Hertzmann A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Visualization and Computer Graphics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "anonymized for review. 2018. Non-Smooth Newton Methods for Deformable Multi-Body Dynamics. In submission (2018).",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85061773480",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "anonymized for review. submission 2018",
+                            "ref-sourcetitle": "Non-Smooth Newton Methods for Deformable Multi-Body Dynamics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Glen Berseth, Cheng Xie, Paul Cernek, and Michiel van de Panne. 2018. Progressive Reinforcement Learning with Distillation for Multi-Skilled Motion Control. International Conference on Learning Representations (2018).",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Progressive reinforcement learning with distillation for multi-skilled motion control"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85083953871",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "2018",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Berseth",
+                                    "ce:indexed-name": "Berseth G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xie",
+                                    "ce:indexed-name": "Xie C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cernek",
+                                    "ce:indexed-name": "Cernek P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van De Panne",
+                                    "ce:indexed-name": "Van De Panne M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Conference on Learning Representations"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Joseph L. Cooper and Dana Ballard. 2012. Realtime, Physics-Based Marker Following. In Motion in Games, Marcelo Kallmann and Kostas Bekris (Eds.). Springer Berlin Heidelberg, Berlin, Heidelberg, 350-361.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Realtime, physics-based marker following"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84869764974",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "350",
+                                "@last": "361"
+                            }},
+                            "ref-text": "Marcelo Kallmann and Kostas Bekris (Eds.). Springer Berlin Heidelberg, Berlin, Heidelberg",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cooper",
+                                    "ce:indexed-name": "Cooper J.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ballard",
+                                    "ce:indexed-name": "Ballard D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Motion in Games"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Stelian Coros, Philippe Beaudoin, and Michiel van de Panne. 2009. Robust Task-based Control Policies for Physics-based Characters. ACM Trans. Graph. 28, 5, Article 170 (Dec. 2009), 9 pages.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Robust task-based control policies for physics-based characters"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "170",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "77749243022",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "28",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {"@first": "9"}
+                            },
+                            "ref-text": "Article Dec. 2009",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Coros",
+                                    "ce:indexed-name": "Coros S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Beaudoin",
+                                    "ce:indexed-name": "Beaudoin P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van De Panne",
+                                    "ce:indexed-name": "Van De Panne M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Stelian Coros, Philippe Beaudoin, and Michiel van de Panne. 2010. Generalized Biped Walking Control. ACM Trans. Graph. 29, 4, Article 130 (July 2010), 9 pages.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Generalized biped walking control"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "130",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "84870761620",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "29",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {"@first": "9"}
+                            },
+                            "ref-text": "Article July 2010",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Coros",
+                                    "ce:indexed-name": "Coros S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Beaudoin",
+                                    "ce:indexed-name": "Beaudoin P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van De Panne",
+                                    "ce:indexed-name": "Van De Panne M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Taku Komura Daniel Holden, Jun Saito. [n. d.]. Motion capture database. http://theorangeduck.com/media/uploads/other_stuff/motionsynth_code.zip.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://theorangeduck.com/media/uploads/other_stuff/motionsynth_code.zip",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85061805747",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "n. d",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Komura",
+                                    "ce:indexed-name": "Komura T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Holden",
+                                    "ce:indexed-name": "Holden D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Saito",
+                                    "ce:indexed-name": "Saito J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Motion Capture Database"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Prafulla Dhariwal, Christopher Hesse, Oleg Klimov, Alex Nichol, Matthias Plappert, Alec Radford, John Schulman, Szymon Sidor, and Yuhuai Wu. 2017. OpenAI Baselines. https://github.com/openai/baselines.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://github.com/openai/baselines",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85050596935",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dhariwal",
+                                    "ce:indexed-name": "Dhariwal P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hesse",
+                                    "ce:indexed-name": "Hesse C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Klimov",
+                                    "ce:indexed-name": "Klimov O."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nichol",
+                                    "ce:indexed-name": "Nichol A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Plappert",
+                                    "ce:indexed-name": "Plappert M."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Radford",
+                                    "ce:indexed-name": "Radford A."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schulman",
+                                    "ce:indexed-name": "Schulman J."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sidor",
+                                    "ce:indexed-name": "Sidor S."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "OpenAI Baselines"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Andrew Feng, Yazhou Huang, Marcelo Kallmann, and Ari Shapiro. 2012. An Analysis of Motion Blending Techniques. In Motion in Games, Marcelo Kallmann and Kostas Bekris (Eds.). Springer Berlin Heidelberg, Berlin, Heidelberg, 232-243.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "An analysis of motion blending techniques"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84869787138",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "232",
+                                "@last": "243"
+                            }},
+                            "ref-text": "Marcelo Kallmann and Kostas Bekris (Eds.). Springer Berlin Heidelberg, Berlin, Heidelberg",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Feng",
+                                    "ce:indexed-name": "Feng A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kallmann",
+                                    "ce:indexed-name": "Kallmann M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shapiro",
+                                    "ce:indexed-name": "Shapiro A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Motion in Games"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "T. Geijtenbeek and N. Pronost. 2012. Interactive Character Animation Using Simulated Physics: A State-of-the-Art Review. Comput. Graph. Forum 31, 8 (Dec. 2012), 2492-2515.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Interactive character animation using simulated physics: A state-of-the-art review"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84874936213",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "31",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "2492",
+                                    "@last": "2515"
+                                }
+                            },
+                            "ref-text": "Dec. 2012",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Geijtenbeek",
+                                    "ce:indexed-name": "Geijtenbeek T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pronost",
+                                    "ce:indexed-name": "Pronost N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Comput. Graph. Forum"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "T. Geijtenbeek, N. Pronost, and A. F. van der Stappen. 2012. Simple Data-driven Control for Simulated Bipeds. In Proceedings of the ACM SIGGRAPH/Eurographics Symposium on Computer Animation (SCA'12). Eurographics Association, Goslar Germany, Germany, 211-219.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Simple data-driven control for simulated bipeds"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84887837127",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "211",
+                                "@last": "219"
+                            }},
+                            "ref-text": "Eurographics Association, Goslar Germany, Germany",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Geijtenbeek",
+                                    "ce:indexed-name": "Geijtenbeek T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pronost",
+                                    "ce:indexed-name": "Pronost N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van Der Stappen",
+                                    "ce:indexed-name": "Van Der Stappen A.F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the ACM SIGGRAPH/Eurographics Symposium on Computer Animation (SCA'12)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Thomas Geijtenbeek, Michiel van de Panne, and A. Frank van der Stappen. 2013. Flexible Muscle-based Locomotion for Bipedal Creatures. ACM Trans. Graph. 32, 6, Article 206 (Nov. 2013), 11 pages.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Flexible muscle-based locomotion for bipedal creatures"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "206",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "84887829398",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "32",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {"@first": "11"}
+                            },
+                            "ref-text": "Article Nov. 2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Geijtenbeek",
+                                    "ce:indexed-name": "Geijtenbeek T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van De Panne",
+                                    "ce:indexed-name": "Van De Panne M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Frank Van Der Stappen",
+                                    "ce:indexed-name": "Frank Van Der Stappen A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Radek Grzeszczuk and Demetri Terzopoulos. 1995. Automated Learning of Muscle-actuated Locomotion Through Control Abstraction. In Proceedings of the 22Nd Annual Conference on Computer Graphics and Interactive Techniques (SIGGRAPH'95). ACM, New York, NY, USA, 63-70.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1995"},
+                            "ref-title": {"ref-titletext": "Automated Learning of Muscle-actuated Locomotion Through Control Abstraction"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0029194307",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "63",
+                                "@last": "70"
+                            }},
+                            "ref-text": "ACM, New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grzeszczuk",
+                                    "ce:indexed-name": "Grzeszczuk R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Terzopoulos",
+                                    "ce:indexed-name": "Terzopoulos D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 22Nd Annual Conference on Computer Graphics and Interactive Techniques (SIGGRAPH'95)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Nikolaus Hansen. 2007. The CMA Evolution Strategy: A Comparing Review., 75-102 pages.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33751355001",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "75",
+                                "@last": "102"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "N.",
+                                "@_fa": "true",
+                                "ce:surname": "Hansen",
+                                "ce:indexed-name": "Hansen N."
+                            }]},
+                            "ref-sourcetitle": "The CMA Evolution Strategy: A Comparing Review"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Nicolas Heess, Dhruva TB, Srinivasan Sriram, Jay Lemmon, Josh Merel, Greg Wayne, Yuval Tassa, Tom Erez, Ziyu Wang, S. M. Ali Eslami, Martin A. Riedmiller, and David Silver. 2017. Emergence of Locomotion Behaviours in Rich Environments. CoRR abs/1707.02286 (2017).",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Emergence of locomotion behaviours in rich environments"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85044446086",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "abs/1707.02286 2017",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Heess",
+                                    "ce:indexed-name": "Heess N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dhruva",
+                                    "ce:indexed-name": "Dhruva T.B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sriram",
+                                    "ce:indexed-name": "Sriram S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lemmon",
+                                    "ce:indexed-name": "Lemmon J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Merel",
+                                    "ce:indexed-name": "Merel J."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wayne",
+                                    "ce:indexed-name": "Wayne G."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tassa",
+                                    "ce:indexed-name": "Tassa Y."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Erez",
+                                    "ce:indexed-name": "Erez T."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Z."
+                                },
+                                {
+                                    "@seq": "10",
+                                    "ce:initials": "S.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ali Eslami",
+                                    "ce:indexed-name": "Ali Eslami S.M."
+                                },
+                                {
+                                    "@seq": "11",
+                                    "ce:initials": "M.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Riedmiller",
+                                    "ce:indexed-name": "Riedmiller M.A."
+                                },
+                                {
+                                    "@seq": "12",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Silver",
+                                    "ce:indexed-name": "Silver D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "CoRR"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Jessica K. Hodgins, Wayne L. Wooten, David C. Brogan, and James F. O'Brien. 1995. Animating Human Athletics. In Proceedings of the 22Nd Annual Conference on Computer Graphics and Interactive Techniques (SIGGRAPH'95). ACM, New York, NY, USA, 71-78.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1995"},
+                            "ref-title": {"ref-titletext": "Animating human athletics"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0029202234",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "71",
+                                "@last": "78"
+                            }},
+                            "ref-text": "ACM, New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hodgins",
+                                    "ce:indexed-name": "Hodgins J.K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wooten",
+                                    "ce:indexed-name": "Wooten W.L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brogan",
+                                    "ce:indexed-name": "Brogan D.C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "O'Brien",
+                                    "ce:indexed-name": "O'Brien J.F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 22Nd Annual Conference on Computer Graphics and Interactive Techniques (SIGGRAPH'95)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Daniel Holden, Taku Komura, and Jun Saito. 2017. Phase-functioned Neural Networks for Character Control. ACM Trans. Graph. 36, 4, Article 42 (July 2017), 13 pages.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Phase-functioned Neural Networks for Character Control"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "42",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "85030761955",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "36",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {"@first": "13"}
+                            },
+                            "ref-text": "Article July 2017",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Holden",
+                                    "ce:indexed-name": "Holden D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Komura",
+                                    "ce:indexed-name": "Komura T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Saito",
+                                    "ce:indexed-name": "Saito J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Daniel Holden, Jun Saito, and Taku Komura. 2016. A Deep Learning Framework for Character Motion Synthesis and Editing. ACM Trans. Graph. 35, 4, Article 138 (July 2016), 11 pages.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "A deep learning framework for character motion synthesis and editing"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "138",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "84980028529",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "35",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {"@first": "11"}
+                            },
+                            "ref-text": "Article July 2016",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Holden",
+                                    "ce:indexed-name": "Holden D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Saito",
+                                    "ce:indexed-name": "Saito J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Komura",
+                                    "ce:indexed-name": "Komura T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Zumra Kavafoglu, Ersan Kavafoglu, Gokcen Cimen, Tolga Capin, and Hasmet Gurcay. 2018. Style-based biped walking control. The Visual Computer 34, 3 (01 Mar 2018), 359-375.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Style-based biped walking control"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85006507423",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "34",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "359",
+                                    "@last": "375"
+                                }
+                            },
+                            "ref-text": "01 Mar 2018",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kavafoglu",
+                                    "ce:indexed-name": "Kavafoglu Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kavafoglu",
+                                    "ce:indexed-name": "Kavafoglu E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cimen",
+                                    "ce:indexed-name": "Cimen G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Capin",
+                                    "ce:indexed-name": "Capin T."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gurcay",
+                                    "ce:indexed-name": "Gurcay H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "The Visual Computer"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Günter Klambauer, Thomas Unterthiner, Andreas Mayr, and Sepp Hochreiter. 2017. Self-Normalizing Neural Networks. CoRR abs/1706.02515 (2017). arXiv:1706.02515 Lucas Kovar, Michael Gleicher, and Frédéric Pighin. 2002. Motion Graphs. ACM Trans. Graph. 21, 3 (July 2002), 473-482.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Self-normalizing neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85061772193",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "21",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "473",
+                                    "@last": "482"
+                                }
+                            },
+                            "ref-text": "CoRR abs/1706.02515 (2017). arXiv:1706.02515 Lucas Kovar, Michael Gleicher, and Frédéric Pighin. 2002. Motion Graphs. July 2002",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Klambauer",
+                                    "ce:indexed-name": "Klambauer G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Unterthiner",
+                                    "ce:indexed-name": "Unterthiner T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mayr",
+                                    "ce:indexed-name": "Mayr A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hochreiter",
+                                    "ce:indexed-name": "Hochreiter S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Vikash Kumar. [n. d.]. Humanoid 1.31. http://www.mujoco.org/forum/index.php?resources/humanoid.5/.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://www.mujoco.org/forum/index.php?resources/humanoid.5/",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85061795621",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "n. d",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "V.",
+                                "@_fa": "true",
+                                "ce:surname": "Kumar",
+                                "ce:indexed-name": "Kumar V."
+                            }]},
+                            "ref-sourcetitle": "Humanoid 1.31"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Taesoo Kwon and Jessica Hodgins. 2010. Control Systems for Human Running Using an Inverted Pendulum Model and a Reference Motion Capture Sequence. In Proceedings of the 2010 ACM SIGGRAPH/Eurographics Symposium on Computer Animation (SCA'10). Eurographics Association, Aire-la-Ville, Switzerland, Switzerland, 129-138.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Control systems for human running using an inverted pendulum model and a reference motion capture sequence"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85021300448",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "129",
+                                "@last": "138"
+                            }},
+                            "ref-text": "Eurographics Association, Aire-la-Ville, Switzerland, Switzerland",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kwon",
+                                    "ce:indexed-name": "Kwon T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hodgins",
+                                    "ce:indexed-name": "Hodgins J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2010 ACM SIGGRAPH/Eurographics Symposium on Computer Animation (SCA'10)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Joseph Laszlo, Michiel van de Panne, and Eugene Fiume. 1996. Limit Cycle Control and Its Application to the Animation of Balancing and Walking. In Proceedings of the 23rd Annual Conference on Computer Graphics and Interactive Techniques (SIGGRAPH'96). ACM, New York, NY, USA, 155-162.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "Limit cycle control and its application to the animation of balancing and walking"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85032433652",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "155",
+                                "@last": "162"
+                            }},
+                            "ref-text": "ACM, New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Laszlo",
+                                    "ce:indexed-name": "Laszlo J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van De Panne",
+                                    "ce:indexed-name": "Van De Panne M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fiume",
+                                    "ce:indexed-name": "Fiume E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 23rd Annual Conference on Computer Graphics and Interactive Techniques (SIGGRAPH'96)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Yoonsang Lee, Sungeun Kim, and Jehee Lee. 2010. Data-driven Biped Control. ACM Trans. Graph. 29, 4, Article 129 (July 2010), 8 pages.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Data-driven Biped Control"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "129",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "78249235129",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "29",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {"@first": "8"}
+                            },
+                            "ref-text": "Article July 2010",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Sergey Levine and Pieter Abbeel. 2014. Learning Neural Network Policies with Guided Policy Search Under Unknown Dynamics. In Proceedings of the 27th International Conference on Neural Information Processing Systems - Volume 1 (NIPS'14). MIT Press, Cambridge, MA, USA, 1071-1079.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Learning neural network policies with guided policy search under unknown dynamics"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84937822296",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1071",
+                                "@last": "1079"
+                            }},
+                            "ref-text": "MIT Press, Cambridge, MA, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Levine",
+                                    "ce:indexed-name": "Levine S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abbeel",
+                                    "ce:indexed-name": "Abbeel P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 27th International Conference on Neural Information Processing Systems - 1 (NIPS'14)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Sergey Levine and Vladlen Koltun. 2014. Learning Complex Neural Network Policies with Trajectory Optimization. In ICML'14: Proceedings of the 31st International Conference on Machine Learning.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Learning complex neural network policies with trajectory optimization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84919913608",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Levine",
+                                    "ce:indexed-name": "Levine S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koltun",
+                                    "ce:indexed-name": "Koltun V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ICML'14: Proceedings of the 31st International Conference on Machine Learning"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Timothy P. Lillicrap, Jonathan J. Hunt, Alexander Pritzel, Nicolas Heess, Tom Erez, Yuval Tassa, David Silver, and Daan Wierstra. 2015. Continuous control with deep reinforcement learning. CoRR abs/1509.02971 (2015). arXiv:1509.02971",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Continuous control with deep reinforcement learning"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1509.02971",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85007167143",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "abs/1509.02971 2015",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lillicrap",
+                                    "ce:indexed-name": "Lillicrap T.P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hunt",
+                                    "ce:indexed-name": "Hunt J.J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pritzel",
+                                    "ce:indexed-name": "Pritzel A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Heess",
+                                    "ce:indexed-name": "Heess N."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Erez",
+                                    "ce:indexed-name": "Erez T."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tassa",
+                                    "ce:indexed-name": "Tassa Y."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Silver",
+                                    "ce:indexed-name": "Silver D."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wierstra",
+                                    "ce:indexed-name": "Wierstra D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "CoRR"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Libin Liu, Michiel Van De Panne, and Kangkang Yin. 2016. Guided Learning of Control Graphs for Physics-Based Characters. ACM Trans. Graph. 35, 3, Article 29 (May 2016), 14 pages.",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Guided learning of control graphs for physics-based characters"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "29",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "84971574831",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "35",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {"@first": "14"}
+                            },
+                            "ref-text": "Article May 2016",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "De Panne",
+                                    "ce:indexed-name": "De Panne M.V."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yin",
+                                    "ce:indexed-name": "Yin K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Libin Liu, KangKang Yin, and Baining Guo. 2015. Improving Sampling-based Motion Control. Comput. Graph. Forum 34, 2 (May 2015), 415-423.",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Improving Sampling-based Motion Control"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84932184309",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "34",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "415",
+                                    "@last": "423"
+                                }
+                            },
+                            "ref-text": "May 2015",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yin",
+                                    "ce:indexed-name": "Yin K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Comput. Graph. Forum"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Libin Liu, KangKang Yin, Michiel van de Panne, Tianjia Shao, and Weiwei Xu. 2010. Sampling-based Contact-rich Motion Control. ACM Transctions on Graphics 29, 4 (2010), Article 128.",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Sampling-based Contact-rich Motion Control"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "128",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "84861837388",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "29",
+                                "@issue": "4"
+                            }},
+                            "ref-text": "2010), Article",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yin",
+                                    "ce:indexed-name": "Yin K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van De Panne",
+                                    "ce:indexed-name": "Van De Panne M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shao",
+                                    "ce:indexed-name": "Shao T."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Transctions on Graphics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Josh Merel, Yuval Tassa, Dhruva TB, Sriram Srinivasan, Jay Lemmon, Ziyu Wang, Greg Wayne, and Nicolas Heess. 2017. Learning human behaviors from motion capture by adversarial imitation. CoRR abs/1707.02201 (2017).",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Learning human behaviors from motion capture by adversarial imitation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85047019729",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "abs/1707.02201 2017",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Merel",
+                                    "ce:indexed-name": "Merel J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tassa",
+                                    "ce:indexed-name": "Tassa Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dhruva",
+                                    "ce:indexed-name": "Dhruva T.B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Srinivasan",
+                                    "ce:indexed-name": "Srinivasan S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lemmon",
+                                    "ce:indexed-name": "Lemmon J."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Z."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wayne",
+                                    "ce:indexed-name": "Wayne G."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Heess",
+                                    "ce:indexed-name": "Heess N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "CoRR"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Igor Mordatch, Kendall Lowrey, Galen Andrew, Zoran Popovic, and Emanuel Todorov. 2015. Interactive Control of Diverse Complex Characters with Neural Networks. In Proceedings of the 28th International Conference on Neural Information Processing Systems - Volume 2 (NIPS'15). MIT Press, Cambridge, MA, USA, 3132-3140.",
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Interactive control of diverse complex characters with neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84965182099",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3132",
+                                "@last": "3140"
+                            }},
+                            "ref-text": "MIT Press, Cambridge, MA, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mordatch",
+                                    "ce:indexed-name": "Mordatch I."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lowrey",
+                                    "ce:indexed-name": "Lowrey K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Andrew",
+                                    "ce:indexed-name": "Andrew G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Popovic",
+                                    "ce:indexed-name": "Popovic Z."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Todorov",
+                                    "ce:indexed-name": "Todorov E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 28th International Conference on Neural Information Processing Systems - 2 (NIPS'15)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Igor Mordatch and Emanuel Todorov. 2014. Combining the benefits of function approximation and trajectory optimization. In In Robotics: Science and Systems RSS.",
+                        "@id": "36",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Combining the benefits of function approximation and trajectory optimization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85131220210",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "In",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mordatch",
+                                    "ce:indexed-name": "Mordatch I."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Todorov",
+                                    "ce:indexed-name": "Todorov E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Robotics: Science and Systems (RSS"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Igor Mordatch, Jack M. Wang, Emanuel Todorov, and Vladlen Koltun. 2013. Animating Human Lower Limbs Using Contact-invariant Optimization. ACM Trans. Graph. 32, 6, Article 203 (Nov. 2013), 8 pages.",
+                        "@id": "37",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Animating Human Lower Limbs Using Contact-invariant Optimization"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "203",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "84887847814",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "32",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {"@first": "8"}
+                            },
+                            "ref-text": "Article Nov. 2013",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mordatch",
+                                    "ce:indexed-name": "Mordatch I."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang J.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Todorov",
+                                    "ce:indexed-name": "Todorov E."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koltun",
+                                    "ce:indexed-name": "Koltun V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Xue Bin Peng, Pieter Abbeel, Sergey Levine, and Michiel van de Panne. 2018. Deep-Mimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills. ACM Transactions on Graphics (Proc. SIGGRAPH 2018 - to appear) 37, 4 (2018).",
+                        "@id": "38",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Deep-mimic: Example-guided deep reinforcement learning of physics-based character skills"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85056667808",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "37"},
+                                "pagerange": {"@first": "4"}
+                            },
+                            "ref-text": "2018",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peng",
+                                    "ce:indexed-name": "Peng X.B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abbeel",
+                                    "ce:indexed-name": "Abbeel P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Levine",
+                                    "ce:indexed-name": "Levine S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van De Panne",
+                                    "ce:indexed-name": "Van De Panne M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Transactions on Graphics (Proc. SIGGRAPH 2018 - to Appear)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Xue Bin Peng, Glen Berseth, and Michiel van de Panne. 2015. Dynamic Terrain Traversal Skills Using Reinforcement Learning. ACM Trans. Graph. 34, 4, Article 80 (July 2015), 11 pages.",
+                        "@id": "39",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Dynamic terrain traversal skills using reinforcement learning"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "80",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "84947230189",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "34",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {"@first": "11"}
+                            },
+                            "ref-text": "Article July 2015",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peng",
+                                    "ce:indexed-name": "Peng X.B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Berseth",
+                                    "ce:indexed-name": "Berseth G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van De Panne",
+                                    "ce:indexed-name": "Van De Panne M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Xue Bin Peng, Glen Berseth, and Michiel van de Panne. 2016. Terrain-Adaptive Locomotion Skills Using Deep Reinforcement Learning. ACM Transactions on Graphics (Proc. SIGGRAPH 2016) 35, 4 (2016).",
+                        "@id": "40",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Terrain-adaptive locomotion skills using deep reinforcement learning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84979992249",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "35"},
+                                "pagerange": {"@first": "4"}
+                            },
+                            "ref-text": "2016",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peng",
+                                    "ce:indexed-name": "Peng X.B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Berseth",
+                                    "ce:indexed-name": "Berseth G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van De Panne",
+                                    "ce:indexed-name": "Van De Panne M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Transactions on Graphics (Proc. SIGGRAPH 2016)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Xue Bin Peng, Glen Berseth, KangKang Yin, and Michiel van de Panne. 2017. DeepLoco: Dynamic Locomotion Skills Using Hierarchical Deep Reinforcement Learning. ACM Transactions on Graphics (Proc. SIGGRAPH 2017) 36, 4 (2017).",
+                        "@id": "41",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Deeploco: Dynamic locomotion skills using hierarchical deep reinforcement learning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85030768433",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "36"},
+                                "pagerange": {"@first": "4"}
+                            },
+                            "ref-text": "2017",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peng",
+                                    "ce:indexed-name": "Peng X.B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Berseth",
+                                    "ce:indexed-name": "Berseth G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yin",
+                                    "ce:indexed-name": "Yin K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van De Panne",
+                                    "ce:indexed-name": "Van De Panne M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Transactions on Graphics (Proc. SIGGRAPH 2017)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Xue Bin Peng and Michiel van de Panne. 2017. Learning Locomotion Skills Using DeepRL: Does the Choice of Action Space Matter?. In Proceedings of the ACM SIGGRAPH / Eurographics Symposium on Computer Animation (SCA'17). ACM, New York, NY, USA, Article 12, 13 pages.",
+                        "@id": "42",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Learning locomotion skills using DeepRL: Does the choice of action space matter?"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "12",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "85031697014",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {"@first": "13"}},
+                            "ref-text": "ACM, New York, NY, USA, Article",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peng",
+                                    "ce:indexed-name": "Peng X.B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van De Panne",
+                                    "ce:indexed-name": "Van De Panne M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the ACM SIGGRAPH / Eurographics Symposium on Computer Animation (SCA'17)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "John Schulman, Sergey Levine, Philipp Moritz, Michael I. Jordan, and Pieter Abbeel. 2015a. Trust Region Policy Optimization. CoRR abs/1502.05477 (2015). arXiv:1502.05477",
+                        "@id": "43",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Trust region policy optimization"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1502.05477",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85006469735",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "abs/1502.05477 2015",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schulman",
+                                    "ce:indexed-name": "Schulman J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Levine",
+                                    "ce:indexed-name": "Levine S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Moritz",
+                                    "ce:indexed-name": "Moritz P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jordan",
+                                    "ce:indexed-name": "Jordan M.I."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abbeel",
+                                    "ce:indexed-name": "Abbeel P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "CoRR"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "John Schulman, Philipp Moritz, Sergey Levine, Michael I. Jordan, and Pieter Abbeel. 2015b. High-Dimensional Continuous Control Using Generalized Advantage Estimation. CoRR abs/1506.02438 (2015). arXiv:1506.02438",
+                        "@id": "44",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "High-dimensional continuous control using generalized advantage estimation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1506.02438",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85056618898",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "abs/1506.02438 2015",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schulman",
+                                    "ce:indexed-name": "Schulman J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Moritz",
+                                    "ce:indexed-name": "Moritz P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Levine",
+                                    "ce:indexed-name": "Levine S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jordan",
+                                    "ce:indexed-name": "Jordan M.I."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abbeel",
+                                    "ce:indexed-name": "Abbeel P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "CoRR"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, and Oleg Klimov. 2017. Proximal Policy Optimization Algorithms. CoRR abs/1707.06347 (2017). arXiv:1707.06347",
+                        "@id": "45",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Proximal policy optimization algorithms"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1707.06347",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85041194636",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "abs/1707.06347 2017",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schulman",
+                                    "ce:indexed-name": "Schulman J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wolski",
+                                    "ce:indexed-name": "Wolski F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dhariwal",
+                                    "ce:indexed-name": "Dhariwal P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Radford",
+                                    "ce:indexed-name": "Radford A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Klimov",
+                                    "ce:indexed-name": "Klimov O."
+                                }
+                            ]},
+                            "ref-sourcetitle": "CoRR"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Karl Sims. 1994. Evolving Virtual Creatures. In Proceedings of the 21st Annual Conference on Computer Graphics and Interactive Techniques (SIGGRAPH'94). ACM, New York, NY, USA, 15-22.",
+                        "@id": "46",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1994"},
+                            "ref-title": {"ref-titletext": "Evolving virtual creatures"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85028095895",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "15",
+                                "@last": "22"
+                            }},
+                            "ref-text": "ACM, New York, NY, USA",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "K.",
+                                "@_fa": "true",
+                                "ce:surname": "Sims",
+                                "ce:indexed-name": "Sims K."
+                            }]},
+                            "ref-sourcetitle": "Proceedings of the 21st Annual Conference on Computer Graphics and Interactive Techniques (SIGGRAPH'94)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Kwang Won Sok, Manmyung Kim, and Jehee Lee. 2007. Simulating Biped Behaviors from Human Motion Data. ACM Trans. Graph. 26, 3, Article 107 (July 2007).",
+                        "@id": "47",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Simulating biped behaviors from human motion data"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "107",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "57149090550",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "26",
+                                "@issue": "3"
+                            }},
+                            "ref-text": "Article July 2007",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sok",
+                                    "ce:indexed-name": "Sok K.W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Jie Tan, Yuting Gu, Greg Turk, and C. Karen Liu. 2011. Articulated Swimming Creatures. ACM Trans. Graph. 30, 4, Article 58 (July 2011), 12 pages.",
+                        "@id": "48",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Articulated swimming creatures"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "58",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "80051912715",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "30",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {"@first": "12"}
+                            },
+                            "ref-text": "Article July 2011",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tan",
+                                    "ce:indexed-name": "Tan J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gu",
+                                    "ce:indexed-name": "Gu Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Turk",
+                                    "ce:indexed-name": "Turk G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Karen Liu",
+                                    "ce:indexed-name": "Karen Liu C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "H. van Hasselt and M. A. Wiering. 2007. Reinforcement Learning in Continuous Action Spaces. In 2007 IEEE International Symposium on Approximate Dynamic Programming and Reinforcement Learning. 272-279.",
+                        "@id": "49",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Reinforcement learning in continuous action spaces"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34548807200",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "272",
+                                "@last": "279"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van Hasselt",
+                                    "ce:indexed-name": "Van Hasselt H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wiering",
+                                    "ce:indexed-name": "Wiering M.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2007 IEEE International Symposium on Approximate Dynamic Programming and Reinforcement Learning"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Jackm Wang, Samuel R. Hamner, Scott L. Delp, and Vladlen Koltun. 2012. Optimizing locomotion controllers using biologically-based actuators and objectives. ACM Trans. Graph (2012).",
+                        "@id": "50",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Optimizing locomotion controllers using biologically-based actuators and objectives"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84866752761",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "2012",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hamner",
+                                    "ce:indexed-name": "Hamner S.R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Delp",
+                                    "ce:indexed-name": "Delp S.L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koltun",
+                                    "ce:indexed-name": "Koltun V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Jack M. Wang, David J. Fleet, and Aaron Hertzmann. 2009. Optimizing Walking Controllers. In ACM SIGGRAPH Asia 2009 Papers (SIGGRAPH Asia'09). ACM, New York, NY, USA, Article 168, 8 pages.",
+                        "@id": "51",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Optimizing walking controllers"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "168",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "77749295243",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {"@first": "8"}},
+                            "ref-text": "ACM, New York, NY, USA, Article",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang J.M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fleet",
+                                    "ce:indexed-name": "Fleet D.J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hertzmann",
+                                    "ce:indexed-name": "Hertzmann A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM SIGGRAPH Asia 2009 Papers (SIGGRAPH Asia'09)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Jack M. Wang, David J. Fleet, and Aaron Hertzmann. 2010. Optimizing Walking Controllers for Uncertain Inputs and Environments. In ACM SIGGRAPH 2010 Papers (SIGGRAPH'10). ACM, New York, NY, USA, Article 73, 8 pages.",
+                        "@id": "52",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Optimizing walking controllers for uncertain inputs and environments"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "73",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "77956384479",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {"@first": "8"}},
+                            "ref-text": "ACM, New York, NY, USA, Article",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang J.M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fleet",
+                                    "ce:indexed-name": "Fleet D.J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hertzmann",
+                                    "ce:indexed-name": "Hertzmann A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM SIGGRAPH 2010 Papers (SIGGRAPH'10)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Y. Wang, Z. Wang, G. Bao, and B. Xu. 2014. Optimization control for biped motion trajectory. In 2014 International Conference on Audio, Language and Image Processing. 780-785.",
+                        "@id": "53",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Optimization control for biped motion trajectory"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84922550759",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "780",
+                                "@last": "785"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bao",
+                                    "ce:indexed-name": "Bao G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2014 International Conference on Audio, Language and Image Processing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "KangKang Yin, Kevin Loken, and Michiel van de Panne. 2007. SIMBICON: Simple Biped Locomotion Control. ACM Trans. Graph. 26, 3, Article 105 (July 2007).",
+                        "@id": "54",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Simbicon: Simple biped locomotion control"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "105",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "57149120350",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "26",
+                                "@issue": "3"
+                            }},
+                            "ref-text": "Article July 2007",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yin",
+                                    "ce:indexed-name": "Yin K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Loken",
+                                    "ce:indexed-name": "Loken K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van De Panne",
+                                    "ce:indexed-name": "Van De Panne M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph."
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Santa Clara",
+            "@id": "60076695",
+            "affilname": "NVIDIA",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60076695",
+            "affiliation-country": "United States"
+        },
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        }
+    ],
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85061839078",
+        "dc:description": "We introduce a deep reinforcement learning method that learns to control articulated humanoid bodies to imitate given target motions closely when simulated in a physics simulator. The target motion, which may not have been seen by the agent and can be noisy, is supplied at runtime. Our method can recover balance from moderate external disturbances and keep imitating the target motion. When subjected to large disturbances that cause the humanoid to fall down, our method can control the character to get up and recover to track the motion. Our method is trained to imitate the mocap clips from the CMU motion capture database and a number of other publicly available databases. We use a state-of-the-art deep reinforcement learning algorithm to learn to dynamically control the gain of PD controllers, whose target angles are derived from the mocap clip and to apply corrective torques with the goal of imitating the provided motion clip as closely as possible. Both the simulation and the learning algorithms are parallelized and run on the GPU. We demonstrate that the proposed method can control the character to imitate a wide variety of motions such as running, walking, dancing, jumping, kicking, punching, standing up, and so on.",
+        "prism:coverDate": "2018-12-10",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85061839078",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Nuttapong",
+            "preferred-name": {
+                "ce:given-name": "Nuttapong",
+                "ce:initials": "N.",
+                "ce:surname": "Chentanez",
+                "ce:indexed-name": "Chentanez N."
+            },
+            "@seq": "1",
+            "ce:initials": "N.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Chentanez",
+            "@auid": "14824789300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/14824789300",
+            "ce:indexed-name": "Chentanez N."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85061839078"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85061839078&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85061839078&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781450360159",
+        "prism:publicationName": "Proceedings - MIG 2018: ACM SIGGRAPH Conference on Motion, Interaction, and Games",
+        "source-id": "21100898967",
+        "citedby-count": "41",
+        "subtype": "cp",
+        "dc:title": "Physics-based motion capture imitation with deep reinforcement learning",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1145/3274247.3274506",
+        "publishercopyright": "© 2018 Association for Computing Machinery.",
+        "dc:identifier": "SCOPUS_ID:85061839078",
+        "dc:publisher": "Association for Computing Machinery, Incacmhelp@acm.org"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "External disturbances",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Large disturbance",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Mocap",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Motion capture",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Reinforcement learning method",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Simulation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "State of the art",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Target motions",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Character Controller"
+        },
+        {
+            "@_fa": "true",
+            "$": "Deep Learning"
+        },
+        {
+            "@_fa": "true",
+            "$": "Mocap"
+        },
+        {
+            "@_fa": "true",
+            "$": "Neural Network"
+        },
+        {
+            "@_fa": "true",
+            "$": "Simulation"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Education",
+            "@code": "3304",
+            "@abbrev": "SOCI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Human-Computer Interaction",
+            "@code": "1709",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Nuttapong",
+            "preferred-name": {
+                "ce:given-name": "Nuttapong",
+                "ce:initials": "N.",
+                "ce:surname": "Chentanez",
+                "ce:indexed-name": "Chentanez N."
+            },
+            "@seq": "1",
+            "ce:initials": "N.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Chentanez",
+            "@auid": "14824789300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/14824789300",
+            "ce:indexed-name": "Chentanez N."
+        },
+        {
+            "ce:given-name": "Matthias",
+            "preferred-name": {
+                "ce:given-name": "Matthias",
+                "ce:initials": "M.",
+                "ce:surname": "Müller",
+                "ce:indexed-name": "Müller M."
+            },
+            "@seq": "2",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60076695",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60076695"
+            },
+            "ce:surname": "Müller",
+            "@auid": "57213094877",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57213094877",
+            "ce:indexed-name": "Muller M."
+        },
+        {
+            "ce:given-name": "Miles",
+            "preferred-name": {
+                "ce:given-name": "Miles",
+                "ce:initials": "M.",
+                "ce:surname": "Macklin",
+                "ce:indexed-name": "Macklin M."
+            },
+            "@seq": "3",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60076695",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60076695"
+            },
+            "ce:surname": "Macklin",
+            "@auid": "55805366300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55805366300",
+            "ce:indexed-name": "Macklin M."
+        },
+        {
+            "ce:given-name": "Viktor",
+            "preferred-name": {
+                "ce:given-name": "Viktor",
+                "ce:initials": "V.",
+                "ce:surname": "Makoviychuk",
+                "ce:indexed-name": "Makoviychuk V."
+            },
+            "@seq": "4",
+            "ce:initials": "V.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60076695",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60076695"
+            },
+            "ce:surname": "Makoviychuk",
+            "@auid": "57206661491",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57206661491",
+            "ce:indexed-name": "Makoviychuk V."
+        },
+        {
+            "ce:given-name": "Stefan",
+            "preferred-name": {
+                "ce:given-name": "Stefan",
+                "ce:initials": "S.",
+                "ce:surname": "Jeschke",
+                "ce:indexed-name": "Jeschke S."
+            },
+            "@seq": "5",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60076695",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60076695"
+            },
+            "ce:surname": "Jeschke",
+            "@auid": "10141789000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/10141789000",
+            "ce:indexed-name": "Jeschke S."
+        }
+    ]}
+}}

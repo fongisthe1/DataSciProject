@@ -1,0 +1,1402 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "25",
+                "@timestamp": "2023-06-25T05:57:42.000042-04:00",
+                "@year": "2023",
+                "@month": "06"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2018",
+                "@month": "11"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "secondary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {"xocs:funding-agency-matched-string": "Beijing Lisheng Cardiovascular Health Foundation"},
+                {"xocs:funding-agency-matched-string": "Istituto Auxologico Italiano"}
+            ],
+            "xocs:funding-addon-generated-timestamp": "2023-06-21T03:38:27.988Z",
+            "xocs:funding-text": "The trial received financial support from the Istituto Auxologico Italiano, a private Scientific Institution of which Alberto Zanchetti was the Scientific Director. Support was limited to general organizational expenses (cost of electronic case report forms, insurance, data management, statistical analysis, etc.) whereas the operation of the trial in China was financially supported by the Beijing Lisheng Cardiovascular Health Foundation. No financial help was available for compensation of the participating centres for patient recruitment and follow-up. Centres (for Europe largely limited to the ESH Excellence centres) agreed to participate without a research contract on a voluntary basis.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "address-part": "Pathumwan, Bangkok",
+                            "postal-code": "10330",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "organization": [
+                                {"$": "Department of Computer Engineering"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "113891981"
+                            },
+                            "@affiliation-instance-id": "S0950705118302557-4d043d9e7286c8241023f735ee19924f",
+                            "@dptid": "113891981"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Patoomsiri",
+                                "preferred-name": {
+                                    "ce:given-name": "Patoomsiri",
+                                    "ce:initials": "P.",
+                                    "ce:surname": "Songsiri",
+                                    "ce:indexed-name": "Songsiri P."
+                                },
+                                "@author-instance-id": "S0950705118302557-a1c6ddfde4226bb145bcdac249f11f36",
+                                "@seq": "1",
+                                "ce:initials": "P.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Songsiri",
+                                "@auid": "25822876600",
+                                "ce:indexed-name": "Songsiri P."
+                            },
+                            {
+                                "ce:given-name": "Boonserm",
+                                "preferred-name": {
+                                    "ce:given-name": "Boonserm",
+                                    "ce:initials": "B.",
+                                    "ce:surname": "Kijsirikul",
+                                    "ce:indexed-name": "Kijsirikul B."
+                                },
+                                "@author-instance-id": "S0950705118302557-2d8515090296617605e49b3cff9d0f7b",
+                                "@seq": "3",
+                                "ce:initials": "B.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Kijsirikul",
+                                "@auid": "6603602953",
+                                "ce:indexed-name": "Kijsirikul B."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "United States",
+                            "address-part": "Minneapolis, MN",
+                            "postal-code": "55455",
+                            "@afid": "60029445",
+                            "@date-locked": "2020-05-01T02:48:45.596",
+                            "@country": "usa",
+                            "organization": [
+                                {"$": "Department of Electrical and Computer Engineering"},
+                                {"$": "University of Minnesota"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60029445",
+                                "@dptid": "108041366"
+                            },
+                            "@affiliation-instance-id": "S0950705118302557-999828c008f003239cc85720279032b0",
+                            "@dptid": "108041366"
+                        },
+                        "author": [{
+                            "ce:given-name": "Vladimir",
+                            "preferred-name": {
+                                "ce:given-name": "Vladimir",
+                                "ce:initials": "V.",
+                                "ce:surname": "Cherkassky",
+                                "ce:indexed-name": "Cherkassky V."
+                            },
+                            "@author-instance-id": "S0950705118302557-e31050c5d84b2ed140a85398c81f2f8d",
+                            "@seq": "2",
+                            "ce:initials": "V.",
+                            "@date-locked": "2019-01-05T12:14:30.309",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Cherkassky",
+                            "@auid": "23974224300",
+                            "ce:indexed-name": "Cherkassky V."
+                        }]
+                    }
+                ],
+                "citation-title": "Universum Selection for Boosting the Performance of Multiclass Support Vector Machines Based on One-versus-One Strategy",
+                "abstracts": "© 2018 Elsevier B.V.We propose a novel framework to enhance the performance of the one-versus-one support vector machine by using Universum. For solving a multiclass classification problem, one-versus-one is one of the state-of-the-art algorithms, which constructs N(N−1)/2 binary classifiers for an N-class problem. Each binary classifier is originally learned by two classes of data as positive and negative classes while the other N−2 remaining classes are ignored, even if they might also represent a hidden concept of the application domain and can help to boost the performance of the classifier. Vapnik et al. [20, 21] introduced Universum binary support vector machines to enable the use of samples that do not belong to positive and negative classes and called these samples Universum samples. However, not all Universum samples can be helpful; moreover, improper selection of Universum samples can prevent the construction of an effective binary classifier. For the construction of a Universum binary classifier in the one-versus-one strategy, there are 2N−2 candidate subsets of classes of Universum data; a proper selection of them can be difficult, based on the number of classes. We design an algorithm to obtain a suitable subset of classes of Universum data by applying the proposed performance measure that reflects the properties of Universum data relative to labeled training data. This measure is based on the analysis of the projection of Universum data onto the normal direction vector of the standard binary SVM hyperplane. We demonstrate experimentally that our proposed strategy outperforms existing methods.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "address-part": "Pathumwan, Bangkok",
+                        "postal-code": "10330",
+                        "@country": "tha",
+                        "organization": [
+                            {"$": "Department of Computer Engineering"},
+                            {"$": "Chulalongkorn University"}
+                        ]
+                    },
+                    "person": {
+                        "ce:given-name": "Boonserm",
+                        "ce:initials": "B.",
+                        "ce:surname": "Kijsirikul",
+                        "ce:indexed-name": "Kijsirikul B."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "multi-class classification",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "one-versus-one",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Support vector machine (SVM)",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Universum support vector machine (USVM)",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "codencode": "KNSYE",
+                    "sourcetitle-abbrev": "Knowl Based Syst",
+                    "@country": "nld",
+                    "translated-sourcetitle": {
+                        "$": "Knowledge-Based Systems",
+                        "@xml:lang": "eng"
+                    },
+                    "issn": {
+                        "$": "09507051",
+                        "@type": "print"
+                    },
+                    "volisspag": {
+                        "voliss": {"@volume": "159"},
+                        "pagerange": {
+                            "@first": "9",
+                            "@last": "19"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2018"},
+                    "publisher": {"publishername": "Elsevier B.V."},
+                    "sourcetitle": "Knowledge-Based Systems",
+                    "@srcid": "24772",
+                    "publicationdate": {
+                        "month": "11",
+                        "year": "2018",
+                        "date-text": "1 November 2018",
+                        "day": "01"
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1712"},
+                            {"$": "1404"},
+                            {"$": "1802"},
+                            {"$": "1702"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "BUSI"},
+                            {"$": "DECI"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2018 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "14",
+                    "@timestamp": "BST 19:05:51",
+                    "@year": "2018",
+                    "@month": "09"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2001003093",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "912068789",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20183205657906",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20182348046",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "20182348047",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85050922078",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85050922078",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:pii": "S0950705118302557",
+                    "ce:doi": "10.1016/j.knosys.2018.05.025"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "22",
+                "reference": [
+                    {
+                        "ref-fulltext": "Bagheri, M.A., Gao, Q., Escalera, S., Efficient pairwise classification using local cross off strategy. Advances in Artificial Intelligence - 25th Canadian Conference on Artificial Intelligence, Canadian AI 2012, Toronto, ON, Canada, May 28-30, 2012. Proceedings, 2012, 25\u201336.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Efficient pairwise classification using local cross off strategy"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0001",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84861738394",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "25",
+                                "@last": "36"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bagheri",
+                                    "ce:indexed-name": "Bagheri M.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gao",
+                                    "ce:indexed-name": "Gao Q."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Escalera",
+                                    "ce:indexed-name": "Escalera S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Advances in Artificial Intelligence - 25th Canadian Conference on Artificial Intelligence, Canadian AI 2012, Toronto, ON, Canada, May 28-30, 2012. Proceedings"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "C. Blake, E. Keogh, C. Merz, Uci repository of machine learning databases, department of information and computer science, university of california, irvine, https://archive.ics.uci.edu/ml/, 1998.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://archive.ics.uci.edu/ml/",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Uci repository of machine learning databases, department of information and computer science, university of california, irvine"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0002",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0003408496",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Blake",
+                                    "ce:indexed-name": "Blake C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Keogh",
+                                    "ce:indexed-name": "Keogh E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Merz",
+                                    "ce:indexed-name": "Merz C."
+                                }
+                            ]}
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Cherkassky, V., Predictive Learning. 2013, VCtextbook, Minnesota, MN, USA.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Predictive Learning"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0003",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84908496507",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "VCtextbook Minnesota, MN, USA",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "V.",
+                                "@_fa": "true",
+                                "ce:surname": "Cherkassky",
+                                "ce:indexed-name": "Cherkassky V."
+                            }]}
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Cherkassky, V., Dhar, S., Dai, W., Practical conditions for effectiveness of the universum learning. IEEE Transactions on Neural Networks 22 (2011), 1241\u20131255.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Practical conditions for effectiveness of the universum learning"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0004",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "80051551588",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "22"},
+                                "pagerange": {
+                                    "@first": "1241",
+                                    "@last": "1255"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cherkassky",
+                                    "ce:indexed-name": "Cherkassky V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dhar",
+                                    "ce:indexed-name": "Dhar S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dai",
+                                    "ce:indexed-name": "Dai W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Neural Networks"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Cherkassky, V., Mulier, F., Learning from Data Concepts: Theory and Methods. 2, 2007, Wiley.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Learning from Data Concepts: Theory and Methods"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0005",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0003890671",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "2 Wiley",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cherkassky",
+                                    "ce:indexed-name": "Cherkassky V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mulier",
+                                    "ce:indexed-name": "Mulier F."
+                                }
+                            ]}
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Demšar, J., Statistical comparisons of classifiers over multiple data sets. Machine Learning Research 7 (2006), 1\u201330.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Statistical comparisons of classifiers over multiple data sets"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0006",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "29644438050",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "7"},
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "30"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "ce:surname": "Demšar",
+                                "ce:indexed-name": "Demsar J."
+                            }]},
+                            "ref-sourcetitle": "Machine Learning Research"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Deng, J., Xu, X., Zhang, Z., Frhholz, S., Schuller, B., Universum autoencoder-based domain adaptation for speech emotion recognition. IEEE Signal Processing Letters 24:4 (2017), 500\u2013504, 10.1109/LSP.2017.2672753.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Universum autoencoder-based domain adaptation for speech emotion recognition"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/LSP.2017.2672753",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib0007",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85018508859",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "24",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "500",
+                                    "@last": "504"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Deng",
+                                    "ce:indexed-name": "Deng J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu X."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Z."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Frhholz",
+                                    "ce:indexed-name": "Frhholz S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schuller",
+                                    "ce:indexed-name": "Schuller B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Signal Processing Letters"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Dhar, S., Cherkassky, V., Development and evaluation of cost-sensitive universum-svm. IEEE Transactions on Cybernetics 45 (2015), 806\u2013818.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Development and evaluation of cost-sensitive universum-svm"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0008",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85027939240",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "45"},
+                                "pagerange": {
+                                    "@first": "806",
+                                    "@last": "818"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dhar",
+                                    "ce:indexed-name": "Dhar S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cherkassky",
+                                    "ce:indexed-name": "Cherkassky V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Cybernetics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. Friedman, Another approach to polychotomous classification, Technical Report, Department of Statistics, Stanford University, 1996.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0009",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85053047347",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Another approach to polychotomous classification, Technical Report, Department of Statistics, Stanford University.",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "ce:surname": "Friedman",
+                                "ce:indexed-name": "Friedman J."
+                            }]}
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Galar, M., Fernández, A., Barrenechea, E., Herrera, F., Drcw-ovo: distance-based relative competence weighting combination for one-vs-one strategy in multi-class problems. Pattern Recognition 48 (2015), 28\u201342.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Drcw-ovo: distance-based relative competence weighting combination for one-vs-one strategy in multi-class problems"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0010",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84908053525",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "48"},
+                                "pagerange": {
+                                    "@first": "28",
+                                    "@last": "42"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Galar",
+                                    "ce:indexed-name": "Galar M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fernández",
+                                    "ce:indexed-name": "Fernandez A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Barrenechea",
+                                    "ce:indexed-name": "Barrenechea E."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Herrera",
+                                    "ce:indexed-name": "Herrera F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Pattern Recognition"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "X. Hao, D. Zhang, Lecture Notes in Computer Science, vol 8184., Springer.",
+                        "@id": "11",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0011",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85053069183",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Lecture Notes in Computer Science, vol 8184., Springer.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hao",
+                                    "ce:indexed-name": "Hao X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang D."
+                                }
+                            ]}
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Hastie, T., Tibshirani, R., Classification by pairwise coupling. Proceedings of the 1997 Conference on Advances in Neural Information Processing Systems 10 NIPS'97, 1998.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Classification by pairwise coupling"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0012",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84898942883",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hastie",
+                                    "ce:indexed-name": "Hastie T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tibshirani",
+                                    "ce:indexed-name": "Tibshirani R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 1997 Conference on Advances in Neural Information Processing Systems 10, NIPS'97"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Liu, C.L., Lee, C.H., Enhancing text classification with the universum. 2016 12th International Conference on Natural Computation, Fuzzy Systems and Knowledge Discovery (ICNC-FSKD), 2016, 1147\u20131153.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Enhancing text classification with the universum"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0013",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84997751504",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1147",
+                                "@last": "1153"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu C.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee C.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2016 12th International Conference on Natural Computation, Fuzzy Systems and Knowledge Discovery (ICNC-FSKD)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Long, Y.-r.T.Y.-j. Wenand Tang, Investor sentiment identification based on the universum svm. Neural Computing and Applications, 2016.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Investor sentiment identification based on the universum svm"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0014",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85048515603",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "Y.-R.T.Y.-J.",
+                                "@_fa": "true",
+                                "ce:surname": "Long",
+                                "ce:suffix": "Wenand Tang",
+                                "ce:indexed-name": "Long Y.-R.T.Y.-J."
+                            }]},
+                            "ref-sourcetitle": "Neural Computing and Applications"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S.-H. Park, J. Fürnkranz, Efficient Pairwise Classification, Springer Berlin Heidelberg, Berlin, Heidelberg, pp. 658\u2013665.",
+                        "@id": "15",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0015",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85053059958",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "658",
+                                "@last": "665"
+                            }},
+                            "ref-text": "Efficient Pairwise Classification, Springer Berlin Heidelberg, Berlin, Heidelberg",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.-H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Park",
+                                    "ce:indexed-name": "Park S.-H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fürnkranz",
+                                    "ce:indexed-name": "Furnkranz J."
+                                }
+                            ]}
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Sinz, F., Chapelle, O., Agarwal, A., Schölkopf, B., An analysis of inference with the universum. Neural Information Processing Systems 21, 2008, 1\u20138.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "An analysis of inference with the universum"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0016",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85162053956",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "8"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sinz",
+                                    "ce:indexed-name": "Sinz F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chapelle",
+                                    "ce:indexed-name": "Chapelle O."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Agarwal",
+                                    "ce:indexed-name": "Agarwal A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schölkopf",
+                                    "ce:indexed-name": "Scholkopf B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neural Information Processing Systems 21"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "F. Sinz, M. Roffilli, Universum svm software package, http://mloss.org/software/view/19, 2012.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://mloss.org/software/view/19",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Universum svm software package"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0017",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85053039560",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sinz",
+                                    "ce:indexed-name": "Sinz F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Roffilli",
+                                    "ce:indexed-name": "Roffilli M."
+                                }
+                            ]}
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Vapnik, N. Vladimir, Statistical Learning Theory. 1998, Wiley, New York.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Statistical Learning Theory"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0018",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0003991806",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Wiley New York",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "N.",
+                                "@_fa": "true",
+                                "ce:surname": "Vapnik",
+                                "ce:suffix": "Vladimir",
+                                "ce:indexed-name": "Vapnik N."
+                            }]}
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Vapnik, N. Vladimir, An overview of statistical learning theory. IEEE Transactions on Neural Networks 10 (1999), 988\u2013999.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "An overview of statistical learning theory"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0019",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0032594959",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "10"},
+                                "pagerange": {
+                                    "@first": "988",
+                                    "@last": "999"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "N.",
+                                "@_fa": "true",
+                                "ce:surname": "Vapnik",
+                                "ce:suffix": "Vladimir",
+                                "ce:indexed-name": "Vapnik N."
+                            }]},
+                            "ref-sourcetitle": "IEEE Transactions on Neural Networks"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Vapnik, N. Vladimir, Estimation of Dependencies Based on Empirical Data. 2006, Springer-Verlag, New York, NY, USA.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Estimation of Dependencies Based on Empirical Data"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0020",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0003969585",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Springer-Verlag New York, NY, USA",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "N.",
+                                "@_fa": "true",
+                                "ce:surname": "Vapnik",
+                                "ce:suffix": "Vladimir",
+                                "ce:indexed-name": "Vapnik N."
+                            }]}
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Weston, J., Collobert, R., Sinz, F., Bottou, L., Vapnik, V., Inference with the universum. International Conference on Machine Learning (ICML), Pittsburgh, PA, USA, 2006, 1009\u20131016.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Inference with the universum"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0021",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "33749257884",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1009",
+                                "@last": "1016"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Weston",
+                                    "ce:indexed-name": "Weston J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Collobert",
+                                    "ce:indexed-name": "Collobert R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sinz",
+                                    "ce:indexed-name": "Sinz F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bottou",
+                                    "ce:indexed-name": "Bottou L."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vapnik",
+                                    "ce:indexed-name": "Vapnik V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Conference on Machine Learning (ICML), Pittsburgh, PA, USA"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Wu, T.-F., Lin, C.-J., Weng, R.C., Probability estimates for multi-class classification by pairwise coupling. J. Mach. Learn. Res. 5 (2004), 975\u20131005.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Probability estimates for multi-class classification by pairwise coupling"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0022",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "51349159085",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "5"},
+                                "pagerange": {
+                                    "@first": "975",
+                                    "@last": "1005"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.-F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu T.-F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.-J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lin",
+                                    "ce:indexed-name": "Lin C.-J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Weng",
+                                    "ce:indexed-name": "Weng R.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Mach. Learn. Res."
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Minneapolis",
+            "@id": "60029445",
+            "affilname": "University of Minnesota Twin Cities",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60029445",
+            "affiliation-country": "United States"
+        },
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85050922078",
+        "dc:description": "We propose a novel framework to enhance the performance of the one-versus-one support vector machine by using Universum. For solving a multiclass classification problem, one-versus-one is one of the state-of-the-art algorithms, which constructs N(N−1)/2 binary classifiers for an N-class problem. Each binary classifier is originally learned by two classes of data as positive and negative classes while the other N−2 remaining classes are ignored, even if they might also represent a hidden concept of the application domain and can help to boost the performance of the classifier. Vapnik et al. [20, 21] introduced Universum binary support vector machines to enable the use of samples that do not belong to positive and negative classes and called these samples Universum samples. However, not all Universum samples can be helpful; moreover, improper selection of Universum samples can prevent the construction of an effective binary classifier. For the construction of a Universum binary classifier in the one-versus-one strategy, there are 2N−2 candidate subsets of classes of Universum data; a proper selection of them can be difficult, based on the number of classes. We design an algorithm to obtain a suitable subset of classes of Universum data by applying the proposed performance measure that reflects the properties of Universum data relative to labeled training data. This measure is based on the analysis of the projection of Universum data onto the normal direction vector of the standard binary SVM hyperplane. We demonstrate experimentally that our proposed strategy outperforms existing methods.",
+        "prism:coverDate": "2018-11-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85050922078",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Patoomsiri",
+            "preferred-name": {
+                "ce:given-name": "Patoomsiri",
+                "ce:initials": "P.",
+                "ce:surname": "Songsiri",
+                "ce:indexed-name": "Songsiri P."
+            },
+            "@seq": "1",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Songsiri",
+            "@auid": "25822876600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/25822876600",
+            "ce:indexed-name": "Songsiri P."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85050922078"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85050922078&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85050922078&origin=inward"
+            }
+        ],
+        "source-id": "24772",
+        "pii": "S0950705118302557",
+        "citedby-count": "6",
+        "prism:volume": "159",
+        "subtype": "ar",
+        "dc:title": "Universum Selection for Boosting the Performance of Multiclass Support Vector Machines Based on One-versus-One Strategy",
+        "openaccess": "0",
+        "prism:issn": "09507051",
+        "publishercopyright": "© 2018 Elsevier B.V.",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "Knowledge-Based Systems",
+        "prism:pageRange": "9-19",
+        "prism:endingPage": "19",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1016/j.knosys.2018.05.025",
+        "prism:startingPage": "9",
+        "dc:identifier": "SCOPUS_ID:85050922078",
+        "dc:publisher": "Elsevier B.V."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Binary support vector machines",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Labeled training data",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Multi-class classification",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Multi-class support vector machines",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Multiclass classification problems",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "one-versus-one",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "State-of-the-art algorithms",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Universum support vector machine (USVM)",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "multi-class classification"
+        },
+        {
+            "@_fa": "true",
+            "$": "one-versus-one"
+        },
+        {
+            "@_fa": "true",
+            "$": "Support vector machine (SVM)"
+        },
+        {
+            "@_fa": "true",
+            "$": "Universum support vector machine (USVM)"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Software",
+            "@code": "1712",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Management Information Systems",
+            "@code": "1404",
+            "@abbrev": "BUSI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Information Systems and Management",
+            "@code": "1802",
+            "@abbrev": "DECI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Artificial Intelligence",
+            "@code": "1702",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Patoomsiri",
+            "preferred-name": {
+                "ce:given-name": "Patoomsiri",
+                "ce:initials": "P.",
+                "ce:surname": "Songsiri",
+                "ce:indexed-name": "Songsiri P."
+            },
+            "@seq": "1",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Songsiri",
+            "@auid": "25822876600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/25822876600",
+            "ce:indexed-name": "Songsiri P."
+        },
+        {
+            "ce:given-name": "Vladimir",
+            "preferred-name": {
+                "ce:given-name": "Vladimir",
+                "ce:initials": "V.",
+                "ce:surname": "Cherkassky",
+                "ce:indexed-name": "Cherkassky V."
+            },
+            "@seq": "2",
+            "ce:initials": "V.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60029445",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60029445"
+            },
+            "ce:surname": "Cherkassky",
+            "@auid": "23974224300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/23974224300",
+            "ce:indexed-name": "Cherkassky V."
+        },
+        {
+            "ce:given-name": "Boonserm",
+            "preferred-name": {
+                "ce:given-name": "Boonserm",
+                "ce:initials": "B.",
+                "ce:surname": "Kijsirikul",
+                "ce:indexed-name": "Kijsirikul B."
+            },
+            "@seq": "3",
+            "ce:initials": "B.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Kijsirikul",
+            "@auid": "6603602953",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6603602953",
+            "ce:indexed-name": "Kijsirikul B."
+        }
+    ]}
+}}

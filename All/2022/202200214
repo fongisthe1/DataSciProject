@@ -1,0 +1,2366 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "28",
+                "@timestamp": "2023-03-28T19:20:14.000014-04:00",
+                "@year": "2023",
+                "@month": "03"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2022",
+                "@month": "12"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "United States",
+                            "@afid": "60076695",
+                            "@country": "usa",
+                            "organization": {"$": "NVIDIA"},
+                            "affiliation-id": {"@afid": "60076695"},
+                            "@affiliation-instance-id": "OB2BibRecID-947031882-fab3c607e13250035c53078f1846945f-1",
+                            "ce:source-text": "NVIDIA"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Matthias",
+                                "preferred-name": {
+                                    "ce:given-name": "Matthias",
+                                    "ce:initials": "M.",
+                                    "ce:surname": "Müller",
+                                    "ce:indexed-name": "Müller M."
+                                },
+                                "@author-instance-id": "OB2BibRecID-947031882-802abdb50bd5706f4b8cd8ecd51a6a14-1",
+                                "@seq": "1",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Müller",
+                                "@auid": "57213094877",
+                                "ce:indexed-name": "Muller M."
+                            },
+                            {
+                                "ce:given-name": "Miles",
+                                "preferred-name": {
+                                    "ce:given-name": "Miles",
+                                    "ce:initials": "M.",
+                                    "ce:surname": "Macklin",
+                                    "ce:indexed-name": "Macklin M."
+                                },
+                                "@author-instance-id": "OB2BibRecID-947031882-bc0a406b4e90f47a37ba9f36fedaf731-1",
+                                "@seq": "2",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Macklin",
+                                "@auid": "55805366300",
+                                "ce:indexed-name": "Macklin M."
+                            },
+                            {
+                                "ce:given-name": "Nuttapong",
+                                "preferred-name": {
+                                    "ce:given-name": "Nuttapong",
+                                    "ce:initials": "N.",
+                                    "ce:surname": "Chentanez",
+                                    "ce:indexed-name": "Chentanez N."
+                                },
+                                "@author-instance-id": "OB2BibRecID-947031882-04f0f49e93fd086b09dfcbbbb613f775-1",
+                                "@seq": "3",
+                                "ce:initials": "N.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Chentanez",
+                                "@auid": "14824789300",
+                                "ce:indexed-name": "Chentanez N."
+                            },
+                            {
+                                "ce:given-name": "Stefan",
+                                "preferred-name": {
+                                    "ce:given-name": "Stefan",
+                                    "ce:initials": "S.",
+                                    "ce:surname": "Jeschke",
+                                    "ce:indexed-name": "Jeschke S."
+                                },
+                                "@author-instance-id": "OB2BibRecID-947031882-c8621d4724ebd84e8314244fcd6cdd6e-1",
+                                "@seq": "4",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Jeschke",
+                                "@auid": "10141789000",
+                                "ce:indexed-name": "Jeschke S."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "organization": [
+                                {"$": "Department of Computer Engineering"},
+                                {"$": "Faculty of Engineering"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "113891981"
+                            },
+                            "@affiliation-instance-id": "OB2BibRecID-947031882-c37d68aeb40140315d9786fda5ad7825-1",
+                            "ce:source-text": "Department of Computer Engineering, Faculty of Engineering, Chulalongkorn University",
+                            "@dptid": "113891981"
+                        },
+                        "author": [{
+                            "ce:given-name": "Nuttapong",
+                            "preferred-name": {
+                                "ce:given-name": "Nuttapong",
+                                "ce:initials": "N.",
+                                "ce:surname": "Chentanez",
+                                "ce:indexed-name": "Chentanez N."
+                            },
+                            "@author-instance-id": "OB2BibRecID-947031882-04f0f49e93fd086b09dfcbbbb613f775-1",
+                            "@seq": "3",
+                            "ce:initials": "N.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Chentanez",
+                            "@auid": "14824789300",
+                            "ce:indexed-name": "Chentanez N."
+                        }]
+                    }
+                ],
+                "citation-title": "Physically Based Shape Matching",
+                "abstracts": "© 2023 Nvidia. Computer Graphics Forum © 2023 Eurographics - The European Association for Computer Graphics and John Wiley & Sons Ltd.The shape matching method is a popular approach to simulate deformable objects in interactive applications due to its stability and simplicity. An important feature is that there is no need for a mesh since the method works on arbitrary local groups within a set of particles. A major drawback of shape matching is the fact that it is geometrically motivated and not derived from physical principles which makes calibration difficult. The fact that the method does not conserve volume can yield visual artifacts, e.g. when a tire is compressed but does not bulge. In this paper we present a new meshless simulation method that is related to shape matching but derived from continuous constitutive models. Volume conservation and stiffness can be specified with physical parameters. Further, if the elements of a tetrahedral mesh are used as groups, our method perfectly reproduces FEM based simulations.",
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "CCS Concepts",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "elasticity",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "finite element method",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "physically-based animation",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "real-time physics",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "\u2022 Computing methodologies → Physical simulation",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1467-8659",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Computer Graphics Forum",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "41",
+                            "@issue": "8"
+                        },
+                        "pagerange": {
+                            "@first": "1",
+                            "@last": "7"
+                        }
+                    },
+                    "@type": "j",
+                    "sourcetitle": "Computer Graphics Forum",
+                    "publicationdate": {
+                        "month": "12",
+                        "year": "2022",
+                        "date-text": "December 2022",
+                        "day": "01"
+                    },
+                    "codencode": "CGFOD",
+                    "sourcetitle-abbrev": "Comput Graphics Forum",
+                    "@country": "gbr",
+                    "issn": [
+                        {
+                            "$": "14678659",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "01677055",
+                            "@type": "print"
+                        }
+                    ],
+                    "publicationyear": {"@first": "2022"},
+                    "publisher": {"publishername": "John Wiley and Sons Inc"},
+                    "@srcid": "25023"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "723.5",
+                                "classification-description": "Computer Applications"
+                            },
+                            {
+                                "classification-code": "921.4",
+                                "classification-description": "Combinatorial Mathematics, Includes Graph Theory, Set Theory"
+                            },
+                            {
+                                "classification-code": "921.6",
+                                "classification-description": "Numerical Methods"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": "1704"
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "COMP"
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2023 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "28",
+                    "@timestamp": "BST 16:00:27",
+                    "@year": "2023",
+                    "@month": "03"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2022134235",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "947031882",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20231313801840",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20231101260",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "20239006335951",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85142710465",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85142710465",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1111/cgf.14618"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "42",
+                "reference": [
+                    {
+                        "ref-fulltext": "Bender J., Koschier D., Charrier P., Weber D.: Position-based simulation of continuous materials. Computers & Graphics 44, 0 (2014), 1\u201310. doi:http://dx.doi.org/10.1016/j.cag.2014.07.004. 3",
+                        "@reference-instance-id": "OB2BibRecID-947031882-d0c71f89132230782a5d23788a82ed73-1",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://dx.doi.org/10.1016/j.cag.2014.07.004",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Position-based simulation of continuous materials"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14618-cit-0001",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84905715947",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "44"},
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "10"
+                                }
+                            },
+                            "ref-text": "3",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bender",
+                                    "ce:indexed-name": "Bender J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koschier",
+                                    "ce:indexed-name": "Koschier D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Charrier",
+                                    "ce:indexed-name": "Charrier P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Weber",
+                                    "ce:indexed-name": "Weber D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computers & Graphics"
+                        },
+                        "ce:source-text": "Bender J., Koschier D., Charrier P., Weber D.: Position-based simulation of continuous materials. Computers & Graphics 44, 0 (2014), 1\u201310. doi:http://dx.doi.org/10.1016/j.cag.2014.07.004. 3"
+                    },
+                    {
+                        "ref-fulltext": "Bender J., Müller M., Macklin M.: A Survey on Position Based Dynamics. In EG 2017 - Tutorials (2017), Bousseau A., Gutierrez D., (Eds.), The Eurographics Association. doi:10.2312/egt.20171034. 2, 5",
+                        "@reference-instance-id": "OB2BibRecID-947031882-bf2c464e069091b4d0602003ac68a694-2",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.2312/egt.20171034",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "cgf14618-cit-0002",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85150678813",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "A Survey on Position Based Dynamics. In,), Bousseau A., Gutierrez D., (Eds.), The Eurographics Association., 2, 5",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bender",
+                                    "ce:indexed-name": "Bender J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Müller",
+                                    "ce:indexed-name": "Muller M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Macklin",
+                                    "ce:indexed-name": "Macklin M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "EG 2017 - Tutorials"
+                        },
+                        "ce:source-text": "Bender J., Müller M., Macklin M.: A Survey on Position Based Dynamics. In EG 2017 - Tutorials (2017), Bousseau A., Gutierrez D., (Eds.), The Eurographics Association. doi:10.2312/egt.20171034. 2, 5"
+                    },
+                    {
+                        "ref-fulltext": "Bargteil A. W., Wojtan C., Hodgins J. K., Turk G.: A finite element method for animating large viscoplastic flow. In ACM SIGGRAPH 2007 Papers (New York, NY, USA, 2007), SIGGRAPH '07, Association for Computing Machinery, p. 16-es. URL: https://doi.org/10.1145/1275808.1276397,",
+                        "@reference-instance-id": "OB2BibRecID-947031882-120b9eddd2c83d8d0727954af70a81f2-3",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/1275808.1276397",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14618-cit-0003",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "57149107427",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "A finite element method for animating large viscoplastic flow. In, (New York, NY, USA,,), SIGGRAPH '07, Association for Computing Machinery, p. 16-es. URL",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bargteil",
+                                    "ce:indexed-name": "Bargteil A.W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wojtan",
+                                    "ce:indexed-name": "Wojtan C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hodgins",
+                                    "ce:indexed-name": "Hodgins J.K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Turk",
+                                    "ce:indexed-name": "Turk G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM SIGGRAPH 2007 Papers"
+                        },
+                        "ce:source-text": "Bargteil A. W., Wojtan C., Hodgins J. K., Turk G.: A finite element method for animating large viscoplastic flow. In ACM SIGGRAPH 2007 Papers (New York, NY, USA, 2007), SIGGRAPH '07, Association for Computing Machinery, p. 16-es. URL: https://doi.org/10.1145/1275808.1276397,"
+                    },
+                    {
+                        "ref-fulltext": "doi: 10.1145/1275808.1276397. 2",
+                        "@reference-instance-id": "OB2BibRecID-947031882-08e6888ac0c8faae23289aa40b036ccd-4",
+                        "@id": "4",
+                        "ref-info": {"refd-itemidlist": {"itemid": [
+                            {
+                                "$": "10.1145/1275808.1276397.2",
+                                "@idtype": "DOI"
+                            },
+                            {
+                                "$": "cgf14618-cit-0003a",
+                                "@idtype": "FRAGMENTID"
+                            },
+                            {
+                                "$": "85150676272",
+                                "@idtype": "SGR"
+                            }
+                        ]}},
+                        "ce:source-text": "doi: 10.1145/1275808.1276397. 2"
+                    },
+                    {
+                        "ref-fulltext": "Chentanez N., Müller M., Macklin M.: Real-time simulation of large elasto-plastic deformation with shape matching. In Proceedings of the ACM SIGGRAPH/Eurographics Symposium on Computer Animation (Goslar, DEU, 2016), SCA '16, Eurographics Association, p. 159\u2013167. 2",
+                        "@reference-instance-id": "OB2BibRecID-947031882-ad7c579860727572e915135fe5b420e3-5",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14618-cit-0004",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85049494865",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "159",
+                                "@last": "167"
+                            }},
+                            "ref-text": "Real-time simulation of large elasto-plastic deformation with shape matching. In, (Goslar, DEU,,), SCA '16, Eurographics Association, p., 2",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chentanez",
+                                    "ce:indexed-name": "Chentanez N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Müller",
+                                    "ce:indexed-name": "Muller M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Macklin",
+                                    "ce:indexed-name": "Macklin M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the ACM SIGGRAPH/Eurographics Symposium on Computer Animation"
+                        },
+                        "ce:source-text": "Chentanez N., Müller M., Macklin M.: Real-time simulation of large elasto-plastic deformation with shape matching. In Proceedings of the ACM SIGGRAPH/Eurographics Symposium on Computer Animation (Goslar, DEU, 2016), SCA '16, Eurographics Association, p. 159\u2013167. 2"
+                    },
+                    {
+                        "ref-fulltext": "Ding M., Han X., Wang S., Gast T. F., Teran J. M.: A thermomechanical material point method for baking and cooking. ACM Trans. Graph. 38, 6 (nov 2019). URL: https://doi.org/10.1145/3355089.3356537,",
+                        "@reference-instance-id": "OB2BibRecID-947031882-d53fbcbd29d744a23e4c92ab6014f04c-6",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/3355089.3356537",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "A thermomechanical material point method for baking and cooking"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14618-cit-0005",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85078943886",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "38",
+                                "@issue": "6"
+                            }},
+                            "ref-text": "(nov",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ding",
+                                    "ce:indexed-name": "Ding M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Han",
+                                    "ce:indexed-name": "Han X."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gast",
+                                    "ce:indexed-name": "Gast T.F."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Teran",
+                                    "ce:indexed-name": "Teran J.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph."
+                        },
+                        "ce:source-text": "Ding M., Han X., Wang S., Gast T. F., Teran J. M.: A thermomechanical material point method for baking and cooking. ACM Trans. Graph. 38, 6 (nov 2019). URL: https://doi.org/10.1145/3355089.3356537,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.1145/3355089.3356537. 2",
+                        "@reference-instance-id": "OB2BibRecID-947031882-96a06b23721ddb1fbe6e5f40e1e41b5a-7",
+                        "@id": "7",
+                        "ref-info": {"refd-itemidlist": {"itemid": [
+                            {
+                                "$": "10.1145/3355089.3356537.2",
+                                "@idtype": "DOI"
+                            },
+                            {
+                                "$": "cgf14618-bib-0005a",
+                                "@idtype": "FRAGMENTID"
+                            },
+                            {
+                                "$": "85150684322",
+                                "@idtype": "SGR"
+                            }
+                        ]}},
+                        "ce:source-text": "doi:10.1145/3355089.3356537. 2"
+                    },
+                    {
+                        "ref-fulltext": "Falkenstein M., Jones B., Levine J. A., Shinar T., Bargteil A. W.: Reclustering for large plasticity in clustered shape matching. In Proceedings of the Tenth International Conference on Motion in Games (New York, NY, USA, 2017), MIG '17, Association for Computing Machinery. URL: https://doi.org/10.1145/3136457.3136473,",
+                        "@reference-instance-id": "OB2BibRecID-947031882-99e263446a07cb8bac6539e01ba37d05-8",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/3136457.3136473",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14618-cit-0006",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85058299859",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Reclustering for large plasticity in clustered shape matching. In, (New York, NY, USA,,), MIG '17, Association for Computing Machinery. URL",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Falkenstein",
+                                    "ce:indexed-name": "Falkenstein M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jones",
+                                    "ce:indexed-name": "Jones B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Levine",
+                                    "ce:indexed-name": "Levine J.A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shinar",
+                                    "ce:indexed-name": "Shinar T."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "A.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bargteil",
+                                    "ce:indexed-name": "Bargteil A.W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Tenth International Conference on Motion in Games"
+                        },
+                        "ce:source-text": "Falkenstein M., Jones B., Levine J. A., Shinar T., Bargteil A. W.: Reclustering for large plasticity in clustered shape matching. In Proceedings of the Tenth International Conference on Motion in Games (New York, NY, USA, 2017), MIG '17, Association for Computing Machinery. URL: https://doi.org/10.1145/3136457.3136473,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.1145/3136457.3136473. 2",
+                        "@reference-instance-id": "OB2BibRecID-947031882-db21d3ada470f249121e22a0c6a1a3aa-9",
+                        "@id": "9",
+                        "ref-info": {"refd-itemidlist": {"itemid": [
+                            {
+                                "$": "10.1145/3136457.3136473.2",
+                                "@idtype": "DOI"
+                            },
+                            {
+                                "$": "cgf14618-cit-0006a",
+                                "@idtype": "FRAGMENTID"
+                            },
+                            {
+                                "$": "85150675890",
+                                "@idtype": "SGR"
+                            }
+                        ]}},
+                        "ce:source-text": "doi:10.1145/3136457.3136473. 2"
+                    },
+                    {
+                        "ref-fulltext": "Hu Y., Fang Y., Ge Z., Qu Z., Zhu Y., Pradhana A., Jiang C.: A moving least squares material point method with displacement discontinuity and two-way rigid body coupling. ACM Trans. Graph. 37, 4 (jul 2018). URL: https://doi.org/10.1145/3197517.3201293,",
+                        "@reference-instance-id": "OB2BibRecID-947031882-557f94acf6ae4334dcbb6de4a2af87fc-10",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/3197517.3201293",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "A moving least squares material point method with displacement discontinuity and two-way rigid body coupling"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14618-cit-0007",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85053277267",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "37",
+                                "@issue": "4"
+                            }},
+                            "ref-text": "(jul",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fang",
+                                    "ce:indexed-name": "Fang Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ge",
+                                    "ce:indexed-name": "Ge Z."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qu",
+                                    "ce:indexed-name": "Qu Z."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu Y."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pradhana",
+                                    "ce:indexed-name": "Pradhana A."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph."
+                        },
+                        "ce:source-text": "Hu Y., Fang Y., Ge Z., Qu Z., Zhu Y., Pradhana A., Jiang C.: A moving least squares material point method with displacement discontinuity and two-way rigid body coupling. ACM Trans. Graph. 37, 4 (jul 2018). URL: https://doi.org/10.1145/3197517.3201293,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.1145/3197517.3201293. 2",
+                        "@reference-instance-id": "OB2BibRecID-947031882-6b8d5a6e391759b6d9a8f13c86d08a29-11",
+                        "@id": "11",
+                        "ref-info": {"refd-itemidlist": {"itemid": [
+                            {
+                                "$": "10.1145/3197517.3201293.2",
+                                "@idtype": "DOI"
+                            },
+                            {
+                                "$": "cgf14618-cit-0007a",
+                                "@idtype": "FRAGMENTID"
+                            },
+                            {
+                                "$": "85150682153",
+                                "@idtype": "SGR"
+                            }
+                        ]}},
+                        "ce:source-text": "doi:10.1145/3197517.3201293. 2"
+                    },
+                    {
+                        "ref-fulltext": "2",
+                        "@reference-instance-id": "OB2BibRecID-947031882-c81e728d9d4c2f636f067f89cc14862c-12",
+                        "@id": "12",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14618-cit-0008",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85150679586",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "2"
+                        },
+                        "ce:source-text": "2"
+                    },
+                    {
+                        "ref-fulltext": "Jones B., Martin A., Levine J. A., Shinar T., Bargteil A. W.: Ductile fracture for clustered shape matching. In Proceedings of the 20th ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games (New York, NY, USA, 2016), I3D '16, Association for Computing Machinery, p. 65\u201370. URL: https://doi.org/10.1145/2856400.2856415,",
+                        "@reference-instance-id": "OB2BibRecID-947031882-e67abdb3c5a408b0a7afdd885924c90a-13",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/2856400.2856415",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14618-cit-0009",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84964805024",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "65",
+                                "@last": "70"
+                            }},
+                            "ref-text": "Ductile fracture for clustered shape matching. In, (New York, NY, USA,,), I3D '16, Association for Computing Machinery, p",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jones",
+                                    "ce:indexed-name": "Jones B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Martin",
+                                    "ce:indexed-name": "Martin A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Levine",
+                                    "ce:indexed-name": "Levine J.A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shinar",
+                                    "ce:indexed-name": "Shinar T."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "A.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bargteil",
+                                    "ce:indexed-name": "Bargteil A.W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 20th ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games"
+                        },
+                        "ce:source-text": "Jones B., Martin A., Levine J. A., Shinar T., Bargteil A. W.: Ductile fracture for clustered shape matching. In Proceedings of the 20th ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games (New York, NY, USA, 2016), I3D '16, Association for Computing Machinery, p. 65\u201370. URL: https://doi.org/10.1145/2856400.2856415,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.1145/2856400.2856415. 2",
+                        "@reference-instance-id": "OB2BibRecID-947031882-54b5653adb520f468466e35d8ecffee8-14",
+                        "@id": "14",
+                        "ref-info": {"refd-itemidlist": {"itemid": [
+                            {
+                                "$": "10.1145/2856400.2856415.2",
+                                "@idtype": "DOI"
+                            },
+                            {
+                                "$": "cgf14618-cit-0009a",
+                                "@idtype": "FRAGMENTID"
+                            },
+                            {
+                                "$": "85150685007",
+                                "@idtype": "SGR"
+                            }
+                        ]}},
+                        "ce:source-text": "doi:10.1145/2856400.2856415. 2"
+                    },
+                    {
+                        "ref-fulltext": "Kugelstadt T., Bender J., Fernández-Fernández J. A., Jeske S. R., Löschner F., Longva A.: Fast corotated elastic sph solids with implicit zero-energy mode control. Proc. ACM Comput. Graph. Interact. Tech. 4, 3 (Sept. 2021). URL: https://doi.org/10.1145/3480142,",
+                        "@reference-instance-id": "OB2BibRecID-947031882-77922a84497c494095be98e739354d26-15",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/3480142",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Fast corotated elastic sph solids with implicit zero-energy mode control"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14618-cit-0010",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85116415422",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "4",
+                                "@issue": "3"
+                            }},
+                            "ref-text": "(Sept",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kugelstadt",
+                                    "ce:indexed-name": "Kugelstadt T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bender",
+                                    "ce:indexed-name": "Bender J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fernández-Fernández",
+                                    "ce:indexed-name": "Fernandez-Fernandez J.A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jeske",
+                                    "ce:indexed-name": "Jeske S.R."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Löschner",
+                                    "ce:indexed-name": "Loschner F."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Longva",
+                                    "ce:indexed-name": "Longva A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. ACM Comput. Graph. Interact. Tech."
+                        },
+                        "ce:source-text": "Kugelstadt T., Bender J., Fernández-Fernández J. A., Jeske S. R., Löschner F., Longva A.: Fast corotated elastic sph solids with implicit zero-energy mode control. Proc. ACM Comput. Graph. Interact. Tech. 4, 3 (Sept. 2021). URL: https://doi.org/10.1145/3480142,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.1145/3480142. 2",
+                        "@reference-instance-id": "OB2BibRecID-947031882-1b5eb37d1418fe52734ee062fda056e4-16",
+                        "@id": "16",
+                        "ref-info": {"refd-itemidlist": {"itemid": [
+                            {
+                                "$": "10.1145/3480142.2",
+                                "@idtype": "DOI"
+                            },
+                            {
+                                "$": "cgf14618-cit-0010a",
+                                "@idtype": "FRAGMENTID"
+                            },
+                            {
+                                "$": "85150684262",
+                                "@idtype": "SGR"
+                            }
+                        ]}},
+                        "ce:source-text": "doi:10.1145/3480142. 2"
+                    },
+                    {
+                        "ref-fulltext": "Kim T., Eberle D.: Dynamic deformables: Implementation and production practicalities. In ACM SIGGRAPH 2020 Courses (New York, NY, USA, 2020), SIGGRAPH 2020, Association for Computing Machinery. URL: https://doi.org/10.1145/3388769.3407490,",
+                        "@reference-instance-id": "OB2BibRecID-947031882-8a6668cb670804cd8fac1f8a9f38aadb-17",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/3388769.3407490",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14618-cit-0011",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85091982036",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Dynamic deformables Implementation and production practicalities. In, (New York, NY, USA,,), SIGGRAPH 2020, Association for Computing Machinery. URL",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Eberle",
+                                    "ce:indexed-name": "Eberle D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM SIGGRAPH 2020 Courses"
+                        },
+                        "ce:source-text": "Kim T., Eberle D.: Dynamic deformables: Implementation and production practicalities. In ACM SIGGRAPH 2020 Courses (New York, NY, USA, 2020), SIGGRAPH 2020, Association for Computing Machinery. URL: https://doi.org/10.1145/3388769.3407490,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.1145/3388769.3407490. 2",
+                        "@reference-instance-id": "OB2BibRecID-947031882-cf6c81744e4c4873966249069e970a32-18",
+                        "@id": "18",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14618-cit-0011a",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85150676665",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "doi:10.1145/3388769.3407490. 2"
+                        },
+                        "ce:source-text": "doi:10.1145/3388769.3407490. 2"
+                    },
+                    {
+                        "ref-fulltext": "Kaufmann P., Martin S., Botsch M., Gross M.: Flexible simulation of deformable models using discontinuous galerkin fem. In Proceedings of the 2008 ACM SIGGRAPH/Eurographics Symposium on Computer Animation (Goslar, DEU, 2008), SCA '08, Eurographics Association, p. 105\u2013115. 2",
+                        "@reference-instance-id": "OB2BibRecID-947031882-abf8747f2b05eb74cecb195e764e9ef0-19",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14618-cit-0012",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84995742357",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "105",
+                                "@last": "115"
+                            }},
+                            "ref-text": "Flexible simulation of deformable models using discontinuous galerkin fem. In, (Goslar, DEU,,), SCA '08, Eurographics Association, p., 2",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kaufmann",
+                                    "ce:indexed-name": "Kaufmann P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Martin",
+                                    "ce:indexed-name": "Martin S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Botsch",
+                                    "ce:indexed-name": "Botsch M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gross",
+                                    "ce:indexed-name": "Gross M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2008 ACM SIGGRAPH/Eurographics Symposium on Computer Animation"
+                        },
+                        "ce:source-text": "Kaufmann P., Martin S., Botsch M., Gross M.: Flexible simulation of deformable models using discontinuous galerkin fem. In Proceedings of the 2008 ACM SIGGRAPH/Eurographics Symposium on Computer Animation (Goslar, DEU, 2008), SCA '08, Eurographics Association, p. 105\u2013115. 2"
+                    },
+                    {
+                        "ref-fulltext": "Müller M., Hennix B. H. M., Ratcliff J.: Position based dynamics. Proceedings of Virtual Reality Interactions and Physical Simulations (2006), 71\u201380. 5",
+                        "@reference-instance-id": "OB2BibRecID-947031882-8523c98c799159622b949e3dc4c5ee16-20",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14618-cit-0013",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85150675839",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "71",
+                                "@last": "80"
+                            }},
+                            "ref-text": "Position based dynamics., 5",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Müller",
+                                    "ce:indexed-name": "Muller M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.H.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hennix",
+                                    "ce:indexed-name": "Hennix B.H.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ratcliff",
+                                    "ce:indexed-name": "Ratcliff J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of Virtual Reality Interactions and Physical Simulations"
+                        },
+                        "ce:source-text": "Müller M., Hennix B. H. M., Ratcliff J.: Position based dynamics. Proceedings of Virtual Reality Interactions and Physical Simulations (2006), 71\u201380. 5"
+                    },
+                    {
+                        "ref-fulltext": "Müller M., Heidelberger B., Teschner M., Gross M.: Meshless deformations based on shape matching. ACM Trans. Graph. 24, 3 (July 2005), 471\u2013478. URL: https://doi.org/10.1145/1073204.1073216,",
+                        "@reference-instance-id": "OB2BibRecID-947031882-76a04ac7160d3c0fd21873832f31d373-21",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/1073204.1073216",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Meshless deformations based on shape matching"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14618-cit-0014",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "33645144425",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "24",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "471",
+                                    "@last": "478"
+                                }
+                            },
+                            "ref-text": "(July",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Müller",
+                                    "ce:indexed-name": "Muller M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Heidelberger",
+                                    "ce:indexed-name": "Heidelberger B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Teschner",
+                                    "ce:indexed-name": "Teschner M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gross",
+                                    "ce:indexed-name": "Gross M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph."
+                        },
+                        "ce:source-text": "Müller M., Heidelberger B., Teschner M., Gross M.: Meshless deformations based on shape matching. ACM Trans. Graph. 24, 3 (July 2005), 471\u2013478. URL: https://doi.org/10.1145/1073204.1073216,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.1145/1073204.1073216. 2, 3, 6",
+                        "@reference-instance-id": "OB2BibRecID-947031882-9ccf38f80b9b64faee0a5c9c14fa0dbd-22",
+                        "@id": "22",
+                        "ref-info": {"refd-itemidlist": {"itemid": [
+                            {
+                                "$": "10.1145/1073204.1073216.2,3,6",
+                                "@idtype": "DOI"
+                            },
+                            {
+                                "$": "cgf14618-cit-0014a",
+                                "@idtype": "FRAGMENTID"
+                            },
+                            {
+                                "$": "85150685106",
+                                "@idtype": "SGR"
+                            }
+                        ]}},
+                        "ce:source-text": "doi:10.1145/1073204.1073216. 2, 3, 6"
+                    },
+                    {
+                        "ref-fulltext": "Müller M., Keiser R., Nealen A., Pauly M., Gross M., Alexa M.: Point based animation of elastic, plastic and melting objects. In Proceedings of the 2004 ACM SIGGRAPH/Eurographics Symposium on Computer Animation (Goslar, DEU, 2004), SCA '04, Eurographics Association, p. 141\u2013151. URL: https://doi.org/10.1145/1028523.1028542,",
+                        "@reference-instance-id": "OB2BibRecID-947031882-5ca9933ccd9257b49c1e497a3154b1cf-23",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/1028523.1028542",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14618-cit-0015",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85046906963",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "141",
+                                "@last": "151"
+                            }},
+                            "ref-text": "Point based animation of elastic, plastic and melting objects. In, (Goslar, DEU,,), SCA '04, Eurographics Association, p",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Müller",
+                                    "ce:indexed-name": "Muller M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Keiser",
+                                    "ce:indexed-name": "Keiser R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nealen",
+                                    "ce:indexed-name": "Nealen A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pauly",
+                                    "ce:indexed-name": "Pauly M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gross",
+                                    "ce:indexed-name": "Gross M."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alexa",
+                                    "ce:indexed-name": "Alexa M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2004 ACM SIGGRAPH/Eurographics Symposium on Computer Animation"
+                        },
+                        "ce:source-text": "Müller M., Keiser R., Nealen A., Pauly M., Gross M., Alexa M.: Point based animation of elastic, plastic and melting objects. In Proceedings of the 2004 ACM SIGGRAPH/Eurographics Symposium on Computer Animation (Goslar, DEU, 2004), SCA '04, Eurographics Association, p. 141\u2013151. URL: https://doi.org/10.1145/1028523.1028542,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.1145/1028523.1028542. 3",
+                        "@reference-instance-id": "OB2BibRecID-947031882-0e66cf7d8be072deb1fee23c8ea44283-24",
+                        "@id": "24",
+                        "ref-info": {"refd-itemidlist": {"itemid": [
+                            {
+                                "$": "10.1145/1028523.1028542.3",
+                                "@idtype": "DOI"
+                            },
+                            {
+                                "$": "cgf14618-cit-0015a",
+                                "@idtype": "FRAGMENTID"
+                            },
+                            {
+                                "$": "85150685175",
+                                "@idtype": "SGR"
+                            }
+                        ]}},
+                        "ce:source-text": "doi:10.1145/1028523.1028542. 3"
+                    },
+                    {
+                        "ref-fulltext": "Macklin M., Müller M.: A constraint-based formulation of stable neo-hookean materials. In Motion, Interaction and Games (New York, NY, USA, 2021), MIG '21, Association for Computing Machinery. URL: https://doi.org/10.1145/3487983.3488289,",
+                        "@reference-instance-id": "OB2BibRecID-947031882-981ef3d75a04d54836ced191f8072825-25",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/3487983.3488289",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14618-cit-0016",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85119489770",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "A constraint-based formulation of stable neo-hookean materials. In, (New York, NY, USA,,), MIG '21, Association for Computing Machinery. URL",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Macklin",
+                                    "ce:indexed-name": "Macklin M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Müller",
+                                    "ce:indexed-name": "Muller M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Motion, Interaction and Games"
+                        },
+                        "ce:source-text": "Macklin M., Müller M.: A constraint-based formulation of stable neo-hookean materials. In Motion, Interaction and Games (New York, NY, USA, 2021), MIG '21, Association for Computing Machinery. URL: https://doi.org/10.1145/3487983.3488289,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.1145/3487983.3488289. 2",
+                        "@reference-instance-id": "OB2BibRecID-947031882-017e6a0404b9da2d25108435cafb043b-26",
+                        "@id": "26",
+                        "ref-info": {"refd-itemidlist": {"itemid": [
+                            {
+                                "$": "10.1145/3487983.3488289.2",
+                                "@idtype": "DOI"
+                            },
+                            {
+                                "$": "cgf14618-cit-0016a",
+                                "@idtype": "FRAGMENTID"
+                            },
+                            {
+                                "$": "85150679391",
+                                "@idtype": "SGR"
+                            }
+                        ]}},
+                        "ce:source-text": "doi:10.1145/3487983.3488289. 2"
+                    },
+                    {
+                        "ref-fulltext": "Macklin M., Müller M., Chentanez N.: Xpbd: Position-based simulation of compliant constrained dynamics. In Proceedings of the 9th International Conference on Motion in Games (New York, NY, USA, 2016), MIG '16, Association for Computing Machinery, p. 49\u201354. URL: https://doi.org/10.1145/2994258.2994272,",
+                        "@reference-instance-id": "OB2BibRecID-947031882-59bb8494e752e21699633389d21d6728-27",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/2994258.2994272",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14618-cit-0017",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84994876256",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "49",
+                                "@last": "54"
+                            }},
+                            "ref-text": "Xpbd Position-based simulation of compliant constrained dynamics. In, (New York, NY, USA,,), MIG '16, Association for Computing Machinery, p",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Macklin",
+                                    "ce:indexed-name": "Macklin M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Müller",
+                                    "ce:indexed-name": "Muller M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chentanez",
+                                    "ce:indexed-name": "Chentanez N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 9th International Conference on Motion in Games"
+                        },
+                        "ce:source-text": "Macklin M., Müller M., Chentanez N.: Xpbd: Position-based simulation of compliant constrained dynamics. In Proceedings of the 9th International Conference on Motion in Games (New York, NY, USA, 2016), MIG '16, Association for Computing Machinery, p. 49\u201354. URL: https://doi.org/10.1145/2994258.2994272,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.1145/2994258.2994272. 2",
+                        "@reference-instance-id": "OB2BibRecID-947031882-74558cd29705426b5630d34d8c8ea072-28",
+                        "@id": "28",
+                        "ref-info": {"refd-itemidlist": {"itemid": [
+                            {
+                                "$": "10.1145/2994258.2994272.2",
+                                "@idtype": "DOI"
+                            },
+                            {
+                                "$": "cgf14618-cit-0017a",
+                                "@idtype": "FRAGMENTID"
+                            },
+                            {
+                                "$": "85150681530",
+                                "@idtype": "SGR"
+                            }
+                        ]}},
+                        "ce:source-text": "doi:10.1145/2994258.2994272. 2"
+                    },
+                    {
+                        "ref-fulltext": "Macklin M., Storey K., Lu M., Terdiman P., Chentanez N., Jeschke S., Müller M.: Small steps in physics simulation. In Proceedings of the 18th Annual ACM SIGGRAPH/Eurographics Symposium on Computer Animation (New York, NY, USA, 2019), SCA '19, Association for Computing Machinery. URL: https://doi.org/10.1145/3309486.3340247,",
+                        "@reference-instance-id": "OB2BibRecID-947031882-3f5c281d502026d5cbdf15767fe6652f-29",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/3309486.3340247",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14618-cit-0018",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85074483472",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Small steps in physics simulation. In, (New York, NY, USA,,), SCA '19, Association for Computing Machinery. URL",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Macklin",
+                                    "ce:indexed-name": "Macklin M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Storey",
+                                    "ce:indexed-name": "Storey K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lu",
+                                    "ce:indexed-name": "Lu M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Terdiman",
+                                    "ce:indexed-name": "Terdiman P."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chentanez",
+                                    "ce:indexed-name": "Chentanez N."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jeschke",
+                                    "ce:indexed-name": "Jeschke S."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Müller",
+                                    "ce:indexed-name": "Muller M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 18th Annual ACM SIGGRAPH/Eurographics Symposium on Computer Animation"
+                        },
+                        "ce:source-text": "Macklin M., Storey K., Lu M., Terdiman P., Chentanez N., Jeschke S., Müller M.: Small steps in physics simulation. In Proceedings of the 18th Annual ACM SIGGRAPH/Eurographics Symposium on Computer Animation (New York, NY, USA, 2019), SCA '19, Association for Computing Machinery. URL: https://doi.org/10.1145/3309486.3340247,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.1145/3309486.3340247. 4",
+                        "@reference-instance-id": "OB2BibRecID-947031882-bfae0806047a25c1d06dc7fa382adab5-30",
+                        "@id": "30",
+                        "ref-info": {"refd-itemidlist": {"itemid": [
+                            {
+                                "$": "10.1145/3309486.3340247.4",
+                                "@idtype": "DOI"
+                            },
+                            {
+                                "$": "cgf14618-cit-0018a",
+                                "@idtype": "FRAGMENTID"
+                            },
+                            {
+                                "$": "85150684803",
+                                "@idtype": "SGR"
+                            }
+                        ]}},
+                        "ce:source-text": "doi:10.1145/3309486.3340247. 4"
+                    },
+                    {
+                        "ref-fulltext": "Nealen A., Müller M., Keiser R., Boxerman E., Carlson M.: Physically based deformable models in computer graphics. Computer Graphics Forum 25, 4 (2006), 809\u2013836. URL: https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2006.01000.x,",
+                        "@reference-instance-id": "OB2BibRecID-947031882-1d83c494ba73e1e92fe2e172ee0b7097-31",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2006.01000.x",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Physically based deformable models in computer graphics"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14618-cit-0019",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "33845464276",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "25",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "809",
+                                    "@last": "836"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nealen",
+                                    "ce:indexed-name": "Nealen A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Müller",
+                                    "ce:indexed-name": "Muller M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Keiser",
+                                    "ce:indexed-name": "Keiser R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boxerman",
+                                    "ce:indexed-name": "Boxerman E."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carlson",
+                                    "ce:indexed-name": "Carlson M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer Graphics Forum"
+                        },
+                        "ce:source-text": "Nealen A., Müller M., Keiser R., Boxerman E., Carlson M.: Physically based deformable models in computer graphics. Computer Graphics Forum 25, 4 (2006), 809\u2013836. URL: https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2006.01000.x,"
+                    },
+                    {
+                        "ref-fulltext": "arXiv:https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-8659.2006.01000.x,",
+                        "@reference-instance-id": "OB2BibRecID-947031882-3daa0fb43396f8d180d39d65bacd28cd-32",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14618-cit-0019a",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85150680959",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-8659, 01000.x"
+                        },
+                        "ce:source-text": "arXiv:https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-8659.2006.01000.x,"
+                    },
+                    {
+                        "ref-fulltext": "doi:https://doi.org/10.1111/j.1467-8659.2006.01000.x. 2",
+                        "@reference-instance-id": "OB2BibRecID-947031882-0e22eed4e18aa6bfaedbcf034f713424-33",
+                        "@id": "33",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1111/j.1467-8659.2006.01000.x.2",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "cgf14618-cit-0019b",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85150679716",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "doi:https://doi.org/"
+                        },
+                        "ce:source-text": "doi:https://doi.org/10.1111/j.1467-8659.2006.01000.x. 2"
+                    },
+                    {
+                        "ref-fulltext": "Smith B., Goes F. D., Kim T.: Stable neo-hookean flesh simulation. ACM Trans. Graph. 37, 2 (mar 2018). URL: https://doi.org/10.1145/3180491,",
+                        "@reference-instance-id": "OB2BibRecID-947031882-f7464007541c99c2449d28ee69c066bd-34",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/3180491",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Stable neo-hookean flesh simulation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14618-cit-0020",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85045272638",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "37",
+                                "@issue": "2"
+                            }},
+                            "ref-text": "(mar",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Smith",
+                                    "ce:indexed-name": "Smith B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Goes",
+                                    "ce:indexed-name": "Goes F.D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph."
+                        },
+                        "ce:source-text": "Smith B., Goes F. D., Kim T.: Stable neo-hookean flesh simulation. ACM Trans. Graph. 37, 2 (mar 2018). URL: https://doi.org/10.1145/3180491,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.1145/3180491. 2, 3",
+                        "@reference-instance-id": "OB2BibRecID-947031882-4a53a8b67caae494508da73f5ee6ffe4-35",
+                        "@id": "35",
+                        "ref-info": {"refd-itemidlist": {"itemid": [
+                            {
+                                "$": "10.1145/3180491.2,3",
+                                "@idtype": "DOI"
+                            },
+                            {
+                                "$": "cgf14618-cit-0020a",
+                                "@idtype": "FRAGMENTID"
+                            },
+                            {
+                                "$": "85150676817",
+                                "@idtype": "SGR"
+                            }
+                        ]}},
+                        "ce:source-text": "doi:10.1145/3180491. 2, 3"
+                    },
+                    {
+                        "ref-fulltext": "Wolper J., Chen Y., Li M., Fang Y., Qu Z., Lu J., Cheng M., Jiang C.: Anisompm: Animating anisotropic damage mechanics. ACM Trans. Graph. 39, 4 (jul 2020). URL: https://doi.org/10.1145/3386569.3392428,",
+                        "@reference-instance-id": "OB2BibRecID-947031882-adb8105ade8bf8b748abc60324ef2020-36",
+                        "@id": "36",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/3386569.3392428",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Anisompm: Animating anisotropic damage mechanics"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14618-cit-0021",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85090393927",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "39",
+                                "@issue": "4"
+                            }},
+                            "ref-text": "(jul",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wolper",
+                                    "ce:indexed-name": "Wolper J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fang",
+                                    "ce:indexed-name": "Fang Y."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qu",
+                                    "ce:indexed-name": "Qu Z."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lu",
+                                    "ce:indexed-name": "Lu J."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cheng",
+                                    "ce:indexed-name": "Cheng M."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph."
+                        },
+                        "ce:source-text": "Wolper J., Chen Y., Li M., Fang Y., Qu Z., Lu J., Cheng M., Jiang C.: Anisompm: Animating anisotropic damage mechanics. ACM Trans. Graph. 39, 4 (jul 2020). URL: https://doi.org/10.1145/3386569.3392428,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.1145/3386569.3392428. 2",
+                        "@reference-instance-id": "OB2BibRecID-947031882-7d40803eaf138e9ed6f7e4dfbade20aa-37",
+                        "@id": "37",
+                        "ref-info": {"refd-itemidlist": {"itemid": [
+                            {
+                                "$": "10.1145/3386569.3392428.2",
+                                "@idtype": "DOI"
+                            },
+                            {
+                                "$": "cgf14618-cit-0021a",
+                                "@idtype": "FRAGMENTID"
+                            },
+                            {
+                                "$": "85150684886",
+                                "@idtype": "SGR"
+                            }
+                        ]}},
+                        "ce:source-text": "doi:10.1145/3386569.3392428. 2"
+                    },
+                    {
+                        "ref-fulltext": "Wang S., Ding M., Gast T. F., Zhu L., Gagniere S., Jiang C., Teran J. M.: Simulation and visualization of ductile fracture with the material point method. Proc. ACM Comput. Graph. Interact. Tech. 2, 2 (jul 2019). URL: https://doi.org/10.1145/3340259,",
+                        "@reference-instance-id": "OB2BibRecID-947031882-d2a35c8b7b6cad1c6bafba6aa419ea64-38",
+                        "@id": "38",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/3340259",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Simulation and visualization of ductile fracture with the material point method"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14618-cit-0022",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85078886879",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "2",
+                                "@issue": "2"
+                            }},
+                            "ref-text": "(jul",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ding",
+                                    "ce:indexed-name": "Ding M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gast",
+                                    "ce:indexed-name": "Gast T.F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu L."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gagniere",
+                                    "ce:indexed-name": "Gagniere S."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang C."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "J.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Teran",
+                                    "ce:indexed-name": "Teran J.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. ACM Comput. Graph. Interact. Tech."
+                        },
+                        "ce:source-text": "Wang S., Ding M., Gast T. F., Zhu L., Gagniere S., Jiang C., Teran J. M.: Simulation and visualization of ductile fracture with the material point method. Proc. ACM Comput. Graph. Interact. Tech. 2, 2 (jul 2019). URL: https://doi.org/10.1145/3340259,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.1145/3340259. 2",
+                        "@reference-instance-id": "OB2BibRecID-947031882-1688f8949467f620ebf5c236929f7680-39",
+                        "@id": "39",
+                        "ref-info": {"refd-itemidlist": {"itemid": [
+                            {
+                                "$": "10.1145/3340259.2",
+                                "@idtype": "DOI"
+                            },
+                            {
+                                "$": "cgf14618-cit-0022a",
+                                "@idtype": "FRAGMENTID"
+                            },
+                            {
+                                "$": "85150675811",
+                                "@idtype": "SGR"
+                            }
+                        ]}},
+                        "ce:source-text": "doi:10.1145/3340259. 2"
+                    },
+                    {
+                        "ref-fulltext": "Wang Y., Jiang C., Schroeder C., Teran J.: An adaptive virtual node algorithm with robust mesh cutting. In Proceedings of the ACM SIGGRAPH/Eurographics Symposium on Computer Animation (Goslar, DEU, 2015), SCA '14, Eurographics Association, p. 77\u201385. 2",
+                        "@reference-instance-id": "OB2BibRecID-947031882-a8b9bf5c539da6ce6c1bfed2c3b353ef-40",
+                        "@id": "40",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14618-cit-0023",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84984922390",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "77",
+                                "@last": "85"
+                            }},
+                            "ref-text": "An adaptive virtual node algorithm with robust mesh cutting. In, (Goslar, DEU,,), SCA '14, Eurographics Association, p., 2",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schroeder",
+                                    "ce:indexed-name": "Schroeder C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Teran",
+                                    "ce:indexed-name": "Teran J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the ACM SIGGRAPH/Eurographics Symposium on Computer Animation"
+                        },
+                        "ce:source-text": "Wang Y., Jiang C., Schroeder C., Teran J.: An adaptive virtual node algorithm with robust mesh cutting. In Proceedings of the ACM SIGGRAPH/Eurographics Symposium on Computer Animation (Goslar, DEU, 2015), SCA '14, Eurographics Association, p. 77\u201385. 2"
+                    },
+                    {
+                        "ref-fulltext": "Zhu Y., Bridson R.: Animating sand as a fluid. In ACM SIGGRAPH 2005 Papers (New York, NY, USA, 2005), SIGGRAPH '05, Association for Computing Machinery, p. 965\u2013972. URL: https://doi.org/10.1145/1186822.1073298,",
+                        "@reference-instance-id": "OB2BibRecID-947031882-a5a805dc6f510b92843030eccb2535d7-41",
+                        "@id": "41",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/1186822.1073298",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "cgf14618-cit-0024",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85150676454",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "965",
+                                "@last": "972"
+                            }},
+                            "ref-text": "Animating sand as a fluid. In, (New York, NY, USA,,), SIGGRAPH '05, Association for Computing Machinery, p",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bridson",
+                                    "ce:indexed-name": "Bridson R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM SIGGRAPH 2005 Papers"
+                        },
+                        "ce:source-text": "Zhu Y., Bridson R.: Animating sand as a fluid. In ACM SIGGRAPH 2005 Papers (New York, NY, USA, 2005), SIGGRAPH '05, Association for Computing Machinery, p. 965\u2013972. URL: https://doi.org/10.1145/1186822.1073298,"
+                    },
+                    {
+                        "ref-fulltext": "doi:10.1145/1186822.1073298. 4",
+                        "@reference-instance-id": "OB2BibRecID-947031882-62397e29eb52d345260f2337711dfdcf-42",
+                        "@id": "42",
+                        "ref-info": {"refd-itemidlist": {"itemid": [
+                            {
+                                "$": "10.1145/1186822.1073298.4",
+                                "@idtype": "DOI"
+                            },
+                            {
+                                "$": "cgf14618-cit-0024a",
+                                "@idtype": "FRAGMENTID"
+                            },
+                            {
+                                "$": "85150684584",
+                                "@idtype": "SGR"
+                            }
+                        ]}},
+                        "ce:source-text": "doi:10.1145/1186822.1073298. 4"
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Santa Clara",
+            "@id": "60076695",
+            "affilname": "NVIDIA",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60076695",
+            "affiliation-country": "United States"
+        },
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85142710465",
+        "dc:description": "The shape matching method is a popular approach to simulate deformable objects in interactive applications due to its stability and simplicity. An important feature is that there is no need for a mesh since the method works on arbitrary local groups within a set of particles. A major drawback of shape matching is the fact that it is geometrically motivated and not derived from physical principles which makes calibration difficult. The fact that the method does not conserve volume can yield visual artifacts, e.g. when a tire is compressed but does not bulge. In this paper we present a new meshless simulation method that is related to shape matching but derived from continuous constitutive models. Volume conservation and stiffness can be specified with physical parameters. Further, if the elements of a tetrahedral mesh are used as groups, our method perfectly reproduces FEM based simulations.",
+        "prism:coverDate": "2022-12-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85142710465",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Matthias",
+            "preferred-name": {
+                "ce:given-name": "Matthias",
+                "ce:initials": "M.",
+                "ce:surname": "Müller",
+                "ce:indexed-name": "Müller M."
+            },
+            "@seq": "1",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60076695",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60076695"
+            },
+            "ce:surname": "Müller",
+            "@auid": "57213094877",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57213094877",
+            "ce:indexed-name": "Muller M."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85142710465"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85142710465&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85142710465&origin=inward"
+            }
+        ],
+        "source-id": "25023",
+        "citedby-count": "2",
+        "prism:volume": "41",
+        "subtype": "ar",
+        "dc:title": "Physically Based Shape Matching",
+        "openaccess": "0",
+        "prism:issn": "14678659 01677055",
+        "publishercopyright": "© 2023 Nvidia. Computer Graphics Forum © 2023 Eurographics - The European Association for Computer Graphics and John Wiley & Sons Ltd.",
+        "prism:issueIdentifier": "8",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "Computer Graphics Forum",
+        "prism:pageRange": "1-7",
+        "prism:endingPage": "7",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1111/cgf.14618",
+        "prism:startingPage": "1",
+        "dc:identifier": "SCOPUS_ID:85142710465",
+        "dc:publisher": "John Wiley and Sons Inc"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "CCS concept",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Computing methodologies",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Deformable object",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Matching methods",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Physical simulation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Physically based",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Physically-based animation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Real-time physics",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Shape matching",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "\u2022 computing methodology → physical simulation",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "CCS Concepts"
+        },
+        {
+            "@_fa": "true",
+            "$": "elasticity"
+        },
+        {
+            "@_fa": "true",
+            "$": "finite element method"
+        },
+        {
+            "@_fa": "true",
+            "$": "physically-based animation"
+        },
+        {
+            "@_fa": "true",
+            "$": "real-time physics"
+        },
+        {
+            "@_fa": "true",
+            "$": "\u2022 Computing methodologies → Physical simulation"
+        }
+    ]},
+    "subject-areas": {"subject-area": [{
+        "@_fa": "true",
+        "$": "Computer Graphics and Computer-Aided Design",
+        "@code": "1704",
+        "@abbrev": "COMP"
+    }]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Matthias",
+            "preferred-name": {
+                "ce:given-name": "Matthias",
+                "ce:initials": "M.",
+                "ce:surname": "Müller",
+                "ce:indexed-name": "Müller M."
+            },
+            "@seq": "1",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60076695",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60076695"
+            },
+            "ce:surname": "Müller",
+            "@auid": "57213094877",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57213094877",
+            "ce:indexed-name": "Muller M."
+        },
+        {
+            "ce:given-name": "Miles",
+            "preferred-name": {
+                "ce:given-name": "Miles",
+                "ce:initials": "M.",
+                "ce:surname": "Macklin",
+                "ce:indexed-name": "Macklin M."
+            },
+            "@seq": "2",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60076695",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60076695"
+            },
+            "ce:surname": "Macklin",
+            "@auid": "55805366300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55805366300",
+            "ce:indexed-name": "Macklin M."
+        },
+        {
+            "ce:given-name": "Nuttapong",
+            "preferred-name": {
+                "ce:given-name": "Nuttapong",
+                "ce:initials": "N.",
+                "ce:surname": "Chentanez",
+                "ce:indexed-name": "Chentanez N."
+            },
+            "@seq": "3",
+            "ce:initials": "N.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60076695",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60076695"
+                },
+                {
+                    "@id": "60028190",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+                }
+            ],
+            "ce:surname": "Chentanez",
+            "@auid": "14824789300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/14824789300",
+            "ce:indexed-name": "Chentanez N."
+        },
+        {
+            "ce:given-name": "Stefan",
+            "preferred-name": {
+                "ce:given-name": "Stefan",
+                "ce:initials": "S.",
+                "ce:surname": "Jeschke",
+                "ce:indexed-name": "Jeschke S."
+            },
+            "@seq": "4",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60076695",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60076695"
+            },
+            "ce:surname": "Jeschke",
+            "@auid": "10141789000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/10141789000",
+            "ce:indexed-name": "Jeschke S."
+        }
+    ]}
+}}

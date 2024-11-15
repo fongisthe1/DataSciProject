@@ -1,0 +1,860 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "04",
+                "@year": "2022",
+                "@timestamp": "2022-05-04T15:25:12.000012-04:00",
+                "@month": "05"
+            },
+            "ait:date-sort": {
+                "@day": "27",
+                "@year": "2018",
+                "@month": "08"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {"xocs:funding-agency-matched-string": "PTTEP"},
+                {
+                    "xocs:funding-agency-matched-string": "Chulalongkorn University",
+                    "xocs:funding-agency-acronym": "CU",
+                    "xocs:funding-agency": "Chulalongkorn University",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002873",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2022-01-03T22:09:08.945Z",
+            "xocs:funding-text": "This work cannot complete if lacking knowledge support from our members, and financial aids from Chulalongkorn University and PTTEP Thailand. Thankful for distributors who create built-in functions in MATLAB, which are used to contribute this work.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "@afid": "60005837",
+                            "organization": {"$": "University of Houston"},
+                            "affiliation-id": {"@afid": "60005837"},
+                            "ce:source-text": "University of Houston"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Pongthep",
+                                "preferred-name": {
+                                    "ce:given-name": "Pongthep",
+                                    "ce:initials": "P.",
+                                    "ce:surname": "Thongsang",
+                                    "ce:indexed-name": "Thongsang P."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "P.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Thongsang",
+                                "@auid": "57194200227",
+                                "ce:indexed-name": "Thongsang P."
+                            },
+                            {
+                                "ce:given-name": "Hao",
+                                "preferred-name": {
+                                    "ce:given-name": "Hao",
+                                    "ce:initials": "H.",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu H."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "H.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Hu",
+                                "@auid": "55800049700",
+                                "ce:indexed-name": "Hu H."
+                            },
+                            {
+                                "ce:given-name": "August",
+                                "preferred-name": {
+                                    "ce:given-name": "August",
+                                    "ce:initials": "A.",
+                                    "ce:surname": "Lau",
+                                    "ce:indexed-name": "Lau A."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Lau",
+                                "@auid": "57639134600",
+                                "ce:indexed-name": "Lau A."
+                            },
+                            {
+                                "ce:given-name": "Hua-Wei",
+                                "preferred-name": {
+                                    "ce:given-name": "Hua Wei",
+                                    "ce:initials": "H.W.",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou H.W."
+                                },
+                                "@seq": "4",
+                                "ce:initials": "H.-W.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Zhou",
+                                "@auid": "55681359600",
+                                "ce:indexed-name": "Zhou H.-W."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "@afid": "60028190",
+                            "organization": {"$": "Chulalongkorn University"},
+                            "affiliation-id": {"@afid": "60028190"},
+                            "ce:source-text": "Chulalongkorn University."
+                        },
+                        "author": [{
+                            "ce:given-name": "Pongthep",
+                            "preferred-name": {
+                                "ce:given-name": "Pongthep",
+                                "ce:initials": "P.",
+                                "ce:surname": "Thongsang",
+                                "ce:indexed-name": "Thongsang P."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "P.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Thongsang",
+                            "@auid": "57194200227",
+                            "ce:indexed-name": "Thongsang P."
+                        }]
+                    }
+                ],
+                "citation-title": "Imaging improvement in angle-domain common-image-gathers by a local stack utilizing segmentation method",
+                "abstracts": "© 2018 SEGPoynting vector based reverse time migration (PVRTM) can migrate seismic data into angle-domain common-image gathers (ADCIGs). The quality of common-image-gather is related to the used migration velocity. However, in the seismic data processing, we usually cannot obtain a very accurate depth migration velocity. The difference between the true depth velocity and estimated migration velocity would introduce image artifacts, which are often observed as non-flat events in the ADCIGs. These non-flat events will degrade the final image that is linearly stacked from all angles. To mitigate such image artifacts caused by the inaccurate migration velocity, we can use both quantitative and qualitative methods to optimize the stacking. The quantitative method uses a numerical method to achieve an optimal velocity model for migration. However, there is residual moveout error still left in the gathers. Instead, we propose a qualitative method to assure geologically meaningful result, so-called segmentation method using Moore neighborhood algorithm, which can decompose events in the ADCIGs into isolated signal groups. From this sequestered image domain, signals can manifest easier because of dealing only local signals that do not interfere with adjacent ones. We can automatically align concave events and focus stretching amplitudes at far angles. Additionally, we do not need cross-correlation to measure the moveout of non-flat events. Consequently, we can avoid the mismatching among the events at different depths. We test our proposed method by one numerical dataset. The numerical results show that the ADCIGs can correct the non-flat events in the ADCIGs from small angle to large angle. Compared with the tradition RTM with Laplace filtering and small angle stacking, our new method can produce a superior migration image with fewer artifacts. In practice, this proposed method can reduce the requirement of migration velocity accuracy in the depth velocity building and provide a first-look of RTM image.",
+                "correspondence": [
+                    {
+                        "affiliation": {
+                            "organization": {"$": "University of Houston"},
+                            "ce:source-text": "University of Houston"
+                        },
+                        "person": {
+                            "ce:given-name": "Pongthep",
+                            "ce:initials": "P.",
+                            "ce:surname": "Thongsang",
+                            "ce:indexed-name": "Thongsang P."
+                        }
+                    },
+                    {
+                        "affiliation": {
+                            "organization": {"$": "University of Houston"},
+                            "ce:source-text": "University of Houston"
+                        },
+                        "person": {
+                            "ce:given-name": "Hao",
+                            "ce:initials": "H.",
+                            "ce:surname": "Hu",
+                            "ce:indexed-name": "Hu H."
+                        }
+                    },
+                    {
+                        "affiliation": {
+                            "organization": {"$": "University of Houston"},
+                            "ce:source-text": "University of Houston"
+                        },
+                        "person": {
+                            "ce:given-name": "Hua-Wei",
+                            "ce:initials": "H.-W.",
+                            "ce:surname": "Zhou",
+                            "ce:indexed-name": "Zhou H.-W."
+                        }
+                    }
+                ],
+                "citation-info": {
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://www.segdl.org/segabs",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "SEG Technical Program Expanded Abstracts",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"pagerange": {
+                        "@first": "4221",
+                        "@last": "4225"
+                    }},
+                    "@type": "p",
+                    "additional-srcinfo": {
+                        "reportinfo": {"reportnumber": "segam2018-2998399.1"},
+                        "conferenceinfo": {
+                            "confpublication": {"procpartno": "1 of 1"},
+                            "confevent": {
+                                "confname": "Society of Exploration Geophysicists International Exposition and 88th Annual Meeting, SEG 2018",
+                                "confnumber": "88",
+                                "confseriestitle": "Society of Exploration Geophysicists International Exposition and Annual Meeting",
+                                "conflocation": {
+                                    "@country": "usa",
+                                    "city": "Anaheim",
+                                    "state": "CA"
+                                },
+                                "confcode": "175271",
+                                "confdate": {
+                                    "enddate": {
+                                        "@day": "19",
+                                        "@year": "2018",
+                                        "@month": "10"
+                                    },
+                                    "startdate": {
+                                        "@day": "14",
+                                        "@year": "2018",
+                                        "@month": "10"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "sourcetitle": "SEG Technical Program Expanded Abstracts",
+                    "publicationdate": {
+                        "month": "08",
+                        "year": "2018",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "27 August 2018"
+                        },
+                        "day": "27"
+                    },
+                    "sourcetitle-abbrev": "SEG Techn. Program Expand. Abstr.",
+                    "@country": "usa",
+                    "issuetitle": "SEG Technical Program Expanded Abstracts 2018",
+                    "issn": [
+                        {
+                            "$": "19494645",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "10523812",
+                            "@type": "print"
+                        }
+                    ],
+                    "publicationyear": {"@first": "2018"},
+                    "publisher": {"publishername": "Society of Exploration Geophysicists"},
+                    "@srcid": "5100152902"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "481.4",
+                                "classification-description": "Geophysical Prospecting"
+                            },
+                            {
+                                "classification-code": "484",
+                                "classification-description": "Seismology"
+                            },
+                            {
+                                "classification-code": "484.2",
+                                "classification-description": "Secondary Earthquake Effects"
+                            },
+                            {
+                                "classification-code": "711",
+                                "classification-description": "Electromagnetic Waves"
+                            },
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing and Image Processing"
+                            },
+                            {
+                                "classification-code": "921.6",
+                                "classification-description": "Numerical Methods"
+                            },
+                            {
+                                "classification-code": "922.2",
+                                "classification-description": "Mathematical Statistics"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1909"},
+                            {"$": "1908"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "EART"
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This work cannot complete if lacking knowledge support from our members, and financial aids from Chulalongkorn University and PTTEP Thailand. Thankful for distributors who create built-in functions in MATLAB, which are used to contribute this work.",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": {
+                        "grant-acronym": "CU",
+                        "grant-agency": {
+                            "@iso-code": "tha",
+                            "$": "Chulalongkorn University"
+                        },
+                        "grant-agency-id": "501100002873"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2021 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "30",
+                    "@year": "2021",
+                    "@timestamp": "BST 07:26:38",
+                    "@month": "12"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "636732680",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "937527135",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20215211404797",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20214322831",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85121788603",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85121788603",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1190/segam2018-2998399.1"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "6",
+                "reference": [
+                    {
+                        "ref-fulltext": "Chang, C., Y. Zhang, and Y. Gdong, 2004, Cellular automata for edge detection of images: Proceedings of 2004 International Conference on Machine Learning and Cybernetics (IEEE Cat. No. 04EX826), 3830-3834.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Cellular automata for edge detection of images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "6344285763",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3830",
+                                "@last": "3834"
+                            }},
+                            "ref-text": "IEEE Cat. 04EX826",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gdong",
+                                    "ce:indexed-name": "Gdong Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of 2004 International Conference on Machine Learning and Cybernetics"
+                        },
+                        "ce:source-text": "Chang, C., Y. Zhang, and Y. Gdong, 2004, Cellular automata for edge detection of images: Proceedings of 2004 International Conference on Machine Learning and Cybernetics (IEEE Cat. No. 04EX826), 3830-3834."
+                    },
+                    {
+                        "ref-fulltext": "Church, A., 1958, Review: Edward F. Moore, Gedanken-experiments on sequential machines: Association for Symbolic Logic.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1958"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85121782789",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Association for Symbolic Logic",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "ce:surname": "Church",
+                                "ce:indexed-name": "Church A."
+                            }]},
+                            "ref-sourcetitle": "Review: Edward F. Moore, Gedanken-Experiments on Sequential Machines"
+                        },
+                        "ce:source-text": "Church, A., 1958, Review: Edward F. Moore, Gedanken-experiments on sequential machines: Association for Symbolic Logic."
+                    },
+                    {
+                        "ref-fulltext": "Huang, Y., X. Wang, and G. Schuster, 2014, Non-local means filter for trim statics: 84th Annual International Meeting, SEG, Expanded Abstracts, 3925-3929, https://doi.org/10.1190/segam2014-0352.1.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1190/segam2014-0352.1",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Non-local means filter for trim statics"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85018420294",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3925",
+                                "@last": "3929"
+                            }},
+                            "ref-text": "Expanded Abstracts",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang X."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schuster",
+                                    "ce:indexed-name": "Schuster G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "84th Annual International Meeting, SEG"
+                        },
+                        "ce:source-text": "Huang, Y., X. Wang, and G. Schuster, 2014, Non-local means filter for trim statics: 84th Annual International Meeting, SEG, Expanded Abstracts, 3925-3929, https://doi.org/10.1190/segam2014-0352.1."
+                    },
+                    {
+                        "ref-fulltext": "Thongsang, P., H. Hao, and H. Zhou, 2017, Relaxed flatness-constraint of angle-domain-common-image-gathers generating by Poynting vectors via concurrent vector-median-filter: 87th Annual International Meeting, SEG, Expanded Abstracts, 4661-4665, https://doi.org/10.1190/segam201717790034.1.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1190/segam201717790034.1",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Relaxed flatness-constraint of angle-domain-common-image-gathers generating by Poynting vectors via concurrent vector-median-filter"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85059422597",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "4661",
+                                "@last": "4665"
+                            }},
+                            "ref-text": "Expanded Abstracts",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thongsang",
+                                    "ce:indexed-name": "Thongsang P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hao",
+                                    "ce:indexed-name": "Hao H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "87th Annual International Meeting, SEG"
+                        },
+                        "ce:source-text": "Thongsang, P., H. Hao, and H. Zhou, 2017, Relaxed flatness-constraint of angle-domain-common-image-gathers generating by Poynting vectors via concurrent vector-median-filter: 87th Annual International Meeting, SEG, Expanded Abstracts, 4661-4665, https://doi.org/10.1190/segam201717790034.1."
+                    },
+                    {
+                        "ref-fulltext": "Zhang, D., X. Wang, Y. Huang, and G. Schuster, 2014, Warping for trim statics: 84th Annual International Meeting, SEG, Expanded Abstracts, 3946-3950, https://doi.org/10.1190/segam2014-0281.1.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1190/segam2014-0281.1",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Warping for trim statics"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85018424371",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3946",
+                                "@last": "3950"
+                            }},
+                            "ref-text": "Expanded Abstracts",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang X."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schuster",
+                                    "ce:indexed-name": "Schuster G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "84th Annual International Meeting, SEG"
+                        },
+                        "ce:source-text": "Zhang, D., X. Wang, Y. Huang, and G. Schuster, 2014, Warping for trim statics: 84th Annual International Meeting, SEG, Expanded Abstracts, 3946-3950, https://doi.org/10.1190/segam2014-0281.1."
+                    },
+                    {
+                        "ref-fulltext": "Zhu, H., 2017, Improving the stacking quality of angle-domain common-image gathers based on local warping and simulated annealing: 87th Annual International Meeting, SEG, Expanded Abstracts, 4645-4650, https://doi.org/10.1190/segam2017-17675340.1.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1190/segam2017-17675340.1",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Improving the stacking quality of angle-domain common-image gathers based on local warping and simulated annealing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85059401012",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "4645",
+                                "@last": "4650"
+                            }},
+                            "ref-text": "Expanded Abstracts",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "H.",
+                                "@_fa": "true",
+                                "ce:surname": "Zhu",
+                                "ce:indexed-name": "Zhu H."
+                            }]},
+                            "ref-sourcetitle": "87th Annual International Meeting, SEG"
+                        },
+                        "ce:source-text": "Zhu, H., 2017, Improving the stacking quality of angle-domain common-image gathers based on local warping and simulated annealing: 87th Annual International Meeting, SEG, Expanded Abstracts, 4645-4650, https://doi.org/10.1190/segam2017-17675340.1."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Houston",
+            "@id": "60005837",
+            "affilname": "University of Houston",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60005837",
+            "affiliation-country": "United States"
+        }
+    ],
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85121788603",
+        "dc:description": "Poynting vector based reverse time migration (PVRTM) can migrate seismic data into angle-domain common-image gathers (ADCIGs). The quality of common-image-gather is related to the used migration velocity. However, in the seismic data processing, we usually cannot obtain a very accurate depth migration velocity. The difference between the true depth velocity and estimated migration velocity would introduce image artifacts, which are often observed as non-flat events in the ADCIGs. These non-flat events will degrade the final image that is linearly stacked from all angles. To mitigate such image artifacts caused by the inaccurate migration velocity, we can use both quantitative and qualitative methods to optimize the stacking. The quantitative method uses a numerical method to achieve an optimal velocity model for migration. However, there is residual moveout error still left in the gathers. Instead, we propose a qualitative method to assure geologically meaningful result, so-called segmentation method using Moore neighborhood algorithm, which can decompose events in the ADCIGs into isolated signal groups. From this sequestered image domain, signals can manifest easier because of dealing only local signals that do not interfere with adjacent ones. We can automatically align concave events and focus stretching amplitudes at far angles. Additionally, we do not need cross-correlation to measure the moveout of non-flat events. Consequently, we can avoid the mismatching among the events at different depths. We test our proposed method by one numerical dataset. The numerical results show that the ADCIGs can correct the non-flat events in the ADCIGs from small angle to large angle. Compared with the tradition RTM with Laplace filtering and small angle stacking, our new method can produce a superior migration image with fewer artifacts. In practice, this proposed method can reduce the requirement of migration velocity accuracy in the depth velocity building and provide a first-look of RTM image.",
+        "prism:coverDate": "2018-08-27",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85121788603",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Pongthep",
+            "preferred-name": {
+                "ce:given-name": "Pongthep",
+                "ce:initials": "P.",
+                "ce:surname": "Thongsang",
+                "ce:indexed-name": "Thongsang P."
+            },
+            "@seq": "1",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60005837",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60005837"
+                },
+                {
+                    "@id": "60028190",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+                }
+            ],
+            "ce:surname": "Thongsang",
+            "@auid": "57194200227",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57194200227",
+            "ce:indexed-name": "Thongsang P."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85121788603"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85121788603&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85121788603&origin=inward"
+            }
+        ],
+        "prism:publicationName": "SEG Technical Program Expanded Abstracts",
+        "source-id": "5100152902",
+        "citedby-count": "0",
+        "subtype": "cp",
+        "prism:pageRange": "4221-4225",
+        "dc:title": "Imaging improvement in angle-domain common-image-gathers by a local stack utilizing segmentation method",
+        "prism:endingPage": "4225",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1190/segam2018-2998399.1",
+        "prism:issn": "19494645 10523812",
+        "prism:startingPage": "4221",
+        "publishercopyright": "© 2018 SEG",
+        "dc:identifier": "SCOPUS_ID:85121788603",
+        "dc:publisher": "Society of Exploration Geophysicists"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Angle domains",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Image artefacts",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Migration velocity",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Moveout",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Non flats",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Poynting's vectors",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Reverse time migrations",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Segmentation methods",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Seismic data processing",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Stackings",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": null,
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Geotechnical Engineering and Engineering Geology",
+            "@code": "1909",
+            "@abbrev": "EART"
+        },
+        {
+            "@_fa": "true",
+            "$": "Geophysics",
+            "@code": "1908",
+            "@abbrev": "EART"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Pongthep",
+            "preferred-name": {
+                "ce:given-name": "Pongthep",
+                "ce:initials": "P.",
+                "ce:surname": "Thongsang",
+                "ce:indexed-name": "Thongsang P."
+            },
+            "@seq": "1",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60005837",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60005837"
+                },
+                {
+                    "@id": "60028190",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+                }
+            ],
+            "ce:surname": "Thongsang",
+            "@auid": "57194200227",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57194200227",
+            "ce:indexed-name": "Thongsang P."
+        },
+        {
+            "ce:given-name": "Hao",
+            "preferred-name": {
+                "ce:given-name": "Hao",
+                "ce:initials": "H.",
+                "ce:surname": "Hu",
+                "ce:indexed-name": "Hu H."
+            },
+            "@seq": "2",
+            "ce:initials": "H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60005837",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60005837"
+            },
+            "ce:surname": "Hu",
+            "@auid": "55800049700",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55800049700",
+            "ce:indexed-name": "Hu H."
+        },
+        {
+            "ce:given-name": "August",
+            "preferred-name": {
+                "ce:given-name": "August",
+                "ce:initials": "A.",
+                "ce:surname": "Lau",
+                "ce:indexed-name": "Lau A."
+            },
+            "@seq": "3",
+            "ce:initials": "A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60005837",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60005837"
+            },
+            "ce:surname": "Lau",
+            "@auid": "57639134600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57639134600",
+            "ce:indexed-name": "Lau A."
+        },
+        {
+            "ce:given-name": "Hua-Wei",
+            "preferred-name": {
+                "ce:given-name": "Hua Wei",
+                "ce:initials": "H.W.",
+                "ce:surname": "Zhou",
+                "ce:indexed-name": "Zhou H.W."
+            },
+            "@seq": "4",
+            "ce:initials": "H.-W.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60005837",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60005837"
+            },
+            "ce:surname": "Zhou",
+            "@auid": "55681359600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55681359600",
+            "ce:indexed-name": "Zhou H.-W."
+        }
+    ]}
+}}

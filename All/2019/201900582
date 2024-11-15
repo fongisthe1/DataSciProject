@@ -1,0 +1,1212 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "07",
+                "@timestamp": "2020-05-07T03:39:10.000010-04:00",
+                "@year": "2020",
+                "@month": "05"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2019",
+                "@month": "10"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Chulalongkorn University Big Data Analytics and IoT Center (CUBIC)"},
+                                {"$": "Chulalongkorn University"},
+                                {"$": "Department of Computer Engineering Faculty of Engineering"},
+                                {"$": "Faculty of Engineering"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "108409794"
+                            },
+                            "@dptid": "108409794"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Fuenglada",
+                                "preferred-name": {
+                                    "ce:given-name": "Fuenglada",
+                                    "ce:initials": "F.",
+                                    "ce:surname": "Manokij",
+                                    "ce:indexed-name": "Manokij F."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "F.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Manokij",
+                                "@auid": "57213689555",
+                                "ce:indexed-name": "Manokij F."
+                            },
+                            {
+                                "ce:given-name": "Peerapon",
+                                "preferred-name": {
+                                    "ce:given-name": "Peerapon",
+                                    "ce:initials": "P.",
+                                    "ce:surname": "Vateekul",
+                                    "ce:indexed-name": "Vateekul P."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "P.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Vateekul",
+                                "@auid": "24829867400",
+                                "ce:indexed-name": "Vateekul P."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60001884",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Hydro-Informatics Institute (Public Organization)"},
+                                {"$": "Ministry of Higher Education Science Research and Innovation"}
+                            ],
+                            "affiliation-id": {"@afid": "60001884"}
+                        },
+                        "author": [{
+                            "ce:given-name": "Kanoksri",
+                            "preferred-name": {
+                                "ce:given-name": "Kanoksri",
+                                "ce:initials": "K.",
+                                "ce:surname": "Sarinnapakorn",
+                                "ce:indexed-name": "Sarinnapakorn K."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "K.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Sarinnapakorn",
+                            "@auid": "8955370300",
+                            "ce:indexed-name": "Sarinnapakorn K."
+                        }]
+                    }
+                ],
+                "citation-title": "Forecasting Thailand's Precipitation with Cascading Model of CNN and GRU",
+                "abstracts": "© 2019 IEEE.Precipitation prediction is necessary to use in water management, especially in Thailand, it can be applied for various ways, such as flood warning, agriculture planning, etc. There are many prior attempts to forecast rainfall from the rain-gauge station. Some deployed traditional machine learning approaches: ARIMA, k-NN, etc. Recently, deep learning approach has shown promising results in this task. However, the accuracy is still limited since the raining period throughout the year in Thailand is very scarce, so most rainfall amount is zero. In this paper, we propose to cascade two deep learning networks to tackle this problem: one is a classification model to classify whether it rains or not, and the other is a regression model to predict rainfall amount. Our network is a combination of CNN and GRU, where CNN aims to capture relationship between various sensors and GRU aims to capture time-series information. Furthermore, we also perform multi-step forecasting by applying a rolling mechanism that uses the predicted rainfall and involved features to predict the next 6 steps. The experiment was conducted on hourly rainfall dataset for 6 years (2013-2018) provided from the public government sector in Thailand. We use RMSE as performance metric to evaluate three periods of rainfall: Overall, Rain, and non-rain periods and the results show that our cascading model is the winner with only 4.53% in term of RMSE which is the average percentage of difference from over all regions.",
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Convolutional neural network",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Deep learning",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Gated Recurrent Unit",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Precipitation prediction",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8922635",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "2019 11th International Conference on Information Technology and Electrical Engineering, ICITEE 2019",
+                        "@xml:lang": "eng"
+                    },
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781728140551",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "11th International Conference on Information Technology and Electrical Engineering, ICITEE 2019",
+                            "confnumber": "11",
+                            "confcatnumber": "CFP19TEF-ART",
+                            "confseriestitle": "International Conference on Information Technology and Electrical Engineering",
+                            "conflocation": {
+                                "@country": "tha",
+                                "city": "Pattaya"
+                            },
+                            "confcode": "156020",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "11",
+                                    "@year": "2019",
+                                    "@month": "10"
+                                },
+                                "startdate": {
+                                    "@day": "10",
+                                    "@year": "2019",
+                                    "@month": "10"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "2019 11th International Conference on Information Technology and Electrical Engineering, ICITEE 2019",
+                    "publicationdate": {
+                        "month": "10",
+                        "year": "2019",
+                        "date-text": "October 2019",
+                        "day": "01"
+                    },
+                    "sourcetitle-abbrev": "Int. Conf. Inf. Technol. Electr. Eng., ICITEE",
+                    "@country": "usa",
+                    "issuetitle": "2019 11th International Conference on Information Technology and Electrical Engineering, ICITEE 2019",
+                    "publicationyear": {"@first": "2019"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "article-number": "8929975",
+                    "@srcid": "21100942230"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1710"},
+                            {"$": "2213"},
+                            {"$": "1802"},
+                            {"$": "2102"},
+                            {"$": "2208"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "443.2",
+                                "classification-description": "Meteorological Instrumentation"
+                            },
+                            {
+                                "classification-code": "443.3",
+                                "classification-description": "Precipitation"
+                            },
+                            {
+                                "classification-code": "716.1",
+                                "classification-description": "Information and Communication Theory"
+                            },
+                            {
+                                "classification-code": "921.5",
+                                "classification-description": "Optimization Techniques"
+                            },
+                            {
+                                "classification-code": "922.2",
+                                "classification-description": "Mathematical Statistics"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "ENGI"},
+                            {"$": "DECI"},
+                            {"$": "ENER"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2020 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "03",
+                    "@timestamp": "BST 07:34:05",
+                    "@year": "2020",
+                    "@month": "05"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "630630587",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "923429376",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20200308055084",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20201342975",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85077968624",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85077968624",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/ICITEED.2019.8929975"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "14",
+                "reference": [
+                    {
+                        "ref-fulltext": "M. Murat, I. Malinowska, M. Gos, and J. Kizyszczak, \"Forecasting daily meteorological time series using ARIMA and regression models, \" International agrophysics, vol. 32, no. 2, pp. 253-264, 2018.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Forecasting daily meteorological time series using ARIMA and regression models"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85048015396",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "32",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "253",
+                                    "@last": "264"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Murat",
+                                    "ce:indexed-name": "Murat M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Malinowska",
+                                    "ce:indexed-name": "Malinowska I."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gos",
+                                    "ce:indexed-name": "Gos M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kizyszczak",
+                                    "ce:indexed-name": "Kizyszczak J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Agrophysics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Cramer, M. Kampouridis, A. A. Freitas, and A. K. Alexandridis, \"An extensive evaluation of seven machine learning methods for rainfall prediction in weather derivatives, \" Expert Systems with Applications, vol. 85, pp. 169-181, 2017.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "An extensive evaluation of seven machine learning methods for rainfall prediction in weather derivatives"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85019384458",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "85"},
+                                "pagerange": {
+                                    "@first": "169",
+                                    "@last": "181"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cramer",
+                                    "ce:indexed-name": "Cramer S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kampouridis",
+                                    "ce:indexed-name": "Kampouridis M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Freitas",
+                                    "ce:indexed-name": "Freitas A.A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alexandridis",
+                                    "ce:indexed-name": "Alexandridis A.K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Expert Systems with Applications"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. S. Cofino, R. Cano Trueba, C. M. Sordo, and J. M. Gutierrez Llorente, \"Bayesian networks for probabilistic weather prediction, \" 2002.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85071172312",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cofino",
+                                    "ce:indexed-name": "Cofino A.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cano Trueba",
+                                    "ce:indexed-name": "Cano Trueba R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sordo",
+                                    "ce:indexed-name": "Sordo C.M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gutierrez Llorente",
+                                    "ce:indexed-name": "Gutierrez Llorente J.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Bayesian Networks for Probabilistic Weather Prediction"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "R. Mittelman, B. Kuipers, S. Savarese, and H. Lee, \"Structured recurrent temporal restricted boltzmann machines, \" in International Conference on Machine Learning, 2014, pp. 1647-1655.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Structured recurrent temporal restricted boltzmann machines"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85047147460",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1647",
+                                "@last": "1655"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mittelman",
+                                    "ce:indexed-name": "Mittelman R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kuipers",
+                                    "ce:indexed-name": "Kuipers B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Savarese",
+                                    "ce:indexed-name": "Savarese S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Conference on Machine Learning"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. N. Liu, Y. Hu, J. J. You, and P. W. Chan, \"Deep neural network based feature representation for weather forecasting, \" in Proceedings on the International Conference on Artificial Intelligence (ICAI), 2014, p. 1: The Steering Committee of The World Congress in Computer Science, Computer Engineering and Applied Computing (WorldComp).",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Deep neural network based feature representation for weather forecasting"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85068518131",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {"@first": "1"}},
+                            "ref-text": "The Steering Committee of The World Congress in Computer Science, Computer Engineering and Applied Computing (WorldComp)",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu J.N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "You",
+                                    "ce:indexed-name": "You J.J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chan",
+                                    "ce:indexed-name": "Chan P.W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings on the International Conference on Artificial Intelligence (ICAI)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Wang, J. Feng, and G. Liu, \"Application of seasonal time series model in the precipitation forecast, \" Mathematical and Computer Modelling, vol. 58, no. 3-4, pp. 677-683, 2013.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Application of seasonal time series model in the precipitation forecast"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84892446071",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "58",
+                                    "@issue": "3-4"
+                                },
+                                "pagerange": {
+                                    "@first": "677",
+                                    "@last": "683"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Feng",
+                                    "ce:indexed-name": "Feng J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Mathematical and Computer Modelling"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "N. Hung, M. Babel, S. Weesakul, and N. Tripathi, \"An artificial neural network model for rainfall forecasting in Bangkok, Thailand, \" Hydrology and Earth System Sciences Discussions, vol. 5, no. 1, pp. 183-218, 2008.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "An artificial neural network model for rainfall forecasting in Bangkok, Thailand"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84856617615",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "5",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "183",
+                                    "@last": "218"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hung",
+                                    "ce:indexed-name": "Hung N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Babel",
+                                    "ce:indexed-name": "Babel M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Weesakul",
+                                    "ce:indexed-name": "Weesakul S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tripathi",
+                                    "ce:indexed-name": "Tripathi N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Hydrology and Earth System Sciences Discussions"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "E. Hernandez, V. Sanchez-Anguix, V. Julian, J. Palanca, and N. Duque, \"Rainfall prediction: A deep learning approach, \" in International Conference on Hybrid Artificial Intelligence Systems, 2016, pp. 151162: Springer.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Rainfall prediction: A deep learning approach"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85069442082",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {"@first": "151162"}},
+                            "ref-text": "Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hernandez",
+                                    "ce:indexed-name": "Hernandez E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sanchez-Anguix",
+                                    "ce:indexed-name": "Sanchez-Anguix V."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Julian",
+                                    "ce:indexed-name": "Julian V."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Palanca",
+                                    "ce:indexed-name": "Palanca J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Duque",
+                                    "ce:indexed-name": "Duque N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Conference on Hybrid Artificial Intelligence Systems"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "M. Qiu, P. Zhao, K. Zhang, J. Huang, X. Shi, X. Wang and W. Chu, \"A Short-Term Rainfall Prediction Model using Multi-Task Convolutional Neural Networks, \" in Data Mining (ICDM), 2017 IEEE International Conference on, 2017, pp. 395-404: IEEE.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "A short-term rainfall prediction model using multi-task convolutional neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85043994635",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "395",
+                                "@last": "404"
+                            }},
+                            "ref-text": "IEEE",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qiu",
+                                    "ce:indexed-name": "Qiu M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shi",
+                                    "ce:indexed-name": "Shi X."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang X."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chu",
+                                    "ce:indexed-name": "Chu W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Data Mining (ICDM), 2017 IEEE International Conference on"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "G. S. Babu, P. Zhao, andX.-L. Li, \"Deep convolutional neural network based regression approach for estimation of remaining useful life, \" in International conference on database systems for advanced applications, 2016, pp. 214-228: Springer.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Deep convolutional neural network based regression approach for estimation of remaining useful life"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84962468883",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "214",
+                                "@last": "228"
+                            }},
+                            "ref-text": "Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Babu",
+                                    "ce:indexed-name": "Babu G.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "X.-L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li X.-L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Conference on Database Systems for Advanced Applications"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "T.-Y. Lin, P. Goyal, R. Girshick, K. He, and P. Dollar, \"Focal loss for dense object detection, \" in Proceedings of the IEEE international conference on computervision, 2017, pp. 2980-2988.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Focal loss for dense object detection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85041916350",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2980",
+                                "@last": "2988"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.-Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lin",
+                                    "ce:indexed-name": "Lin T.-Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Goyal",
+                                    "ce:indexed-name": "Goyal P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Girshick",
+                                    "ce:indexed-name": "Girshick R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He K."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dollar",
+                                    "ce:indexed-name": "Dollar P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE International Conference on Computervision"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Ioffe and C. Szegedy, \"Batch normalization: Accelerating deep network training by reducing internal covariate shift, \" arXiv preprint arXiv: 1502. 03167, 2015.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "arXiv: 1502. 03167",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84964923476",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ioffe",
+                                    "ce:indexed-name": "Ioffe S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Szegedy",
+                                    "ce:indexed-name": "Szegedy C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "N. Srivastava, G. Hinton, A. Krizhevsky, I. Sutskever, and R. Salakhutdinov, \"Dropout: a simple way to prevent neural networks from overfitting, \" The journal of machine learning research, vol. 15, no. 1, pp. 1929-1958, 2014.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Dropout: A simple way to prevent neural networks from overfitting"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84904163933",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "15",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "1929",
+                                    "@last": "1958"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Srivastava",
+                                    "ce:indexed-name": "Srivastava N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hinton",
+                                    "ce:indexed-name": "Hinton G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krizhevsky",
+                                    "ce:indexed-name": "Krizhevsky A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sutskever",
+                                    "ce:indexed-name": "Sutskever I."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Salakhutdinov",
+                                    "ce:indexed-name": "Salakhutdinov R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "The Journal of Machine Learning Research"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "D. P. Kingma and J. Ba, \"Adam: A method for stochastic optimization, \" arXiv preprint arXiv: 1412. 6980, 2014.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "arXiv: 1412. 6980",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84941620184",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kingma",
+                                    "ce:indexed-name": "Kingma D.P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ba",
+                                    "ce:indexed-name": "Ba J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Adam: A Method for Stochastic Optimization"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60001884",
+            "affilname": "Ministry of Higher Education, Science, Research and Innovation",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60001884",
+            "affiliation-country": "Thailand"
+        }
+    ],
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85077968624",
+        "dc:description": "Precipitation prediction is necessary to use in water management, especially in Thailand, it can be applied for various ways, such as flood warning, agriculture planning, etc. There are many prior attempts to forecast rainfall from the rain-gauge station. Some deployed traditional machine learning approaches: ARIMA, k-NN, etc. Recently, deep learning approach has shown promising results in this task. However, the accuracy is still limited since the raining period throughout the year in Thailand is very scarce, so most rainfall amount is zero. In this paper, we propose to cascade two deep learning networks to tackle this problem: one is a classification model to classify whether it rains or not, and the other is a regression model to predict rainfall amount. Our network is a combination of CNN and GRU, where CNN aims to capture relationship between various sensors and GRU aims to capture time-series information. Furthermore, we also perform multi-step forecasting by applying a rolling mechanism that uses the predicted rainfall and involved features to predict the next 6 steps. The experiment was conducted on hourly rainfall dataset for 6 years (2013-2018) provided from the public government sector in Thailand. We use RMSE as performance metric to evaluate three periods of rainfall: Overall, Rain, and non-rain periods and the results show that our cascading model is the winner with only 4.53% in term of RMSE which is the average percentage of difference from over all regions.",
+        "prism:coverDate": "2019-10-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85077968624",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Fuenglada",
+            "preferred-name": {
+                "ce:given-name": "Fuenglada",
+                "ce:initials": "F.",
+                "ce:surname": "Manokij",
+                "ce:indexed-name": "Manokij F."
+            },
+            "@seq": "1",
+            "ce:initials": "F.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Manokij",
+            "@auid": "57213689555",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57213689555",
+            "ce:indexed-name": "Manokij F."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85077968624"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85077968624&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85077968624&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781728140551",
+        "prism:publicationName": "2019 11th International Conference on Information Technology and Electrical Engineering, ICITEE 2019",
+        "source-id": "21100942230",
+        "citedby-count": "4",
+        "subtype": "cp",
+        "dc:title": "Forecasting Thailand's Precipitation with Cascading Model of CNN and GRU",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/ICITEED.2019.8929975",
+        "publishercopyright": "© 2019 IEEE.",
+        "article-number": "8929975",
+        "dc:identifier": "SCOPUS_ID:85077968624",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Classification models",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Convolutional neural network",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Gated Recurrent Unit",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Government sectors",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Machine learning approaches",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Multi-step forecasting",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Performance metrices",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Precipitation predictions",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Convolutional neural network"
+        },
+        {
+            "@_fa": "true",
+            "$": "Deep learning"
+        },
+        {
+            "@_fa": "true",
+            "$": "Gated Recurrent Unit"
+        },
+        {
+            "@_fa": "true",
+            "$": "Precipitation prediction"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Information Systems",
+            "@code": "1710",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Safety, Risk, Reliability and Quality",
+            "@code": "2213",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Information Systems and Management",
+            "@code": "1802",
+            "@abbrev": "DECI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Energy Engineering and Power Technology",
+            "@code": "2102",
+            "@abbrev": "ENER"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Fuenglada",
+            "preferred-name": {
+                "ce:given-name": "Fuenglada",
+                "ce:initials": "F.",
+                "ce:surname": "Manokij",
+                "ce:indexed-name": "Manokij F."
+            },
+            "@seq": "1",
+            "ce:initials": "F.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Manokij",
+            "@auid": "57213689555",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57213689555",
+            "ce:indexed-name": "Manokij F."
+        },
+        {
+            "ce:given-name": "Kanoksri",
+            "preferred-name": {
+                "ce:given-name": "Kanoksri",
+                "ce:initials": "K.",
+                "ce:surname": "Sarinnapakorn",
+                "ce:indexed-name": "Sarinnapakorn K."
+            },
+            "@seq": "2",
+            "ce:initials": "K.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60001884",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60001884"
+            },
+            "ce:surname": "Sarinnapakorn",
+            "@auid": "8955370300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/8955370300",
+            "ce:indexed-name": "Sarinnapakorn K."
+        },
+        {
+            "ce:given-name": "Peerapon",
+            "preferred-name": {
+                "ce:given-name": "Peerapon",
+                "ce:initials": "P.",
+                "ce:surname": "Vateekul",
+                "ce:indexed-name": "Vateekul P."
+            },
+            "@seq": "3",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Vateekul",
+            "@auid": "24829867400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/24829867400",
+            "ce:indexed-name": "Vateekul P."
+        }
+    ]}
+}}

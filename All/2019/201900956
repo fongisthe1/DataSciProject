@@ -1,0 +1,1035 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "07",
+                "@timestamp": "2020-05-07T03:39:10.000010-04:00",
+                "@year": "2020",
+                "@month": "05"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2019",
+                "@month": "08"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "Fostering Joint International Research",
+                    "xocs:funding-id": "18KK0277"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Ministry of Education, Science, Sports and Culture",
+                    "xocs:funding-agency-acronym": "MEXT",
+                    "xocs:funding-agency": "Ministry of Education, Culture, Sports, Science and Technology",
+                    "xocs:funding-id": "18H0321",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001700",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1861060/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "JICA",
+                    "xocs:funding-agency-acronym": "JICA",
+                    "xocs:funding-agency": "Japan International Cooperation Agency",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004532",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1861060/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Ministry of Internal Affairs and Communications",
+                    "xocs:funding-agency-acronym": "MIC",
+                    "xocs:funding-agency": "Ministry of Internal Affairs and Communications",
+                    "xocs:funding-id": "185001003",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100009105",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1861060/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2022-06-06T16:59:49.278104Z",
+            "xocs:funding-text": "ACKNOWLEDGMENT This research has been supported in part by the Collaborative Research Project entitled Video Processing and Transmission, JICA Project for AUN/SEED-Net, Japan. This study is supported in parts by the Ministry of Education, Science, Sports and Culture, Grant-in-Aid for Scientific Research (B) (18H0321) and Fund for the Promotion of Joint International Research, Fostering Joint International Research (B) (18KK0277). This study is also supported in parts by the Ministry of Internal Affairs and Communications for SCOPE Program (185001003).",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Chulalongkorn University"},
+                                {"$": "Department of Electrical Engineering"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "113845132"
+                            },
+                            "@dptid": "113845132"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Sovann",
+                                "preferred-name": {
+                                    "ce:given-name": "Sovann",
+                                    "ce:initials": "S.",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen S."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Chen",
+                                "@auid": "57193421796",
+                                "ce:indexed-name": "Chen S."
+                            },
+                            {
+                                "ce:given-name": "Supavadee",
+                                "preferred-name": {
+                                    "ce:given-name": "Supavadee",
+                                    "ce:initials": "S.",
+                                    "ce:surname": "Aramvith",
+                                    "ce:indexed-name": "Aramvith S."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Aramvith",
+                                "@auid": "8943602000",
+                                "ce:indexed-name": "Aramvith S."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Japan",
+                            "@afid": "60014652",
+                            "@country": "jpn",
+                            "city": "Sapporo",
+                            "organization": [
+                                {"$": "Graduate School of Information Science and Technology"},
+                                {"$": "Hokkaido University"}
+                            ],
+                            "affiliation-id": {"@afid": "60014652"}
+                        },
+                        "author": [{
+                            "ce:given-name": "Yoshikazu",
+                            "preferred-name": {
+                                "ce:given-name": "Yoshikazu",
+                                "ce:initials": "Y.",
+                                "ce:surname": "Miyanaga",
+                                "ce:indexed-name": "Miyanaga Y."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "Y.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Miyanaga",
+                            "@auid": "55552585800",
+                            "ce:indexed-name": "Miyanaga Y."
+                        }]
+                    }
+                ],
+                "citation-title": "Encoder Control Enhancement in HEVC Based on R-Lambda Coefficient Distribution",
+                "abstracts": "© 2019 IEEE.Encoder control, known as Rate control, has been developed in the video coding standard to obtain the consistent video perceptual quality for various video applications. However, the pictures within a group of picture (GOP) are quite similar to each other, where the existing rate control, R-Lambda rate control, cannot address correctly. Hence, we propose the R-Lambda coefficient distribution in the latest video coding standard, High Efficiency Video Coding (HEVC), to enhance the prediction of encoder control. The experimental results show the proposed algorithm can accomplish slightly better video perceptual quality of the reconstructed video than the original rate control in HEVC reference software (HM-16.10).",
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Encoder Control",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "GOP",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "HEVC",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "R-Lambda Rate Control",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Video Coding Standard",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8826128",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "2019 International Symposium on Multimedia and Communication Technology, ISMAC 2019",
+                        "@xml:lang": "eng"
+                    },
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781728119182",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "2019 International Symposium on Multimedia and Communication Technology, ISMAC 2019",
+                            "confcatnumber": "CFP19S80-ART",
+                            "confseriestitle": "International Symposium on Multimedia and Communication Technology",
+                            "conflocation": {
+                                "@country": "phl",
+                                "city": "Quezon City"
+                            },
+                            "confcode": "156536",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "21",
+                                    "@year": "2019",
+                                    "@month": "08"
+                                },
+                                "startdate": {
+                                    "@day": "19",
+                                    "@year": "2019",
+                                    "@month": "08"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "2019 International Symposium on Multimedia and Communication Technology, ISMAC 2019",
+                    "publicationdate": {
+                        "month": "08",
+                        "year": "2019",
+                        "date-text": "August 2019",
+                        "day": "01"
+                    },
+                    "sourcetitle-abbrev": "Int. Symp. Multimed. Commun. Technol., ISMAC",
+                    "@country": "usa",
+                    "issuetitle": "2019 International Symposium on Multimedia and Communication Technology, ISMAC 2019",
+                    "publicationyear": {"@first": "2019"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "article-number": "8836135",
+                    "@srcid": "21100955733"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1705"},
+                            {"$": "1706"},
+                            {"$": "2214"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "716.1",
+                                "classification-description": "Information and Communication Theory"
+                            },
+                            {
+                                "classification-code": "716.4",
+                                "classification-description": "Television Systems and Equipment"
+                            },
+                            {
+                                "classification-code": "913.3",
+                                "classification-description": "Quality Assurance and Control"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This research has been supported in part by the Collaborative Research Project entitled Video Processing and Transmission, JICA Project for AUN/SEED-Net, Japan. This study is supported in parts by the Ministry of Education, Science, Sports and Culture, Grant-in-Aid for Scientific Research (B) (18H0321) and Fund for the Promotion of Joint International Research, Fostering Joint International Research (B) (18KK0277). This study is also supported in parts by the Ministry of Internal Affairs and Communications for SCOPE Program (185001003)",
+                        "@xml:lang": "eng"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2020 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "03",
+                    "@timestamp": "BST 07:34:05",
+                    "@year": "2020",
+                    "@month": "05"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "630714062",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "923624918",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20200508092800",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20201369080",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85078350061",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85078350061",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/ISMAC.2019.8836135"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "15",
+                "reference": [
+                    {
+                        "ref-fulltext": "\"H.261: Video codec for audiovisual services at p x 64 kbit/s,\" ITU, 14 12 1990. [Online] . Available: https://www.itu.int/rec/dologinpub.asp?lang=e&id=T-REC-H.261-199012-S!!PDF-E&type=items.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1990"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.itu.int/rec/dologin_pub.asp?lang=e&id=T-REC-H.261-199012-S!!PDF-E&type=items",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85080345702",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "H.261: Video codec for audiovisual services at p x 64 kbit/s",
+                            "ref-sourcetitle": "ITU, 14 12"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "L. Chiariglione, \"MPEG-1,\" ISO/IEC 11172, 1993. [Online] . Available: https://web.archive.org/web/20100418205823/http://mpeg.chiariglione.org/standards/mpeg-1/mpeg-1.htm.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1993"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://web.archive.org/web/20100418205823/http://mpeg.chiariglione.org/standards/mpeg-1/mpeg-1.htm",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85080449553",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "L.",
+                                "@_fa": "true",
+                                "ce:surname": "Chiariglione",
+                                "ce:indexed-name": "Chiariglione L."
+                            }]},
+                            "ref-sourcetitle": "Mpeg-1 ISO/IEC 11172"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "\"H.262: Information technology-Generic Coding of moving pictures and associated audio information: Video,\" ITU, 10 07 1995. [Online] . Available: https://www.itu.int/rec/T-REC-H.262-199507-S/en.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.itu.int/rec/T-REC-H.262-199507-S/en",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85080343598",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "H.262: Information technology-Generic Coding of moving pictures and associated audio information: Video",
+                            "ref-sourcetitle": "ITU, 10 07 1995"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "\"H.263: Video coding for low bit rate communication,\" ITU, 20 03 1996. [Online] . Available: https://www.itu.int/rec/T-REC-H.263-199603-S/en.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.itu.int/rec/T-REC-H.263-199603-S/en",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85080408475",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "H.263: Video coding for low bit rate communication",
+                            "ref-sourcetitle": "ITU, 20 03 1996"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "\"H.263: Video coding for low bit rate communication,\" ITU, 06 02 1998. [Online] . Available: https://www.itu.int/rec/T-REC-H.263-199802-S/en.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.itu.int/rec/T-REC-H.263-199802-S/en",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85080432463",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "H.263: Video coding for low bit rate communication",
+                            "ref-sourcetitle": "ITU, 06 02 1998"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "\"H.263: Enhanced reference picture selection mode,\" ITU, 17 11 2000. [Online] . Available: https://www.itu.int/rec/T-REC-H.263-200011-S!AnnU/en.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.itu.int/rec/T-REC-H.263-200011-S!AnnU/en",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85080430461",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "H.263: Enhanced reference picture selection mode",
+                            "ref-sourcetitle": "ITU, 17 11 2000"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "R. Koenen, \"Overview of the MPEG-4 Standard,\" ISO/IEC 14496, 1999. [Online] . Available: https://web.archive.org/web/20100428021525/http://mpeg.chiariglione.org/standards/mpeg-4/mpeg-4.htm.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://web.archive.org/web/20100428021525/http://mpeg.chiariglione.org/standards/mpeg-4/mpeg-4.htm",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Overview of the mpeg-4 standard"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0011866007",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.",
+                                "@_fa": "true",
+                                "ce:surname": "Koenen",
+                                "ce:indexed-name": "Koenen R."
+                            }]},
+                            "ref-sourcetitle": "ISO/IEC 14496"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "T. Wiegand, G. J. Sullivan, G. Bjontegaard, and A. Luthra, \"Overview of the H.264/AVC video coding standard,\" IEEE Trans. Circuits Syst. Video Technol., vol. 13, no. 7, pp. 560-576, Jul. 2003.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Overview of the h.264/avc video coding standard"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0042631515",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "13",
+                                    "@issue": "7"
+                                },
+                                "pagerange": {
+                                    "@first": "560",
+                                    "@last": "576"
+                                }
+                            },
+                            "ref-text": "Jul.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wiegand",
+                                    "ce:indexed-name": "Wiegand T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sullivan",
+                                    "ce:indexed-name": "Sullivan G.J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bjontegaard",
+                                    "ce:indexed-name": "Bjontegaard G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Luthra",
+                                    "ce:indexed-name": "Luthra A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Circuits Syst. Video Technol."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "G. J.Sullivan, J. Ohm, W.-J. Han, and T. Wiegand, \"Overview of the high efficiency video coding (HEVC) standard,\" IEEE Trans. Circuits Syst. Video Technol., vol. 22, no. 12, pp. 1649-1668, Dec. 2012.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Overview of the high efficiency video coding (hevc) standard"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84872253926",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "22",
+                                    "@issue": "12"
+                                },
+                                "pagerange": {
+                                    "@first": "1649",
+                                    "@last": "1668"
+                                }
+                            },
+                            "ref-text": "Dec.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sullivan",
+                                    "ce:indexed-name": "Sullivan G.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ohm",
+                                    "ce:indexed-name": "Ohm J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.-J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Han",
+                                    "ce:indexed-name": "Han W.-J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wiegand",
+                                    "ce:indexed-name": "Wiegand T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Circuits Syst. Video Technol."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Guilherme Correa, Pedro Assuncao, Luciano Agostini, and Luis A. da Silva Cruz, \"Performance and Computational Complexity Assessment of High-Efficiency Video Encoders,\" IEEE Transactions on Circuit and Systems for Video Technology, vol. 22, pp. 1899-1909, December 2012.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Performance and computational complexity assessment of high-efficiency video encoders"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84872234081",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "22"},
+                                "pagerange": {
+                                    "@first": "1899",
+                                    "@last": "1909"
+                                }
+                            },
+                            "ref-text": "December",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Correa",
+                                    "ce:indexed-name": "Correa G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Assuncao",
+                                    "ce:indexed-name": "Assuncao P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Agostini",
+                                    "ce:indexed-name": "Agostini L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.L.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Da Silva",
+                                    "ce:indexed-name": "Da Silva C.L.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Circuit and Systems for Video Technology"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Dan Grois, Detlev Marpe, Amit Mulayoff, and Benaya Itzhaky, \"Performance Comparison of H.265/MPEG-HEVC, VP9, and H.264/MPEG-AVC Encoders,\" in Picture Coding Symposium (PCS), San Jose, CA, USA, 2013.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Performance comparison of h.265/mpeg-hevc, vp9, and h.264/mpeg-avc encoders"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84897713978",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "San Jose, CA, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grois",
+                                    "ce:indexed-name": "Grois D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marpe",
+                                    "ce:indexed-name": "Marpe D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mulayoff",
+                                    "ce:indexed-name": "Mulayoff A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Itzhaky",
+                                    "ce:indexed-name": "Itzhaky B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Picture Coding Symposium (PCS)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "B. Li, H. Li, L. Li, and J. Zhang, \"Lambda domain rate control algorithm for High Efficiency Video Coding,\" IEEE Transactions on Image Processing, vol. 23, no. 9, pp. 3841-3854, Sep. 2014.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Lambda domain rate control algorithm for high efficiency video coding"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84905283393",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "23",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {
+                                    "@first": "3841",
+                                    "@last": "3854"
+                                }
+                            },
+                            "ref-text": "Sep.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Image Processing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Wei Ding, and Bede Liu, \"Rate Control of MPEG Video Coding and Recording by Rate-Quantization Modeling,\" IEEE Transactions on Circuits and Systems for Video Technology, vol. 6, pp. 12-20, 1996.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "Rate control of mpeg video coding and recording by rate-quantization modeling"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030081128",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "6"},
+                                "pagerange": {
+                                    "@first": "12",
+                                    "@last": "20"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ding",
+                                    "ce:indexed-name": "Ding W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Circuits and Systems for Video Technology"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Zhihai He, Yong Kwan Kim, and Sanjit K. Mitra, \"Low-Delay Rate Control for DCT Video Coding via Rho-Domain Source Modeling,\" IEEE Transactions on Circuits and Systems for Video Technology, vol. 11, pp. 928-940, 2001.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "Low-delay rate control for dct video coding via rho-domain source modeling"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0035422133",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "11"},
+                                "pagerange": {
+                                    "@first": "928",
+                                    "@last": "940"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kwan Kim",
+                                    "ce:indexed-name": "Kwan Kim Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mitra",
+                                    "ce:indexed-name": "Mitra S.K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Circuits and Systems for Video Technology"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "HEVC Reference Software. [Online] . Available: http://hevc.kw.bbc.co.uk/trac/browser/jctvc-hm/tags",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://hevc.kw.bbc.co.uk/trac/browser/jctvc-hm/tags",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85080442505",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "HEVC Reference Software"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Sapporo",
+            "@id": "60014652",
+            "affilname": "Hokkaido University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60014652",
+            "affiliation-country": "Japan"
+        }
+    ],
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85078350061",
+        "dc:description": "Encoder control, known as Rate control, has been developed in the video coding standard to obtain the consistent video perceptual quality for various video applications. However, the pictures within a group of picture (GOP) are quite similar to each other, where the existing rate control, R-Lambda rate control, cannot address correctly. Hence, we propose the R-Lambda coefficient distribution in the latest video coding standard, High Efficiency Video Coding (HEVC), to enhance the prediction of encoder control. The experimental results show the proposed algorithm can accomplish slightly better video perceptual quality of the reconstructed video than the original rate control in HEVC reference software (HM-16.10).",
+        "prism:coverDate": "2019-08-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85078350061",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Sovann",
+            "preferred-name": {
+                "ce:given-name": "Sovann",
+                "ce:initials": "S.",
+                "ce:surname": "Chen",
+                "ce:indexed-name": "Chen S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Chen",
+            "@auid": "57193421796",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57193421796",
+            "ce:indexed-name": "Chen S."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85078350061"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85078350061&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85078350061&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781728119182",
+        "prism:publicationName": "2019 International Symposium on Multimedia and Communication Technology, ISMAC 2019",
+        "source-id": "21100955733",
+        "citedby-count": "2",
+        "subtype": "cp",
+        "dc:title": "Encoder Control Enhancement in HEVC Based on R-Lambda Coefficient Distribution",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/ISMAC.2019.8836135",
+        "publishercopyright": "© 2019 IEEE.",
+        "article-number": "8836135",
+        "dc:identifier": "SCOPUS_ID:85078350061",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "HEVC",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "High-efficiency video coding",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Lambda coefficient",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Rate controls",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Reference software",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Video applications",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Video coding standard",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Video perceptual qualities",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Encoder Control"
+        },
+        {
+            "@_fa": "true",
+            "$": "GOP"
+        },
+        {
+            "@_fa": "true",
+            "$": "HEVC"
+        },
+        {
+            "@_fa": "true",
+            "$": "R-Lambda Rate Control"
+        },
+        {
+            "@_fa": "true",
+            "$": "Video Coding Standard"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Computer Networks and Communications",
+            "@code": "1705",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Media Technology",
+            "@code": "2214",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Sovann",
+            "preferred-name": {
+                "ce:given-name": "Sovann",
+                "ce:initials": "S.",
+                "ce:surname": "Chen",
+                "ce:indexed-name": "Chen S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Chen",
+            "@auid": "57193421796",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57193421796",
+            "ce:indexed-name": "Chen S."
+        },
+        {
+            "ce:given-name": "Supavadee",
+            "preferred-name": {
+                "ce:given-name": "Supavadee",
+                "ce:initials": "S.",
+                "ce:surname": "Aramvith",
+                "ce:indexed-name": "Aramvith S."
+            },
+            "@seq": "2",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Aramvith",
+            "@auid": "8943602000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/8943602000",
+            "ce:indexed-name": "Aramvith S."
+        },
+        {
+            "ce:given-name": "Yoshikazu",
+            "preferred-name": {
+                "ce:given-name": "Yoshikazu",
+                "ce:initials": "Y.",
+                "ce:surname": "Miyanaga",
+                "ce:indexed-name": "Miyanaga Y."
+            },
+            "@seq": "3",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60014652",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60014652"
+            },
+            "ce:surname": "Miyanaga",
+            "@auid": "55552585800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55552585800",
+            "ce:indexed-name": "Miyanaga Y."
+        }
+    ]}
+}}

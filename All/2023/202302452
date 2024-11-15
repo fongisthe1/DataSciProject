@@ -1,0 +1,951 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "20",
+                "@timestamp": "2023-06-20T08:21:57.000057-04:00",
+                "@year": "2023",
+                "@month": "06"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2023",
+                "@month": "01"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "postal-code": "10330",
+                        "@afid": "60028190",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": {"$": "Chulalongkorn University"},
+                        "affiliation-id": {"@afid": "60028190"},
+                        "@affiliation-instance-id": "OB2BibRecID-947359962-17ca30255c2c6b89c534ce0bcfcf8c1b-1",
+                        "ce:source-text": "Chulalongkorn University, Bangkok, 10330, Thailand"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Thanaporn",
+                            "preferred-name": {
+                                "ce:given-name": "Thanaporn",
+                                "ce:initials": "T.",
+                                "ce:surname": "Jinnovart",
+                                "ce:indexed-name": "Jinnovart T."
+                            },
+                            "@author-instance-id": "OB2BibRecID-947359962-f27efb928aa16a8ab02bbe5f6c1015f6-1",
+                            "@seq": "1",
+                            "ce:initials": "T.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Jinnovart",
+                            "@auid": "57221704355",
+                            "ce:indexed-name": "Jinnovart T."
+                        },
+                        {
+                            "ce:given-name": "Chidchanok",
+                            "preferred-name": {
+                                "ce:given-name": "Chidchanok",
+                                "ce:initials": "C.",
+                                "ce:surname": "Lursinsap",
+                                "ce:indexed-name": "Lursinsap C."
+                            },
+                            "@author-instance-id": "OB2BibRecID-947359962-cedcabbfdd7800d739679499334d4c5b-1",
+                            "@seq": "2",
+                            "ce:initials": "C.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Lursinsap",
+                            "@auid": "55396044200",
+                            "ce:indexed-name": "Lursinsap C."
+                        }
+                    ]
+                },
+                "citation-title": "Y-X-Y Encoding for Identifying Types of Sentence Similarity",
+                "abstracts": "© 2023, The Author(s), under exclusive license to Springer Nature Singapore Pte Ltd.Determining the semantic similarity of any two arbitrary sentences requires two steps, i.e. sentence encoding and semantic similarity measure. The most important step is to encode a set of sentences into a set of equal-length vectors for similarity measure in forms of classification. Two practical encoding schemes had been proposed, statistical-based direct encoding and pretrained encoding. The first approach lacks considering word correlation and the dimension of encoded vector is very large. For the second approach, it requires an extra training time prior to the classification process. This study compromises the previous approaches by considering shallow neural networks for encoding sentences and classifying entailment relations between two sentences. A set of y-x-y encoder models is proposed where y can be greater or less than x depending on given dataset. Neither encoder models nor their corresponding classifiers are built upon big and complex structure, and hence is suitable for carrying out such task. The encoding scheme is tested with SICK 2014 dataset [1], specially designed for neutral, entailment, and contradiction sentence pairs. Comparison results (neutral 97.1%, entailment 91.1%, contradiction 94.6%) support the possibility of the proposed scheme to sentence similarity measure.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "postal-code": "10330",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": {"$": "Chulalongkorn University"},
+                        "@affiliation-instance-id": "OB2BibRecID-947359962-17ca30255c2c6b89c534ce0bcfcf8c1b-1",
+                        "ce:source-text": "Chulalongkorn University, Bangkok, 10330, Thailand"
+                    },
+                    "person": {
+                        "ce:given-name": "Chidchanok",
+                        "@author-instance-id": "OB2BibRecID-947359962-c46399aa341747638593f5fa8651d66d-1",
+                        "ce:initials": "C.",
+                        "ce:surname": "Lursinsap",
+                        "ce:indexed-name": "Lursinsap C."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Classifier",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Encoder",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "SemEval",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Sentence similarity",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ch"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "Lecture. Notes. Data Eng. Commun. Tech.",
+                    "website": {"ce:e-address": {
+                        "$": "https://www.springer.com/series/15362",
+                        "@type": "email"
+                    }},
+                    "@country": "che",
+                    "translated-sourcetitle": {"@xml:lang": "eng"},
+                    "issn": [
+                        {
+                            "$": "23674520",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "23674512",
+                            "@type": "print"
+                        }
+                    ],
+                    "volisspag": {
+                        "voliss": {"@volume": "165"},
+                        "pagerange": {
+                            "@first": "522",
+                            "@last": "534"
+                        }
+                    },
+                    "@type": "k",
+                    "publicationyear": {"@first": "2023"},
+                    "publisher": {"publishername": "Springer Science and Business Media Deutschland GmbH"},
+                    "sourcetitle": "Lecture Notes on Data Engineering and Communications Technologies",
+                    "@srcid": "21100975545",
+                    "publicationdate": {
+                        "year": "2023",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2023"
+                        }
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "716.1",
+                                "classification-description": "Information Theory and Signal Processing"
+                            },
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing and Image Processing"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1710"},
+                            {"$": "2214"},
+                            {"$": "1706"},
+                            {"$": "1705"},
+                            {"$": "2208"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2023 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "12",
+                    "@timestamp": "BST 07:19:33",
+                    "@year": "2023",
+                    "@month": "04"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "640973093",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "947359962",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20231513870950",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20230958324",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20231307281",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85152056801",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85152056801",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1007/978-981-99-0741-0_37"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "15",
+                "reference": [
+                    {
+                        "ref-fulltext": "Marco, M., et al.: SemEval-2014 task 1: evaluation of compositional distributional semantic models on full sentences through semantic relatedness and textual entailment. In: Proceedings of the SemEval (2014)",
+                        "@reference-instance-id": "OB2BibRecID-947359962-19f493290ca8cb5789d6fde4bb8b0104-1",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "SemEval-2014 task 1: Evaluation of compositional distributional semantic models on full sentences through semantic relatedness and textual entailment"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84938066764",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marco",
+                                    "ce:indexed-name": "Marco M."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proceedings of the Semeval"
+                        },
+                        "ce:source-text": "Marco, M., et al.: SemEval-2014 task 1: evaluation of compositional distributional semantic models on full sentences through semantic relatedness and textual entailment. In: Proceedings of the SemEval (2014)"
+                    },
+                    {
+                        "ref-fulltext": "Pennington, J., Socher, R., Manning, C.D.: GloVe: global vectors for word representation. In: Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP) (2014)",
+                        "@reference-instance-id": "OB2BibRecID-947359962-0edd70f0ff54e9498372dddb412c6365-2",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "GloVe: Global vectors for word representation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84961289992",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pennington",
+                                    "ce:indexed-name": "Pennington J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Socher",
+                                    "ce:indexed-name": "Socher R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Manning",
+                                    "ce:indexed-name": "Manning C.D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+                        },
+                        "ce:source-text": "Pennington, J., Socher, R., Manning, C.D.: GloVe: global vectors for word representation. In: Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP) (2014)"
+                    },
+                    {
+                        "ref-fulltext": "Hochreiter, S., Schmidhuber, J.: Long short-term memory. Neural Comput. 9(8), 1735\u20131780 (1997)",
+                        "@reference-instance-id": "OB2BibRecID-947359962-567c1d34cca9f92c18fd7f762398de68-3",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Long short-term memory"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0031573117",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "9",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "1735",
+                                    "@last": "1780"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hochreiter",
+                                    "ce:indexed-name": "Hochreiter S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schmidhuber",
+                                    "ce:indexed-name": "Schmidhuber J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neural Comput"
+                        },
+                        "ce:source-text": "Hochreiter, S., Schmidhuber, J.: Long short-term memory. Neural Comput. 9(8), 1735\u20131780 (1997)"
+                    },
+                    {
+                        "ref-fulltext": "Devlin, J., et al.: BERT: pre-training of deep bidirectional transformers for language understanding. Association for Computational Linguistics, Minneapolis, Minnesota (2019)",
+                        "@reference-instance-id": "OB2BibRecID-947359962-e0ed57be342cfdd4c3d2f7e13b37b83c-4",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85057019815",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Minneapolis, Minnesota",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Devlin",
+                                    "ce:indexed-name": "Devlin J."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "BERT: Pre-Training of Deep Bidirectional Transformers for Language Understanding. Association for Computational Linguistics"
+                        },
+                        "ce:source-text": "Devlin, J., et al.: BERT: pre-training of deep bidirectional transformers for language understanding. Association for Computational Linguistics, Minneapolis, Minnesota (2019)"
+                    },
+                    {
+                        "ref-fulltext": "Vaswani, A., et al.: Attention is all you need. Adv. Neural Inf. Process. Syst. 30 (2017)",
+                        "@reference-instance-id": "OB2BibRecID-947359962-8aeeb69c06f58c162dd5c6d5b9409be5-5",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Attention is all you need"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85043317328",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "30"}},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vaswani",
+                                    "ce:indexed-name": "Vaswani A."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Adv. Neural Inf. Process. Syst."
+                        },
+                        "ce:source-text": "Vaswani, A., et al.: Attention is all you need. Adv. Neural Inf. Process. Syst. 30 (2017)"
+                    },
+                    {
+                        "ref-fulltext": "Jiao, X., et al.: TinyBERT: distilling BERT for natural language understanding. arXiv preprint arXiv:1909.10351 (2019)",
+                        "@reference-instance-id": "OB2BibRecID-947359962-bdb0c4aecba72fb3164609114870ef90-6",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1909.10351",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85104100629",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "1909"},
+                                "pagerange": {"@first": "10351"}
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiao",
+                                    "ce:indexed-name": "Jiao X."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Tinybert: Distilling BERT for Natural Language Understanding. Arxiv Preprint Arxiv"
+                        },
+                        "ce:source-text": "Jiao, X., et al.: TinyBERT: distilling BERT for natural language understanding. arXiv preprint arXiv:1909.10351 (2019)"
+                    },
+                    {
+                        "ref-fulltext": "Sanh, V., et al.: DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter. arXiv preprint arXiv:1910.01108 (2019)",
+                        "@reference-instance-id": "OB2BibRecID-947359962-9699ce176ea3194b345db3a36677221e-7",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1910.01108",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85088599968",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "1910"},
+                                "pagerange": {"@first": "01108"}
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sanh",
+                                    "ce:indexed-name": "Sanh V."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Distilbert, a Distilled Version of BERT: Smaller, Faster, Cheaper and Lighter. Arxiv Preprint Arxiv"
+                        },
+                        "ce:source-text": "Sanh, V., et al.: DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter. arXiv preprint arXiv:1910.01108 (2019)"
+                    },
+                    {
+                        "ref-fulltext": "Li, B., et al.: On the sentence embeddings from pre-trained language models. arXiv preprint arXiv:2011.05864 (2020)",
+                        "@reference-instance-id": "OB2BibRecID-947359962-1387f529fe49f0dc58a44b45b51ecd92-8",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "2011.05864",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85102128920",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2011"},
+                                "pagerange": {"@first": "05864"}
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li B."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "On the Sentence Embeddings from Pre-Trained Language Models. Arxiv Preprint Arxiv"
+                        },
+                        "ce:source-text": "Li, B., et al.: On the sentence embeddings from pre-trained language models. arXiv preprint arXiv:2011.05864 (2020)"
+                    },
+                    {
+                        "ref-fulltext": "Mikolov, T., et al.: Efficient estimation of word representations in vector space. arXiv preprint arXiv:1301.3781 (2013)",
+                        "@reference-instance-id": "OB2BibRecID-947359962-a8835f4c644b53f2ea6643ce455ff251-9",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1301.3781",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84903761492",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "1301"},
+                                "pagerange": {"@first": "3781"}
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mikolov",
+                                    "ce:indexed-name": "Mikolov T."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Efficient Estimation of Word Representations in Vector Space. Arxiv Preprint Arxiv"
+                        },
+                        "ce:source-text": "Mikolov, T., et al.: Efficient estimation of word representations in vector space. arXiv preprint arXiv:1301.3781 (2013)"
+                    },
+                    {
+                        "ref-fulltext": "Peters, M.E., et al.: Deep contextualized word representations. Association for Computational Linguistics, New Orleans, Louisiana (2018)",
+                        "@reference-instance-id": "OB2BibRecID-947359962-3b03284f16ec80e07160d3ffe4e94152-10",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85048729069",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "New Orleans, Louisiana",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "M.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peters",
+                                    "ce:indexed-name": "Peters M.E."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Deep Contextualized Word Representations. Association for Computational Linguistics"
+                        },
+                        "ce:source-text": "Peters, M.E., et al.: Deep contextualized word representations. Association for Computational Linguistics, New Orleans, Louisiana (2018)"
+                    },
+                    {
+                        "ref-fulltext": "Mikolov, T., et al.: Advances in pre-training distributed word representations. arXiv preprint arXiv:1712.09405 (2017)",
+                        "@reference-instance-id": "OB2BibRecID-947359962-42b1c59bdcb74045a696a39ed5d309e6-11",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1712.09405",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85049018325",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "1712"},
+                                "pagerange": {"@first": "09405"}
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mikolov",
+                                    "ce:indexed-name": "Mikolov T."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Advances in Pre-Training Distributed Word Representations. Arxiv Preprint Arxiv"
+                        },
+                        "ce:source-text": "Mikolov, T., et al.: Advances in pre-training distributed word representations. arXiv preprint arXiv:1712.09405 (2017)"
+                    },
+                    {
+                        "ref-fulltext": "Bowman, S.R., et al.: A large annotated corpus for learning natural language inference. Association for Computational Linguistics, Portugal (2015)",
+                        "@reference-instance-id": "OB2BibRecID-947359962-d7e8002a0c7fe523967bd597999834ce-12",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84994092258",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Association for Computational Linguistics, Portugal",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "S.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bowman",
+                                    "ce:indexed-name": "Bowman S.R."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "A Large Annotated Corpus for Learning Natural Language Inference"
+                        },
+                        "ce:source-text": "Bowman, S.R., et al.: A large annotated corpus for learning natural language inference. Association for Computational Linguistics, Portugal (2015)"
+                    },
+                    {
+                        "ref-fulltext": "Harris, Z.S.: Distributional structure. Word 10(2\u20133), 146\u2013162 (1954)",
+                        "@reference-instance-id": "OB2BibRecID-947359962-74d48d4735dc01c0348d19d3d4f99c5e-13",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1954"},
+                            "ref-title": {"ref-titletext": "Distributional structure"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0000679216",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "10",
+                                    "@issue": "2-3"
+                                },
+                                "pagerange": {
+                                    "@first": "146",
+                                    "@last": "162"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "Z.S.",
+                                "@_fa": "true",
+                                "ce:surname": "Harris",
+                                "ce:indexed-name": "Harris Z.S."
+                            }]},
+                            "ref-sourcetitle": "Word"
+                        },
+                        "ce:source-text": "Harris, Z.S.: Distributional structure. Word 10(2\u20133), 146\u2013162 (1954)"
+                    },
+                    {
+                        "ref-fulltext": "Chen, Z., Gao, Q., Moss, L.S.: NeuralLog: natural language inference with joint neural and logical reasoning. Association for Computational Linguistics (2021)",
+                        "@reference-instance-id": "OB2BibRecID-947359962-7658c29c713763c35bbba721a8a7daa5-14",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "NeuralLog: Natural language inference with joint neural and logical reasoning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85151981573",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gao",
+                                    "ce:indexed-name": "Gao Q."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Moss",
+                                    "ce:indexed-name": "Moss L.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Association for Computational Linguistics"
+                        },
+                        "ce:source-text": "Chen, Z., Gao, Q., Moss, L.S.: NeuralLog: natural language inference with joint neural and logical reasoning. Association for Computational Linguistics (2021)"
+                    },
+                    {
+                        "ref-fulltext": "Lai, A., Hockenmaier, J.: Illinois-LH: a denotational and distributional approach to semantics. Association for Computational Linguistics, Dublin, Ireland (2014)",
+                        "@reference-instance-id": "OB2BibRecID-947359962-fd93293b8a77b6d5ec5d555127e80947-15",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Illinois-LH: A denotational and distributional approach to semantics"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85151998641",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lai",
+                                    "ce:indexed-name": "Lai A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hockenmaier",
+                                    "ce:indexed-name": "Hockenmaier J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Association for Computational Linguistics, Dublin, Ireland"
+                        },
+                        "ce:source-text": "Lai, A., Hockenmaier, J.: Illinois-LH: a denotational and distributional approach to semantics. Association for Computational Linguistics, Dublin, Ireland (2014)"
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Bangkok",
+        "@id": "60028190",
+        "affilname": "Chulalongkorn University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+        "affiliation-country": "Thailand"
+    },
+    "coredata": {
+        "srctype": "k",
+        "eid": "2-s2.0-85152056801",
+        "dc:description": "Determining the semantic similarity of any two arbitrary sentences requires two steps, i.e. sentence encoding and semantic similarity measure. The most important step is to encode a set of sentences into a set of equal-length vectors for similarity measure in forms of classification. Two practical encoding schemes had been proposed, statistical-based direct encoding and pretrained encoding. The first approach lacks considering word correlation and the dimension of encoded vector is very large. For the second approach, it requires an extra training time prior to the classification process. This study compromises the previous approaches by considering shallow neural networks for encoding sentences and classifying entailment relations between two sentences. A set of y-x-y encoder models is proposed where y can be greater or less than x depending on given dataset. Neither encoder models nor their corresponding classifiers are built upon big and complex structure, and hence is suitable for carrying out such task. The encoding scheme is tested with SICK 2014 dataset [1], specially designed for neutral, entailment, and contradiction sentence pairs. Comparison results (neutral 97.1%, entailment 91.1%, contradiction 94.6%) support the possibility of the proposed scheme to sentence similarity measure.",
+        "prism:coverDate": "2023-01-01",
+        "prism:aggregationType": "Book Series",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85152056801",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Thanaporn",
+            "preferred-name": {
+                "ce:given-name": "Thanaporn",
+                "ce:initials": "T.",
+                "ce:surname": "Jinnovart",
+                "ce:indexed-name": "Jinnovart T."
+            },
+            "@seq": "1",
+            "ce:initials": "T.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Jinnovart",
+            "@auid": "57221704355",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57221704355",
+            "ce:indexed-name": "Jinnovart T."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85152056801"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85152056801&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85152056801&origin=inward"
+            }
+        ],
+        "source-id": "21100975545",
+        "citedby-count": "0",
+        "prism:volume": "165",
+        "subtype": "ch",
+        "dc:title": "Y-X-Y Encoding for Identifying Types of Sentence Similarity",
+        "openaccess": "0",
+        "prism:issn": "23674520 23674512",
+        "publishercopyright": "© 2023, The Author(s), under exclusive license to Springer Nature Singapore Pte Ltd.",
+        "subtypeDescription": "Book Chapter",
+        "prism:publicationName": "Lecture Notes on Data Engineering and Communications Technologies",
+        "prism:pageRange": "522-534",
+        "prism:endingPage": "534",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1007/978-981-99-0741-0_37",
+        "prism:startingPage": "522",
+        "dc:identifier": "SCOPUS_ID:85152056801",
+        "dc:publisher": "Springer Science and Business Media Deutschland GmbH"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Direct encoding",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Encoder",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Encoding schemes",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Encodings",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Semantic similarity",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Semantic similarity measures",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Semeval",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Sentence similarity",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Similarity measure",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Training time",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Classifier"
+        },
+        {
+            "@_fa": "true",
+            "$": "Encoder"
+        },
+        {
+            "@_fa": "true",
+            "$": "SemEval"
+        },
+        {
+            "@_fa": "true",
+            "$": "Sentence similarity"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Information Systems",
+            "@code": "1710",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Media Technology",
+            "@code": "2214",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Networks and Communications",
+            "@code": "1705",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Thanaporn",
+            "preferred-name": {
+                "ce:given-name": "Thanaporn",
+                "ce:initials": "T.",
+                "ce:surname": "Jinnovart",
+                "ce:indexed-name": "Jinnovart T."
+            },
+            "@seq": "1",
+            "ce:initials": "T.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Jinnovart",
+            "@auid": "57221704355",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57221704355",
+            "ce:indexed-name": "Jinnovart T."
+        },
+        {
+            "ce:given-name": "Chidchanok",
+            "preferred-name": {
+                "ce:given-name": "Chidchanok",
+                "ce:initials": "C.",
+                "ce:surname": "Lursinsap",
+                "ce:indexed-name": "Lursinsap C."
+            },
+            "@seq": "2",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Lursinsap",
+            "@auid": "55396044200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55396044200",
+            "ce:indexed-name": "Lursinsap C."
+        }
+    ]}
+}}

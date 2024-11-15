@@ -1,0 +1,1766 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "new",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "01",
+                "@timestamp": "2021-08-01T23:25:48.000048-04:00",
+                "@year": "2021",
+                "@month": "08"
+            },
+            "ait:date-sort": {
+                "@day": "12",
+                "@year": "2021",
+                "@month": "07"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {"xocs:funding-agency-matched-string": "Department of Ophthalmology, Faculty of Medicine Siriraj Hospital?"},
+                {"xocs:funding-agency-matched-string": "Ratchadaphiseksomphot Endowment Fund"},
+                {
+                    "xocs:funding-agency-matched-string": "Chulalongkorn University",
+                    "xocs:funding-agency-acronym": "CU",
+                    "xocs:funding-agency": "Chulalongkorn University",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002873",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-07-29T07:06:24.575Z",
+            "xocs:funding-text": [
+                {"$": "This research has been financially supported by \u201cThe 100th Anniversary Chulalongkorn University Fund for Doctoral Scholarship\u201d and \u201cThe 90th Anniversary Chulalongkorn University Fund (Ratchadaphiseksomphot Endowment Fund)\u201d. However, we would like to thank the blind and visually impaired volunteers from the \u201cDepartment of Ophthalmology, Faculty of Medicine Siriraj Hospital\u201d for their useful information and collaboration."},
+                {"$": "This research has been financially supported by ?The 100th Anniversary Chulalongkorn University Fund for Doctoral Scholarship? and ?The 90th Anniversary Chulalongkorn University Fund (Ratchadaphiseksomphot Endowment Fund)?. However, we would like to thank the blind and visually impaired volunteers from the ?Department of Ophthalmology, Faculty of Medicine Siriraj Hospital? for their useful information and collaboration."}
+            ],
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "postal-code": "10330",
+                        "@afid": "60028190",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Department of Computer Engineering"},
+                            {"$": "Faculty of Engineering"},
+                            {"$": "Chulalongkorn University"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60028190",
+                            "@dptid": "113891981"
+                        },
+                        "@affiliation-instance-id": "2007880037-579236d6e683630e7d6087d035252542",
+                        "ce:source-text": "Department of Computer Engineering, Faculty of Engineering, Chulalongkorn University, Bangkok, 10330, Thailand",
+                        "@dptid": "113891981"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Surapol",
+                            "preferred-name": {
+                                "ce:given-name": "Surapol",
+                                "ce:initials": "S.",
+                                "ce:surname": "Vorapatratorn",
+                                "ce:indexed-name": "Vorapatratorn S."
+                            },
+                            "@author-instance-id": "2007880037-821cf2040fa15db40c0630eab22f3e38",
+                            "@seq": "1",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Vorapatratorn",
+                            "@auid": "55360907300",
+                            "ce:indexed-name": "Vorapatratorn S."
+                        },
+                        {
+                            "ce:given-name": "Atiwong",
+                            "preferred-name": {
+                                "ce:given-name": "Atiwong",
+                                "ce:initials": "A.",
+                                "ce:surname": "Suchato",
+                                "ce:indexed-name": "Suchato A."
+                            },
+                            "@author-instance-id": "2007880037-bca5bd4440cede98c880f98d6a3fa200",
+                            "@seq": "2",
+                            "ce:initials": "A.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Suchato",
+                            "@auid": "12785303000",
+                            "ce:indexed-name": "Suchato A."
+                        },
+                        {
+                            "ce:given-name": "Proadpran",
+                            "preferred-name": {
+                                "ce:given-name": "Proadpran",
+                                "ce:initials": "P.",
+                                "ce:surname": "Punyabukkana",
+                                "ce:indexed-name": "Punyabukkana P."
+                            },
+                            "@author-instance-id": "2007880037-69d2a1611c23fcb6e70b1439d7bda325",
+                            "@seq": "3",
+                            "ce:initials": "P.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Punyabukkana",
+                            "@auid": "14018257100",
+                            "ce:indexed-name": "Punyabukkana P."
+                        }
+                    ]
+                },
+                "citation-title": "Fast obstacle detection system for the blind using depth image and machine learning",
+                "abstracts": "© 2021, Paulus Editora. All rights reserved.Our research proposes a novel obstacle detection and navigation system for the blind using stereo cameras with machine learning techniques. The obstacle classification result will navigate users through a difference directional sound patterns via bone conductive stereo headphones. In the first stage, the Semi-Global block-matching technique was used to transform stereo images to depth image which can be used to identify the depth level of each image pixel. Next, fast 2D-based ground plane estimation which was separate obstacle image from the depth image with our Horizontal Depth Accumulative Information (H-DAI). The obstacle image will be then converted to our Vertical Depth Accumulative Information (V-DAI) which was extracted by a feature vector to train the obstacle model. Our dataset consists of 34,325 stereo-gray images in 7 different obstacle class. Our experiment compared various machine learning algorithms (ANN, SVM, Naïve Bayes, Decision Tree, k-NN and Deep Learning) performance between classification accuracy and prediction speed. The results show that using ANN with our H-DAI and V-DAI reaches 96.45% in obstacle classification accuracy and 23.76 images per second for processing time which is 6.75 times faster than the recently ground plane estimate technique.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "postal-code": "10330",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Department of Computer Engineering"},
+                            {"$": "Faculty of Engineering"},
+                            {"$": "Chulalongkorn University"}
+                        ],
+                        "ce:source-text": "Department of Computer Engineering, Faculty of Engineering, Chulalongkorn University, Bangkok, 10330, Thailand"
+                    },
+                    "person": {
+                        "ce:given-name": "Proadpran",
+                        "ce:initials": "P.",
+                        "ce:surname": "Punyabukkana",
+                        "ce:indexed-name": "Punyabukkana P."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Assistive technology",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Computer vision",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Machine learning",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Scene understanding",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Visually impaired",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "Eng. Appl. Sci. Res.",
+                    "website": {"ce:e-address": {
+                        "$": "https://ph01.tci-thaijo.org/index.php/easr/article/download/242952/166487",
+                        "@type": "email"
+                    }},
+                    "@country": "tha",
+                    "translated-sourcetitle": {"@xml:lang": "eng"},
+                    "issn": [
+                        {
+                            "$": "25396218",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "25396161",
+                            "@type": "print"
+                        }
+                    ],
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "48",
+                            "@issue": "5"
+                        },
+                        "pagerange": {
+                            "@first": "593",
+                            "@last": "603"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2021"},
+                    "publisher": {"publishername": "Paulus Editora"},
+                    "sourcetitle": "Engineering and Applied Science Research",
+                    "@srcid": "21100868216",
+                    "publicationdate": {
+                        "month": "07",
+                        "year": "2021",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "12 July 2021"
+                        },
+                        "day": "12"
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2200"},
+                            {"$": "1706"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "ENGI"},
+                            {"$": "COMP"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This research has been financially supported by \u201cThe 100th Anniversary Chulalongkorn University Fund for Doctoral Scholarship\u201d and \u201cThe 90th Anniversary Chulalongkorn University Fund (Ratchadaphiseksomphot Endowment Fund)\u201d. However, we would like to thank the blind and visually impaired volunteers from the \u201cDepartment of Ophthalmology, Faculty of Medicine Siriraj Hospital\u201d for their useful information and collaboration.",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": {
+                        "grant-acronym": "CU",
+                        "grant-agency": {
+                            "@iso-code": "tha",
+                            "$": "Chulalongkorn University"
+                        },
+                        "grant-agency-id": "501100002873"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2021 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "28",
+                    "@timestamp": "BST 14:36:16",
+                    "@year": "2021",
+                    "@month": "07"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2007880037",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "934572705",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20212867232",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20212511328",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "20219005190537",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85111133600",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85111133600",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.14456/easr.2021.61"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "33",
+                "reference": [
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "WHO. Draft action plan for the prevention of avoidable blindness and visual impairment 2014-2019: universal eye health: a global action plan 2014-2019. Geneva: World Health Organization; 2013.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85111090753",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "WHO. Geneva: World Health Organization",
+                            "ref-sourcetitle": "Draft action plan for the prevention of avoidable blindness and visual impairment 2014-2019: universal eye health: a global action plan 2014-2019"
+                        },
+                        "ce:source-text": "WHO. Draft action plan for the prevention of avoidable blindness and visual impairment 2014-2019: universal eye health: a global action plan 2014-2019. Geneva: World Health Organization; 2013."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Clark-Carter DD, Heyes AD, Howarth CI. The efficiency and walking speed of visually impaired people. Ergon. 1986;29(6): 779-89.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1986"},
+                            "ref-title": {"ref-titletext": "The efficiency and walking speed of visually impaired people"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0022738721",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "29",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "779",
+                                    "@last": "789"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "DD",
+                                    "@_fa": "true",
+                                    "ce:surname": "Clark-Carter",
+                                    "ce:indexed-name": "Clark-Carter DD"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "AD",
+                                    "@_fa": "true",
+                                    "ce:surname": "Heyes",
+                                    "ce:indexed-name": "Heyes AD"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "CI.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Howarth",
+                                    "ce:indexed-name": "Howarth CI."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Ergon"
+                        },
+                        "ce:source-text": "Clark-Carter DD, Heyes AD, Howarth CI. The efficiency and walking speed of visually impaired people. Ergon. 1986;29(6): 779-89."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Loomis JM, Golledge RG, Klatzky RL. GPS-Based navigation systems for the visually impaired. In: Barfield W, Caudell T, editors. Fundamentals of wearable computers and augmented reality. New Jersey: Lawrence Erlbaum Associates; 2001. p. 429-46.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "GPS-Based navigation systems for the visually impaired"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0002937702",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "429",
+                                "@last": "446"
+                            }},
+                            "ref-text": "Barfield W, Caudell T, editors. New Jersey: Lawrence Erlbaum Associates",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "JM",
+                                    "@_fa": "true",
+                                    "ce:surname": "Loomis",
+                                    "ce:indexed-name": "Loomis JM"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "RG",
+                                    "@_fa": "true",
+                                    "ce:surname": "Golledge",
+                                    "ce:indexed-name": "Golledge RG"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "RL.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Klatzky",
+                                    "ce:indexed-name": "Klatzky RL."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Fundamentals of wearable computers and augmented reality"
+                        },
+                        "ce:source-text": "Loomis JM, Golledge RG, Klatzky RL. GPS-Based navigation systems for the visually impaired. In: Barfield W, Caudell T, editors. Fundamentals of wearable computers and augmented reality. New Jersey: Lawrence Erlbaum Associates; 2001. p. 429-46."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Ritz M, Konig L. Laser technique improves safety for the blind. MST NEWS. 2005;5:39.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Laser technique improves safety for the blind"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79951888804",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "5"},
+                                "pagerange": {"@first": "39"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ritz",
+                                    "ce:indexed-name": "Ritz M"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Konig",
+                                    "ce:indexed-name": "Konig L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "MST NEWS"
+                        },
+                        "ce:source-text": "Ritz M, Konig L. Laser technique improves safety for the blind. MST NEWS. 2005;5:39."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Inc NRI. The laser cane, model N-2000 [Internet]. 2020 [cited 2020 Sep 20]. Available from: http://www.nurion.net.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://www.nurion.net",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85111082372",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "[Internet]. [cited 2020 Sep 20]",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "NRI.",
+                                "@_fa": "true",
+                                "ce:surname": "Inc",
+                                "ce:indexed-name": "Inc NRI."
+                            }]},
+                            "ref-sourcetitle": "The laser cane, model N-2000"
+                        },
+                        "ce:source-text": "Inc NRI. The laser cane, model N-2000 [Internet]. 2020 [cited 2020 Sep 20]. Available from: http://www.nurion.net."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Ulrich I, Borenstein J. The guide cane-applying mobile robot technologies to assist the visually impaired. IEEE Trans Syst Man Cybern Syst Hum. 2001;31(2):131-6.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "The guide cane-applying mobile robot technologies to assist the visually impaired"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0035277346",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "31",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "131",
+                                    "@last": "136"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "I",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ulrich",
+                                    "ce:indexed-name": "Ulrich I"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Borenstein",
+                                    "ce:indexed-name": "Borenstein J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Syst Man Cybern Syst Hum"
+                        },
+                        "ce:source-text": "Ulrich I, Borenstein J. The guide cane-applying mobile robot technologies to assist the visually impaired. IEEE Trans Syst Man Cybern Syst Hum. 2001;31(2):131-6."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Research G. The miniguide mobility aid [Internet]. 2020 [cited 2020 Sep 20]. Available from: http://www.gdp-research.com.au/minig_1.htm.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://www.gdp-research.com.au/minig_1.htm",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85111170348",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "[Internet]. [cited 2020 Sep 20]",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "G.",
+                                "@_fa": "true",
+                                "ce:surname": "Research",
+                                "ce:indexed-name": "Research G."
+                            }]},
+                            "ref-sourcetitle": "The miniguide mobility aid"
+                        },
+                        "ce:source-text": "Research G. The miniguide mobility aid [Internet]. 2020 [cited 2020 Sep 20]. Available from: http://www.gdp-research.com.au/minig_1.htm."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Ito K, Okamoto M, Akita J, Ono T, Gyobu I, Takagi T, et al. CyARM: an alternative aid device for blind persons. Extended abstracts proceedings of the 2005 conference on human factors in computing systems; 2005 Apr 2-7; Portland, USA. New York: Association for Computing Machinery; 2005. p. 1483-8.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "CyARM: an alternative aid device for blind persons"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84869113494",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1483",
+                                "@last": "1488"
+                            }},
+                            "ref-text": "Apr 2-7; Portland, USA. New York: Association for Computing Machinery; 2005",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "K",
+                                        "@_fa": "true",
+                                        "ce:surname": "Ito",
+                                        "ce:indexed-name": "Ito K"
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "M",
+                                        "@_fa": "true",
+                                        "ce:surname": "Okamoto",
+                                        "ce:indexed-name": "Okamoto M"
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "J",
+                                        "@_fa": "true",
+                                        "ce:surname": "Akita",
+                                        "ce:indexed-name": "Akita J"
+                                    },
+                                    {
+                                        "@seq": "4",
+                                        "ce:initials": "T",
+                                        "@_fa": "true",
+                                        "ce:surname": "Ono",
+                                        "ce:indexed-name": "Ono T"
+                                    },
+                                    {
+                                        "@seq": "5",
+                                        "ce:initials": "I",
+                                        "@_fa": "true",
+                                        "ce:surname": "Gyobu",
+                                        "ce:indexed-name": "Gyobu I"
+                                    },
+                                    {
+                                        "@seq": "6",
+                                        "ce:initials": "T",
+                                        "@_fa": "true",
+                                        "ce:surname": "Takagi",
+                                        "ce:indexed-name": "Takagi T"
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Extended abstracts proceedings of the 2005 conference on human factors in computing systems"
+                        },
+                        "ce:source-text": "Ito K, Okamoto M, Akita J, Ono T, Gyobu I, Takagi T, et al. CyARM: an alternative aid device for blind persons. Extended abstracts proceedings of the 2005 conference on human factors in computing systems; 2005 Apr 2-7; Portland, USA. New York: Association for Computing Machinery; 2005. p. 1483-8."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Vorapatratorn S, Nambunmee K. ISonar: An obstacle warning device for the totally blind. J Assist Rehabil Ther Tech. 2014;2(1):23114.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "ISonar: An obstacle warning device for the totally blind"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84961855801",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "2",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {"@first": "23114"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vorapatratorn",
+                                    "ce:indexed-name": "Vorapatratorn S"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nambunmee",
+                                    "ce:indexed-name": "Nambunmee K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J Assist Rehabil Ther Tech"
+                        },
+                        "ce:source-text": "Vorapatratorn S, Nambunmee K. ISonar: An obstacle warning device for the totally blind. J Assist Rehabil Ther Tech. 2014;2(1):23114."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Damaschini R, Legras R, Leroux R, Farcy R. Electronic travel aid for blind people. In: Pruski A, Knops H, editors. Assistive technology: from virtuality to reality. Amsterdam: IOS Press; 2005. p. 251-5.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Electronic travel aid for blind people"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84877099078",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "251",
+                                "@last": "255"
+                            }},
+                            "ref-text": "Pruski A, Knops H, editors. Amsterdam: IOS Press",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R",
+                                    "@_fa": "true",
+                                    "ce:surname": "Damaschini",
+                                    "ce:indexed-name": "Damaschini R"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R",
+                                    "@_fa": "true",
+                                    "ce:surname": "Legras",
+                                    "ce:indexed-name": "Legras R"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R",
+                                    "@_fa": "true",
+                                    "ce:surname": "Leroux",
+                                    "ce:indexed-name": "Leroux R"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Farcy",
+                                    "ce:indexed-name": "Farcy R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Assistive technology: from virtuality to reality"
+                        },
+                        "ce:source-text": "Damaschini R, Legras R, Leroux R, Farcy R. Electronic travel aid for blind people. In: Pruski A, Knops H, editors. Assistive technology: from virtuality to reality. Amsterdam: IOS Press; 2005. p. 251-5."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Vorapatratorn S, Suchato A, Punyabukkana P. Real-time obstacle detection in outdoor environment for visually impaired using RGB-D and disparity map. Proceedings of the international convention on rehabilitation engineering & assistive technology; 2016. p. 1-4.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Real-time obstacle detection in outdoor environment for visually impaired using RGB-D and disparity map"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85045155110",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "4"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vorapatratorn",
+                                    "ce:indexed-name": "Vorapatratorn S"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A",
+                                    "@_fa": "true",
+                                    "ce:surname": "Suchato",
+                                    "ce:indexed-name": "Suchato A"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Punyabukkana",
+                                    "ce:indexed-name": "Punyabukkana P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the international convention on rehabilitation engineering & assistive technology"
+                        },
+                        "ce:source-text": "Vorapatratorn S, Suchato A, Punyabukkana P. Real-time obstacle detection in outdoor environment for visually impaired using RGB-D and disparity map. Proceedings of the international convention on rehabilitation engineering & assistive technology; 2016. p. 1-4."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Kumar AD, Karthika R, Soman K. Stereo camera and LIDAR sensor fusion-based collision warning system for autonomous vehicles. In: Jain S, Sood M, Paul S, editors. Advances in computational intelligence techniques. Singapore: Springer; 2020. p. 239-52.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Stereo camera and LIDAR sensor fusion-based collision warning system for autonomous vehicles"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85089351210",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "239",
+                                "@last": "252"
+                            }},
+                            "ref-text": "Jain S, Sood M, Paul S, editors. Singapore: Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "AD",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kumar",
+                                    "ce:indexed-name": "Kumar AD"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R",
+                                    "@_fa": "true",
+                                    "ce:surname": "Karthika",
+                                    "ce:indexed-name": "Karthika R"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Soman",
+                                    "ce:indexed-name": "Soman K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Advances in computational intelligence techniques"
+                        },
+                        "ce:source-text": "Kumar AD, Karthika R, Soman K. Stereo camera and LIDAR sensor fusion-based collision warning system for autonomous vehicles. In: Jain S, Sood M, Paul S, editors. Advances in computational intelligence techniques. Singapore: Springer; 2020. p. 239-52."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Gao H, Cheng B, Wang J, Li K, Zhao J, Li D. Object classification using CNN-based fusion of vision and Lidar in autonomous vehicle environment. IEEE Trans Ind Informat. 2018;14(9):4224-31.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Object classification using CNN-based fusion of vision and Lidar in autonomous vehicle environment"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85053297136",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "14",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {
+                                    "@first": "4224",
+                                    "@last": "4231"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gao",
+                                    "ce:indexed-name": "Gao H"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cheng",
+                                    "ce:indexed-name": "Cheng B"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang J"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li K"
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao J"
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Ind Informat"
+                        },
+                        "ce:source-text": "Gao H, Cheng B, Wang J, Li K, Zhao J, Li D. Object classification using CNN-based fusion of vision and Lidar in autonomous vehicle environment. IEEE Trans Ind Informat. 2018;14(9):4224-31."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Catapang AN, Ramos M. Obstacle detection using a 2D LIDAR system for an autonomous vehicle. 2016 6thIEEE International conference on control system, computing and engineering (ICCSCE); 2016 Nov 25-27; Penang, Malaysia. New York: IEEE; 2016. p. 441-5.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Obstacle detection using a 2D LIDAR system for an autonomous vehicle"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85018983595",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "441",
+                                "@last": "445"
+                            }},
+                            "ref-text": "2016 Nov 25-27; Penang, Malaysia. New York: IEEE; 2016",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "AN",
+                                    "@_fa": "true",
+                                    "ce:surname": "Catapang",
+                                    "ce:indexed-name": "Catapang AN"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ramos",
+                                    "ce:indexed-name": "Ramos M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2016 6thIEEE International conference on control system, computing and engineering (ICCSCE)"
+                        },
+                        "ce:source-text": "Catapang AN, Ramos M. Obstacle detection using a 2D LIDAR system for an autonomous vehicle. 2016 6th IEEE International conference on control system, computing and engineering (ICCSCE); 2016 Nov 25-27; Penang, Malaysia. New York: IEEE; 2016. p. 441-5."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Li B, Zhang X, Munoz JP, Xiao J, Rong X, Tian Y. Assisting blind people to avoid obstacles: an wearable obstacle stereo feedback system based on 3D detection. 2015 IEEE International conference on robotics and bio mimetics (ROBIO); 2015 Dec 6-9; Zhuhai, China. New York: IEEE; 2015. p. 2307-11.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Assisting blind people to avoid obstacles: an wearable obstacle stereo feedback system based on 3D detection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84964478063",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2307",
+                                "@last": "2311"
+                            }},
+                            "ref-text": "Dec 6-9; Zhuhai, China. New York: IEEE; 2015",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li B"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang X"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "JP",
+                                    "@_fa": "true",
+                                    "ce:surname": "Munoz",
+                                    "ce:indexed-name": "Munoz JP"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xiao",
+                                    "ce:indexed-name": "Xiao J"
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "X",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rong",
+                                    "ce:indexed-name": "Rong X"
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tian",
+                                    "ce:indexed-name": "Tian Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2015 IEEE International conference on robotics and bio mimetics (ROBIO)"
+                        },
+                        "ce:source-text": "Li B, Zhang X, Munoz JP, Xiao J, Rong X, Tian Y. Assisting blind people to avoid obstacles: an wearable obstacle stereo feedback system based on 3D detection. 2015 IEEE International conference on robotics and bio mimetics (ROBIO); 2015 Dec 6-9; Zhuhai, China. New York: IEEE; 2015. p. 2307-11."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Rodriguez A, Yebes JJ, Alcantarilla PF, Bergasa LM, Almazan J, Cela A. Assisting the visually impaired: obstacle detection and warning system by acoustic feedback. Sensors. 2012;12(12):17476-96.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Assisting the visually impaired: obstacle detection and warning system by acoustic feedback"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84871706398",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "12",
+                                    "@issue": "12"
+                                },
+                                "pagerange": {
+                                    "@first": "17476",
+                                    "@last": "17496"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rodriguez",
+                                    "ce:indexed-name": "Rodriguez A"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "JJ",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yebes",
+                                    "ce:indexed-name": "Yebes JJ"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "PF",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alcantarilla",
+                                    "ce:indexed-name": "Alcantarilla PF"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "LM",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bergasa",
+                                    "ce:indexed-name": "Bergasa LM"
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J",
+                                    "@_fa": "true",
+                                    "ce:surname": "Almazan",
+                                    "ce:indexed-name": "Almazan J"
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cela",
+                                    "ce:indexed-name": "Cela A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sensors"
+                        },
+                        "ce:source-text": "Rodriguez A, Yebes JJ, Alcantarilla PF, Bergasa LM, Almazan J, Cela A. Assisting the visually impaired: obstacle detection and warning system by acoustic feedback. Sensors. 2012;12(12):17476-96."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Correal Tezanos R. Stereo vision-based perception, path planning and navigation strategies for autonomous robotic exploration. Madrid: Universidad Complutense de Madrid; 2015.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85111092305",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Madrid: Universidad Complutense de Madrid",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.",
+                                "@_fa": "true",
+                                "ce:surname": "Correal Tezanos",
+                                "ce:indexed-name": "Correal Tezanos R."
+                            }]},
+                            "ref-sourcetitle": "Stereo vision-based perception, path planning and navigation strategies for autonomous robotic exploration"
+                        },
+                        "ce:source-text": "Correal Tezanos R. Stereo vision-based perception, path planning and navigation strategies for autonomous robotic exploration. Madrid: Universidad Complutense de Madrid; 2015."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Emani S, Soman K, Variyar VS, Adarsh S. Obstacle detection and distance estimation for autonomous electric vehicle using stereo vision and DNN. In: Wang J, Reddy G, Prasad V, Reddy V, editor. Soft computing and signal processing. Singapore: Springer; 2019. p. 639-48.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Obstacle detection and distance estimation for autonomous electric vehicle using stereo vision and DNN"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85062301204",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "639",
+                                "@last": "648"
+                            }},
+                            "ref-text": "Wang J, Reddy G, Prasad Reddy editor. Singapore: Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S",
+                                    "@_fa": "true",
+                                    "ce:surname": "Emani",
+                                    "ce:indexed-name": "Emani S"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K",
+                                    "@_fa": "true",
+                                    "ce:surname": "Soman",
+                                    "ce:indexed-name": "Soman K"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "VS",
+                                    "@_fa": "true",
+                                    "ce:surname": "Variyar",
+                                    "ce:indexed-name": "Variyar VS"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Adarsh",
+                                    "ce:indexed-name": "Adarsh S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Soft computing and signal processing"
+                        },
+                        "ce:source-text": "Emani S, Soman K, Variyar VS, Adarsh S. Obstacle detection and distance estimation for autonomous electric vehicle using stereo vision and DNN. In: Wang J, Reddy G, Prasad V, Reddy V, editor. Soft computing and signal processing. Singapore: Springer; 2019. p. 639-48."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Guindel C, Martin D, Armingol JM. Traffic scene awareness for intelligent vehicles using Conv Nets and stereo vision. Robot Autonom Syst. 2019;112:109-22.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Traffic scene awareness for intelligent vehicles using Conv Nets and stereo vision"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85057227264",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "112"},
+                                "pagerange": {
+                                    "@first": "109",
+                                    "@last": "122"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guindel",
+                                    "ce:indexed-name": "Guindel C"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D",
+                                    "@_fa": "true",
+                                    "ce:surname": "Martin",
+                                    "ce:indexed-name": "Martin D"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "JM.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Armingol",
+                                    "ce:indexed-name": "Armingol JM."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Robot Autonom Syst"
+                        },
+                        "ce:source-text": "Guindel C, Martin D, Armingol JM. Traffic scene awareness for intelligent vehicles using Conv Nets and stereo vision. Robot Autonom Syst. 2019;112:109-22."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Stereolabs. ZED stereo camera [Internet]. 2020 [cited 2020 Sep 20]. Available from: https://www.stereolabs.com/zed/.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.stereolabs.com/zed/",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85000610679",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Stereolabs. [Internet]. [cited 2020 Sep 20]",
+                            "ref-sourcetitle": "ZED stereo camera"
+                        },
+                        "ce:source-text": "Stereolabs. ZED stereo camera [Internet]. 2020 [cited 2020 Sep 20]. Available from: https://www.stereolabs.com/zed/."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Inc A. iOS Device Capture Format Specifications [Internet]. 2020 [cited 2020 Sep 20]. Available from: https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/Cameras/Ca meras.html.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/Cameras/Cameras.html",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85111141522",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "[Internet]. [cited 2020 Sep 20]",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "ce:surname": "Inc",
+                                "ce:indexed-name": "Inc A."
+                            }]},
+                            "ref-sourcetitle": "iOS Device Capture Format Specifications"
+                        },
+                        "ce:source-text": "Inc A. iOS Device Capture Format Specifications [Internet]. 2020 [cited 2020 Sep 20]. Available from: https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/Cameras/Ca meras.html."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "AZOROBOTICS. PCI nDepth™ Vision System from Focus Robotics [Internet]. 2020 [cited 2020 Sep 20]. Available from: https://www.azorobotics.com/equipment-details.aspx?EquipID=467.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.azorobotics.com/equipment-details.aspx?EquipID=467",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85111105712",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "AZOROBOTICS. [Internet]. [cited 2020 Sep 20]",
+                            "ref-sourcetitle": "PCI nDepth™ Vision System from Focus Robotics"
+                        },
+                        "ce:source-text": "AZOROBOTICS. PCI nDepth™ Vision System from Focus Robotics [Internet]. 2020 [cited 2020 Sep 20]. Available from: https://www.azorobotics.com/equipment-details.aspx?EquipID=467."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Ltd VSP. The Bumblebee®2 stereo vision camera [Internet]. 2020 [cited 2020 Sep 20]. Available from: https://www.voltrium.com.sg/en/cameras/machine-vision-cameras/stereo-products/bumblebee2.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.voltrium.com.sg/en/cameras/machine-vision-cameras/stereo-products/bumblebee2",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85111107187",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "[Internet]. [cited 2020 Sep 20]",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "VSP.",
+                                "@_fa": "true",
+                                "ce:surname": "Ltd",
+                                "ce:indexed-name": "Ltd VSP."
+                            }]},
+                            "ref-sourcetitle": "The Bumblebee®2 stereo vision camera"
+                        },
+                        "ce:source-text": "Ltd VSP. The Bumblebee®2 stereo vision camera [Internet]. 2020 [cited 2020 Sep 20]. Available from: https://www.voltrium.com.sg/en/cameras/machine-vision-cameras/stereo-products/bumblebee2."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Design V. MEGA-DCS stereo head [Internet]. 2020 [cited 2020 Sep 20]. Available from: http://users.rcn.com/mclaughl.dnai/sthmdcs.htm.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://users.rcn.com/mclaughl.dnai/sthmdcs.htm",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85111124599",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "[Internet]. [cited 2020 Sep 20]",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "V.",
+                                "@_fa": "true",
+                                "ce:surname": "Design",
+                                "ce:indexed-name": "Design V."
+                            }]},
+                            "ref-sourcetitle": "MEGA-DCS stereo head"
+                        },
+                        "ce:source-text": "Design V. MEGA-DCS stereo head [Internet]. 2020 [cited 2020 Sep 20]. Available from: http://users.rcn.com/mclaughl.dnai/sthmdcs.htm."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Cochran SD, Medioni G. 3-D surface description from binocular stereo. IEEE Trans Pattern Anal Mach Intell. 1992;(10): 981-94.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "ref-title": {"ref-titletext": "3-D surface description from binocular stereo"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0026938442",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@issue": "10"},
+                                "pagerange": {
+                                    "@first": "981",
+                                    "@last": "994"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "SD",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cochran",
+                                    "ce:indexed-name": "Cochran SD"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Medioni",
+                                    "ce:indexed-name": "Medioni G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Pattern Anal Mach Intell"
+                        },
+                        "ce:source-text": "Cochran SD, Medioni G. 3-D surface description from binocular stereo. IEEE Trans Pattern Anal Mach Intell. 1992;(10): 981-94."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "The MathWorks I. Jet colormap array [Internet]. 2020 [cited 2020 Sep 20]. Available from: https://www.mathworks.com/help/matlab/ref/jet.html.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.mathworks.com/help/matlab/ref/jet.html",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85111084609",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "The MathWorks I. [Internet]. [cited 2020 Sep 20]",
+                            "ref-sourcetitle": "Jet colormap array"
+                        },
+                        "ce:source-text": "The MathWorks I. Jet colormap array [Internet]. 2020 [cited 2020 Sep 20]. Available from: https://www.mathworks.com/help/matlab/ref/jet.html."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "The MathWorks I. Classification Learner [Internet]. 2020 [cited 2020 Sep 20]. Available from: https://www.mathworks.com/help/stats/classificationlearner-app.html.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.mathworks.com/help/stats/classificationlearner-app.html",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85087284231",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "The MathWorks I. [Internet]. [cited 2020 Sep 20]",
+                            "ref-sourcetitle": "Classification Learner"
+                        },
+                        "ce:source-text": "The MathWorks I. Classification Learner [Internet]. 2020 [cited 2020 Sep 20]. Available from: https://www.mathworks.com/help/stats/classificationlearner-app.html."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Jain AK, Mao J, Mohiuddin KM. Artificial neural networks: a tutorial. Comput.1996;29(3):31-44.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "Artificial neural networks: a tutorial"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030104449",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "29",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "31",
+                                    "@last": "44"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "AK",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jain",
+                                    "ce:indexed-name": "Jain AK"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mao",
+                                    "ce:indexed-name": "Mao J"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "KM.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mohiuddin",
+                                    "ce:indexed-name": "Mohiuddin KM."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Comput"
+                        },
+                        "ce:source-text": "Jain AK, Mao J, Mohiuddin KM. Artificial neural networks: a tutorial. Comput.1996;29(3):31-44."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Hearst MA, Dumais ST, Osuna E, Platt J, Scholkopf B. Support vector machines. IEEE Intell Syst appl. 1998;13(4):18-28.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Support vector machines"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003074296",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "13",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "18",
+                                    "@last": "28"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "MA",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hearst",
+                                    "ce:indexed-name": "Hearst MA"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "ST",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dumais",
+                                    "ce:indexed-name": "Dumais ST"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E",
+                                    "@_fa": "true",
+                                    "ce:surname": "Osuna",
+                                    "ce:indexed-name": "Osuna E"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J",
+                                    "@_fa": "true",
+                                    "ce:surname": "Platt",
+                                    "ce:indexed-name": "Platt J"
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Scholkopf",
+                                    "ce:indexed-name": "Scholkopf B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Intell Syst appl"
+                        },
+                        "ce:source-text": "Hearst MA, Dumais ST, Osuna E, Platt J, Scholkopf B. Support vector machines. IEEE Intell Syst appl. 1998;13(4):18-28."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Murphy KP. Naive bayes classifiers. Vancouver: University of British Columbia; 2006.",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "70349316229",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Vancouver: University of British Columbia",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "KP.",
+                                "@_fa": "true",
+                                "ce:surname": "Murphy",
+                                "ce:indexed-name": "Murphy KP."
+                            }]},
+                            "ref-sourcetitle": "Naive bayes classifiers"
+                        },
+                        "ce:source-text": "Murphy KP. Naive bayes classifiers. Vancouver: University of British Columbia; 2006."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Safavian SR, Landgrebe D. A survey of decision tree classifier methodology. IEEE Trans Syst Man Cybern. 1991;21(3):660-74.",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1991"},
+                            "ref-title": {"ref-titletext": "A survey of decision tree classifier methodology"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0026154509",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "21",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "660",
+                                    "@last": "674"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "SR",
+                                    "@_fa": "true",
+                                    "ce:surname": "Safavian",
+                                    "ce:indexed-name": "Safavian SR"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Landgrebe",
+                                    "ce:indexed-name": "Landgrebe D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Syst Man Cybern"
+                        },
+                        "ce:source-text": "Safavian SR, Landgrebe D. A survey of decision tree classifier methodology. IEEE Trans Syst Man Cybern. 1991;21(3):660-74."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Keller JM, Gray MR, Givens JA. A fuzzy k-nearest neighbor algorithm. IEEE Trans Syst Man Cybern. 1985;(4):580-5.",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1985"},
+                            "ref-title": {"ref-titletext": "A fuzzy k-nearest neighbor algorithm"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0022219988",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "4"},
+                                "pagerange": {
+                                    "@first": "580",
+                                    "@last": "585"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "JM",
+                                    "@_fa": "true",
+                                    "ce:surname": "Keller",
+                                    "ce:indexed-name": "Keller JM"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "MR",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gray",
+                                    "ce:indexed-name": "Gray MR"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "JA.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Givens",
+                                    "ce:indexed-name": "Givens JA."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Syst Man Cybern"
+                        },
+                        "ce:source-text": "Keller JM, Gray MR, Givens JA. A fuzzy k-nearest neighbor algorithm. IEEE Trans Syst Man Cybern. 1985;(4):580-5."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Krizhevsky A, Sutskever I, Hinton GE. Imagenet classification with deep convolutional neural networks. Adv neural inform process syst. 2017;60(6):84-90.",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Imagenet classification with deep convolutional neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85020126914",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "60",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "84",
+                                    "@last": "90"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krizhevsky",
+                                    "ce:indexed-name": "Krizhevsky A"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "I",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sutskever",
+                                    "ce:indexed-name": "Sutskever I"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "GE.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hinton",
+                                    "ce:indexed-name": "Hinton GE."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Adv neural inform process syst"
+                        },
+                        "ce:source-text": "Krizhevsky A, Sutskever I, Hinton GE. Imagenet classification with deep convolutional neural networks. Adv neural inform process syst. 2017;60(6):84-90."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Bangkok",
+        "@id": "60028190",
+        "affilname": "Chulalongkorn University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+        "affiliation-country": "Thailand"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85111133600",
+        "dc:description": "Our research proposes a novel obstacle detection and navigation system for the blind using stereo cameras with machine learning techniques. The obstacle classification result will navigate users through a difference directional sound patterns via bone conductive stereo headphones. In the first stage, the Semi-Global block-matching technique was used to transform stereo images to depth image which can be used to identify the depth level of each image pixel. Next, fast 2D-based ground plane estimation which was separate obstacle image from the depth image with our Horizontal Depth Accumulative Information (H-DAI). The obstacle image will be then converted to our Vertical Depth Accumulative Information (V-DAI) which was extracted by a feature vector to train the obstacle model. Our dataset consists of 34,325 stereo-gray images in 7 different obstacle class. Our experiment compared various machine learning algorithms (ANN, SVM, Naïve Bayes, Decision Tree, k-NN and Deep Learning) performance between classification accuracy and prediction speed. The results show that using ANN with our H-DAI and V-DAI reaches 96.45% in obstacle classification accuracy and 23.76 images per second for processing time which is 6.75 times faster than the recently ground plane estimate technique.",
+        "prism:coverDate": "2021-07-12",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85111133600",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Surapol",
+            "preferred-name": {
+                "ce:given-name": "Surapol",
+                "ce:initials": "S.",
+                "ce:surname": "Vorapatratorn",
+                "ce:indexed-name": "Vorapatratorn S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Vorapatratorn",
+            "@auid": "55360907300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55360907300",
+            "ce:indexed-name": "Vorapatratorn S."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85111133600"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85111133600&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85111133600&origin=inward"
+            }
+        ],
+        "source-id": "21100868216",
+        "citedby-count": "2",
+        "prism:volume": "48",
+        "subtype": "ar",
+        "dc:title": "Fast obstacle detection system for the blind using depth image and machine learning",
+        "openaccess": null,
+        "prism:issn": "25396218 25396161",
+        "publishercopyright": "© 2021, Paulus Editora. All rights reserved.",
+        "prism:issueIdentifier": "5",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "Engineering and Applied Science Research",
+        "prism:pageRange": "593-603",
+        "prism:endingPage": "603",
+        "openaccessFlag": null,
+        "prism:doi": "10.14456/easr.2021.61",
+        "prism:startingPage": "593",
+        "dc:identifier": "SCOPUS_ID:85111133600",
+        "dc:publisher": "Paulus Editora"
+    },
+    "idxterms": null,
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Assistive technology"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer vision"
+        },
+        {
+            "@_fa": "true",
+            "$": "Machine learning"
+        },
+        {
+            "@_fa": "true",
+            "$": "Scene understanding"
+        },
+        {
+            "@_fa": "true",
+            "$": "Visually impaired"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Engineering (all)",
+            "@code": "2200",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Surapol",
+            "preferred-name": {
+                "ce:given-name": "Surapol",
+                "ce:initials": "S.",
+                "ce:surname": "Vorapatratorn",
+                "ce:indexed-name": "Vorapatratorn S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Vorapatratorn",
+            "@auid": "55360907300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55360907300",
+            "ce:indexed-name": "Vorapatratorn S."
+        },
+        {
+            "ce:given-name": "Atiwong",
+            "preferred-name": {
+                "ce:given-name": "Atiwong",
+                "ce:initials": "A.",
+                "ce:surname": "Suchato",
+                "ce:indexed-name": "Suchato A."
+            },
+            "@seq": "2",
+            "ce:initials": "A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Suchato",
+            "@auid": "12785303000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/12785303000",
+            "ce:indexed-name": "Suchato A."
+        },
+        {
+            "ce:given-name": "Proadpran",
+            "preferred-name": {
+                "ce:given-name": "Proadpran",
+                "ce:initials": "P.",
+                "ce:surname": "Punyabukkana",
+                "ce:indexed-name": "Punyabukkana P."
+            },
+            "@seq": "3",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Punyabukkana",
+            "@auid": "14018257100",
+            "author-url": "https://api.elsevier.com/content/author/author_id/14018257100",
+            "ce:indexed-name": "Punyabukkana P."
+        }
+    ]}
+}}

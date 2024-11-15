@@ -1,0 +1,977 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "20",
+                "@timestamp": "2021-09-20T13:24:39.000039-04:00",
+                "@year": "2021",
+                "@month": "09"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2019",
+                "@month": "08"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding-addon-generated-timestamp": "2021-06-05T04:24:42.185Z",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Japan",
+                            "@afid": "60001409",
+                            "@country": "jpn",
+                            "city": "Atsugi, Kanagawa",
+                            "organization": [
+                                {"$": "Kanagawa Institute of Technology Course of Information and Computer Sciences"},
+                                {"$": "Graduate School of Engineering"}
+                            ],
+                            "affiliation-id": {"@afid": "60001409"}
+                        },
+                        "author": [{
+                            "ce:given-name": "Eriko",
+                            "preferred-name": {
+                                "ce:given-name": "Eriko",
+                                "ce:initials": "E.",
+                                "ce:surname": "Shibamoto",
+                                "ce:indexed-name": "Shibamoto E."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "E.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Shibamoto",
+                            "@auid": "57207960264",
+                            "ce:indexed-name": "Shibamoto E."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Chulalongkorn University"},
+                                {"$": "Department of Image and Printing Technology"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "104425763"
+                            },
+                            "@dptid": "104425763"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Chalisa",
+                                "preferred-name": {
+                                    "ce:given-name": "Chalisa",
+                                    "ce:initials": "C.",
+                                    "ce:surname": "Kittirojrattana",
+                                    "ce:indexed-name": "Kittirojrattana C."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "C.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Kittirojrattana",
+                                "@auid": "57216708761",
+                                "ce:indexed-name": "Kittirojrattana C."
+                            },
+                            {
+                                "ce:given-name": "Chawan",
+                                "preferred-name": {
+                                    "ce:given-name": "Chawan",
+                                    "ce:initials": "C.",
+                                    "ce:surname": "Koopipat",
+                                    "ce:indexed-name": "Koopipat C."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "C.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Koopipat",
+                                "@auid": "6602682876",
+                                "ce:indexed-name": "Koopipat C."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Japan",
+                            "@afid": "60001409",
+                            "@country": "jpn",
+                            "city": "Kanagawa",
+                            "organization": [
+                                {"$": "Kanagawa Institute of Technology"},
+                                {"$": "Department of Information and Computer Sciences"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60001409",
+                                "@dptid": "103113979"
+                            },
+                            "@dptid": "103113979"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Aran",
+                                "preferred-name": {
+                                    "ce:given-name": "Aran",
+                                    "ce:initials": "A.",
+                                    "ce:surname": "Hansuebsai",
+                                    "ce:indexed-name": "Hansuebsai A."
+                                },
+                                "@seq": "4",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Hansuebsai",
+                                "@auid": "6602305795",
+                                "ce:indexed-name": "Hansuebsai A."
+                            },
+                            {
+                                "ce:given-name": "Kosuke",
+                                "preferred-name": {
+                                    "ce:given-name": "Kosuke",
+                                    "ce:initials": "K.",
+                                    "ce:surname": "Takano",
+                                    "ce:indexed-name": "Takano K."
+                                },
+                                "@seq": "5",
+                                "ce:initials": "K.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Takano",
+                                "@auid": "16041043900",
+                                "ce:indexed-name": "Takano K."
+                            }
+                        ]
+                    }
+                ],
+                "citation-title": "A Recommendation System of Sightseeing Places based on User's Behavior of Taking and Editing Photos",
+                "abstracts": "© 2019 IEEE.With the advancement of digital camera functions that are installed in smartphones, the behavior of taking photos and sharing them with others has become a daily experience for many people. Meanwhile, for travelers, it is important to select sightseeing places and plan an appropriate route to them. There are many studies on recommendation systems for sightseeing places and their routes. However, in these conventional studies, there is a problem that the information of a place that is reluctantly visited by a traveler, such as on a business trip, becomes noise and, as a result, it might cause a recommendation system to suggest a sightseeing place that does not match the interests of the traveler. In addition, in general, it is difficult to form a good recommendation unless a large-scale data set of sightseeing places is collected and each location is actively evaluated by many users. In this study, we propose a method for extracting users' preferences based on the behavior of taking and editing photos of sightseeing places. The feature of our method is that it calculates the degrees of interest in photos that are actually taken by a user by counting the numbers of pictures and editing processes such as color adjustments and clipping, which are regarded as a part of the users' behavior of taking and editing photos of sightseeing places. This is done for the purpose of providing recommendations of sightseeing places. By associating the result of the content analysis of the sightseeing place photos with the degrees of a user's interest in the photos, it would be possible to extract the user's preferences from the sightseeing place photos. The feasibility of the proposed method is evaluated by several experiments using a prototype of our system.",
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "photo recognition",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Recommendation",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "sightseeing place",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "user behavior analysis",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "user preference",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8966541",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "2019 IEEE Pacific Rim Conference on Communications, Computers and Signal Processing, PACRIM 2019 - Proceedings",
+                        "@xml:lang": "eng"
+                    },
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781728127941",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "2019 IEEE Pacific Rim Conference on Communications, Computers and Signal Processing, PACRIM 2019",
+                            "confcatnumber": "CFP19PRC-ARC",
+                            "confseriestitle": "IEEE Pacific Rim Conference on Communications, Computers and Signal Processing",
+                            "conflocation": {
+                                "@country": "can",
+                                "city": "Victoria",
+                                "state": "BC"
+                            },
+                            "confcode": "157453",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "23",
+                                    "@year": "2019",
+                                    "@month": "08"
+                                },
+                                "startdate": {
+                                    "@day": "21",
+                                    "@year": "2019",
+                                    "@month": "08"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "2019 IEEE Pacific Rim Conference on Communications, Computers and Signal Processing, PACRIM 2019 - Proceedings",
+                    "publicationdate": {
+                        "month": "08",
+                        "year": "2019",
+                        "date-text": "August 2019",
+                        "day": "01"
+                    },
+                    "sourcetitle-abbrev": "IEEE Pac. Rim Conf. Commun., Comput. Signal Process., PACRIM - Proc.",
+                    "@country": "usa",
+                    "issuetitle": "2019 IEEE Pacific Rim Conference on Communications, Computers and Signal Processing, PACRIM 2019 - Proceedings",
+                    "publicationyear": {"@first": "2019"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "article-number": "8985118",
+                    "@srcid": "21100985342"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1702"},
+                            {"$": "1705"},
+                            {"$": "1711"},
+                            {"$": "1801"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "723.5",
+                                "classification-description": "Computer Applications"
+                            },
+                            {
+                                "classification-code": "971",
+                                "classification-description": "Social Sciences"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "DECI"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2020 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "03",
+                    "@timestamp": "BST 10:58:45",
+                    "@year": "2020",
+                    "@month": "06"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "631704863",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "925633526",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20202008646321",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20201911866",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85084358964",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85084358964",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/PACRIM47961.2019.8985118"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "8",
+                "reference": [
+                    {
+                        "ref-fulltext": "Kosuke Takano, Saengaroon Hussaya, Im-oep Nanyakorn, Eriko Shibamoto, Xing Chen, Photo Sharing Service for Recommending Sightseeing Places, EJC 2017, 2017, pp.409-419",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Photo sharing service for recommending sightseeing places"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85063401743",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2017"},
+                                "pagerange": {
+                                    "@first": "409",
+                                    "@last": "419"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Takano",
+                                    "ce:indexed-name": "Takano K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hussaya",
+                                    "ce:indexed-name": "Hussaya S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nanyakorn",
+                                    "ce:indexed-name": "Nanyakorn I."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shibamoto",
+                                    "ce:indexed-name": "Shibamoto E."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "EJC"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Imran Memon, Ling Chen, Abdul Majid, Mingqi Lv, Ibrar Hussain, Gencai Chen, Travel Recommendation Using Geo-tagged Photos in Social Media for Tourist, Wireless Personal Communications February 2015, Volume 80, Issue 4, 2014, pp 1347-1362.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Travel recommendation using geo-tagged photos in social media for tourist"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84925518211",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "80",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "1347",
+                                    "@last": "1362"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Memon",
+                                    "ce:indexed-name": "Memon I."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Majid",
+                                    "ce:indexed-name": "Majid A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lv",
+                                    "ce:indexed-name": "Lv M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hussain",
+                                    "ce:indexed-name": "Hussain I."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Wireless Personal Communications February 2015"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Zhiyang Jia, Yuting Yang, Wei Gao, Xu Chen, User-Based Collaborative Filtering for Tourist Attraction Recommendations. 2015 IEEE International Conference on Computational Intelligence & Communication Technology, 2015, pp.22-25",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "User-based collaborative filtering for tourist attraction recommendations"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84928162814",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "22",
+                                "@last": "25"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jia",
+                                    "ce:indexed-name": "Jia Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gao",
+                                    "ce:indexed-name": "Gao W."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2015 IEEE International Conference on Computational Intelligence & Communication Technology"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "An-Jung Cheng, Yan-Ying Chen, Yen-Ta Huang, Winston H. Hsu, Hong-Yuan Mark Liao, Personalized travel recommendation by mining people attributes from community-contributed photos. Proceedings of the 19th ACM international conference on Multimedia (MM '11), 2011, pp.83-92",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Personalized travel recommendation by mining people attributes from community-contributed photos. Proceedings of the 19th"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84455192662",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "83",
+                                "@last": "92"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cheng",
+                                    "ce:indexed-name": "Cheng A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hsu",
+                                    "ce:indexed-name": "Hsu W.H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mark Liao",
+                                    "ce:indexed-name": "Mark Liao H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM International Conference on Multimedia (MM '11)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Xin Lu, Changhu Wang, Jiang-Ming Yang, Yanwei Pang, Lei Zhang, Photo2Trip:generating travel routes from geo-tagged photos for trip planning, Proceedings of the 18th ACM international conference on Multimedia (MM '10), 2010, pp.143-152",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Photo2trip:generating travel routes from geo-tagged photos for trip planning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "78650968850",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "143",
+                                "@last": "152"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lu",
+                                    "ce:indexed-name": "Lu X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pang",
+                                    "ce:indexed-name": "Pang Y."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 18th ACM International Conference on Multimedia (MM '10"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Jia-Dong Zhan, Chi-Yin Chowg, Spatiotemporal. Sequential Influence Modeling for Location Recommendations: A Gravity-based Approach, ACM Transactions on Intelligent Systems and Technology (TIST), 2015, Volume 7 Issue 1, Article No. 11.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Sequential influence modeling for location recommendations: A gravity-based approach"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "11",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "84947059695",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "7",
+                                "@issue": "1"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhan",
+                                    "ce:indexed-name": "Zhan J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chowg Spatiotemporal",
+                                    "ce:indexed-name": "Chowg Spatiotemporal C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Transactions on Intelligent Systems and Technology (TIST)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Alex Krizhevsky, Ilya Sutskever, and Geoffrey E. Hinton, ImageNet Classification with Deep Convolutional Neural Networks, Proceedings of the 25th International Conference on Neural Information Processing Systems (NIPS'12), 2012, pp.1097-1105.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Hinton, imagenet classification with deep convolutional neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84876231242",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1097",
+                                "@last": "1105"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krizhevsky",
+                                    "ce:indexed-name": "Krizhevsky A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sutskever",
+                                    "ce:indexed-name": "Sutskever I."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Geoffrey",
+                                    "ce:indexed-name": "Geoffrey E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 25th International Conference on Neural Information Processing Systems (NIPS'12)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Flickr, https://www.flickr.com/",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.flickr.com/",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85084363080",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-sourcetitle": "Flickr"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Atsugi",
+            "@id": "60001409",
+            "affilname": "Kanagawa Institute of Technology",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60001409",
+            "affiliation-country": "Japan"
+        },
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        }
+    ],
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85084358964",
+        "dc:description": "With the advancement of digital camera functions that are installed in smartphones, the behavior of taking photos and sharing them with others has become a daily experience for many people. Meanwhile, for travelers, it is important to select sightseeing places and plan an appropriate route to them. There are many studies on recommendation systems for sightseeing places and their routes. However, in these conventional studies, there is a problem that the information of a place that is reluctantly visited by a traveler, such as on a business trip, becomes noise and, as a result, it might cause a recommendation system to suggest a sightseeing place that does not match the interests of the traveler. In addition, in general, it is difficult to form a good recommendation unless a large-scale data set of sightseeing places is collected and each location is actively evaluated by many users. In this study, we propose a method for extracting users' preferences based on the behavior of taking and editing photos of sightseeing places. The feature of our method is that it calculates the degrees of interest in photos that are actually taken by a user by counting the numbers of pictures and editing processes such as color adjustments and clipping, which are regarded as a part of the users' behavior of taking and editing photos of sightseeing places. This is done for the purpose of providing recommendations of sightseeing places. By associating the result of the content analysis of the sightseeing place photos with the degrees of a user's interest in the photos, it would be possible to extract the user's preferences from the sightseeing place photos. The feasibility of the proposed method is evaluated by several experiments using a prototype of our system.",
+        "prism:coverDate": "2019-08-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85084358964",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Eriko",
+            "preferred-name": {
+                "ce:given-name": "Eriko",
+                "ce:initials": "E.",
+                "ce:surname": "Shibamoto",
+                "ce:indexed-name": "Shibamoto E."
+            },
+            "@seq": "1",
+            "ce:initials": "E.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60001409",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60001409"
+            },
+            "ce:surname": "Shibamoto",
+            "@auid": "57207960264",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57207960264",
+            "ce:indexed-name": "Shibamoto E."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85084358964"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85084358964&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85084358964&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781728127941",
+        "prism:publicationName": "2019 IEEE Pacific Rim Conference on Communications, Computers and Signal Processing, PACRIM 2019 - Proceedings",
+        "source-id": "21100985342",
+        "citedby-count": "1",
+        "subtype": "cp",
+        "dc:title": "A Recommendation System of Sightseeing Places based on User's Behavior of Taking and Editing Photos",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/PACRIM47961.2019.8985118",
+        "publishercopyright": "© 2019 IEEE.",
+        "article-number": "8985118",
+        "dc:identifier": "SCOPUS_ID:85084358964",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Color adjustments",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Content analysis",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Large scale data sets",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "User's interest",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "User's preferences",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "photo recognition"
+        },
+        {
+            "@_fa": "true",
+            "$": "Recommendation"
+        },
+        {
+            "@_fa": "true",
+            "$": "sightseeing place"
+        },
+        {
+            "@_fa": "true",
+            "$": "user behavior analysis"
+        },
+        {
+            "@_fa": "true",
+            "$": "user preference"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Artificial Intelligence",
+            "@code": "1702",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Networks and Communications",
+            "@code": "1705",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Signal Processing",
+            "@code": "1711",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Decision Sciences (miscellaneous)",
+            "@code": "1801",
+            "@abbrev": "DECI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Eriko",
+            "preferred-name": {
+                "ce:given-name": "Eriko",
+                "ce:initials": "E.",
+                "ce:surname": "Shibamoto",
+                "ce:indexed-name": "Shibamoto E."
+            },
+            "@seq": "1",
+            "ce:initials": "E.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60001409",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60001409"
+            },
+            "ce:surname": "Shibamoto",
+            "@auid": "57207960264",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57207960264",
+            "ce:indexed-name": "Shibamoto E."
+        },
+        {
+            "ce:given-name": "Chalisa",
+            "preferred-name": {
+                "ce:given-name": "Chalisa",
+                "ce:initials": "C.",
+                "ce:surname": "Kittirojrattana",
+                "ce:indexed-name": "Kittirojrattana C."
+            },
+            "@seq": "2",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Kittirojrattana",
+            "@auid": "57216708761",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57216708761",
+            "ce:indexed-name": "Kittirojrattana C."
+        },
+        {
+            "ce:given-name": "Chawan",
+            "preferred-name": {
+                "ce:given-name": "Chawan",
+                "ce:initials": "C.",
+                "ce:surname": "Koopipat",
+                "ce:indexed-name": "Koopipat C."
+            },
+            "@seq": "3",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Koopipat",
+            "@auid": "6602682876",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6602682876",
+            "ce:indexed-name": "Koopipat C."
+        },
+        {
+            "ce:given-name": "Aran",
+            "preferred-name": {
+                "ce:given-name": "Aran",
+                "ce:initials": "A.",
+                "ce:surname": "Hansuebsai",
+                "ce:indexed-name": "Hansuebsai A."
+            },
+            "@seq": "4",
+            "ce:initials": "A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60001409",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60001409"
+            },
+            "ce:surname": "Hansuebsai",
+            "@auid": "6602305795",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6602305795",
+            "ce:indexed-name": "Hansuebsai A."
+        },
+        {
+            "ce:given-name": "Kosuke",
+            "preferred-name": {
+                "ce:given-name": "Kosuke",
+                "ce:initials": "K.",
+                "ce:surname": "Takano",
+                "ce:indexed-name": "Takano K."
+            },
+            "@seq": "5",
+            "ce:initials": "K.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60001409",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60001409"
+            },
+            "ce:surname": "Takano",
+            "@auid": "16041043900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/16041043900",
+            "ce:indexed-name": "Takano K."
+        }
+    ]}
+}}

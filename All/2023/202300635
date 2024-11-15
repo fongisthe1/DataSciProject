@@ -1,0 +1,1635 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "23",
+                "@timestamp": "2023-08-23T23:26:04.000004-04:00",
+                "@year": "2023",
+                "@month": "08"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2023",
+                "@month": "07"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": {
+                "xocs:funding-agency-matched-string": "Chulalongkorn University",
+                "xocs:funding-agency-acronym": "CU",
+                "xocs:funding-agency": "Chulalongkorn University",
+                "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002873",
+                "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+            },
+            "xocs:funding-addon-generated-timestamp": "2023-08-14T21:44:57.334Z",
+            "xocs:funding-text": "The researchers would like to express their gratitude to the Ratchadapisek Somphot Fund, Chulalongkorn University, for providing the New Lecturer Development Grant and support in the construction of the corpus.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "address-part": "Phayathai Road, Wangmai, Pathumwan",
+                            "postal-code": "10330",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Department of Survey Engineering"},
+                                {"$": "Faculty of Engineering"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "104425777"
+                            },
+                            "@affiliation-instance-id": "OB2BibRecID-950025793-90c8227d88d799e933cfefd6101633a6-1",
+                            "ce:source-text": "Department of Survey Engineering, Faculty of Engineering, Chulalongkorn University, Phayathai Road, Wangmai, Pathumwan, Bangkok, 10330",
+                            "@dptid": "104425777"
+                        },
+                        "author": [
+                            {
+                                "preferred-name": {
+                                    "ce:given-name": "T.",
+                                    "ce:initials": "T.",
+                                    "ce:surname": "Chalamkate",
+                                    "ce:indexed-name": "Chalamkate T."
+                                },
+                                "@author-instance-id": "OB2BibRecID-950025793-eb11baf363c7cc7f251f1d0c160f537d-1",
+                                "@seq": "1",
+                                "ce:initials": "T.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Chalamkate",
+                                "@auid": "58528626600",
+                                "ce:indexed-name": "Chalamkate T."
+                            },
+                            {
+                                "preferred-name": {
+                                    "ce:given-name": "C.",
+                                    "ce:initials": "C.",
+                                    "ce:surname": "Tinnachote",
+                                    "ce:indexed-name": "Tinnachote C."
+                                },
+                                "@author-instance-id": "OB2BibRecID-950025793-810b4c12d12e06c694dea25a7819c02d-1",
+                                "@seq": "2",
+                                "ce:initials": "C.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Tinnachote",
+                                "@auid": "8638916100",
+                                "ce:indexed-name": "Tinnachote C."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "address-part": "Phayathai Road, Wangmai, Pathumwan",
+                            "postal-code": "10330",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Department of Linguistics"},
+                                {"$": "Faculty of Arts"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "104425739"
+                            },
+                            "@affiliation-instance-id": "OB2BibRecID-950025793-05da578a7fd5ad51c40a37f1ed690142-1",
+                            "ce:source-text": "Department of Linguistics, Faculty of Arts, Chulalongkorn University, Phayathai Road, Wangmai, Pathumwan, Bangkok, 10330",
+                            "@dptid": "104425739"
+                        },
+                        "author": [{
+                            "preferred-name": {
+                                "ce:given-name": "A. T.",
+                                "ce:initials": "A.T.",
+                                "ce:surname": "Rutherford",
+                                "ce:indexed-name": "Rutherford A.T."
+                            },
+                            "@author-instance-id": "OB2BibRecID-950025793-f8ef8524c52b09b1671a09edfdb44af3-1",
+                            "@seq": "3",
+                            "ce:initials": "A.T.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Rutherford",
+                            "@auid": "56315591200",
+                            "ce:indexed-name": "Rutherford A.T."
+                        }]
+                    }
+                ],
+                "citation-title": "Developing Toponym Classification and Geolocation Estimation from Thai Tweets",
+                "abstracts": "© 2023, Association for Geoinformation Technology. All rights reserved.Twitter is a highly active microblogging platform globally, and in Thailand, it has secured the 10th rank for the highest user base in 2021. The platform is known for its rapid news dissemination capabilities and richness in topological and geolocation information. As such, the extraction of geospatial data from unstructured text has become an emerging field that has caught the attention of geospatial researchers. Geospatial extraction aims to leverage the location-based information present in textual data, which can be achieved through two methods, including toponym extraction and geocoding. The first involves identifying the geographic name from the text, and the second involves assigning the corresponding coordinates to the identified location. This study presents two key contributions. Firstly, a transformer-based tool was developed for extracting geo-names utilizing the BERT architecture, achieving an F1 score of 0.919 for overall accuracy. Secondly, the geocoding task was explored. The primary focus was to estimate the location of extracted geographic names that could not be matched with established online databases such as Google Geocoding, implying that the geographic names may not have existed or might not have been accurately identified. To achieve this objective, a geographic name dataset sourced from Twitter was compiled and utilized as a test dataset. The proposed approach involved the application of a clustering machine learning model, along with the utilization of topological properties, to develop a model for estimating the location of geographic names. The efficiency of the proposed method was assessed using Root Mean Square Error (RMSE) to compare the geographic coordinates of the estimated location from the model with the actual geographic coordinates of the location. Results revealed that the topology words model exhibited extremely high efficiency, with an RMSE of 0.947 km.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "address-part": "Phayathai Road, Wangmai, Pathumwan",
+                        "postal-code": "10330",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Department of Linguistics"},
+                            {"$": "Faculty of Arts"},
+                            {"$": "Chulalongkorn University"}
+                        ],
+                        "@affiliation-instance-id": "OB2BibRecID-950025793-7bf297adc65e6419b29aa88e6f62ff87-1",
+                        "ce:source-text": "Department of Linguistics, Faculty of Arts, Chulalongkorn University, Phayathai Road, Wangmai, Pathumwan, Bangkok, 10330"
+                    },
+                    "person": {
+                        "@author-instance-id": "OB2BibRecID-950025793-7af5f475e414e7d113bc64a4d36360b2-1",
+                        "ce:initials": "A.T.",
+                        "ce:surname": "Rutherford",
+                        "ce:indexed-name": "Rutherford A.T."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "BERT",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Geocoding",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Geospatial",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Topology words",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Toponym extraction",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "Int. J. Geoinformatics",
+                    "website": {"ce:e-address": {
+                        "$": "https://journals.sfu.ca/ijg/index.php/journal/article/download/2741/1499/8361",
+                        "@type": "email"
+                    }},
+                    "@country": "tha",
+                    "translated-sourcetitle": {
+                        "$": "International Journal of Geoinformatics",
+                        "@xml:lang": "eng"
+                    },
+                    "issn": [
+                        {
+                            "$": "26730014",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "16866576",
+                            "@type": "print"
+                        }
+                    ],
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "19",
+                            "@issue": "7"
+                        },
+                        "pagerange": {
+                            "@first": "17",
+                            "@last": "31"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2023"},
+                    "publisher": {"publishername": "Association for Geoinformation Technology"},
+                    "sourcetitle": "International Journal of Geoinformatics",
+                    "@srcid": "21100198528",
+                    "publicationdate": {
+                        "month": "07",
+                        "year": "2023",
+                        "date-text": "July 2023",
+                        "day": "01"
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "GEOCLASS",
+                        "classification": {
+                            "classification-code": "901",
+                            "classification-description": "Geobase; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "3305"},
+                            {"$": "3105"},
+                            {"$": "1901"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "SOCI"},
+                            {"$": "PHYS"},
+                            {"$": "EART"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "The researchers would like to express their gratitude to the Ratchadapisek Somphot Fund, Chulalongkorn University, for providing the New Lecturer Development Grant and support in the construction of the corpus.",
+                        "@xml:lang": "eng"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2023 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "GEO"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "23",
+                    "@timestamp": "BST 10:44:22",
+                    "@year": "2023",
+                    "@month": "08"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2025237037",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "950025793",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "10563741",
+                            "@idtype": "GEO"
+                        },
+                        {
+                            "$": "20232298432",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20233001348",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "20239016534697",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85167465997",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85167465997",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.52939/ijg.v19i7.2741"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "24",
+                "reference": [
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Cadorel, L., Blanchi, A. and Tettamanzi, G. B., (2021). Geospatial Knowledge in Housing Advertisements: Capturing and Extracting Spatial Information from Text. Proceedings of the 11th on Knowledge Capture Conference (K-CAP '21), New York, NY, USA, 2021, Vol. 41-48. https://doi.org/10.1145/3460210.3493547.",
+                        "@reference-instance-id": "OB2BibRecID-950025793-be8e09bb6afa71a3dbdd2a315986ca17-1",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/3460210.3493547",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Geospatial Knowledge in Housing Advertisements: Capturing and Extracting Spatial Information from Text"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/3460210.3493547",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85120923882",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "New York, NY, USA, 2021, 41-48",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cadorel",
+                                    "ce:indexed-name": "Cadorel L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Blanchi",
+                                    "ce:indexed-name": "Blanchi A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G. B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tettamanzi",
+                                    "ce:indexed-name": "Tettamanzi G. B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 11th on Knowledge Capture Conference (K-CAP '21)"
+                        },
+                        "ce:source-text": "Cadorel, L., Blanchi, A. and Tettamanzi, G. B., (2021). Geospatial Knowledge in Housing Advertisements: Capturing and Extracting Spatial Information from Text. Proceedings of the 11th on Knowledge Capture Conference (K-CAP '21), New York, NY, USA, 2021, Vol. 41-48. https://doi.org/10.1145/3460210.3493547."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Kemp, S., (2022). DATAREPORTAL. https://datareportal.com/reports/digital-2021-thailand (accessed 11/10, 2022).",
+                        "@reference-instance-id": "OB2BibRecID-950025793-489cc4535b9f90fa5edece63a658b99f-2",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://datareportal.com/reports/digital-2021-thailand",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85086385782",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "(accessed 11/10, 2022)",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "ce:surname": "Kemp",
+                                "ce:indexed-name": "Kemp S."
+                            }]},
+                            "ref-sourcetitle": "DATAREPORTAL"
+                        },
+                        "ce:source-text": "Kemp, S., (2022). DATAREPORTAL. https://datareportal.com/reports/digital-2021-thailand (accessed 11/10, 2022)."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Hahmann, S. and Burghardt, D., (2013). How Much Information is Geospatially Referenced? Networks and Cognition. International Journal of Geographical Information Science, Vol. 27(6). 1171-1189. https://doi.org/10.1080/1365 8816.2012.743664.",
+                        "@reference-instance-id": "OB2BibRecID-950025793-b8bece5ec612dd7ef16937726a643622-3",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1080/13658816.2012.743664",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "How Much Information is Geospatially Referenced? Networks and Cognition"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1080/13658816.2012.743664",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "84878457685",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "27",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "1171",
+                                    "@last": "1189"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hahmann",
+                                    "ce:indexed-name": "Hahmann S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Burghardt",
+                                    "ce:indexed-name": "Burghardt D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Journal of Geographical Information Science"
+                        },
+                        "ce:source-text": "Hahmann, S. and Burghardt, D., (2013). How Much Information is Geospatially Referenced? Networks and Cognition. International Journal of Geographical Information Science, Vol. 27(6). 1171-1189. https://doi.org/10.1080/1365 8816.2012.743664."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Lingad, J., Karimi, S. and Yin, J., (2013). Location Extraction from Disaster-Related Microblogs. Proceedings of the 22nd International Conference on World Wide Web, 1017-1020.",
+                        "@reference-instance-id": "OB2BibRecID-950025793-d5ea70c71a19f804f57f36bdf23a10b3-4",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Location Extraction from Disaster-Related Microblogs"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84892685783",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1017",
+                                "@last": "1020"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lingad",
+                                    "ce:indexed-name": "Lingad J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Karimi",
+                                    "ce:indexed-name": "Karimi S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yin",
+                                    "ce:indexed-name": "Yin J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 22nd International Conference on World Wide Web"
+                        },
+                        "ce:source-text": "Lingad, J., Karimi, S. and Yin, J., (2013). Location Extraction from Disaster-Related Microblogs. Proceedings of the 22nd International Conference on World Wide Web, 1017-1020."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Wang, J., Hu, Y. and Joseph, K., (2020). NeuroTPR: A Neuro-Net Toponym Recognition Model for Extracting Locations from Social Media Messages. Transactions in GIS, Vol. 24(3), 719-735. https://doi.org/10. 1111/tgis.12627.",
+                        "@reference-instance-id": "OB2BibRecID-950025793-7d6b4b4d291f4e618ce469813b15a745-5",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1111/tgis.12627",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "NeuroTPR: A Neuro-Net Toponym Recognition Model for Extracting Locations from Social Media Messages"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1111/tgis.12627",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85084571261",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "24",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "719",
+                                    "@last": "735"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Joseph",
+                                    "ce:indexed-name": "Joseph K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Transactions in GIS"
+                        },
+                        "ce:source-text": "Wang, J., Hu, Y. and Joseph, K., (2020). NeuroTPR: A Neuro-Net Toponym Recognition Model for Extracting Locations from Social Media Messages. Transactions in GIS, Vol. 24(3), 719-735. https://doi.org/10. 1111/tgis.12627."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Zheng, X., Han, J. and Sun, A., (2018). A Survey of Location Prediction on Twitter. IEEE Transactions on Knowledge and Data Engineering, Vol. 30(9). 1652-1671. https://doi.org/10.1109/TKDE.2018.2807840.",
+                        "@reference-instance-id": "OB2BibRecID-950025793-4b737cbc8170750fe62099dfcc93858f-6",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1109/TKDE.2018.2807840",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "A Survey of Location Prediction on Twitter"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/TKDE.2018.2807840",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85042369058",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "30",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {
+                                    "@first": "1652",
+                                    "@last": "1671"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zheng",
+                                    "ce:indexed-name": "Zheng X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Han",
+                                    "ce:indexed-name": "Han J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Knowledge and Data Engineering"
+                        },
+                        "ce:source-text": "Zheng, X., Han, J. and Sun, A., (2018). A Survey of Location Prediction on Twitter. IEEE Transactions on Knowledge and Data Engineering, Vol. 30(9). 1652-1671. https://doi.org/10.1109/TKDE.2018.2807840."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Manoruang, D. and Asavasuthirakul, D., (2019). Quality Analysis of Online Geocoding Services for Thai Text Addresses. Engineering and Applied Science Research, Vol. 46(2). 86-97. Available: https://ph01.tci-thaijo.org/index.php/easr/article/view/140887.",
+                        "@reference-instance-id": "OB2BibRecID-950025793-2c99c9b924949aeadfdafc6434076381-7",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://ph01.tci-thaijo.org/index.php/easr/article/view/140887",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Quality Analysis of Online Geocoding Services for Thai Text Addresses"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85070655377",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "46",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "86",
+                                    "@last": "97"
+                                }
+                            },
+                            "ref-text": "Available",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Manoruang",
+                                    "ce:indexed-name": "Manoruang D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Asavasuthirakul",
+                                    "ce:indexed-name": "Asavasuthirakul D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Engineering and Applied Science Research"
+                        },
+                        "ce:source-text": "Manoruang, D. and Asavasuthirakul, D., (2019). Quality Analysis of Online Geocoding Services for Thai Text Addresses. Engineering and Applied Science Research, Vol. 46(2). 86-97. Available: https://ph01.tci-thaijo.org/index.php/easr/article/view/140887."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Chanlekha, H., Kawtrakul, A., Varasrai, P. and Mulasas, I., (2002). Statistical and Heuristic Rule Based Model for Thai Named Entity Recognition. Available: https://citeseerx.ist. psu.edu/viewdoc/summary?doi=10.1.1.295.70 88.",
+                        "@reference-instance-id": "OB2BibRecID-950025793-be6074dab2c4aaa98fd3ffa645236243-8",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.295.7088",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85167418966",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Available",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chanlekha",
+                                    "ce:indexed-name": "Chanlekha H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kawtrakul",
+                                    "ce:indexed-name": "Kawtrakul A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Varasrai",
+                                    "ce:indexed-name": "Varasrai P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mulasas",
+                                    "ce:indexed-name": "Mulasas I."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Statistical and Heuristic Rule Based Model for Thai Named Entity Recognition"
+                        },
+                        "ce:source-text": "Chanlekha, H., Kawtrakul, A., Varasrai, P. and Mulasas, I., (2002). Statistical and Heuristic Rule Based Model for Thai Named Entity Recognition. Available: https://citeseerx.ist. psu.edu/viewdoc/summary?doi=10.1.1.295.70 88."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Chanlekha, H. and Kawtrakul, A., (2004). Thai Named Entity Extraction by incorporating Maximum Entropy Model with Simple Heuristic Information. [Online]. Available: https://citeseerx.ist.psu.edu/viewdoc/summary? doi=10.1.1.64.1449.",
+                        "@reference-instance-id": "OB2BibRecID-950025793-8eae4db8a48328ca5909eff64a4ff300-9",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.64.1449",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "36549041263",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "[Online]. Available",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chanlekha",
+                                    "ce:indexed-name": "Chanlekha H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kawtrakul",
+                                    "ce:indexed-name": "Kawtrakul A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Thai Named Entity Extraction by incorporating Maximum Entropy Model with Simple Heuristic Information"
+                        },
+                        "ce:source-text": "Chanlekha, H. and Kawtrakul, A., (2004). Thai Named Entity Extraction by incorporating Maximum Entropy Model with Simple Heuristic Information. [Online]. Available: https://citeseerx.ist.psu.edu/viewdoc/summary? doi=10.1.1.64.1449."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Tirasaroj, N. and Aroonmanakun, W., (2009). Thai Named Entity Recognition Based on Conditional Random Fields. Eighth International Symposium on Natural Language Processing. 216-220. https://doi.org/10.1109/SNLP.2009.5340913.",
+                        "@reference-instance-id": "OB2BibRecID-950025793-4d2ad6c221fe1c37fb193a7b3b5e104e-10",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1109/SNLP.2009.5340913",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Thai Named Entity Recognition Based on Conditional Random Fields"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/SNLP.2009.5340913",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "72449153801",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "216",
+                                "@last": "220"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tirasaroj",
+                                    "ce:indexed-name": "Tirasaroj N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aroonmanakun",
+                                    "ce:indexed-name": "Aroonmanakun W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Eighth International Symposium on Natural Language Processing"
+                        },
+                        "ce:source-text": "Tirasaroj, N. and Aroonmanakun, W., (2009). Thai Named Entity Recognition Based on Conditional Random Fields. Eighth International Symposium on Natural Language Processing. 216-220. https://doi.org/10.1109/SNLP.2009.5340913."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Thattinaphanich, S. and Prom-On, S., (2019). Thai Named Entity Recognition Using Bi-LSTM-CRF with Word and Character Representation. The 4th International Conference on Information Technology (InCIT2019 https://doi.org/10.1109/INCIT.20 19.8912091.",
+                        "@reference-instance-id": "OB2BibRecID-950025793-5c3cb0ed4da872b8c66f62097247d094-11",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Thai Named Entity Recognition Using Bi-LSTM-CRF with Word and Character Representation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/INCIT.2019.8912091",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85076750254",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "(InCIT2019 https://doi.org",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thattinaphanich",
+                                    "ce:indexed-name": "Thattinaphanich S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Prom-On",
+                                    "ce:indexed-name": "Prom-On S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "The 4th International Conference on Information Technology"
+                        },
+                        "ce:source-text": "Thattinaphanich, S. and Prom-On, S., (2019). Thai Named Entity Recognition Using Bi-LSTM-CRF with Word and Character Representation. The 4th International Conference on Information Technology (InCIT2019 https://doi.org/10.1109/INCIT.20 19.8912091."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Lowphansirikul, L., Polpanumas, C., Jantrakulchai, N. and Nutanong, S., (2021). WangchanBERTa: Pretraining Transformer-Based Thai Language Models. arXiv, 2021. [Online]. https://doi.org/10.48550/arXiv.2101. 09635.",
+                        "@reference-instance-id": "OB2BibRecID-950025793-1343d2c0ad4ae683f88029b938ef5bdf-12",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.48550/arXiv.2101.09635",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.48550/arXiv.2101.09635",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85106606231",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "arXiv, 2021. [Online]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lowphansirikul",
+                                    "ce:indexed-name": "Lowphansirikul L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Polpanumas",
+                                    "ce:indexed-name": "Polpanumas C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jantrakulchai",
+                                    "ce:indexed-name": "Jantrakulchai N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nutanong",
+                                    "ce:indexed-name": "Nutanong S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "WangchanBERTa: Pretraining Transformer-Based Thai Language Models"
+                        },
+                        "ce:source-text": "Lowphansirikul, L., Polpanumas, C., Jantrakulchai, N. and Nutanong, S., (2021). WangchanBERTa: Pretraining Transformer-Based Thai Language Models. arXiv, 2021. [Online]. https://doi.org/10.48550/arXiv.2101. 09635."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Xu, D., Cui, P., Zhu, W. and Yang, S., (2014). Find you from your Friends: Graph-based Residence Location Prediction for Users in Social Media. 2014 IEEE International Conference on Multimedia and Expo (ICME). 1-6. https://doi.org/10.1109/ICME.2014.6890 202.",
+                        "@reference-instance-id": "OB2BibRecID-950025793-daceb51d773fd3bed8a283019c792c5e-13",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1109/ICME.2014.6890202",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Find you from your Friends: Graph-based Residence Location Prediction for Users in Social Media"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/ICME.2014.6890202",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "84937510511",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "6"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cui",
+                                    "ce:indexed-name": "Cui P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu W."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2014 IEEE International Conference on Multimedia and Expo (ICME)"
+                        },
+                        "ce:source-text": "Xu, D., Cui, P., Zhu, W. and Yang, S., (2014). Find you from your Friends: Graph-based Residence Location Prediction for Users in Social Media. 2014 IEEE International Conference on Multimedia and Expo (ICME). 1-6. https://doi.org/10.1109/ICME.2014.6890 202."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Williams, E., Gray, J. and Dixon, X., (2017). Improving Geolocation of Social Media Posts. Pervasive and Mobile Computing, Vol. 36, 68-79. https://doi.org/10.1016/j.pmcj.2016.09.015.",
+                        "@reference-instance-id": "OB2BibRecID-950025793-063d20adc475113fa3f7e44b7a15fd34-14",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1016/j.pmcj.2016.09.015",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Improving Geolocation of Social Media Posts"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/j.pmcj.2016.09.015",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85002202570",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "36"},
+                                "pagerange": {
+                                    "@first": "68",
+                                    "@last": "79"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Williams",
+                                    "ce:indexed-name": "Williams E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gray",
+                                    "ce:indexed-name": "Gray J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dixon",
+                                    "ce:indexed-name": "Dixon X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Pervasive and Mobile Computing"
+                        },
+                        "ce:source-text": "Williams, E., Gray, J. and Dixon, X., (2017). Improving Geolocation of Social Media Posts. Pervasive and Mobile Computing, Vol. 36, 68-79. https://doi.org/10.1016/j.pmcj.2016.09.015."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Ramshaw, L. A. and Marcus, M. P., (1999). Text Chunking Using Transformation-Based Learning. Natural Language Processing Using Very Large Corpora, S. Armstrong, K. Church, P. Isabelle, S. Manzi, E. Tzoukermann, and D. Yarowsky Eds. Dordrecht: Springer Netherlands, 157-176.",
+                        "@reference-instance-id": "OB2BibRecID-950025793-7b243be8bae64f60eb7b8ebe2960f0ac-15",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "Text Chunking Using Transformation-Based Learning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "51449121690",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "157",
+                                "@last": "176"
+                            }},
+                            "ref-text": "S. Armstrong, K. Church, P. Isabelle, S. Manzi, E. Tzoukermann, and D. Yarowsky Eds. Dordrecht: Springer Netherlands",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L. A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ramshaw",
+                                    "ce:indexed-name": "Ramshaw L. A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M. P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marcus",
+                                    "ce:indexed-name": "Marcus M. P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Natural Language Processing Using Very Large Corpora"
+                        },
+                        "ce:source-text": "Ramshaw, L. A. and Marcus, M. P., (1999). Text Chunking Using Transformation-Based Learning. Natural Language Processing Using Very Large Corpora, S. Armstrong, K. Church, P. Isabelle, S. Manzi, E. Tzoukermann, and D. Yarowsky Eds. Dordrecht: Springer Netherlands, 157-176."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Devlin, J., Chang, M. W., Lee, K. and Toutanova, K., (2019). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. ArXiv. https://doi.org/10.48550/arXiv.1810.04805.",
+                        "@reference-instance-id": "OB2BibRecID-950025793-f09cfb058d625a6559ecfbb5f6060d60-16",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.48550/arXiv.1810.04805",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.48550/arXiv.1810.04805",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85057019815",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "ArXiv",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Devlin",
+                                    "ce:indexed-name": "Devlin J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M. W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang M. W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Toutanova",
+                                    "ce:indexed-name": "Toutanova K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+                        },
+                        "ce:source-text": "Devlin, J., Chang, M. W., Lee, K. and Toutanova, K., (2019). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. ArXiv. https://doi.org/10.48550/arXiv.1810.04805."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Nanda, A., Barik, R. C. and Bakshi, S., (2023). SSO-RBNN Driven Brain Tumor Classification with Saliency-K-means Segmentation Technique. Biomedical Signal Processing and Control, Vol. 81. https://doi.org/10.1016/j.bspc.2022.104356.",
+                        "@reference-instance-id": "OB2BibRecID-950025793-3598fa3445531ce334423aa0e59182dc-17",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2023"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1016/j.bspc.2022.104356",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "SSO-RBNN Driven Brain Tumor Classification with Saliency-K-means Segmentation Technique"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/j.bspc.2022.104356",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85143128864",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "81"}},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nanda",
+                                    "ce:indexed-name": "Nanda A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R. C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Barik",
+                                    "ce:indexed-name": "Barik R. C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bakshi",
+                                    "ce:indexed-name": "Bakshi S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Biomedical Signal Processing and Control"
+                        },
+                        "ce:source-text": "Nanda, A., Barik, R. C. and Bakshi, S., (2023). SSO-RBNN Driven Brain Tumor Classification with Saliency-K-means Segmentation Technique. Biomedical Signal Processing and Control, Vol. 81. https://doi.org/10.1016/j.bspc.2022.104356."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Jin, X. and Han, J., (2010). K-Medoids Clustering. Encyclopedia of Machine Learning, C. Sammut and G. I. Webb (Eds). Boston, MA: Springer US, 2010, 564-565. https://doi.org/10.1007/978-0-387-30164-8_426.",
+                        "@reference-instance-id": "OB2BibRecID-950025793-33810e12e8a25bd34c169d1a862b2849-18",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1007/978-0-387-30164-8_426",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "K-Medoids Clustering"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/978-0-387-30164-8_426",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "84978679340",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "564",
+                                "@last": "565"
+                            }},
+                            "ref-text": "C. Sammut and G. I. Webb (Eds). Boston, MA: Springer US, 2010",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Han",
+                                    "ce:indexed-name": "Han J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Encyclopedia of Machine Learning"
+                        },
+                        "ce:source-text": "Jin, X. and Han, J., (2010). K-Medoids Clustering. Encyclopedia of Machine Learning, C. Sammut and G. I. Webb (Eds). Boston, MA: Springer US, 2010, 564-565. https://doi.org/10.1007/978-0-387-30164-8_426."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Subasi, A., (2020). Chapter 7-Clustering Examples. Practical Machine Learning for Data Analysis Using Python, A. Subasi Ed.: Academic Press, 465-511.",
+                        "@reference-instance-id": "OB2BibRecID-950025793-ab74148e3c17503754460dc299e4d1c3-19",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Chapter 7-Clustering Examples"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85104851849",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "465",
+                                "@last": "511"
+                            }},
+                            "ref-text": "Practical Machine Learning for Data Analysis Using Python, A. Subasi Ed.: Academic Press",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "ce:surname": "Subasi",
+                                "ce:indexed-name": "Subasi A."
+                            }]}
+                        },
+                        "ce:source-text": "Subasi, A., (2020). Chapter 7-Clustering Examples. Practical Machine Learning for Data Analysis Using Python, A. Subasi Ed.: Academic Press, 465-511."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Kolatch, E., (2001). Clustering Algorithms for Spatial Databases: A Survey. 1-22.",
+                        "@reference-instance-id": "OB2BibRecID-950025793-1c252b728edabfc4a2051cd79359b27c-20",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "13444303568",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "22"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "E.",
+                                "@_fa": "true",
+                                "ce:surname": "Kolatch",
+                                "ce:indexed-name": "Kolatch E."
+                            }]},
+                            "ref-sourcetitle": "Clustering Algorithms for Spatial Databases: A Survey"
+                        },
+                        "ce:source-text": "Kolatch, E., (2001). Clustering Algorithms for Spatial Databases: A Survey. 1-22."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Devkota, B., Miyazaki, H., Witayangkurn, A. and Kim, S. (2019). Using Volunteered Geographic Information and Nighttime Light Remote Sensing Data to Identify Tourism Areas of Interest. Sustainability, Vol. 11. https://doi.org/10.3390/su11174718.",
+                        "@reference-instance-id": "OB2BibRecID-950025793-00ce340bf97918f165ac1231822ca3b7-21",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.3390/su11174718",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Using Volunteered Geographic Information and Nighttime Light Remote Sensing Data to Identify Tourism Areas of Interest"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.3390/su11174718",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85071981698",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "11"}},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Devkota",
+                                    "ce:indexed-name": "Devkota B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Miyazaki",
+                                    "ce:indexed-name": "Miyazaki H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Witayangkurn",
+                                    "ce:indexed-name": "Witayangkurn A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sustainability"
+                        },
+                        "ce:source-text": "Devkota, B., Miyazaki, H., Witayangkurn, A. and Kim, S. (2019). Using Volunteered Geographic Information and Nighttime Light Remote Sensing Data to Identify Tourism Areas of Interest. Sustainability, Vol. 11. https://doi.org/10.3390/su11174718."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Sarma, A., Goyal, P., Kuman, S., Wani, A., Challa, J.S., Islam, S. and Goyal, N., (2019). μDBSCAN: An Exact Scalable DBSCAN Algorithm for Big Data Exploiting Spatial Locality. IEEE International Conference on Cluster Computing (CLUSTER), 23-26 Sept. 2019. 1-11. https://doi.org/10.1109/CLUSTER.2019.8891020.",
+                        "@reference-instance-id": "OB2BibRecID-950025793-d5ff4fd1594c41a513171611492ac210-22",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1109/CLUSTER.2019.8891020",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "μDBSCAN: An Exact Scalable DBSCAN Algorithm for Big Data Exploiting Spatial Locality"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/CLUSTER.2019.8891020",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85075270017",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "11"
+                            }},
+                            "ref-text": "23-26 Sept. 2019",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sarma",
+                                    "ce:indexed-name": "Sarma A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Goyal",
+                                    "ce:indexed-name": "Goyal P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kuman",
+                                    "ce:indexed-name": "Kuman S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wani",
+                                    "ce:indexed-name": "Wani A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Challa",
+                                    "ce:indexed-name": "Challa J.S."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Islam",
+                                    "ce:indexed-name": "Islam S."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Goyal",
+                                    "ce:indexed-name": "Goyal N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE International Conference on Cluster Computing (CLUSTER)"
+                        },
+                        "ce:source-text": "Sarma, A., Goyal, P., Kuman, S., Wani, A., Challa, J.S., Islam, S. and Goyal, N., (2019). μDBSCAN: An Exact Scalable DBSCAN Algorithm for Big Data Exploiting Spatial Locality. IEEE International Conference on Cluster Computing (CLUSTER), 23-26 Sept. 2019. 1-11. https://doi.org/10.1109/CLUSTER.2019.8891020."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "MAPASYST. (2022). Calculating Your Map Accuracy Using US National Map Accuracy Standards. (Accessed 12/16, 2022).",
+                        "@reference-instance-id": "OB2BibRecID-950025793-eed611c3dc7c913374de18824fb13d88-23",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85167411763",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "(Accessed 12/16, 2022)",
+                            "ref-authors": {"collaboration": {
+                                "@seq": "1",
+                                "ce:text": "MAPASYST",
+                                "ce:indexed-name": "MAPASYST"
+                            }},
+                            "ref-sourcetitle": "Calculating Your Map Accuracy Using US National Map Accuracy Standards"
+                        },
+                        "ce:source-text": "MAPASYST. (2022). Calculating Your Map Accuracy Using US National Map Accuracy Standards. (Accessed 12/16, 2022)."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Mishra, P. and Sarawadekar, K., (2019). Polynomial Learning Rate Policy with Warm Restart for Deep Neural Network. TENCON 2019-2019 IEEE Region 10 Conference (TENCON), 17-20 Oct. 2019. 2087-2092. https://doi.org/10.1109/TENCON.2019.89294 65.",
+                        "@reference-instance-id": "OB2BibRecID-950025793-5678d533dbebcd55259cf4fe4da96f97-24",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1109/TENCON.2019.8929465",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Polynomial Learning Rate Policy with Warm Restart for Deep Neural Network"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/TENCON.2019.8929465",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85077695864",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2087",
+                                "@last": "2092"
+                            }},
+                            "ref-text": "17-20 Oct. 2019",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mishra",
+                                    "ce:indexed-name": "Mishra P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sarawadekar",
+                                    "ce:indexed-name": "Sarawadekar K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "TENCON 2019-2019 IEEE Region 10 Conference (TENCON)"
+                        },
+                        "ce:source-text": "Mishra, P. and Sarawadekar, K., (2019). Polynomial Learning Rate Policy with Warm Restart for Deep Neural Network. TENCON 2019-2019 IEEE Region 10 Conference (TENCON), 17-20 Oct. 2019. 2087-2092. https://doi.org/10.1109/TENCON.2019.89294 65."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Bangkok",
+        "@id": "60028190",
+        "affilname": "Chulalongkorn University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+        "affiliation-country": "Thailand"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85167465997",
+        "dc:description": "Twitter is a highly active microblogging platform globally, and in Thailand, it has secured the 10th rank for the highest user base in 2021. The platform is known for its rapid news dissemination capabilities and richness in topological and geolocation information. As such, the extraction of geospatial data from unstructured text has become an emerging field that has caught the attention of geospatial researchers. Geospatial extraction aims to leverage the location-based information present in textual data, which can be achieved through two methods, including toponym extraction and geocoding. The first involves identifying the geographic name from the text, and the second involves assigning the corresponding coordinates to the identified location. This study presents two key contributions. Firstly, a transformer-based tool was developed for extracting geo-names utilizing the BERT architecture, achieving an F1 score of 0.919 for overall accuracy. Secondly, the geocoding task was explored. The primary focus was to estimate the location of extracted geographic names that could not be matched with established online databases such as Google Geocoding, implying that the geographic names may not have existed or might not have been accurately identified. To achieve this objective, a geographic name dataset sourced from Twitter was compiled and utilized as a test dataset. The proposed approach involved the application of a clustering machine learning model, along with the utilization of topological properties, to develop a model for estimating the location of geographic names. The efficiency of the proposed method was assessed using Root Mean Square Error (RMSE) to compare the geographic coordinates of the estimated location from the model with the actual geographic coordinates of the location. Results revealed that the topology words model exhibited extremely high efficiency, with an RMSE of 0.947 km.",
+        "prism:coverDate": "2023-07-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85167465997",
+        "dc:creator": {"author": [{
+            "preferred-name": {
+                "ce:given-name": "T.",
+                "ce:initials": "T.",
+                "ce:surname": "Chalamkate",
+                "ce:indexed-name": "Chalamkate T."
+            },
+            "@seq": "1",
+            "ce:initials": "T.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Chalamkate",
+            "@auid": "58528626600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58528626600",
+            "ce:indexed-name": "Chalamkate T."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85167465997"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85167465997&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85167465997&origin=inward"
+            }
+        ],
+        "source-id": "21100198528",
+        "citedby-count": "0",
+        "prism:volume": "19",
+        "subtype": "ar",
+        "dc:title": "Developing Toponym Classification and Geolocation Estimation from Thai Tweets",
+        "openaccess": null,
+        "prism:issn": "26730014 16866576",
+        "publishercopyright": "© 2023, Association for Geoinformation Technology. All rights reserved.",
+        "prism:issueIdentifier": "7",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "International Journal of Geoinformatics",
+        "prism:pageRange": "17-31",
+        "prism:endingPage": "31",
+        "openaccessFlag": null,
+        "prism:doi": "10.52939/ijg.v19i7.2741",
+        "prism:startingPage": "17",
+        "dc:identifier": "SCOPUS_ID:85167465997",
+        "dc:publisher": "Association for Geoinformation Technology"
+    },
+    "idxterms": null,
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "BERT"
+        },
+        {
+            "@_fa": "true",
+            "$": "Geocoding"
+        },
+        {
+            "@_fa": "true",
+            "$": "Geospatial"
+        },
+        {
+            "@_fa": "true",
+            "$": "Topology words"
+        },
+        {
+            "@_fa": "true",
+            "$": "Toponym extraction"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Geography, Planning and Development",
+            "@code": "3305",
+            "@abbrev": "SOCI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Instrumentation",
+            "@code": "3105",
+            "@abbrev": "PHYS"
+        },
+        {
+            "@_fa": "true",
+            "$": "Earth and Planetary Sciences (miscellaneous)",
+            "@code": "1901",
+            "@abbrev": "EART"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "preferred-name": {
+                "ce:given-name": "T.",
+                "ce:initials": "T.",
+                "ce:surname": "Chalamkate",
+                "ce:indexed-name": "Chalamkate T."
+            },
+            "@seq": "1",
+            "ce:initials": "T.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Chalamkate",
+            "@auid": "58528626600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58528626600",
+            "ce:indexed-name": "Chalamkate T."
+        },
+        {
+            "preferred-name": {
+                "ce:given-name": "C.",
+                "ce:initials": "C.",
+                "ce:surname": "Tinnachote",
+                "ce:indexed-name": "Tinnachote C."
+            },
+            "@seq": "2",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Tinnachote",
+            "@auid": "8638916100",
+            "author-url": "https://api.elsevier.com/content/author/author_id/8638916100",
+            "ce:indexed-name": "Tinnachote C."
+        },
+        {
+            "preferred-name": {
+                "ce:given-name": "A. T.",
+                "ce:initials": "A.T.",
+                "ce:surname": "Rutherford",
+                "ce:indexed-name": "Rutherford A.T."
+            },
+            "@seq": "3",
+            "ce:initials": "A.T.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Rutherford",
+            "@auid": "56315591200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56315591200",
+            "ce:indexed-name": "Rutherford A.T."
+        }
+    ]}
+}}

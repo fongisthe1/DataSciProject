@@ -1,0 +1,1631 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "04",
+                "@timestamp": "2023-08-04T14:59:02.000002-04:00",
+                "@year": "2023",
+                "@month": "08"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2023",
+                "@month": "01"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "@afid": "60028190",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Chulalongkorn University"},
+                            {"$": "Department of Mechanical Engineering"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60028190",
+                            "@dptid": "104425639"
+                        },
+                        "@affiliation-instance-id": "OB2BibRecID-949710289-08e057912d15c8b86a822fca56125dc4-1",
+                        "ce:source-text": "Chulalongkorn University, Department of Mechanical Engineering, Bangkok, Thailand",
+                        "@dptid": "104425639"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Phumrapee",
+                            "preferred-name": {
+                                "ce:given-name": "Phumrapee",
+                                "ce:initials": "P.",
+                                "ce:surname": "Meyer",
+                                "ce:indexed-name": "Meyer P."
+                            },
+                            "@author-instance-id": "OB2BibRecID-949710289-88272e84d121d2084894c8d83b38c318-1",
+                            "@seq": "1",
+                            "ce:initials": "P.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Meyer",
+                            "@auid": "58504307200",
+                            "ce:indexed-name": "Meyer P."
+                        },
+                        {
+                            "ce:given-name": "Poom",
+                            "preferred-name": {
+                                "ce:given-name": "Poom",
+                                "ce:initials": "P.",
+                                "ce:surname": "Separattananan",
+                                "ce:indexed-name": "Separattananan P."
+                            },
+                            "@author-instance-id": "OB2BibRecID-949710289-10d13407e6e982c90d9bfb1cf4959580-1",
+                            "@seq": "2",
+                            "ce:initials": "P.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Separattananan",
+                            "@auid": "58504037200",
+                            "ce:indexed-name": "Separattananan P."
+                        },
+                        {
+                            "ce:given-name": "Jetnipat",
+                            "preferred-name": {
+                                "ce:given-name": "Jetnipat",
+                                "ce:initials": "J.",
+                                "ce:surname": "Thongprasith",
+                                "ce:indexed-name": "Thongprasith J."
+                            },
+                            "@author-instance-id": "OB2BibRecID-949710289-df578e8f5d1e07f56f3ded4c526aa5ba-1",
+                            "@seq": "3",
+                            "ce:initials": "J.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Thongprasith",
+                            "@auid": "58505668200",
+                            "ce:indexed-name": "Thongprasith J."
+                        },
+                        {
+                            "ce:given-name": "Chawaphon",
+                            "preferred-name": {
+                                "ce:given-name": "Chawaphon",
+                                "ce:initials": "C.",
+                                "ce:surname": "Payattapong",
+                                "ce:indexed-name": "Payattapong C."
+                            },
+                            "@author-instance-id": "OB2BibRecID-949710289-2329d59cf445830c6a88346f8d578b8a-1",
+                            "@seq": "4",
+                            "ce:initials": "C.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Payattapong",
+                            "@auid": "58504850900",
+                            "ce:indexed-name": "Payattapong C."
+                        },
+                        {
+                            "ce:given-name": "Ratchatin",
+                            "preferred-name": {
+                                "ce:given-name": "Ratchatin",
+                                "ce:initials": "R.",
+                                "ce:surname": "Chancharoen",
+                                "ce:indexed-name": "Chancharoen R."
+                            },
+                            "@author-instance-id": "OB2BibRecID-949710289-8b541d1db9ffe404249f2ce20a2a2872-1",
+                            "@seq": "5",
+                            "ce:initials": "R.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Chancharoen",
+                            "@auid": "36170214000",
+                            "ce:indexed-name": "Chancharoen R."
+                        }
+                    ]
+                },
+                "citation-title": "Web-Based Teleoperation System for Enhanced Precision and Efficiency in Food Industry Applications",
+                "abstracts": "© 2023 IEEE.This paper presents the development of a web application for teleoperation in the context of the food industry, leveraging a Flask python web framework for server, Socket.IO for real-time communication, MQTT for efficient data exchange, and Dropbox for secure data storage. The web application provides remote operation, real-time monitoring capabilities for a plant and data storing. The system consists of three main components: the main server, acting as a bridge between the web client and the plant's controller; the web client, offering a user-friendly interface and communicate with the main server; and the plant's controller, responsible for controlling the plant's operations and communication with main server. The system was successfully integrated with cutting of food items application featuring a Cartesian robot and a depth camera controlled by a Raspberry Pi 4. The web application enables users to initiate plant operations, visualize generated images, stream camera frames, and monitor the robot's position in real-time. Moreover, the system stores essential data such as point cloud arrays, 3D point cloud images, and object volumes in Dropbox. The system's advantages include Python implementation, web-based accessibility, seamless integration with the IoT ecosystem, adaptability to digital twin concepts, and efficient data storage. Overall, the teleoperating system significant benefits to the food industry, including enhanced precision, improved efficiency, seamless integration with the IoT ecosystem, and reliable data storage and analysis. By leveraging these advantages, food processing operations can achieve higher quality standards, increased productivity, and more informed decision-making, ultimately leading to improved customer satisfaction and business success.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Chulalongkorn University"},
+                            {"$": "Department of Mechanical Engineering"}
+                        ],
+                        "@affiliation-instance-id": "OB2BibRecID-949710289-08e057912d15c8b86a822fca56125dc4-1",
+                        "ce:source-text": "Chulalongkorn University, Department of Mechanical Engineering, Bangkok, Thailand"
+                    },
+                    "person": {
+                        "ce:given-name": "Ratchatin",
+                        "@author-instance-id": "OB2BibRecID-949710289-78a62480b0680805560692f375586abf-1",
+                        "ce:initials": "R.",
+                        "ce:surname": "Chancharoen",
+                        "ce:indexed-name": "Chancharoen R."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Food Industry",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "IoT",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Teleoperating",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Web Application",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=10156655",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "HORA 2023 - 2023 5th International Congress on Human-Computer Interaction, Optimization and Robotic Applications, Proceedings",
+                        "@xml:lang": "eng"
+                    },
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9798350337525",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "5th International Congress on Human-Computer Interaction, Optimization and Robotic Applications, HORA 2023",
+                            "confnumber": "5",
+                            "confcatnumber": "CFP23X32-ART",
+                            "confseriestitle": "International Congress on Human-Computer Interaction, Optimization and Robotic Applications",
+                            "conflocation": {
+                                "@country": "tur",
+                                "city": "Istanbul"
+                            },
+                            "confcode": "190025",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "10",
+                                    "@year": "2023",
+                                    "@month": "06"
+                                },
+                                "startdate": {
+                                    "@day": "08",
+                                    "@year": "2023",
+                                    "@month": "06"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "HORA 2023 - 2023 5th International Congress on Human-Computer Interaction, Optimization and Robotic Applications, Proceedings",
+                    "publicationdate": {
+                        "year": "2023",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2023"
+                        }
+                    },
+                    "sourcetitle-abbrev": "HORA - Int. Congr. Hum.-Comput. Interact., Optim. Robot. Appl., Proc.",
+                    "@country": "usa",
+                    "issuetitle": "HORA 2023 - 2023 5th International Congress on Human-Computer Interaction, Optimization and Robotic Applications, Proceedings",
+                    "publicationyear": {"@first": "2023"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "@srcid": "21101167202"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1702"},
+                            {"$": "1706"},
+                            {"$": "1707"},
+                            {"$": "2606"},
+                            {"$": "3105"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "454.3",
+                                "classification-description": "Ecology and Ecosystems"
+                            },
+                            {
+                                "classification-code": "722.1",
+                                "classification-description": "Data Storage, Equipment and Techniques"
+                            },
+                            {
+                                "classification-code": "722.3",
+                                "classification-description": "Data Communication, Equipment and Techniques"
+                            },
+                            {
+                                "classification-code": "723",
+                                "classification-description": "Computer Software, Data Handling and Applications"
+                            },
+                            {
+                                "classification-code": "723.1.1",
+                                "classification-description": "Computer Programming Languages"
+                            },
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing and Image Processing"
+                            },
+                            {
+                                "classification-code": "731.1",
+                                "classification-description": "Control Systems"
+                            },
+                            {
+                                "classification-code": "742.2",
+                                "classification-description": "Photographic and Video Equipment"
+                            },
+                            {
+                                "classification-code": "822.2",
+                                "classification-description": "Food Processing Operations"
+                            },
+                            {
+                                "classification-code": "912.2",
+                                "classification-description": "Management"
+                            },
+                            {
+                                "classification-code": "913.1",
+                                "classification-description": "Production Engineering"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "MATH"},
+                            {"$": "PHYS"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2023 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "28",
+                    "@timestamp": "BST 17:01:59",
+                    "@year": "2023",
+                    "@month": "07"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "641873641",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "949710289",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20233014450276",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20232133297",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20232799749",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85165653688",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85165653688",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/HORA58378.2023.10156734"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "20",
+                "reference": [
+                    {
+                        "ref-fulltext": "Z. Wang, S. Hirai, and S. Kawamura, \"Challenges and opportunities in robotic food handling: A review.\" Frontiers in Robotics and AI 8, 433, 2022.",
+                        "@reference-instance-id": "OB2BibRecID-949710289-b79ed557aa375a7bbe8ee1f741266d93-1",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-title": {"ref-titletext": "Challenges and opportunities in robotic food handling: A review"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85123698369",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "8"},
+                                "pagerange": {"@first": "433"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hirai",
+                                    "ce:indexed-name": "Hirai S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kawamura",
+                                    "ce:indexed-name": "Kawamura S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Frontiers in Robotics and AI"
+                        },
+                        "ce:source-text": "Z. Wang, S. Hirai, and S. Kawamura, \"Challenges and opportunities in robotic food handling: A review.\" Frontiers in Robotics and AI 8, 433, 2022."
+                    },
+                    {
+                        "ref-fulltext": "G.A. Nayik, K. Muzaffar, and A. Gull, \"Robotics and food technology: A mini review.\" J. Nutr. Food Sci 5, no. 4, 1-11, 2015.",
+                        "@reference-instance-id": "OB2BibRecID-949710289-3890496ab6e112a2320b56a610738630-2",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Robotics and food technology: A mini review"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85018403315",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "5",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "11"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nayik",
+                                    "ce:indexed-name": "Nayik G.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Muzaffar",
+                                    "ce:indexed-name": "Muzaffar K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gull",
+                                    "ce:indexed-name": "Gull A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Nutr. Food Sci"
+                        },
+                        "ce:source-text": "G.A. Nayik, K. Muzaffar, and A. Gull, \"Robotics and food technology: A mini review.\" J. Nutr. Food Sci 5, no. 4, 1-11, 2015."
+                    },
+                    {
+                        "ref-fulltext": "K.B. Biji, C.N. Ravishankar, C.O. Mohan, and T.K. Srinivasa Gopal. \"Smart packaging systems for food applications: a review.\" Journal of food science and technology 52 (2015): 6125-6135.",
+                        "@reference-instance-id": "OB2BibRecID-949710289-83ab6464755be0fc3df8dac42cb3cd6b-3",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Smart packaging systems for food applications: A review"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84942195437",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "52"},
+                                "pagerange": {
+                                    "@first": "6125",
+                                    "@last": "6135"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Biji",
+                                    "ce:indexed-name": "Biji K.B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ravishankar",
+                                    "ce:indexed-name": "Ravishankar C.N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mohan",
+                                    "ce:indexed-name": "Mohan C.O."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.K.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gopal",
+                                    "ce:indexed-name": "Gopal T.K.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of food science and technology"
+                        },
+                        "ce:source-text": "K.B. Biji, C.N. Ravishankar, C.O. Mohan, and T.K. Srinivasa Gopal. \"Smart packaging systems for food applications: a review.\" Journal of food science and technology 52 (2015): 6125-6135."
+                    },
+                    {
+                        "ref-fulltext": "J.G. Brennan, and A.S. Grandison, eds. \"Food processing handbook.\" (2012).",
+                        "@reference-instance-id": "OB2BibRecID-949710289-dd6e799d26908e355db0593ff08b7419-4",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85104058377",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brennan",
+                                    "ce:indexed-name": "Brennan J.G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grandison",
+                                    "ce:indexed-name": "Grandison A.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Food processing handbook"
+                        },
+                        "ce:source-text": "J.G. Brennan, and A.S. Grandison, eds. \"Food processing handbook.\" (2012)."
+                    },
+                    {
+                        "ref-fulltext": "R. Chancharoen, and G. Phanomchoeng, \"The Telepresence Laboratory for a New Campus Life Since the Covid-19 Crisis.\" International Journal Of Engineering Education 38, no. 5, 1523- 1535, 2022.",
+                        "@reference-instance-id": "OB2BibRecID-949710289-86a4840f1b1bea7200eff6471566a438-5",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-title": {"ref-titletext": "The telepresence laboratory for a new campus life since the covid-19 crisis"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85165617997",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@issue": "5"},
+                                "pagerange": {
+                                    "@first": "1523",
+                                    "@last": "1535"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chancharoen",
+                                    "ce:indexed-name": "Chancharoen R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Phanomchoeng",
+                                    "ce:indexed-name": "Phanomchoeng G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Journal Of Engineering Education 38"
+                        },
+                        "ce:source-text": "R. Chancharoen, and G. Phanomchoeng, \"The Telepresence Laboratory for a New Campus Life Since the Covid-19 Crisis.\" International Journal Of Engineering Education 38, no. 5, 1523- 1535, 2022."
+                    },
+                    {
+                        "ref-fulltext": "J. Cui, S. Tosunoglu, R. Roberts, C. Moore, and D.W. Repperger. \"A review of teleoperation system control.\" In Proceedings of the Florida conference on recent advances in robotics, pp. 1-12. Florida Atlantic University Boca Raton, 2003.",
+                        "@reference-instance-id": "OB2BibRecID-949710289-f5752c4abc6e79b952ba6b8443ab45f5-6",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "A review of teleoperation system control"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "4544310962",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "12"
+                            }},
+                            "ref-text": "Florida Atlantic University Boca Raton,.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cui",
+                                    "ce:indexed-name": "Cui J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tosunoglu",
+                                    "ce:indexed-name": "Tosunoglu S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Roberts",
+                                    "ce:indexed-name": "Roberts R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Moore",
+                                    "ce:indexed-name": "Moore C."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "D.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Repperger",
+                                    "ce:indexed-name": "Repperger D.W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Florida conference on recent advances in robotics"
+                        },
+                        "ce:source-text": "J. Cui, S. Tosunoglu, R. Roberts, C. Moore, and D.W. Repperger. \"A review of teleoperation system control.\" In Proceedings of the Florida conference on recent advances in robotics, pp. 1-12. Florida Atlantic University Boca Raton, 2003."
+                    },
+                    {
+                        "ref-fulltext": "P.M. Kebria, H. Abdi, M.M. Dalvand, A. Khosravi, and S. Nahavandi. \"Control methods for internet-based teleoperation systems: A review.\" IEEE Transactions on Human-Machine Systems 49, no. 1, 32-46, 2018.",
+                        "@reference-instance-id": "OB2BibRecID-949710289-e8b35d01c04f993b14d66e714858bbb4-7",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Control methods for internet-based teleoperation systems: A review"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85056612205",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "49",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "32",
+                                    "@last": "46"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kebria",
+                                    "ce:indexed-name": "Kebria P.M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abdi",
+                                    "ce:indexed-name": "Abdi H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dalvand",
+                                    "ce:indexed-name": "Dalvand M.M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Khosravi",
+                                    "ce:indexed-name": "Khosravi A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nahavandi",
+                                    "ce:indexed-name": "Nahavandi S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Human-Machine Systems"
+                        },
+                        "ce:source-text": "P.M. Kebria, H. Abdi, M.M. Dalvand, A. Khosravi, and S. Nahavandi. \"Control methods for internet-based teleoperation systems: A review.\" IEEE Transactions on Human-Machine Systems 49, no. 1, 32-46, 2018."
+                    },
+                    {
+                        "ref-fulltext": "I. Angulo, L. Rodrìguez-Gil and J. Garcìa-Zubìa, \"Scaling up the lab: An adaptable and scalable architecture for embedded systems remote labs,\" IEEE Access, 6, pp. 16887-16900, 2018.",
+                        "@reference-instance-id": "OB2BibRecID-949710289-d074d83fa09f35a9e691d8b6bc1ee145-8",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Scaling up the lab: An adaptable and scalable architecture for embedded systems remote labs"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85043385557",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "6"},
+                                "pagerange": {
+                                    "@first": "16887",
+                                    "@last": "16900"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Angulo",
+                                    "ce:indexed-name": "Angulo I."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rodrìguez-Gil",
+                                    "ce:indexed-name": "Rodriguez-Gil L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Garcìa-Zubìa",
+                                    "ce:indexed-name": "Garcia-Zubia J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Access"
+                        },
+                        "ce:source-text": "I. Angulo, L. Rodrìguez-Gil and J. Garcìa-Zubìa, \"Scaling up the lab: An adaptable and scalable architecture for embedded systems remote labs,\" IEEE Access, 6, pp. 16887-16900, 2018."
+                    },
+                    {
+                        "ref-fulltext": "H. Koziolek, S. Gruner and J. Ruckert, \"A comparison of MQTT brokers for distributed IoT edge computing,\" Software Architecture. ECSA 2020. Lecture Notes in Computer Science, 12292, pp. 352- 368, 2020.",
+                        "@reference-instance-id": "OB2BibRecID-949710289-3d8fe25bb75df931cdb425e9322b502c-9",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "A comparison of MQTT brokers for distributed IoT edge computing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85091533719",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "352",
+                                "@last": "368"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koziolek",
+                                    "ce:indexed-name": "Koziolek H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gruner",
+                                    "ce:indexed-name": "Gruner S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ruckert",
+                                    "ce:indexed-name": "Ruckert J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Software Architecture. ECSA 2020. Lecture Notes in Computer Science, 12292"
+                        },
+                        "ce:source-text": "H. Koziolek, S. Gruner and J. Ruckert, \"A comparison of MQTT brokers for distributed IoT edge computing,\" Software Architecture. ECSA 2020. Lecture Notes in Computer Science, 12292, pp. 352- 368, 2020."
+                    },
+                    {
+                        "ref-fulltext": "F. A. Aslam, H. N. Mohammed and P. S. Lokhande, \"Efficient way of web development using python and flask,\" International Journal of Advanced Research in Computer Science, 6(2), pp. 54-57, 2015.",
+                        "@reference-instance-id": "OB2BibRecID-949710289-b44c5ba26a52f9a86a17aad149701a77-10",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Efficient way of web development using python and flask"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85073193007",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "6",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "54",
+                                    "@last": "57"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aslam",
+                                    "ce:indexed-name": "Aslam F.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mohammed",
+                                    "ce:indexed-name": "Mohammed H.N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lokhande",
+                                    "ce:indexed-name": "Lokhande P.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Journal of Advanced Research in Computer Science"
+                        },
+                        "ce:source-text": "F. A. Aslam, H. N. Mohammed and P. S. Lokhande, \"Efficient way of web development using python and flask,\" International Journal of Advanced Research in Computer Science, 6(2), pp. 54-57, 2015."
+                    },
+                    {
+                        "ref-fulltext": "A. Al-Fuqaha, M. Guizani, M. Mohammadi, M. Aledhari and M. Ayyash, \"Internet of things: A survey on enabling technologies, protocols, and applications,\" Technovation, IEEE Communication Surveys and Tutorials, 17(4), pp. 2347-2376, 2015.",
+                        "@reference-instance-id": "OB2BibRecID-949710289-06d1ec4dd95bb0ce5f45f421c88389aa-11",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Internet of things: A survey on enabling technologies, protocols, and applications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84941085241",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "17",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "2347",
+                                    "@last": "2376"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Al-Fuqaha",
+                                    "ce:indexed-name": "Al-Fuqaha A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guizani",
+                                    "ce:indexed-name": "Guizani M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mohammadi",
+                                    "ce:indexed-name": "Mohammadi M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aledhari",
+                                    "ce:indexed-name": "Aledhari M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ayyash",
+                                    "ce:indexed-name": "Ayyash M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Technovation, IEEE Communication Surveys and Tutorials"
+                        },
+                        "ce:source-text": "A. Al-Fuqaha, M. Guizani, M. Mohammadi, M. Aledhari and M. Ayyash, \"Internet of things: A survey on enabling technologies, protocols, and applications,\" Technovation, IEEE Communication Surveys and Tutorials, 17(4), pp. 2347-2376, 2015."
+                    },
+                    {
+                        "ref-fulltext": "M. Poongothai, P. Muthu Subramanian and A. Rajeswari A., \"Design and implementation of IoT based smart laboratory,\" 2018 5th International Conference on Industrial Engineering and Applications, Apr 26, pp. 169-173, 2018.",
+                        "@reference-instance-id": "OB2BibRecID-949710289-979752024c3d9a874b99a1bb71103e29-12",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Design and implementation of IoT based smart laboratory"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85050120838",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "169",
+                                "@last": "173"
+                            }},
+                            "ref-text": "Apr 26",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Poongothai",
+                                    "ce:indexed-name": "Poongothai M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Subramanian",
+                                    "ce:indexed-name": "Subramanian P.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "A Rajeswari",
+                                    "ce:indexed-name": "A Rajeswari A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2018 5th International Conference on Industrial Engineering and Applications"
+                        },
+                        "ce:source-text": "M. Poongothai, P. Muthu Subramanian and A. Rajeswari A., \"Design and implementation of IoT based smart laboratory,\" 2018 5th International Conference on Industrial Engineering and Applications, Apr 26, pp. 169-173, 2018."
+                    },
+                    {
+                        "ref-fulltext": "Dropbox, I. N. C. \"Dropbox.\" http://www. dropbox. com. 2014.",
+                        "@reference-instance-id": "OB2BibRecID-949710289-89a89d36d78db1825ab87218656c3e76-13",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-website": {
+                                "websitename": "Dropbox",
+                                "ce:e-address": {
+                                    "$": "http://www.dropbox.com",
+                                    "@type": "email"
+                                }
+                            },
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85165720284",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-sourcetitle": "Dropbox, I. N. C"
+                        },
+                        "ce:source-text": "Dropbox, I. N. C. \"Dropbox.\" http://www. dropbox. com. 2014."
+                    },
+                    {
+                        "ref-fulltext": "G. Phanomchoeng, S. Chantranuwathana, and P. Charunyakorn. \"On-line ladle lining temperature estimation by using bounded jacobian nonlinear observer.\" Journal of Iron and Steel Research International. 23(8), pp. 792-799, 2016.",
+                        "@reference-instance-id": "OB2BibRecID-949710289-095d7cbb2b9a63190b4a0d3ffe696d48-14",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "On-line ladle lining temperature estimation by using bounded jacobian nonlinear observer"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84998978765",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "23",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "792",
+                                    "@last": "799"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Phanomchoeng",
+                                    "ce:indexed-name": "Phanomchoeng G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chantranuwathana",
+                                    "ce:indexed-name": "Chantranuwathana S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Charunyakorn",
+                                    "ce:indexed-name": "Charunyakorn P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Iron and Steel Research International."
+                        },
+                        "ce:source-text": "G. Phanomchoeng, S. Chantranuwathana, and P. Charunyakorn. \"On-line ladle lining temperature estimation by using bounded jacobian nonlinear observer.\" Journal of Iron and Steel Research International. 23(8), pp. 792-799, 2016."
+                    },
+                    {
+                        "ref-fulltext": "G. Phanomchoeng, A. Zemouche, W. Jeon, R. Rajamani, and F. Mazenc. \"Observer for Descriptor Nonlinear Systems with Nonlinear Output Equations.\" In 2018 Annual American Control Conference (ACC). pp. 5952-5956. IEEE, 2018.",
+                        "@reference-instance-id": "OB2BibRecID-949710289-e631820c65d99bdaf693bc02b523d0e8-15",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Observer for descriptor nonlinear systems with nonlinear output equations"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85052586247",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "5952",
+                                "@last": "5956"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Phanomchoeng",
+                                    "ce:indexed-name": "Phanomchoeng G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zemouche",
+                                    "ce:indexed-name": "Zemouche A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jeon",
+                                    "ce:indexed-name": "Jeon W."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rajamani",
+                                    "ce:indexed-name": "Rajamani R."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mazenc",
+                                    "ce:indexed-name": "Mazenc F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2018 Annual American Control Conference (ACC)."
+                        },
+                        "ce:source-text": "G. Phanomchoeng, A. Zemouche, W. Jeon, R. Rajamani, and F. Mazenc. \"Observer for Descriptor Nonlinear Systems with Nonlinear Output Equations.\" In 2018 Annual American Control Conference (ACC). pp. 5952-5956. IEEE, 2018."
+                    },
+                    {
+                        "ref-fulltext": "A. Parnianifard, R. Chancharoen, G. Phanomchoeng, and L. Wuttisittikulkij. \"A new approach for low-dimensional constrained engineering design optimization using design and analysis of simulation experiments.\" International Journal of Computational Intelligence Systems 13, no. 1, 1663, 2022.",
+                        "@reference-instance-id": "OB2BibRecID-949710289-5747665cad7250f132839cf145abd07d-16",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-title": {"ref-titletext": "A new approach for low-dimensional constrained engineering design optimization using design and analysis of simulation experiments"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85098204649",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "13",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {"@first": "1663"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Parnianifard",
+                                    "ce:indexed-name": "Parnianifard A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chancharoen",
+                                    "ce:indexed-name": "Chancharoen R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Phanomchoeng",
+                                    "ce:indexed-name": "Phanomchoeng G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wuttisittikulkij",
+                                    "ce:indexed-name": "Wuttisittikulkij L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Journal of Computational Intelligence Systems"
+                        },
+                        "ce:source-text": "A. Parnianifard, R. Chancharoen, G. Phanomchoeng, and L. Wuttisittikulkij. \"A new approach for low-dimensional constrained engineering design optimization using design and analysis of simulation experiments.\" International Journal of Computational Intelligence Systems 13, no. 1, 1663, 2022."
+                    },
+                    {
+                        "ref-fulltext": "G. Phanomchoeng, R. Rajamani, and D. Piyabongkarn. \"Real-time automotive slip angle estimation with nonlinear observer.\" In Proceedings of the 2011 American Control Conference. pp. 3942- 3947. IEEE, 2011.",
+                        "@reference-instance-id": "OB2BibRecID-949710289-62e1f07bda233bac94a09322161acc59-17",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Real-time automotive slip angle estimation with nonlinear observer"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "80053148145",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3942",
+                                "@last": "3947"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Phanomchoeng",
+                                    "ce:indexed-name": "Phanomchoeng G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rajamani",
+                                    "ce:indexed-name": "Rajamani R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Piyabongkarn",
+                                    "ce:indexed-name": "Piyabongkarn D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2011 American Control Conference"
+                        },
+                        "ce:source-text": "G. Phanomchoeng, R. Rajamani, and D. Piyabongkarn. \"Real-time automotive slip angle estimation with nonlinear observer.\" In Proceedings of the 2011 American Control Conference. pp. 3942- 3947. IEEE, 2011."
+                    },
+                    {
+                        "ref-fulltext": "S. Chaudhary S, L. Wuttisittikulkij, M. Saadi, A. Sharma,S. Al Otaibi, J. Nebhen, D.Z. Rodriguez, S. Kumar, V. Sharma, G. Phanomchoeng, R. Chancharoen, \"Coherent detection-based photonic radar for autonomous vehicles under diverse weather conditions.\" PLoS one. 2021 Nov 15;16(11):e0259438, 2021.",
+                        "@reference-instance-id": "OB2BibRecID-949710289-969a3f4af4ef7562f65f18545d5079a9-18",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Coherent detection-based photonic radar for autonomous vehicles under diverse weather conditions"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "e0259438",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "85119298877",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "16",
+                                "@issue": "11"
+                            }},
+                            "ref-text": "Nov 15",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "S Chaudhary",
+                                    "ce:indexed-name": "S Chaudhary S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wuttisittikulkij",
+                                    "ce:indexed-name": "Wuttisittikulkij L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Saadi",
+                                    "ce:indexed-name": "Saadi M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sharma",
+                                    "ce:indexed-name": "Sharma A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Otaibi",
+                                    "ce:indexed-name": "Otaibi S.A."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nebhen",
+                                    "ce:indexed-name": "Nebhen J."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "D.Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rodriguez",
+                                    "ce:indexed-name": "Rodriguez D.Z."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kumar",
+                                    "ce:indexed-name": "Kumar S."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sharma",
+                                    "ce:indexed-name": "Sharma V."
+                                },
+                                {
+                                    "@seq": "10",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Phanomchoeng",
+                                    "ce:indexed-name": "Phanomchoeng G."
+                                },
+                                {
+                                    "@seq": "11",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chancharoen",
+                                    "ce:indexed-name": "Chancharoen R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "PLoS one. 2021"
+                        },
+                        "ce:source-text": "S. Chaudhary S, L. Wuttisittikulkij, M. Saadi, A. Sharma,S. Al Otaibi, J. Nebhen, D.Z. Rodriguez, S. Kumar, V. Sharma, G. Phanomchoeng, R. Chancharoen, \"Coherent detection-based photonic radar for autonomous vehicles under diverse weather conditions.\" PLoS one. 2021 Nov 15;16(11):e0259438, 2021."
+                    },
+                    {
+                        "ref-fulltext": "J. Thongprasith, P. Separattananan, P. Meyer, R. Chancharoen, \"Portioning Algorithm Using the Bisection Method for Slicing Food\", presented at the 5th International Congress on Human- Computer Interaction, Optimization and Robotic Applications, Istanbul, Turkey, Jun. 8-10, 2023.",
+                        "@reference-instance-id": "OB2BibRecID-949710289-15bdc6d366e812fdf5a0a7a393357ea6-19",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2023"},
+                            "ref-title": {"ref-titletext": "Portioning algorithm using the bisection method for slicing food"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85165631196",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Istanbul, Turkey, Jun. 8-10,.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thongprasith",
+                                    "ce:indexed-name": "Thongprasith J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Separattananan",
+                                    "ce:indexed-name": "Separattananan P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Meyer",
+                                    "ce:indexed-name": "Meyer P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chancharoen",
+                                    "ce:indexed-name": "Chancharoen R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "5th International Congress on Human- Computer Interaction, Optimization and Robotic Applications"
+                        },
+                        "ce:source-text": "J. Thongprasith, P. Separattananan, P. Meyer, R. Chancharoen, \"Portioning Algorithm Using the Bisection Method for Slicing Food\", presented at the 5th International Congress on Human- Computer Interaction, Optimization and Robotic Applications, Istanbul, Turkey, Jun. 8-10, 2023."
+                    },
+                    {
+                        "ref-fulltext": "P. Separattananan, J. Thongprasith, P. Meyer, R. Chancharoen, \"Design of the Robot Application for Slicing Food into EqualMass Slices\", presented at the 5th International Congress on HumanComputer Interaction, Optimization and Robotic Applications, Istanbul, Turkey, Jun. 8-10, 2023.",
+                        "@reference-instance-id": "OB2BibRecID-949710289-42bbf9f420efca7cb404ab2c7005e4e1-20",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2023"},
+                            "ref-title": {"ref-titletext": "Design of the robot application for slicing food into equalmass slices"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85165622232",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Istanbul, Turkey, Jun. 8-10,.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Separattananan",
+                                    "ce:indexed-name": "Separattananan P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thongprasith",
+                                    "ce:indexed-name": "Thongprasith J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Meyer",
+                                    "ce:indexed-name": "Meyer P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chancharoen",
+                                    "ce:indexed-name": "Chancharoen R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "5th International Congress on HumanComputer Interaction, Optimization and Robotic Applications"
+                        },
+                        "ce:source-text": "P. Separattananan, J. Thongprasith, P. Meyer, R. Chancharoen, \"Design of the Robot Application for Slicing Food into EqualMass Slices\", presented at the 5th International Congress on HumanComputer Interaction, Optimization and Robotic Applications, Istanbul, Turkey, Jun. 8-10, 2023."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Bangkok",
+        "@id": "60028190",
+        "affilname": "Chulalongkorn University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+        "affiliation-country": "Thailand"
+    },
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85165653688",
+        "dc:description": "This paper presents the development of a web application for teleoperation in the context of the food industry, leveraging a Flask python web framework for server, Socket.IO for real-time communication, MQTT for efficient data exchange, and Dropbox for secure data storage. The web application provides remote operation, real-time monitoring capabilities for a plant and data storing. The system consists of three main components: the main server, acting as a bridge between the web client and the plant's controller; the web client, offering a user-friendly interface and communicate with the main server; and the plant's controller, responsible for controlling the plant's operations and communication with main server. The system was successfully integrated with cutting of food items application featuring a Cartesian robot and a depth camera controlled by a Raspberry Pi 4. The web application enables users to initiate plant operations, visualize generated images, stream camera frames, and monitor the robot's position in real-time. Moreover, the system stores essential data such as point cloud arrays, 3D point cloud images, and object volumes in Dropbox. The system's advantages include Python implementation, web-based accessibility, seamless integration with the IoT ecosystem, adaptability to digital twin concepts, and efficient data storage. Overall, the teleoperating system significant benefits to the food industry, including enhanced precision, improved efficiency, seamless integration with the IoT ecosystem, and reliable data storage and analysis. By leveraging these advantages, food processing operations can achieve higher quality standards, increased productivity, and more informed decision-making, ultimately leading to improved customer satisfaction and business success.",
+        "prism:coverDate": "2023-01-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85165653688",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Phumrapee",
+            "preferred-name": {
+                "ce:given-name": "Phumrapee",
+                "ce:initials": "P.",
+                "ce:surname": "Meyer",
+                "ce:indexed-name": "Meyer P."
+            },
+            "@seq": "1",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Meyer",
+            "@auid": "58504307200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58504307200",
+            "ce:indexed-name": "Meyer P."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85165653688"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85165653688&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85165653688&origin=inward"
+            }
+        ],
+        "prism:isbn": "9798350337525",
+        "prism:publicationName": "HORA 2023 - 2023 5th International Congress on Human-Computer Interaction, Optimization and Robotic Applications, Proceedings",
+        "source-id": "21101167202",
+        "citedby-count": "2",
+        "subtype": "cp",
+        "dc:title": "Web-Based Teleoperation System for Enhanced Precision and Efficiency in Food Industry Applications",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/HORA58378.2023.10156734",
+        "publishercopyright": "© 2023 IEEE.",
+        "dc:identifier": "SCOPUS_ID:85165653688",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Data storage",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Food industries",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "IoT",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Plant operations",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Seamless integration",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Teleoperating",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "WEB application",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Web applications",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Web based",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Web clients",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Food Industry"
+        },
+        {
+            "@_fa": "true",
+            "$": "IoT"
+        },
+        {
+            "@_fa": "true",
+            "$": "Teleoperating"
+        },
+        {
+            "@_fa": "true",
+            "$": "Web Application"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Artificial Intelligence",
+            "@code": "1702",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Vision and Pattern Recognition",
+            "@code": "1707",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Control and Optimization",
+            "@code": "2606",
+            "@abbrev": "MATH"
+        },
+        {
+            "@_fa": "true",
+            "$": "Instrumentation",
+            "@code": "3105",
+            "@abbrev": "PHYS"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Phumrapee",
+            "preferred-name": {
+                "ce:given-name": "Phumrapee",
+                "ce:initials": "P.",
+                "ce:surname": "Meyer",
+                "ce:indexed-name": "Meyer P."
+            },
+            "@seq": "1",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Meyer",
+            "@auid": "58504307200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58504307200",
+            "ce:indexed-name": "Meyer P."
+        },
+        {
+            "ce:given-name": "Poom",
+            "preferred-name": {
+                "ce:given-name": "Poom",
+                "ce:initials": "P.",
+                "ce:surname": "Separattananan",
+                "ce:indexed-name": "Separattananan P."
+            },
+            "@seq": "2",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Separattananan",
+            "@auid": "58504037200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58504037200",
+            "ce:indexed-name": "Separattananan P."
+        },
+        {
+            "ce:given-name": "Jetnipat",
+            "preferred-name": {
+                "ce:given-name": "Jetnipat",
+                "ce:initials": "J.",
+                "ce:surname": "Thongprasith",
+                "ce:indexed-name": "Thongprasith J."
+            },
+            "@seq": "3",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Thongprasith",
+            "@auid": "58505668200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58505668200",
+            "ce:indexed-name": "Thongprasith J."
+        },
+        {
+            "ce:given-name": "Chawaphon",
+            "preferred-name": {
+                "ce:given-name": "Chawaphon",
+                "ce:initials": "C.",
+                "ce:surname": "Payattapong",
+                "ce:indexed-name": "Payattapong C."
+            },
+            "@seq": "4",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Payattapong",
+            "@auid": "58504850900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58504850900",
+            "ce:indexed-name": "Payattapong C."
+        },
+        {
+            "ce:given-name": "Ratchatin",
+            "preferred-name": {
+                "ce:given-name": "Ratchatin",
+                "ce:initials": "R.",
+                "ce:surname": "Chancharoen",
+                "ce:indexed-name": "Chancharoen R."
+            },
+            "@seq": "5",
+            "ce:initials": "R.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Chancharoen",
+            "@auid": "36170214000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/36170214000",
+            "ce:indexed-name": "Chancharoen R."
+        }
+    ]}
+}}

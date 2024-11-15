@@ -1,0 +1,2258 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "07",
+                "@year": "2020",
+                "@timestamp": "2020-02-07T05:14:07.000007-05:00",
+                "@month": "02"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2018",
+                "@month": "09"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "Chulalongkorn University",
+                    "xocs:funding-agency-acronym": "CU",
+                    "xocs:funding-agency": "Chulalongkorn University",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002873",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Thailand Research Fund",
+                    "xocs:funding-agency-acronym": "TRF",
+                    "xocs:funding-agency": "Thailand Research Fund",
+                    "xocs:funding-id": "RTA6080013",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004396",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Prince of Songkla University",
+                    "xocs:funding-agency-acronym": "PSU",
+                    "xocs:funding-agency": "Prince of Songkla University",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004508",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-02-03T15:41:51.947230Z",
+            "xocs:funding-text": "This work was partially supported by the 90th anniversary of Chulalongkorn University Fund ( Ratchadaphiseksomphot Endowment Fund ); PhD scholarship granted by Prince of Songkla University , Thailan; and Thailand Research Fund under grant number RTA6080013 .",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "postal-code": "10330",
+                        "@afid": "60028190",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Advanced Virtual and Intelligent Computing (AVIC) Center"},
+                            {"$": "Department of Mathematics and Computer Science"},
+                            {"$": "Faculty of Science"},
+                            {"$": "Chulalongkorn University"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60028190",
+                            "@dptid": "113870560"
+                        },
+                        "@affiliation-instance-id": "S0169023X17301027-a39e8d48642db94aa4d5eb77150d38ca",
+                        "@dptid": "113870560"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Niwan",
+                            "preferred-name": {
+                                "ce:given-name": "Niwan",
+                                "ce:initials": "N.",
+                                "ce:surname": "Wattanakitrungroj",
+                                "ce:indexed-name": "Wattanakitrungroj N."
+                            },
+                            "@seq": "1",
+                            "@author-instance-id": "S0169023X17301027-7bd5ee52b26b3ff6e044fcc6dce79b71",
+                            "ce:initials": "N.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Wattanakitrungroj",
+                            "@auid": "24765732900",
+                            "ce:indexed-name": "Wattanakitrungroj N."
+                        },
+                        {
+                            "ce:given-name": "Saranya",
+                            "preferred-name": {
+                                "ce:given-name": "Saranya",
+                                "ce:initials": "S.",
+                                "ce:surname": "Maneeroj",
+                                "ce:indexed-name": "Maneeroj S."
+                            },
+                            "@seq": "2",
+                            "@author-instance-id": "S0169023X17301027-20e0692ea67b9698c3759185121f5860",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Maneeroj",
+                            "@auid": "24081010600",
+                            "ce:indexed-name": "Maneeroj S."
+                        },
+                        {
+                            "ce:given-name": "Chidchanok",
+                            "preferred-name": {
+                                "ce:given-name": "Chidchanok",
+                                "ce:initials": "C.",
+                                "ce:surname": "Lursinsap",
+                                "ce:indexed-name": "Lursinsap C."
+                            },
+                            "@seq": "3",
+                            "@author-instance-id": "S0169023X17301027-bf297644de0085a9c6c909fdf268a1a5",
+                            "ce:initials": "C.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Lursinsap",
+                            "@auid": "55396044200",
+                            "ce:indexed-name": "Lursinsap C."
+                        }
+                    ]
+                },
+                "citation-title": "BEstream: Batch Capturing with Elliptic Function for One-Pass Data Stream Clustering",
+                "abstracts": "© 2018 Elsevier B.V.Tremendous data have been generated in forms of streaming data and various distributions in most applications in different areas such as business, science, engineering, and medicine. This creates a new problem of space and time complexities where the incoming data can overflow the memory of an analysing machine and the flow of data may contain some scattered portions of data from different clusters. This situation leads to the incorrect clustering results. The challenge of the clustering on streaming data is clustering the data which continuously growing, unstable, and non-existent from time to time. This paper proposed the concept of discard-after-cluster based on the structure of adaptive hyper-elliptic micro-cluster components. Instead of gradually including each datum into its true cluster, a newly proposed set of algorithms capture the data in forms streaming batch and identify the cluster afterwards. The number of micro-clusters can be increased or decreased according to the dynamical distribution of incoming data as well as the overlap conditions of micro-clusters. A set of new recursive functions for updating parameters, checking overlap conditions, removing micro-clusters, and merging micro-clusters after discarding previously clustered data were introduced. The proposed algorithm was tested on synthetic and real data sets. The elliptic-micro-cluster structure is more suitable for capturing data than the other structures in the compared previous methods. In addition, our method named BEstream showed the more efficient results than the previous data stream clustering algorithms based on the rand index and normalized mutual information measures.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "postal-code": "10330",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Advanced Virtual and Intelligent Computing (AVIC) Center"},
+                            {"$": "Department of Mathematics and Computer Science"},
+                            {"$": "Faculty of Science"},
+                            {"$": "Chulalongkorn University"}
+                        ]
+                    },
+                    "person": {
+                        "ce:given-name": "Niwan",
+                        "ce:initials": "N.",
+                        "ce:surname": "Wattanakitrungroj",
+                        "ce:indexed-name": "Wattanakitrungroj N."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Data stream clustering",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Elliptic-micro-cluster",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "One-pass learning",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "codencode": "DKENE",
+                    "sourcetitle-abbrev": "Data Knowl Eng",
+                    "@country": "nld",
+                    "translated-sourcetitle": {
+                        "$": "Data and Knowledge Engineering",
+                        "@xml:lang": "eng"
+                    },
+                    "issn": {
+                        "$": "0169023X",
+                        "@type": "print"
+                    },
+                    "volisspag": {
+                        "voliss": {"@volume": "117"},
+                        "pagerange": {
+                            "@first": "53",
+                            "@last": "70"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2018"},
+                    "publisher": {"publishername": "Elsevier B.V."},
+                    "sourcetitle": "Data and Knowledge Engineering",
+                    "@srcid": "24437",
+                    "publicationdate": {
+                        "month": "09",
+                        "year": "2018",
+                        "date-text": "September 2018",
+                        "day": "01"
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": "1802"
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "DECI"
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This work was partially supported by the 90th anniversary of Chulalongkorn University Fund (Ratchadaphiseksomphot Endowment Fund); PhD scholarship granted by Prince of Songkla University, Thailan; and Thailand Research Fund under grant number RTA6080013.",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": [
+                        {
+                            "grant-acronym": "PSU",
+                            "grant-agency": {
+                                "@iso-code": "tha",
+                                "$": "Prince of Songkla University"
+                            },
+                            "grant-agency-id": "501100004508"
+                        },
+                        {
+                            "grant-id": "RTA6080013",
+                            "grant-acronym": "TRF",
+                            "grant-agency": {
+                                "@iso-code": "tha",
+                                "$": "Thailand Research Fund"
+                            },
+                            "grant-agency-id": "501100004396"
+                        }
+                    ]
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2018 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "17",
+                    "@year": "2018",
+                    "@timestamp": "BST 09:46:39",
+                    "@month": "10"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2000979436",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "911915130",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20183005610788",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20182231139",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "20182231140",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85050377983",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85050377983",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:pii": "S0169023X17301027",
+                    "ce:doi": "10.1016/j.datak.2018.07.002"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "32",
+                "reference": [
+                    {
+                        "ref-fulltext": "Luo, Q., Yan, X., Li, J., Peng, Y., DDEUDSC: a dynamic distance estimation using uncertain data stream clustering in mobile wireless sensor networks. Measurement 55 (2014), 423\u2013433, 10.1016/j.measurement.2014.05.040.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "DDEUDSC: a dynamic distance estimation using uncertain data stream clustering in mobile wireless sensor networks"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/j.measurement.2014.05.040",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib1",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84904157259",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "55"},
+                                "pagerange": {
+                                    "@first": "423",
+                                    "@last": "433"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Luo",
+                                    "ce:indexed-name": "Luo Q."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yan",
+                                    "ce:indexed-name": "Yan X."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peng",
+                                    "ce:indexed-name": "Peng Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Measurement"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "da Silva, A., Chiky, R., Hébrail, G., A clustering approach for sampling data streams in sensor networks. Knowl. Inf. Syst. 32:1 (2012), 1\u201323, 10.1007/s10115-011-0448-7.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "A clustering approach for sampling data streams in sensor networks"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/s10115-011-0448-7",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib2",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84862701443",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "32",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "23"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "da Silva",
+                                    "ce:indexed-name": "da Silva A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chiky",
+                                    "ce:indexed-name": "Chiky R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hébrail",
+                                    "ce:indexed-name": "Hebrail G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Knowl. Inf. Syst."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Park, N.H., Oh, S.H., Lee, W.S., Anomaly intrusion detection by clustering transactional audit streams in a host computer. Inf. Sci. 180:12 (2010), 2375\u20132389, 10.1016/j.ins.2010.03.001.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Anomaly intrusion detection by clustering transactional audit streams in a host computer"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/j.ins.2010.03.001",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib3",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "77950298520",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "180",
+                                    "@issue": "12"
+                                },
+                                "pagerange": {
+                                    "@first": "2375",
+                                    "@last": "2389"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Park",
+                                    "ce:indexed-name": "Park N.H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oh",
+                                    "ce:indexed-name": "Oh S.H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee W.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Inf. Sci."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Wang, W., Guyet, T., Quiniou, R., Cordier, M.-O., Masseglia, F., Zhang, X., Autonomic intrusion detection: adaptively detecting anomalies over unlabeled audit data streams in computer networks. Knowl. Base Syst. 70 (2014), 103\u2013117, 10.1016/j.knosys.2014.06.018.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Autonomic intrusion detection: adaptively detecting anomalies over unlabeled audit data streams in computer networks"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/j.knosys.2014.06.018",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib4",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84908477169",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "70"},
+                                "pagerange": {
+                                    "@first": "103",
+                                    "@last": "117"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guyet",
+                                    "ce:indexed-name": "Guyet T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Quiniou",
+                                    "ce:indexed-name": "Quiniou R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.-O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cordier",
+                                    "ce:indexed-name": "Cordier M.-O."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Masseglia",
+                                    "ce:indexed-name": "Masseglia F."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Knowl. Base Syst."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Dragut, A., Stock data clustering and multiscale trend detection. Meth. Comput. Appl. Probab. 14:1 (2012), 87\u2013105, 10.1007/s11009-010-9186-7.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Stock data clustering and multiscale trend detection"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/s11009-010-9186-7",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib5",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84855715211",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "14",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "87",
+                                    "@last": "105"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "ce:surname": "Dragut",
+                                "ce:indexed-name": "Dragut A."
+                            }]},
+                            "ref-sourcetitle": "Meth. Comput. Appl. Probab."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Miller, Z., Dickinson, B., Deitrick, W., Hu, W., Wang, A.H., Twitter spammer detection using data stream clustering. Inf. Sci. 260 (2014), 64\u201373, 10.1016/j.ins.2013.11.016.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Twitter spammer detection using data stream clustering"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/j.ins.2013.11.016",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib6",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84891736632",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "260"},
+                                "pagerange": {
+                                    "@first": "64",
+                                    "@last": "73"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Miller",
+                                    "ce:indexed-name": "Miller Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dickinson",
+                                    "ce:indexed-name": "Dickinson B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Deitrick",
+                                    "ce:indexed-name": "Deitrick W."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu W."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "A.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang A.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Inf. Sci."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Lee, C.-H., Mining spatio-temporal information on microblogging streams using a density-based online clustering method. Expert Syst. Appl. 39:10 (2012), 9623\u20139641, 10.1016/j.eswa.2012.02.136.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Mining spatio-temporal information on microblogging streams using a density-based online clustering method"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/j.eswa.2012.02.136",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib7",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84862814748",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "39",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {
+                                    "@first": "9623",
+                                    "@last": "9641"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "C.-H.",
+                                "@_fa": "true",
+                                "ce:surname": "Lee",
+                                "ce:indexed-name": "Lee C.-H."
+                            }]},
+                            "ref-sourcetitle": "Expert Syst. Appl."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Guha, S., Meyerson, A., Mishra, N., Motwani, R., O'Callaghan, L., Clustering data streams: theory and practice. IEEE Trans. Knowl. Data Eng. 15:3 (2003), 515\u2013528, 10.1109/TKDE.2003.1198387.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Clustering data streams: theory and practice"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/TKDE.2003.1198387",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib8",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0038633423",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "15",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "515",
+                                    "@last": "528"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guha",
+                                    "ce:indexed-name": "Guha S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Meyerson",
+                                    "ce:indexed-name": "Meyerson A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mishra",
+                                    "ce:indexed-name": "Mishra N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Motwani",
+                                    "ce:indexed-name": "Motwani R."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "O'Callaghan",
+                                    "ce:indexed-name": "O'Callaghan L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Knowl. Data Eng."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Li, Y., Li, D., Wang, S., Zhai, Y., Incremental entropy-based clustering on categorical data streams with concept drift. Knowl. Base Syst. 59 (2014), 33\u201347, 10.1016/j.knosys.2014.02.004.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Incremental entropy-based clustering on categorical data streams with concept drift"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/j.knosys.2014.02.004",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib9",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84897638278",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "59"},
+                                "pagerange": {
+                                    "@first": "33",
+                                    "@last": "47"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhai",
+                                    "ce:indexed-name": "Zhai Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Knowl. Base Syst."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Chen, H.-L., Chen, M.-S., Lin, S.-C., Catching the trend: a framework for clustering concept-drifting categorical data. IEEE Trans. Knowl. Data Eng. 21:5 (2009), 652\u2013665, 10.1109/TKDE.2008.192.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Catching the trend: a framework for clustering concept-drifting categorical data"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/TKDE.2008.192",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib10",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "63449114954",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "21",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "652",
+                                    "@last": "665"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.-L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen H.-L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.-S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen M.-S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.-C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lin",
+                                    "ce:indexed-name": "Lin S.-C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Knowl. Data Eng."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "PhridviRaj, M.S.B., Srinivas, C., Rao, C.V.G., Clustering text data streams - a tree based approach with ternary function and ternary feature vector. Proceedings of the Second International Conference on Information Technology and Quantitative Management, 2014, 976\u2013984, 10.1016/j.procs.2014.05.350.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Clustering text data streams - a tree based approach with ternary function and ternary feature vector"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/j.procs.2014.05.350",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib11",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84902246002",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "976",
+                                "@last": "984"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.S.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "PhridviRaj",
+                                    "ce:indexed-name": "PhridviRaj M.S.B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Srinivas",
+                                    "ce:indexed-name": "Srinivas C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.V.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rao",
+                                    "ce:indexed-name": "Rao C.V.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Second International Conference on Information Technology and Quantitative Management"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Gong, L., Zeng, J., Zhang, S., Text stream clustering algorithm based on adaptive feature selection. Expert Syst. Appl. 38:3 (2011), 1393\u20131399, 10.1016/j.eswa.2010.07.041.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Text stream clustering algorithm based on adaptive feature selection"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/j.eswa.2010.07.041",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib12",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "78049530249",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "38",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "1393",
+                                    "@last": "1399"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gong",
+                                    "ce:indexed-name": "Gong L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zeng",
+                                    "ce:indexed-name": "Zeng J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Expert Syst. Appl."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Pereira, C., de Mello, R., TS-stream: clustering time series on data streams. J. Intell. Inf. Syst. 42:3 (2014), 531\u2013566, 10.1007/s10844-013-0290-3.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "TS-stream: clustering time series on data streams"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/s10844-013-0290-3",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib13",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84901632700",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "42",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "531",
+                                    "@last": "566"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pereira",
+                                    "ce:indexed-name": "Pereira C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "de Mello",
+                                    "ce:indexed-name": "de Mello R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Intell. Inf. Syst."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Rodrigues, P., Gama, J., Pedroso, J., Hierarchical clustering of time-series data streams. IEEE Trans. Knowl. Data Eng. 20:5 (2008), 615\u2013627, 10.1109/TKDE.2007.190727.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Hierarchical clustering of time-series data streams"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/TKDE.2007.190727",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib14",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "62449206329",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "20",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "615",
+                                    "@last": "627"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rodrigues",
+                                    "ce:indexed-name": "Rodrigues P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gama",
+                                    "ce:indexed-name": "Gama J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pedroso",
+                                    "ce:indexed-name": "Pedroso J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Knowl. Data Eng."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ding, S., Wu, F., Qian, J., Jia, H., Jin, F., Research on data stream clustering algorithms. Artif. Intell. Rev. 43:4 (2015), 593\u2013600, 10.1007/s10462-013-9398-7.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Research on data stream clustering algorithms"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/s10462-013-9398-7",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib15",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84924851551",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "43",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "593",
+                                    "@last": "600"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ding",
+                                    "ce:indexed-name": "Ding S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qian",
+                                    "ce:indexed-name": "Qian J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jia",
+                                    "ce:indexed-name": "Jia H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Artif. Intell. Rev."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Amini, A., Wah, T., Saboohi, H., On density-based data streams clustering algorithms: a survey. J. Comput. Sci. Technol. 29:1 (2014), 116\u2013141, 10.1007/s11390-014-1416-y.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "On density-based data streams clustering algorithms: a survey"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/s11390-014-1416-y",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib16",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84893276616",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "29",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "116",
+                                    "@last": "141"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Amini",
+                                    "ce:indexed-name": "Amini A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wah",
+                                    "ce:indexed-name": "Wah T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Saboohi",
+                                    "ce:indexed-name": "Saboohi H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Comput. Sci. Technol."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Lühr, S., Lazarescu, M., Incremental clustering of dynamic data streams using connectivity based representative points. Data Knowl. Eng. 68:1 (2009), 1\u201327, 10.1016/j.datak.2008.08.006.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Incremental clustering of dynamic data streams using connectivity based representative points"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/j.datak.2008.08.006",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib17",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "56249119506",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "68",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "27"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lühr",
+                                    "ce:indexed-name": "Luhr S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lazarescu",
+                                    "ce:indexed-name": "Lazarescu M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Data Knowl. Eng."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Gao, J., Li, J., Zhang, Z., Tan, P.-N., An incremental data stream clustering algorithm based on dense units detection. Proceedings of the 9th Pacific-Asia Conference on Advances in Knowledge Discovery and Data Mining, 2005, 420\u2013425, 10.1007/11430919_49.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "An incremental data stream clustering algorithm based on dense units detection"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/11430919_49",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib18",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "26944494130",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "420",
+                                "@last": "425"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gao",
+                                    "ce:indexed-name": "Gao J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Z."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.-N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tan",
+                                    "ce:indexed-name": "Tan P.-N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 9th Pacific-Asia Conference on Advances in Knowledge Discovery and Data Mining"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Wattanakitrungroj, N., Lursinsap, C., Memory-less unsupervised clustering for data streaming by versatile ellipsoidal function. Proceedings of the 20th ACM International Conference on Information and Knowledge Management, 2011, 967\u2013972, 10.1145/2063576.2063714.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Memory-less unsupervised clustering for data streaming by versatile ellipsoidal function"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/2063576.2063714",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib19",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "83055186986",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "967",
+                                "@last": "972"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wattanakitrungroj",
+                                    "ce:indexed-name": "Wattanakitrungroj N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lursinsap",
+                                    "ce:indexed-name": "Lursinsap C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 20th ACM International Conference on Information and Knowledge Management"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Daniel, B., Requirements for clustering data streams. ACM SIGKDD Explor. Newslett. 3:2 (2002), 23\u201327, 10.1145/507515.507519.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Requirements for clustering data streams"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/507515.507519",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib20",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0038205905",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "3",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "23",
+                                    "@last": "27"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "B.",
+                                "@_fa": "true",
+                                "ce:surname": "Daniel",
+                                "ce:indexed-name": "Daniel B."
+                            }]},
+                            "ref-sourcetitle": "ACM SIGKDD Explor. Newslett."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Arthur, D., Vassilvitskii, S., K-means++: the advantages of careful seeding. Proceedings of the Eighteenth Annual ACM-SIAM Symposium on Discrete Algorithms, SODA \u201807, 2007, 1027\u20131035.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "K-means++: the advantages of careful seeding"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib21",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84969135721",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1027",
+                                "@last": "1035"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Arthur",
+                                    "ce:indexed-name": "Arthur D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vassilvitskii",
+                                    "ce:indexed-name": "Vassilvitskii S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Eighteenth Annual ACM-SIAM Symposium on Discrete Algorithms, SODA \u201807"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ghesmoune, M., Azzag, H., Lebbah, M., G-stream: growing neural gas over data stream. Neural Information Processing - 21st International Conference, ICONIP 2014, Kuching, Malaysia, 2014, 207\u2013214, 10.1007/978-3-319-12637-1_26.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "G-stream: growing neural gas over data stream"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/978-3-319-12637-1_26",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib22",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84921324549",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "207",
+                                "@last": "214"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ghesmoune",
+                                    "ce:indexed-name": "Ghesmoune M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Azzag",
+                                    "ce:indexed-name": "Azzag H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lebbah",
+                                    "ce:indexed-name": "Lebbah M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neural Information Processing - 21st International Conference, ICONIP 2014, Kuching, Malaysia"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Park, N.H., Lee, W.S., Cell trees: an adaptive synopsis structure for clustering multi-dimensional on-line data streams. Data Knowl. Eng. 63:2 (2007), 528\u2013549, 10.1016/j.datak.2007.04.003.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Cell trees: an adaptive synopsis structure for clustering multi-dimensional on-line data streams"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/j.datak.2007.04.003",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib23",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "34447276480",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "63",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "528",
+                                    "@last": "549"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Park",
+                                    "ce:indexed-name": "Park N.H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee W.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Data Knowl. Eng."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Tu, L., Chen, Y., Stream data clustering based on grid density and attraction. ACM Trans. Knowl. Discov. Data 3:3 (2009), 12:1\u201312:27, 10.1145/1552303.1552305.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Stream data clustering based on grid density and attraction"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/1552303.1552305",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib24",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "73349087457",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "3",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "121",
+                                    "@last": "12:27"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tu",
+                                    "ce:indexed-name": "Tu L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Knowl. Discov. Data"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Aggarwal, C.C., Han, J., Wang, J., Yu, P.S., A framework for clustering evolving data streams. Proceedings of the 29th International Conference on Very Large Data Bases, 2003, 81\u201392, 10.1016/B978-012722442-8/50016-1.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "A framework for clustering evolving data streams"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/B978-012722442-8/50016-1",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib25",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85012236181",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "81",
+                                "@last": "92"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aggarwal",
+                                    "ce:indexed-name": "Aggarwal C.C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Han",
+                                    "ce:indexed-name": "Han J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu P.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 29th International Conference on Very Large Data Bases"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Cao, F., Ester, M., Qian, W., Zhou, A., Density-based clustering over an evolving data stream with noise. SIAM International Conference on Data Mining, 2006, 328\u2013339, 10.1137/1.9781611972764.29.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Density-based clustering over an evolving data stream with noise"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1137/1.9781611972764.29",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib26",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "33745434639",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "328",
+                                "@last": "339"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cao",
+                                    "ce:indexed-name": "Cao F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ester",
+                                    "ce:indexed-name": "Ester M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qian",
+                                    "ce:indexed-name": "Qian W."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "SIAM International Conference on Data Mining"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Kranen, P., Assent, I., Baldauf, C., Seidl, T., The ClusTree: indexing micro-clusters for anytime stream mining. Knowl. Inf. Syst. 29:2 (2011), 249\u2013272, 10.1007/s10115-010-0342-8.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "The ClusTree: indexing micro-clusters for anytime stream mining"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/s10115-010-0342-8",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib27",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "80053927938",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "29",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "249",
+                                    "@last": "272"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kranen",
+                                    "ce:indexed-name": "Kranen P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Assent",
+                                    "ce:indexed-name": "Assent I."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Baldauf",
+                                    "ce:indexed-name": "Baldauf C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Seidl",
+                                    "ce:indexed-name": "Seidl T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Knowl. Inf. Syst."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Hahsler, M., Dunham, M.H., remm: extensible markov model for data stream clustering in r. J. Stat. Software, 35(5), 2010, 10.18637/jss.v035.i05.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "remm: extensible markov model for data stream clustering in r"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.18637/jss.v035.i05",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib28",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "77955150621",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "35",
+                                "@issue": "5"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hahsler",
+                                    "ce:indexed-name": "Hahsler M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dunham",
+                                    "ce:indexed-name": "Dunham M.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Stat. Software"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Kriegel, H.-P., Kröger, P., Ntouts, I., Zimek, A., Density based subspace clustering over dynamic data. Proceedings of the 23rd International Conference on Scientific and Statistical Database Management, 2011, 387\u2013404, 10.1007/978-3-642-22351-8_24.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Density based subspace clustering over dynamic data"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/978-3-642-22351-8_24",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib29",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "79961204635",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "387",
+                                "@last": "404"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.-P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kriegel",
+                                    "ce:indexed-name": "Kriegel H.-P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kröger",
+                                    "ce:indexed-name": "Kroger P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ntouts",
+                                    "ce:indexed-name": "Ntouts I."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zimek",
+                                    "ce:indexed-name": "Zimek A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 23rd International Conference on Scientific and Statistical Database Management"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Aggarwal, C.C., Han, J., Wang, J., Yu, P.S., On high dimensional projected clustering of data streams. Data Min. Knowl. Discov. 10:3 (2005), 251\u2013273, 10.1007/s10618-005-0645-7.",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "On high dimensional projected clustering of data streams"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/s10618-005-0645-7",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib30",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "22044440960",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "10",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "251",
+                                    "@last": "273"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aggarwal",
+                                    "ce:indexed-name": "Aggarwal C.C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Han",
+                                    "ce:indexed-name": "Han J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu P.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Data Min. Knowl. Discov."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ghesmoune, M., Lebbah, M., Azzag, H., State-of-the-art on clustering data streams. Big Data Anal., 1(1), 2016, 13, 10.1186/s41044-016-0011-3.",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "State-of-the-art on clustering data streams"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1186/s41044-016-0011-3",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib31",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85030535450",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "1",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {"@first": "13"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ghesmoune",
+                                    "ce:indexed-name": "Ghesmoune M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lebbah",
+                                    "ce:indexed-name": "Lebbah M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Azzag",
+                                    "ce:indexed-name": "Azzag H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Big Data Anal."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Bifet, A., Holmes, G., Pfahringer, B., Kranen, P., Kremer, H., Jansen, T., Seidl, T., Moa: Massive Online Analysis, a Framework for Stream Classification and Clustering, vol. 11, 2010, 44\u201350.",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib32",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "80052404172",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "11"},
+                                "pagerange": {
+                                    "@first": "44",
+                                    "@last": "50"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bifet",
+                                    "ce:indexed-name": "Bifet A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Holmes",
+                                    "ce:indexed-name": "Holmes G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pfahringer",
+                                    "ce:indexed-name": "Pfahringer B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kranen",
+                                    "ce:indexed-name": "Kranen P."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kremer",
+                                    "ce:indexed-name": "Kremer H."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jansen",
+                                    "ce:indexed-name": "Jansen T."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Seidl",
+                                    "ce:indexed-name": "Seidl T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Moa: Massive Online Analysis, a Framework for Stream Classification and Clustering"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Bangkok",
+        "@id": "60028190",
+        "affilname": "Chulalongkorn University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+        "affiliation-country": "Thailand"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85050377983",
+        "dc:description": "Tremendous data have been generated in forms of streaming data and various distributions in most applications in different areas such as business, science, engineering, and medicine. This creates a new problem of space and time complexities where the incoming data can overflow the memory of an analysing machine and the flow of data may contain some scattered portions of data from different clusters. This situation leads to the incorrect clustering results. The challenge of the clustering on streaming data is clustering the data which continuously growing, unstable, and non-existent from time to time. This paper proposed the concept of discard-after-cluster based on the structure of adaptive hyper-elliptic micro-cluster components. Instead of gradually including each datum into its true cluster, a newly proposed set of algorithms capture the data in forms streaming batch and identify the cluster afterwards. The number of micro-clusters can be increased or decreased according to the dynamical distribution of incoming data as well as the overlap conditions of micro-clusters. A set of new recursive functions for updating parameters, checking overlap conditions, removing micro-clusters, and merging micro-clusters after discarding previously clustered data were introduced. The proposed algorithm was tested on synthetic and real data sets. The elliptic-micro-cluster structure is more suitable for capturing data than the other structures in the compared previous methods. In addition, our method named BEstream showed the more efficient results than the previous data stream clustering algorithms based on the rand index and normalized mutual information measures.",
+        "prism:coverDate": "2018-09-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85050377983",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Niwan",
+            "preferred-name": {
+                "ce:given-name": "Niwan",
+                "ce:initials": "N.",
+                "ce:surname": "Wattanakitrungroj",
+                "ce:indexed-name": "Wattanakitrungroj N."
+            },
+            "@seq": "1",
+            "ce:initials": "N.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Wattanakitrungroj",
+            "@auid": "24765732900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/24765732900",
+            "ce:indexed-name": "Wattanakitrungroj N."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85050377983"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85050377983&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85050377983&origin=inward"
+            }
+        ],
+        "source-id": "24437",
+        "pii": "S0169023X17301027",
+        "citedby-count": "5",
+        "prism:volume": "117",
+        "subtype": "ar",
+        "dc:title": "BEstream: Batch Capturing with Elliptic Function for One-Pass Data Stream Clustering",
+        "openaccess": "0",
+        "prism:issn": "0169023X",
+        "publishercopyright": "© 2018 Elsevier B.V.",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "Data and Knowledge Engineering",
+        "prism:pageRange": "53-70",
+        "prism:endingPage": "70",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1016/j.datak.2018.07.002",
+        "prism:startingPage": "53",
+        "dc:identifier": "SCOPUS_ID:85050377983",
+        "dc:publisher": "Elsevier B.V."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Clustering results",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Data stream clustering",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Elliptic functions",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Micro-clusters",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Normalized mutual information",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "One-pass",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Space and time complexity",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Synthetic and real data",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Data stream clustering"
+        },
+        {
+            "@_fa": "true",
+            "$": "Elliptic-micro-cluster"
+        },
+        {
+            "@_fa": "true",
+            "$": "One-pass learning"
+        }
+    ]},
+    "subject-areas": {"subject-area": [{
+        "@_fa": "true",
+        "$": "Information Systems and Management",
+        "@code": "1802",
+        "@abbrev": "DECI"
+    }]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Niwan",
+            "preferred-name": {
+                "ce:given-name": "Niwan",
+                "ce:initials": "N.",
+                "ce:surname": "Wattanakitrungroj",
+                "ce:indexed-name": "Wattanakitrungroj N."
+            },
+            "@seq": "1",
+            "ce:initials": "N.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Wattanakitrungroj",
+            "@auid": "24765732900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/24765732900",
+            "ce:indexed-name": "Wattanakitrungroj N."
+        },
+        {
+            "ce:given-name": "Saranya",
+            "preferred-name": {
+                "ce:given-name": "Saranya",
+                "ce:initials": "S.",
+                "ce:surname": "Maneeroj",
+                "ce:indexed-name": "Maneeroj S."
+            },
+            "@seq": "2",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Maneeroj",
+            "@auid": "24081010600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/24081010600",
+            "ce:indexed-name": "Maneeroj S."
+        },
+        {
+            "ce:given-name": "Chidchanok",
+            "preferred-name": {
+                "ce:given-name": "Chidchanok",
+                "ce:initials": "C.",
+                "ce:surname": "Lursinsap",
+                "ce:indexed-name": "Lursinsap C."
+            },
+            "@seq": "3",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Lursinsap",
+            "@auid": "55396044200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55396044200",
+            "ce:indexed-name": "Lursinsap C."
+        }
+    ]}
+}}

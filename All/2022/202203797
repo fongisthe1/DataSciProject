@@ -1,0 +1,2022 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "02",
+                "@year": "2023",
+                "@timestamp": "2023-07-02T22:12:23.000023-04:00",
+                "@month": "07"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2022",
+                "@month": "01"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "postal-code": "10330",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Chulalongkorn University"},
+                                {"$": "Faculty Of Science"},
+                                {"$": "Department Of Mathematics And Computer Science"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "113870560"
+                            },
+                            "@affiliation-instance-id": "2018727883-f28f5acbbce29e67ab690e5587e76cc5",
+                            "ce:source-text": "Chulalongkorn University, Faculty of Science, Department of Mathematics and Computer Science, Bangkok, Thailand, 10330",
+                            "@dptid": "113870560"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Chanapa",
+                                "preferred-name": {
+                                    "ce:given-name": "Chanapa",
+                                    "ce:initials": "C.",
+                                    "ce:surname": "Channarong",
+                                    "ce:indexed-name": "Channarong C."
+                                },
+                                "@seq": "1",
+                                "@author-instance-id": "2018727883-1f020852c9cc550e1eba8d0f3e0f46bc",
+                                "ce:initials": "C.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Channarong",
+                                "@auid": "57713412000",
+                                "@orcid": "0000-0001-5296-7449",
+                                "ce:indexed-name": "Channarong C."
+                            },
+                            {
+                                "ce:given-name": "Chawisa",
+                                "preferred-name": {
+                                    "ce:given-name": "Chawisa",
+                                    "ce:initials": "C.",
+                                    "ce:surname": "Paosirikul",
+                                    "ce:indexed-name": "Paosirikul C."
+                                },
+                                "@seq": "2",
+                                "@author-instance-id": "2018727883-7e91491eac6430cc331f95de42c74268",
+                                "ce:initials": "C.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Paosirikul",
+                                "@auid": "57712185300",
+                                "ce:indexed-name": "Paosirikul C."
+                            },
+                            {
+                                "ce:given-name": "Saranya",
+                                "preferred-name": {
+                                    "ce:given-name": "Saranya",
+                                    "ce:initials": "S.",
+                                    "ce:surname": "Maneeroj",
+                                    "ce:indexed-name": "Maneeroj S."
+                                },
+                                "@seq": "3",
+                                "@author-instance-id": "2018727883-e5dca55ad90c450e30d498532e07835f",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Maneeroj",
+                                "@auid": "24081010600",
+                                "@orcid": "0000-0003-3827-2549",
+                                "ce:indexed-name": "Maneeroj S."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Japan",
+                            "postal-code": "101-8430",
+                            "@afid": "60021523",
+                            "@country": "jpn",
+                            "city": "Tokyo",
+                            "organization": [
+                                {"$": "National Institute Of Informatics"},
+                                {"$": "The Graduate University For Advanced Studies"},
+                                {"$": "Sokendai"}
+                            ],
+                            "affiliation-id": [
+                                {"@afid": "60021523"},
+                                {"@afid": "60028928"}
+                            ],
+                            "@affiliation-instance-id": "2018727883-c2cc57da66b18a2a28952b425cf0cf94",
+                            "ce:source-text": "National Institute of Informatics, The Graduate University for Advanced Studies, SOKENDAI, Tokyo, Japan, 101-8430"
+                        },
+                        "author": [{
+                            "ce:given-name": "Atsuhiro",
+                            "preferred-name": {
+                                "ce:given-name": "Atsuhiro",
+                                "ce:initials": "A.",
+                                "ce:surname": "Takasu",
+                                "ce:indexed-name": "Takasu A."
+                            },
+                            "@seq": "4",
+                            "@author-instance-id": "2018727883-673ee3c471f741cc11f440cc19c4de2e",
+                            "ce:initials": "A.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Takasu",
+                            "@auid": "57195144555",
+                            "@orcid": "0000-0002-9061-7949",
+                            "ce:indexed-name": "Takasu A."
+                        }]
+                    }
+                ],
+                "citation-title": "HybridBERT4Rec: A Hybrid (Content-Based Filtering and Collaborative Filtering) Recommender System Based on BERT",
+                "abstracts": "© 2013 IEEE.Because a user's behavior depends mainly on the user's current interests, which can change over time, the sequential recommendation approach has become more prevalent in recommender systems. Many methods have been proposed that aim to model sequential recommendations. One of these is BERT4Rec, which applies the bidirectional-encoder-representations-from-transformers (BERT) technique to model user behavior sequences by considering the target user's historical data, i.e., a content-based filtering (CBF) approach. Despite BERT4Rec's effectiveness, we argue that considering only this historical data is insufficient to provide the most accurate recommendation. We believe that if BERT were to consider other users' interactions in its analysis, it would increase the model accuracy. Therefore, we propose a new method called HybridBERT4Rec, which applies BERT to both CBF and collaborative filtering (CF). For CBF, we want to extract the characteristics of the target user's interactions with purchased items. (We implement this in the same way as in BERT4Rec, with our model generating a target user profile.) For CF, we want to find neighboring users who are similar to the target user. Here, we extract the target item's characteristics using all other users who rated the target item as a second input to BERT. This generates a target item profile. After obtaining both profiles, we use them to predict a rating score. We experimented with three datasets, finding that our model was more accurate than the original BERT4Rec.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "postal-code": "10330",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Chulalongkorn University"},
+                            {"$": "Faculty Of Science"},
+                            {"$": "Department Of Mathematics And Computer Science"}
+                        ],
+                        "ce:source-text": "Chulalongkorn University, Faculty of Science, Department of Mathematics and Computer Science, Bangkok, Thailand, 10330"
+                    },
+                    "person": {
+                        "ce:given-name": "Saranya",
+                        "ce:initials": "S.",
+                        "ce:surname": "Maneeroj",
+                        "ce:indexed-name": "Maneeroj S."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "BERT",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Hybrid recommendation",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Recommender system",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Sequential recommendation",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "IEEE Access",
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639",
+                        "@type": "email"
+                    }},
+                    "@country": "usa",
+                    "translated-sourcetitle": {
+                        "$": "IEEE Access",
+                        "@xml:lang": "eng"
+                    },
+                    "issn": {
+                        "$": "21693536",
+                        "@type": "electronic"
+                    },
+                    "volisspag": {
+                        "voliss": {"@volume": "10"},
+                        "pagerange": {
+                            "@first": "56193",
+                            "@last": "56206"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2022"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "sourcetitle": "IEEE Access",
+                    "@srcid": "21100374601",
+                    "publicationdate": {
+                        "year": "2022",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2022"
+                        }
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "461.4",
+                                "classification-description": "Ergonomics and Human Factors Engineering"
+                            },
+                            {
+                                "classification-code": "723.1",
+                                "classification-description": "Computer Programming"
+                            },
+                            {
+                                "classification-code": "723.5",
+                                "classification-description": "Computer Applications"
+                            },
+                            {
+                                "classification-code": "903.1",
+                                "classification-description": "Information Sources and Analysis"
+                            },
+                            {
+                                "classification-code": "971",
+                                "classification-description": "Social Sciences"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1700"},
+                            {"$": "2500"},
+                            {"$": "2200"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "MATE"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2022 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "SNCPX"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "15",
+                    "@year": "2022",
+                    "@timestamp": "BST 02:08:20",
+                    "@month": "06"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2018468615",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "940513638",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20222212175308",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20221666859",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20221855113",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "2022065932",
+                            "@idtype": "SNCPX"
+                        },
+                        {
+                            "$": "20210017011681",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85130779972",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85130779972",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/ACCESS.2022.3177610"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "29",
+                "reference": [
+                    {
+                        "ref-fulltext": "K. D. Bollacker, S. Lawrence, and C. L. Giles, \"CiteSeer: An autonous web agent for automatic retrieval and identification of interesting publications, \" in Proc. 2nd Int. Conf. Auton. Agents (AGENTS), 1998, pp. 116-123.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "CiteSeer: An autonous web agent for automatic retrieval and identification of interesting publications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0031656348",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "116",
+                                "@last": "123"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bollacker",
+                                    "ce:indexed-name": "Bollacker K.D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lawrence",
+                                    "ce:indexed-name": "Lawrence S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Giles",
+                                    "ce:indexed-name": "Giles C.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 2nd Int. Conf. Auton. Agents (AGENTS)"
+                        },
+                        "ce:source-text": "K. D. Bollacker, S. Lawrence, and C. L. Giles, \"CiteSeer: An autonous web agent for automatic retrieval and identification of interesting publications, \" in Proc. 2nd Int. Conf. Auton. Agents (AGENTS), 1998, pp. 116-123."
+                    },
+                    {
+                        "ref-fulltext": "D. E. Rumelhart, G. E. Hinton, and R. J. Williams, \"Learning rep-resentations by back-propagating errors, \" Nature, vol. 323, no. 6088, pp. 533-536, 1986.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1986"},
+                            "ref-title": {"ref-titletext": "Learning rep-resentations by back-propagating errors"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0022471098",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "323",
+                                    "@issue": "6088"
+                                },
+                                "pagerange": {
+                                    "@first": "533",
+                                    "@last": "536"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rumelhart",
+                                    "ce:indexed-name": "Rumelhart D.E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hinton",
+                                    "ce:indexed-name": "Hinton G.E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Williams",
+                                    "ce:indexed-name": "Williams R.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Nature"
+                        },
+                        "ce:source-text": "D. E. Rumelhart, G. E. Hinton, and R. J. Williams, \"Learning rep-resentations by back-propagating errors, \" Nature, vol. 323, no. 6088, pp. 533-536, 1986."
+                    },
+                    {
+                        "ref-fulltext": "F. Yu, Q. Liu, S. Wu, L. Wang, and T. Tan, \"A dynamic recurrent model for next basket recommendation, \" in Proc. 39th Int. ACM SIGIR Conf. Res. Develop. Inf. Retr. Pisa, Italy: Association for Computing Machinery, Jul. 2016, pp. 729-732.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "A dynamic recurrent model for next basket recommendation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84980343543",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "729",
+                                "@last": "732"
+                            }},
+                            "ref-text": "Italy: Association for Computing Machinery, Jul.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Q."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang L."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tan",
+                                    "ce:indexed-name": "Tan T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 39th Int. ACM SIGIR Conf. Res. Develop. Inf. Retr. Pisa"
+                        },
+                        "ce:source-text": "F. Yu, Q. Liu, S. Wu, L. Wang, and T. Tan, \"A dynamic recurrent model for next basket recommendation, \" in Proc. 39th Int. ACM SIGIR Conf. Res. Develop. Inf. Retr. Pisa, Italy: Association for Computing Machinery, Jul. 2016, pp. 729-732."
+                    },
+                    {
+                        "ref-fulltext": "Q. Cui, S. Wu, Q. Liu, W. Zhong, and L. Wang, \"MV-RNN: A multi-view recurrent neural network for sequential recommendation, \" IEEE Trans. Knowl. Data Eng., vol. 32, no. 2, pp. 317-331, Feb. 2020.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "MV-RNN: A multi-view recurrent neural network for sequential recommendation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85056582227",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "32",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "317",
+                                    "@last": "331"
+                                }
+                            },
+                            "ref-text": "Feb.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cui",
+                                    "ce:indexed-name": "Cui Q."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Q."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhong",
+                                    "ce:indexed-name": "Zhong W."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Knowl. Data Eng."
+                        },
+                        "ce:source-text": "Q. Cui, S. Wu, Q. Liu, W. Zhong, and L. Wang, \"MV-RNN: A multi-view recurrent neural network for sequential recommendation, \" IEEE Trans. Knowl. Data Eng., vol. 32, no. 2, pp. 317-331, Feb. 2020."
+                    },
+                    {
+                        "ref-fulltext": "F. Sun, J. Liu, J. Wu, C. Pei, X. Lin, W. Ou, and P. Jiang, \"BERT4Rec: Sequential recommendation with bidirectional encoder representations from transformer, \" in Proc. 28th ACM Int. Conf. Inf. Knowl. Manage. New York, NY, USA: Association for Computing Machinery, Nov. 2019, pp. 1441-1450.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "BERT4Rec: Sequential recommendation with bidirectional encoder representations from transformer"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85075437471",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1441",
+                                "@last": "1450"
+                            }},
+                            "ref-text": "New York, NY, USA: Association for Computing Machinery, Nov.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pei",
+                                    "ce:indexed-name": "Pei C."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lin",
+                                    "ce:indexed-name": "Lin X."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ou",
+                                    "ce:indexed-name": "Ou W."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 28th ACM Int. Conf. Inf. Knowl. Manage."
+                        },
+                        "ce:source-text": "F. Sun, J. Liu, J. Wu, C. Pei, X. Lin, W. Ou, and P. Jiang, \"BERT4Rec: Sequential recommendation with bidirectional encoder representations from transformer, \" in Proc. 28th ACM Int. Conf. Inf. Knowl. Manage. New York, NY, USA: Association for Computing Machinery, Nov. 2019, pp. 1441-1450."
+                    },
+                    {
+                        "ref-fulltext": "J. Devlin, M. Chang, K. Lee, and K. Toutanova, \"BERT: Pre-training of deep bidirectional transformers for language understanding, \" in Proc. NAACL-HLT. Stroudsburg, PA, USA: Association for Computational Lin-guistics, 2019, pp. 4171-4186.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "BERT: Pre-training of deep bidirectional transformers for language understanding"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85083815650",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "4171",
+                                "@last": "4186"
+                            }},
+                            "ref-text": "Stroudsburg, PA, USA: Association for Computational Lin-guistics",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Devlin",
+                                    "ce:indexed-name": "Devlin J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Toutanova",
+                                    "ce:indexed-name": "Toutanova K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. NAACL-HLT."
+                        },
+                        "ce:source-text": "J. Devlin, M. Chang, K. Lee, and K. Toutanova, \"BERT: Pre-training of deep bidirectional transformers for language understanding, \" in Proc. NAACL-HLT. Stroudsburg, PA, USA: Association for Computational Lin-guistics, 2019, pp. 4171-4186."
+                    },
+                    {
+                        "ref-fulltext": "W. L. Taylor, \"Cloze procedure: A new tool for measuring readability, \" Journalism Bull., vol. 30, no. 4, pp. 415-433, 1953.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1953"},
+                            "ref-title": {"ref-titletext": "Cloze procedure: A new tool for measuring readability"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0000997226",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "30",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "415",
+                                    "@last": "433"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "W.L.",
+                                "@_fa": "true",
+                                "ce:surname": "Taylor",
+                                "ce:indexed-name": "Taylor W.L."
+                            }]},
+                            "ref-sourcetitle": "Journalism Bull."
+                        },
+                        "ce:source-text": "W. L. Taylor, \"Cloze procedure: A new tool for measuring readability, \" Journalism Bull., vol. 30, no. 4, pp. 415-433, 1953."
+                    },
+                    {
+                        "ref-fulltext": "C. Yang, X. Chen, L. Liu, T. Liu, and S. Geng, \"A hybrid movie rec-ommendation method based on social similarity and item attributes, \" in Proc. 9th Int. Conf. Adv. Swarm Intell., Shanghai, China, 2018, pp. 275-285.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "A hybrid movie rec-ommendation method based on social similarity and item attributes"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85049119974",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "275",
+                                "@last": "285"
+                            }},
+                            "ref-text": "Shanghai, China",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen X."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu T."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Geng",
+                                    "ce:indexed-name": "Geng S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 9th Int. Conf. Adv. Swarm Intell."
+                        },
+                        "ce:source-text": "C. Yang, X. Chen, L. Liu, T. Liu, and S. Geng, \"A hybrid movie rec-ommendation method based on social similarity and item attributes, \" in Proc. 9th Int. Conf. Adv. Swarm Intell., Shanghai, China, 2018, pp. 275-285."
+                    },
+                    {
+                        "ref-fulltext": "R. Turnip, D. Nurjanah, and D. S. Kusumo, \"Hybrid recommender system for learning material using content-based filtering and collaborative filter-ing with good learners' rating, \" in Proc. IEEE Conf. e-Learn., e-Manage. e-Services (ICe), Nov. 2017, pp. 61-66.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Hybrid recommender system for learning material using content-based filtering and collaborative filter-ing with good learners' rating"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85050727232",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "61",
+                                "@last": "66"
+                            }},
+                            "ref-text": "Nov.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Turnip",
+                                    "ce:indexed-name": "Turnip R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nurjanah",
+                                    "ce:indexed-name": "Nurjanah D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kusumo",
+                                    "ce:indexed-name": "Kusumo D.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE Conf. e-Learn., e-Manage. e-Services (ICe)"
+                        },
+                        "ce:source-text": "R. Turnip, D. Nurjanah, and D. S. Kusumo, \"Hybrid recommender system for learning material using content-based filtering and collaborative filter-ing with good learners' rating, \" in Proc. IEEE Conf. e-Learn., e-Manage. e-Services (ICe), Nov. 2017, pp. 61-66."
+                    },
+                    {
+                        "ref-fulltext": "Y. Koren, R. Bell, and C. Volinsky, \"Matrix factorization techniques for recommender systems, \" IEEE Comput., vol. 42, no. 8, pp. 30-37, Aug. 2009.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Matrix factorization techniques for recommender systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85008044987",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "42",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "30",
+                                    "@last": "37"
+                                }
+                            },
+                            "ref-text": "Aug.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koren",
+                                    "ce:indexed-name": "Koren Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bell",
+                                    "ce:indexed-name": "Bell R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Volinsky",
+                                    "ce:indexed-name": "Volinsky C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Comput."
+                        },
+                        "ce:source-text": "Y. Koren, R. Bell, and C. Volinsky, \"Matrix factorization techniques for recommender systems, \" IEEE Comput., vol. 42, no. 8, pp. 30-37, Aug. 2009."
+                    },
+                    {
+                        "ref-fulltext": "X. He, L. Liao, H. Zhang, L. Nie, X. Hu, and T. Chua, \"Neural col-laborative filtering, \" in Proc. 26th Int. Conf. World Wide Web, Int. World Wide Web Conf. Committee (IWC), Perth, WA, Australia, 2017, pp. 173-182.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Neural col-laborative filtering"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85031939960",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "173",
+                                "@last": "182"
+                            }},
+                            "ref-text": "Perth, WA, Australia",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liao",
+                                    "ce:indexed-name": "Liao L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nie",
+                                    "ce:indexed-name": "Nie L."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu X."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chua",
+                                    "ce:indexed-name": "Chua T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 26th Int. Conf. World Wide Web, Int. World Wide Web Conf. Committee (IWC)"
+                        },
+                        "ce:source-text": "X. He, L. Liao, H. Zhang, L. Nie, X. Hu, and T. Chua, \"Neural col-laborative filtering, \" in Proc. 26th Int. Conf. World Wide Web, Int. World Wide Web Conf. Committee (IWC), Perth, WA, Australia, 2017, pp. 173-182."
+                    },
+                    {
+                        "ref-fulltext": "Y. LeCun, P. Haffner, L. Bottou, and Y. Bengio, \"Object recognition with gradient-based learning, \" in Shape, Contour and Grouping in Computer Vision. Berlin, Germany: Springer, 1998, pp. 1627-1634.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Object recognition with gradient-based learning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85033602129",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1627",
+                                "@last": "1634"
+                            }},
+                            "ref-text": "Berlin, Germany: Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "LeCun",
+                                    "ce:indexed-name": "LeCun Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Haffner",
+                                    "ce:indexed-name": "Haffner P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bottou",
+                                    "ce:indexed-name": "Bottou L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bengio",
+                                    "ce:indexed-name": "Bengio Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Shape, Contour and Grouping in Computer Vision"
+                        },
+                        "ce:source-text": "Y. LeCun, P. Haffner, L. Bottou, and Y. Bengio, \"Object recognition with gradient-based learning, \" in Shape, Contour and Grouping in Computer Vision. Berlin, Germany: Springer, 1998, pp. 1627-1634."
+                    },
+                    {
+                        "ref-fulltext": "S. Hochreiter and J. Schmidhuber, \"Long short-term memory, \" Neural Comput., vol. 9, no. 8, pp. 1735-1780, 1997.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Long short-term memory"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0031573117",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "9",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "1735",
+                                    "@last": "1780"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hochreiter",
+                                    "ce:indexed-name": "Hochreiter S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schmidhuber",
+                                    "ce:indexed-name": "Schmidhuber J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neural Comput."
+                        },
+                        "ce:source-text": "S. Hochreiter and J. Schmidhuber, \"Long short-term memory, \" Neural Comput., vol. 9, no. 8, pp. 1735-1780, 1997."
+                    },
+                    {
+                        "ref-fulltext": "K. Cho, B. van Merrienboer, C. Gulcehre, D. Bahdanau, F. Bougares, H. Schwenk, and Y. Bengio, \"Learning phrase representations using RNN encoder_decoder for statistical machine translation, \" in Proc. Conf. Empir-ical Methods Natural Lang. Process. (EMNLP). Doha, Qatar: Association for Computational Linguistics, 2014, pp. 1724-1734.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Learning phrase representations using RNN encoder_decoder for statistical machine translation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84961291190",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1724",
+                                "@last": "1734"
+                            }},
+                            "ref-text": "Doha, Qatar: Association for Computational Linguistics",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cho",
+                                    "ce:indexed-name": "Cho K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van Merrienboer",
+                                    "ce:indexed-name": "Van Merrienboer B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gulcehre",
+                                    "ce:indexed-name": "Gulcehre C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bahdanau",
+                                    "ce:indexed-name": "Bahdanau D."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bougares",
+                                    "ce:indexed-name": "Bougares F."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schwenk",
+                                    "ce:indexed-name": "Schwenk H."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bengio",
+                                    "ce:indexed-name": "Bengio Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Conf. Empir-ical Methods Natural Lang. Process. (EMNLP)."
+                        },
+                        "ce:source-text": "K. Cho, B. van Merrienboer, C. Gulcehre, D. Bahdanau, F. Bougares, H. Schwenk, and Y. Bengio, \"Learning phrase representations using RNN encoder_decoder for statistical machine translation, \" in Proc. Conf. Empir-ical Methods Natural Lang. Process. (EMNLP). Doha, Qatar: Association for Computational Linguistics, 2014, pp. 1724-1734."
+                    },
+                    {
+                        "ref-fulltext": "T. Donkers, B. Loepp, and J. Ziegler, \"Sequential user-based recurrent neural network recommendations, \" in Proc. 11th ACM Conf. Rec. Syst. New York, NY, USA: Association for Computing Machinery, Aug. 2017, pp. 152-160.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Sequential user-based recurrent neural network recommendations"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85030464055",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "152",
+                                "@last": "160"
+                            }},
+                            "ref-text": "New York, NY, USA: Association for Computing Machinery, Aug.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Donkers",
+                                    "ce:indexed-name": "Donkers T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Loepp",
+                                    "ce:indexed-name": "Loepp B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ziegler",
+                                    "ce:indexed-name": "Ziegler J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 11th ACM Conf. Rec. Syst."
+                        },
+                        "ce:source-text": "T. Donkers, B. Loepp, and J. Ziegler, \"Sequential user-based recurrent neural network recommendations, \" in Proc. 11th ACM Conf. Rec. Syst. New York, NY, USA: Association for Computing Machinery, Aug. 2017, pp. 152-160."
+                    },
+                    {
+                        "ref-fulltext": "B. Hidasi and A. Karatzoglou, \"Recurrent neural networks with top-k gains for session-based recommendations, \" in Proc. 27th ACM Int. Conf. Inf. Knowl. Manage. New York, NY, USA: Association for Computing Machinery, Oct. 2018, pp. 843-852.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Recurrent neural networks with top-k gains for session-based recommendations"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85058041321",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "843",
+                                "@last": "852"
+                            }},
+                            "ref-text": "New York, NY, USA: Association for Computing Machinery, Oct.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hidasi",
+                                    "ce:indexed-name": "Hidasi B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Karatzoglou",
+                                    "ce:indexed-name": "Karatzoglou A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 27th ACM Int. Conf. Inf. Knowl. Manage."
+                        },
+                        "ce:source-text": "B. Hidasi and A. Karatzoglou, \"Recurrent neural networks with top-k gains for session-based recommendations, \" in Proc. 27th ACM Int. Conf. Inf. Knowl. Manage. New York, NY, USA: Association for Computing Machinery, Oct. 2018, pp. 843-852."
+                    },
+                    {
+                        "ref-fulltext": "J. Li, P. Ren, Z. Chen, Z. Ren, T. Lian, and J. Ma, \"Neural attentive session-based recommendation, \" in Proc. ACM Conf. Inf. Knowl. Manage. New York, NY, USA: Association for Computing Machinery, Nov. 2017, pp. 1419-1428.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Neural attentive session-based recommendation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85037351717",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1419",
+                                "@last": "1428"
+                            }},
+                            "ref-text": "New York, NY, USA: Association for Computing Machinery, Nov.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ren",
+                                    "ce:indexed-name": "Ren P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen Z."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ren",
+                                    "ce:indexed-name": "Ren Z."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lian",
+                                    "ce:indexed-name": "Lian T."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. ACM Conf. Inf. Knowl. Manage."
+                        },
+                        "ce:source-text": "J. Li, P. Ren, Z. Chen, Z. Ren, T. Lian, and J. Ma, \"Neural attentive session-based recommendation, \" in Proc. ACM Conf. Inf. Knowl. Manage. New York, NY, USA: Association for Computing Machinery, Nov. 2017, pp. 1419-1428."
+                    },
+                    {
+                        "ref-fulltext": "M. Quadrana, A. Karatzoglou, B. Hidasi, and P. Cremonesi, \"Personal-izing session-based recommendations with hierarchical recurrent neural networks, \" in Proc. 11th ACM Conf. Recommender Syst. New York, NY, USA: Association for Computing Machinery, Aug. 2017, pp. 130-137.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Personal-izing session-based recommendations with hierarchical recurrent neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85030468728",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "130",
+                                "@last": "137"
+                            }},
+                            "ref-text": "New York, NY, USA: Association for Computing Machinery, Aug.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Quadrana",
+                                    "ce:indexed-name": "Quadrana M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Karatzoglou",
+                                    "ce:indexed-name": "Karatzoglou A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hidasi",
+                                    "ce:indexed-name": "Hidasi B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cremonesi",
+                                    "ce:indexed-name": "Cremonesi P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 11th ACM Conf. Recommender Syst."
+                        },
+                        "ce:source-text": "M. Quadrana, A. Karatzoglou, B. Hidasi, and P. Cremonesi, \"Personal-izing session-based recommendations with hierarchical recurrent neural networks, \" in Proc. 11th ACM Conf. Recommender Syst. New York, NY, USA: Association for Computing Machinery, Aug. 2017, pp. 130-137."
+                    },
+                    {
+                        "ref-fulltext": "X. Chen, H. Xu, Y. Zhang, J. Tang, Y. Cao, Z. Qin, and H. Zha, \"Sequen-tial recommendation with user memory networks, \" in Proc. 11th ACM Int. Conf. Web Search Data Mining, New York, NY, USA, Feb. 2018, pp. 108-116.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Sequen-tial recommendation with user memory networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85046906552",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "108",
+                                "@last": "116"
+                            }},
+                            "ref-text": "New York, NY, USA, Feb.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cao",
+                                    "ce:indexed-name": "Cao Y."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qin",
+                                    "ce:indexed-name": "Qin Z."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zha",
+                                    "ce:indexed-name": "Zha H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 11th ACM Int. Conf. Web Search Data Mining"
+                        },
+                        "ce:source-text": "X. Chen, H. Xu, Y. Zhang, J. Tang, Y. Cao, Z. Qin, and H. Zha, \"Sequen-tial recommendation with user memory networks, \" in Proc. 11th ACM Int. Conf. Web Search Data Mining, New York, NY, USA, Feb. 2018, pp. 108-116."
+                    },
+                    {
+                        "ref-fulltext": "J. Tang and K. Wang, \"Personalized top-N sequential recommendation via convolutional sequence embedding, \" in Proc. 11th ACM Int. Conf. Web Search Data Mining, Marina Del Rey, CA, USA, Feb. 2018, pp. 565-573.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Personalized top-N sequential recommendation via convolutional sequence embedding"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85046907121",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "565",
+                                "@last": "573"
+                            }},
+                            "ref-text": "Marina Del Rey, CA, USA, Feb.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 11th ACM Int. Conf. Web Search Data Mining"
+                        },
+                        "ce:source-text": "J. Tang and K. Wang, \"Personalized top-N sequential recommendation via convolutional sequence embedding, \" in Proc. 11th ACM Int. Conf. Web Search Data Mining, Marina Del Rey, CA, USA, Feb. 2018, pp. 565-573."
+                    },
+                    {
+                        "ref-fulltext": "A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, N. A. Gomez, L. Kaiser, and I. Polosukhin, \"Attention is all you need, \" in Proc. Neural Inf. Process. Syst. Conf. (NIPS). Red Hook, NY, USA: Curran Associates, 2017, pp. 5998-6008.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Attention is all you need"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85043317328",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "5998",
+                                "@last": "6008"
+                            }},
+                            "ref-text": "Red Hook, NY, USA: Curran Associates",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vaswani",
+                                    "ce:indexed-name": "Vaswani A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shazeer",
+                                    "ce:indexed-name": "Shazeer N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Parmar",
+                                    "ce:indexed-name": "Parmar N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Uszkoreit",
+                                    "ce:indexed-name": "Uszkoreit J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jones",
+                                    "ce:indexed-name": "Jones L."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "N.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gomez",
+                                    "ce:indexed-name": "Gomez N.A."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kaiser",
+                                    "ce:indexed-name": "Kaiser L."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Polosukhin",
+                                    "ce:indexed-name": "Polosukhin I."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Neural Inf. Process. Syst. Conf. (NIPS)."
+                        },
+                        "ce:source-text": "A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, N. A. Gomez, L. Kaiser, and I. Polosukhin, \"Attention is all you need, \" in Proc. Neural Inf. Process. Syst. Conf. (NIPS). Red Hook, NY, USA: Curran Associates, 2017, pp. 5998-6008."
+                    },
+                    {
+                        "ref-fulltext": "P. K. Diederik and L. B. Jimmy, \"Adam: A method for stochastic optimiza-tion, \" CoRR, vol. Abs/1412. 6980, 2015.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84941620184",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "CoRR abs/1412. 6980",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Diederik",
+                                    "ce:indexed-name": "Diederik P.K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jimmy",
+                                    "ce:indexed-name": "Jimmy L.B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Adam: A method for stochastic optimiza-tion"
+                        },
+                        "ce:source-text": "P. K. Diederik and L. B. Jimmy, \"Adam: A method for stochastic optimiza-tion, \" CoRR, vol. Abs/1412. 6980, 2015."
+                    },
+                    {
+                        "ref-fulltext": "M. Wan, R. Misra, N. Nakashole, and J. McAuley, \"Fine-grained spoiler detection from large-scale review corpora, \" in Proc. ACL, 2019, pp. 2605-2610.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Fine-grained spoiler detection from large-scale review corpora"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85084070836",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2605",
+                                "@last": "2610"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wan",
+                                    "ce:indexed-name": "Wan M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Misra",
+                                    "ce:indexed-name": "Misra R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nakashole",
+                                    "ce:indexed-name": "Nakashole N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McAuley",
+                                    "ce:indexed-name": "McAuley J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. ACL"
+                        },
+                        "ce:source-text": "M. Wan, R. Misra, N. Nakashole, and J. McAuley, \"Fine-grained spoiler detection from large-scale review corpora, \" in Proc. ACL, 2019, pp. 2605-2610."
+                    },
+                    {
+                        "ref-fulltext": "B. Hidasi, A. Karatzoglou, L. Baltrunas, and D. Tikk. \"Session-based recommendations with recurrent neural networks, \" CoRR, vol. Abs/1511. 06939, 2016.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85083953993",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "CoRR abs/1511. 06939",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hidasi",
+                                    "ce:indexed-name": "Hidasi B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Karatzoglou",
+                                    "ce:indexed-name": "Karatzoglou A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Baltrunas",
+                                    "ce:indexed-name": "Baltrunas L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tikk.",
+                                    "ce:indexed-name": "Tikk. D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Session-based recommendations with recurrent neural networks"
+                        },
+                        "ce:source-text": "B. Hidasi, A. Karatzoglou, L. Baltrunas, and D. Tikk. \"Session-based recommendations with recurrent neural networks, \" CoRR, vol. Abs/1511. 06939, 2016."
+                    },
+                    {
+                        "ref-fulltext": "W.-C. Kang and J. McAuley, \"Self-attentive sequential recommendation, \" in Proc. IEEE Int. Conf. Data Mining (ICDM), Nov. 2018, pp. 197-206.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Self-attentive sequential recommendation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85061381146",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "197",
+                                "@last": "206"
+                            }},
+                            "ref-text": "Nov.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.-C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kang",
+                                    "ce:indexed-name": "Kang W.-C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McAuley",
+                                    "ce:indexed-name": "McAuley J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE Int. Conf. Data Mining (ICDM)"
+                        },
+                        "ce:source-text": "W.-C. Kang and J. McAuley, \"Self-attentive sequential recommendation, \" in Proc. IEEE Int. Conf. Data Mining (ICDM), Nov. 2018, pp. 197-206."
+                    },
+                    {
+                        "ref-fulltext": "M. Chen, Z. Xu, K. Weinberger, and S. Fei, \"Marginalized denois-ing autoencoders for domain adaptation, \" in Proc. 29th Int. Conf. Int. Conf. Mach. Learn. (ICML). Madison, WI, USA: Omnipress, 2012, pp. 1627-1634.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Marginalized denois-ing autoencoders for domain adaptation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84867129067",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1627",
+                                "@last": "1634"
+                            }},
+                            "ref-text": "Madison, WI, USA: Omnipress",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Weinberger",
+                                    "ce:indexed-name": "Weinberger K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fei",
+                                    "ce:indexed-name": "Fei S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 29th Int. Conf. Int. Conf. Mach. Learn. (ICML)."
+                        },
+                        "ce:source-text": "M. Chen, Z. Xu, K. Weinberger, and S. Fei, \"Marginalized denois-ing autoencoders for domain adaptation, \" in Proc. 29th Int. Conf. Int. Conf. Mach. Learn. (ICML). Madison, WI, USA: Omnipress, 2012, pp. 1627-1634."
+                    },
+                    {
+                        "ref-fulltext": "P. B. Thorat, R. M. Goudar, and S. Barve, \"Survey on collaborative filtering, content-based filtering and hybrid recommendation system, \" Int. J. Comput. Appl., vol. 110, no. 4, pp. 31-36, Jan. 2015.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Survey on collaborative filtering, content-based filtering and hybrid recommendation system"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84983804008",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "110",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "31",
+                                    "@last": "36"
+                                }
+                            },
+                            "ref-text": "Jan.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thorat",
+                                    "ce:indexed-name": "Thorat P.B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Goudar",
+                                    "ce:indexed-name": "Goudar R.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Barve",
+                                    "ce:indexed-name": "Barve S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Comput. Appl."
+                        },
+                        "ce:source-text": "P. B. Thorat, R. M. Goudar, and S. Barve, \"Survey on collaborative filtering, content-based filtering and hybrid recommendation system, \" Int. J. Comput. Appl., vol. 110, no. 4, pp. 31-36, Jan. 2015."
+                    },
+                    {
+                        "ref-fulltext": "I. Islek and S. G. Oguducu, \"A hybrid recommendation system based on bidirectional encoder representations, \" in Proc. Joint Eur. Conf. Mach. Learn. Knowl. Discovery Databases. Cham, Switzerland: Springer, 2020, pp. 225-236.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "A hybrid recommendation system based on bidirectional encoder representations"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85101422449",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "225",
+                                "@last": "236"
+                            }},
+                            "ref-text": "Cham, Switzerland: Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Islek",
+                                    "ce:indexed-name": "Islek I."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oguducu",
+                                    "ce:indexed-name": "Oguducu S.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Joint Eur. Conf. Mach. Learn. Knowl. Discovery Databases."
+                        },
+                        "ce:source-text": "I. Islek and S. G. Oguducu, \"A hybrid recommendation system based on bidirectional encoder representations, \" in Proc. Joint Eur. Conf. Mach. Learn. Knowl. Discovery Databases. Cham, Switzerland: Springer, 2020, pp. 225-236."
+                    },
+                    {
+                        "ref-fulltext": "B. Juarto and A. S. Girsang, \"Neural collaborative with sentence BERT for news recommender system, \" Int. J. Informat. Vis., vol. 5, no. 4, pp. 448-455, 2021.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Neural collaborative with sentence BERT for news recommender system"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85125676383",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "5",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "448",
+                                    "@last": "455"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Juarto",
+                                    "ce:indexed-name": "Juarto B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Girsang",
+                                    "ce:indexed-name": "Girsang A.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Informat. Vis."
+                        },
+                        "ce:source-text": "B. Juarto and A. S. Girsang, \"Neural collaborative with sentence BERT for news recommender system, \" Int. J. Informat. Vis., vol. 5, no. 4, pp. 448-455, 2021."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Hayama",
+            "@id": "60021523",
+            "affilname": "The Graduate University for Advanced Studies",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021523",
+            "affiliation-country": "Japan"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85130779972",
+        "dc:description": "Because a user's behavior depends mainly on the user's current interests, which can change over time, the sequential recommendation approach has become more prevalent in recommender systems. Many methods have been proposed that aim to model sequential recommendations. One of these is BERT4Rec, which applies the bidirectional-encoder-representations-from-transformers (BERT) technique to model user behavior sequences by considering the target user's historical data, i.e., a content-based filtering (CBF) approach. Despite BERT4Rec's effectiveness, we argue that considering only this historical data is insufficient to provide the most accurate recommendation. We believe that if BERT were to consider other users' interactions in its analysis, it would increase the model accuracy. Therefore, we propose a new method called HybridBERT4Rec, which applies BERT to both CBF and collaborative filtering (CF). For CBF, we want to extract the characteristics of the target user's interactions with purchased items. (We implement this in the same way as in BERT4Rec, with our model generating a target user profile.) For CF, we want to find neighboring users who are similar to the target user. Here, we extract the target item's characteristics using all other users who rated the target item as a second input to BERT. This generates a target item profile. After obtaining both profiles, we use them to predict a rating score. We experimented with three datasets, finding that our model was more accurate than the original BERT4Rec.",
+        "prism:coverDate": "2022-01-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85130779972",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Chanapa",
+            "preferred-name": {
+                "ce:given-name": "Chanapa",
+                "ce:initials": "C.",
+                "ce:surname": "Channarong",
+                "ce:indexed-name": "Channarong C."
+            },
+            "@seq": "1",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Channarong",
+            "@auid": "57713412000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57713412000",
+            "ce:indexed-name": "Channarong C."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85130779972"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85130779972&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85130779972&origin=inward"
+            }
+        ],
+        "source-id": "21100374601",
+        "citedby-count": "2",
+        "prism:volume": "10",
+        "subtype": "ar",
+        "dc:title": "HybridBERT4Rec: A Hybrid (Content-Based Filtering and Collaborative Filtering) Recommender System Based on BERT",
+        "openaccess": "1",
+        "prism:issn": "21693536",
+        "publishercopyright": "© 2013 IEEE.",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "IEEE Access",
+        "prism:pageRange": "56193-56206",
+        "prism:endingPage": "56206",
+        "openaccessFlag": "true",
+        "prism:doi": "10.1109/ACCESS.2022.3177610",
+        "prism:startingPage": "56193",
+        "dc:identifier": "SCOPUS_ID:85130779972",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "'current",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Bidirectional-encoder-representation-from-transformer",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Bit-error rate",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Collaboration",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Collaborative filtering recommender systems",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Content based filtering",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Convolutional neural network",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Historical data",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Hybrid recommendation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Sequential recommendation",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "BERT"
+        },
+        {
+            "@_fa": "true",
+            "$": "Hybrid recommendation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Recommender system"
+        },
+        {
+            "@_fa": "true",
+            "$": "Sequential recommendation"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Computer Science (all)",
+            "@code": "1700",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Materials Science (all)",
+            "@code": "2500",
+            "@abbrev": "MATE"
+        },
+        {
+            "@_fa": "true",
+            "$": "Engineering (all)",
+            "@code": "2200",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Chanapa",
+            "preferred-name": {
+                "ce:given-name": "Chanapa",
+                "ce:initials": "C.",
+                "ce:surname": "Channarong",
+                "ce:indexed-name": "Channarong C."
+            },
+            "@seq": "1",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Channarong",
+            "@auid": "57713412000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57713412000",
+            "ce:indexed-name": "Channarong C."
+        },
+        {
+            "ce:given-name": "Chawisa",
+            "preferred-name": {
+                "ce:given-name": "Chawisa",
+                "ce:initials": "C.",
+                "ce:surname": "Paosirikul",
+                "ce:indexed-name": "Paosirikul C."
+            },
+            "@seq": "2",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Paosirikul",
+            "@auid": "57712185300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57712185300",
+            "ce:indexed-name": "Paosirikul C."
+        },
+        {
+            "ce:given-name": "Saranya",
+            "preferred-name": {
+                "ce:given-name": "Saranya",
+                "ce:initials": "S.",
+                "ce:surname": "Maneeroj",
+                "ce:indexed-name": "Maneeroj S."
+            },
+            "@seq": "3",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Maneeroj",
+            "@auid": "24081010600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/24081010600",
+            "ce:indexed-name": "Maneeroj S."
+        },
+        {
+            "ce:given-name": "Atsuhiro",
+            "preferred-name": {
+                "ce:given-name": "Atsuhiro",
+                "ce:initials": "A.",
+                "ce:surname": "Takasu",
+                "ce:indexed-name": "Takasu A."
+            },
+            "@seq": "4",
+            "ce:initials": "A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60021523",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021523"
+            },
+            "ce:surname": "Takasu",
+            "@auid": "57195144555",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57195144555",
+            "ce:indexed-name": "Takasu A."
+        }
+    ]}
+}}

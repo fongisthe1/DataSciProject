@@ -1,0 +1,1703 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "16",
+                "@year": "2019",
+                "@timestamp": "2019-10-16T22:27:16.000016-04:00",
+                "@month": "10"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2019",
+                "@month": "07"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "Mahidol University",
+                    "xocs:funding-agency": "Mahidol University",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004156",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "National Research Council of Thailand",
+                    "xocs:funding-agency-acronym": "NRCT",
+                    "xocs:funding-agency": "National Research Council of Thailand",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004704",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Thammasat University",
+                    "xocs:funding-agency-acronym": "TU",
+                    "xocs:funding-agency": "Thammasat University",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100005790",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-02-02T21:38:48.221497Z",
+            "xocs:funding-text": "This research project is supported by Mahidol University, National Research Council of Thailand and Thammasat University through the Research University Network (RUN) Project. The technical supports from the industrial oil refinery in Thailand are gratefully acknowledged.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60012718",
+                            "@country": "tha",
+                            "organization": [
+                                {"$": "Department of Chemical Engineering"},
+                                {"$": "Faculty of Engineering"},
+                                {"$": "Mahidol University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60012718",
+                                "@dptid": "112961774"
+                            },
+                            "ce:source-text": "Department of Chemical Engineering, Faculty of Engineering, Mahidol University, Thailand",
+                            "@dptid": "112961774"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Siwaporn",
+                                "preferred-name": {
+                                    "ce:given-name": "Siwaporn",
+                                    "ce:initials": "S.",
+                                    "ce:surname": "Duangsri",
+                                    "ce:indexed-name": "Duangsri S."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Duangsri",
+                                "@auid": "57210846859",
+                                "ce:indexed-name": "Duangsri S."
+                            },
+                            {
+                                "ce:given-name": "Pornchai",
+                                "preferred-name": {
+                                    "ce:given-name": "Pornchai",
+                                    "ce:initials": "P.",
+                                    "ce:surname": "Bumroongsri",
+                                    "ce:indexed-name": "Bumroongsri P."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "P.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Bumroongsri",
+                                "@auid": "49861075400",
+                                "ce:indexed-name": "Bumroongsri P."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "organization": [
+                                {"$": "Department of Chemical Engineering"},
+                                {"$": "Faculty of Engineering"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "112958590"
+                            },
+                            "ce:source-text": "Department of Chemical Engineering, Faculty of Engineering, Chulalongkorn University, Thailand",
+                            "@dptid": "112958590"
+                        },
+                        "author": [{
+                            "ce:given-name": "Soorathep",
+                            "preferred-name": {
+                                "ce:given-name": "Soorathep",
+                                "ce:initials": "S.",
+                                "ce:surname": "Kheawhom",
+                                "ce:indexed-name": "Kheawhom S."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Kheawhom",
+                            "@auid": "55897360400",
+                            "ce:indexed-name": "Kheawhom S."
+                        }]
+                    }
+                ],
+                "citation-title": "A PDE-based data reconciliation approach for systems with variations of parameters",
+                "abstracts": "© 2019, Chulalongkorn University, Faculty of Fine and Applied Arts. All rights reserved.Data reconciliation is a mathematical approach that improves the quality of measurements by calculating the reconciled data that satisfy the process constraints. The conventional data reconciliation approach relies on the process model that contains the constant parameters. In the industrial applications, however, there are always possible variations of parameters within the system. In this paper, a new data reconciliation approach based on the partial differential equation (PDE) is developed. The proposed data reconciliation approach is experimentally applied to a case study of temperature measurements for a refinery process. The PDE-based model is employed in the formulation of the optimization problem. Unlike the conventional data reconciliation approach in which the system is assumed to be lumped, the PDE-based data reconciliation approach includes in the problem formulation the variations of parameters within the system in order to describe the real system\u2019s behaviour. The reconciled values can be computed within the computational domain so they can be used as the data for troubleshooting, equipment analysis and maintenance.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "@country": "tha",
+                        "organization": [
+                            {"$": "Department of Chemical Engineering"},
+                            {"$": "Faculty of Engineering"},
+                            {"$": "Mahidol University"}
+                        ],
+                        "ce:source-text": "Department of Chemical Engineering, Faculty of Engineering, Mahidol University, Thailand"
+                    },
+                    "person": {
+                        "ce:given-name": "Pornchai",
+                        "ce:initials": "P.",
+                        "ce:surname": "Bumroongsri",
+                        "ce:indexed-name": "Bumroongsri P."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Data reconciliation",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Partial differential equation",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Temperature measurements",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Variations of parameters",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "Eng. J.",
+                    "website": {"ce:e-address": {
+                        "$": "https://engj.org/index.php/ej/article/download/3062/857",
+                        "@type": "email"
+                    }},
+                    "@country": "tha",
+                    "translated-sourcetitle": {
+                        "$": "Engineering Journal",
+                        "@xml:lang": "eng"
+                    },
+                    "issn": {
+                        "$": "01258281",
+                        "@type": "print"
+                    },
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "23",
+                            "@issue": "4"
+                        },
+                        "pagerange": {
+                            "@first": "157",
+                            "@last": "169"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2019"},
+                    "publisher": {
+                        "publishername": "Chulalongkorn University, Faculty of Fine and Applied Arts",
+                        "ce:e-address": {
+                            "$": "yan.z@chula.ac.th",
+                            "@type": "email"
+                        }
+                    },
+                    "sourcetitle": "Engineering Journal",
+                    "@srcid": "21100197000",
+                    "publicationdate": {
+                        "month": "07",
+                        "year": "2019",
+                        "date-text": "July 2019",
+                        "day": "01"
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": "2200"
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "ENGI"
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2019 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "SNCPX"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "06",
+                    "@year": "2019",
+                    "@timestamp": "BST 08:29:03",
+                    "@month": "09"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2002487331",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "920088089",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20191734754",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20192547632",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "2019101234",
+                            "@idtype": "SNCPX"
+                        },
+                        {
+                            "$": "20190009061264",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85071681094",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85071681094",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.4186/ej.2019.23.4.157"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "26",
+                "reference": [
+                    {
+                        "ref-fulltext": "X. Jiang, P. Liu, and Z. Li, \u201cData reconciliation for steam turbine on-line performance monitoring,\u201d Appl. Therm. Eng., vol. 70, pp 122-130, 2014.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Data reconciliation for steam turbine on-line performance monitoring"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84901426720",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "70"},
+                                "pagerange": {
+                                    "@first": "122",
+                                    "@last": "130"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Appl. Therm. Eng"
+                        },
+                        "ce:source-text": "X. Jiang, P. Liu, and Z. Li, \u201cData reconciliation for steam turbine on-line performance monitoring,\u201d Appl. Therm. Eng., vol. 70, pp 122-130, 2014."
+                    },
+                    {
+                        "ref-fulltext": "S. Guo, P. Liu, and Z. Li, \u201cData reconciliation for the overall thermal system of a steam turbine power plant,\u201d Appl. Energ., vol. 165, pp 1037-1051, 2016.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Data reconciliation for the overall thermal system of a steam turbine power plant"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84955722107",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "165"},
+                                "pagerange": {
+                                    "@first": "1037",
+                                    "@last": "1051"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Appl. Energ"
+                        },
+                        "ce:source-text": "S. Guo, P. Liu, and Z. Li, \u201cData reconciliation for the overall thermal system of a steam turbine power plant,\u201d Appl. Energ., vol. 165, pp 1037-1051, 2016."
+                    },
+                    {
+                        "ref-fulltext": "S. Srinivasan, J. Billeter, S. Narasimhan, and D. Bonvin, \u201cData reconciliation for chemical reaction systems using vessel extents and shape constraints,\u201d Comput. Chem. Eng., vol. 101, pp 44-58, 2017.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Data reconciliation for chemical reaction systems using vessel extents and shape constraints"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85015799399",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "101"},
+                                "pagerange": {
+                                    "@first": "44",
+                                    "@last": "58"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Srinivasan",
+                                    "ce:indexed-name": "Srinivasan S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Billeter",
+                                    "ce:indexed-name": "Billeter J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Narasimhan",
+                                    "ce:indexed-name": "Narasimhan S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bonvin",
+                                    "ce:indexed-name": "Bonvin D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Comput. Chem. Eng"
+                        },
+                        "ce:source-text": "S. Srinivasan, J. Billeter, S. Narasimhan, and D. Bonvin, \u201cData reconciliation for chemical reaction systems using vessel extents and shape constraints,\u201d Comput. Chem. Eng., vol. 101, pp 44-58, 2017."
+                    },
+                    {
+                        "ref-fulltext": "Z. Zhang, Y. Y. Chuang, and J. Chen, \u201cMethodology of data reconciliation and parameter estimation for process systems with multi-operating conditions,\u201d Chemometr. Intell. Lab., vol. 137, pp 110-119. 2014.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Methodology of data reconciliation and parameter estimation for process systems with multi-operating conditions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84904094368",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "137"},
+                                "pagerange": {
+                                    "@first": "110",
+                                    "@last": "119"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chuang",
+                                    "ce:indexed-name": "Chuang Y.Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Chemometr. Intell. Lab"
+                        },
+                        "ce:source-text": "Z. Zhang, Y. Y. Chuang, and J. Chen, \u201cMethodology of data reconciliation and parameter estimation for process systems with multi-operating conditions,\u201d Chemometr. Intell. Lab., vol. 137, pp 110-119. 2014."
+                    },
+                    {
+                        "ref-fulltext": "S. Wu, Q. Ye, C. Chen, and X. Gu, \u201cResearch on data reconciliation based on generalized T distribution with historical data,\u201d Neurocomputing, vol. 175, pp 808-815, 2016.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Research on data reconciliation based on generalized T distribution with historical data"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84949435954",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "175"},
+                                "pagerange": {
+                                    "@first": "808",
+                                    "@last": "815"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ye",
+                                    "ce:indexed-name": "Ye Q."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gu",
+                                    "ce:indexed-name": "Gu X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neurocomputing"
+                        },
+                        "ce:source-text": "S. Wu, Q. Ye, C. Chen, and X. Gu, \u201cResearch on data reconciliation based on generalized T distribution with historical data,\u201d Neurocomputing, vol. 175, pp 808-815, 2016."
+                    },
+                    {
+                        "ref-fulltext": "J. Plácido, A. A. Campos, and D. F. Monteiro, \u201cData reconciliation practice at a petroleum refinery company in Brazil,\u201d Comput. Aided Chem. Eng., vol. 27, pp 777-782, 2009.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Data reconciliation practice at a petroleum refinery company in Brazil"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77649319655",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "27"},
+                                "pagerange": {
+                                    "@first": "777",
+                                    "@last": "782"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Plácido",
+                                    "ce:indexed-name": "Placido J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Campos",
+                                    "ce:indexed-name": "Campos A.A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Monteiro",
+                                    "ce:indexed-name": "Monteiro D.F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Comput. Aided Chem. Eng"
+                        },
+                        "ce:source-text": "J. Plácido, A. A. Campos, and D. F. Monteiro, \u201cData reconciliation practice at a petroleum refinery company in Brazil,\u201d Comput. Aided Chem. Eng., vol. 27, pp 777-782, 2009."
+                    },
+                    {
+                        "ref-fulltext": "D. Sarabia, C. D. Prada, E. Gómez, G. Gutierrez, S. Cristea, J.M. Sola., and R. Gonzalez, \u201cData reconciliation and optimal management of hydrogen networks in a petrol refinery,\u201d Control Eng. Pract., vol. 20, pp 343-354, 2012.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Data reconciliation and optimal management of hydrogen networks in a petrol refinery"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84857191932",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "20"},
+                                "pagerange": {
+                                    "@first": "343",
+                                    "@last": "354"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sarabia",
+                                    "ce:indexed-name": "Sarabia D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Prada",
+                                    "ce:indexed-name": "Prada C.D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gómez",
+                                    "ce:indexed-name": "Gomez E."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gutierrez",
+                                    "ce:indexed-name": "Gutierrez G."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cristea",
+                                    "ce:indexed-name": "Cristea S."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sola",
+                                    "ce:indexed-name": "Sola J.M."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gonzalez",
+                                    "ce:indexed-name": "Gonzalez R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Control Eng. Pract"
+                        },
+                        "ce:source-text": "D. Sarabia, C. D. Prada, E. Gómez, G. Gutierrez, S. Cristea, J.M. Sola., and R. Gonzalez, \u201cData reconciliation and optimal management of hydrogen networks in a petrol refinery,\u201d Control Eng. Pract., vol. 20, pp 343-354, 2012."
+                    },
+                    {
+                        "ref-fulltext": "T. V. Nguyen, T. Jacyno, P. Breuhaus, M. Voldsund, and B. Elmegaard, \u201cThermodynamic analysis of an upstream petroleum plant operated on a mature field,\u201d Energy, vol. 68, pp454-469, 2014.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Thermodynamic analysis of an upstream petroleum plant operated on a mature field"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84898052000",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "68"},
+                                "pagerange": {
+                                    "@first": "454",
+                                    "@last": "469"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nguyen",
+                                    "ce:indexed-name": "Nguyen T.V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jacyno",
+                                    "ce:indexed-name": "Jacyno T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Breuhaus",
+                                    "ce:indexed-name": "Breuhaus P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Voldsund",
+                                    "ce:indexed-name": "Voldsund M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Elmegaard",
+                                    "ce:indexed-name": "Elmegaard B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Energy"
+                        },
+                        "ce:source-text": "T. V. Nguyen, T. Jacyno, P. Breuhaus, M. Voldsund, and B. Elmegaard, \u201cThermodynamic analysis of an upstream petroleum plant operated on a mature field,\u201d Energy, vol. 68, pp454-469, 2014."
+                    },
+                    {
+                        "ref-fulltext": "G. Xu, L. Cai, A. Ullmann, and N. Brauner, \u201cExperiments and simulation of water displacement from lower sections of oil pipelines,\u201d J. Petrol Sci. Eng., vol. 147, pp 829-842, 2016.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Experiments and simulation of water displacement from lower sections of oil pipelines"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85000577853",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "147"},
+                                "pagerange": {
+                                    "@first": "829",
+                                    "@last": "842"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cai",
+                                    "ce:indexed-name": "Cai L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ullmann",
+                                    "ce:indexed-name": "Ullmann A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brauner",
+                                    "ce:indexed-name": "Brauner N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Petrol Sci. Eng"
+                        },
+                        "ce:source-text": "G. Xu, L. Cai, A. Ullmann, and N. Brauner, \u201cExperiments and simulation of water displacement from lower sections of oil pipelines,\u201d J. Petrol Sci. Eng., vol. 147, pp 829-842, 2016."
+                    },
+                    {
+                        "ref-fulltext": "H. Hu and Y. F. Cheng, \u201cModeling by computational fluid dynamics simulation of pipeline corrosion in CO2-containing oil-water two phase flow,\u201d J. Petrol Sci. Eng., vol. 146, pp 134-141, 2016.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Modeling by computational fluid dynamics simulation of pipeline corrosion in CO2-containing oil-water two phase flow"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84964413014",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "146"},
+                                "pagerange": {
+                                    "@first": "134",
+                                    "@last": "141"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cheng",
+                                    "ce:indexed-name": "Cheng Y.F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Petrol Sci. Eng"
+                        },
+                        "ce:source-text": "H. Hu and Y. F. Cheng, \u201cModeling by computational fluid dynamics simulation of pipeline corrosion in CO2-containing oil-water two phase flow,\u201d J. Petrol Sci. Eng., vol. 146, pp 134-141, 2016."
+                    },
+                    {
+                        "ref-fulltext": "E. V. P. J. Manjula, W. K. H. Ariyaratne, C. Ratnayake, and M. C. Melaaen, \u201cA review of CFD modeling studies on pneumatic conveying and challenges in modeling offshore drill cuttings transport,\u201d Powder Technol., vol. 305, pp 782-793, 2017.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "A review of CFD modeling studies on pneumatic conveying and challenges in modeling offshore drill cuttings transport"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84995579267",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "305"},
+                                "pagerange": {
+                                    "@first": "782",
+                                    "@last": "793"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.V.P.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Manjula",
+                                    "ce:indexed-name": "Manjula E.V.P.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.K.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ariyaratne",
+                                    "ce:indexed-name": "Ariyaratne W.K.H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ratnayake",
+                                    "ce:indexed-name": "Ratnayake C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Melaaen",
+                                    "ce:indexed-name": "Melaaen M.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Powder Technol"
+                        },
+                        "ce:source-text": "E. V. P. J. Manjula, W. K. H. Ariyaratne, C. Ratnayake, and M. C. Melaaen, \u201cA review of CFD modeling studies on pneumatic conveying and challenges in modeling offshore drill cuttings transport,\u201d Powder Technol., vol. 305, pp 782-793, 2017."
+                    },
+                    {
+                        "ref-fulltext": "K. Kurec, J. Piechna, and K. Gumowski, \u201cInvestigations on unsteady flow within a stationary passage of a pressure wave exchanger, by means of PIV measurements and CFD calculations,\u201d Appl. Therm. Eng., vol. 112, pp 610-620, 2017.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Investigations on unsteady flow within a stationary passage of a pressure wave exchanger, by means of PIV measurements and CFD calculations"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84992691699",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "112"},
+                                "pagerange": {
+                                    "@first": "610",
+                                    "@last": "620"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kurec",
+                                    "ce:indexed-name": "Kurec K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Piechna",
+                                    "ce:indexed-name": "Piechna J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gumowski",
+                                    "ce:indexed-name": "Gumowski K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Appl. Therm. Eng"
+                        },
+                        "ce:source-text": "K. Kurec, J. Piechna, and K. Gumowski, \u201cInvestigations on unsteady flow within a stationary passage of a pressure wave exchanger, by means of PIV measurements and CFD calculations,\u201d Appl. Therm. Eng., vol. 112, pp 610-620, 2017."
+                    },
+                    {
+                        "ref-fulltext": "M. Rahimi, S. Movahedirad, and S. Shahhosseini, \u201cCFD study of the flow pattern in an ultrasonic horn reactor: Introducing a realistic vibrating boundary condition,\u201d Ultrason. Sonochem., vol. 35, pp 359-374, 2017.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "CFD study of the flow pattern in an ultrasonic horn reactor: Introducing a realistic vibrating boundary condition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85001019683",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "35"},
+                                "pagerange": {
+                                    "@first": "359",
+                                    "@last": "374"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rahimi",
+                                    "ce:indexed-name": "Rahimi M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Movahedirad",
+                                    "ce:indexed-name": "Movahedirad S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shahhosseini",
+                                    "ce:indexed-name": "Shahhosseini S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Ultrason. Sonochem"
+                        },
+                        "ce:source-text": "M. Rahimi, S. Movahedirad, and S. Shahhosseini, \u201cCFD study of the flow pattern in an ultrasonic horn reactor: Introducing a realistic vibrating boundary condition,\u201d Ultrason. Sonochem., vol. 35, pp 359-374, 2017."
+                    },
+                    {
+                        "ref-fulltext": "C. Zhang, J. Gu, H. Qin, Q. Xu, W. Li, X. Jia, and J. Zhang, \u201cCFD analysis of flow pattern and power consumption for viscous fluids in in-line high shear mixers,\u201d Chem. Eng. Res. Des., vol. 117, pp 190-204, 2017.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "CFD analysis of flow pattern and power consumption for viscous fluids in in-line high shear mixers"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84995562581",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "117"},
+                                "pagerange": {
+                                    "@first": "190",
+                                    "@last": "204"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gu",
+                                    "ce:indexed-name": "Gu J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qin",
+                                    "ce:indexed-name": "Qin H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu Q."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li W."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jia",
+                                    "ce:indexed-name": "Jia X."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Chem. Eng. Res. Des"
+                        },
+                        "ce:source-text": "C. Zhang, J. Gu, H. Qin, Q. Xu, W. Li, X. Jia, and J. Zhang, \u201cCFD analysis of flow pattern and power consumption for viscous fluids in in-line high shear mixers,\u201d Chem. Eng. Res. Des., vol. 117, pp 190-204, 2017."
+                    },
+                    {
+                        "ref-fulltext": "M. Haghshenasfard and K. Hooman, \u201cCFD modeling of asphaltene deposition rate from crude oil,\u201d J. Petrol Sci. Eng., vol. 128, pp 24-32, 2015.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "CFD modeling of asphaltene deposition rate from crude oil"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84924039842",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "128"},
+                                "pagerange": {
+                                    "@first": "24",
+                                    "@last": "32"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Haghshenasfard",
+                                    "ce:indexed-name": "Haghshenasfard M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hooman",
+                                    "ce:indexed-name": "Hooman K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Petrol Sci. Eng"
+                        },
+                        "ce:source-text": "M. Haghshenasfard and K. Hooman, \u201cCFD modeling of asphaltene deposition rate from crude oil,\u201d J. Petrol Sci. Eng., vol. 128, pp 24-32, 2015."
+                    },
+                    {
+                        "ref-fulltext": "M. Bayat, J. Aminian, M. Bazmi, S. Shahhosseini, and K. Sharifi, \u201cCFD modeling of fouling in crude oil pre-heaters,\u201d Energ. Convers. Manage., vol. 64, pp 344-350, 2012.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "CFD modeling of fouling in crude oil pre-heaters"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84866543701",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "64"},
+                                "pagerange": {
+                                    "@first": "344",
+                                    "@last": "350"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bayat",
+                                    "ce:indexed-name": "Bayat M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aminian",
+                                    "ce:indexed-name": "Aminian J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bazmi",
+                                    "ce:indexed-name": "Bazmi M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shahhosseini",
+                                    "ce:indexed-name": "Shahhosseini S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sharifi",
+                                    "ce:indexed-name": "Sharifi K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Energ. Convers. Manage"
+                        },
+                        "ce:source-text": "M. Bayat, J. Aminian, M. Bazmi, S. Shahhosseini, and K. Sharifi, \u201cCFD modeling of fouling in crude oil pre-heaters,\u201d Energ. Convers. Manage., vol. 64, pp 344-350, 2012."
+                    },
+                    {
+                        "ref-fulltext": "Y. M. Alshammari and K. Hellgardt, \u201cCFD analysis of hydrothermal conversion of heavy oil in continuous flow reactor,\u201d Chem. Eng. Res. Des., vol. 117, pp 250-264, 2017.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "CFD analysis of hydrothermal conversion of heavy oil in continuous flow reactor"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84994874908",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "117"},
+                                "pagerange": {
+                                    "@first": "250",
+                                    "@last": "264"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alshammari",
+                                    "ce:indexed-name": "Alshammari Y.M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hellgardt",
+                                    "ce:indexed-name": "Hellgardt K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Chem. Eng. Res. Des"
+                        },
+                        "ce:source-text": "Y. M. Alshammari and K. Hellgardt, \u201cCFD analysis of hydrothermal conversion of heavy oil in continuous flow reactor,\u201d Chem. Eng. Res. Des., vol. 117, pp 250-264, 2017."
+                    },
+                    {
+                        "ref-fulltext": "W. Rukthong, P. Piumsomboon, W. Weerapakkaroon, and B. Chalermsinsuwan, \u201cComputational fluid dynamics simulation of a crude oil transport pipeline: Effects of crude oil properties,\u201d Engineering Journal, vol. 20, pp 145-154, 2016.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Computational fluid dynamics simulation of a crude oil transport pipeline: Effects of crude oil properties"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84983461537",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "20"},
+                                "pagerange": {
+                                    "@first": "145",
+                                    "@last": "154"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rukthong",
+                                    "ce:indexed-name": "Rukthong W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Piumsomboon",
+                                    "ce:indexed-name": "Piumsomboon P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Weerapakkaroon",
+                                    "ce:indexed-name": "Weerapakkaroon W."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chalermsinsuwan",
+                                    "ce:indexed-name": "Chalermsinsuwan B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Engineering Journal"
+                        },
+                        "ce:source-text": "W. Rukthong, P. Piumsomboon, W. Weerapakkaroon, and B. Chalermsinsuwan, \u201cComputational fluid dynamics simulation of a crude oil transport pipeline: Effects of crude oil properties,\u201d Engineering Journal, vol. 20, pp 145-154, 2016."
+                    },
+                    {
+                        "ref-fulltext": "E. I. C. Arrieta, C. C. Mancilla, J. Slayton, F. Romero, E. Torres, S. Agudelo, J. Arbeláez, and D. Hincapié, \u201cExperimental investigations and CFD simulations of the blade section pitch angle effect on the performance of a horizontal-axis hydrokinetic turbine,\u201d Engineering Journal, vol. 22, pp 141-154, 2018.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Experimental investigations and CFD simulations of the blade section pitch angle effect on the performance of a horizontal-axis hydrokinetic turbine"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85056280472",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "22"},
+                                "pagerange": {
+                                    "@first": "141",
+                                    "@last": "154"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.I.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Arrieta",
+                                    "ce:indexed-name": "Arrieta E.I.C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mancilla",
+                                    "ce:indexed-name": "Mancilla C.C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Slayton",
+                                    "ce:indexed-name": "Slayton J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Romero",
+                                    "ce:indexed-name": "Romero F."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Torres",
+                                    "ce:indexed-name": "Torres E."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Agudelo",
+                                    "ce:indexed-name": "Agudelo S."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Arbeláez",
+                                    "ce:indexed-name": "Arbelaez J."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hincapié",
+                                    "ce:indexed-name": "Hincapie D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Engineering Journal"
+                        },
+                        "ce:source-text": "E. I. C. Arrieta, C. C. Mancilla, J. Slayton, F. Romero, E. Torres, S. Agudelo, J. Arbeláez, and D. Hincapié, \u201cExperimental investigations and CFD simulations of the blade section pitch angle effect on the performance of a horizontal-axis hydrokinetic turbine,\u201d Engineering Journal, vol. 22, pp 141-154, 2018."
+                    },
+                    {
+                        "ref-fulltext": "E. Copertaro, P. Chiariotti, A. A. E. Donoso, N. Paone, B. Peters, and G.M. Revel, \u201cA discrete-continuous method for predicting thermochemical phenomena in a cement kiln and supporting indirect monitoring,\u201d Engineering Journal, vol. 22, pp 165-183, 2018.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "A discrete-continuous method for predicting thermochemical phenomena in a cement kiln and supporting indirect monitoring"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85060307892",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "22"},
+                                "pagerange": {
+                                    "@first": "165",
+                                    "@last": "183"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Copertaro",
+                                    "ce:indexed-name": "Copertaro E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chiariotti",
+                                    "ce:indexed-name": "Chiariotti P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.A.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Donoso",
+                                    "ce:indexed-name": "Donoso A.A.E."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Paone",
+                                    "ce:indexed-name": "Paone N."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peters",
+                                    "ce:indexed-name": "Peters B."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "G.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Revel",
+                                    "ce:indexed-name": "Revel G.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Engineering Journal"
+                        },
+                        "ce:source-text": "E. Copertaro, P. Chiariotti, A. A. E. Donoso, N. Paone, B. Peters, and G.M. Revel, \u201cA discrete-continuous method for predicting thermochemical phenomena in a cement kiln and supporting indirect monitoring,\u201d Engineering Journal, vol. 22, pp 165-183, 2018."
+                    },
+                    {
+                        "ref-fulltext": "D. B. Özyurt and R. W. Pike, \u201cTheory and practice of simultaneous data reconciliation and gross error detection for chemical processes,\u201d Comput. Chem. Eng., vol. 28, pp 381-402, 2004.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Theory and practice of simultaneous data reconciliation and gross error detection for chemical processes"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0742287043",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "28"},
+                                "pagerange": {
+                                    "@first": "381",
+                                    "@last": "402"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Özyurt",
+                                    "ce:indexed-name": "Ozyurt D.B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pike",
+                                    "ce:indexed-name": "Pike R.W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Comput. Chem. Eng"
+                        },
+                        "ce:source-text": "D. B. Özyurt and R. W. Pike, \u201cTheory and practice of simultaneous data reconciliation and gross error detection for chemical processes,\u201d Comput. Chem. Eng., vol. 28, pp 381-402, 2004."
+                    },
+                    {
+                        "ref-fulltext": "P. E. Gill, W. Murray, and M. A. Saunders, \u201cSNOPT: An SQP algorithm for large-scale constrained optimization,\u201d SIAM J. Optim., vol. 12, pp 979-1006, 2002.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "SNOPT: An SQP algorithm for large-scale constrained optimization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0036433588",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "12"},
+                                "pagerange": {
+                                    "@first": "979",
+                                    "@last": "1006"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gill",
+                                    "ce:indexed-name": "Gill P.E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Murray",
+                                    "ce:indexed-name": "Murray W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Saunders",
+                                    "ce:indexed-name": "Saunders M.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "SIAM J. Optim"
+                        },
+                        "ce:source-text": "P. E. Gill, W. Murray, and M. A. Saunders, \u201cSNOPT: An SQP algorithm for large-scale constrained optimization,\u201d SIAM J. Optim., vol. 12, pp 979-1006, 2002."
+                    },
+                    {
+                        "ref-fulltext": "Comsol (2012). COMSOL Multiphysics User\u2019s Guide [Online]. Available: Http://people.ee.ethz.ch/~fieldcom/pps-comsol/documents/User%20Guide [Accessed: 21 Jan 2018]",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://people.ee.ethz.ch/~fieldcom/pps-comsol/documents/User%20Guide",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34547547783",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Comsol, [Accessed: 21 Jan 2018]",
+                            "ref-sourcetitle": "COMSOL Multiphysics User\u2019s Guide [Online]"
+                        },
+                        "ce:source-text": "Comsol (2012). COMSOL Multiphysics User\u2019s Guide [Online]. Available: Http://people.ee.ethz.ch/~fieldcom/pps-comsol/documents/User%20Guide [Accessed: 21 Jan 2018]"
+                    },
+                    {
+                        "ref-fulltext": "D. C. Wilcox, \u201cTurbulence energy equation models,\u201d in Turbulence Modeling for CFD, 3rd ed. California: D.C.W. Industries Inc., 2006. pp 73-163.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Turbulence energy equation models"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0142016237",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "73",
+                                "@last": "163"
+                            }},
+                            "ref-text": "3rd ed. California: D.C.W. Industries Inc",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "D.C.",
+                                "@_fa": "true",
+                                "ce:surname": "Wilcox",
+                                "ce:indexed-name": "Wilcox D.C."
+                            }]},
+                            "ref-sourcetitle": "Turbulence Modeling for CFD"
+                        },
+                        "ce:source-text": "D. C. Wilcox, \u201cTurbulence energy equation models,\u201d in Turbulence Modeling for CFD, 3rd ed. California: D.C.W. Industries Inc., 2006. pp 73-163."
+                    },
+                    {
+                        "ref-fulltext": "H. K. Versteeg and W. Malalasekera, \u201cTurbulence and its modelling,\u201d in An Introduction to Computational Fluid Dynamics: The Finite Volume Method, 2nd ed. Harlow: Pearson Education Ltd., 2007. pp 40-113.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Turbulence and its modelling"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84871336198",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "40",
+                                "@last": "113"
+                            }},
+                            "ref-text": "2nd ed. Harlow: Pearson Education Ltd",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Versteeg",
+                                    "ce:indexed-name": "Versteeg H.K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Malalasekera",
+                                    "ce:indexed-name": "Malalasekera W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "An Introduction to Computational Fluid Dynamics: The Finite Volume Method"
+                        },
+                        "ce:source-text": "H. K. Versteeg and W. Malalasekera, \u201cTurbulence and its modelling,\u201d in An Introduction to Computational Fluid Dynamics: The Finite Volume Method, 2nd ed. Harlow: Pearson Education Ltd., 2007. pp 40-113."
+                    },
+                    {
+                        "ref-fulltext": "Z. Guozhong and L. Gang, \u201cStudy on the wax deposition of waxy crude in pipelines and its application,\u201d J. Petrol Sci. Eng., vol. 70, pp 1-9, 2010.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Study on the wax deposition of waxy crude in pipelines and its application"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "72249109405",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "70"},
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "9"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guozhong",
+                                    "ce:indexed-name": "Guozhong Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gang",
+                                    "ce:indexed-name": "Gang L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Petrol Sci. Eng"
+                        },
+                        "ce:source-text": "Z. Guozhong and L. Gang, \u201cStudy on the wax deposition of waxy crude in pipelines and its application,\u201d J. Petrol Sci. Eng., vol. 70, pp 1-9, 2010."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Nakhon Pathom",
+            "@id": "60012718",
+            "affilname": "Mahidol University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012718",
+            "affiliation-country": "Thailand"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85071681094",
+        "dc:description": "Data reconciliation is a mathematical approach that improves the quality of measurements by calculating the reconciled data that satisfy the process constraints. The conventional data reconciliation approach relies on the process model that contains the constant parameters. In the industrial applications, however, there are always possible variations of parameters within the system. In this paper, a new data reconciliation approach based on the partial differential equation (PDE) is developed. The proposed data reconciliation approach is experimentally applied to a case study of temperature measurements for a refinery process. The PDE-based model is employed in the formulation of the optimization problem. Unlike the conventional data reconciliation approach in which the system is assumed to be lumped, the PDE-based data reconciliation approach includes in the problem formulation the variations of parameters within the system in order to describe the real system\u2019s behaviour. The reconciled values can be computed within the computational domain so they can be used as the data for troubleshooting, equipment analysis and maintenance.",
+        "prism:coverDate": "2019-07-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85071681094",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Siwaporn",
+            "preferred-name": {
+                "ce:given-name": "Siwaporn",
+                "ce:initials": "S.",
+                "ce:surname": "Duangsri",
+                "ce:indexed-name": "Duangsri S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60012718",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012718"
+            },
+            "ce:surname": "Duangsri",
+            "@auid": "57210846859",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57210846859",
+            "ce:indexed-name": "Duangsri S."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85071681094"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85071681094&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85071681094&origin=inward"
+            }
+        ],
+        "source-id": "21100197000",
+        "citedby-count": "0",
+        "prism:volume": "23",
+        "subtype": "ar",
+        "dc:title": "A PDE-based data reconciliation approach for systems with variations of parameters",
+        "openaccess": "1",
+        "prism:issn": "01258281",
+        "publishercopyright": "© 2019, Chulalongkorn University, Faculty of Fine and Applied Arts. All rights reserved.",
+        "prism:issueIdentifier": "4",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "Engineering Journal",
+        "prism:pageRange": "157-169",
+        "prism:endingPage": "169",
+        "openaccessFlag": "true",
+        "prism:doi": "10.4186/ej.2019.23.4.157",
+        "prism:startingPage": "157",
+        "dc:identifier": "SCOPUS_ID:85071681094",
+        "dc:publisher": "Chulalongkorn University, Faculty of Fine and Applied Artsyan.z@chula.ac.th"
+    },
+    "idxterms": null,
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Data reconciliation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Partial differential equation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Temperature measurements"
+        },
+        {
+            "@_fa": "true",
+            "$": "Variations of parameters"
+        }
+    ]},
+    "subject-areas": {"subject-area": [{
+        "@_fa": "true",
+        "$": "Engineering (all)",
+        "@code": "2200",
+        "@abbrev": "ENGI"
+    }]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Siwaporn",
+            "preferred-name": {
+                "ce:given-name": "Siwaporn",
+                "ce:initials": "S.",
+                "ce:surname": "Duangsri",
+                "ce:indexed-name": "Duangsri S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60012718",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012718"
+            },
+            "ce:surname": "Duangsri",
+            "@auid": "57210846859",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57210846859",
+            "ce:indexed-name": "Duangsri S."
+        },
+        {
+            "ce:given-name": "Soorathep",
+            "preferred-name": {
+                "ce:given-name": "Soorathep",
+                "ce:initials": "S.",
+                "ce:surname": "Kheawhom",
+                "ce:indexed-name": "Kheawhom S."
+            },
+            "@seq": "2",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Kheawhom",
+            "@auid": "55897360400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55897360400",
+            "ce:indexed-name": "Kheawhom S."
+        },
+        {
+            "ce:given-name": "Pornchai",
+            "preferred-name": {
+                "ce:given-name": "Pornchai",
+                "ce:initials": "P.",
+                "ce:surname": "Bumroongsri",
+                "ce:indexed-name": "Bumroongsri P."
+            },
+            "@seq": "3",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60012718",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012718"
+            },
+            "ce:surname": "Bumroongsri",
+            "@auid": "49861075400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/49861075400",
+            "ce:indexed-name": "Bumroongsri P."
+        }
+    ]}
+}}

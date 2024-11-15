@@ -1,0 +1,1132 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "10",
+                "@timestamp": "2023-05-10T14:06:05.000005-04:00",
+                "@year": "2023",
+                "@month": "05"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2019",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "AMED",
+                    "xocs:funding-agency-acronym": "AMED",
+                    "xocs:funding-agency": "Japan Agency for Medical Research and Development",
+                    "xocs:funding-id": "JP16fk0108119",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100009619",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1861060/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "JSPS",
+                    "xocs:funding-agency-acronym": "JSPS",
+                    "xocs:funding-agency": "Japan Society for the Promotion of Science",
+                    "xocs:funding-id": [
+                        {"$": "JP16H01722"},
+                        {"$": "JP16K16057"}
+                    ],
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001691",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1861060/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "MIC",
+                    "xocs:funding-agency-acronym": "MIC",
+                    "xocs:funding-agency": "Ministry of Information and Communication",
+                    "xocs:funding-id": "171507010",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100006404",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1835841/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-05-29T13:24:08.292Z",
+            "xocs:funding-text": "Acknowledgements. This work was partly supported by MIC SCOPE #171507010, AMED under Grant Number JP16fk0108119, and JSPS KAKENHI Grant Numbers JP16K16057 and JP16H01722.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "address-part": "254 Phayathai Road, Pathumwan",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": {"$": "Chulalongkorn University"},
+                            "affiliation-id": {"@afid": "60028190"},
+                            "ce:source-text": "Chulalongkorn University, 254 Phayathai Road, Pathumwan, Bangkok, Thailand"
+                        },
+                        "author": [{
+                            "ce:given-name": "Wannita",
+                            "preferred-name": {
+                                "ce:given-name": "Wannita",
+                                "ce:initials": "W.",
+                                "ce:surname": "Takerngsaksiri",
+                                "ce:indexed-name": "Takerngsaksiri W."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "W.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Takerngsaksiri",
+                            "@auid": "57208862439",
+                            "ce:indexed-name": "Takerngsaksiri W."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Japan",
+                            "address-part": "8916-5 Takayama-cho",
+                            "postal-code": "630-0192",
+                            "@afid": "60025017",
+                            "@country": "jpn",
+                            "city": "Ikoma",
+                            "organization": {"$": "NAIST"},
+                            "affiliation-id": {"@afid": "60025017"},
+                            "state": "Nara",
+                            "ce:source-text": "NAIST, 8916-5 Takayama-cho, Ikoma, Nara, 630-0192, Japan"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Shoko",
+                                "preferred-name": {
+                                    "ce:given-name": "Shoko",
+                                    "ce:initials": "S.",
+                                    "ce:surname": "Wakamiya",
+                                    "ce:indexed-name": "Wakamiya S."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Wakamiya",
+                                "@auid": "35281103600",
+                                "ce:indexed-name": "Wakamiya S."
+                            },
+                            {
+                                "ce:given-name": "Eiji",
+                                "preferred-name": {
+                                    "ce:given-name": "Eiji",
+                                    "ce:initials": "E.",
+                                    "ce:surname": "Aramaki",
+                                    "ce:indexed-name": "Aramaki E."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "E.",
+                                "@date-locked": "2022-10-10T06:06:06.673",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Aramaki",
+                                "@auid": "57203225161",
+                                "ce:indexed-name": "Aramaki E."
+                            }
+                        ]
+                    }
+                ],
+                "citation-title": "City Link: Finding Similar Areas in Two Cities Using Twitter Data",
+                "abstracts": "© 2019, Springer Nature Switzerland AG.Today in our increasingly globalized world, the number of people travelling overseas is increasing. A system that helps overseas travelers by providing information related to unfamiliar places has been earnestly sought. This study develops such a system by exploiting user-generated data over a popular social network platform: Twitter. We propose the use of natural language processing (NLP) as a method of estimating location similarity between areas in different cities. Finally, location similarity is visualized on a map. Our experiment is conducted at two popular sightseeing cities: Bangkok, Thailand and Kyoto, Japan. Our evaluation using crowd-sourcing-based 1,000 questionnaires empirically demonstrated that the proposed method can find similar places in the two cities. This result demonstrated the fundamental feasibility of our approach.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "address-part": "254 Phayathai Road, Pathumwan",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": {"$": "Chulalongkorn University"},
+                        "ce:source-text": "Chulalongkorn University, 254 Phayathai Road, Pathumwan, Bangkok, Thailand"
+                    },
+                    "person": {
+                        "ce:given-name": "Wannita",
+                        "ce:initials": "W.",
+                        "ce:surname": "Takerngsaksiri",
+                        "ce:indexed-name": "Takerngsaksiri W."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "City similarity",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Crowd-sourcing",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Doc2Vec",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Map visualization",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Social media",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "https://www.springer.com/series/558",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {"@volume": "11474 LNCS"},
+                        "pagerange": {
+                            "@first": "13",
+                            "@last": "27"
+                        }
+                    },
+                    "@type": "k",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9783030172459",
+                        "@type": "print",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "17th International Symposium on Web and Wireless Geographical Information Systems, W2GIS 2019",
+                            "confnumber": "17th",
+                            "confseriestitle": "International Symposium on Web and Wireless Geographical Information Systems",
+                            "conflocation": {
+                                "@country": "jpn",
+                                "city": "Kyoto"
+                            },
+                            "confcode": "225899",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "17",
+                                    "@year": "2019",
+                                    "@month": "05"
+                                },
+                                "startdate": {
+                                    "@day": "16",
+                                    "@year": "2019",
+                                    "@month": "05"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                    "contributor-group": [
+                        {"contributor": {
+                            "ce:given-name": "Kazutoshi",
+                            "@seq": "1",
+                            "ce:initials": "K.",
+                            "ce:surname": "Sumiya",
+                            "@role": "edit",
+                            "ce:indexed-name": "Sumiya K."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Yukiko",
+                            "@seq": "1",
+                            "ce:initials": "Y.",
+                            "ce:surname": "Kawai",
+                            "@role": "edit",
+                            "ce:indexed-name": "Kawai Y."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Sabine",
+                            "@seq": "1",
+                            "ce:initials": "S.",
+                            "ce:surname": "Storandt",
+                            "@role": "edit",
+                            "ce:indexed-name": "Storandt S."
+                        }}
+                    ],
+                    "publicationdate": {
+                        "year": "2019",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2019"
+                        }
+                    },
+                    "sourcetitle-abbrev": "Lect. Notes Comput. Sci.",
+                    "@country": "deu",
+                    "issuetitle": "Web and Wireless Geographical Information Systems - 17th International Symposium, W2GIS 2019, Proceedings",
+                    "issn": [
+                        {
+                            "$": "16113349",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "03029743",
+                            "@type": "print"
+                        }
+                    ],
+                    "publicationyear": {"@first": "2019"},
+                    "publisher": {
+                        "publishername": "Springer Verlag",
+                        "ce:e-address": {
+                            "$": "service@springer.de",
+                            "@type": "email"
+                        }
+                    },
+                    "@srcid": "25674"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "723",
+                                "classification-description": "Computer Software, Data Handling and Applications"
+                            },
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing"
+                            },
+                            {
+                                "classification-code": "903.3",
+                                "classification-description": "Information Retrieval and Use"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2614"},
+                            {"$": "1700"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "MATH"},
+                            {"$": "COMP"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This work was partly supported by MIC SCOPE #171507010, AMED under Grant Number JP16fk0108119, and JSPS KAKENHI Grant Numbers JP16K16057 and JP16H01722.",
+                        "@xml:lang": "eng"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2019 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "27",
+                    "@timestamp": "BST 07:15:19",
+                    "@year": "2019",
+                    "@month": "05"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "627799258",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "917628088",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20192106970053",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20191474817",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85065969173",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85065969173",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1007/978-3-030-17246-6_2"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "13",
+                "reference": [
+                    {
+                        "ref-fulltext": "Lynch, K.: The Image of the City. MIT Press, Cambridge (1960)",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1960"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0004055081",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "MIT Press, Cambridge",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "K.",
+                                "@_fa": "true",
+                                "ce:surname": "Lynch",
+                                "ce:indexed-name": "Lynch K."
+                            }]},
+                            "ref-sourcetitle": "The Image of the City"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Nold, C.: Greenwich Emotion Map. http://www.emotionmap.net/(2005)",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://www.emotionmap.net/",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33846524237",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "C.",
+                                "@_fa": "true",
+                                "ce:surname": "Nold",
+                                "ce:indexed-name": "Nold C."
+                            }]},
+                            "ref-sourcetitle": "Greenwich Emotion Map"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Quercia, D., Schifanella, R., Aiello, L.M.: The shortest path to happiness: recommending beautiful, quiet, and happy routes in the city. In: Proceedings of Conference on Hypertext and Social Media (HyperText) (2014)",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "The shortest path to happiness: Recommending beautiful, quiet, and happy routes in the city"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84907409600",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Quercia",
+                                    "ce:indexed-name": "Quercia D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schifanella",
+                                    "ce:indexed-name": "Schifanella R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aiello",
+                                    "ce:indexed-name": "Aiello L.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of Conference on Hypertext and Social Media (Hypertext)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Quercia, D., Schifanella, R., Aiello, L.M., McLean, K.: Smelly maps: the digital life of urban smellscapes. In: Proceedings of the Ninth International AAAI Conference on Web and Social Media, pp. 327\u2013336 (2015)",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Smelly maps: The digital life of urban smellscapes"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84960964636",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "327",
+                                "@last": "336"
+                            }},
+                            "ref-text": ", pp",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Quercia",
+                                    "ce:indexed-name": "Quercia D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schifanella",
+                                    "ce:indexed-name": "Schifanella R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aiello",
+                                    "ce:indexed-name": "Aiello L.M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McLean",
+                                    "ce:indexed-name": "McLean K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Ninth International AAAI Conference on Web and Social Media"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Aiello, L.M., Schifanella, R., Quercia, D., Aletta, F.: Chatty maps: constructing sound maps of urban areas from social media data. Roy. Soc. Open Sci. 3(3), 1\u201319 (2016)",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Chatty maps: Constructing sound maps of urban areas from social media data"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84962159471",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "3",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "19"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aiello",
+                                    "ce:indexed-name": "Aiello L.M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schifanella",
+                                    "ce:indexed-name": "Schifanella R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Quercia",
+                                    "ce:indexed-name": "Quercia D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aletta",
+                                    "ce:indexed-name": "Aletta F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Roy. Soc. Open Sci."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Culotta, A.: Towards detecting influenza epidemics by analyzing Twitter messages. In: Proceedings of the First Workshop on Social Media Analytics, pp. 115\u2013122 (2010)",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Towards detecting influenza epidemics by analyzing Twitter messages"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79956040653",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "115",
+                                "@last": "122"
+                            }},
+                            "ref-text": ", pp",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "ce:surname": "Culotta",
+                                "ce:indexed-name": "Culotta A."
+                            }]},
+                            "ref-sourcetitle": "Proceedings of the First Workshop on Social Media Analytics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Amador Diaz Lopez, J., Collignon-Delmar, S., Benoit, K., et al.: Predicting the Brexit vote by tracking and classifying public opinion using Twitter data. Stat. Polit. Policy 8(1), 85\u2013104 (2017). Accessed 24 Aug 2018. https://doi.org/10.1515/spp-2017-0006",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1515/spp-2017-0006",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Predicting the Brexit vote by tracking and classifying public opinion using Twitter data"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85046847958",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "8",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "85",
+                                    "@last": "104"
+                                }
+                            },
+                            "ref-text": "Accessed 24 Aug 2018",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "J.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Amador Diaz Lopez",
+                                        "ce:indexed-name": "Amador Diaz Lopez J."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "S.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Collignon-Delmar",
+                                        "ce:indexed-name": "Collignon-Delmar S."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "K.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Benoit",
+                                        "ce:indexed-name": "Benoit K."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Stat. Polit. Policy"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Gerber, M.S.: Predicting crime using Twitter and Kernel density estimation. Decis. Support Syst. 61, 115\u2013125 (2014). https://doi.org/10.1016/j.dss.2014.02.003",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1016/j.dss.2014.02.003",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Predicting crime using Twitter and Kernel density estimation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84897492871",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "61"},
+                                "pagerange": {
+                                    "@first": "115",
+                                    "@last": "125"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "M.S.",
+                                "@_fa": "true",
+                                "ce:surname": "Gerber",
+                                "ce:indexed-name": "Gerber M.S."
+                            }]},
+                            "ref-sourcetitle": "Decis. Support Syst."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Tumasjan, A., Sprenger, T.O., Sandner, P.G., Welpe, I.M.: Predicting elections with Twitter: what 140 characters reveal about political sentiment. In: International AAAI Conference on Weblogs and Social Media, Washington, DC (2010)",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Predicting elections with Twitter: What 140 characters reveal about political sentiment"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84890668120",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Washington, DC",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tumasjan",
+                                    "ce:indexed-name": "Tumasjan A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sprenger",
+                                    "ce:indexed-name": "Sprenger T.O."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sandner",
+                                    "ce:indexed-name": "Sandner P.G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "I.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Welpe",
+                                    "ce:indexed-name": "Welpe I.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International AAAI Conference on Weblogs and Social Media"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Hahmann, S., Purves, R., Burghardt, D.: Twitter location (sometimes) matters: exploring the relationship between georeferenced tweet content and nearby feature classes. J. Spat. Inf. Sci. Number 9, 1\u201336 (2014)",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Twitter location (Sometimes) matters: Exploring the relationship between georeferenced tweet content and nearby feature classes"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84920016528",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "9"},
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "36"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hahmann",
+                                    "ce:indexed-name": "Hahmann S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Purves",
+                                    "ce:indexed-name": "Purves R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Burghardt",
+                                    "ce:indexed-name": "Burghardt D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Spat. Inf. Sci. Number"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Preotiuc-Pietro, D., Cranshaw, J., Yano, T.: Exploring venue-based city-to-city similarity measures. In: Proceedings of the Second ACM SIGKDD International Workshop on Urban Computing, Article No. 16 (2013)",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Exploring venue-based city-to-city similarity measures"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "16",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "84884166579",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Preotiuc-Pietro",
+                                    "ce:indexed-name": "Preotiuc-Pietro D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cranshaw",
+                                    "ce:indexed-name": "Cranshaw J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yano",
+                                    "ce:indexed-name": "Yano T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Second ACM SIGKDD International Workshop on Urban Computing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Kato, M.P., Hiroaki, O., Oyama, S., Tanaka, K.: Search as if you were in your home town: geographic search by regional context and dynamic feature-space selection. In: Proceedings of the 19th ACM International Conference on Information and Knowledge Management, pp. 1541\u20131544 (2010)",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Search as if you were in your home town: Geographic search by regional context and dynamic feature-space selection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "78651339112",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1541",
+                                "@last": "1544"
+                            }},
+                            "ref-text": ", pp",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kato",
+                                    "ce:indexed-name": "Kato M.P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hiroaki",
+                                    "ce:indexed-name": "Hiroaki O."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oyama",
+                                    "ce:indexed-name": "Oyama S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tanaka",
+                                    "ce:indexed-name": "Tanaka K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 19Th ACM International Conference on Information and Knowledge Management"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Seth, R., Covell, M., Ravichandran, D., Sivakumar, D., Baluja, S.: A tale of two (similar) cities: inferring city similarity through geo-spatial query log analysis. In: Proceedings of the International Conference on Knowledge Discovery and Information Retrieval (2011)",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "A tale of two (Similar) cities: Inferring city similarity through geo-spatial query log analysis"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84862162034",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Seth",
+                                    "ce:indexed-name": "Seth R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Covell",
+                                    "ce:indexed-name": "Covell M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ravichandran",
+                                    "ce:indexed-name": "Ravichandran D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sivakumar",
+                                    "ce:indexed-name": "Sivakumar D."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Baluja",
+                                    "ce:indexed-name": "Baluja S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the International Conference on Knowledge Discovery and Information Retrieval"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Ikoma",
+            "@id": "60025017",
+            "affilname": "Nara Institute of Science and Technology",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025017",
+            "affiliation-country": "Japan"
+        }
+    ],
+    "coredata": {
+        "srctype": "k",
+        "eid": "2-s2.0-85065969173",
+        "dc:description": "Today in our increasingly globalized world, the number of people travelling overseas is increasing. A system that helps overseas travelers by providing information related to unfamiliar places has been earnestly sought. This study develops such a system by exploiting user-generated data over a popular social network platform: Twitter. We propose the use of natural language processing (NLP) as a method of estimating location similarity between areas in different cities. Finally, location similarity is visualized on a map. Our experiment is conducted at two popular sightseeing cities: Bangkok, Thailand and Kyoto, Japan. Our evaluation using crowd-sourcing-based 1,000 questionnaires empirically demonstrated that the proposed method can find similar places in the two cities. This result demonstrated the fundamental feasibility of our approach.",
+        "prism:coverDate": "2019-01-01",
+        "prism:aggregationType": "Book Series",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85065969173",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Wannita",
+            "preferred-name": {
+                "ce:given-name": "Wannita",
+                "ce:initials": "W.",
+                "ce:surname": "Takerngsaksiri",
+                "ce:indexed-name": "Takerngsaksiri W."
+            },
+            "@seq": "1",
+            "ce:initials": "W.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Takerngsaksiri",
+            "@auid": "57208862439",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57208862439",
+            "ce:indexed-name": "Takerngsaksiri W."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85065969173"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85065969173&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85065969173&origin=inward"
+            }
+        ],
+        "prism:isbn": "9783030172459",
+        "source-id": "25674",
+        "citedby-count": "0",
+        "prism:volume": "11474 LNCS",
+        "subtype": "cp",
+        "dc:title": "City Link: Finding Similar Areas in Two Cities Using Twitter Data",
+        "openaccess": "0",
+        "prism:issn": "16113349 03029743",
+        "publishercopyright": "© 2019, Springer Nature Switzerland AG.",
+        "subtypeDescription": "Conference Paper",
+        "prism:publicationName": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+        "prism:pageRange": "13-27",
+        "prism:endingPage": "27",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1007/978-3-030-17246-6_2",
+        "prism:startingPage": "13",
+        "dc:identifier": "SCOPUS_ID:85065969173",
+        "dc:publisher": "Springer Verlagservice@springer.de"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Bangkok , Thailand",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "City similarity",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Doc2Vec",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Map visualizations",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "NAtural language processing",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Network platforms",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Number of peoples",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Social media",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "City similarity"
+        },
+        {
+            "@_fa": "true",
+            "$": "Crowd-sourcing"
+        },
+        {
+            "@_fa": "true",
+            "$": "Doc2Vec"
+        },
+        {
+            "@_fa": "true",
+            "$": "Map visualization"
+        },
+        {
+            "@_fa": "true",
+            "$": "Social media"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Theoretical Computer Science",
+            "@code": "2614",
+            "@abbrev": "MATH"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science (all)",
+            "@code": "1700",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Wannita",
+            "preferred-name": {
+                "ce:given-name": "Wannita",
+                "ce:initials": "W.",
+                "ce:surname": "Takerngsaksiri",
+                "ce:indexed-name": "Takerngsaksiri W."
+            },
+            "@seq": "1",
+            "ce:initials": "W.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Takerngsaksiri",
+            "@auid": "57208862439",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57208862439",
+            "ce:indexed-name": "Takerngsaksiri W."
+        },
+        {
+            "ce:given-name": "Shoko",
+            "preferred-name": {
+                "ce:given-name": "Shoko",
+                "ce:initials": "S.",
+                "ce:surname": "Wakamiya",
+                "ce:indexed-name": "Wakamiya S."
+            },
+            "@seq": "2",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60025017",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025017"
+            },
+            "ce:surname": "Wakamiya",
+            "@auid": "35281103600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/35281103600",
+            "ce:indexed-name": "Wakamiya S."
+        },
+        {
+            "ce:given-name": "Eiji",
+            "preferred-name": {
+                "ce:given-name": "Eiji",
+                "ce:initials": "E.",
+                "ce:surname": "Aramaki",
+                "ce:indexed-name": "Aramaki E."
+            },
+            "@seq": "3",
+            "ce:initials": "E.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60025017",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025017"
+            },
+            "ce:surname": "Aramaki",
+            "@auid": "57203225161",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57203225161",
+            "ce:indexed-name": "Aramaki E."
+        }
+    ]}
+}}

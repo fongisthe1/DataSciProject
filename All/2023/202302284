@@ -1,0 +1,1916 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "04",
+                "@year": "2023",
+                "@timestamp": "2023-07-04T20:13:15.000015-04:00",
+                "@month": "07"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2023",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {"xocs:funding-agency-matched-string": "Department of Math-ematics and Computer Science"},
+                {"xocs:funding-agency-matched-string": "Science Achievement Scholarship of Thailand"},
+                {
+                    "xocs:funding-agency-matched-string": "Department of Mathematics and Computer Science",
+                    "xocs:funding-agency-acronym": "DMI, UNICT",
+                    "xocs:funding-agency": "Dipartimento di Matematica e Informatica, Università degli Studi di Catania",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100020611",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/3175395/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2023-06-13T06:58:30.250Z",
+            "xocs:funding-text": [
+                {"$": "This research is supported by the Science Achievement Scholarship of Thailand and the Applied Mathematics and Computational Science Program in the Department of Math-ematics and Computer Science, Faculty of Science, Chula-longkorn University, Thailand."},
+                {"$": "This research is supported by the Science Achievement Scholarship of Thailand and the Applied Mathematics and Computational Science Program in the Department of Mathematics and Computer Science, Faculty of Science, Chula-longkorn University, Thailand."}
+            ],
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "postal-code": "10330",
+                        "@afid": "60012448",
+                        "@country": "tha",
+                        "organization": [
+                            {"$": "Department of Mathematics and Computer Science Chulalongkorn"},
+                            {"$": "University Bangkok"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60012448",
+                            "@dptid": "129817193"
+                        },
+                        "@affiliation-instance-id": "OB2BibRecID-948674828-74bf3024d540ccdd4af030ef47e58b6c-1",
+                        "ce:source-text": "Department of Mathematics and Computer Science Chulalongkorn University Bangkok, Thailand, 10330",
+                        "@dptid": "129817193"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Natdanai",
+                            "preferred-name": {
+                                "ce:given-name": "Natdanai",
+                                "ce:initials": "N.",
+                                "ce:surname": "Kafakthong",
+                                "ce:indexed-name": "Kafakthong N."
+                            },
+                            "@seq": "1",
+                            "@author-instance-id": "OB2BibRecID-948674828-44be72dca1b0f1060e36a1f36c3d8621-1",
+                            "ce:initials": "N.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Kafakthong",
+                            "@auid": "58306507100",
+                            "ce:indexed-name": "Kafakthong N."
+                        },
+                        {
+                            "ce:given-name": "Krung",
+                            "preferred-name": {
+                                "ce:given-name": "Krung",
+                                "ce:initials": "K.",
+                                "ce:surname": "Sinapiromsaran",
+                                "ce:indexed-name": "Sinapiromsaran K."
+                            },
+                            "@seq": "2",
+                            "@author-instance-id": "OB2BibRecID-948674828-ba4ee17efed164b75eb39b300f5c4f0f-1",
+                            "ce:initials": "K.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Sinapiromsaran",
+                            "@auid": "6505851402",
+                            "ce:indexed-name": "Sinapiromsaran K."
+                        }
+                    ]
+                },
+                "citation-title": "Primal-Optimal-Binding LPNet: Deep Learning Architecture to Predict Optimal Binding Constraints of a Linear Programming Problem",
+                "abstracts": "© (2023), All Rights Reserved.Identifying an optimal basis for a linear program-ming problem is a challenging learning task. Traditionally, an optimal basis is obtained via the iterative simplex method which improves from the current basic feasible solution to the adjacent one until it reaches optimal. The obtained result is the value of the optimal solution and the corresponding optimal basis. Even though learning the optimal value is hard but learning the optimal basis is possible via deep learning. This paper presents the primal-optimal-binding LPNet that learns from massive linear programming problems of various sizes casting as all-unit-row-except-first-unit-column matrices. During the training step, these matrices are fed to the special row-column convolutional layer followed by the state-of-the-art deep learning architecture and sent to two fully connected layers. The result is the probability vector of non-negativity constraints and the original linear programming constraints at the optimal basis. The experiment shows that this LPNet achieves 99% accuracy of predicting a single binding optimal constraint on unseen test problems and Netlib problems. It identifies correctly 80% LP problems having all optimal binding constraints and faster than cplex solution time.",
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "basic feasible solution",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "convolution neural network",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Deep learning",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "linear programming",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "optimization",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "Intl. J. Adv. Comput. Sci. Appl.",
+                    "website": {"ce:e-address": {
+                        "$": "http://thesai.org/Publications/Archives?code=IJACSA",
+                        "@type": "email"
+                    }},
+                    "@country": "gbr",
+                    "translated-sourcetitle": {"@xml:lang": "eng"},
+                    "issn": [
+                        {
+                            "$": "21565570",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "2158107X",
+                            "@type": "print"
+                        }
+                    ],
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "14",
+                            "@issue": "5"
+                        },
+                        "pagerange": {
+                            "@first": "1055",
+                            "@last": "1066"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2023"},
+                    "publisher": {"publishername": "Science and Information Organization"},
+                    "sourcetitle": "International Journal of Advanced Computer Science and Applications",
+                    "@srcid": "21100867241",
+                    "publicationdate": {
+                        "year": "2023",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2023"
+                        }
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "461.4",
+                                "classification-description": "Ergonomics and Human Factors Engineering"
+                            },
+                            {
+                                "classification-code": "716.1",
+                                "classification-description": "Information Theory and Signal Processing"
+                            },
+                            {
+                                "classification-code": "921.1",
+                                "classification-description": "Algebra"
+                            },
+                            {
+                                "classification-code": "921.6",
+                                "classification-description": "Numerical Methods"
+                            },
+                            {
+                                "classification-code": "961",
+                                "classification-description": "Systems Science"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": "1700"
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "COMP"
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This research is supported by the Science Achievement Scholarship of Thailand and the Applied Mathematics and Computational Science Program in the Department of Math-ematics and Computer Science, Faculty of Science, Chula-longkorn University, Thailand.",
+                        "@xml:lang": "eng"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2023 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "12",
+                    "@year": "2023",
+                    "@timestamp": "BST 09:15:02",
+                    "@month": "06"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2024814195",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "948674828",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20232414208443",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20232127110",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "20239017058384",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85161269367",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85161269367",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.14569/IJACSA.2023.01405109"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "31",
+                "reference": [
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[1] M. R. Hussain, and M. E. Hussain, \u201cSimplex method to Optimize Mathematical manipulation,\u201d International Journal of Recent Technology and Engineering (IJRTE), vol. 7, January 2019.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-c1051c08d1a08c282445255497f27ac5-1",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Simplex method to Optimize Mathematical manipulation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85161268851",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "7"}},
+                            "ref-text": "[1] January",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M. R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hussain",
+                                    "ce:indexed-name": "Hussain M. R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M. E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hussain",
+                                    "ce:indexed-name": "Hussain M. E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Journal of Recent Technology and Engineering (IJRTE)"
+                        },
+                        "ce:source-text": "[1] M. R. Hussain, and M. E. Hussain, \u201cSimplex method to Optimize Mathematical manipulation,\u201d International Journal of Recent Technology and Engineering (IJRTE), vol. 7, January 2019."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[2] A. P. Florian, and J. W. Stephen, \u201cInterior-point methods,\u201d Journal of Computational and Applied Mathematics, vol. 124, pp. 281-302, 2000.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-b9e490fbce0d0622d70a6dae418b792e-2",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-title": {"ref-titletext": "Interior-point methods"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0034541550",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "124"},
+                                "pagerange": {
+                                    "@first": "281",
+                                    "@last": "302"
+                                }
+                            },
+                            "ref-text": "[2]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A. P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Florian",
+                                    "ce:indexed-name": "Florian A. P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J. W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stephen",
+                                    "ce:indexed-name": "Stephen J. W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Computational and Applied Mathematics"
+                        },
+                        "ce:source-text": "[2] A. P. Florian, and J. W. Stephen, \u201cInterior-point methods,\u201d Journal of Computational and Applied Mathematics, vol. 124, pp. 281-302, 2000."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[3] M. Soleimani-damaneh, \u201cModified big-m method to recognize the infea-sibility of linear programming models,\u201d Knowledge-Based Systems, vol. 21, pp. 377-382, 2008.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-2bd39174d657ed25862e1437a1cf2f8e-3",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Modified big-m method to recognize the infea-sibility of linear programming models"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "44149123366",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "21"},
+                                "pagerange": {
+                                    "@first": "377",
+                                    "@last": "382"
+                                }
+                            },
+                            "ref-text": "[3]",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "ce:surname": "Soleimani-damaneh",
+                                "ce:indexed-name": "Soleimani-damaneh M."
+                            }]},
+                            "ref-sourcetitle": "Knowledge-Based Systems"
+                        },
+                        "ce:source-text": "[3] M. Soleimani-damaneh, \u201cModified big-m method to recognize the infea-sibility of linear programming models,\u201d Knowledge-Based Systems, vol. 21, pp. 377-382, 2008."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[4] A. Boonperm, and K. Sinapiromsaran, \u201cArtificial-free simplex algorithm based on the non-acute constraint relaxation,\u201d Appl. Math. Comput., vol. 234, pp. 385-401, May 2014.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-15b4120c4a596b73d9ebe09c87ef1714-4",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Artificial-free simplex algorithm based on the non-acute constraint relaxation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84896508149",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "234"},
+                                "pagerange": {
+                                    "@first": "385",
+                                    "@last": "401"
+                                }
+                            },
+                            "ref-text": "[4] May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boonperm",
+                                    "ce:indexed-name": "Boonperm A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sinapiromsaran",
+                                    "ce:indexed-name": "Sinapiromsaran K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Appl. Math. Comput"
+                        },
+                        "ce:source-text": "[4] A. Boonperm, and K. Sinapiromsaran, \u201cArtificial-free simplex algorithm based on the non-acute constraint relaxation,\u201d Appl. Math. Comput., vol. 234, pp. 385-401, May 2014."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[5] R. Visuthirattanamanee, K. Sinapiromsaran, and Boonperm, \u201cA. Self-Regulating Artificial-Free Linear Programming Solver Using a Jump and Simplex Method,\u201d Mathematics, vol. 8, 2020.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-de1a9e308fb0af214dd5850a43b46067-5",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "A. Self-Regulating Artificial-Free Linear Programming Solver Using a Jump and Simplex Method"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85082427077",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "8"}},
+                            "ref-text": "[5]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Visuthirattanamanee",
+                                    "ce:indexed-name": "Visuthirattanamanee R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sinapiromsaran",
+                                    "ce:indexed-name": "Sinapiromsaran K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boonperm",
+                                    "ce:indexed-name": "Boonperm"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Mathematics"
+                        },
+                        "ce:source-text": "[5] R. Visuthirattanamanee, K. Sinapiromsaran, and Boonperm, \u201cA. Self-Regulating Artificial-Free Linear Programming Solver Using a Jump and Simplex Method,\u201d Mathematics, vol. 8, 2020."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[6] G. H. Andrew, Z. Menglong, C. Bo, K. Dmitry, W. Weijun, W. Tobias, A. Marco, and A. Hartwig, \u201cMobilenets: Efficient convolutional neural networks for mobile vision applications,\u201d arXiv, 2017.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-c9317a44eeb09d18b7b74121cb94ff25-6",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85030212949",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "[6] arXiv",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G. H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Andrew",
+                                    "ce:indexed-name": "Andrew G. H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Menglong",
+                                    "ce:indexed-name": "Menglong Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bo",
+                                    "ce:indexed-name": "Bo C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dmitry",
+                                    "ce:indexed-name": "Dmitry K."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Weijun",
+                                    "ce:indexed-name": "Weijun W."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tobias",
+                                    "ce:indexed-name": "Tobias W."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marco",
+                                    "ce:indexed-name": "Marco A."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hartwig",
+                                    "ce:indexed-name": "Hartwig A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Mobilenets: Efficient convolutional neural networks for mobile vision applications"
+                        },
+                        "ce:source-text": "[6] G. H. Andrew, Z. Menglong, C. Bo, K. Dmitry, W. Weijun, W. Tobias, A. Marco, and A. Hartwig, \u201cMobilenets: Efficient convolutional neural networks for mobile vision applications,\u201d arXiv, 2017."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[7] A. Bemporad, M. Morari, V. Dua, and E. N. Pistikopoulos, \u201cThe explicit linear quadratic regulator for constrained systems,\u201d Automatica, vol. 38, pp. 3-20, January 2002",
+                        "@reference-instance-id": "OB2BibRecID-948674828-40392a78f7cd117849c8cec4067ab124-7",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "The explicit linear quadratic regulator for constrained systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0036027604",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "38"},
+                                "pagerange": {
+                                    "@first": "3",
+                                    "@last": "20"
+                                }
+                            },
+                            "ref-text": "[7] January",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bemporad",
+                                    "ce:indexed-name": "Bemporad A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Morari",
+                                    "ce:indexed-name": "Morari M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dua",
+                                    "ce:indexed-name": "Dua V."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "E. N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pistikopoulos",
+                                    "ce:indexed-name": "Pistikopoulos E. N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Automatica"
+                        },
+                        "ce:source-text": "[7] A. Bemporad, M. Morari, V. Dua, and E. N. Pistikopoulos, \u201cThe explicit linear quadratic regulator for constrained systems,\u201d Automatica, vol. 38, pp. 3-20, January 2002"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[8] K. Justin, P. Iosif, A. Styliani, and N.P. Efstratios, \u201cIntegrating deep learn-ing models and multiparametric programming,\u201d Computers & Chemical Engineering, vol. 136, May 2020.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-5a80c928002198a846680c8d6788228a-8",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Integrating deep learn-ing models and multiparametric programming"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85081253729",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "136"}},
+                            "ref-text": "[8] May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Justin",
+                                    "ce:indexed-name": "Justin K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Iosif",
+                                    "ce:indexed-name": "Iosif P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Styliani",
+                                    "ce:indexed-name": "Styliani A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "N.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Efstratios",
+                                    "ce:indexed-name": "Efstratios N.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computers & Chemical Engineering"
+                        },
+                        "ce:source-text": "[8] K. Justin, P. Iosif, A. Styliani, and N.P. Efstratios, \u201cIntegrating deep learn-ing models and multiparametric programming,\u201d Computers & Chemical Engineering, vol. 136, May 2020."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[9] Z. Ling, R. Liu, Y. Zhang, and X. Chen, \u201cCan Deep Learning Solve Parametric Mathematical Programming? An Application to 0-1 Linear Programming Through Image Representation,\u201d IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 52, pp. 5656-5667, September 2022.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-0d99674c576f10eac558f855ae93a347-9",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-title": {"ref-titletext": "Can Deep Learning Solve Parametric Mathematical Programming? An Application to 0-1 Linear Programming Through Image Representation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85120854090",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "52"},
+                                "pagerange": {
+                                    "@first": "5656",
+                                    "@last": "5667"
+                                }
+                            },
+                            "ref-text": "[9] September",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ling",
+                                    "ce:indexed-name": "Ling Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
+                        },
+                        "ce:source-text": "[9] Z. Ling, R. Liu, Y. Zhang, and X. Chen, \u201cCan Deep Learning Solve Parametric Mathematical Programming? An Application to 0-1 Linear Programming Through Image Representation,\u201d IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 52, pp. 5656-5667, September 2022."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[10] S. Khade, S. Gite, B. Pradhan, \u201cIris Liveness Detection Using Multiple Deep Convolution Networks,\u201d Big Data Cogn. Comput., vol. 6, June 2022.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-a6e7841b14b6088d93cb30d55da10e11-10",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-title": {"ref-titletext": "Iris Liveness Detection Using Multiple Deep Convolution Networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85132722358",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "6"}},
+                            "ref-text": "[10] June",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Khade",
+                                    "ce:indexed-name": "Khade S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gite",
+                                    "ce:indexed-name": "Gite S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pradhan",
+                                    "ce:indexed-name": "Pradhan B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Big Data Cogn. Comput"
+                        },
+                        "ce:source-text": "[10] S. Khade, S. Gite, B. Pradhan, \u201cIris Liveness Detection Using Multiple Deep Convolution Networks,\u201d Big Data Cogn. Comput., vol. 6, June 2022."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[11] Y. Yang, Z.-Y. Fu, D.-C. Zhan, Z.-B. Liu, and Y. Jiang, \u201cSemi-Supervised Multi-Modal Multi-Instance Multi-Label Deep Network with Optimal Transport\u201d, IEEE Transactions on Knowledge and Data Engi-neering, PP. 1-1., August 2021.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-ef62054cc21f7ab6c952b4a89d3bed0e-11",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Semi-Supervised Multi-Modal Multi-Instance Multi-Label Deep Network with Optimal Transport"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85070697774",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {"@first": "1"}},
+                            "ref-text": "[11] 1., August",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.-Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fu",
+                                    "ce:indexed-name": "Fu Z.-Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.-C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhan",
+                                    "ce:indexed-name": "Zhan D.-C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Z.-B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Z.-B."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Knowledge and Data Engi-neering"
+                        },
+                        "ce:source-text": "[11] Y. Yang, Z.-Y. Fu, D.-C. Zhan, Z.-B. Liu, and Y. Jiang, \u201cSemi-Supervised Multi-Modal Multi-Instance Multi-Label Deep Network with Optimal Transport\u201d, IEEE Transactions on Knowledge and Data Engi-neering, PP. 1-1., August 2021."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[12] T. T. Nguyen, T. T. T. Nguyen, A. V. Luong, Q. V. H. Nguyen, A. W.-C. Liew, and B. Stantic, \u201cMulti-label classification via label correlation and first order feature dependance in a data stream,\u201d Pattern recognition, vol. 90, pp. 35-51, June 2019.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-ede1a7bdeb235bf7b31eeabf880e6e53-12",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Multi-label classification via label correlation and first order feature dependance in a data stream"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85060098884",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "90"},
+                                "pagerange": {
+                                    "@first": "35",
+                                    "@last": "51"
+                                }
+                            },
+                            "ref-text": "[12] June",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T. T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nguyen",
+                                    "ce:indexed-name": "Nguyen T. T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T. T. T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nguyen",
+                                    "ce:indexed-name": "Nguyen T. T. T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A. V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Luong",
+                                    "ce:indexed-name": "Luong A. V."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Q. V. H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nguyen",
+                                    "ce:indexed-name": "Nguyen Q. V. H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "A. W.-C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liew",
+                                    "ce:indexed-name": "Liew A. W.-C."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stantic",
+                                    "ce:indexed-name": "Stantic B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Pattern recognition"
+                        },
+                        "ce:source-text": "[12] T. T. Nguyen, T. T. T. Nguyen, A. V. Luong, Q. V. H. Nguyen, A. W.-C. Liew, and B. Stantic, \u201cMulti-label classification via label correlation and first order feature dependance in a data stream,\u201d Pattern recognition, vol. 90, pp. 35-51, June 2019."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[13] Z.-M. Chen, X.-S. Wei, P. Wang, and Y. Guo, \u201cMulti-label image recognition with graph convolutional networks,\u201d in CVPR, 2019.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-9b37b1f901346997d7af8bf67572c072-13",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Multi-label image recognition with graph convolutional networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85075388434",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "[13] in",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.-M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen Z.-M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.-S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wei",
+                                    "ce:indexed-name": "Wei X.-S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "CVPR"
+                        },
+                        "ce:source-text": "[13] Z.-M. Chen, X.-S. Wei, P. Wang, and Y. Guo, \u201cMulti-label image recognition with graph convolutional networks,\u201d in CVPR, 2019."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[14] D. C. R. Novitasari, F. Fatmawati, R. Hendradi, H. Rohayani, R. Nar-iswari, A. Arnita, M.I. Hadi, R. A. Saputra, and A. Primadewi, \u201cImage Fundus Classification System for Diabetic Retinopathy Stage Detection Using Hybrid CNN-DELM,\u201d Big Data Cogn. Comput., vol. 6, December 2022.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-3babf0fea057b1ccb50f835f9ebdbc71-14",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-title": {"ref-titletext": "Image Fundus Classification System for Diabetic Retinopathy Stage Detection Using Hybrid CNN-DELM"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85144598360",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "6"}},
+                            "ref-text": "[14] December",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D. C. R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Novitasari",
+                                    "ce:indexed-name": "Novitasari D. C. R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fatmawati",
+                                    "ce:indexed-name": "Fatmawati F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hendradi",
+                                    "ce:indexed-name": "Hendradi R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rohayani",
+                                    "ce:indexed-name": "Rohayani H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nar-iswari",
+                                    "ce:indexed-name": "Nar-iswari R."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Arnita",
+                                    "ce:indexed-name": "Arnita A."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "M.I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hadi",
+                                    "ce:indexed-name": "Hadi M.I."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "R. A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Saputra",
+                                    "ce:indexed-name": "Saputra R. A."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Primadewi",
+                                    "ce:indexed-name": "Primadewi A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Big Data Cogn. Comput"
+                        },
+                        "ce:source-text": "[14] D. C. R. Novitasari, F. Fatmawati, R. Hendradi, H. Rohayani, R. Nar-iswari, A. Arnita, M.I. Hadi, R. A. Saputra, and A. Primadewi, \u201cImage Fundus Classification System for Diabetic Retinopathy Stage Detection Using Hybrid CNN-DELM,\u201d Big Data Cogn. Comput., vol. 6, December 2022."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[15] G. Huang, Z. Liu, L. Van der maaten, and K.Q. Weinberger, \u201dDensely Connected Convolutional Networks,\u201d arXiv, 2016.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-fd9891d41887f4b93152caaea29f7709-15",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85013999932",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "[15] arXiv",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van der maaten",
+                                    "ce:indexed-name": "Van der maaten L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Weinberger",
+                                    "ce:indexed-name": "Weinberger K.Q."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Densely Connected Convolutional Networks"
+                        },
+                        "ce:source-text": "[15] G. Huang, Z. Liu, L. Van der maaten, and K.Q. Weinberger, \u201dDensely Connected Convolutional Networks,\u201d arXiv, 2016."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[16] S. Christian, L. Wei, J. Yangqing, S. Pierre, E. R. Scott, A. Dragomir, E. Dumitru, V. Vincent, and R. Andrew, \u201cGoing Deeper with Con-volutions,\u201d 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Boston, MA, USA, pp. 1-9, October 2015.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-5c809cc197fd593ceb8d96345b2eb4bc-16",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Going Deeper with Con-volutions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84937522268",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "9"
+                            }},
+                            "ref-text": "[16] Boston, MA, USA, October",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Christian",
+                                    "ce:indexed-name": "Christian S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wei",
+                                    "ce:indexed-name": "Wei L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yangqing",
+                                    "ce:indexed-name": "Yangqing J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pierre",
+                                    "ce:indexed-name": "Pierre S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "E. R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Scott",
+                                    "ce:indexed-name": "Scott E. R."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dragomir",
+                                    "ce:indexed-name": "Dragomir A."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dumitru",
+                                    "ce:indexed-name": "Dumitru E."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vincent",
+                                    "ce:indexed-name": "Vincent V."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Andrew",
+                                    "ce:indexed-name": "Andrew R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+                        },
+                        "ce:source-text": "[16] S. Christian, L. Wei, J. Yangqing, S. Pierre, E. R. Scott, A. Dragomir, E. Dumitru, V. Vincent, and R. Andrew, \u201cGoing Deeper with Con-volutions,\u201d 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Boston, MA, USA, pp. 1-9, October 2015."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[17] M. S. Bazaraa, J. J. Jarvis, and H. D. Sherali, Linear Programming and Network Flows, 3rd ed., John, W, New York, 2005.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-cc4a29346d0c708b99d8e5d705b07d3e-17",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003511743",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "[17] 3rd ed., John, W, New York",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M. S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bazaraa",
+                                    "ce:indexed-name": "Bazaraa M. S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J. J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jarvis",
+                                    "ce:indexed-name": "Jarvis J. J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H. D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sherali",
+                                    "ce:indexed-name": "Sherali H. D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Linear Programming and Network Flows"
+                        },
+                        "ce:source-text": "[17] M. S. Bazaraa, J. J. Jarvis, and H. D. Sherali, Linear Programming and Network Flows, 3rd ed., John, W, New York, 2005."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[18] G. B. Dantzig, Linear Programming and Extensions, Princeton Univ. Press: Princeton, NJ, 1963.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-059b9c0d4c4d6eb0a440499d55051f79-18",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1963"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003909736",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "[18] Princeton Univ. Press: Princeton, NJ",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "G. B.",
+                                "@_fa": "true",
+                                "ce:surname": "Dantzig",
+                                "ce:indexed-name": "Dantzig G. B."
+                            }]},
+                            "ref-sourcetitle": "Linear Programming and Extensions"
+                        },
+                        "ce:source-text": "[18] G. B. Dantzig, Linear Programming and Extensions, Princeton Univ. Press: Princeton, NJ, 1963."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[19] D. G. Luengberger, Linear and Nonlinear Programming, 2nd ed., Springer, New York, 2005.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-e58a4675730c04a08586a728c280ac4f-19",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003488911",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "[19] 2nd ed., Springer, New York",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "D. G.",
+                                "@_fa": "true",
+                                "ce:surname": "Luengberger",
+                                "ce:indexed-name": "Luengberger D. G."
+                            }]},
+                            "ref-sourcetitle": "Linear and Nonlinear Programming"
+                        },
+                        "ce:source-text": "[19] D. G. Luengberger, Linear and Nonlinear Programming, 2nd ed., Springer, New York, 2005."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[20] K. He, X. Zhang, S. Ren, and J. Sun, \u201cDeep Residual Learning for Image Recognition,\u201d IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 770-778, 2016.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-89624731eaaeb6e78924ddaf937ca5d6-20",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Deep Residual Learning for Image Recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84986274465",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "770",
+                                "@last": "778"
+                            }},
+                            "ref-text": "[20]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang X."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ren",
+                                    "ce:indexed-name": "Ren S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+                        },
+                        "ce:source-text": "[20] K. He, X. Zhang, S. Ren, and J. Sun, \u201cDeep Residual Learning for Image Recognition,\u201d IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 770-778, 2016."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[21] M. Tan, and Q. Le, \u201cEfficientnet: Rethinking model scaling for convolu-tional neural networks,\u201d International Conference on Machine Learning, PMLR, pp. 6105-6114, 2019.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-bc1f34a6902141d42d341c1f24376dc3-21",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Efficientnet: Rethinking model scaling for convolu-tional neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85077515832",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "6105",
+                                "@last": "6114"
+                            }},
+                            "ref-text": "[21]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tan",
+                                    "ce:indexed-name": "Tan M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Le",
+                                    "ce:indexed-name": "Le Q."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Conference on Machine Learning, PMLR"
+                        },
+                        "ce:source-text": "[21] M. Tan, and Q. Le, \u201cEfficientnet: Rethinking model scaling for convolu-tional neural networks,\u201d International Conference on Machine Learning, PMLR, pp. 6105-6114, 2019."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[22] F. Chollet, \u201cXception: Deep learning with depthwise separable convo-lutions,\u201d Proceedings of the IEEE CVPR, pp. 1251-1258, 2017.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-ed9879c13d4e05bc45e4acbf36e4f2e1-22",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Xception: Deep learning with depthwise separable convo-lutions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85040604274",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1251",
+                                "@last": "1258"
+                            }},
+                            "ref-text": "[22]",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "F.",
+                                "@_fa": "true",
+                                "ce:surname": "Chollet",
+                                "ce:indexed-name": "Chollet F."
+                            }]},
+                            "ref-sourcetitle": "Proceedings of the IEEE CVPR"
+                        },
+                        "ce:source-text": "[22] F. Chollet, \u201cXception: Deep learning with depthwise separable convo-lutions,\u201d Proceedings of the IEEE CVPR, pp. 1251-1258, 2017."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[23] C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, V. Vanhoucke, and A. Rabinovich, \u201cGoing deeper with convolutions,\u201d IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Boston, MA, pp. 1-9, 2015.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-1372bf6abef5fd9a0ed1066e686d1199-23",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Going deeper with convolutions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84937522268",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "9"
+                            }},
+                            "ref-text": "[23] Boston, MA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Szegedy",
+                                    "ce:indexed-name": "Szegedy C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jia",
+                                    "ce:indexed-name": "Jia Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sermanet",
+                                    "ce:indexed-name": "Sermanet P."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Reed",
+                                    "ce:indexed-name": "Reed S."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Anguelov",
+                                    "ce:indexed-name": "Anguelov D."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Erhan",
+                                    "ce:indexed-name": "Erhan D."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vanhoucke",
+                                    "ce:indexed-name": "Vanhoucke V."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rabinovich",
+                                    "ce:indexed-name": "Rabinovich A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+                        },
+                        "ce:source-text": "[23] C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, V. Vanhoucke, and A. Rabinovich, \u201cGoing deeper with convolutions,\u201d IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Boston, MA, pp. 1-9, 2015."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[24] C. N. Jones, and M. Morrari, \u201cMultiparametric linear complementarity problems,\u201d Proceedings of the 45th IEEE Conference on Decision and Control, pp. 5687-5692, 2006.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-5ca94bea7577d9c88e60d063a109f9ef-24",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Multiparametric linear complementarity problems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "39649104786",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "5687",
+                                "@last": "5692"
+                            }},
+                            "ref-text": "[24]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C. N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jones",
+                                    "ce:indexed-name": "Jones C. N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Morrari",
+                                    "ce:indexed-name": "Morrari M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 45th IEEE Conference on Decision and Control"
+                        },
+                        "ce:source-text": "[24] C. N. Jones, and M. Morrari, \u201cMultiparametric linear complementarity problems,\u201d Proceedings of the 45th IEEE Conference on Decision and Control, pp. 5687-5692, 2006."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[25] D. Wu, and A. Lisser, \u201cA deep learning approach for solving linear programming problems,\u201d Neurocomputing, vol. 520, pp. 15-24, 2023.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-da4e8473f2ded577af2b80f7f3d1611e-25",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2023"},
+                            "ref-title": {"ref-titletext": "A deep learning approach for solving linear programming problems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85142766068",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "520"},
+                                "pagerange": {
+                                    "@first": "15",
+                                    "@last": "24"
+                                }
+                            },
+                            "ref-text": "[25]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lisser",
+                                    "ce:indexed-name": "Lisser A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neurocomputing"
+                        },
+                        "ce:source-text": "[25] D. Wu, and A. Lisser, \u201cA deep learning approach for solving linear programming problems,\u201d Neurocomputing, vol. 520, pp. 15-24, 2023."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[26] C. Flamant, P. Protopapas, and D. Sondak, \u201cSolving differential equa-tions using neural network solution bundles,\u201d arXiv, 2020.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-22598edaca0d1955307aa497a0f35345-26",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85098437992",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "[26] arXiv",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Flamant",
+                                    "ce:indexed-name": "Flamant C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Protopapas",
+                                    "ce:indexed-name": "Protopapas P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sondak",
+                                    "ce:indexed-name": "Sondak D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Solving differential equa-tions using neural network solution bundles"
+                        },
+                        "ce:source-text": "[26] C. Flamant, P. Protopapas, and D. Sondak, \u201cSolving differential equa-tions using neural network solution bundles,\u201d arXiv, 2020."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[27] S. Effati and A. R. Nazemi, \u201cNeural network models and its applica-tion for solving linear and quadratic programming problems,\u201d Applied Mathematics and Computation, vol. 172, pp. 305-33, 2006.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-6a618f1cafa66574b64dff11c3ed185a-27",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Neural network models and its applica-tion for solving linear and quadratic programming problems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "31144468248",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "172"},
+                                "pagerange": {
+                                    "@first": "305",
+                                    "@last": "333"
+                                }
+                            },
+                            "ref-text": "[27]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Effati",
+                                    "ce:indexed-name": "Effati S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A. R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nazemi",
+                                    "ce:indexed-name": "Nazemi A. R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Applied Mathematics and Computation"
+                        },
+                        "ce:source-text": "[27] S. Effati and A. R. Nazemi, \u201cNeural network models and its applica-tion for solving linear and quadratic programming problems,\u201d Applied Mathematics and Computation, vol. 172, pp. 305-33, 2006."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[28] K. Kavitha and Suneetha Chittineni, \u201cAn Intelligent Metaheuristic Op-timization with Deep Convolutional Recurrent Neural Network Enabled Sarcasm Detection and Classification Model,\u201d International Journal of Advanced Computer Science and Applications(IJACSA), vol. 13, 2022.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-4b96c80486839d65f597c020b487206f-28",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-title": {"ref-titletext": "An Intelligent Metaheuristic Op-timization with Deep Convolutional Recurrent Neural Network Enabled Sarcasm Detection and Classification Model"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85126097633",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "13"}},
+                            "ref-text": "[28]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kavitha",
+                                    "ce:indexed-name": "Kavitha K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Suneetha",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chittineni",
+                                    "ce:indexed-name": "Chittineni Suneetha"
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Journal of Advanced Computer Science and Applications(IJACSA)"
+                        },
+                        "ce:source-text": "[28] K. Kavitha and Suneetha Chittineni, \u201cAn Intelligent Metaheuristic Op-timization with Deep Convolutional Recurrent Neural Network Enabled Sarcasm Detection and Classification Model,\u201d International Journal of Advanced Computer Science and Applications(IJACSA), vol. 13, 2022."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[29] Large-Scale Machine Learning on Heterogeneous Distributed Systems. Available online: https://www.tensorflow.org",
+                        "@reference-instance-id": "OB2BibRecID-948674828-1050a220e61ed9efd9410b7099539ea4-29",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.tensorflow.org",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85105207966",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "[29]",
+                            "ref-sourcetitle": "Large-Scale Machine Learning on Heterogeneous Distributed Systems"
+                        },
+                        "ce:source-text": "[29] Large-Scale Machine Learning on Heterogeneous Distributed Systems. Available online: https://www.tensorflow.org"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[30] R. S. Ramprasaath, C. Michael, D. Abhishek, V. Ramakrishna, P. Devi, and B. Dhruv, \u201cGrad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization,\u201d International Journal of Computer Vision, vol. 128, pp. 336-359, 2019.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-88dd34582fd07333382c53dce15a2fb4-30",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85074504618",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "128"},
+                                "pagerange": {
+                                    "@first": "336",
+                                    "@last": "359"
+                                }
+                            },
+                            "ref-text": "[30]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R. S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ramprasaath",
+                                    "ce:indexed-name": "Ramprasaath R. S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Michael",
+                                    "ce:indexed-name": "Michael C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abhishek",
+                                    "ce:indexed-name": "Abhishek D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ramakrishna",
+                                    "ce:indexed-name": "Ramakrishna V."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Devi",
+                                    "ce:indexed-name": "Devi P."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dhruv",
+                                    "ce:indexed-name": "Dhruv B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Journal of Computer Vision"
+                        },
+                        "ce:source-text": "[30] R. S. Ramprasaath, C. Michael, D. Abhishek, V. Ramakrishna, P. Devi, and B. Dhruv, \u201cGrad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization,\u201d International Journal of Computer Vision, vol. 128, pp. 336-359, 2019."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "[31] Cplex, I. I. (2009). V12. 1: User\u2019s Manual for CPLEX. International Business Machines Corporation, 46(53), 157.",
+                        "@reference-instance-id": "OB2BibRecID-948674828-c68a1f520c4a670638d63fbc0d44f1e7-31",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "V12. 1: User\u2019s Manual for CPLEX"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84893376443",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "46",
+                                    "@issue": "53"
+                                },
+                                "pagerange": {"@first": "157"}
+                            },
+                            "ref-text": "[31]",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "I. I.",
+                                "@_fa": "true",
+                                "ce:surname": "Cplex",
+                                "ce:indexed-name": "Cplex I. I."
+                            }]},
+                            "ref-sourcetitle": "International Business Machines Corporation"
+                        },
+                        "ce:source-text": "[31] Cplex, I. I. (2009). V12. 1: User\u2019s Manual for CPLEX. International Business Machines Corporation, 46(53), 157."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Bangkok",
+        "@id": "60012448",
+        "affilname": "Bangkok University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012448",
+        "affiliation-country": "Thailand"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85161269367",
+        "dc:description": "Identifying an optimal basis for a linear program-ming problem is a challenging learning task. Traditionally, an optimal basis is obtained via the iterative simplex method which improves from the current basic feasible solution to the adjacent one until it reaches optimal. The obtained result is the value of the optimal solution and the corresponding optimal basis. Even though learning the optimal value is hard but learning the optimal basis is possible via deep learning. This paper presents the primal-optimal-binding LPNet that learns from massive linear programming problems of various sizes casting as all-unit-row-except-first-unit-column matrices. During the training step, these matrices are fed to the special row-column convolutional layer followed by the state-of-the-art deep learning architecture and sent to two fully connected layers. The result is the probability vector of non-negativity constraints and the original linear programming constraints at the optimal basis. The experiment shows that this LPNet achieves 99% accuracy of predicting a single binding optimal constraint on unseen test problems and Netlib problems. It identifies correctly 80% LP problems having all optimal binding constraints and faster than cplex solution time.",
+        "prism:coverDate": "2023-01-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85161269367",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Natdanai",
+            "preferred-name": {
+                "ce:given-name": "Natdanai",
+                "ce:initials": "N.",
+                "ce:surname": "Kafakthong",
+                "ce:indexed-name": "Kafakthong N."
+            },
+            "@seq": "1",
+            "ce:initials": "N.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60012448",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012448"
+            },
+            "ce:surname": "Kafakthong",
+            "@auid": "58306507100",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58306507100",
+            "ce:indexed-name": "Kafakthong N."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85161269367"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85161269367&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85161269367&origin=inward"
+            }
+        ],
+        "source-id": "21100867241",
+        "citedby-count": "0",
+        "prism:volume": "14",
+        "subtype": "ar",
+        "dc:title": "Primal-Optimal-Binding LPNet: Deep Learning Architecture to Predict Optimal Binding Constraints of a Linear Programming Problem",
+        "openaccess": "1",
+        "prism:issn": "21565570 2158107X",
+        "publishercopyright": "© (2023), All Rights Reserved.",
+        "prism:issueIdentifier": "5",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "International Journal of Advanced Computer Science and Applications",
+        "prism:pageRange": "1055-1066",
+        "prism:endingPage": "1066",
+        "openaccessFlag": "true",
+        "prism:doi": "10.14569/IJACSA.2023.01405109",
+        "prism:startingPage": "1055",
+        "dc:identifier": "SCOPUS_ID:85161269367",
+        "dc:publisher": "Science and Information Organization"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Basic feasible solution",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Convolution neural network",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Deep learning",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Feasible solution",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Learning architectures",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Linear programming problem",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Linear-programming",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Optimal basis",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Optimal binding",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Optimisations",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "basic feasible solution"
+        },
+        {
+            "@_fa": "true",
+            "$": "convolution neural network"
+        },
+        {
+            "@_fa": "true",
+            "$": "Deep learning"
+        },
+        {
+            "@_fa": "true",
+            "$": "linear programming"
+        },
+        {
+            "@_fa": "true",
+            "$": "optimization"
+        }
+    ]},
+    "subject-areas": {"subject-area": [{
+        "@_fa": "true",
+        "$": "Computer Science (all)",
+        "@code": "1700",
+        "@abbrev": "COMP"
+    }]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Natdanai",
+            "preferred-name": {
+                "ce:given-name": "Natdanai",
+                "ce:initials": "N.",
+                "ce:surname": "Kafakthong",
+                "ce:indexed-name": "Kafakthong N."
+            },
+            "@seq": "1",
+            "ce:initials": "N.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60012448",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012448"
+            },
+            "ce:surname": "Kafakthong",
+            "@auid": "58306507100",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58306507100",
+            "ce:indexed-name": "Kafakthong N."
+        },
+        {
+            "ce:given-name": "Krung",
+            "preferred-name": {
+                "ce:given-name": "Krung",
+                "ce:initials": "K.",
+                "ce:surname": "Sinapiromsaran",
+                "ce:indexed-name": "Sinapiromsaran K."
+            },
+            "@seq": "2",
+            "ce:initials": "K.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60012448",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012448"
+            },
+            "ce:surname": "Sinapiromsaran",
+            "@auid": "6505851402",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6505851402",
+            "ce:indexed-name": "Sinapiromsaran K."
+        }
+    ]}
+}}

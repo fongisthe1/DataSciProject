@@ -1,0 +1,1418 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "25",
+                "@timestamp": "2022-03-25T17:56:47.000047-04:00",
+                "@year": "2022",
+                "@month": "03"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2021",
+                "@month": "01"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Japan",
+                            "@afid": "60021523",
+                            "@country": "jpn",
+                            "city": "Tokyo",
+                            "organization": [
+                                {"$": "The Graduate University for Advanced Studies"},
+                                {"$": "SOKENDAI"}
+                            ],
+                            "affiliation-id": {"@afid": "60021523"},
+                            "ce:source-text": "The Graduate University for Advanced Studies, SOKENDAI, Tokyo, Japan"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Phannakan",
+                                "preferred-name": {
+                                    "ce:given-name": "Phannakan",
+                                    "ce:initials": "P.",
+                                    "ce:surname": "Tengkiattrakul",
+                                    "ce:indexed-name": "Tengkiattrakul P."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "P.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Tengkiattrakul",
+                                "@auid": "57193563271",
+                                "@orcid": "0000-0002-3442-4915",
+                                "ce:indexed-name": "Tengkiattrakul P."
+                            },
+                            {
+                                "ce:given-name": "Atsuhiro",
+                                "preferred-name": {
+                                    "ce:given-name": "Atsuhiro",
+                                    "ce:initials": "A.",
+                                    "ce:surname": "Takasu",
+                                    "ce:indexed-name": "Takasu A."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Takasu",
+                                "@auid": "57195144555",
+                                "@orcid": "0000-0002-9061-7949",
+                                "ce:indexed-name": "Takasu A."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Department of Mathematics and Computer Science"},
+                                {"$": "Faculty of Science"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "113870560"
+                            },
+                            "ce:source-text": "Department of Mathematics and Computer Science, Faculty of Science, Chulalongkorn University, Bangkok, Thailand",
+                            "@dptid": "113870560"
+                        },
+                        "author": [{
+                            "ce:given-name": "Saranya",
+                            "preferred-name": {
+                                "ce:given-name": "Saranya",
+                                "ce:initials": "S.",
+                                "ce:surname": "Maneeroj",
+                                "ce:indexed-name": "Maneeroj S."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Maneeroj",
+                            "@auid": "24081010600",
+                            "ce:indexed-name": "Maneeroj S."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Japan",
+                            "@afid": "60028928",
+                            "@country": "jpn",
+                            "city": "Tokyo",
+                            "organization": {"$": "National Institute of Informatics"},
+                            "affiliation-id": {"@afid": "60028928"},
+                            "ce:source-text": "National Institute of Informatics, Tokyo, Japan"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Phannakan",
+                                "preferred-name": {
+                                    "ce:given-name": "Phannakan",
+                                    "ce:initials": "P.",
+                                    "ce:surname": "Tengkiattrakul",
+                                    "ce:indexed-name": "Tengkiattrakul P."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "P.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Tengkiattrakul",
+                                "@auid": "57193563271",
+                                "ce:indexed-name": "Tengkiattrakul P."
+                            },
+                            {
+                                "ce:given-name": "Atsuhiro",
+                                "preferred-name": {
+                                    "ce:given-name": "Atsuhiro",
+                                    "ce:initials": "A.",
+                                    "ce:surname": "Takasu",
+                                    "ce:indexed-name": "Takasu A."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Takasu",
+                                "@auid": "57195144555",
+                                "ce:indexed-name": "Takasu A."
+                            }
+                        ]
+                    }
+                ],
+                "citation-title": "Attentive Hybrid Collaborative Filtering for Rating Conversion in Recommender Systems",
+                "abstracts": "© 2021, Springer Nature Switzerland AG.Recommendation models that use collaborative filtering consider the influence of friends and neighbors when recommending suitable items for a target user. Most of these neighborhood-based models use the actual ratings from neighbors to predict the ratings of the target user toward target items, which often leads to a low accuracy prediction caused by the improper rating-range problem. Recently, rating conversion methods have been proposed to address this issue. Because each friend/neighbor can have a different level of influence on the target user, we propose a friend module, which converts their ratings to match the target user\u2019s perspective and assigns different weight to each user before modeling latent relations and predictions. In rating conversion, ratings that involve explicit feedback are important. Instead of the traditional approach to user embedding, we propose a novel approach that uses explicit feedback. This can express user features better than traditional methods and can then be used to convert ratings to match the target user\u2019s perspective. For better representation and recommendation, we also learn latent relations between each user and item by adopting knowledge graph ideas, which leads to more accurate results. The FilmTrust and MovieLens datasets are used in experiments comparing the proposed method with existing methods. This evaluation showed that our model is more accurate than existing methods.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Japan",
+                        "@country": "jpn",
+                        "city": "Tokyo",
+                        "organization": [
+                            {"$": "The Graduate University for Advanced Studies"},
+                            {"$": "SOKENDAI"}
+                        ],
+                        "ce:source-text": "The Graduate University for Advanced Studies, SOKENDAI, Tokyo, Japan"
+                    },
+                    "person": {
+                        "ce:given-name": "Phannakan",
+                        "ce:initials": "P.",
+                        "ce:surname": "Tengkiattrakul",
+                        "ce:indexed-name": "Tengkiattrakul P."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Collaborative filtering",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Neural networks",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Rating conversion",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Recommender systems",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "https://www.springer.com/series/558",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {"@volume": "12706 LNCS"},
+                        "pagerange": {
+                            "@first": "151",
+                            "@last": "165"
+                        }
+                    },
+                    "@type": "k",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9783030742959",
+                        "@type": "print",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "21st International Conference on Web Engineering, ICWE 2021",
+                            "confnumber": "21st",
+                            "confseriestitle": "International Conference on Web Engineering",
+                            "conflocation": {"city": "Virtual, Online"},
+                            "confcode": "260409",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "21",
+                                    "@year": "2021",
+                                    "@month": "05"
+                                },
+                                "startdate": {
+                                    "@day": "18",
+                                    "@year": "2021",
+                                    "@month": "05"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                    "contributor-group": [
+                        {"contributor": {
+                            "ce:given-name": "Marco",
+                            "@seq": "1",
+                            "ce:initials": "M.",
+                            "ce:surname": "Brambilla",
+                            "@role": "edit",
+                            "ce:indexed-name": "Brambilla M."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Richard",
+                            "@seq": "1",
+                            "ce:initials": "R.",
+                            "ce:surname": "Chbeir",
+                            "@role": "edit",
+                            "ce:indexed-name": "Chbeir R."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Flavius",
+                            "@seq": "1",
+                            "ce:initials": "F.",
+                            "ce:surname": "Frasincar",
+                            "@role": "edit",
+                            "ce:indexed-name": "Frasincar F."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Ioana",
+                            "@seq": "1",
+                            "ce:initials": "I.",
+                            "ce:surname": "Manolescu",
+                            "@role": "edit",
+                            "ce:indexed-name": "Manolescu I."
+                        }}
+                    ],
+                    "publicationdate": {
+                        "year": "2021",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2021"
+                        }
+                    },
+                    "sourcetitle-abbrev": "Lect. Notes Comput. Sci.",
+                    "@country": "deu",
+                    "issuetitle": "Web Engineering - 21st International Conference, ICWE 2021, Proceedings",
+                    "issn": [
+                        {
+                            "$": "16113349",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "03029743",
+                            "@type": "print"
+                        }
+                    ],
+                    "publicationyear": {"@first": "2021"},
+                    "publisher": {"publishername": "Springer Science and Business Media Deutschland GmbH"},
+                    "@srcid": "25674"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "723.4",
+                                "classification-description": "Artificial Intelligence"
+                            },
+                            {
+                                "classification-code": "723.5",
+                                "classification-description": "Computer Applications"
+                            },
+                            {
+                                "classification-code": "903.1",
+                                "classification-description": "Information Sources and Analysis"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2614"},
+                            {"$": "1700"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "MATH"},
+                            {"$": "COMP"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2021 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "28",
+                    "@timestamp": "BST 07:06:37",
+                    "@year": "2021",
+                    "@month": "07"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "635559187",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "934561012",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20213010687044",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20212503691",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85111159161",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85111159161",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1007/978-3-030-74296-6_12"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "24",
+                "reference": [
+                    {
+                        "ref-fulltext": "Bordes, A., Usunier, N., Garcia-Durán, A., Weston, J., Yakhnenko, O.: Translating embeddings for modeling multi-relational data. In: Proceedings of the 26th International Conference on Neural Information Processing Systems, NIPS 2013, vol. 2, pp. 2787\u20132795. Curran Associates Inc., USA (2013). http://dl.acm.org/citation. cfm?id=2999792.2999923",
+                        "@id": "1",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85111128335",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Bordes, A., Usunier, N., Garcia-Durán, A., Weston, J., Yakhnenko, O.: Translating embeddings for modeling multi-relational data. In: Proceedings of the 26th International Conference on Neural Information Processing Systems, NIPS 2013, vol. 2, pp. 2787\u20132795. Curran Associates Inc., USA (2013). http://dl.acm.org/citation. cfm?id=2999792.2999923"
+                        },
+                        "ce:source-text": "Bordes, A., Usunier, N., Garcia-Durán, A., Weston, J., Yakhnenko, O.: Translating embeddings for modeling multi-relational data. In: Proceedings of the 26th International Conference on Neural Information Processing Systems, NIPS 2013, vol. 2, pp. 2787\u20132795. Curran Associates Inc., USA (2013). http://dl.acm.org/citation. cfm?id=2999792.2999923"
+                    },
+                    {
+                        "ref-fulltext": "Chalermpornpong, W., Maneeroj, S., Atsuhiro, T.: Rating pattern formation for better recommendation. In: 2013 24th International Workshop on Database and Expert Systems Applications, pp. 146\u2013151 (August 2013). https://doi.org/10. 1109/DEXA.2013.23",
+                        "@id": "2",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84887973566",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Chalermpornpong, W., Maneeroj, S., Atsuhiro, T.: Rating pattern formation for better recommendation. In: 2013 24th International Workshop on Database and Expert Systems Applications, pp. 146\u2013151 (August 2013). https://doi.org/10. 1109/DEXA.2013.23"
+                        },
+                        "ce:source-text": "Chalermpornpong, W., Maneeroj, S., Atsuhiro, T.: Rating pattern formation for better recommendation. In: 2013 24th International Workshop on Database and Expert Systems Applications, pp. 146\u2013151 (August 2013). https://doi.org/10. 1109/DEXA.2013.23"
+                    },
+                    {
+                        "ref-fulltext": "Chen, C., Zhang, M., Liu, Y., Ma, S.: Neural attentional rating regression with review-level explanations. In: Proceedings of the 2018 World Wide Web Conference, WWW 2018, pp. 1583\u20131592. International World Wide Web Conferences Steering Committee, Republic and Canton of Geneva, CHE (2018). https://doi. org/10.1145/3178876.3186070",
+                        "@id": "3",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85083676516",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Chen, C., Zhang, M., Liu, Y., Ma, S.: Neural attentional rating regression with review-level explanations. In: Proceedings of the 2018 World Wide Web Conference, WWW 2018, pp. 1583\u20131592. International World Wide Web Conferences Steering Committee, Republic and Canton of Geneva, CHE (2018). https://doi. org/10.1145/3178876.3186070"
+                        },
+                        "ce:source-text": "Chen, C., Zhang, M., Liu, Y., Ma, S.: Neural attentional rating regression with review-level explanations. In: Proceedings of the 2018 World Wide Web Conference, WWW 2018, pp. 1583\u20131592. International World Wide Web Conferences Steering Committee, Republic and Canton of Geneva, CHE (2018). https://doi. org/10.1145/3178876.3186070"
+                    },
+                    {
+                        "ref-fulltext": "Chen, C., Zhang, M., Liu, Y., Ma, S.: Social attentional memory network: modeling aspect-and friend-level differences in recommendation. In: Proceedings of the 12th ACM International Conference on Web Search and Data Mining, WSDM 2019, pp. 177\u2013185. Association for Computing Machinery, New York, NY, USA (2019). https://doi.org/10.1145/3289600.3290982",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/3289600.3290982",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Social attentional memory network: Modeling aspect-and friend-level differences in recommendation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85061739789",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "177",
+                                "@last": "185"
+                            }},
+                            "ref-text": ", pp. , Association for Computing Machinery, New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 12Th ACM International Conference on Web Search and Data Mining, WSDM 2019"
+                        },
+                        "ce:source-text": "Chen, C., Zhang, M., Liu, Y., Ma, S.: Social attentional memory network: modeling aspect-and friend-level differences in recommendation. In: Proceedings of the 12th ACM International Conference on Web Search and Data Mining, WSDM 2019, pp. 177\u2013185. Association for Computing Machinery, New York, NY, USA (2019). https://doi.org/10.1145/3289600.3290982"
+                    },
+                    {
+                        "ref-fulltext": "Desrosiers, C., Karypis, G.: A comprehensive survey of neighborhood-based recommendation methods. In: Ricci, F., Rokach, L., Shapira, B., Kantor, P.B. (eds.) Recommender Systems Handbook, pp. 107\u2013144. Springer, Boston, MA (2011). https://doi.org/10.1007/978-0-387-85820-3 4",
+                        "@id": "5",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79955164643",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Desrosiers, C., Karypis, G.: A comprehensive survey of neighborhood-based recommendation methods. In: Ricci, F., Rokach, L., Shapira, B., Kantor, P.B. (eds.) Recommender Systems Handbook, pp. 107\u2013144. Springer, Boston, MA (2011). https://doi.org/10.1007/978-0-387-85820-3 4"
+                        },
+                        "ce:source-text": "Desrosiers, C., Karypis, G.: A comprehensive survey of neighborhood-based recommendation methods. In: Ricci, F., Rokach, L., Shapira, B., Kantor, P.B. (eds.) Recommender Systems Handbook, pp. 107\u2013144. Springer, Boston, MA (2011). https://doi.org/10.1007/978-0-387-85820-3 4"
+                    },
+                    {
+                        "ref-fulltext": "Duchi, J., Hazan, E., Singer, Y.: Adaptive subgradient methods for online learning and stochastic optimization. J. Mach. Learn. Res. 12, 2121\u20132159 (2011)",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Adaptive subgradient methods for online learning and stochastic optimization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "80052250414",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "12"},
+                                "pagerange": {
+                                    "@first": "2121",
+                                    "@last": "2159"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Duchi",
+                                    "ce:indexed-name": "Duchi J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hazan",
+                                    "ce:indexed-name": "Hazan E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Singer",
+                                    "ce:indexed-name": "Singer Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Mach. Learn. Res."
+                        },
+                        "ce:source-text": "Duchi, J., Hazan, E., Singer, Y.: Adaptive subgradient methods for online learning and stochastic optimization. J. Mach. Learn. Res. 12, 2121\u20132159 (2011)"
+                    },
+                    {
+                        "ref-fulltext": "Dziugaite, G.K., Roy, D.M.: Neural network matrix factorization. CoRR abs/1511.06443 (2015). http://arxiv.org/abs/1511.06443",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://arxiv.org/abs/1511.06443",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Neural network matrix factorization"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "org/abs/1511",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84991208650",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {"@first": "06443"}},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dziugaite",
+                                    "ce:indexed-name": "Dziugaite G.K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Roy",
+                                    "ce:indexed-name": "Roy D.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Corr Abs/1511"
+                        },
+                        "ce:source-text": "Dziugaite, G.K., Roy, D.M.: Neural network matrix factorization. CoRR abs/1511.06443 (2015). http://arxiv.org/abs/1511.06443"
+                    },
+                    {
+                        "ref-fulltext": "Guo, Q., et al.: A survey on knowledge graph-based recommender systems. arXiv abs/2003.00911 (2020)",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "A survey on knowledge graph-based recommender systems"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "abs/2003.00911",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85111078728",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo Q."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Arxiv Abs/2003.00911"
+                        },
+                        "ce:source-text": "Guo, Q., et al.: A survey on knowledge graph-based recommender systems. arXiv abs/2003.00911 (2020)"
+                    },
+                    {
+                        "ref-fulltext": "He, X., Liao, L., Zhang, H., Nie, L., Hu, X., Chua, T.S.: Neural collaborative filtering. In: Proceedings of the 26th International Conference on World Wide Web, WWW 2017, pp. 173\u2013182. International World Wide Web Conferences Steering Committee, Republic and Canton of Geneva, CHE (2017). https://doi.org/10. 1145/3038912.3052569",
+                        "@id": "9",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85031939960",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "He, X., Liao, L., Zhang, H., Nie, L., Hu, X., Chua, T.S.: Neural collaborative filtering. In: Proceedings of the 26th International Conference on World Wide Web, WWW 2017, pp. 173\u2013182. International World Wide Web Conferences Steering Committee, Republic and Canton of Geneva, CHE (2017). https://doi.org/10. 1145/3038912.3052569"
+                        },
+                        "ce:source-text": "He, X., Liao, L., Zhang, H., Nie, L., Hu, X., Chua, T.S.: Neural collaborative filtering. In: Proceedings of the 26th International Conference on World Wide Web, WWW 2017, pp. 173\u2013182. International World Wide Web Conferences Steering Committee, Republic and Canton of Geneva, CHE (2017). https://doi.org/10. 1145/3038912.3052569"
+                    },
+                    {
+                        "ref-fulltext": "Hsieh, C.K., Yang, L., Cui, Y., Lin, T.Y., Belongie, S., Estrin, D.: Collaborative metric learning. In: Proceedings of the 26th International Conference on World Wide Web, WWW 2017, pp. 193\u2013201. International World Wide Web Conferences Steering Committee, Republic and Canton of Geneva, CHE (2017). https://doi. org/10.1145/3038912.3052639",
+                        "@id": "10",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85041898938",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Hsieh, C.K., Yang, L., Cui, Y., Lin, T.Y., Belongie, S., Estrin, D.: Collaborative metric learning. In: Proceedings of the 26th International Conference on World Wide Web, WWW 2017, pp. 193\u2013201. International World Wide Web Conferences Steering Committee, Republic and Canton of Geneva, CHE (2017). https://doi. org/10.1145/3038912.3052639"
+                        },
+                        "ce:source-text": "Hsieh, C.K., Yang, L., Cui, Y., Lin, T.Y., Belongie, S., Estrin, D.: Collaborative metric learning. In: Proceedings of the 26th International Conference on World Wide Web, WWW 2017, pp. 193\u2013201. International World Wide Web Conferences Steering Committee, Republic and Canton of Geneva, CHE (2017). https://doi. org/10.1145/3038912.3052639"
+                    },
+                    {
+                        "ref-fulltext": "Jin, R., Si, L.: A study of methods for normalizing user ratings in collaborative filtering. In: Proceedings of the 27th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval, SIGIR 2004, pp. 568\u2013569. ACM, New York (2004). https://doi.org/10.1145/1008992.1009124",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/1008992.1009124",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "A study of methods for normalizing user ratings in collaborative filtering"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "8644235233",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "568",
+                                "@last": "569"
+                            }},
+                            "ref-text": ", pp. , ACM, New York",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Si",
+                                    "ce:indexed-name": "Si L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 27Th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval, SIGIR 2004"
+                        },
+                        "ce:source-text": "Jin, R., Si, L.: A study of methods for normalizing user ratings in collaborative filtering. In: Proceedings of the 27th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval, SIGIR 2004, pp. 568\u2013569. ACM, New York (2004). https://doi.org/10.1145/1008992.1009124"
+                    },
+                    {
+                        "ref-fulltext": "Koren, Y., Bell, R., Volinsky, C.: Matrix factorization techniques for recommender systems. Computer 42(8), 30\u201337 (2009). https://doi.org/10.1109/MC.2009.263",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1109/MC.2009.263",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Matrix factorization techniques for recommender systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85008044987",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "42",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "30",
+                                    "@last": "37"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koren",
+                                    "ce:indexed-name": "Koren Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bell",
+                                    "ce:indexed-name": "Bell R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Volinsky",
+                                    "ce:indexed-name": "Volinsky C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer"
+                        },
+                        "ce:source-text": "Koren, Y., Bell, R., Volinsky, C.: Matrix factorization techniques for recommender systems. Computer 42(8), 30\u201337 (2009). https://doi.org/10.1109/MC.2009.263"
+                    },
+                    {
+                        "ref-fulltext": "Lathia, N., Hailes, S., Capra, L.: Trust-based collaborative filtering. In: Karabulut, Y., Mitchell, J., Herrmann, P., Jensen, C.D. (eds.) Trust Management II, pp. 119\u2013 134. Springer, Boston (2008). https://doi.org/10.1007/978-0-387-09428-1 8",
+                        "@id": "13",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85111135482",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Lathia, N., Hailes, S., Capra, L.: Trust-based collaborative filtering. In: Karabulut, Y., Mitchell, J., Herrmann, P., Jensen, C.D. (eds.) Trust Management II, pp. 119\u2013 134. Springer, Boston (2008). https://doi.org/10.1007/978-0-387-09428-1 8"
+                        },
+                        "ce:source-text": "Lathia, N., Hailes, S., Capra, L.: Trust-based collaborative filtering. In: Karabulut, Y., Mitchell, J., Herrmann, P., Jensen, C.D. (eds.) Trust Management II, pp. 119\u2013 134. Springer, Boston (2008). https://doi.org/10.1007/978-0-387-09428-1 8"
+                    },
+                    {
+                        "ref-fulltext": "Li, M., Tei, K., Fukazawa, Y.: An efficient co-attention neural network for social recommendation. In: IEEE/WIC/ACM International Conference on Web Intelligence, WI 2019, pp. 34\u201342. Association for Computing Machinery, New York (2019). https://doi.org/10.1145/3350546.3352498",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/3350546.3352498",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "An efficient co-attention neural network for social recommendation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85074765073",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "34",
+                                "@last": "42"
+                            }},
+                            "ref-text": ", pp. , Association for Computing Machinery, New York",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tei",
+                                    "ce:indexed-name": "Tei K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fukazawa",
+                                    "ce:indexed-name": "Fukazawa Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE/WIC/ACM International Conference on Web Intelligence, WI 2019"
+                        },
+                        "ce:source-text": "Li, M., Tei, K., Fukazawa, Y.: An efficient co-attention neural network for social recommendation. In: IEEE/WIC/ACM International Conference on Web Intelligence, WI 2019, pp. 34\u201342. Association for Computing Machinery, New York (2019). https://doi.org/10.1145/3350546.3352498"
+                    },
+                    {
+                        "ref-fulltext": "Qiao, C., et al.: A new method of region embedding for text classification. In: International Conference on Learning Representations (2018). https://openreview. net/forum?id=BkSDMA36Z",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://openreview. net/forum?id=BkSDMA36Z",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "A new method of region embedding for text classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85075716358",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qiao",
+                                    "ce:indexed-name": "Qiao C."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "International Conference on Learning Representations"
+                        },
+                        "ce:source-text": "Qiao, C., et al.: A new method of region embedding for text classification. In: International Conference on Learning Representations (2018). https://openreview. net/forum?id=BkSDMA36Z"
+                    },
+                    {
+                        "ref-fulltext": "Ricci, F., Rokach, L., Shapira, B., Kantor, P.B.: Recommender Systems Handbook, 1st edn. Springer, Heidelberg (2010). https://doi.org/10.1007/978-0-387-85820-3",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1007/978-0-387-85820-3",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77955202099",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "1st edn. Springer, Heidelberg",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ricci",
+                                    "ce:indexed-name": "Ricci F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rokach",
+                                    "ce:indexed-name": "Rokach L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shapira",
+                                    "ce:indexed-name": "Shapira B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kantor",
+                                    "ce:indexed-name": "Kantor P.B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Recommender Systems Handbook"
+                        },
+                        "ce:source-text": "Ricci, F., Rokach, L., Shapira, B., Kantor, P.B.: Recommender Systems Handbook, 1st edn. Springer, Heidelberg (2010). https://doi.org/10.1007/978-0-387-85820-3"
+                    },
+                    {
+                        "ref-fulltext": "Sun, Z., Deng, Z., Nie, J., Tang, J.: RotatE: Knowledge graph embedding by relational rotation in complex space. CoRR abs/1902.10197 (2019). http://arxiv.org/abs/1902.10197",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://arxiv.org/abs/1902.10197",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "RotatE: Knowledge graph embedding by relational rotation in complex space"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "org/abs/1902",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85094899752",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {"@first": "10197"}},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Deng",
+                                    "ce:indexed-name": "Deng Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nie",
+                                    "ce:indexed-name": "Nie J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Corr Abs/1902"
+                        },
+                        "ce:source-text": "Sun, Z., Deng, Z., Nie, J., Tang, J.: RotatE: Knowledge graph embedding by relational rotation in complex space. CoRR abs/1902.10197 (2019). http://arxiv.org/abs/1902.10197"
+                    },
+                    {
+                        "ref-fulltext": "Tay, Y., Anh Tuan, L., Hui, S.C.: Latent relational metric learning via memory-based attention for collaborative ranking. In: Proceedings of the 2018 World Wide Web Conference, WWW 2018, pp. 729\u2013739. International World Wide Web Conferences Steering Committee, Republic and Canton of Geneva, CHE (2018). https://doi.org/10.1145/3178876.3186154",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/3178876.3186154",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Latent relational metric learning via memory-based attention for collaborative ranking"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85078959342",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "729",
+                                "@last": "739"
+                            }},
+                            "ref-text": ", pp. , International World Wide Web Conferences Steering Committee, Republic and Canton of Geneva, CHE",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tay",
+                                    "ce:indexed-name": "Tay Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Anh Tuan",
+                                    "ce:indexed-name": "Anh Tuan L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hui",
+                                    "ce:indexed-name": "Hui S.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2018 World Wide Web Conference, WWW 2018"
+                        },
+                        "ce:source-text": "Tay, Y., Anh Tuan, L., Hui, S.C.: Latent relational metric learning via memory-based attention for collaborative ranking. In: Proceedings of the 2018 World Wide Web Conference, WWW 2018, pp. 729\u2013739. International World Wide Web Conferences Steering Committee, Republic and Canton of Geneva, CHE (2018). https://doi.org/10.1145/3178876.3186154"
+                    },
+                    {
+                        "ref-fulltext": "Tengkiattrakul, P., Maneeroj, S., Takasu, A.: Translation-based embedding model for rating conversion in recommender systems. In: IEEE/WIC/ACM International Conference on Web Intelligence, WI 2019, pp. 217\u2013224. Association for Computing Machinery, New York (2019). https://doi.org/10.1145/3350546.3352521",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/3350546.3352521",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Translation-based embedding model for rating conversion in recommender systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85074795386",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "217",
+                                "@last": "224"
+                            }},
+                            "ref-text": ", pp. , Association for Computing Machinery, New York",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tengkiattrakul",
+                                    "ce:indexed-name": "Tengkiattrakul P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maneeroj",
+                                    "ce:indexed-name": "Maneeroj S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Takasu",
+                                    "ce:indexed-name": "Takasu A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE/WIC/ACM International Conference on Web Intelligence, WI 2019"
+                        },
+                        "ce:source-text": "Tengkiattrakul, P., Maneeroj, S., Takasu, A.: Translation-based embedding model for rating conversion in recommender systems. In: IEEE/WIC/ACM International Conference on Web Intelligence, WI 2019, pp. 217\u2013224. Association for Computing Machinery, New York (2019). https://doi.org/10.1145/3350546.3352521"
+                    },
+                    {
+                        "ref-fulltext": "Vaswani, A., et al.: Attention is all you need. CoRR abs/1706.03762 (2017). http://arxiv.org/abs/1706.03762",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://arxiv.org/abs/1706.03762",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Attention is all you need"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "org/abs/1706",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85048007404",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {"@first": "03762"}},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vaswani",
+                                    "ce:indexed-name": "Vaswani A."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Corr Abs/1706"
+                        },
+                        "ce:source-text": "Vaswani, A., et al.: Attention is all you need. CoRR abs/1706.03762 (2017). http://arxiv.org/abs/1706.03762"
+                    },
+                    {
+                        "ref-fulltext": "Wang, Q., Mao, Z., Wang, B., Guo, L.: Knowledge graph embedding: a survey of approaches and applications. IEEE Trans. Knowl. Data Eng. 29(12), 2724\u20132743 (2017). https://doi.org/10.1109/TKDE.2017.2754499",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1109/TKDE.2017.2754499",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Knowledge graph embedding: A survey of approaches and applications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85030627463",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "29",
+                                    "@issue": "12"
+                                },
+                                "pagerange": {
+                                    "@first": "2724",
+                                    "@last": "2743"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Q."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mao",
+                                    "ce:indexed-name": "Mao Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Knowl. Data Eng."
+                        },
+                        "ce:source-text": "Wang, Q., Mao, Z., Wang, B., Guo, L.: Knowledge graph embedding: a survey of approaches and applications. IEEE Trans. Knowl. Data Eng. 29(12), 2724\u20132743 (2017). https://doi.org/10.1109/TKDE.2017.2754499"
+                    },
+                    {
+                        "ref-fulltext": "Zhang, S., Tay, Y., Yao, L., Wu, B., Sun, A.: DeepRec: an open-source toolkit for deep learning based recommendation. CoRR abs/1905.10536 (2019). http://arxiv. org/abs/1905.10536",
+                        "@id": "22",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85111105941",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Zhang, S., Tay, Y., Yao, L., Wu, B., Sun, A.: DeepRec: an open-source toolkit for deep learning based recommendation. CoRR abs/1905.10536 (2019). http://arxiv. org/abs/1905.10536"
+                        },
+                        "ce:source-text": "Zhang, S., Tay, Y., Yao, L., Wu, B., Sun, A.: DeepRec: an open-source toolkit for deep learning based recommendation. CoRR abs/1905.10536 (2019). http://arxiv. org/abs/1905.10536"
+                    },
+                    {
+                        "ref-fulltext": "Zhang, S., Yao, L., Sun, A., Tay, Y.: Deep learning based recommender system: a survey and new perspectives. ACM Comput. Surv. 52(1), 38 (2019). https://doi. org/10.1145/3285029",
+                        "@id": "23",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85101961171",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Zhang, S., Yao, L., Sun, A., Tay, Y.: Deep learning based recommender system: a survey and new perspectives. ACM Comput. Surv. 52(1), 38 (2019). https://doi. org/10.1145/3285029"
+                        },
+                        "ce:source-text": "Zhang, S., Yao, L., Sun, A., Tay, Y.: Deep learning based recommender system: a survey and new perspectives. ACM Comput. Surv. 52(1), 38 (2019). https://doi. org/10.1145/3285029"
+                    },
+                    {
+                        "ref-fulltext": "Zhang, Y., Wang, J., Luo, J.: Knowledge graph embedding based collaborative filtering. IEEE Access 8, 134553\u2013134562 (2020). https://doi.org/10.1109/ACCESS. 2020.3011105",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1109/ACCESS. 2020.3011105",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Knowledge graph embedding based collaborative filtering"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85089308757",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "8"},
+                                "pagerange": {
+                                    "@first": "134553",
+                                    "@last": "134562"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Luo",
+                                    "ce:indexed-name": "Luo J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Access"
+                        },
+                        "ce:source-text": "Zhang, Y., Wang, J., Luo, J.: Knowledge graph embedding based collaborative filtering. IEEE Access 8, 134553\u2013134562 (2020). https://doi.org/10.1109/ACCESS. 2020.3011105"
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Tokyo",
+            "@id": "60028928",
+            "affilname": "Research Organization of Information and Systems National Institute of Informatics",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028928",
+            "affiliation-country": "Japan"
+        },
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Hayama",
+            "@id": "60021523",
+            "affilname": "The Graduate University for Advanced Studies",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021523",
+            "affiliation-country": "Japan"
+        }
+    ],
+    "coredata": {
+        "srctype": "k",
+        "eid": "2-s2.0-85111159161",
+        "dc:description": "Recommendation models that use collaborative filtering consider the influence of friends and neighbors when recommending suitable items for a target user. Most of these neighborhood-based models use the actual ratings from neighbors to predict the ratings of the target user toward target items, which often leads to a low accuracy prediction caused by the improper rating-range problem. Recently, rating conversion methods have been proposed to address this issue. Because each friend/neighbor can have a different level of influence on the target user, we propose a friend module, which converts their ratings to match the target user\u2019s perspective and assigns different weight to each user before modeling latent relations and predictions. In rating conversion, ratings that involve explicit feedback are important. Instead of the traditional approach to user embedding, we propose a novel approach that uses explicit feedback. This can express user features better than traditional methods and can then be used to convert ratings to match the target user\u2019s perspective. For better representation and recommendation, we also learn latent relations between each user and item by adopting knowledge graph ideas, which leads to more accurate results. The FilmTrust and MovieLens datasets are used in experiments comparing the proposed method with existing methods. This evaluation showed that our model is more accurate than existing methods.",
+        "prism:coverDate": "2021-01-01",
+        "prism:aggregationType": "Book Series",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85111159161",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Phannakan",
+            "preferred-name": {
+                "ce:given-name": "Phannakan",
+                "ce:initials": "P.",
+                "ce:surname": "Tengkiattrakul",
+                "ce:indexed-name": "Tengkiattrakul P."
+            },
+            "@seq": "1",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60021523",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021523"
+                },
+                {
+                    "@id": "60028928",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028928"
+                }
+            ],
+            "ce:surname": "Tengkiattrakul",
+            "@auid": "57193563271",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57193563271",
+            "ce:indexed-name": "Tengkiattrakul P."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85111159161"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85111159161&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85111159161&origin=inward"
+            }
+        ],
+        "prism:isbn": "9783030742959",
+        "source-id": "25674",
+        "citedby-count": "0",
+        "prism:volume": "12706 LNCS",
+        "subtype": "cp",
+        "dc:title": "Attentive Hybrid Collaborative Filtering for Rating Conversion in Recommender Systems",
+        "openaccess": "0",
+        "prism:issn": "16113349 03029743",
+        "publishercopyright": "© 2021, Springer Nature Switzerland AG.",
+        "subtypeDescription": "Conference Paper",
+        "prism:publicationName": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+        "prism:pageRange": "151-165",
+        "prism:endingPage": "165",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1007/978-3-030-74296-6_12",
+        "prism:startingPage": "151",
+        "dc:identifier": "SCOPUS_ID:85111159161",
+        "dc:publisher": "Springer Science and Business Media Deutschland GmbH"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Accuracy prediction",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Conversion methods",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Explicit feedback",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Knowledge graphs",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Movielens",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Traditional approaches",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "User feature",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Collaborative filtering"
+        },
+        {
+            "@_fa": "true",
+            "$": "Neural networks"
+        },
+        {
+            "@_fa": "true",
+            "$": "Rating conversion"
+        },
+        {
+            "@_fa": "true",
+            "$": "Recommender systems"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Theoretical Computer Science",
+            "@code": "2614",
+            "@abbrev": "MATH"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science (all)",
+            "@code": "1700",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Phannakan",
+            "preferred-name": {
+                "ce:given-name": "Phannakan",
+                "ce:initials": "P.",
+                "ce:surname": "Tengkiattrakul",
+                "ce:indexed-name": "Tengkiattrakul P."
+            },
+            "@seq": "1",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60021523",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021523"
+                },
+                {
+                    "@id": "60028928",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028928"
+                }
+            ],
+            "ce:surname": "Tengkiattrakul",
+            "@auid": "57193563271",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57193563271",
+            "ce:indexed-name": "Tengkiattrakul P."
+        },
+        {
+            "ce:given-name": "Saranya",
+            "preferred-name": {
+                "ce:given-name": "Saranya",
+                "ce:initials": "S.",
+                "ce:surname": "Maneeroj",
+                "ce:indexed-name": "Maneeroj S."
+            },
+            "@seq": "2",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Maneeroj",
+            "@auid": "24081010600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/24081010600",
+            "ce:indexed-name": "Maneeroj S."
+        },
+        {
+            "ce:given-name": "Atsuhiro",
+            "preferred-name": {
+                "ce:given-name": "Atsuhiro",
+                "ce:initials": "A.",
+                "ce:surname": "Takasu",
+                "ce:indexed-name": "Takasu A."
+            },
+            "@seq": "3",
+            "ce:initials": "A.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60021523",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021523"
+                },
+                {
+                    "@id": "60028928",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028928"
+                }
+            ],
+            "ce:surname": "Takasu",
+            "@auid": "57195144555",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57195144555",
+            "ce:indexed-name": "Takasu A."
+        }
+    ]}
+}}

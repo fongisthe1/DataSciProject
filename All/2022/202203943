@@ -1,0 +1,2637 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "26",
+                "@timestamp": "2022-05-26T02:08:21.000021-04:00",
+                "@year": "2022",
+                "@month": "05"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2022",
+                "@month": "01"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Department of Mathematics and Computer Science"},
+                                {"$": "Faculty of Science"},
+                                {"$": "Advanced Virtual and Intelligent Computing Center (AVIC)"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "113870560"
+                            },
+                            "@affiliation-instance-id": "2017567934-124a7ebdf2a0a59e4bf4aecee8e927fd",
+                            "ce:source-text": "Department of Mathematics and Computer Science, Faculty of Science, Advanced Virtual and Intelligent Computing Center (AVIC), Chulalongkorn University, Bangkok, Thailand",
+                            "@dptid": "113870560"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Umaporn",
+                                "preferred-name": {
+                                    "ce:given-name": "Umaporn",
+                                    "ce:initials": "U.",
+                                    "ce:surname": "Padungkiatwattana",
+                                    "ce:indexed-name": "Padungkiatwattana U."
+                                },
+                                "@author-instance-id": "2017567934-d6a324640bffb97d03f0423e058d89ce",
+                                "@seq": "1",
+                                "ce:initials": "U.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Padungkiatwattana",
+                                "@auid": "57537974200",
+                                "@orcid": "0000-0003-3644-0422",
+                                "ce:indexed-name": "Padungkiatwattana U."
+                            },
+                            {
+                                "ce:given-name": "Thitiya",
+                                "preferred-name": {
+                                    "ce:given-name": "Thitiya",
+                                    "ce:initials": "T.",
+                                    "ce:surname": "Sae-Diae",
+                                    "ce:indexed-name": "Sae-Diae T."
+                                },
+                                "@author-instance-id": "2017567934-2c0db2712bf6246fd37597597127fce2",
+                                "@seq": "2",
+                                "ce:initials": "T.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Sae-Diae",
+                                "@auid": "57537147200",
+                                "@orcid": "0000-0003-4860-8069",
+                                "ce:indexed-name": "Sae-Diae T."
+                            },
+                            {
+                                "ce:given-name": "Saranya",
+                                "preferred-name": {
+                                    "ce:given-name": "Saranya",
+                                    "ce:initials": "S.",
+                                    "ce:surname": "Maneeroj",
+                                    "ce:indexed-name": "Maneeroj S."
+                                },
+                                "@author-instance-id": "2017567934-e5dca55ad90c450e30d498532e07835f",
+                                "@seq": "3",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Maneeroj",
+                                "@auid": "24081010600",
+                                "@orcid": "0000-0003-3827-2549",
+                                "ce:indexed-name": "Maneeroj S."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Japan",
+                            "postal-code": "101-8430",
+                            "@afid": "60021523",
+                            "@country": "jpn",
+                            "city": "Tokyo",
+                            "organization": [
+                                {"$": "National Institute of Informatics"},
+                                {"$": "Graduate University for Advanced Studies"},
+                                {"$": "SOKENDAI"}
+                            ],
+                            "affiliation-id": [
+                                {"@afid": "60021523"},
+                                {"@afid": "60028928"}
+                            ],
+                            "@affiliation-instance-id": "2017567934-aa3a1010341ab5d87cfcfbc5263ecd07",
+                            "ce:source-text": "National Institute of Informatics, Graduate University for Advanced Studies, SOKENDAI, Tokyo 101-8430, Japan"
+                        },
+                        "author": [{
+                            "ce:given-name": "Atsuhiro",
+                            "preferred-name": {
+                                "ce:given-name": "Atsuhiro",
+                                "ce:initials": "A.",
+                                "ce:surname": "Takasu",
+                                "ce:indexed-name": "Takasu A."
+                            },
+                            "@author-instance-id": "2017567934-673ee3c471f741cc11f440cc19c4de2e",
+                            "@seq": "4",
+                            "ce:initials": "A.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Takasu",
+                            "@auid": "57195144555",
+                            "@orcid": "0000-0002-9061-7949",
+                            "ce:indexed-name": "Takasu A."
+                        }]
+                    }
+                ],
+                "citation-title": "ARERec: Attentive Local Interaction Model for Sequential Recommendation",
+                "abstracts": "© 2022 IEEE.Previous sequential-recommendation methods have been able to capture patterns of item characteristics that interact with the user. However, they modeled user behavior using a whole interaction sequence, despite possible changes in a user's behavior over time, which can make some behaviors no longer relevant by the end of the user-item interaction period. That is, each item representation was derived from the influences of all items in the whole sequence (i.e. global representation) without considering item-adjacency factors that can affect the item characteristics during the interaction period (i.e. local representation). Furthermore, these methods modeled only user behavior, ignoring item behavior, which can involve patterns of user characteristics for users who interact with the item. In this paper, we therefore propose a novel attentive local-interaction model for sequential recommendation called ARERec, which applies a region-embedding technique to both user and item historical sequences. The aim is to model user and item behavior over the user-item interaction sequence while considering local representations that contain specific characteristics of both user and item in the sequence. In this way, information is derived for corresponding periods that reflect more-specific reasons behind the interaction in the sequence. Moreover, to account for ratings and neighbor-related factors, we adopt the concept of neighbor-based collaborative filtering in our predictions. One issue is that neighbors have the same similarity levels for all users, resulting in similar predictions, even though there may be different user-specific information. To address this problem, we apply a multi-head attention mechanism to personalize each neighbor based on the user's characteristics. Extensive experiments on three datasets demonstrate that ARERec consistently outperforms state-of-the-art sequential methods, including Recurrent Neural Networks and the attention-based methods (both unidirectional and bidirectional) HitRate and Normalized Discounted Cumulative Gain. Our experiments also show that ARERec provides superior results by considering interaction periods with local representation rather than the whole sequence using global representation.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Department of Mathematics and Computer Science"},
+                            {"$": "Faculty of Science"},
+                            {"$": "Advanced Virtual and Intelligent Computing Center (AVIC)"},
+                            {"$": "Chulalongkorn University"}
+                        ],
+                        "ce:source-text": "Department of Mathematics and Computer Science, Faculty of Science, Advanced Virtual and Intelligent Computing Center (AVIC), Chulalongkorn University, Bangkok, Thailand"
+                    },
+                    "person": {
+                        "ce:given-name": "Saranya",
+                        "ce:initials": "S.",
+                        "ce:surname": "Maneeroj",
+                        "ce:indexed-name": "Maneeroj S."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "attention mechanism",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Region embedding",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "representation learning",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "sequential recommendation",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "IEEE Access",
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639",
+                        "@type": "email"
+                    }},
+                    "@country": "usa",
+                    "translated-sourcetitle": {
+                        "$": "IEEE Access",
+                        "@xml:lang": "eng"
+                    },
+                    "issn": {
+                        "$": "21693536",
+                        "@type": "electronic"
+                    },
+                    "volisspag": {
+                        "voliss": {"@volume": "10"},
+                        "pagerange": {
+                            "@first": "31340",
+                            "@last": "31358"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2022"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "sourcetitle": "IEEE Access",
+                    "@srcid": "21100374601",
+                    "publicationdate": {
+                        "year": "2022",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2022"
+                        }
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "461.4",
+                                "classification-description": "Ergonomics and Human Factors Engineering"
+                            },
+                            {
+                                "classification-code": "723.4",
+                                "classification-description": "Artificial Intelligence"
+                            },
+                            {
+                                "classification-code": "723.5",
+                                "classification-description": "Computer Applications"
+                            },
+                            {
+                                "classification-code": "903.1",
+                                "classification-description": "Information Sources and Analysis"
+                            },
+                            {
+                                "classification-code": "971",
+                                "classification-description": "Social Sciences"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1700"},
+                            {"$": "2500"},
+                            {"$": "2200"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "MATE"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2022 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "SNCPX"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "09",
+                    "@timestamp": "BST 08:27:51",
+                    "@year": "2022",
+                    "@month": "04"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2017442622",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "939254303",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20221211832270",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20220806302",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20221044481",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "2022034497",
+                            "@idtype": "SNCPX"
+                        },
+                        {
+                            "$": "20210016540976",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85126680853",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85126680853",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/ACCESS.2022.3160466"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "40",
+                "reference": [
+                    {
+                        "ref-fulltext": "L. Baltrunas and F. Ricci, \"Context-based splitting of item ratings in collaborative filtering,\" in Proc. 3rd ACM Conf. Recommender Syst., New York, NY, USA, 2009, pp. 245-248, doi: 10.1145/1639714. 1639759.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Context-based splitting of item ratings in collaborative filtering"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/1639714.1639759",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "72249091263",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "245",
+                                "@last": "248"
+                            }},
+                            "ref-text": "New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Baltrunas",
+                                    "ce:indexed-name": "Baltrunas L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ricci",
+                                    "ce:indexed-name": "Ricci F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 3rd ACM Conf. Recommender Syst."
+                        },
+                        "ce:source-text": "L. Baltrunas and F. Ricci, \"Context-based splitting of item ratings in collaborative filtering,\" in Proc. 3rd ACM Conf. Recommender Syst., New York, NY, USA, 2009, pp. 245-248, doi: 10.1145/1639714. 1639759."
+                    },
+                    {
+                        "ref-fulltext": "B. Hidasi, A. Karatzoglou, L. Baltrunas, and D. Tikk, \"Session-based recommendations with recurrent neural networks,\" Nov. 2015, arXiv:1511.06939.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1511.06939",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84962597585",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Nov.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hidasi",
+                                    "ce:indexed-name": "Hidasi B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Karatzoglou",
+                                    "ce:indexed-name": "Karatzoglou A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Baltrunas",
+                                    "ce:indexed-name": "Baltrunas L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tikk",
+                                    "ce:indexed-name": "Tikk D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Session-based recommendations with recurrent neural networks"
+                        },
+                        "ce:source-text": "B. Hidasi, A. Karatzoglou, L. Baltrunas, and D. Tikk, \"Session-based recommendations with recurrent neural networks,\" Nov. 2015, arXiv:1511.06939."
+                    },
+                    {
+                        "ref-fulltext": "F. Yu, Q. Liu, S. Wu, L. Wang, and T. Tan, \"A dynamic recurrent model for next basket recommendation,\" in Proc. 39th Int. ACM SIGIR Conf. Res. Develop. Inf. Retr., New York, NY, USA, Jul. 2016, pp. 729-732, doi: 10.1145/2911451.2914683.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "A dynamic recurrent model for next basket recommendation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/2911451.2914683",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "84980343543",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "729",
+                                "@last": "732"
+                            }},
+                            "ref-text": "New York, NY, USA, Jul.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Q."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang L."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tan",
+                                    "ce:indexed-name": "Tan T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 39th Int. ACM SIGIR Conf. Res. Develop. Inf. Retr."
+                        },
+                        "ce:source-text": "F. Yu, Q. Liu, S. Wu, L. Wang, and T. Tan, \"A dynamic recurrent model for next basket recommendation,\" in Proc. 39th Int. ACM SIGIR Conf. Res. Develop. Inf. Retr., New York, NY, USA, Jul. 2016, pp. 729-732, doi: 10.1145/2911451.2914683."
+                    },
+                    {
+                        "ref-fulltext": "J. Li, P. Ren, Z. Chen, Z. Ren, and J. Ma, \"Neural attentive session-based recommendation,\" 2017, arXiv:1711.04725.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1711.04725",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85076129260",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ren",
+                                    "ce:indexed-name": "Ren P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen Z."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ren",
+                                    "ce:indexed-name": "Ren Z."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neural attentive session-based recommendation"
+                        },
+                        "ce:source-text": "J. Li, P. Ren, Z. Chen, Z. Ren, and J. Ma, \"Neural attentive session-based recommendation,\" 2017, arXiv:1711.04725."
+                    },
+                    {
+                        "ref-fulltext": "A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N. Gomez, L. Kaiser, and I. Polosukhin, \"Attention is all you need,\" 2017, arXiv:1706.03762.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1706.03762",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85038368581",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vaswani",
+                                    "ce:indexed-name": "Vaswani A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shazeer",
+                                    "ce:indexed-name": "Shazeer N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Parmar",
+                                    "ce:indexed-name": "Parmar N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Uszkoreit",
+                                    "ce:indexed-name": "Uszkoreit J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jones",
+                                    "ce:indexed-name": "Jones L."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "A.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gomez",
+                                    "ce:indexed-name": "Gomez A.N."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kaiser",
+                                    "ce:indexed-name": "Kaiser L."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Polosukhin",
+                                    "ce:indexed-name": "Polosukhin I."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Attention is all you need"
+                        },
+                        "ce:source-text": "A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N. Gomez, L. Kaiser, and I. Polosukhin, \"Attention is all you need,\" 2017, arXiv:1706.03762."
+                    },
+                    {
+                        "ref-fulltext": "W.-C. Kang and J. McAuley, \"Self-attentive sequential recommendation,\" 2018, arXiv:1808.09781.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1808.09781",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85068085194",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.-C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kang",
+                                    "ce:indexed-name": "Kang W.-C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McAuley",
+                                    "ce:indexed-name": "McAuley J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Self-attentive sequential recommendation"
+                        },
+                        "ce:source-text": "W.-C. Kang and J. McAuley, \"Self-attentive sequential recommendation,\" 2018, arXiv:1808.09781."
+                    },
+                    {
+                        "ref-fulltext": "F. Sun, J. Liu, J. Wu, C. Pei, X. Lin, W. Ou, and P. Jiang, \"BERT4Rec: Sequential recommendation with bidirectional encoder representations from transformer,\" 2019, arXiv:1904.06690.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1904.06690",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85073615655",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pei",
+                                    "ce:indexed-name": "Pei C."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lin",
+                                    "ce:indexed-name": "Lin X."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ou",
+                                    "ce:indexed-name": "Ou W."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "BERT4Rec: Sequential recommendation with bidirectional encoder representations from transformer"
+                        },
+                        "ce:source-text": "F. Sun, J. Liu, J. Wu, C. Pei, X. Lin, W. Ou, and P. Jiang, \"BERT4Rec: Sequential recommendation with bidirectional encoder representations from transformer,\" 2019, arXiv:1904.06690."
+                    },
+                    {
+                        "ref-fulltext": "X. He, L. Liao, H. Zhang, L. Nie, X. Hu, and T.-S. Chua, \"Neural collaborative filtering,\" in Proc. 26th Int. Conf. World Wide Web, Geneva, Switzerland, Apr. 2017, pp. 173-182, doi: 10.1145/3038912.3052569.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Neural collaborative filtering"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/3038912.3052569",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85031939960",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "173",
+                                "@last": "182"
+                            }},
+                            "ref-text": "Geneva, Switzerland, Apr.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liao",
+                                    "ce:indexed-name": "Liao L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nie",
+                                    "ce:indexed-name": "Nie L."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu X."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "T.-S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chua",
+                                    "ce:indexed-name": "Chua T.-S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 26th Int. Conf. World Wide Web"
+                        },
+                        "ce:source-text": "X. He, L. Liao, H. Zhang, L. Nie, X. Hu, and T.-S. Chua, \"Neural collaborative filtering,\" in Proc. 26th Int. Conf. World Wide Web, Geneva, Switzerland, Apr. 2017, pp. 173-182, doi: 10.1145/3038912.3052569."
+                    },
+                    {
+                        "ref-fulltext": "Y. Koren, R. Bell, and C. Volinsky, \"Matrix factorization techniques for recommender systems,\" IEEE Comput., vol. 42, no. 8, pp. 30-37, Aug. 2009.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Matrix factorization techniques for recommender systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85008044987",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "42",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "30",
+                                    "@last": "37"
+                                }
+                            },
+                            "ref-text": "Aug.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koren",
+                                    "ce:indexed-name": "Koren Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bell",
+                                    "ce:indexed-name": "Bell R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Volinsky",
+                                    "ce:indexed-name": "Volinsky C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Comput."
+                        },
+                        "ce:source-text": "Y. Koren, R. Bell, and C. Volinsky, \"Matrix factorization techniques for recommender systems,\" IEEE Comput., vol. 42, no. 8, pp. 30-37, Aug. 2009."
+                    },
+                    {
+                        "ref-fulltext": "R. Salakhutdinov and A. Mnih, \"Probabilistic matrix factorization,\" in Proc. 20th Int. Conf. Neural Inf. Process. Syst. Red Hook, NY, USA: Curran Associates, 2007, pp. 1257-1264.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Probabilistic matrix factorization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "48349135120",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1257",
+                                "@last": "1264"
+                            }},
+                            "ref-text": "Red Hook, NY, USA: Curran Associates",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Salakhutdinov",
+                                    "ce:indexed-name": "Salakhutdinov R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mnih",
+                                    "ce:indexed-name": "Mnih A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 20th Int. Conf. Neural Inf. Process. Syst."
+                        },
+                        "ce:source-text": "R. Salakhutdinov and A. Mnih, \"Probabilistic matrix factorization,\" in Proc. 20th Int. Conf. Neural Inf. Process. Syst. Red Hook, NY, USA: Curran Associates, 2007, pp. 1257-1264."
+                    },
+                    {
+                        "ref-fulltext": "D. D. Lee and H. S. Seung, \"Algorithms for non-negative matrix factorization,\" in Proc. 13th Int. Conf. Neural Inf. Process. Syst. Cambridge, MA, USA: MIT Press, 2000, pp. 535-541.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-title": {"ref-titletext": "Algorithms for non-negative matrix factorization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0001093042",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "535",
+                                "@last": "541"
+                            }},
+                            "ref-text": "Cambridge, MA, USA: MIT Press",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee D.D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Seung",
+                                    "ce:indexed-name": "Seung H.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 13th Int. Conf. Neural Inf. Process. Syst."
+                        },
+                        "ce:source-text": "D. D. Lee and H. S. Seung, \"Algorithms for non-negative matrix factorization,\" in Proc. 13th Int. Conf. Neural Inf. Process. Syst. Cambridge, MA, USA: MIT Press, 2000, pp. 535-541."
+                    },
+                    {
+                        "ref-fulltext": "S. Rendle, C. Freudenthaler, and L. Schmidt-Thieme, \"Factorizing personalized Markov chains for next-basket recommendation,\" in Proc. 19th Int. Conf. World Wide Web, New York, NY, USA, 2010, pp. 811-820, doi: 10.1145/1772690.1772773.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Factorizing personalized Markov chains for next-basket recommendation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/1772690.1772773",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "77954599758",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "811",
+                                "@last": "820"
+                            }},
+                            "ref-text": "New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rendle",
+                                    "ce:indexed-name": "Rendle S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Freudenthaler",
+                                    "ce:indexed-name": "Freudenthaler C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schmidt-Thieme",
+                                    "ce:indexed-name": "Schmidt-Thieme L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 19th Int. Conf. World Wide Web"
+                        },
+                        "ce:source-text": "S. Rendle, C. Freudenthaler, and L. Schmidt-Thieme, \"Factorizing personalized Markov chains for next-basket recommendation,\" in Proc. 19th Int. Conf. World Wide Web, New York, NY, USA, 2010, pp. 811-820, doi: 10.1145/1772690.1772773."
+                    },
+                    {
+                        "ref-fulltext": "T. Donkers, B. Loepp, and J. Ziegler, \"Sequential user-based recurrent neural network recommendations,\" in Proc. 11th ACM Conf. Recommender Syst., New York, NY, USA, Aug. 2017, pp. 152-160, doi: 10.1145/3109859.3109877.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Sequential user-based recurrent neural network recommendations"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/3109859.3109877",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85030464055",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "152",
+                                "@last": "160"
+                            }},
+                            "ref-text": "New York, NY, USA, Aug.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Donkers",
+                                    "ce:indexed-name": "Donkers T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Loepp",
+                                    "ce:indexed-name": "Loepp B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ziegler",
+                                    "ce:indexed-name": "Ziegler J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 11th ACM Conf. Recommender Syst."
+                        },
+                        "ce:source-text": "T. Donkers, B. Loepp, and J. Ziegler, \"Sequential user-based recurrent neural network recommendations,\" in Proc. 11th ACM Conf. Recommender Syst., New York, NY, USA, Aug. 2017, pp. 152-160, doi: 10.1145/3109859.3109877."
+                    },
+                    {
+                        "ref-fulltext": "M. Quadrana, A. Karatzoglou, B. Hidasi, and P. Cremonesi, \"Personalizing session-based recommendations with hierarchical recurrent neural networks,\" 2017, arXiv:1706.04148.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1706.04148",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85030468728",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Quadrana",
+                                    "ce:indexed-name": "Quadrana M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Karatzoglou",
+                                    "ce:indexed-name": "Karatzoglou A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hidasi",
+                                    "ce:indexed-name": "Hidasi B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cremonesi",
+                                    "ce:indexed-name": "Cremonesi P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Personalizing session-based recommendations with hierarchical recurrent neural networks"
+                        },
+                        "ce:source-text": "M. Quadrana, A. Karatzoglou, B. Hidasi, and P. Cremonesi, \"Personalizing session-based recommendations with hierarchical recurrent neural networks,\" 2017, arXiv:1706.04148."
+                    },
+                    {
+                        "ref-fulltext": "J. Chung, C. Gulcehre, K. Cho, and Y. Bengio, \"Empirical evaluation of gated recurrent neural networks on sequence modeling,\" 2014, arXiv:1412.3555.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1412.3555",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84939821078",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chung",
+                                    "ce:indexed-name": "Chung J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gulcehre",
+                                    "ce:indexed-name": "Gulcehre C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cho",
+                                    "ce:indexed-name": "Cho K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bengio",
+                                    "ce:indexed-name": "Bengio Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Empirical evaluation of gated recurrent neural networks on sequence modeling"
+                        },
+                        "ce:source-text": "J. Chung, C. Gulcehre, K. Cho, and Y. Bengio, \"Empirical evaluation of gated recurrent neural networks on sequence modeling,\" 2014, arXiv:1412.3555."
+                    },
+                    {
+                        "ref-fulltext": "B. Hidasi and A. Karatzoglou, \"Recurrent neural networks with top-k gains for session-based recommendations,\" 2017, arXiv:1706.03847.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1706.03847",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85030309568",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hidasi",
+                                    "ce:indexed-name": "Hidasi B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Karatzoglou",
+                                    "ce:indexed-name": "Karatzoglou A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Recurrent neural networks with top-k gains for session-based recommendations"
+                        },
+                        "ce:source-text": "B. Hidasi and A. Karatzoglou, \"Recurrent neural networks with top-k gains for session-based recommendations,\" 2017, arXiv:1706.03847."
+                    },
+                    {
+                        "ref-fulltext": "C.-Y. Wu, A. Ahmed, A. Beutel, A. J. Smola, and H. Jing, \"Recurrent recommender networks,\" in Proc. 10th ACM Int. Conf. Web Search Data Mining, New York, NY, USA, Feb. 2017, pp. 495-503, doi: 10.1145/3018661.3018689.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Recurrent recommender networks"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/3018661.3018689",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85015262292",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "495",
+                                "@last": "503"
+                            }},
+                            "ref-text": "New York, NY, USA, Feb.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.-Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu C.-Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ahmed",
+                                    "ce:indexed-name": "Ahmed A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Beutel",
+                                    "ce:indexed-name": "Beutel A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Smola",
+                                    "ce:indexed-name": "Smola A.J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jing",
+                                    "ce:indexed-name": "Jing H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 10th ACM Int. Conf. Web Search Data Mining"
+                        },
+                        "ce:source-text": "C.-Y. Wu, A. Ahmed, A. Beutel, A. J. Smola, and H. Jing, \"Recurrent recommender networks,\" in Proc. 10th ACM Int. Conf. Web Search Data Mining, New York, NY, USA, Feb. 2017, pp. 495-503, doi: 10.1145/3018661.3018689."
+                    },
+                    {
+                        "ref-fulltext": "S. Hochreiter and J. J. Schmidhuber, \"Long short-term memory,\" Neural Comput., vol. 9, no. 8, pp. 1735-1780, 1997.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Long short-term memory"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0031573117",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "9",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "1735",
+                                    "@last": "1780"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hochreiter",
+                                    "ce:indexed-name": "Hochreiter S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schmidhuber",
+                                    "ce:indexed-name": "Schmidhuber J.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neural Comput."
+                        },
+                        "ce:source-text": "S. Hochreiter and J. J. Schmidhuber, \"Long short-term memory,\" Neural Comput., vol. 9, no. 8, pp. 1735-1780, 1997."
+                    },
+                    {
+                        "ref-fulltext": "W. Yuan, H. Wang, X. Yu, N. Liu, and Z. Li, \"Attention-based context-aware sequential recommendation model,\" Inf. Sci., vol. 510, pp. 122-134, Feb. 2020. [Online]. Available: https://www.sciencedirect.com/science/ article/pii/S0020025519308539",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.sciencedirect.com/science/article/pii/S0020025519308539",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Attention-based context-aware sequential recommendation model"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85072276043",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "510"},
+                                "pagerange": {
+                                    "@first": "122",
+                                    "@last": "134"
+                                }
+                            },
+                            "ref-text": "Feb. [Online]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yuan",
+                                    "ce:indexed-name": "Yuan W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu X."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu N."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Inf. Sci."
+                        },
+                        "ce:source-text": "W. Yuan, H. Wang, X. Yu, N. Liu, and Z. Li, \"Attention-based context-aware sequential recommendation model,\" Inf. Sci., vol. 510, pp. 122-134, Feb. 2020. [Online]. Available: https://www.sciencedirect.com/science/ article/pii/S0020025519308539"
+                    },
+                    {
+                        "ref-fulltext": "L. Zheng, N. Guo, W. Chen, J. Yu, and D. Jiang, \"Sentiment-guided sequential recommendation,\" in Proc. 43rd Int. ACM SIGIR Conf. Res. Develop. Inf. Retr., New York, NY, USA, 2020, pp. 1957-1960, doi: 10.1145/3397271.3401330.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Sentiment-guided sequential recommendation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/3397271.3401330",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85090136873",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1957",
+                                "@last": "1960"
+                            }},
+                            "ref-text": "New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zheng",
+                                    "ce:indexed-name": "Zheng L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen W."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 43rd Int. ACM SIGIR Conf. Res. Develop. Inf. Retr."
+                        },
+                        "ce:source-text": "L. Zheng, N. Guo, W. Chen, J. Yu, and D. Jiang, \"Sentiment-guided sequential recommendation,\" in Proc. 43rd Int. ACM SIGIR Conf. Res. Develop. Inf. Retr., New York, NY, USA, 2020, pp. 1957-1960, doi: 10.1145/3397271.3401330."
+                    },
+                    {
+                        "ref-fulltext": "J. Tang and K. Wang, \"Personalized top-N sequential recommendation via convolutional sequence embedding,\" 2018, arXiv:1809.07426.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1809.07426",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85056876642",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Personalized top-N sequential recommendation via convolutional sequence embedding"
+                        },
+                        "ce:source-text": "J. Tang and K. Wang, \"Personalized top-N sequential recommendation via convolutional sequence embedding,\" 2018, arXiv:1809.07426."
+                    },
+                    {
+                        "ref-fulltext": "D. Bahdanau, K. Cho, and Y. Bengio, \"Neural machine translation by jointly learning to align and translate,\" 2014, arXiv:1409.0473.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1409.0473",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84922389693",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bahdanau",
+                                    "ce:indexed-name": "Bahdanau D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cho",
+                                    "ce:indexed-name": "Cho K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bengio",
+                                    "ce:indexed-name": "Bengio Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neural machine translation by jointly learning to align and translate"
+                        },
+                        "ce:source-text": "D. Bahdanau, K. Cho, and Y. Bengio, \"Neural machine translation by jointly learning to align and translate,\" 2014, arXiv:1409.0473."
+                    },
+                    {
+                        "ref-fulltext": "A. See, P. J. Liu, and C. D. Manning, \"Get to the point: Summarization with pointer-generator networks,\" 2017, arXiv:1704.04368.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1704.04368",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85041171229",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "See",
+                                    "ce:indexed-name": "See A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu P.J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Manning",
+                                    "ce:indexed-name": "Manning C.D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Get to the point: Summarization with pointer-generator networks"
+                        },
+                        "ce:source-text": "A. See, P. J. Liu, and C. D. Manning, \"Get to the point: Summarization with pointer-generator networks,\" 2017, arXiv:1704.04368."
+                    },
+                    {
+                        "ref-fulltext": "R. Paulus, C. Xiong, and R. Socher, \"A deep reinforced model for abstractive summarization,\" 2017, arXiv:1705.04304.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1705.04304",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85041099521",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Paulus",
+                                    "ce:indexed-name": "Paulus R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xiong",
+                                    "ce:indexed-name": "Xiong C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Socher",
+                                    "ce:indexed-name": "Socher R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "A deep reinforced model for abstractive summarization"
+                        },
+                        "ce:source-text": "R. Paulus, C. Xiong, and R. Socher, \"A deep reinforced model for abstractive summarization,\" 2017, arXiv:1705.04304."
+                    },
+                    {
+                        "ref-fulltext": "S. Wang, L. Hu, L. Cao, X. Huang, D. Lian, and W. Liu, \"Attention-based transactional context embedding for next-item recommendation,\" in Proc. AAAI Conf. Artif. Intell., 2018, pp. 1-8.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Attention-based transactional context embedding for next-item recommendation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85057556986",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "8"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cao",
+                                    "ce:indexed-name": "Cao L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang X."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lian",
+                                    "ce:indexed-name": "Lian D."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. AAAI Conf. Artif. Intell."
+                        },
+                        "ce:source-text": "S. Wang, L. Hu, L. Cao, X. Huang, D. Lian, and W. Liu, \"Attention-based transactional context embedding for next-item recommendation,\" in Proc. AAAI Conf. Artif. Intell., 2018, pp. 1-8."
+                    },
+                    {
+                        "ref-fulltext": "Q. Liu, Y. Zeng, R. Mokhosi, and H. Zhang, \"STAMP: Short-term attention/memory priority model for session-based recommendation,\" in Proc. 24th ACM SIGKDD Int. Conf. Knowl. Discovery Data Mining, New York, NY, USA, Jul. 2018, pp. 1831-1839, doi: 10.1145/3219819.3219950.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "STAMP: Short-term attention/memory priority model for session-based recommendation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/3219819.3219950",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85051567357",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1831",
+                                "@last": "1839"
+                            }},
+                            "ref-text": "New York, NY, USA, Jul.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Q."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zeng",
+                                    "ce:indexed-name": "Zeng Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mokhosi",
+                                    "ce:indexed-name": "Mokhosi R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 24th ACM SIGKDD Int. Conf. Knowl. Discovery Data Mining"
+                        },
+                        "ce:source-text": "Q. Liu, Y. Zeng, R. Mokhosi, and H. Zhang, \"STAMP: Short-term attention/memory priority model for session-based recommendation,\" in Proc. 24th ACM SIGKDD Int. Conf. Knowl. Discovery Data Mining, New York, NY, USA, Jul. 2018, pp. 1831-1839, doi: 10.1145/3219819.3219950."
+                    },
+                    {
+                        "ref-fulltext": "J. Li, Y. Wang, and J. McAuley, \"Time interval aware self-attention for sequential recommendation,\" in Proc. 13th Int. Conf. Web Search Data Mining, New York, NY, USA, 2020, pp. 322-330, doi: 10.1145/3336191.3371786.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Time interval aware self-attention for sequential recommendation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/3336191.3371786",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85079525699",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "322",
+                                "@last": "330"
+                            }},
+                            "ref-text": "New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McAuley",
+                                    "ce:indexed-name": "McAuley J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 13th Int. Conf. Web Search Data Mining"
+                        },
+                        "ce:source-text": "J. Li, Y. Wang, and J. McAuley, \"Time interval aware self-attention for sequential recommendation,\" in Proc. 13th Int. Conf. Web Search Data Mining, New York, NY, USA, 2020, pp. 322-330, doi: 10.1145/3336191.3371786."
+                    },
+                    {
+                        "ref-fulltext": "Y. Li, T. Chen, P.-F. Zhang, and H. Yin, \"Lightweight self-attentive sequential recommendation,\" 2021, arXiv:2108.11333.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "2108.11333",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85127810071",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.-F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang P.-F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yin",
+                                    "ce:indexed-name": "Yin H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Lightweight self-attentive sequential recommendation"
+                        },
+                        "ce:source-text": "Y. Li, T. Chen, P.-F. Zhang, and H. Yin, \"Lightweight self-attentive sequential recommendation,\" 2021, arXiv:2108.11333."
+                    },
+                    {
+                        "ref-fulltext": "R. Ren, Z. Liu, Y. Li, W. Xin Zhao, H. Wang, B. Ding, and J.-R. Wen, \"Sequential recommendation with self-attentive multi-adversarial network,\" 2020, arXiv:2005.10602.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "2005.10602",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85125189441",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ren",
+                                    "ce:indexed-name": "Ren R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xin-Zhao",
+                                    "ce:indexed-name": "Xin-Zhao W."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang H."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ding",
+                                    "ce:indexed-name": "Ding B."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "J.-R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wen",
+                                    "ce:indexed-name": "Wen J.-R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sequential recommendation with self-attentive multi-adversarial network"
+                        },
+                        "ce:source-text": "R. Ren, Z. Liu, Y. Li, W. Xin Zhao, H. Wang, B. Ding, and J.-R. Wen, \"Sequential recommendation with self-attentive multi-adversarial network,\" 2020, arXiv:2005.10602."
+                    },
+                    {
+                        "ref-fulltext": "L. Wu, S. Li, C.-J. Hsieh, and J. Sharpnack, \"SSE-PT: Sequential recommendation via personalized transformer,\" in Proc. 14th ACM Conf. Recommender Syst., New York, NY, USA, 2020, pp. 328-337, doi: 10.1145/3383313.3412258.",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "SSE-PT: Sequential recommendation via personalized transformer"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/3383313.3412258",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85092728187",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "328",
+                                "@last": "337"
+                            }},
+                            "ref-text": "New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.-J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hsieh",
+                                    "ce:indexed-name": "Hsieh C.-J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sharpnack",
+                                    "ce:indexed-name": "Sharpnack J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 14th ACM Conf. Recommender Syst."
+                        },
+                        "ce:source-text": "L. Wu, S. Li, C.-J. Hsieh, and J. Sharpnack, \"SSE-PT: Sequential recommendation via personalized transformer,\" in Proc. 14th ACM Conf. Recommender Syst., New York, NY, USA, 2020, pp. 328-337, doi: 10.1145/3383313.3412258."
+                    },
+                    {
+                        "ref-fulltext": "M. Ji, W. Joo, K. Song, Y.-Y. Kim, and I.-C. Moon, \"Sequential recommendation with relation-aware kernelized self-attention,\" 2019, arXiv:1911.06478.",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1911.06478",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85095865689",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ji",
+                                    "ce:indexed-name": "Ji M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Joo",
+                                    "ce:indexed-name": "Joo W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Song",
+                                    "ce:indexed-name": "Song K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.-Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim Y.-Y."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "I.-C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Moon",
+                                    "ce:indexed-name": "Moon I.-C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sequential recommendation with relation-aware kernelized self-attention"
+                        },
+                        "ce:source-text": "M. Ji, W. Joo, K. Song, Y.-Y. Kim, and I.-C. Moon, \"Sequential recommendation with relation-aware kernelized self-attention,\" 2019, arXiv:1911.06478."
+                    },
+                    {
+                        "ref-fulltext": "Y. Cen, J. Zhang, X. Zou, C. Zhou, H. Yang, and J. Tang, \"Controllable multi-interest framework for recommendation,\" 2020, arXiv:2005.09347.",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "2005.09347",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85097844952",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cen",
+                                    "ce:indexed-name": "Cen Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zou",
+                                    "ce:indexed-name": "Zou X."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou C."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang H."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Controllable multi-interest framework for recommendation"
+                        },
+                        "ce:source-text": "Y. Cen, J. Zhang, X. Zou, C. Zhou, H. Yang, and J. Tang, \"Controllable multi-interest framework for recommendation,\" 2020, arXiv:2005.09347."
+                    },
+                    {
+                        "ref-fulltext": "J. Devlin, M.-W. Chang, K. Lee, and K. Toutanova, \"BERT: Pre-training of deep bidirectional transformers for language understanding,\" 2018, arXiv:1810.04805.",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1810.04805",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85057019815",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Devlin",
+                                    "ce:indexed-name": "Devlin J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.-W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang M.-W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Toutanova",
+                                    "ce:indexed-name": "Toutanova K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "BERT: Pre-training of deep bidirectional transformers for language understanding"
+                        },
+                        "ce:source-text": "J. Devlin, M.-W. Chang, K. Lee, and K. Toutanova, \"BERT: Pre-training of deep bidirectional transformers for language understanding,\" 2018, arXiv:1810.04805."
+                    },
+                    {
+                        "ref-fulltext": "E. Shao, S. Guo, and Z. A. Pardos, \"Degree planning with plan-bert: Multi-semester recommendation using future courses of interest,\" in Proc. AAAI Conf. Artif. Intell., 2021, pp. 14920-14929.",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Degree planning with plan-bert: Multi-semester recommendation using future courses of interest"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85127825853",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "14920",
+                                "@last": "14929"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shao",
+                                    "ce:indexed-name": "Shao E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pardos",
+                                    "ce:indexed-name": "Pardos Z.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. AAAI Conf. Artif. Intell."
+                        },
+                        "ce:source-text": "E. Shao, S. Guo, and Z. A. Pardos, \"Degree planning with plan-bert: Multi-semester recommendation using future courses of interest,\" in Proc. AAAI Conf. Artif. Intell., 2021, pp. 14920-14929."
+                    },
+                    {
+                        "ref-fulltext": "S. Min Cho, E. Park, and S. Yoo, \"MEANTIME: Mixture of attention mechanisms with multi-temporal embeddings for sequential recommendation,\" 2020, arXiv:2008.08273.",
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "2008.08273",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85127810845",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Min-Cho",
+                                    "ce:indexed-name": "Min-Cho S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Park",
+                                    "ce:indexed-name": "Park E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yoo",
+                                    "ce:indexed-name": "Yoo S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "MEANTIME: Mixture of attention mechanisms with multi-temporal embeddings for sequential recommendation"
+                        },
+                        "ce:source-text": "S. Min Cho, E. Park, and S. Yoo, \"MEANTIME: Mixture of attention mechanisms with multi-temporal embeddings for sequential recommendation,\" 2020, arXiv:2008.08273."
+                    },
+                    {
+                        "ref-fulltext": "C. Qiao, B. Huang, G. Niu, D. Li, D. Dong, W. He, D. Yu, and H. Wu, \"A new method of region embedding for text classification,\" in Proc. 6th Int. Conf. Learn. Represent., Vancouver, BC, Canada, Apr. 2018, pp. 1-12. [Online]. Available: https://openreview.net/ forum?id=BkSDMA36Z",
+                        "@id": "36",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://openreview.net/forum?id=BkSDMA36Z",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "A new method of region embedding for text classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85083952667",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "12"
+                            }},
+                            "ref-text": "Vancouver, BC, Canada, Apr., [Online]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qiao",
+                                    "ce:indexed-name": "Qiao C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Niu",
+                                    "ce:indexed-name": "Niu G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li D."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dong",
+                                    "ce:indexed-name": "Dong D."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He W."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu D."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 6th Int. Conf. Learn. Represent."
+                        },
+                        "ce:source-text": "C. Qiao, B. Huang, G. Niu, D. Li, D. Dong, W. He, D. Yu, and H. Wu, \"A new method of region embedding for text classification,\" in Proc. 6th Int. Conf. Learn. Represent., Vancouver, BC, Canada, Apr. 2018, pp. 1-12. [Online]. Available: https://openreview.net/ forum?id=BkSDMA36Z"
+                    },
+                    {
+                        "ref-fulltext": "P. Sitkrongwong and A. Takasu, \"Unsupervised context extraction via region embedding for context-aware recommendations,\" in Proc. 23rd Int. Database Appl. Eng. Symp., 2019, pp. 1-10, doi: 10.1145/3331076.3331120.",
+                        "@id": "37",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Unsupervised context extraction via region embedding for context-aware recommendations"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/3331076.3331120",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85070960346",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "10"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sitkrongwong",
+                                    "ce:indexed-name": "Sitkrongwong P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Takasu",
+                                    "ce:indexed-name": "Takasu A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 23rd Int. Database Appl. Eng. Symp."
+                        },
+                        "ce:source-text": "P. Sitkrongwong and A. Takasu, \"Unsupervised context extraction via region embedding for context-aware recommendations,\" in Proc. 23rd Int. Database Appl. Eng. Symp., 2019, pp. 1-10, doi: 10.1145/3331076.3331120."
+                    },
+                    {
+                        "ref-fulltext": "P. Sitkrongwong, A. Takasu, and S. Maneeroj, \"Context-aware user and item representations based on unsupervised context extraction from reviews,\" IEEE Access, vol. 8, pp. 87094-87114, 2020.",
+                        "@id": "38",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Context-aware user and item representations based on unsupervised context extraction from reviews"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85085167218",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "8"},
+                                "pagerange": {
+                                    "@first": "87094",
+                                    "@last": "87114"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sitkrongwong",
+                                    "ce:indexed-name": "Sitkrongwong P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Takasu",
+                                    "ce:indexed-name": "Takasu A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maneeroj",
+                                    "ce:indexed-name": "Maneeroj S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Access"
+                        },
+                        "ce:source-text": "P. Sitkrongwong, A. Takasu, and S. Maneeroj, \"Context-aware user and item representations based on unsupervised context extraction from reviews,\" IEEE Access, vol. 8, pp. 87094-87114, 2020."
+                    },
+                    {
+                        "ref-fulltext": "M. Wan, R. Misra, N. Nakashole, and J. McAuley, \"Fine-grained spoiler detection from large-scale review corpora,\" in Proc. 57th Annu. Meeting Assoc. Comput. Linguistics, Florence, Italy, 2019, pp. 2605-2610. [Online]. Available: https://www.aclweb.org/anthology/P19-1248",
+                        "@id": "39",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.aclweb.org/anthology/P19-1248",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Fine-grained spoiler detection from large-scale review corpora"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85084070836",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2605",
+                                "@last": "2610"
+                            }},
+                            "ref-text": "Florence, Italy, [Online]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wan",
+                                    "ce:indexed-name": "Wan M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Misra",
+                                    "ce:indexed-name": "Misra R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nakashole",
+                                    "ce:indexed-name": "Nakashole N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McAuley",
+                                    "ce:indexed-name": "McAuley J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 57th Annu. Meeting Assoc. Comput. Linguistics"
+                        },
+                        "ce:source-text": "M. Wan, R. Misra, N. Nakashole, and J. McAuley, \"Fine-grained spoiler detection from large-scale review corpora,\" in Proc. 57th Annu. Meeting Assoc. Comput. Linguistics, Florence, Italy, 2019, pp. 2605-2610. [Online]. Available: https://www.aclweb.org/anthology/P19-1248"
+                    },
+                    {
+                        "ref-fulltext": "D. Kingma and J. Ba, \"Adam: A method for stochastic optimization,\" in Proc. Int. Conf. Learn. Represent., Dec. 2014, pp. 1-15.",
+                        "@id": "40",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Adam: A method for stochastic optimization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84941620184",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "15"
+                            }},
+                            "ref-text": "Dec.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kingma",
+                                    "ce:indexed-name": "Kingma D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ba",
+                                    "ce:indexed-name": "Ba J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Int. Conf. Learn. Represent."
+                        },
+                        "ce:source-text": "D. Kingma and J. Ba, \"Adam: A method for stochastic optimization,\" in Proc. Int. Conf. Learn. Represent., Dec. 2014, pp. 1-15."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Hayama",
+            "@id": "60021523",
+            "affilname": "The Graduate University for Advanced Studies",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021523",
+            "affiliation-country": "Japan"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85126680853",
+        "dc:description": "Previous sequential-recommendation methods have been able to capture patterns of item characteristics that interact with the user. However, they modeled user behavior using a whole interaction sequence, despite possible changes in a user's behavior over time, which can make some behaviors no longer relevant by the end of the user-item interaction period. That is, each item representation was derived from the influences of all items in the whole sequence (i.e. global representation) without considering item-adjacency factors that can affect the item characteristics during the interaction period (i.e. local representation). Furthermore, these methods modeled only user behavior, ignoring item behavior, which can involve patterns of user characteristics for users who interact with the item. In this paper, we therefore propose a novel attentive local-interaction model for sequential recommendation called ARERec, which applies a region-embedding technique to both user and item historical sequences. The aim is to model user and item behavior over the user-item interaction sequence while considering local representations that contain specific characteristics of both user and item in the sequence. In this way, information is derived for corresponding periods that reflect more-specific reasons behind the interaction in the sequence. Moreover, to account for ratings and neighbor-related factors, we adopt the concept of neighbor-based collaborative filtering in our predictions. One issue is that neighbors have the same similarity levels for all users, resulting in similar predictions, even though there may be different user-specific information. To address this problem, we apply a multi-head attention mechanism to personalize each neighbor based on the user's characteristics. Extensive experiments on three datasets demonstrate that ARERec consistently outperforms state-of-the-art sequential methods, including Recurrent Neural Networks and the attention-based methods (both unidirectional and bidirectional) HitRate and Normalized Discounted Cumulative Gain. Our experiments also show that ARERec provides superior results by considering interaction periods with local representation rather than the whole sequence using global representation.",
+        "prism:coverDate": "2022-01-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85126680853",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Umaporn",
+            "preferred-name": {
+                "ce:given-name": "Umaporn",
+                "ce:initials": "U.",
+                "ce:surname": "Padungkiatwattana",
+                "ce:indexed-name": "Padungkiatwattana U."
+            },
+            "@seq": "1",
+            "ce:initials": "U.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Padungkiatwattana",
+            "@auid": "57537974200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57537974200",
+            "ce:indexed-name": "Padungkiatwattana U."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85126680853"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85126680853&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85126680853&origin=inward"
+            }
+        ],
+        "source-id": "21100374601",
+        "citedby-count": "2",
+        "prism:volume": "10",
+        "subtype": "ar",
+        "dc:title": "ARERec: Attentive Local Interaction Model for Sequential Recommendation",
+        "openaccess": "1",
+        "prism:issn": "21693536",
+        "publishercopyright": "© 2022 IEEE.",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "IEEE Access",
+        "prism:pageRange": "31340-31358",
+        "prism:endingPage": "31358",
+        "openaccessFlag": "true",
+        "prism:doi": "10.1109/ACCESS.2022.3160466",
+        "prism:startingPage": "31340",
+        "dc:identifier": "SCOPUS_ID:85126680853",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Attention mechanisms",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Embeddings",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Interaction modeling",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "License",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Local interactions",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Predictive models",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Region embedding",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Representation learning",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Sequential recommendation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "User behaviors",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "attention mechanism"
+        },
+        {
+            "@_fa": "true",
+            "$": "Region embedding"
+        },
+        {
+            "@_fa": "true",
+            "$": "representation learning"
+        },
+        {
+            "@_fa": "true",
+            "$": "sequential recommendation"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Computer Science (all)",
+            "@code": "1700",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Materials Science (all)",
+            "@code": "2500",
+            "@abbrev": "MATE"
+        },
+        {
+            "@_fa": "true",
+            "$": "Engineering (all)",
+            "@code": "2200",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Umaporn",
+            "preferred-name": {
+                "ce:given-name": "Umaporn",
+                "ce:initials": "U.",
+                "ce:surname": "Padungkiatwattana",
+                "ce:indexed-name": "Padungkiatwattana U."
+            },
+            "@seq": "1",
+            "ce:initials": "U.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Padungkiatwattana",
+            "@auid": "57537974200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57537974200",
+            "ce:indexed-name": "Padungkiatwattana U."
+        },
+        {
+            "ce:given-name": "Thitiya",
+            "preferred-name": {
+                "ce:given-name": "Thitiya",
+                "ce:initials": "T.",
+                "ce:surname": "Sae-Diae",
+                "ce:indexed-name": "Sae-Diae T."
+            },
+            "@seq": "2",
+            "ce:initials": "T.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Sae-Diae",
+            "@auid": "57537147200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57537147200",
+            "ce:indexed-name": "Sae-Diae T."
+        },
+        {
+            "ce:given-name": "Saranya",
+            "preferred-name": {
+                "ce:given-name": "Saranya",
+                "ce:initials": "S.",
+                "ce:surname": "Maneeroj",
+                "ce:indexed-name": "Maneeroj S."
+            },
+            "@seq": "3",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Maneeroj",
+            "@auid": "24081010600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/24081010600",
+            "ce:indexed-name": "Maneeroj S."
+        },
+        {
+            "ce:given-name": "Atsuhiro",
+            "preferred-name": {
+                "ce:given-name": "Atsuhiro",
+                "ce:initials": "A.",
+                "ce:surname": "Takasu",
+                "ce:indexed-name": "Takasu A."
+            },
+            "@seq": "4",
+            "ce:initials": "A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60021523",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021523"
+            },
+            "ce:surname": "Takasu",
+            "@auid": "57195144555",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57195144555",
+            "ce:indexed-name": "Takasu A."
+        }
+    ]}
+}}

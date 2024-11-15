@@ -1,0 +1,1499 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "06",
+                "@timestamp": "2022-01-06T20:56:41.000041-05:00",
+                "@year": "2022",
+                "@month": "01"
+            },
+            "ait:date-sort": {
+                "@day": "14",
+                "@year": "2019",
+                "@month": "10"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {"xocs:funding-agency-matched-string": "AI-enabled"},
+                {
+                    "xocs:funding-agency-matched-string": "New Energy and Industrial Technology Development Organization",
+                    "xocs:funding-agency-acronym": "NEDO",
+                    "xocs:funding-agency": "New Energy and Industrial Technology Development Organization",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001863",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1861060/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2022-06-09T20:10:14.032320Z",
+            "xocs:funding-text": "This work was supported by Cross-ministerial Strategic Innovation Promotion Program (SIP) Second Phase, \u201cBig-data and AI-enabled Cyberspace Technologies\u201d by New Energy and Industrial Technology Development Organization (NEDO).",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Japan",
+                            "@afid": "60021523",
+                            "@country": "jpn",
+                            "city": "Tokyo",
+                            "organization": [
+                                {"$": "National Institute of Informatics"},
+                                {"$": "SOKENDAI"},
+                                {"$": "Graduate University for Advanced Studies"}
+                            ],
+                            "affiliation-id": [
+                                {"@afid": "60021523"},
+                                {"@afid": "60028928"}
+                            ]
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Phannakan",
+                                "preferred-name": {
+                                    "ce:given-name": "Phannakan",
+                                    "ce:initials": "P.",
+                                    "ce:surname": "Tengkiattrakul",
+                                    "ce:indexed-name": "Tengkiattrakul P."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "P.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Tengkiattrakul",
+                                "@auid": "57193563271",
+                                "ce:indexed-name": "Tengkiattrakul P."
+                            },
+                            {
+                                "ce:given-name": "Atsuhiro",
+                                "preferred-name": {
+                                    "ce:given-name": "Atsuhiro",
+                                    "ce:initials": "A.",
+                                    "ce:surname": "Takasu",
+                                    "ce:indexed-name": "Takasu A."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Takasu",
+                                "@auid": "57195144555",
+                                "ce:indexed-name": "Takasu A."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Advanced Virtual and Intelligent Computing Center"},
+                                {"$": "Department of Mathematics and Computer Science"},
+                                {"$": "Faculty of Science"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "113870560"
+                            },
+                            "@dptid": "113870560"
+                        },
+                        "author": [{
+                            "ce:given-name": "Saranya",
+                            "preferred-name": {
+                                "ce:given-name": "Saranya",
+                                "ce:initials": "S.",
+                                "ce:surname": "Maneeroj",
+                                "ce:indexed-name": "Maneeroj S."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Maneeroj",
+                            "@auid": "24081010600",
+                            "ce:indexed-name": "Maneeroj S."
+                        }]
+                    }
+                ],
+                "citation-title": "Translation-based embedding model for rating conversion in recommender systems",
+                "abstracts": "© 2019 Association for Computing Machinery.Ratings, which are explicit feedback, are the most popular form that is often used in Recommender System (RSs). However, using the actual ratings from neighbors to predict ratings of target user toward target item often leads to low accuracy prediction due to the improper rating range problem. Rating conversion methods are proposed to solve this problem over the past few years. To propose rating conversion method, each user\u2019s preference or rating pattern is needed. Some studies adopt the idea from translation-based embedding model and represent user\u2019s preference in graph form. Although some studies represent users, items, and relations in embedding vector form, their representation may be improper and inaccurate if the rating pattern of each user is not in the same range. These vectors still suffer from the improper rating range as well. In this work, we propose a translation-based embedding model with rating conversion in RSs. We aim to solve the improper rating range problem in translation-based embedding model. Our challenges are 1) representing the relation (rating) between a pair of user and item in vector form, instead of scalar form and 2) dealing with rating conversion of user\u2019s rating in vector form. The FilmTrust and MovieLens dataset are used in experiments comparing the proposed method with the existing methods. The evaluation showed that the proposed rating conversion method provides better accuracy results in term of both rating prediction and ranking recommendation.",
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Collaborative Filtering",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Rating Conversion",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Recommender Systems",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://dl.acm.org/citation.cfm?id=3350546",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Proceedings - 2019 IEEE/WIC/ACM International Conference on Web Intelligence, WI 2019",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"pagerange": {
+                        "@first": "217",
+                        "@last": "224"
+                    }},
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781450369343",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "19th IEEE/WIC/ACM International Conference on Web Intelligence, WI 2019",
+                            "confnumber": "19",
+                            "conforganization": "Aristotle University of Thessaloniki (AUTH)",
+                            "confseriestitle": "IEEE/WIC/ACM International Conference on Web Intelligence",
+                            "conflocation": {
+                                "@country": "grc",
+                                "city": "Thessaloniki"
+                            },
+                            "confcode": "153020",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "17",
+                                    "@year": "2019",
+                                    "@month": "10"
+                                },
+                                "startdate": {
+                                    "@day": "13",
+                                    "@year": "2019",
+                                    "@month": "10"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Proceedings - 2019 IEEE/WIC/ACM International Conference on Web Intelligence, WI 2019",
+                    "contributor-group": [
+                        {"contributor": {
+                            "ce:given-name": "Payam",
+                            "@seq": "1",
+                            "ce:initials": "P.",
+                            "ce:surname": "Barnaghi",
+                            "@role": "edit",
+                            "ce:indexed-name": "Barnaghi P."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Georg",
+                            "@seq": "1",
+                            "ce:initials": "G.",
+                            "ce:surname": "Gottlob",
+                            "@role": "edit",
+                            "ce:indexed-name": "Gottlob G."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Yannis",
+                            "@seq": "1",
+                            "ce:initials": "Y.",
+                            "ce:surname": "Manolopoulos",
+                            "@role": "edit",
+                            "ce:indexed-name": "Manolopoulos Y."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Theodoros",
+                            "@seq": "1",
+                            "ce:initials": "T.",
+                            "ce:surname": "Tzouramanis",
+                            "@role": "edit",
+                            "ce:indexed-name": "Tzouramanis T."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Athena",
+                            "@seq": "1",
+                            "ce:initials": "A.",
+                            "ce:surname": "Vakali",
+                            "@role": "edit",
+                            "ce:indexed-name": "Vakali A."
+                        }}
+                    ],
+                    "publicationdate": {
+                        "month": "10",
+                        "year": "2019",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "14 October 2019"
+                        },
+                        "day": "14"
+                    },
+                    "sourcetitle-abbrev": "Proc. - IEEE/WIC/ACM Int. Conf. Web Intell., WI",
+                    "@country": "usa",
+                    "issuetitle": "Proceedings - 2019 IEEE/WIC/ACM International Conference on Web Intelligence, WI 2019",
+                    "publicationyear": {"@first": "2019"},
+                    "publisher": {
+                        "publishername": "Association for Computing Machinery, Inc",
+                        "ce:e-address": {
+                            "$": "acmhelp@acm.org",
+                            "@type": "email"
+                        }
+                    },
+                    "@srcid": "21100935060"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1702"},
+                            {"$": "1705"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "723.5",
+                                "classification-description": "Computer Applications"
+                            },
+                            {
+                                "classification-code": "903.1",
+                                "classification-description": "Information Sources and Analysis"
+                            },
+                            {
+                                "classification-code": "921.1",
+                                "classification-description": "Algebra"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "COMP"
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This work was supported by Cross-ministerial Strategic Innovation Promotion Program (SIP) Second Phase, \u201cBig-data and AI-enabled Cyberspace Technologies\u201d by New Energy and Industrial Technology Development Organization (NEDO).",
+                        "@xml:lang": "eng"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2020 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "03",
+                    "@timestamp": "BST 07:34:05",
+                    "@year": "2020",
+                    "@month": "05"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "629818667",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "921629490",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20194607681128",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20193848400",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85074795386",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85074795386",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1145/3350546.3352521"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "18",
+                "reference": [
+                    {
+                        "ref-fulltext": "Charu C. Aggarwal, Joel L. Wolf, Kun-Lung Wu, and Philip S. Yu. 1999. Horting Hatches an Egg: A New Graph-theoretic Approach to Collaborative Filtering. In Proceedings of the Fifth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD\u201999). ACM, New York, NY, USA, 201\u2013212. https://doi.org/10.1145/312129.312230",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/312129.312230",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Horting hatches an egg: A New Graph-theoretic Approach to Collaborative Filtering"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0002734008",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "201",
+                                "@last": "212"
+                            }},
+                            "ref-text": "ACM, New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aggarwal",
+                                    "ce:indexed-name": "Aggarwal C.C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wolf",
+                                    "ce:indexed-name": "Wolf J.L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.-L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu K.-L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu P.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Fifth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD\u201999)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Antoine Bordes, Nicolas Usunier, Alberto Garcia-Durán, Jason Weston, and Ok-sana Yakhnenko. 2013. Translating Embeddings for Modeling Multi-relational Data. In Proceedings of the 26th International Conference on Neural Information Processing Systems - Volume 2 (NIPS\u201913). Curran Associates Inc., USA, 2787\u20132795. http://dl.acm.org/citation.cfm?id=2999792.2999923",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://dl.acm.org/citation.cfm?id=2999792.2999923",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Translating Embeddings for Modeling Multi-relational Data"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84899013802",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2787",
+                                "@last": "2795"
+                            }},
+                            "ref-text": "Curran Associates Inc., USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bordes",
+                                    "ce:indexed-name": "Bordes A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Usunier",
+                                    "ce:indexed-name": "Usunier N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Garcia-Durán",
+                                    "ce:indexed-name": "Garcia-Duran A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Weston",
+                                    "ce:indexed-name": "Weston J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "O.-S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yakhnenko",
+                                    "ce:indexed-name": "Yakhnenko O.-S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 26th International Conference on Neural Information Processing Systems - Volume 2 (NIPS\u201913)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "W. Chalermpornpong, S. Maneeroj, and T. Atsuhiro. 2013. Rating Pattern Formation for Better Recommendation. In 2013 24th International Workshop on Database and Expert Systems Applications. IEEE, Los Alamitos, CA, USA, 146\u2013151. https://doi.org/10.1109/DEXA.2013.23",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1109/DEXA.2013.23",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Rating pattern formation for better recommendation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84887973566",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "146",
+                                "@last": "151"
+                            }},
+                            "ref-text": "IEEE, Los Alamitos, CA, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chalermpornpong",
+                                    "ce:indexed-name": "Chalermpornpong W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maneeroj",
+                                    "ce:indexed-name": "Maneeroj S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Atsuhiro",
+                                    "ce:indexed-name": "Atsuhiro T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2013 24th International Workshop on Database and Expert Systems Applications"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Xu Han, Shulin Cao, Xin Lv, Yankai Lin, Zhiyuan Liu, Maosong Sun, and Juanzi Li. 2018. OpenKE: An Open Toolkit for Knowledge Embedding. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing: System Demonstrations. Association for Computational Linguistics, Brussels, Belgium, 139\u2013144. http://aclweb.org/anthology/D18-2024",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://aclweb.org/anthology/D18-2024",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Openke: An open toolkit for knowledge embedding"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85067839536",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "139",
+                                "@last": "144"
+                            }},
+                            "ref-text": "Association for Computational Linguistics, Brussels, Belgium",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Han",
+                                    "ce:indexed-name": "Han X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cao",
+                                    "ce:indexed-name": "Cao S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lv",
+                                    "ce:indexed-name": "Lv X."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lin",
+                                    "ce:indexed-name": "Lin Y."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Z."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun M."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing: System Demonstrations"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Guoliang Ji, Shizhu He, Liheng Xu, Kang Liu, and Jun Zhao. 2015. Knowledge Graph Embedding via Dynamic Mapping Matrix. In Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing of the Asian Federation of Natural Language Processing. Association for Computational Linguistics, Beijing, China, 687\u2013696. https://doi.org/10.3115/v1/P15- 1067",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.3115/v1/P15-1067",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Knowledge graph embedding via dynamic mapping matrix"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84943792156",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "687",
+                                "@last": "696"
+                            }},
+                            "ref-text": "Association for Computational Linguistics, Beijing, China",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ji",
+                                    "ce:indexed-name": "Ji G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu K."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing of the Asian Federation of Natural Language Processing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Rong Jin and Luo Si. 2004. A Study of Methods for Normalizing User Ratings in Collaborative Filtering. In Proceedings of the 27th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR\u201904). ACM, New York, NY, USA, 568\u2013569. https://doi.org/10.1145/1008992.1009124",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/1008992.1009124",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "A study of methods for normalizing user ratings in collaborative filtering"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "8644235233",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "568",
+                                "@last": "569"
+                            }},
+                            "ref-text": "ACM, New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Si",
+                                    "ce:indexed-name": "Si L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 27th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR\u201904)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Rong Jin, Luo Si, ChengXiang Zhai, and Jamie Callan. 2003. Collaborative Filtering with Decoupled Models for Preferences and Ratings. In Proceedings of the Twelfth International Conference on Information and Knowledge Management (CIKM\u201903). ACM, New York, NY, USA, 309\u2013316. https://doi.org/10.1145/956863.956922",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1145/956863.956922",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Collaborative filtering with decoupled models for preferences and ratings"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "15544377080",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "309",
+                                "@last": "316"
+                            }},
+                            "ref-text": "ACM, New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Si",
+                                    "ce:indexed-name": "Si L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhai",
+                                    "ce:indexed-name": "Zhai C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Callan",
+                                    "ce:indexed-name": "Callan J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Twelfth International Conference on Information and Knowledge Management (CIKM\u201903)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Yehuda Koren, Robert Bell, and Chris Volinsky. 2009. Matrix Factorization Techniques for Recommender Systems. Computer 42, 8 (Aug. 2009), 30\u201337. https://doi.org/10.1109/MC.2009.263",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1109/MC.2009.263",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Matrix factorization techniques for recommender systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85008044987",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "42",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "30",
+                                    "@last": "37"
+                                }
+                            },
+                            "ref-text": "Aug. 2009",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koren",
+                                    "ce:indexed-name": "Koren Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bell",
+                                    "ce:indexed-name": "Bell R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Volinsky",
+                                    "ce:indexed-name": "Volinsky C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Neal Lathia, Stephen Hailes, and Licia Capra. 2008. Trust-Based Collaborative Filtering. In Trust Management II, Yücel Karabulut, John Mitchell, Peter Herrmann, and Christian Damsgaard Jensen (Eds.). Springer US, Boston, MA, 119\u2013134.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Trust-based collaborative filtering"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "44149114235",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "119",
+                                "@last": "134"
+                            }},
+                            "ref-text": "Yücel Karabulut, John Mitchell, Peter Herrmann, and Christian Damsgaard Jensen (Eds.). Springer US, Boston, MA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lathia",
+                                    "ce:indexed-name": "Lathia N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hailes",
+                                    "ce:indexed-name": "Hailes S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Capra",
+                                    "ce:indexed-name": "Capra L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Trust Management II"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Yankai Lin, Zhiyuan Liu, Maosong Sun, Yang Liu, and Xuan Zhu. 2015. Learning Entity and Relation Embeddings for Knowledge Graph Completion. In Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence (AAAI\u201915). AAAI Press, Austin, Texas, 2181\u20132187. http://dl.acm.org/citation.cfm?id=2886521. 2886624",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://dl.acm.org/citation.cfm?id=2886521.2886624",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Learning entity and relation embeddings for knowledge graph completion"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84959863917",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2181",
+                                "@last": "2187"
+                            }},
+                            "ref-text": "AAAI Press, Austin, Texas",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lin",
+                                    "ce:indexed-name": "Lin Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Y."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence (AAAI\u201915)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Enrico Palumbo, Giuseppe Rizzo, Raphaël Troncy, Elena Baralis, Michele Osella, and Enrico Ferro. 2018. Translational Models for Item Recommendation. In The Semantic Web: ESWC 2018 Satellite Events, Aldo Gangemi, Anna Lisa Gentile, Andrea Giovanni Nuzzolese, Sebastian Rudolph, Maria Maleshkova, Heiko Paul-heim, Jeff Z Pan, and Mehwish Alam (Eds.). Springer International Publishing, Cham, 478\u2013490.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Translational models for item recommendation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85051670688",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "478",
+                                "@last": "490"
+                            }},
+                            "ref-text": "Aldo Gangemi, Anna Lisa Gentile, Andrea Giovanni Nuzzolese, Sebastian Rudolph, Maria Maleshkova, Heiko Paul-heim, Jeff Z Pan, and Mehwish Alam (Eds.). Springer International Publishing, Cham",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Palumbo",
+                                    "ce:indexed-name": "Palumbo E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rizzo",
+                                    "ce:indexed-name": "Rizzo G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Troncy",
+                                    "ce:indexed-name": "Troncy R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Baralis",
+                                    "ce:indexed-name": "Baralis E."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Osella",
+                                    "ce:indexed-name": "Osella M."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ferro",
+                                    "ce:indexed-name": "Ferro E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "The Semantic Web: ESWC 2018 Satellite Events"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Francesco Ricci, Lior Rokach, Bracha Shapira, and Paul B. Kantor. 2010. Recommender Systems Handbook (1st ed.). Springer-Verlag, Berlin, Heidelberg.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77955202099",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "1st ed.). Springer-Verlag, Berlin, Heidelberg",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ricci",
+                                    "ce:indexed-name": "Ricci F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rokach",
+                                    "ce:indexed-name": "Rokach L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shapira",
+                                    "ce:indexed-name": "Shapira B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kantor",
+                                    "ce:indexed-name": "Kantor P.B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Recommender Systems Handbook"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Jonathon Shlens. 2014. A Tutorial on Principal Component Analysis. CoRR abs/1404.1100 (2014). arXiv:1404.1100 http://arxiv.org/abs/1404.1100",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://arxiv.org/abs/1404.1100",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "A tutorial on principal component analysis"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1404.1100",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84920169714",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "abs/1404.1100 2014",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "ce:surname": "Shlens",
+                                "ce:indexed-name": "Shlens J."
+                            }]},
+                            "ref-sourcetitle": "CoRR"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Théo Trouillon, Johannes Welbl, Sebastian Riedel, Éric Gaussier, and Guillaume Bouchard. 2016. Complex Embeddings for Simple Link Prediction. In Proceedings of the 33rd International Conference on International Conference on Machine Learning - Volume 48 (ICML\u201916). JMLR.org, New York, NY, USA, 2071\u20132080. http://dl.acm.org/citation.cfm?id=3045390.3045609",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://dl.acm.org/citation.cfm?id=3045390.3045609",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Complex embeddings for simple link prediction"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84999054170",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2071",
+                                "@last": "2080"
+                            }},
+                            "ref-text": "JMLR.org, New York, NY, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Trouillon",
+                                    "ce:indexed-name": "Trouillon T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Welbl",
+                                    "ce:indexed-name": "Welbl J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Riedel",
+                                    "ce:indexed-name": "Riedel S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "É.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gaussier",
+                                    "ce:indexed-name": "Gaussier E."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bouchard",
+                                    "ce:indexed-name": "Bouchard G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 33rd International Conference on International Conference on Machine Learning - Volume 48 (ICML\u201916)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Q. Wang, Z. Mao, B. Wang, and L. Guo. 2017. Knowledge Graph Embedding: A Survey of Approaches and Applications. IEEE Transactions on Knowledge and Data Engineering 29, 12 (Dec 2017), 2724\u20132743. https://doi.org/10.1109/TKDE.2017.2754499",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1109/TKDE.2017.2754499",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Knowledge graph embedding: A survey of approaches and applications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85030627463",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "29",
+                                    "@issue": "12"
+                                },
+                                "pagerange": {
+                                    "@first": "2724",
+                                    "@last": "2743"
+                                }
+                            },
+                            "ref-text": "Dec 2017",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Q."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mao",
+                                    "ce:indexed-name": "Mao Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Knowledge and Data Engineering"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Xin Wang, Congfu Xu, Yunhui Guo, and Hui Qian. 2016. Constrained Preference Embedding for Item Recommendation. In Proceedings of the Twenty-Fifth International Joint Conference on Artificial Intelligence (IJCAI\u201916). AAAI Press, New York, New York, USA, 2139\u20132145. http://dl.acm.org/citation.cfm?id=3060832.3060920",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://dl.acm.org/citation.cfm?id=3060832.3060920",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Constrained preference embedding for item recommendation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85006154220",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2139",
+                                "@last": "2145"
+                            }},
+                            "ref-text": "AAAI Press, New York, New York, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qian",
+                                    "ce:indexed-name": "Qian H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Twenty-Fifth International Joint Conference on Artificial Intelligence (IJCAI\u201916)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Zhen Wang, Jianwen Zhang, Jianlin Feng, and Zheng Chen. 2014. Knowledge Graph Embedding by Translating on Hyperplanes. In Proceedings of the Twenty-Eighth AAAI Conference on Artificial Intelligence (AAAI\u201914). AAAI Press, Quebec City, Canada, 1112\u20131119. http://dl.acm.org/citation.cfm?id=2893873.2894046",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://dl.acm.org/citation.cfm?id=2893873.2894046",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Knowledge graph embedding by translating on hyperplanes"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84908213178",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1112",
+                                "@last": "1119"
+                            }},
+                            "ref-text": "AAAI Press, Quebec City, Canada",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Feng",
+                                    "ce:indexed-name": "Feng J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Twenty-Eighth AAAI Conference on Artificial Intelligence (AAAI\u201914)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Yongfeng Zhang, Qingyao Ai, Xu Chen, and Pengfei Wang. 2018. Learning over Knowledge-Base Embeddings for Recommendation. CoRR abs/1803.06540 (2018). arXiv:1803.06540 http://arxiv.org/abs/1803.06540",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://arxiv.org/abs/1803.06540",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Learning over knowledge-base embeddings for recommendation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1803.06540",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85061365237",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "abs/1803.06540 2018",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ai",
+                                    "ce:indexed-name": "Ai Q."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen X."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "CoRR"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Hayama",
+            "@id": "60021523",
+            "affilname": "The Graduate University for Advanced Studies",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021523",
+            "affiliation-country": "Japan"
+        }
+    ],
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85074795386",
+        "dc:description": "Ratings, which are explicit feedback, are the most popular form that is often used in Recommender System (RSs). However, using the actual ratings from neighbors to predict ratings of target user toward target item often leads to low accuracy prediction due to the improper rating range problem. Rating conversion methods are proposed to solve this problem over the past few years. To propose rating conversion method, each user\u2019s preference or rating pattern is needed. Some studies adopt the idea from translation-based embedding model and represent user\u2019s preference in graph form. Although some studies represent users, items, and relations in embedding vector form, their representation may be improper and inaccurate if the rating pattern of each user is not in the same range. These vectors still suffer from the improper rating range as well. In this work, we propose a translation-based embedding model with rating conversion in RSs. We aim to solve the improper rating range problem in translation-based embedding model. Our challenges are 1) representing the relation (rating) between a pair of user and item in vector form, instead of scalar form and 2) dealing with rating conversion of user\u2019s rating in vector form. The FilmTrust and MovieLens dataset are used in experiments comparing the proposed method with the existing methods. The evaluation showed that the proposed rating conversion method provides better accuracy results in term of both rating prediction and ranking recommendation.",
+        "prism:coverDate": "2019-10-14",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85074795386",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Phannakan",
+            "preferred-name": {
+                "ce:given-name": "Phannakan",
+                "ce:initials": "P.",
+                "ce:surname": "Tengkiattrakul",
+                "ce:indexed-name": "Tengkiattrakul P."
+            },
+            "@seq": "1",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60021523",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021523"
+            },
+            "ce:surname": "Tengkiattrakul",
+            "@auid": "57193563271",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57193563271",
+            "ce:indexed-name": "Tengkiattrakul P."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85074795386"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85074795386&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85074795386&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781450369343",
+        "prism:publicationName": "Proceedings - 2019 IEEE/WIC/ACM International Conference on Web Intelligence, WI 2019",
+        "source-id": "21100935060",
+        "citedby-count": "2",
+        "subtype": "cp",
+        "prism:pageRange": "217-224",
+        "dc:title": "Translation-based embedding model for rating conversion in recommender systems",
+        "prism:endingPage": "224",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1145/3350546.3352521",
+        "prism:startingPage": "217",
+        "publishercopyright": "© 2019 Association for Computing Machinery.",
+        "dc:identifier": "SCOPUS_ID:85074795386",
+        "dc:publisher": "Association for Computing Machinery, Incacmhelp@acm.org"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Accuracy prediction",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Conversion methods",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Explicit feedback",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Movielens",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Rating pattern",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Collaborative Filtering"
+        },
+        {
+            "@_fa": "true",
+            "$": "Rating Conversion"
+        },
+        {
+            "@_fa": "true",
+            "$": "Recommender Systems"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Artificial Intelligence",
+            "@code": "1702",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Networks and Communications",
+            "@code": "1705",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Phannakan",
+            "preferred-name": {
+                "ce:given-name": "Phannakan",
+                "ce:initials": "P.",
+                "ce:surname": "Tengkiattrakul",
+                "ce:indexed-name": "Tengkiattrakul P."
+            },
+            "@seq": "1",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60021523",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021523"
+            },
+            "ce:surname": "Tengkiattrakul",
+            "@auid": "57193563271",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57193563271",
+            "ce:indexed-name": "Tengkiattrakul P."
+        },
+        {
+            "ce:given-name": "Saranya",
+            "preferred-name": {
+                "ce:given-name": "Saranya",
+                "ce:initials": "S.",
+                "ce:surname": "Maneeroj",
+                "ce:indexed-name": "Maneeroj S."
+            },
+            "@seq": "2",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Maneeroj",
+            "@auid": "24081010600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/24081010600",
+            "ce:indexed-name": "Maneeroj S."
+        },
+        {
+            "ce:given-name": "Atsuhiro",
+            "preferred-name": {
+                "ce:given-name": "Atsuhiro",
+                "ce:initials": "A.",
+                "ce:surname": "Takasu",
+                "ce:indexed-name": "Takasu A."
+            },
+            "@seq": "3",
+            "ce:initials": "A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60021523",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021523"
+            },
+            "ce:surname": "Takasu",
+            "@auid": "57195144555",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57195144555",
+            "ce:indexed-name": "Takasu A."
+        }
+    ]}
+}}

@@ -1,0 +1,916 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "22",
+                "@timestamp": "2022-03-22T19:05:23.000023-04:00",
+                "@year": "2022",
+                "@month": "03"
+            },
+            "ait:date-sort": {
+                "@day": "09",
+                "@year": "2019",
+                "@month": "12"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": {"xocs:funding-agency-matched-string": "Freewill Solutions Company Limited"},
+            "xocs:funding-addon-generated-timestamp": "2021-06-02T12:19:36.276Z",
+            "xocs:funding-text": "The authors would like to thank Freewill Solutions Company Limited for its permission to use information and historical problem reports and to conduct experiments. Special thanks go to the customer care service for providing information and to the iFISd team for helping with the data labeling task and giving suggestion and support throughout the research.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "@afid": "60028190",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Department of Computer Engineering"},
+                            {"$": "Faculty of Engineering"},
+                            {"$": "Chulalongkorn University"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60028190",
+                            "@dptid": "113891981"
+                        },
+                        "ce:source-text": "Department of Computer Engineering Faculty of Engineering, Chulalongkorn University Bangkok, Thailand",
+                        "@dptid": "113891981"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Phatcharaporn",
+                            "preferred-name": {
+                                "ce:given-name": "Phatcharaporn",
+                                "ce:initials": "P.",
+                                "ce:surname": "Kaewnoo",
+                                "ce:indexed-name": "Kaewnoo P."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "P.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Kaewnoo",
+                            "@auid": "57215093125",
+                            "ce:indexed-name": "Kaewnoo P."
+                        },
+                        {
+                            "ce:given-name": "Twittie",
+                            "preferred-name": {
+                                "ce:given-name": "Twittie",
+                                "ce:initials": "T.",
+                                "ce:surname": "Senivongse",
+                                "ce:indexed-name": "Senivongse T."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "T.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Senivongse",
+                            "@auid": "8863294400",
+                            "ce:indexed-name": "Senivongse T."
+                        }
+                    ]
+                },
+                "citation-title": "Identification of software problem report types using multiclass classification",
+                "abstracts": "© 2019 Association for Computing Machinery.Users often experience failures, have problems, or have further requests with regard to the software they use. Software companies provide customer care service or customer support to handle such issues or problems which sometimes can be resolved right away and sometimes have to be forwarded to responsible persons. Efficiency of problem handling is very important to software companies to maintain customer satisfaction. This paper reports a case of a software company in Thailand whose derivatives trading software is used by a large number of broker companies and their customers. The software company has experienced problems where the reported software problems are classified incorrectly and hence are directed to the wrong persons and have to be reclassified. Assigning the problem reports to the responsible persons in a timely and correct manner is crucial especially for the nature of the trading software. This paper presents a multiclass classification method to classify 11 problem report types that are found in this trading software. Machine learning algorithms that are applied include Multinomial Naïve Bayes, Linear SVC, Random Forest, and Logistic Regression, and consider both lexical features and metadata of the problem reports. In an experiment, Linear SVC performed best, having the F1 score of 91.69% and accuracy of 91.79% when using unigram and trigram features of the problem report text which is written in Thai and English. The paper presents a support tool for classifying new problem reports and providing a dashboard of the problems found in this derivatives trading software for the software team to manage its maintenance.",
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Multiclass Classification",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Problem Report",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Text Classification",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://portal.acm.org/",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "ACM International Conference Proceeding Series",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"pagerange": {
+                        "@first": "104",
+                        "@last": "109"
+                    }},
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781450376495",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "3rd International Conference on Software and e-Business, ICSEB 2019",
+                            "confsponsors": {
+                                "confsponsor": "Waseda University",
+                                "@complete": "n"
+                            },
+                            "confnumber": "3",
+                            "confseriestitle": "International Conference on Software and e-Business",
+                            "conflocation": {
+                                "venue": "Waseda University",
+                                "@country": "jpn",
+                                "city": "Tokyo"
+                            },
+                            "confcode": "157475",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "11",
+                                    "@year": "2019",
+                                    "@month": "12"
+                                },
+                                "startdate": {
+                                    "@day": "09",
+                                    "@year": "2019",
+                                    "@month": "12"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "ACM International Conference Proceeding Series",
+                    "publicationdate": {
+                        "month": "12",
+                        "year": "2019",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "9 December 2019"
+                        },
+                        "day": "09"
+                    },
+                    "sourcetitle-abbrev": "ACM Int. Conf. Proc. Ser.",
+                    "@country": "usa",
+                    "issuetitle": "ICSEB 2019 - 2019 the 3rd International Conference on Software and e-Business",
+                    "publicationyear": {"@first": "2019"},
+                    "publisher": {"publishername": "Association for Computing Machinery"},
+                    "@srcid": "11600154611"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "704.2",
+                                "classification-description": "Electric Equipment"
+                            },
+                            {
+                                "classification-code": "716.1",
+                                "classification-description": "Information Theory and Signal Processing"
+                            },
+                            {
+                                "classification-code": "723.5",
+                                "classification-description": "Computer Applications"
+                            },
+                            {
+                                "classification-code": "903.1",
+                                "classification-description": "Information Sources and Analysis"
+                            },
+                            {
+                                "classification-code": "961",
+                                "classification-description": "Systems Science"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1712"},
+                            {"$": "1709"},
+                            {"$": "1707"},
+                            {"$": "1705"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "COMP"
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "The authors would like to thank Freewill Solutions Company Limited for its permission to use information and historical problem reports and to conduct experiments. Special thanks go to the customer care service for providing information and to the iFISd team for helping with the data labeling task and giving suggestion and support throughout the research.",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": {
+                        "grant-agency": {
+                            "@iso-code": "usa",
+                            "$": "3M"
+                        },
+                        "grant-agency-id": "100004343"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2022 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "24",
+                    "@timestamp": "BST 12:30:07",
+                    "@year": "2022",
+                    "@month": "01"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "631039337",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "924400213",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20200908227367",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20200670981",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85079901860",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85079901860",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1145/3374549.3374570"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "11",
+                "reference": [
+                    {
+                        "ref-fulltext": "Freewill Solutions Company Limited. [Online]. Available from: http://www.freewillsolutions.com/. Last access: September 8, 2019.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-website": {
+                                "websitename": "Freewill Solutions Company Limited",
+                                "ce:e-address": {
+                                    "$": "http://www.freewillsolutions.com/",
+                                    "@type": "email"
+                                }
+                            },
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85079880158",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Online.: Last access: September 8, 2019"
+                        },
+                        "ce:source-text": "Freewill Solutions Company Limited. [Online]. Available from: http://www.freewillsolutions.com/. Last access: September 8, 2019."
+                    },
+                    {
+                        "ref-fulltext": "Xia, X., Lo D., Qiu, W., Wang, X., and Zhou, B. 2014. Automated configuration bug report prediction using text mining. In Proceedings of 2014 IEEE 38th Annual International Computers, Software and Applications Conference (Vasteras, Sweden, July 21-25, 2014). COMPSAC '14. IEEE, New York, NY, 107-116. DOI= 10.1109/COMPSAC.2014.17.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Automated configuration bug report prediction using text mining"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/COMPSAC.2014.17",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "84928623956",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "107",
+                                "@last": "116"
+                            }},
+                            "ref-text": "Vasteras, Sweden, July 21-25, 2014). COMPSAC 14. IEEE, New York, NY",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xia",
+                                    "ce:indexed-name": "Xia X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lo",
+                                    "ce:indexed-name": "Lo D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qiu",
+                                    "ce:indexed-name": "Qiu W."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang X."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of 2014 IEEE 38th Annual International Computers, Software and Applications Conference"
+                        },
+                        "ce:source-text": "Xia, X., Lo D., Qiu, W., Wang, X., and Zhou, B. 2014. Automated configuration bug report prediction using text mining. In Proceedings of 2014 IEEE 38th Annual International Computers, Software and Applications Conference (Vasteras, Sweden, July 21-25, 2014). COMPSAC '14. IEEE, New York, NY, 107-116. DOI= 10.1109/COMPSAC.2014.17."
+                    },
+                    {
+                        "ref-fulltext": "Goseva-Popstojanova, K. and Tyo, J. 2018. Identification of security related bug reports via text mining using supervised and unsupervised classification. In Proceedings of 2018 IEEE International Conference on Software Quality, Reliability and Security (Lisbon, Portugal, July 16-20, 2018). QRS '18. IEEE, New York, NY, 344-355. DOI= 10.1109/QRS.2018.00047.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Identification of security related bug reports via text mining using supervised and unsupervised classification"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/QRS.2018.00047",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85052281500",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "344",
+                                "@last": "355"
+                            }},
+                            "ref-text": "Lisbon, Portugal, July 16-20, 2018). QRS 18. IEEE, New York, NY",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Goseva-Popstojanova",
+                                    "ce:indexed-name": "Goseva-Popstojanova K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tyo",
+                                    "ce:indexed-name": "Tyo J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of 2018 IEEE International Conference on Software Quality, Reliability and Security"
+                        },
+                        "ce:source-text": "Goseva-Popstojanova, K. and Tyo, J. 2018. Identification of security related bug reports via text mining using supervised and unsupervised classification. In Proceedings of 2018 IEEE International Conference on Software Quality, Reliability and Security (Lisbon, Portugal, July 16-20, 2018). QRS '18. IEEE, New York, NY, 344-355. DOI= 10.1109/QRS.2018.00047."
+                    },
+                    {
+                        "ref-fulltext": "Terdchanakul, P., Hata, H., Phannachitta, P., and Matsumoto, K. 2017. Bug or not? Bug report classification using n-gram IDF. In Proceedings of 2017 IEEE International Conference on Software Maintenance and Evolution (Shanghai, China, September 17-22, 2017). ICSME '14. IEEE, New York, NY, 534-538. DOI=10.1109/ICSME.2017.14.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Bug or not? Bug report classification using n-gram IDF"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/ICSME.2017.14",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85040599854",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "534",
+                                "@last": "538"
+                            }},
+                            "ref-text": "Shanghai, China, September 17-22, 2017). ICSME 14. IEEE, New York, NY",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Terdchanakul",
+                                    "ce:indexed-name": "Terdchanakul P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hata",
+                                    "ce:indexed-name": "Hata H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Phannachitta",
+                                    "ce:indexed-name": "Phannachitta P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Matsumoto",
+                                    "ce:indexed-name": "Matsumoto K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of 2017 IEEE International Conference on Software Maintenance and Evolution"
+                        },
+                        "ce:source-text": "Terdchanakul, P., Hata, H., Phannachitta, P., and Matsumoto, K. 2017. Bug or not? Bug report classification using n-gram IDF. In Proceedings of 2017 IEEE International Conference on Software Maintenance and Evolution (Shanghai, China, September 17-22, 2017). ICSME '14. IEEE, New York, NY, 534-538. DOI=10.1109/ICSME.2017.14."
+                    },
+                    {
+                        "ref-fulltext": "Zhou, Y., Tong, Y., Gu, R., and Gall, H. 2014. Combining text mining and data mining for bug report classification. In Proceedings of 2014 IEEE International Conference on Software Maintenance and Evolution (Victoria, BC, Canada, September 29 - October 3, 2014). ICSME '14. IEEE, New York, NY, 311-320. DOI=10.1109/ICSME.2014.53.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Combining text mining and data mining for bug report classification"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/ICSME.2014.53",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "84931031612",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "311",
+                                "@last": "320"
+                            }},
+                            "ref-text": "Victoria, BC, Canada, September 29 - October 3, 2014). ICSME 14. IEEE, New York, NY",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tong",
+                                    "ce:indexed-name": "Tong Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gu",
+                                    "ce:indexed-name": "Gu R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gall",
+                                    "ce:indexed-name": "Gall H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of 2014 IEEE International Conference on Software Maintenance and Evolution"
+                        },
+                        "ce:source-text": "Zhou, Y., Tong, Y., Gu, R., and Gall, H. 2014. Combining text mining and data mining for bug report classification. In Proceedings of 2014 IEEE International Conference on Software Maintenance and Evolution (Victoria, BC, Canada, September 29 - October 3, 2014). ICSME '14. IEEE, New York, NY, 311-320. DOI=10.1109/ICSME.2014.53."
+                    },
+                    {
+                        "ref-fulltext": "Nigam, A., Nigam, B., Bhaisare, C., and Arya, N. 2012. Classifying the bugs using multi-class semi supervised support vector machine. In Proceedings of the International Conference on Pattern Recognition, Informatics and Medical Engineering (Salem, Tamilnadu, India, March 21-23, 2012). PRIME '12. IEEE, New York, NY, 393-397. DOI=10.1109/ICPRIME.2012.6208378.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Classifying the bugs using multi-class semi supervised support vector machine"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/ICPRIME.2012.6208378",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "84863924329",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "393",
+                                "@last": "397"
+                            }},
+                            "ref-text": "Salem, Tamilnadu, India, March 21-23, 2012). PRIME 12. IEEE, New York, NY",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nigam",
+                                    "ce:indexed-name": "Nigam A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nigam",
+                                    "ce:indexed-name": "Nigam B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bhaisare",
+                                    "ce:indexed-name": "Bhaisare C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Arya",
+                                    "ce:indexed-name": "Arya N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the International Conference on Pattern Recognition, Informatics and Medical Engineering"
+                        },
+                        "ce:source-text": "Nigam, A., Nigam, B., Bhaisare, C., and Arya, N. 2012. Classifying the bugs using multi-class semi supervised support vector machine. In Proceedings of the International Conference on Pattern Recognition, Informatics and Medical Engineering (Salem, Tamilnadu, India, March 21-23, 2012). PRIME '12. IEEE, New York, NY, 393-397. DOI=10.1109/ICPRIME.2012.6208378."
+                    },
+                    {
+                        "ref-fulltext": "PyThaiNLP [Online]. Available: https://github.com/PyThaiNLP/pythainlp. Last access: September 8, 2019.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-website": {
+                                "websitename": "PyThaiNLP",
+                                "ce:e-address": {
+                                    "$": "https://github.com/PyThaiNLP/pythainlp",
+                                    "@type": "email"
+                                }
+                            },
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85079838060",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Online. Last access: September 8, 2019"
+                        },
+                        "ce:source-text": "PyThaiNLP [Online]. Available: https://github.com/PyThaiNLP/pythainlp. Last access: September 8, 2019."
+                    },
+                    {
+                        "ref-fulltext": "Scikit-learn, https://scikit-learn.org/stable/. Last access: September 8, 2019.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-website": {
+                                "websitename": "Scikit-learn",
+                                "ce:e-address": {
+                                    "$": "https://scikit-learn.org/stable/",
+                                    "@type": "email"
+                                }
+                            },
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85079899545",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Last access: September 8, 2019"
+                        },
+                        "ce:source-text": "Scikit-learn, https://scikit-learn.org/stable/. Last access: September 8, 2019."
+                    },
+                    {
+                        "ref-fulltext": "Müller, A. C. and Guido, S. Introduction to Machine Learning with Python. 2016. O'Reilly, Sebastopol, CA.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85032855408",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "O'Reilly, Sebastopol, CA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Müller",
+                                    "ce:indexed-name": "Muller A.C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guido",
+                                    "ce:indexed-name": "Guido S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Introduction to Machine Learning with Python"
+                        },
+                        "ce:source-text": "Müller, A. C. and Guido, S. Introduction to Machine Learning with Python. 2016. O'Reilly, Sebastopol, CA."
+                    },
+                    {
+                        "ref-fulltext": "Chawla, N.V., Bowyer, K. W., Hall, L. O., and Kegelmeyer, W. P. 2002. SMOTE: synthetic minority over-sampling technique. Journal of Artificial Intelligence Research, 16 (June 2002), 321-357. DOI=https://doi.org/10.1613/jair.953",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1613/jair.953",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "SMOTE: Synthetic minority over-sampling technique"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0346586663",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "16"},
+                                "pagerange": {
+                                    "@first": "321",
+                                    "@last": "357"
+                                }
+                            },
+                            "ref-text": "June 2002",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chawla",
+                                    "ce:indexed-name": "Chawla N.V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bowyer",
+                                    "ce:indexed-name": "Bowyer K.W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hall",
+                                    "ce:indexed-name": "Hall L.O."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kegelmeyer",
+                                    "ce:indexed-name": "Kegelmeyer W.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Artificial Intelligence Research"
+                        },
+                        "ce:source-text": "Chawla, N.V., Bowyer, K. W., Hall, L. O., and Kegelmeyer, W. P. 2002. SMOTE: synthetic minority over-sampling technique. Journal of Artificial Intelligence Research, 16 (June 2002), 321-357. DOI=https://doi.org/10.1613/jair.953"
+                    },
+                    {
+                        "ref-fulltext": "Matplotlib [Online]. Available: https://matplotlib.org/. Last access: September 8, 2019.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-website": {
+                                "websitename": "Matplotlib",
+                                "ce:e-address": {
+                                    "$": "https://matplotlib.org/",
+                                    "@type": "email"
+                                }
+                            },
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85079897857",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Online. Last access: September 8, 2019"
+                        },
+                        "ce:source-text": "Matplotlib [Online]. Available: https://matplotlib.org/. Last access: September 8, 2019."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Bangkok",
+        "@id": "60028190",
+        "affilname": "Chulalongkorn University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+        "affiliation-country": "Thailand"
+    },
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85079901860",
+        "dc:description": "Users often experience failures, have problems, or have further requests with regard to the software they use. Software companies provide customer care service or customer support to handle such issues or problems which sometimes can be resolved right away and sometimes have to be forwarded to responsible persons. Efficiency of problem handling is very important to software companies to maintain customer satisfaction. This paper reports a case of a software company in Thailand whose derivatives trading software is used by a large number of broker companies and their customers. The software company has experienced problems where the reported software problems are classified incorrectly and hence are directed to the wrong persons and have to be reclassified. Assigning the problem reports to the responsible persons in a timely and correct manner is crucial especially for the nature of the trading software. This paper presents a multiclass classification method to classify 11 problem report types that are found in this trading software. Machine learning algorithms that are applied include Multinomial Naïve Bayes, Linear SVC, Random Forest, and Logistic Regression, and consider both lexical features and metadata of the problem reports. In an experiment, Linear SVC performed best, having the F1 score of 91.69% and accuracy of 91.79% when using unigram and trigram features of the problem report text which is written in Thai and English. The paper presents a support tool for classifying new problem reports and providing a dashboard of the problems found in this derivatives trading software for the software team to manage its maintenance.",
+        "prism:coverDate": "2019-12-09",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85079901860",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Phatcharaporn",
+            "preferred-name": {
+                "ce:given-name": "Phatcharaporn",
+                "ce:initials": "P.",
+                "ce:surname": "Kaewnoo",
+                "ce:indexed-name": "Kaewnoo P."
+            },
+            "@seq": "1",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Kaewnoo",
+            "@auid": "57215093125",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57215093125",
+            "ce:indexed-name": "Kaewnoo P."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85079901860"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85079901860&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85079901860&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781450376495",
+        "prism:publicationName": "ACM International Conference Proceeding Series",
+        "source-id": "11600154611",
+        "citedby-count": "1",
+        "subtype": "cp",
+        "prism:pageRange": "104-109",
+        "dc:title": "Identification of software problem report types using multiclass classification",
+        "prism:endingPage": "109",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1145/3374549.3374570",
+        "prism:startingPage": "104",
+        "publishercopyright": "© 2019 Association for Computing Machinery.",
+        "dc:identifier": "SCOPUS_ID:85079901860",
+        "dc:publisher": "Association for Computing Machinery"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Customer support",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Multi-class classification",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Multiclass classification methods",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Problem Report",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Responsible person",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Software company",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Software problems",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Text classification",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Multiclass Classification"
+        },
+        {
+            "@_fa": "true",
+            "$": "Problem Report"
+        },
+        {
+            "@_fa": "true",
+            "$": "Text Classification"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Software",
+            "@code": "1712",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Human-Computer Interaction",
+            "@code": "1709",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Vision and Pattern Recognition",
+            "@code": "1707",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Networks and Communications",
+            "@code": "1705",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Phatcharaporn",
+            "preferred-name": {
+                "ce:given-name": "Phatcharaporn",
+                "ce:initials": "P.",
+                "ce:surname": "Kaewnoo",
+                "ce:indexed-name": "Kaewnoo P."
+            },
+            "@seq": "1",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Kaewnoo",
+            "@auid": "57215093125",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57215093125",
+            "ce:indexed-name": "Kaewnoo P."
+        },
+        {
+            "ce:given-name": "Twittie",
+            "preferred-name": {
+                "ce:given-name": "Twittie",
+                "ce:initials": "T.",
+                "ce:surname": "Senivongse",
+                "ce:indexed-name": "Senivongse T."
+            },
+            "@seq": "2",
+            "ce:initials": "T.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Senivongse",
+            "@auid": "8863294400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/8863294400",
+            "ce:indexed-name": "Senivongse T."
+        }
+    ]}
+}}

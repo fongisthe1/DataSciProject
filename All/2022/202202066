@@ -1,0 +1,2691 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "07",
+                "@timestamp": "2023-03-07T04:26:23.000023-05:00",
+                "@year": "2023",
+                "@month": "03"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2022",
+                "@month": "06"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "Digital Economy Promotion Agency Thailand",
+                    "xocs:funding-id": "MP-62-003"
+                },
+                {"xocs:funding-agency-matched-string": "National Economic and Social Development Council"},
+                {
+                    "xocs:funding-agency-matched-string": "Chulalongkorn university",
+                    "xocs:funding-agency-acronym": "CU",
+                    "xocs:funding-agency": "Chulalongkorn University",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002873",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Thailand Research Fund",
+                    "xocs:funding-agency-acronym": "TRF",
+                    "xocs:funding-agency": "Thailand Research Fund",
+                    "xocs:funding-id": "MRG6280175",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004396",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2022-06-15T02:58:39.687Z",
+            "xocs:funding-text": [
+                {"$": "This investigation is partially supported by the Digital Economy Promotion Agency Thailand under the infrastructure project code MP-62-003, Siam Commercial Bank, Special Task Force for Activating Research (STAR) Ratchadapiseksompoch Fund from Chulalongkorn university, and Research Grant for New Scholars from Thailand Research Fund (MRG6280175). We thank our data annotation partners Hope Data Annotations and Wang: Data Market; Office of the National Economic and Social Development Council (NESDC) through Phannisa Nirattiwongsakorn for providing government documents; Chonlapat Patanajirasit for training CRFCut sentence segmentation models on new datasets; Witchapong Daroontham for product review classification baselines; Pined Laohapiengsak for helping with sentence alignment using universal sentence encoder."},
+                {"$": "This investigation is partially supported by the Digital Economy Promotion Agency Thailand under the infrastructure project code MP-62-003, Siam Commercial Bank, Special Task Force for Activating Research (STAR) Ratchadapiseksompoch Fund from Chulalongkorn university, and Research Grant for New Scholars from Thailand Research Fund (MRG6280175). We thank our data annotation partners Hope Data Annotations and Wang: Data Market; Office of the National Economic and Social Development Council (NESDC) through Phannisa Nirattiwongsakorn for providing government documents; Chonlapat Patanajirasit for training CRFCut sentence segmentation models on new datasets; Witchapong Daroontham for product review classification baselines; Pined Laohapiengsak for helping with sentence alignment using universal sentence encoder."}
+            ],
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60110787",
+                            "@country": "tha",
+                            "city": "Rayong",
+                            "organization": [
+                                {"$": "School of Information Science and Technology"},
+                                {"$": "Vidyasirimedhi Institution of Science and Technology"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60110787",
+                                "@dptid": "120974885"
+                            },
+                            "@affiliation-instance-id": "2011021651-577c51b03d610b2c030263d4628307ab",
+                            "ce:source-text": "School of Information Science and Technology, Vidyasirimedhi Institution of Science and Technology, Rayong, Thailand",
+                            "@dptid": "120974885"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Lalita",
+                                "preferred-name": {
+                                    "ce:given-name": "Lalita",
+                                    "ce:initials": "L.",
+                                    "ce:surname": "Lowphansirikul",
+                                    "ce:indexed-name": "Lowphansirikul L."
+                                },
+                                "@author-instance-id": "2011021651-a53db168f7be55ad142203d72e911129",
+                                "@seq": "1",
+                                "ce:initials": "L.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Lowphansirikul",
+                                "@auid": "57219761467",
+                                "ce:indexed-name": "Lowphansirikul L."
+                            },
+                            {
+                                "ce:given-name": "Sarana",
+                                "preferred-name": {
+                                    "ce:given-name": "Sarana",
+                                    "ce:initials": "S.",
+                                    "ce:surname": "Nutanong",
+                                    "ce:indexed-name": "Nutanong S."
+                                },
+                                "@author-instance-id": "2011021651-656a696491b2992bc5b84042eed753ac",
+                                "@seq": "4",
+                                "ce:initials": "S.",
+                                "@date-locked": "2022-03-15T13:19:19.855",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Nutanong",
+                                "@auid": "8359418300",
+                                "ce:indexed-name": "Nutanong S."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "125315156",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": {"$": "PyThaiNLP"},
+                            "affiliation-id": {"@afid": "125315156"},
+                            "@affiliation-instance-id": "2011021651-71dbd3e50d19c7603d5b408c2b7844b0",
+                            "ce:source-text": "PyThaiNLP, Bangkok, Thailand"
+                        },
+                        "author": [{
+                            "ce:given-name": "Charin",
+                            "preferred-name": {
+                                "ce:given-name": "Charin",
+                                "ce:initials": "C.",
+                                "ce:surname": "Polpanumas",
+                                "ce:indexed-name": "Polpanumas C."
+                            },
+                            "@author-instance-id": "2011021651-5a136b17ded7c4152ca333e70bd72176",
+                            "@seq": "2",
+                            "ce:initials": "C.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Polpanumas",
+                            "@auid": "57194513330",
+                            "ce:indexed-name": "Polpanumas C."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Department of Linguistics"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "104425739"
+                            },
+                            "@affiliation-instance-id": "2011021651-e4abf724731c26f69c7f8d039f6b188d",
+                            "ce:source-text": "Department of Linguistics, Chulalongkorn University, Bangkok, Thailand",
+                            "@dptid": "104425739"
+                        },
+                        "author": [{
+                            "ce:given-name": "Attapol T.",
+                            "preferred-name": {
+                                "ce:given-name": "Attapol T.",
+                                "ce:initials": "A.T.",
+                                "ce:surname": "Rutherford",
+                                "ce:indexed-name": "Rutherford A.T."
+                            },
+                            "@author-instance-id": "2011021651-16536373fad30815854c62753c06a29c",
+                            "@seq": "3",
+                            "ce:initials": "A.T.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Rutherford",
+                            "@auid": "56315591200",
+                            "@orcid": "0000-0003-2270-6082",
+                            "ce:indexed-name": "Rutherford A.T."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "125957281",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": {"$": "Teaching and Learning Thai as a Foreign Language Group"},
+                            "affiliation-id": {"@afid": "125957281"},
+                            "@affiliation-instance-id": "2011021651-2cad1c180b73fb73b20448949b774706",
+                            "ce:source-text": "Teaching and Learning Thai as a Foreign Language Group, Bangkok, Thailand"
+                        },
+                        "author": [{
+                            "ce:given-name": "Attapol T.",
+                            "preferred-name": {
+                                "ce:given-name": "Attapol T.",
+                                "ce:initials": "A.T.",
+                                "ce:surname": "Rutherford",
+                                "ce:indexed-name": "Rutherford A.T."
+                            },
+                            "@author-instance-id": "2011021651-16536373fad30815854c62753c06a29c",
+                            "@seq": "3",
+                            "ce:initials": "A.T.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Rutherford",
+                            "@auid": "56315591200",
+                            "ce:indexed-name": "Rutherford A.T."
+                        }]
+                    }
+                ],
+                "citation-title": "A large English\u2013Thai parallel corpus from the web and machine-generated text",
+                "abstracts": "© 2021, The Author(s), under exclusive licence to Springer Nature B.V.The primary objective of our work is to build a large-scale English\u2013Thai dataset for training neural machine translation models. We construct scb-mt-en-th-2020, an English\u2013Thai machine translation dataset with over 1 million segment pairs, curated from various sources: news, Wikipedia articles, SMS messages, task-based dialogs, web-crawled data, government documents, and text artificially generated by a pretrained language model. We present the methods for gathering data, aligning texts, and removing preprocessing noise and translation errors automatically. We also train machine translation models based on this dataset to assess the quality of the corpus. Our models perform comparably to Google Translation API (as of May 2020) for Thai\u2013English and outperform Google when the Open Parallel Corpus (OPUS) is included in the training data for both Thai\u2013English and English\u2013Thai translation. The dataset is available for public use under CC-BY-SA 4.0 License. The pre-trained models and source code to reproduce our work are available under Apache-2.0 License.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": {"$": "Teaching and Learning Thai as a Foreign Language Group"},
+                        "ce:source-text": "Teaching and Learning Thai as a Foreign Language Group, Bangkok, Thailand"
+                    },
+                    "person": {
+                        "ce:given-name": "Attapol T.",
+                        "ce:initials": "A.T.",
+                        "ce:surname": "Rutherford",
+                        "ce:indexed-name": "Rutherford A.T."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Machine translation",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Parallel corpus",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Pretraining",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Thai language",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Transformer",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "Lang. Resour. Eval.",
+                    "website": {"ce:e-address": {
+                        "$": "www.springer.com/journal/10579",
+                        "@type": "email"
+                    }},
+                    "@country": "nld",
+                    "translated-sourcetitle": {
+                        "$": "Language Resources and Evaluation",
+                        "@xml:lang": "eng"
+                    },
+                    "issn": [
+                        {
+                            "$": "15728412",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "1574020X",
+                            "@type": "print"
+                        }
+                    ],
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "56",
+                            "@issue": "2"
+                        },
+                        "pagerange": {
+                            "@first": "477",
+                            "@last": "499"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2022"},
+                    "publisher": {"publishername": "Springer Science and Business Media B.V."},
+                    "sourcetitle": "Language Resources and Evaluation",
+                    "@srcid": "145663",
+                    "publicationdate": {
+                        "month": "06",
+                        "year": "2022",
+                        "date-text": "June 2022",
+                        "day": "01"
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1203"},
+                            {"$": "3304"},
+                            {"$": "3310"},
+                            {"$": "3309"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "ARTS"},
+                            {"$": "SOCI"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This investigation is partially supported by the Digital Economy Promotion Agency Thailand under the infrastructure project code MP-62-003, Siam Commercial Bank, Special Task Force for Activating Research (STAR) Ratchadapiseksompoch Fund from Chulalongkorn university, and Research Grant for New Scholars from Thailand Research Fund (MRG6280175). We thank our data annotation partners Hope Data Annotations and Wang: Data Market; Office of the National Economic and Social Development Council (NESDC) through Phannisa Nirattiwongsakorn for providing government documents; Chonlapat Patanajirasit for training CRFCut sentence segmentation models on new datasets; Witchapong Daroontham for product review classification baselines; Pined Laohapiengsak for helping with sentence alignment using universal sentence encoder.",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": [
+                        {
+                            "grant-acronym": "AHS",
+                            "grant-agency": {
+                                "@iso-code": "tha",
+                                "$": "Faculty of Allied Health Sciences, Chulalongkorn University"
+                            },
+                            "grant-agency-id": "501100018715"
+                        },
+                        {
+                            "grant-acronym": "CU",
+                            "grant-agency": {
+                                "@iso-code": "tha",
+                                "$": "Chulalongkorn University"
+                            },
+                            "grant-agency-id": "501100002873"
+                        },
+                        {
+                            "grant-acronym": "CU-VET",
+                            "grant-agency": {
+                                "@iso-code": "tha",
+                                "$": "Faculty of Veterinary Science, Chulalongkorn University"
+                            },
+                            "grant-agency-id": "501100020619"
+                        },
+                        {
+                            "grant-acronym": "MDCU",
+                            "grant-agency": {
+                                "@iso-code": "tha",
+                                "$": "Faculty of Medicine, Chulalongkorn University"
+                            },
+                            "grant-agency-id": "501100004776"
+                        },
+                        {
+                            "grant-acronym": "PPC",
+                            "grant-agency": {
+                                "@iso-code": "tha",
+                                "$": "Petroleum and Petrochemical College, Chulalongkorn University"
+                            },
+                            "grant-agency-id": "501100016154"
+                        },
+                        {
+                            "grant-agency": {
+                                "@iso-code": "tha",
+                                "$": "Department of Electrical Engineering, Chulalongkorn University"
+                            },
+                            "grant-agency-id": "501100006540"
+                        },
+                        {
+                            "grant-agency": {
+                                "@iso-code": "tha",
+                                "$": "Department of Microbiology, Faculty of Science, Chulalongkorn University"
+                            },
+                            "grant-agency-id": "501100020969"
+                        },
+                        {
+                            "grant-agency": {
+                                "@iso-code": "tha",
+                                "$": "Faculty of Science, Chulalongkorn University"
+                            },
+                            "grant-agency-id": "501100015239"
+                        },
+                        {
+                            "grant-id": "MRG6280175",
+                            "grant-acronym": "TRF",
+                            "grant-agency": {
+                                "@iso-code": "tha",
+                                "$": "Thailand Research Fund"
+                            },
+                            "grant-agency-id": "501100004396"
+                        }
+                    ]
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2022 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "SCOPUS"},
+                    {"$": "SNSOC"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "14",
+                    "@timestamp": "BST 05:57:12",
+                    "@year": "2022",
+                    "@month": "06"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2011021651",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "932264341",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20211105725",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "2021040974",
+                            "@idtype": "SNSOC"
+                        },
+                        {
+                            "$": "20210926580485",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85103392791",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85103392791",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1007/s10579-021-09536-6"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "39",
+                "reference": [
+                    {
+                        "ref-fulltext": "Abdelali, A., Guzman, F., Sajjad, H., & Vogel, S. (2014). The AMARA corpus: Building parallel language resources for the educational domain. In: Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC\u201914), European Language Resources Association (ELRA), Reykjavik, Iceland, pp 1856\u20131862, http://www.lrec-conf.org/proceedings/lrec2014/pdf/877_Paper.pdf",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://www.lrec-conf.org/proceedings/lrec2014/pdf/877_Paper.pdf",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "The AMARA corpus: Building parallel language resources for the educational domain"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR1",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84959884018",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1856",
+                                "@last": "1862"
+                            }},
+                            "ref-text": "Reykjavik, Iceland",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abdelali",
+                                    "ce:indexed-name": "Abdelali A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guzman",
+                                    "ce:indexed-name": "Guzman F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sajjad",
+                                    "ce:indexed-name": "Sajjad H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vogel",
+                                    "ce:indexed-name": "Vogel S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC\u201914), European Language Resources Association (ELRA)"
+                        },
+                        "ce:source-text": "Abdelali, A., Guzman, F., Sajjad, H., & Vogel, S. (2014). The AMARA corpus: Building parallel language resources for the educational domain. In: Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC\u201914), European Language Resources Association (ELRA), Reykjavik, Iceland, pp 1856\u20131862, http://www.lrec-conf.org/proceedings/lrec2014/pdf/877_Paper.pdf"
+                    },
+                    {
+                        "ref-fulltext": "Agić Ž, V. I. (2019). JW300: A wide-coverage parallel corpus for low-resource languages. In: Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, Association for Computational Linguistics, Florence, Italy, pp 3204\u20133210. 10.18653/v1/P19-1310, https://www.aclweb.org/anthology/P19-1310",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.18653/v1/P19-1310,https://www.aclweb.org/anthology/P19-1310",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "JW300: A wide-coverage parallel corpus for low-resource languages"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR2",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85084074179",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3204",
+                                "@last": "3210"
+                            }},
+                            "ref-text": "Florence, Italy",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "Ž.",
+                                "@_fa": "true",
+                                "ce:surname": "Agić",
+                                "ce:indexed-name": "Agic Z."
+                            }]},
+                            "ref-sourcetitle": "In: Proceedings of the 57Th Annual Meeting of the Association for Computational Linguistics, Association for Computational Linguistics"
+                        },
+                        "ce:source-text": "Agić Ž, V. I. (2019). JW300: A wide-coverage parallel corpus for low-resource languages. In: Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, Association for Computational Linguistics, Florence, Italy, pp 3204\u20133210. 10.18653/v1/P19-1310, https://www.aclweb.org/anthology/P19-1310"
+                    },
+                    {
+                        "ref-fulltext": "Bahdanau, D., Cho, K Bengio, Y. (2014). Neural machine translation by jointly learning to align and translate. ArXiv 1409",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR3",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "1409",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84922389693",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "ArXiv 1409",
+                            "ref-sourcetitle": "Neural machine translation by jointly learning to align and translate"
+                        },
+                        "ce:source-text": "Bahdanau, D., Cho, K Bengio, Y. (2014). Neural machine translation by jointly learning to align and translate. ArXiv 1409"
+                    },
+                    {
+                        "ref-fulltext": "Byrne, B., Krishnamoorthi, K., Sankar, C., Neelakantan, A., Duckworth, D., Yavuz, S., Goodrich, B., Dubey, A., Cedilnik, A Kim, KY. (2019). Taskmaster-1: Toward a realistic and diverse dialog dataset. arXiv preprint arXiv:190905358",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR4",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "190905358",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85095036184",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "arXiv preprint arXiv:190905358",
+                            "ref-sourcetitle": "Taskmaster-1: Toward a realistic and diverse dialog dataset"
+                        },
+                        "ce:source-text": "Byrne, B., Krishnamoorthi, K., Sankar, C., Neelakantan, A., Duckworth, D., Yavuz, S., Goodrich, B., Dubey, A., Cedilnik, A Kim, KY. (2019). Taskmaster-1: Toward a realistic and diverse dialog dataset. arXiv preprint arXiv:190905358"
+                    },
+                    {
+                        "ref-fulltext": "Cettolo, M., Niehues, J., Stüker, S., Bentivogli, L., Cattoni, R., Federico, M. (2015). The iwslt 2015 evaluation campaign",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR5",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85131639934",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-sourcetitle": "The Iwslt 2015 Evaluation Campaign"
+                        },
+                        "ce:source-text": "Cettolo, M., Niehues, J., Stüker, S., Bentivogli, L., Cattoni, R., Federico, M. (2015). The iwslt 2015 evaluation campaign"
+                    },
+                    {
+                        "ref-fulltext": "Chaudhary, V., Tang, Y., Guzmán, F., Schwenk, H Koehn, P. (2019). Low-resource corpus filtering using multilingual sentence embeddings. In: Proceedings of the Fourth Conference on Machine Translation (Vol. 3: Shared Task Papers, Day 2), Association for Computational Linguistics, Florence, Italy, pp 261\u2013266, https://doi.org/10.18653/v1/W19-5435, https://www.aclweb.org/anthology/W19-5435",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.18653/v1/W19-5435,https://www.aclweb.org/anthology/W19-5435",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "). Low-resource corpus filtering using multilingual sentence embeddings"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR6",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85120988937",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "3"},
+                                "pagerange": {
+                                    "@first": "261",
+                                    "@last": "266"
+                                }
+                            },
+                            "ref-text": "Shared Task Papers, Day 2",
+                            "ref-sourcetitle": ": Proceedings of the Fourth Conference on Machine Translation"
+                        },
+                        "ce:source-text": "Chaudhary, V., Tang, Y., Guzmán, F., Schwenk, H Koehn, P. (2019). Low-resource corpus filtering using multilingual sentence embeddings. In: Proceedings of the Fourth Conference on Machine Translation (Vol. 3: Shared Task Papers, Day 2), Association for Computational Linguistics, Florence, Italy, pp 261\u2013266, https://doi.org/10.18653/v1/W19-5435, https://www.aclweb.org/anthology/W19-5435"
+                    },
+                    {
+                        "ref-fulltext": "Chen, T., & Kan, M. Y. (2011). Creating a live, public short message service corpus: The nus sms corpus. Language Resources and Evaluation. https://doi.org/10.1007/s10579-012-9197-9.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1007/s10579-012-9197-9",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Creating a live, public short message service corpus: The nus sms corpus"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR7",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84878527892",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"collaboration": {
+                                "@seq": "1",
+                                "ce:text": "Chen, T., & Kan, M. Y",
+                                "ce:indexed-name": "Chen, T., & Kan, M. Y"
+                            }},
+                            "ref-sourcetitle": "Language Resources and Evaluation"
+                        },
+                        "ce:source-text": "Chen, T., & Kan, M. Y. (2011). Creating a live, public short message service corpus: The nus sms corpus. Language Resources and Evaluation. https://doi.org/10.1007/s10579-012-9197-9."
+                    },
+                    {
+                        "ref-fulltext": "Christodouloupoulos, C., & Steedman, M. (2015). A massively parallel corpus: The bible in 100 languages. Language Resources and Evaluation, 49(2), 375\u2013395. 10.1007/s10579-014-9287-y. DOI: 10.1007/s10579-014-9287-y",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "A massively parallel corpus: The bible in 100 languages"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/s10579-014-9287-y",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR8",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84940001165",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "49",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "375",
+                                    "@last": "395"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Christodouloupoulos",
+                                    "ce:indexed-name": "Christodouloupoulos C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Steedman",
+                                    "ce:indexed-name": "Steedman M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Language Resources and Evaluation"
+                        },
+                        "ce:source-text": "Christodouloupoulos, C., & Steedman, M. (2015). A massively parallel corpus: The bible in 100 languages. Language Resources and Evaluation, 49(2), 375\u2013395. 10.1007/s10579-014-9287-y. DOI: 10.1007/s10579-014-9287-y"
+                    },
+                    {
+                        "ref-fulltext": "Dolan, W. B Brockett, C. (2005). Automatically constructing a corpus of sentential paraphrases. In: Proceedings of the Third International Workshop on Paraphrasing (IWP2005), https://www.aclweb.org/anthology/I05-5002",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.aclweb.org/anthology/I05-5002",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Automatically constructing a corpus of sentential paraphrases"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR9",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85131643597",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-sourcetitle": "In: Proceedings of the Third International Workshop on Paraphrasing (IWP2005"
+                        },
+                        "ce:source-text": "Dolan, W. B Brockett, C. (2005). Automatically constructing a corpus of sentential paraphrases. In: Proceedings of the Third International Workshop on Paraphrasing (IWP2005), https://www.aclweb.org/anthology/I05-5002"
+                    },
+                    {
+                        "ref-fulltext": "Esplà, M., & Transducens, G. (2009). Bitextor, a free/open-source software to harvest translation memories from multilingual websites",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Bitextor, a free/open-source software to harvest translation memories from multilingual websites"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR10",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85095359050",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Esplà",
+                                    "ce:indexed-name": "Espla M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Transducens",
+                                    "ce:indexed-name": "Transducens G."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Esplà, M., & Transducens, G. (2009). Bitextor, a free/open-source software to harvest translation memories from multilingual websites"
+                    },
+                    {
+                        "ref-fulltext": "Esplà, M., Forcada, M., Ramírez-Sánchez, G., & Hoang, H. (2019). ParaCrawl: Web-scale parallel corpora for the languages of the EU. In: Proceedings of Machine Translation Summit XVII Volume 2: Translator, Project and User Tracks, European Association for Machine Translation, Dublin, Ireland, pp 118\u2013119, https://www.aclweb.org/anthology/W19-6721",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.aclweb.org/anthology/W19-6721",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "ParaCrawl: Web-scale parallel corpora for the languages of the EU"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR11",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85090154786",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2"},
+                                "pagerange": {
+                                    "@first": "118",
+                                    "@last": "119"
+                                }
+                            },
+                            "ref-text": "Translator, Project and User Tracks, European Association for Machine Translation, Dublin, Ireland",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Esplà",
+                                    "ce:indexed-name": "Espla M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Forcada",
+                                    "ce:indexed-name": "Forcada M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ramírez-Sánchez",
+                                    "ce:indexed-name": "Ramirez-Sanchez G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hoang",
+                                    "ce:indexed-name": "Hoang H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of Machine Translation Summit XVII"
+                        },
+                        "ce:source-text": "Esplà, M., Forcada, M., Ramírez-Sánchez, G., & Hoang, H. (2019). ParaCrawl: Web-scale parallel corpora for the languages of the EU. In: Proceedings of Machine Translation Summit XVII Volume 2: Translator, Project and User Tracks, European Association for Machine Translation, Dublin, Ireland, pp 118\u2013119, https://www.aclweb.org/anthology/W19-6721"
+                    },
+                    {
+                        "ref-fulltext": "Esplà-Gomis, M., & Forcada, ML. (2009). Bitextor, a free/open-source software to harvest translation memories from multilingual websites. Proceedings of MT Summit XII, Ottawa, Canada Association for Machine Translation in the Americas",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR12",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85103403846",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {"@first": "XII"}},
+                            "ref-text": "Ottawa, Canada Association for Machine Translation in the Americas",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Esplà-Gomis",
+                                    "ce:indexed-name": "Espla-Gomis M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Forcada",
+                                    "ce:indexed-name": "Forcada M.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Bitextor, a Free/Open-Source Software to Harvest Translation Memories from Multilingual Websites. Proceedings of MT Summit"
+                        },
+                        "ce:source-text": "Esplà-Gomis, M., & Forcada, ML. (2009). Bitextor, a free/open-source software to harvest translation memories from multilingual websites. Proceedings of MT Summit XII, Ottawa, Canada Association for Machine Translation in the Americas"
+                    },
+                    {
+                        "ref-fulltext": "Gale, W. A., & Church, K. (1993). A program for aligning sentences in bilingual corpora. Computational Linguistics, 19(1), 75\u2013102.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1993"},
+                            "ref-title": {"ref-titletext": "A program for aligning sentences in bilingual corpora"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR13",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85050785549",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "19",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "75",
+                                    "@last": "102"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gale",
+                                    "ce:indexed-name": "Gale W.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Church",
+                                    "ce:indexed-name": "Church K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computational Linguistics"
+                        },
+                        "ce:source-text": "Gale, W. A., & Church, K. (1993). A program for aligning sentences in bilingual corpora. Computational Linguistics, 19(1), 75\u2013102."
+                    },
+                    {
+                        "ref-fulltext": "Gehring, J., Auli, M., Grangier, D., Yarats, D., & Dauphin, Y. N. (2017). Convolutional sequence to sequence learning. CoRR arXiv:abs/1705.03122,",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR14",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85034250048",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "CoRR arXiv:abs/1705.03122",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gehring",
+                                    "ce:indexed-name": "Gehring J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Auli",
+                                    "ce:indexed-name": "Auli M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grangier",
+                                    "ce:indexed-name": "Grangier D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yarats",
+                                    "ce:indexed-name": "Yarats D."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Y.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dauphin",
+                                    "ce:indexed-name": "Dauphin Y.N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Convolutional sequence to sequence learning"
+                        },
+                        "ce:source-text": "Gehring, J., Auli, M., Grangier, D., Yarats, D., & Dauphin, Y. N. (2017). Convolutional sequence to sequence learning. CoRR arXiv:abs/1705.03122,"
+                    },
+                    {
+                        "ref-fulltext": "Hassan, H., Aue, A., Chen, C., Chowdhary, V., Clark, J., Federmann, C., Huang, X., Junczys-Dowmunt, M., Lewis, W., Li, M., Liu, S., Liu, T. Y., Luo, R., Menezes, A., Qin, T., Seide, F., Tan, X., Tian, F., Wu, L., Wu, S., Xia, Y., Zhang, D., Zhang, Z., & Zhou, M. (2018). Achieving human parity on automatic chinese to english news translation. ArXiv abs/1803.05567",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR15",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85052507434",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "ArXiv abs/1803.05567",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hassan",
+                                    "ce:indexed-name": "Hassan H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aue",
+                                    "ce:indexed-name": "Aue A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chowdhary",
+                                    "ce:indexed-name": "Chowdhary V."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Clark",
+                                    "ce:indexed-name": "Clark J."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Federmann",
+                                    "ce:indexed-name": "Federmann C."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang X."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Junczys-Dowmunt",
+                                    "ce:indexed-name": "Junczys-Dowmunt M."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lewis",
+                                    "ce:indexed-name": "Lewis W."
+                                },
+                                {
+                                    "@seq": "10",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li M."
+                                },
+                                {
+                                    "@seq": "11",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu S."
+                                },
+                                {
+                                    "@seq": "12",
+                                    "ce:initials": "T.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu T.Y."
+                                },
+                                {
+                                    "@seq": "13",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Luo",
+                                    "ce:indexed-name": "Luo R."
+                                },
+                                {
+                                    "@seq": "14",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Menezes",
+                                    "ce:indexed-name": "Menezes A."
+                                },
+                                {
+                                    "@seq": "15",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qin",
+                                    "ce:indexed-name": "Qin T."
+                                },
+                                {
+                                    "@seq": "16",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Seide",
+                                    "ce:indexed-name": "Seide F."
+                                },
+                                {
+                                    "@seq": "17",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tan",
+                                    "ce:indexed-name": "Tan X."
+                                },
+                                {
+                                    "@seq": "18",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tian",
+                                    "ce:indexed-name": "Tian F."
+                                },
+                                {
+                                    "@seq": "19",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu L."
+                                },
+                                {
+                                    "@seq": "20",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu S."
+                                },
+                                {
+                                    "@seq": "21",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xia",
+                                    "ce:indexed-name": "Xia Y."
+                                },
+                                {
+                                    "@seq": "22",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang D."
+                                },
+                                {
+                                    "@seq": "23",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Z."
+                                },
+                                {
+                                    "@seq": "24",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Achieving human parity on automatic chinese to english news translation"
+                        },
+                        "ce:source-text": "Hassan, H., Aue, A., Chen, C., Chowdhary, V., Clark, J., Federmann, C., Huang, X., Junczys-Dowmunt, M., Lewis, W., Li, M., Liu, S., Liu, T. Y., Luo, R., Menezes, A., Qin, T., Seide, F., Tan, X., Tian, F., Wu, L., Wu, S., Xia, Y., Zhang, D., Zhang, Z., & Zhou, M. (2018). Achieving human parity on automatic chinese to english news translation. ArXiv abs/1803.05567"
+                    },
+                    {
+                        "ref-fulltext": "Keskar, N. S., McCann, B., Varshney, L. R., Xiong, C., & Socher, R. (2019). Ctrl: A conditional transformer language model for controllable generation. arXiv:1909.05858",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR16",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "1909.05858",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85084321206",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "arXiv:1909.05858",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Keskar",
+                                    "ce:indexed-name": "Keskar N.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McCann",
+                                    "ce:indexed-name": "McCann B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Varshney",
+                                    "ce:indexed-name": "Varshney L.R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xiong",
+                                    "ce:indexed-name": "Xiong C."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Socher",
+                                    "ce:indexed-name": "Socher R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Ctrl: A conditional transformer language model for controllable generation."
+                        },
+                        "ce:source-text": "Keskar, N. S., McCann, B., Varshney, L. R., Xiong, C., & Socher, R. (2019). Ctrl: A conditional transformer language model for controllable generation. arXiv:1909.05858"
+                    },
+                    {
+                        "ref-fulltext": "Koehn, P. (2005). Europarl: A parallel corpus for statistical machine translation. MT Summit Citeseer, 5, 79\u201386.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Europarl: A parallel corpus for statistical machine translation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR17",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "44949230930",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "5"},
+                                "pagerange": {
+                                    "@first": "79",
+                                    "@last": "86"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "P.",
+                                "@_fa": "true",
+                                "ce:surname": "Koehn",
+                                "ce:indexed-name": "Koehn P."
+                            }]},
+                            "ref-sourcetitle": "MT Summit Citeseer"
+                        },
+                        "ce:source-text": "Koehn, P. (2005). Europarl: A parallel corpus for statistical machine translation. MT Summit Citeseer, 5, 79\u201386."
+                    },
+                    {
+                        "ref-fulltext": "Koehn, P., & Knowles, R. (2017). Six challenges for neural machine translation. In: Proceedings of the First Workshop on Neural Machine Translation, Association for Computational Linguistics, Vancouver, pp 28\u201339. 10.18653/v1/W17-3204, https://www.aclweb.org/anthology/W17-3204",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-website": {"ce:e-address": {
+                                "$": ".https://doi.org/10.18653/v1/W17-3204",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR18",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85122617327",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "28",
+                                "@last": "39"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koehn",
+                                    "ce:indexed-name": "Koehn P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Knowles",
+                                    "ce:indexed-name": "Knowles R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Six challenges for neural machine translation. In: Proceedings of the First Workshop on Neural Machine Translation, Association for Computational Linguistics, Vancouver"
+                        },
+                        "ce:source-text": "Koehn, P., & Knowles, R. (2017). Six challenges for neural machine translation. In: Proceedings of the First Workshop on Neural Machine Translation, Association for Computational Linguistics, Vancouver, pp 28\u201339. 10.18653/v1/W17-3204, https://www.aclweb.org/anthology/W17-3204"
+                    },
+                    {
+                        "ref-fulltext": "Kosawat, K., Boriboon, M., Chootrakool, P., Chotimongkol, A., Klaithin, S., Kongyoung, S., Kriengket, K., Phaholphinyo, S., Purodakananda, S., Thanakulwarapas, T., & Wutiwiwatchai, C. (2009). Best 2009: Thai word segmentation software contest. In: 2009 Eighth International Symposium on Natural Language Processing, pp 83\u201388. 10.1109/SNLP.2009.5340941",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1109/SNLP.2009.5340941",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Best 2009: Thai word segmentation software contest"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR19",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "72449196164",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "83",
+                                "@last": "88"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kosawat",
+                                    "ce:indexed-name": "Kosawat K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boriboon",
+                                    "ce:indexed-name": "Boriboon M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chootrakool",
+                                    "ce:indexed-name": "Chootrakool P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chotimongkol",
+                                    "ce:indexed-name": "Chotimongkol A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Klaithin",
+                                    "ce:indexed-name": "Klaithin S."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kongyoung",
+                                    "ce:indexed-name": "Kongyoung S."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kriengket",
+                                    "ce:indexed-name": "Kriengket K."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Phaholphinyo",
+                                    "ce:indexed-name": "Phaholphinyo S."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Purodakananda",
+                                    "ce:indexed-name": "Purodakananda S."
+                                },
+                                {
+                                    "@seq": "10",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thanakulwarapas",
+                                    "ce:indexed-name": "Thanakulwarapas T."
+                                },
+                                {
+                                    "@seq": "11",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wutiwiwatchai",
+                                    "ce:indexed-name": "Wutiwiwatchai C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "In: 2009 Eighth International Symposium on Natural Language Processing"
+                        },
+                        "ce:source-text": "Kosawat, K., Boriboon, M., Chootrakool, P., Chotimongkol, A., Klaithin, S., Kongyoung, S., Kriengket, K., Phaholphinyo, S., Purodakananda, S., Thanakulwarapas, T., & Wutiwiwatchai, C. (2009). Best 2009: Thai word segmentation software contest. In: 2009 Eighth International Symposium on Natural Language Processing, pp 83\u201388. 10.1109/SNLP.2009.5340941"
+                    },
+                    {
+                        "ref-fulltext": "Kudo, T., & Richardson, J. (2018). SentencePiece: A simple and language independent subword tokenizer and detokenizer for neural text processing. In: Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing: System Demonstrations, Association for Computational Linguistics, Brussels, Belgium, pp 66\u201371, https://doi.org/10.18653/v1/D18-2012, https://www.aclweb.org/anthology/D18-2012",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.18653/v1/D18-2012,https://www.aclweb.org/anthology/D18-2012",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "). SentencePiece: A simple and language independent subword tokenizer and detokenizer for neural text processing"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR20",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85066882227",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "66",
+                                "@last": "71"
+                            }},
+                            "ref-text": "Brussels, Belgium",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kudo",
+                                    "ce:indexed-name": "Kudo T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Richardson",
+                                    "ce:indexed-name": "Richardson J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "In: Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing: System Demonstrations, Association for Computational Linguistics"
+                        },
+                        "ce:source-text": "Kudo, T., & Richardson, J. (2018). SentencePiece: A simple and language independent subword tokenizer and detokenizer for neural text processing. In: Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing: System Demonstrations, Association for Computational Linguistics, Brussels, Belgium, pp 66\u201371, https://doi.org/10.18653/v1/D18-2012, https://www.aclweb.org/anthology/D18-2012"
+                    },
+                    {
+                        "ref-fulltext": "Lison, P., & Tiedemann, J. (2016). OpenSubtitles2016: Extracting large parallel corpora from movie and TV subtitles. In: Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC\u201916), European Language Resources Association (ELRA), Portorož, Slovenia, pp 923\u2013929, https://www.aclweb.org/anthology/L16-1147",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.aclweb.org/anthology/L16-1147",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "("},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR21",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85031927582",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "923",
+                                "@last": "929"
+                            }},
+                            "ref-text": "Portorož, Slovenia",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lison",
+                                    "ce:indexed-name": "Lison P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tiedemann",
+                                    "ce:indexed-name": "Tiedemann J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC\u201916), European Language Resources Association (ELRA)"
+                        },
+                        "ce:source-text": "Lison, P., & Tiedemann, J. (2016). OpenSubtitles2016: Extracting large parallel corpora from movie and TV subtitles. In: Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC\u201916), European Language Resources Association (ELRA), Portorož, Slovenia, pp 923\u2013929, https://www.aclweb.org/anthology/L16-1147"
+                    },
+                    {
+                        "ref-fulltext": "Loper, E., & Bird, S. (2002). Nltk: The natural language toolkit. In: Proceedings of the ACL-02 Workshop on Effective Tools and Methodologies for Teaching Natural Language Processing and Computational Linguistics, Vol. 1, Association for Computational Linguistics, USA, ETMTNLP\u201902, p 63\u201370, https://doi.org/10.3115/1118108.1118117",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.3115/1118108.1118117",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Nltk: The natural language toolkit"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR22",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "70349303093",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "63",
+                                "@last": "70"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Loper",
+                                    "ce:indexed-name": "Loper E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bird",
+                                    "ce:indexed-name": "Bird S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the ACL-02 Workshop on Effective Tools and Methodologies for Teaching Natural Language Processing and Computational Linguistics, Vol. 1, Association for Computational Linguistics, USA, ETMTNLP\u201902"
+                        },
+                        "ce:source-text": "Loper, E., & Bird, S. (2002). Nltk: The natural language toolkit. In: Proceedings of the ACL-02 Workshop on Effective Tools and Methodologies for Teaching Natural Language Processing and Computational Linguistics, Vol. 1, Association for Computational Linguistics, USA, ETMTNLP\u201902, p 63\u201370, https://doi.org/10.3115/1118108.1118117"
+                    },
+                    {
+                        "ref-fulltext": "Ma, X. (2006). Champollion: A robust parallel text sentence aligner. In: LREC, pp 489\u2013492",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR23",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84994119009",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "489",
+                                "@last": "492"
+                            }},
+                            "ref-text": "In",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma X."
+                                }],
+                                "collaboration": {
+                                    "@seq": "1",
+                                    "ce:text": "LREC",
+                                    "ce:indexed-name": "LREC"
+                                }
+                            },
+                            "ref-sourcetitle": "Champollion: A robust parallel text sentence aligner"
+                        },
+                        "ce:source-text": "Ma, X. (2006). Champollion: A robust parallel text sentence aligner. In: LREC, pp 489\u2013492"
+                    },
+                    {
+                        "ref-fulltext": "Ott, M., Edunov, S., Grangier, D., & Auli, M. (2018). Scaling neural machine translation. ArXiv abs/1806.00187",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR24",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85063064187",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ott",
+                                    "ce:indexed-name": "Ott M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Edunov",
+                                    "ce:indexed-name": "Edunov S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grangier",
+                                    "ce:indexed-name": "Grangier D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Auli",
+                                    "ce:indexed-name": "Auli M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Scaling neural machine translation"
+                        },
+                        "ce:source-text": "Ott, M., Edunov, S., Grangier, D., & Auli, M. (2018). Scaling neural machine translation. ArXiv abs/1806.00187"
+                    },
+                    {
+                        "ref-fulltext": "Ott, M., Edunov, S., Baevski, A., Fan, A., Gross, S., Ng, N., Grangier, D., & Auli, M. (2019). fairseq: A fast, extensible toolkit for sequence modeling. In: Proceedings of NAACL-HLT 2019: Demonstrations",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Fairseq: A fast, extensible toolkit for sequence modeling"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR25",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85084341667",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ott",
+                                    "ce:indexed-name": "Ott M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Edunov",
+                                    "ce:indexed-name": "Edunov S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Baevski",
+                                    "ce:indexed-name": "Baevski A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fan",
+                                    "ce:indexed-name": "Fan A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gross",
+                                    "ce:indexed-name": "Gross S."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ng",
+                                    "ce:indexed-name": "Ng N."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grangier",
+                                    "ce:indexed-name": "Grangier D."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Auli",
+                                    "ce:indexed-name": "Auli M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of NAACL-HLT 2019: Demonstrations"
+                        },
+                        "ce:source-text": "Ott, M., Edunov, S., Baevski, A., Fan, A., Gross, S., Ng, N., Grangier, D., & Auli, M. (2019). fairseq: A fast, extensible toolkit for sequence modeling. In: Proceedings of NAACL-HLT 2019: Demonstrations"
+                    },
+                    {
+                        "ref-fulltext": "Papineni, K., Roukos, S., Ward, T., & Zhu, WJ. (2002). Bleu: a method for automatic evaluation of machine translation. In: Proceedings of the 40th Annual Meeting of the Association for Computational Linguistics, Association for Computational Linguistics, Philadelphia, Pennsylvania, USA, pp 311\u2013318, https://doi.org/10.3115/1073083.1073135, https://www.aclweb.org/anthology/P02-1040",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.3115/1073083.1073135",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Bleu: A method for automatic evaluation of machine translation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR26",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85133336275",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "311",
+                                "@last": "318"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Papineni",
+                                    "ce:indexed-name": "Papineni K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Roukos",
+                                    "ce:indexed-name": "Roukos S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ward",
+                                    "ce:indexed-name": "Ward T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu W.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 40Th Annual Meeting of the Association for Computational Linguistics, Association for Computational Linguistics, Philadelphia, Pennsylvania, USA"
+                        },
+                        "ce:source-text": "Papineni, K., Roukos, S., Ward, T., & Zhu, WJ. (2002). Bleu: a method for automatic evaluation of machine translation. In: Proceedings of the 40th Annual Meeting of the Association for Computational Linguistics, Association for Computational Linguistics, Philadelphia, Pennsylvania, USA, pp 311\u2013318, https://doi.org/10.3115/1073083.1073135, https://www.aclweb.org/anthology/P02-1040"
+                    },
+                    {
+                        "ref-fulltext": "Phatthiyaphaibun, W., Chaovavanich, K., Polpanumas, C., Suriyawongkul, A., Lowphansirikul, L., & Chormai, P. (2020). Pythainlp/pythainlp: Pythainlp 2.1.4. 10.5281/zenodo.3659277.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.5281/zenodo.3659277",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR27",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85131644582",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Pythainlp/pythainlp: Pythainlp 2.1.4",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Phatthiyaphaibun",
+                                    "ce:indexed-name": "Phatthiyaphaibun W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chaovavanich",
+                                    "ce:indexed-name": "Chaovavanich K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Polpanumas",
+                                    "ce:indexed-name": "Polpanumas C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Suriyawongkul",
+                                    "ce:indexed-name": "Suriyawongkul A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lowphansirikul",
+                                    "ce:indexed-name": "Lowphansirikul L."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chormai",
+                                    "ce:indexed-name": "Chormai P."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Phatthiyaphaibun, W., Chaovavanich, K., Polpanumas, C., Suriyawongkul, A., Lowphansirikul, L., & Chormai, P. (2020). Pythainlp/pythainlp: Pythainlp 2.1.4. 10.5281/zenodo.3659277."
+                    },
+                    {
+                        "ref-fulltext": "Popović, M. (2015). chrF: character n-gram F-score for automatic MT evaluation. In: Proceedings of the Tenth Workshop on Statistical Machine Translation, Association for Computational Linguistics, Lisbon, Portugal, pp 392\u2013395, 10.18653/v1/W15-3049, https://www.aclweb.org/anthology/W15-3049",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.18653/v1/W15-3049,https://www.aclweb.org/anthology/W15-3049",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR28",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85092296954",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "392",
+                                "@last": "395"
+                            }},
+                            "ref-text": ". chrF: character n-gram F-score for automatic MT evaluation. In: Proceedings of the Tenth Workshop on Statistical Machine Translation, Association for Computational Linguistics, Lisbon, Portugal, pp",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "ce:surname": "Popović",
+                                "ce:indexed-name": "Popovic M."
+                            }]}
+                        },
+                        "ce:source-text": "Popović, M. (2015). chrF: character n-gram F-score for automatic MT evaluation. In: Proceedings of the Tenth Workshop on Statistical Machine Translation, Association for Computational Linguistics, Lisbon, Portugal, pp 392\u2013395, 10.18653/v1/W15-3049, https://www.aclweb.org/anthology/W15-3049"
+                    },
+                    {
+                        "ref-fulltext": "Post, M. (2018). A call for clarity in reporting BLEU scores. In: Proceedings of the Third Conference on Machine Translation: Research Papers, Association for Computational Linguistics, Belgium, Brussels, pp 186\u2013191, https://www.aclweb.org/anthology/W18-6319",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.aclweb.org/anthology/W18-6319",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "A call for clarity in reporting BLEU scores"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR29",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85122317170",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "186",
+                                "@last": "191"
+                            }},
+                            "ref-text": "Belgium, Brussels",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "ce:surname": "Post",
+                                "ce:indexed-name": "Post M."
+                            }]},
+                            "ref-sourcetitle": "In: Proceedings of the Third Conference on Machine Translation: Research Papers, Association for Computational Linguistics"
+                        },
+                        "ce:source-text": "Post, M. (2018). A call for clarity in reporting BLEU scores. In: Proceedings of the Third Conference on Machine Translation: Research Papers, Association for Computational Linguistics, Belgium, Brussels, pp 186\u2013191, https://www.aclweb.org/anthology/W18-6319"
+                    },
+                    {
+                        "ref-fulltext": "Slayden, G., Hwang, M. Y., & Schwartz, L. (2010). Thai sentence-breaking for large-scale smt. In: Proceedings of the 1st Workshop on South and Southeast Asian Natural Language Processing, pp. 8\u201316",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Thai sentence-breaking for large-scale smt. In"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR30",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84883072259",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "8",
+                                "@last": "16"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Slayden",
+                                    "ce:indexed-name": "Slayden G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hwang",
+                                    "ce:indexed-name": "Hwang M.Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schwartz",
+                                    "ce:indexed-name": "Schwartz L."
+                                }
+                            ]},
+                            "ref-sourcetitle": ": Proceedings of the 1St Workshop on South and Southeast Asian Natural Language Processing"
+                        },
+                        "ce:source-text": "Slayden, G., Hwang, M. Y., & Schwartz, L. (2010). Thai sentence-breaking for large-scale smt. In: Proceedings of the 1st Workshop on South and Southeast Asian Natural Language Processing, pp. 8\u201316"
+                    },
+                    {
+                        "ref-fulltext": "Sornlertlamvanich, V., Charoenporn, T., & Isahara, H. (1997). Orchid: Thai part-of-speech tagged corpus. National Electronics and Computer Technology Center Technical Report pp. 5\u201319",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Orchid: Thai part-of-speech tagged corpus"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR31",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0003036904",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "5",
+                                "@last": "19"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sornlertlamvanich",
+                                    "ce:indexed-name": "Sornlertlamvanich V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Charoenporn",
+                                    "ce:indexed-name": "Charoenporn T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Isahara",
+                                    "ce:indexed-name": "Isahara H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "National Electronics and Computer Technology Center Technical Report"
+                        },
+                        "ce:source-text": "Sornlertlamvanich, V., Charoenporn, T., & Isahara, H. (1997). Orchid: Thai part-of-speech tagged corpus. National Electronics and Computer Technology Center Technical Report pp. 5\u201319"
+                    },
+                    {
+                        "ref-fulltext": "Tangsirirat, N., Suchato, A., Punyabukkana, P., & Wutiwiwatchai, C. (2013). Contextual behaviour features and grammar rules for thai sentence-breaking. 2013 10th International Conference on Electrical Engineering/Electronics (pp. 1\u20134). Telecommunications and Information Technology, IEEE: Computer.",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Contextual behaviour features and grammar rules for thai sentence-breaking"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR32",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84883131006",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "4"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tangsirirat",
+                                    "ce:indexed-name": "Tangsirirat N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Suchato",
+                                    "ce:indexed-name": "Suchato A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Punyabukkana",
+                                    "ce:indexed-name": "Punyabukkana P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wutiwiwatchai",
+                                    "ce:indexed-name": "Wutiwiwatchai C."
+                                }
+                            ]},
+                            "ref-sourcetitle": ". 2013 10Th International Conference on Electrical Engineering/Electronics"
+                        },
+                        "ce:source-text": "Tangsirirat, N., Suchato, A., Punyabukkana, P., & Wutiwiwatchai, C. (2013). Contextual behaviour features and grammar rules for thai sentence-breaking. 2013 10th International Conference on Electrical Engineering/Electronics (pp. 1\u20134). Telecommunications and Information Technology, IEEE: Computer."
+                    },
+                    {
+                        "ref-fulltext": "Thompson, B., & Koehn, P. (2019). Vecalign: Improved sentence alignment in linear time and space. In: Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), Association for Computational Linguistics, Hong Kong, China, pp. 1342\u20131348, https://doi.org/10.18653/v1/D19-1136, https://www.aclweb.org/anthology/D19-1136",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.18653/v1/D19-1136,https://www.aclweb.org/anthology/D19-1136",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Vecalign: Improved sentence alignment in linear time and space"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR33",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85084325252",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1342",
+                                "@last": "1348"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thompson",
+                                    "ce:indexed-name": "Thompson B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koehn",
+                                    "ce:indexed-name": "Koehn P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "In: Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9Th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), Association for Computational Linguistics, Hong Kong, China"
+                        },
+                        "ce:source-text": "Thompson, B., & Koehn, P. (2019). Vecalign: Improved sentence alignment in linear time and space. In: Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), Association for Computational Linguistics, Hong Kong, China, pp. 1342\u20131348, https://doi.org/10.18653/v1/D19-1136, https://www.aclweb.org/anthology/D19-1136"
+                    },
+                    {
+                        "ref-fulltext": "Tiedemann, J. (2012). Parallel data, tools and interfaces in OPUS. In: Proceedings of the Eighth International Conference on Language Resources and Evaluation (LREC\u201912), European Language Resources Association (ELRA), Istanbul, Turkey, pp. 2214\u20132218, http://www.lrec-conf.org/proceedings/lrec2012/pdf/463_Paper.pdf",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://www.lrec-conf.org/proceedings/lrec2012/pdf/463_Paper.pdf",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "("},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR34",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85029364216",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2214",
+                                "@last": "2218"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "ce:surname": "Tiedemann",
+                                "ce:indexed-name": "Tiedemann J."
+                            }]},
+                            "ref-sourcetitle": "Proceedings of the Eighth International Conference on Language Resources and Evaluation (LREC\u201912), European Language Resources Association (ELRA), Istanbul, Turkey"
+                        },
+                        "ce:source-text": "Tiedemann, J. (2012). Parallel data, tools and interfaces in OPUS. In: Proceedings of the Eighth International Conference on Language Resources and Evaluation (LREC\u201912), European Language Resources Association (ELRA), Istanbul, Turkey, pp. 2214\u20132218, http://www.lrec-conf.org/proceedings/lrec2012/pdf/463_Paper.pdf"
+                    },
+                    {
+                        "ref-fulltext": "Varga, D., Halácsy, P., Kornai, A., Nagy, V., Németh, L., & Trón, V. (2007). Parallel corpora for medium density languages. Amsterdam Studies In The Theory And History Of Linguistic Science Series, 4(292), 247.",
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Parallel corpora for medium density languages"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR35",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84886006048",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "4",
+                                    "@issue": "292"
+                                },
+                                "pagerange": {"@first": "247"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Varga",
+                                    "ce:indexed-name": "Varga D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Halácsy",
+                                    "ce:indexed-name": "Halacsy P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kornai",
+                                    "ce:indexed-name": "Kornai A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nagy",
+                                    "ce:indexed-name": "Nagy V."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Németh",
+                                    "ce:indexed-name": "Nemeth L."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Trón",
+                                    "ce:indexed-name": "Tron V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Amsterdam Studies In The Theory And History Of Linguistic Science Series"
+                        },
+                        "ce:source-text": "Varga, D., Halácsy, P., Kornai, A., Nagy, V., Németh, L., & Trón, V. (2007). Parallel corpora for medium density languages. Amsterdam Studies In The Theory And History Of Linguistic Science Series, 4(292), 247."
+                    },
+                    {
+                        "ref-fulltext": "Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, AN., Kaiser, L., Polosukhin, I. (2017). Attention is all you need. CoRR arXiv:abs/1706.03762",
+                        "@id": "36",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR36",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85038368581",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "CoRR arXiv:abs/1706.03762",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vaswani",
+                                    "ce:indexed-name": "Vaswani A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shazeer",
+                                    "ce:indexed-name": "Shazeer N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Parmar",
+                                    "ce:indexed-name": "Parmar N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Uszkoreit",
+                                    "ce:indexed-name": "Uszkoreit J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jones",
+                                    "ce:indexed-name": "Jones L."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "A.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gomez",
+                                    "ce:indexed-name": "Gomez A.N."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kaiser",
+                                    "ce:indexed-name": "Kaiser L."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Polosukhin",
+                                    "ce:indexed-name": "Polosukhin I."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Attention is all you need"
+                        },
+                        "ce:source-text": "Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, AN., Kaiser, L., Polosukhin, I. (2017). Attention is all you need. CoRR arXiv:abs/1706.03762"
+                    },
+                    {
+                        "ref-fulltext": "Yang, Y., Cer, D. M., Ahmad, A., Guo, M., Law, J., Constant, N., Ábrego, G. H., Yuan, S., Tar, C., Sung, YH., Strope, B., & Kurzweil, R. (2019). Multilingual universal sentence encoder for semantic retrieval. ArXiv:abs/1907.04307",
+                        "@id": "37",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR37",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85081646385",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "ArXiv:abs/1907.04307",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cer",
+                                    "ce:indexed-name": "Cer D.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ahmad",
+                                    "ce:indexed-name": "Ahmad A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Law",
+                                    "ce:indexed-name": "Law J."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Constant",
+                                    "ce:indexed-name": "Constant N."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "G.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ábrego",
+                                    "ce:indexed-name": "Abrego G.H."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yuan",
+                                    "ce:indexed-name": "Yuan S."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tar",
+                                    "ce:indexed-name": "Tar C."
+                                },
+                                {
+                                    "@seq": "10",
+                                    "ce:initials": "Y.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sung",
+                                    "ce:indexed-name": "Sung Y.H."
+                                },
+                                {
+                                    "@seq": "11",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Strope",
+                                    "ce:indexed-name": "Strope B."
+                                },
+                                {
+                                    "@seq": "12",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kurzweil",
+                                    "ce:indexed-name": "Kurzweil R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Multilingual universal sentence encoder for semantic retrieval"
+                        },
+                        "ce:source-text": "Yang, Y., Cer, D. M., Ahmad, A., Guo, M., Law, J., Constant, N., Ábrego, G. H., Yuan, S., Tar, C., Sung, YH., Strope, B., & Kurzweil, R. (2019). Multilingual universal sentence encoder for semantic retrieval. ArXiv:abs/1907.04307"
+                    },
+                    {
+                        "ref-fulltext": "Zaidan, O. (2012). Crowdsourcing annotation for machine learning in natural language processing tasks",
+                        "@id": "38",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR38",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84897700578",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "O.",
+                                "@_fa": "true",
+                                "ce:surname": "Zaidan",
+                                "ce:indexed-name": "Zaidan O."
+                            }]},
+                            "ref-sourcetitle": "Crowdsourcing annotation for machine learning in natural language processing tasks"
+                        },
+                        "ce:source-text": "Zaidan, O. (2012). Crowdsourcing annotation for machine learning in natural language processing tasks"
+                    },
+                    {
+                        "ref-fulltext": "Ziemski, M., Junczys-Dowmunt, M., & Pouliquen, B. (2016). The united nations parallel corpus v1.0. In: Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC\u201916), European Language Resources Association (ELRA), Portorož, Slovenia, pp. 3530\u20133534, https://www.aclweb.org/anthology/L16-1561",
+                        "@id": "39",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.aclweb.org/anthology/L16-1561",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "The united nations parallel corpus v1.0"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR39",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85013941952",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3530",
+                                "@last": "3534"
+                            }},
+                            "ref-sourcetitle": "In: Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC\u201916), European Language Resources Association (ELRA), Portorož, Slovenia, P"
+                        },
+                        "ce:source-text": "Ziemski, M., Junczys-Dowmunt, M., & Pouliquen, B. (2016). The united nations parallel corpus v1.0. In: Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC\u201916), European Language Resources Association (ELRA), Portorož, Slovenia, pp. 3530\u20133534, https://www.aclweb.org/anthology/L16-1561"
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Rayong",
+            "@id": "60110787",
+            "affilname": "Vidyasirimedhi Institute of Science and Technology",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60110787",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "125957281",
+            "affilname": "Teaching and Learning Thai as a Foreign Language Group",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/125957281",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "125315156",
+            "affilname": "pyThaiNLP",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/125315156",
+            "affiliation-country": "Thailand"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85103392791",
+        "dc:description": "The primary objective of our work is to build a large-scale English\u2013Thai dataset for training neural machine translation models. We construct scb-mt-en-th-2020, an English\u2013Thai machine translation dataset with over 1 million segment pairs, curated from various sources: news, Wikipedia articles, SMS messages, task-based dialogs, web-crawled data, government documents, and text artificially generated by a pretrained language model. We present the methods for gathering data, aligning texts, and removing preprocessing noise and translation errors automatically. We also train machine translation models based on this dataset to assess the quality of the corpus. Our models perform comparably to Google Translation API (as of May 2020) for Thai\u2013English and outperform Google when the Open Parallel Corpus (OPUS) is included in the training data for both Thai\u2013English and English\u2013Thai translation. The dataset is available for public use under CC-BY-SA 4.0 License. The pre-trained models and source code to reproduce our work are available under Apache-2.0 License.",
+        "prism:coverDate": "2022-06-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85103392791",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Lalita",
+            "preferred-name": {
+                "ce:given-name": "Lalita",
+                "ce:initials": "L.",
+                "ce:surname": "Lowphansirikul",
+                "ce:indexed-name": "Lowphansirikul L."
+            },
+            "@seq": "1",
+            "ce:initials": "L.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60110787",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60110787"
+            },
+            "ce:surname": "Lowphansirikul",
+            "@auid": "57219761467",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57219761467",
+            "ce:indexed-name": "Lowphansirikul L."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85103392791"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85103392791&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85103392791&origin=inward"
+            }
+        ],
+        "source-id": "145663",
+        "citedby-count": "6",
+        "prism:volume": "56",
+        "subtype": "ar",
+        "dc:title": "A large English\u2013Thai parallel corpus from the web and machine-generated text",
+        "openaccess": "2",
+        "prism:issn": "15728412 1574020X",
+        "publishercopyright": "© 2021, The Author(s), under exclusive licence to Springer Nature B.V.",
+        "prism:issueIdentifier": "2",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "Language Resources and Evaluation",
+        "prism:pageRange": "477-499",
+        "prism:endingPage": "499",
+        "openaccessFlag": null,
+        "prism:doi": "10.1007/s10579-021-09536-6",
+        "prism:startingPage": "477",
+        "dc:identifier": "SCOPUS_ID:85103392791",
+        "dc:publisher": "Springer Science and Business Media B.V."
+    },
+    "idxterms": null,
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Machine translation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Parallel corpus"
+        },
+        {
+            "@_fa": "true",
+            "$": "Pretraining"
+        },
+        {
+            "@_fa": "true",
+            "$": "Thai language"
+        },
+        {
+            "@_fa": "true",
+            "$": "Transformer"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Language and Linguistics",
+            "@code": "1203",
+            "@abbrev": "ARTS"
+        },
+        {
+            "@_fa": "true",
+            "$": "Education",
+            "@code": "3304",
+            "@abbrev": "SOCI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Linguistics and Language",
+            "@code": "3310",
+            "@abbrev": "SOCI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Library and Information Sciences",
+            "@code": "3309",
+            "@abbrev": "SOCI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Lalita",
+            "preferred-name": {
+                "ce:given-name": "Lalita",
+                "ce:initials": "L.",
+                "ce:surname": "Lowphansirikul",
+                "ce:indexed-name": "Lowphansirikul L."
+            },
+            "@seq": "1",
+            "ce:initials": "L.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60110787",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60110787"
+            },
+            "ce:surname": "Lowphansirikul",
+            "@auid": "57219761467",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57219761467",
+            "ce:indexed-name": "Lowphansirikul L."
+        },
+        {
+            "ce:given-name": "Charin",
+            "preferred-name": {
+                "ce:given-name": "Charin",
+                "ce:initials": "C.",
+                "ce:surname": "Polpanumas",
+                "ce:indexed-name": "Polpanumas C."
+            },
+            "@seq": "2",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "125315156",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/125315156"
+            },
+            "ce:surname": "Polpanumas",
+            "@auid": "57194513330",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57194513330",
+            "ce:indexed-name": "Polpanumas C."
+        },
+        {
+            "ce:given-name": "Attapol T.",
+            "preferred-name": {
+                "ce:given-name": "Attapol T.",
+                "ce:initials": "A.T.",
+                "ce:surname": "Rutherford",
+                "ce:indexed-name": "Rutherford A.T."
+            },
+            "@seq": "3",
+            "ce:initials": "A.T.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60028190",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+                },
+                {
+                    "@id": "125957281",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/125957281"
+                }
+            ],
+            "ce:surname": "Rutherford",
+            "@auid": "56315591200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56315591200",
+            "ce:indexed-name": "Rutherford A.T."
+        },
+        {
+            "ce:given-name": "Sarana",
+            "preferred-name": {
+                "ce:given-name": "Sarana",
+                "ce:initials": "S.",
+                "ce:surname": "Nutanong",
+                "ce:indexed-name": "Nutanong S."
+            },
+            "@seq": "4",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60110787",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60110787"
+            },
+            "ce:surname": "Nutanong",
+            "@auid": "8359418300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/8359418300",
+            "ce:indexed-name": "Nutanong S."
+        }
+    ]}
+}}

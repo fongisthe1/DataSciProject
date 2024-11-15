@@ -1,0 +1,982 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "16",
+                "@timestamp": "2020-06-16T05:50:16.000016-04:00",
+                "@year": "2020",
+                "@month": "06"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2019",
+                "@month": "11"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": {"xocs:funding-agency-matched-string": "Chulalongkorn Academic Advancement"},
+            "xocs:funding-addon-generated-timestamp": "2021-02-02T08:05:08.098929Z",
+            "xocs:funding-text": "ACKNOWLEDGEMENT This work was a part of the intelligent 3D printing for development project, which was financially supported by the Chulalongkorn Academic Advancement into Its 2nd Century Project.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "@afid": "60028190",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Chulalongkorn University"},
+                            {"$": "Department of Mechanical Engineering"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60028190",
+                            "@dptid": "104425639"
+                        },
+                        "@dptid": "104425639"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Setthibhak",
+                            "preferred-name": {
+                                "ce:given-name": "Setthibhak",
+                                "ce:initials": "S.",
+                                "ce:surname": "Suthithanakom",
+                                "ce:indexed-name": "Suthithanakom S."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Suthithanakom",
+                            "@auid": "57217028634",
+                            "ce:indexed-name": "Suthithanakom S."
+                        },
+                        {
+                            "ce:given-name": "Sakolpoo",
+                            "preferred-name": {
+                                "ce:given-name": "Sakolpoo",
+                                "ce:initials": "S.",
+                                "ce:surname": "Juemjutitam",
+                                "ce:indexed-name": "Juemjutitam S."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Juemjutitam",
+                            "@auid": "57217029086",
+                            "ce:indexed-name": "Juemjutitam S."
+                        },
+                        {
+                            "ce:given-name": "Navaporn",
+                            "preferred-name": {
+                                "ce:given-name": "Navaporn",
+                                "ce:initials": "N.",
+                                "ce:surname": "Arunwattanamongkol",
+                                "ce:indexed-name": "Arunwattanamongkol N."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "N.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Arunwattanamongkol",
+                            "@auid": "57217029425",
+                            "ce:indexed-name": "Arunwattanamongkol N."
+                        },
+                        {
+                            "ce:given-name": "Tepparit",
+                            "preferred-name": {
+                                "ce:given-name": "Tepparit",
+                                "ce:initials": "T.",
+                                "ce:surname": "Wongpakham",
+                                "ce:indexed-name": "Wongpakham T."
+                            },
+                            "@seq": "4",
+                            "ce:initials": "T.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Wongpakham",
+                            "@auid": "57216651574",
+                            "ce:indexed-name": "Wongpakham T."
+                        },
+                        {
+                            "ce:given-name": "Alongkorn",
+                            "preferred-name": {
+                                "ce:given-name": "Alongkorn",
+                                "ce:initials": "A.",
+                                "ce:surname": "Pimpin",
+                                "ce:indexed-name": "Pimpin A."
+                            },
+                            "@seq": "5",
+                            "ce:initials": "A.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Pimpin",
+                            "@auid": "6506324897",
+                            "ce:indexed-name": "Pimpin A."
+                        },
+                        {
+                            "ce:given-name": "Ratchatin",
+                            "preferred-name": {
+                                "ce:given-name": "Ratchatin",
+                                "ce:initials": "R.",
+                                "ce:surname": "Chancharoen",
+                                "ce:indexed-name": "Chancharoen R."
+                            },
+                            "@seq": "6",
+                            "ce:initials": "R.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Chancharoen",
+                            "@auid": "36170214000",
+                            "ce:indexed-name": "Chancharoen R."
+                        }
+                    ]
+                },
+                "citation-title": "Temperature Control for Hydrogel Bio-Printing",
+                "abstracts": "© 2019 IEEE.Recently, there have been many attempts to develop low-cost and open-source bio-printers worldwide. To reduce cost and increase accessibility, the bio-printer should be developed with open-architecture hardware and programming by G-code command. One of challenges is a temperature control. In this study, a nichrome-wire sheet heater syringe and Peltier/copper heat-sink cold-bed were designed to be compact and light-weighted. Thermistor sensors were employed to control temperature on both components. From the tests, our temperature control system could stabilize the temperatures of both the syringe and the cold-bed within 2 oC. No significantly unstable temperature during the printing process was observed. The printing procedure was designed and validated as it could create the dot of the gelatin/fibroblast cell bioink on a glass slide with high percentage of viable cells.",
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Bio-printer",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Bioink",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Gelatin",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Temperature control",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=9094049",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Proceedings of the IEEE 2019 9th International Conference on Cybernetics and Intelligent Systems and Robotics, Automation and Mechatronics, CIS and RAM 2019",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"pagerange": {
+                        "@first": "310",
+                        "@last": "315"
+                    }},
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781728134581",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "9th IEEE International Conference on Cybernetics and Intelligent Systems and Robotics, Automation and Mechatronics, CIS and RAM 2019",
+                            "confnumber": "9",
+                            "confcatnumber": "CFP19835-ART",
+                            "confseriestitle": "IEEE International Conference on Cybernetics and Intelligent Systems and Robotics, Automation and Mechatronics",
+                            "conflocation": {
+                                "@country": "tha",
+                                "city": "Bangkok"
+                            },
+                            "confcode": "160043",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "20",
+                                    "@year": "2019",
+                                    "@month": "11"
+                                },
+                                "startdate": {
+                                    "@day": "18",
+                                    "@year": "2019",
+                                    "@month": "11"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Proceedings of the IEEE 2019 9th International Conference on Cybernetics and Intelligent Systems and Robotics, Automation and Mechatronics, CIS and RAM 2019",
+                    "publicationdate": {
+                        "month": "11",
+                        "year": "2019",
+                        "date-text": "November 2019",
+                        "day": "01"
+                    },
+                    "sourcetitle-abbrev": "Proc. IEEE Int. Conf. Cybern. Intell. Syst. Robot., Autom. Mechatronics, CIS RAM",
+                    "@country": "usa",
+                    "issuetitle": "Proceedings of the IEEE 2019 9th International Conference on Cybernetics and Intelligent Systems and Robotics, Automation and Mechatronics, CIS and RAM 2019",
+                    "publicationyear": {"@first": "2019"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "article-number": "9095808",
+                    "@srcid": "21100995103"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1702"},
+                            {"$": "2210"},
+                            {"$": "2606"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "462.1",
+                                "classification-description": "Biomedical Equipment, General"
+                            },
+                            {
+                                "classification-code": "723",
+                                "classification-description": "Computer Software, Data Handling and Applications"
+                            },
+                            {
+                                "classification-code": "723.4",
+                                "classification-description": "Artificial Intelligence"
+                            },
+                            {
+                                "classification-code": "731.3",
+                                "classification-description": "Specific Variables Control"
+                            },
+                            {
+                                "classification-code": "731.5",
+                                "classification-description": "Robotics"
+                            },
+                            {
+                                "classification-code": "745.1.1",
+                                "classification-description": "Printing Equipment"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "ENGI"},
+                            {"$": "MATH"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2020 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "15",
+                    "@timestamp": "BST 21:39:31",
+                    "@year": "2020",
+                    "@month": "06"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "631966494",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "926127716",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20202308794505",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20202056938",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85085864915",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85085864915",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/CIS-RAM47153.2019.9095808"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "8",
+                "reference": [
+                    {
+                        "ref-fulltext": "Derakhshanfar S., Mbeleck R., Xu K., Zhang X., Zhong W. and Xing M., 2018, \"3D bioprinting for biomedical devices and tissue engineering: A review of recent trends and advances, \" Bioactive Materials, 3, pp. 144-156.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "3D bioprinting for biomedical devices and tissue engineering: A review of recent trends and advances"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85049473303",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "3"},
+                                "pagerange": {
+                                    "@first": "144",
+                                    "@last": "156"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Derakhshanfar",
+                                    "ce:indexed-name": "Derakhshanfar S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mbeleck",
+                                    "ce:indexed-name": "Mbeleck R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang X."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhong",
+                                    "ce:indexed-name": "Zhong W."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xing",
+                                    "ce:indexed-name": "Xing M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Bioactive Materials"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Yenilmez B., Temirel M., Knowlton S., Lepowsky E. and Tasoglu S., 2019, \"Development and characterization of a low-cost 3D bioprinter, \" Bioprinting, https://doi. org/10. 1016/ j. bprint. 2019. e00044",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1016/j.bprint.2019.e00044",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Development and characterization of a low-cost 3D bioprinter"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85061430241",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yenilmez",
+                                    "ce:indexed-name": "Yenilmez B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Temirel",
+                                    "ce:indexed-name": "Temirel M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Knowlton",
+                                    "ce:indexed-name": "Knowlton S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lepowsky",
+                                    "ce:indexed-name": "Lepowsky E."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tasoglu",
+                                    "ce:indexed-name": "Tasoglu S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Bioprinting"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Holzl K., Lin S., Tytgat L., Van Vlierberghe S., Gu L. and Ovsianikov A., 2016, \"Bioink properties before, during and after 3D bioprinting, \" Biofabrication, 8, 32002.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Bioink properties before, during and after 3D bioprinting"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84992150925",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "8"},
+                                "pagerange": {"@first": "32002"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Holzl",
+                                    "ce:indexed-name": "Holzl K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lin",
+                                    "ce:indexed-name": "Lin S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tytgat",
+                                    "ce:indexed-name": "Tytgat L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van Vlierberghe",
+                                    "ce:indexed-name": "Van Vlierberghe S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gu",
+                                    "ce:indexed-name": "Gu L."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ovsianikov",
+                                    "ce:indexed-name": "Ovsianikov A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Biofabrication"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Webb B. and Doyle B. J., 2017, \"Parameter optimization for 3D bioprinting of hydrogels, \" Bioprinting, 8, pp. 8-12.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Parameter optimization for 3D bioprinting of hydrogels"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85030702932",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "8"},
+                                "pagerange": {
+                                    "@first": "8",
+                                    "@last": "12"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Webb",
+                                    "ce:indexed-name": "Webb B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Doyle",
+                                    "ce:indexed-name": "Doyle B.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Bioprinting"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Website : https://reprap. org/wiki/G-code",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://reprap.org/wiki/G-code",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85085862118",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Website"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Alciatore D. G. and Histand M. B., 2003, Introduction to Mechatronics and Measurement Systems, 2nd edition, Mcgraw-Hill Series in Mechanical Engineering; McGraw-Hill: Boston.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003971877",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "2nd edition, Mcgraw-Hill Series in Mechanical Engineering; McGraw-Hill: Boston",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alciatore",
+                                    "ce:indexed-name": "Alciatore D.G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Histand",
+                                    "ce:indexed-name": "Histand M.B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Introduction to Mechatronics and Measurement Systems"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Engelmann G., Laumen M., Oberdieck K. and De Doncker R. W., 2016, \"Peltier module-based temperature control system for power semiconductor characterization, \" 2016 IEEE International Power Electronics and Motion control conference (PEMC), pp. 957-962.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Peltier module-based temperature control system for power semiconductor characterization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85008259043",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "957",
+                                "@last": "962"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Engelmann",
+                                    "ce:indexed-name": "Engelmann G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Laumen",
+                                    "ce:indexed-name": "Laumen M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oberdieck",
+                                    "ce:indexed-name": "Oberdieck K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "De Doncker",
+                                    "ce:indexed-name": "De Doncker R.W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2016 IEEE International Power Electronics and Motion Control Conference (PEMC)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Seifert W., Ueltzen M., Strumpel C., Heiliger W. and Muller E., 2001, \"One-dimensional modeling of a Peltier element, \" 20th International Conference on Thermoelectrics (Cat. No. 01TH8589), pp. 439-443.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "One-dimensional modeling of a Peltier element"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0035709711",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "439",
+                                "@last": "443"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Seifert",
+                                    "ce:indexed-name": "Seifert W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ueltzen",
+                                    "ce:indexed-name": "Ueltzen M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Strumpel",
+                                    "ce:indexed-name": "Strumpel C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Heiliger",
+                                    "ce:indexed-name": "Heiliger W."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Muller",
+                                    "ce:indexed-name": "Muller E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "20th International Conference on Thermoelectrics (Cat. No. 01TH8589)"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Bangkok",
+        "@id": "60028190",
+        "affilname": "Chulalongkorn University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+        "affiliation-country": "Thailand"
+    },
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85085864915",
+        "dc:description": "Recently, there have been many attempts to develop low-cost and open-source bio-printers worldwide. To reduce cost and increase accessibility, the bio-printer should be developed with open-architecture hardware and programming by G-code command. One of challenges is a temperature control. In this study, a nichrome-wire sheet heater syringe and Peltier/copper heat-sink cold-bed were designed to be compact and light-weighted. Thermistor sensors were employed to control temperature on both components. From the tests, our temperature control system could stabilize the temperatures of both the syringe and the cold-bed within 2 oC. No significantly unstable temperature during the printing process was observed. The printing procedure was designed and validated as it could create the dot of the gelatin/fibroblast cell bioink on a glass slide with high percentage of viable cells.",
+        "prism:coverDate": "2019-11-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85085864915",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Setthibhak",
+            "preferred-name": {
+                "ce:given-name": "Setthibhak",
+                "ce:initials": "S.",
+                "ce:surname": "Suthithanakom",
+                "ce:indexed-name": "Suthithanakom S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Suthithanakom",
+            "@auid": "57217028634",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57217028634",
+            "ce:indexed-name": "Suthithanakom S."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85085864915"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85085864915&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85085864915&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781728134581",
+        "source-id": "21100995103",
+        "citedby-count": "1",
+        "subtype": "cp",
+        "dc:title": "Temperature Control for Hydrogel Bio-Printing",
+        "openaccess": "0",
+        "publishercopyright": "© 2019 IEEE.",
+        "article-number": "9095808",
+        "subtypeDescription": "Conference Paper",
+        "prism:publicationName": "Proceedings of the IEEE 2019 9th International Conference on Cybernetics and Intelligent Systems and Robotics, Automation and Mechatronics, CIS and RAM 2019",
+        "prism:pageRange": "310-315",
+        "prism:endingPage": "315",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/CIS-RAM47153.2019.9095808",
+        "prism:startingPage": "310",
+        "dc:identifier": "SCOPUS_ID:85085864915",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Control temperatures",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Glass slides",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Nichrome wire",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Open architecture",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Printing process",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Reduce costs",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Thermistor sensors",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Unstable temperature",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Bio-printer"
+        },
+        {
+            "@_fa": "true",
+            "$": "Bioink"
+        },
+        {
+            "@_fa": "true",
+            "$": "Gelatin"
+        },
+        {
+            "@_fa": "true",
+            "$": "Temperature control"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Artificial Intelligence",
+            "@code": "1702",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Mechanical Engineering",
+            "@code": "2210",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Control and Optimization",
+            "@code": "2606",
+            "@abbrev": "MATH"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Setthibhak",
+            "preferred-name": {
+                "ce:given-name": "Setthibhak",
+                "ce:initials": "S.",
+                "ce:surname": "Suthithanakom",
+                "ce:indexed-name": "Suthithanakom S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Suthithanakom",
+            "@auid": "57217028634",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57217028634",
+            "ce:indexed-name": "Suthithanakom S."
+        },
+        {
+            "ce:given-name": "Sakolpoo",
+            "preferred-name": {
+                "ce:given-name": "Sakolpoo",
+                "ce:initials": "S.",
+                "ce:surname": "Juemjutitam",
+                "ce:indexed-name": "Juemjutitam S."
+            },
+            "@seq": "2",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Juemjutitam",
+            "@auid": "57217029086",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57217029086",
+            "ce:indexed-name": "Juemjutitam S."
+        },
+        {
+            "ce:given-name": "Navaporn",
+            "preferred-name": {
+                "ce:given-name": "Navaporn",
+                "ce:initials": "N.",
+                "ce:surname": "Arunwattanamongkol",
+                "ce:indexed-name": "Arunwattanamongkol N."
+            },
+            "@seq": "3",
+            "ce:initials": "N.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Arunwattanamongkol",
+            "@auid": "57217029425",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57217029425",
+            "ce:indexed-name": "Arunwattanamongkol N."
+        },
+        {
+            "ce:given-name": "Tepparit",
+            "preferred-name": {
+                "ce:given-name": "Tepparit",
+                "ce:initials": "T.",
+                "ce:surname": "Wongpakham",
+                "ce:indexed-name": "Wongpakham T."
+            },
+            "@seq": "4",
+            "ce:initials": "T.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Wongpakham",
+            "@auid": "57216651574",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57216651574",
+            "ce:indexed-name": "Wongpakham T."
+        },
+        {
+            "ce:given-name": "Alongkorn",
+            "preferred-name": {
+                "ce:given-name": "Alongkorn",
+                "ce:initials": "A.",
+                "ce:surname": "Pimpin",
+                "ce:indexed-name": "Pimpin A."
+            },
+            "@seq": "5",
+            "ce:initials": "A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Pimpin",
+            "@auid": "6506324897",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6506324897",
+            "ce:indexed-name": "Pimpin A."
+        },
+        {
+            "ce:given-name": "Ratchatin",
+            "preferred-name": {
+                "ce:given-name": "Ratchatin",
+                "ce:initials": "R.",
+                "ce:surname": "Chancharoen",
+                "ce:indexed-name": "Chancharoen R."
+            },
+            "@seq": "6",
+            "ce:initials": "R.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Chancharoen",
+            "@auid": "36170214000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/36170214000",
+            "ce:indexed-name": "Chancharoen R."
+        }
+    ]}
+}}

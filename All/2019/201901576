@@ -1,0 +1,1620 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "14",
+                "@timestamp": "2021-11-14T11:06:14.000014-05:00",
+                "@year": "2021",
+                "@month": "11"
+            },
+            "ait:date-sort": {
+                "@day": "22",
+                "@year": "2019",
+                "@month": "04"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding-addon-generated-timestamp": "2019-05-15T22:05:20.688Z",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/car"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Department of Computer Engineering"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "113891981"
+                            },
+                            "ce:source-text": "Department of Computer Engineering, Chulalongkorn University, Bangkok, Thailand",
+                            "@dptid": "113891981"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Panayu",
+                                "preferred-name": {
+                                    "ce:given-name": "Panayu",
+                                    "ce:initials": "P.",
+                                    "ce:surname": "Keelawat",
+                                    "ce:indexed-name": "Keelawat P."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "P.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Keelawat",
+                                "@auid": "57208663402",
+                                "ce:indexed-name": "Keelawat P."
+                            },
+                            {
+                                "ce:given-name": "Boonserm",
+                                "preferred-name": {
+                                    "ce:given-name": "Boonserm",
+                                    "ce:initials": "B.",
+                                    "ce:surname": "Kijsirikul",
+                                    "ce:indexed-name": "Kijsirikul B."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "B.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Kijsirikul",
+                                "@auid": "6603602953",
+                                "ce:indexed-name": "Kijsirikul B."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Netherlands",
+                            "@afid": "60020599",
+                            "@country": "nld",
+                            "city": "Enschede",
+                            "organization": [
+                                {"$": "Human Media Interaction"},
+                                {"$": "University of Twente"}
+                            ],
+                            "affiliation-id": {"@afid": "60020599"},
+                            "ce:source-text": "Human Media Interaction, University of Twente, Enschede, Netherlands"
+                        },
+                        "author": [{
+                            "ce:given-name": "Nattapong",
+                            "preferred-name": {
+                                "ce:given-name": "Nattapong",
+                                "ce:initials": "N.",
+                                "ce:surname": "Thammasan",
+                                "ce:indexed-name": "Thammasan N."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "N.",
+                            "@date-locked": "2019-09-12T14:14:40.533",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Thammasan",
+                            "@auid": "55360462500",
+                            "ce:indexed-name": "Thammasan N."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Japan",
+                            "@afid": "60024322",
+                            "@date-locked": "2020-09-04T09:51:32.908",
+                            "@country": "jpn",
+                            "city": "Osaka",
+                            "organization": [
+                                {"$": "Institute of Scientific and Industrial Research"},
+                                {"$": "Osaka University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60024322",
+                                "@dptid": "113378269"
+                            },
+                            "ce:source-text": "The Institute of Scientific and Industrial Research, Osaka University, Osaka, Japan",
+                            "@dptid": "113378269"
+                        },
+                        "author": [{
+                            "ce:given-name": "Masayuki",
+                            "preferred-name": {
+                                "ce:given-name": "Masayuki",
+                                "ce:initials": "M.",
+                                "ce:surname": "Numao",
+                                "ce:indexed-name": "Numao M."
+                            },
+                            "@seq": "4",
+                            "ce:initials": "M.",
+                            "@date-locked": "2019-08-16T17:15:31.078",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Numao",
+                            "@auid": "7004090356",
+                            "ce:indexed-name": "Numao M."
+                        }]
+                    }
+                ],
+                "citation-title": "Subject-Independent Emotion Recognition during Music Listening Based on EEG Using Deep Convolutional Neural Networks",
+                "abstracts": "© 2019 IEEE.Emotion recognition during music listening using electroencephalogram (EEG) has gained more attention from researchers, recently. Many studies focused on accuracy on one subject while subject-independent performance evaluation was still unclear. In this paper, the objective is to create an emotion recognition model that can be applied to multiple subjects. By adopting convolutional neural networks (CNNs), advantage could be gained from utilizing information from electrodes and time steps. Using CNNs also does not need feature extraction which might leave out other related but unobserved features. CNNs with three to seven convolutional layers were deployed in this research. We measured their performance with a binary classification task for compositions of emotions including arousal and valence. The results showed that our method captured EEG signal patterns from numerous subjects by 10-fold cross validation with 81.54% and 86.87% accuracy from arousal and valence respectively. The method also showed a higher capability of generalization to unseen subjects than the previous method as can be observed from the results of leave-one-subject-out validation.",
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Convolutional neural networks",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Electroencephalogram",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Emotion",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Music",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8691549",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Proceedings - 2019 IEEE 15th International Colloquium on Signal Processing and its Applications, CSPA 2019",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"pagerange": {
+                        "@first": "21",
+                        "@last": "26"
+                    }},
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781538675632",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "15th IEEE International Colloquium on Signal Processing and its Applications, CSPA 2019",
+                            "confnumber": "15",
+                            "conforganization": "IEEE Malaysia Section Control Systems Chapter",
+                            "confcatnumber": "CFP1979G-ART",
+                            "confseriestitle": "IEEE International Colloquium on Signal Processing and its Applications",
+                            "conflocation": {
+                                "venue": "Parkroyal Penang Resort",
+                                "@country": "mys",
+                                "city": "Penang"
+                            },
+                            "confcode": "147633",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "09",
+                                    "@year": "2019",
+                                    "@month": "03"
+                                },
+                                "startdate": {
+                                    "@day": "08",
+                                    "@year": "2019",
+                                    "@month": "03"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Proceedings - 2019 IEEE 15th International Colloquium on Signal Processing and its Applications, CSPA 2019",
+                    "publicationdate": {
+                        "month": "04",
+                        "year": "2019",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "22 April 2019"
+                        },
+                        "day": "22"
+                    },
+                    "sourcetitle-abbrev": "Proc. - IEEE Int. Colloq. Signal Process. Appl., CSPA",
+                    "@country": "usa",
+                    "issuetitle": "Proceedings - 2019 IEEE 15th International Colloquium on Signal Processing and its Applications, CSPA 2019",
+                    "publicationyear": {"@first": "2019"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "article-number": "8696054",
+                    "@srcid": "21100905387"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": "1711"
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "461.6",
+                                "classification-description": "Medicine"
+                            },
+                            {
+                                "classification-code": "716.1",
+                                "classification-description": "Information and Communication Theory"
+                            },
+                            {
+                                "classification-code": "751.5",
+                                "classification-description": "Speech"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "COMP"
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2019 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "15",
+                    "@timestamp": "BST 06:31:34",
+                    "@year": "2019",
+                    "@month": "05"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "627619070",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "917386310",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20192006917999",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "85065484513",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85065484513",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/CSPA.2019.8696054"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "26",
+                "reference": [
+                    {
+                        "ref-fulltext": "R. A. Calvo and S. D. Mello, \"Affect Detection: An Interdisciplinary Review of Models, Methods, and Their Applications, \" IEEE Transactions on Affective Computing, vol. 1, no. 1, pp. 18-37, 2010.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Affect detection: An interdisciplinary review of models, methods, and their applications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79953822842",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "1",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "18",
+                                    "@last": "37"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Calvo",
+                                    "ce:indexed-name": "Calvo R.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mello",
+                                    "ce:indexed-name": "Mello S.D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Affective Computing"
+                        },
+                        "ce:source-text": "R. A. Calvo and S. D. Mello, \"Affect Detection: An Interdisciplinary Review of Models, Methods, and Their Applications, \" IEEE Transactions on Affective Computing, vol. 1, no. 1, pp. 18-37, 2010."
+                    },
+                    {
+                        "ref-fulltext": "M. Soleymani, S. Asghari-Esfeden, Y. Fu, and M. Pantic, \"Analysis of EEG Signals and Facial Expressions for Continuous Emotion Detection, \" IEEE Transactions on Affective Computing, vol. 7, no. 1, pp. 17-28, 2016",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Analysis of EEG signals and facial expressions for continuous emotion detection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84963876689",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "7",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "17",
+                                    "@last": "28"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Soleymani",
+                                    "ce:indexed-name": "Soleymani M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Asghari-Esfeden",
+                                    "ce:indexed-name": "Asghari-Esfeden S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fu",
+                                    "ce:indexed-name": "Fu Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pantic",
+                                    "ce:indexed-name": "Pantic M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Affective Computing"
+                        },
+                        "ce:source-text": "M. Soleymani, S. Asghari-Esfeden, Y. Fu, and M. Pantic, \"Analysis of EEG Signals and Facial Expressions for Continuous Emotion Detection, \" IEEE Transactions on Affective Computing, vol. 7, no. 1, pp. 17-28, 2016"
+                    },
+                    {
+                        "ref-fulltext": "C.-T. Wu, G. D. Dillon, H.-C. Hsu, S. Huang, E. Barrick, and Y.-H. Liu, \"Depression Detection Using Relative EEG Power Induced by Emotionally Positive Images and a Conformal Kernel Support Vector Machine, \" Applied Sciences, vol. 8, no. 8, 2018.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Depression detection using relative EEG power induced by emotionally positive images and a conformal kernel support vector machine"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85051085314",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "8",
+                                "@issue": "8"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.-T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu C.-T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dillon",
+                                    "ce:indexed-name": "Dillon G.D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.-C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hsu",
+                                    "ce:indexed-name": "Hsu H.-C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Barrick",
+                                    "ce:indexed-name": "Barrick E."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "Y.-H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Y.-H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Applied Sciences"
+                        },
+                        "ce:source-text": "C.-T. Wu, G. D. Dillon, H.-C. Hsu, S. Huang, E. Barrick, and Y.-H. Liu, \"Depression Detection Using Relative EEG Power Induced by Emotionally Positive Images and a Conformal Kernel Support Vector Machine, \" Applied Sciences, vol. 8, no. 8, 2018."
+                    },
+                    {
+                        "ref-fulltext": "H. Kandemir and H. Kose, \"Effects of Physical Activity Based HCI Games on the Attention, Emotion and Sensory-Motor Coordination, \" in Advances in Service and Industrial Robotics, Cham, 2019, pp. 718-727: Springer International Publishing.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Effects of physical activity based hci games on the attention, emotion and sensory-motor coordination"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85054321969",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "718",
+                                "@last": "727"
+                            }},
+                            "ref-text": "Cham: Springer International Publishing",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kandemir",
+                                    "ce:indexed-name": "Kandemir H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kose",
+                                    "ce:indexed-name": "Kose H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Advances in Service and Industrial Robotics"
+                        },
+                        "ce:source-text": "H. Kandemir and H. Kose, \"Effects of Physical Activity Based HCI Games on the Attention, Emotion and Sensory-Motor Coordination, \" in Advances in Service and Industrial Robotics, Cham, 2019, pp. 718-727: Springer International Publishing."
+                    },
+                    {
+                        "ref-fulltext": "S. Koelsch, \"Brain and music, \" in Brain and music., ed: Wiley-Blackwell, 2012, pp. xiii, 308-xiii, 308.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Brain and music"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85070569642",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {"@first": "xiii308"}},
+                            "ref-text": "ed: Wiley-Blackwell",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "ce:surname": "Koelsch",
+                                "ce:indexed-name": "Koelsch S."
+                            }]},
+                            "ref-sourcetitle": "Brain and Music"
+                        },
+                        "ce:source-text": "S. Koelsch, \"Brain and music, \" in Brain and music., ed: Wiley-Blackwell, 2012, pp. xiii, 308-xiii, 308."
+                    },
+                    {
+                        "ref-fulltext": "S. Koelsch, \"Brain correlates of music-evoked emotions, \" Nature Reviews Neuroscience, Review Article vol. 15, p. 170, 2014.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Brain correlates of music-evoked emotions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84897897734",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "15"},
+                                "pagerange": {"@first": "170"}
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "ce:surname": "Koelsch",
+                                "ce:indexed-name": "Koelsch S."
+                            }]},
+                            "ref-sourcetitle": "Nature Reviews Neuroscience, Review Article"
+                        },
+                        "ce:source-text": "S. Koelsch, \"Brain correlates of music-evoked emotions, \" Nature Reviews Neuroscience, Review Article vol. 15, p. 170, 2014."
+                    },
+                    {
+                        "ref-fulltext": "H.-Y. Chang, S.-C. Huang, and J.-H. Wu, \"A personalized music recommendation system based on electroencephalography feedback, \" Multimedia Tools and Applications, vol. 76, no. 19, pp. 19523-19542, 2017.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "A personalized music recommendation system based on electroencephalography feedback"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84954325687",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "76",
+                                    "@issue": "19"
+                                },
+                                "pagerange": {
+                                    "@first": "19523",
+                                    "@last": "19542"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.-Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang H.-Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.-C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang S.-C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.-H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu J.-H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Multimedia Tools and Applications"
+                        },
+                        "ce:source-text": "H.-Y. Chang, S.-C. Huang, and J.-H. Wu, \"A personalized music recommendation system based on electroencephalography feedback, \" Multimedia Tools and Applications, vol. 76, no. 19, pp. 19523-19542, 2017."
+                    },
+                    {
+                        "ref-fulltext": "M. Soleymani, J. Lichtenauer, T. Pun, and M. Pantic, \"A Multimodal Database for Affect Recognition and Implicit Tagging, \" IEEE Transactions on Affective Computing, vol. 3, no. 1, pp. 42-55, 2012.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "A multimodal database for affect recognition and implicit tagging"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84859911947",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "3",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "42",
+                                    "@last": "55"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Soleymani",
+                                    "ce:indexed-name": "Soleymani M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lichtenauer",
+                                    "ce:indexed-name": "Lichtenauer J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pun",
+                                    "ce:indexed-name": "Pun T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pantic",
+                                    "ce:indexed-name": "Pantic M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Affective Computing"
+                        },
+                        "ce:source-text": "M. Soleymani, J. Lichtenauer, T. Pun, and M. Pantic, \"A Multimodal Database for Affect Recognition and Implicit Tagging, \" IEEE Transactions on Affective Computing, vol. 3, no. 1, pp. 42-55, 2012."
+                    },
+                    {
+                        "ref-fulltext": "J.-M. Lopez-Gil, J. Virgili-Goma, R. Gil, and R. Garcia, \"Method for Improving EEG Based Emotion Recognition by Combining It with Synchronized Biometric and Eye Tracking Technologies in a Non-invasive and Low Cost Way, \" Frontiers in computational neuroscience, vol. 10, pp. 85-85, 2016.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Method for improving EEG based emotion recognition by combining it with synchronized biometric and eye tracking technologies in a non-invasive and low cost way"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84983514538",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "10"},
+                                "pagerange": {"@first": "85"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.-M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lopez-Gil",
+                                    "ce:indexed-name": "Lopez-Gil J.-M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Virgili-Goma",
+                                    "ce:indexed-name": "Virgili-Goma J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gil",
+                                    "ce:indexed-name": "Gil R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Garcia",
+                                    "ce:indexed-name": "Garcia R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Frontiers in Computational Neuroscience"
+                        },
+                        "ce:source-text": "J.-M. Lopez-Gil, J. Virgili-Goma, R. Gil, and R. Garcia, \"Method for Improving EEG Based Emotion Recognition by Combining It with Synchronized Biometric and Eye Tracking Technologies in a Non-invasive and Low Cost Way, \" Frontiers in computational neuroscience, vol. 10, pp. 85-85, 2016."
+                    },
+                    {
+                        "ref-fulltext": "J. Abdur-Rahim et al., \"Multi-Sensor Based State Prediction for Personal Mobility Vehicles, \" PLoS ONE 11 (10): e0162593, 2016.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Multi-sensor based state prediction for personal mobility vehicles"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84991244345",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "11",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {"@first": "e0162593"}
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abdur-Rahim",
+                                    "ce:indexed-name": "Abdur-Rahim J."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "PLoS ONE"
+                        },
+                        "ce:source-text": "J. Abdur-Rahim et al., \"Multi-Sensor Based State Prediction for Personal Mobility Vehicles, \" PLoS ONE 11 (10): e0162593, 2016."
+                    },
+                    {
+                        "ref-fulltext": "G. K. Verma and U. S. Tiwary, \"Multimodal fusion framework: A multiresolution approach for emotion classification and recognition from physiological signals, \" NeuroImage, vol. 102, pp. 162-172, 2014.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Multimodal fusion framework: A multiresolution approach for emotion classification and recognition from physiological signals"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84908272142",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "102"},
+                                "pagerange": {
+                                    "@first": "162",
+                                    "@last": "172"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Verma",
+                                    "ce:indexed-name": "Verma G.K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "U.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tiwary",
+                                    "ce:indexed-name": "Tiwary U.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "NeuroImage"
+                        },
+                        "ce:source-text": "G. K. Verma and U. S. Tiwary, \"Multimodal fusion framework: A multiresolution approach for emotion classification and recognition from physiological signals, \" NeuroImage, vol. 102, pp. 162-172, 2014."
+                    },
+                    {
+                        "ref-fulltext": "N. Thammasan, K.-i. Fukui, and M. Numao, \"Multimodal Fusion of EEG and Musical Features in Music-Emotion Recognition, \" in 2017 AAAI Conference on Artificial Intelligence, 2017.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Multimodal Fusion of EEG and musical features in music-emotion recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85030478778",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thammasan",
+                                    "ce:indexed-name": "Thammasan N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.-I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fukui",
+                                    "ce:indexed-name": "Fukui K.-I."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Numao",
+                                    "ce:indexed-name": "Numao M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2017 AAAI Conference on Artificial Intelligence"
+                        },
+                        "ce:source-text": "N. Thammasan, K.-i. Fukui, and M. Numao, \"Multimodal Fusion of EEG and Musical Features in Music-Emotion Recognition, \" in 2017 AAAI Conference on Artificial Intelligence, 2017."
+                    },
+                    {
+                        "ref-fulltext": "Y.-P. Lin, Y.-H. Yang, and T.-P. Jung, \"Fusion of electroencephalographic dynamics and musical contents for estimating emotional responses in music listening, \" Frontiers in Neuroscience, vol. 8, no. 94, 2014.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Fusion of electroencephalographic dynamics and musical contents for estimating emotional responses in music listening"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84904903007",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "8",
+                                "@issue": "94"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.-P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lin",
+                                    "ce:indexed-name": "Lin Y.-P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.-H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang Y.-H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.-P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jung",
+                                    "ce:indexed-name": "Jung T.-P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Frontiers in Neuroscience"
+                        },
+                        "ce:source-text": "Y.-P. Lin, Y.-H. Yang, and T.-P. Jung, \"Fusion of electroencephalographic dynamics and musical contents for estimating emotional responses in music listening, \" Frontiers in Neuroscience, vol. 8, no. 94, 2014."
+                    },
+                    {
+                        "ref-fulltext": "M.-K. Kim, M. Kim, E. Oh, and S.-P. Kim, \"A Review on the Computational Methods for Emotional State Estimation from the Human EEG, \" Computational and Mathematical Methods in Medicine, vol. 2013, p. 13, 2013.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "A review on the computational methods for emotional state estimation from the human EEG"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84876572036",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2013"},
+                                "pagerange": {"@first": "13"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.-K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim M.-K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oh",
+                                    "ce:indexed-name": "Oh E."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.-P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim S.-P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computational and Mathematical Methods in Medicine"
+                        },
+                        "ce:source-text": "M.-K. Kim, M. Kim, E. Oh, and S.-P. Kim, \"A Review on the Computational Methods for Emotional State Estimation from the Human EEG, \" Computational and Mathematical Methods in Medicine, vol. 2013, p. 13, 2013."
+                    },
+                    {
+                        "ref-fulltext": "Z. Wen, R. Xu, and J. Du, \"A novel convolutional neural networks for emotion recognition based on EEG signal, \" in 2017 International Conference on Security, Pattern Analysis, and Cybernetics (SPAC), 2017, pp. 672-677.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "A novel convolutional neural networks for emotion recognition based on EEG signal"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85050633711",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "672",
+                                "@last": "677"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wen",
+                                    "ce:indexed-name": "Wen Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Du",
+                                    "ce:indexed-name": "Du J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2017 International Conference on Security, Pattern Analysis, and Cybernetics (SPAC)"
+                        },
+                        "ce:source-text": "Z. Wen, R. Xu, and J. Du, \"A novel convolutional neural networks for emotion recognition based on EEG signal, \" in 2017 International Conference on Security, Pattern Analysis, and Cybernetics (SPAC), 2017, pp. 672-677."
+                    },
+                    {
+                        "ref-fulltext": "J. A. Russell, \"A circumplex model of affect, \" Journal of Personality and Social Psychology, vol. 39, no. 6, pp. 1161-1178, 1980.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1980"},
+                            "ref-title": {"ref-titletext": "A circumplex model of affect"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "4644280844",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "39",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "1161",
+                                    "@last": "1178"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.A.",
+                                "@_fa": "true",
+                                "ce:surname": "Russell",
+                                "ce:indexed-name": "Russell J.A."
+                            }]},
+                            "ref-sourcetitle": "Journal of Personality and Social Psychology"
+                        },
+                        "ce:source-text": "J. A. Russell, \"A circumplex model of affect, \" Journal of Personality and Social Psychology, vol. 39, no. 6, pp. 1161-1178, 1980."
+                    },
+                    {
+                        "ref-fulltext": "Y. Lin et al., \"EEG-Based Emotion Recognition in Music Listening, \" IEEE Transactions on Biomedical Engineering, vol. 57, no. 7, pp. 1798-1806, 2010.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "EEG-based emotion recognition in music listening"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77953784197",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "57",
+                                    "@issue": "7"
+                                },
+                                "pagerange": {
+                                    "@first": "1798",
+                                    "@last": "1806"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lin",
+                                    "ce:indexed-name": "Lin Y."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE Transactions on Biomedical Engineering"
+                        },
+                        "ce:source-text": "Y. Lin et al., \"EEG-Based Emotion Recognition in Music Listening, \" IEEE Transactions on Biomedical Engineering, vol. 57, no. 7, pp. 1798-1806, 2010."
+                    },
+                    {
+                        "ref-fulltext": "Z. Khalili and M. H. Moradi, \"Emotion recognition system using brain and peripheral signals: Using correlation dimension to improve the results of EEG, \" in 2009 International Joint Conference on Neural Networks, 2009, pp. 1571-1575.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Emotion recognition system using brain and peripheral signals: Using correlation dimension to improve the results of EEG"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "70449569272",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1571",
+                                "@last": "1575"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Khalili",
+                                    "ce:indexed-name": "Khalili Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Moradi",
+                                    "ce:indexed-name": "Moradi M.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2009 International Joint Conference on Neural Networks"
+                        },
+                        "ce:source-text": "Z. Khalili and M. H. Moradi, \"Emotion recognition system using brain and peripheral signals: Using correlation dimension to improve the results of EEG, \" in 2009 International Joint Conference on Neural Networks, 2009, pp. 1571-1575."
+                    },
+                    {
+                        "ref-fulltext": "S. Jirayucharoensak, S. Pan-Ngum, and P. Israsena, \"EEG-Based Emotion Recognition Using Deep Learning Network with Principal Component Based Covariate Shift Adaptation, \" The Scientific World Journal, vol. 2014, p. 10, 2014.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "EEG-based emotion recognition using deep learning network with principal component based covariate shift adaptation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84930963132",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2014"},
+                                "pagerange": {"@first": "10"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jirayucharoensak",
+                                    "ce:indexed-name": "Jirayucharoensak S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pan-Ngum",
+                                    "ce:indexed-name": "Pan-Ngum S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Israsena",
+                                    "ce:indexed-name": "Israsena P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "The Scientific World Journal"
+                        },
+                        "ce:source-text": "S. Jirayucharoensak, S. Pan-Ngum, and P. Israsena, \"EEG-Based Emotion Recognition Using Deep Learning Network with Principal Component Based Covariate Shift Adaptation, \" The Scientific World Journal, vol. 2014, p. 10, 2014."
+                    },
+                    {
+                        "ref-fulltext": "S. Koelstra et al., \"DEAP: A Database for Emotion Analysis; Using Physiological Signals, \" IEEE Trans. Affect. Comput., vol. 3, no. 1, pp. 18-31, 2012.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "DEAP: A database for emotion analysis; Using physiological signals"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84859916185",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "3",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "18",
+                                    "@last": "31"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koelstra",
+                                    "ce:indexed-name": "Koelstra S."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE Trans. Affect. Comput"
+                        },
+                        "ce:source-text": "S. Koelstra et al., \"DEAP: A Database for Emotion Analysis; Using Physiological Signals, \" IEEE Trans. Affect. Comput., vol. 3, no. 1, pp. 18-31, 2012."
+                    },
+                    {
+                        "ref-fulltext": "S. Alhagry, A. A. Fahmy, and R. A. El-Khoribi, \"Emotion Recognition based on EEG using LSTM Recurrent Neural Network, \" International Journal of Advanced Computer Science and Applications (IJACSA), vol. 8, no. 10, 2017.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Emotion recognition based on EEG using lstm recurrent neural network"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85047653060",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "8",
+                                "@issue": "10"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alhagry",
+                                    "ce:indexed-name": "Alhagry S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fahmy",
+                                    "ce:indexed-name": "Fahmy A.A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "El-Khoribi",
+                                    "ce:indexed-name": "El-Khoribi R.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Journal of Advanced Computer Science and Applications (IJACSA)"
+                        },
+                        "ce:source-text": "S. Alhagry, A. A. Fahmy, and R. A. El-Khoribi, \"Emotion Recognition based on EEG using LSTM Recurrent Neural Network, \" International Journal of Advanced Computer Science and Applications (IJACSA), vol. 8, no. 10, 2017."
+                    },
+                    {
+                        "ref-fulltext": "L. Xiang, S. Dawei, Z. Peng, Y. Guangliang, H. Yuexian, and H. Bin, \"Emotion recognition from multi-channel EEG data through Convolutional Recurrent Neural Network, \" in 2016 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), 2016, pp. 352-359.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Emotion recognition from multi-channel EEG data through convolutional recurrent neural network"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85013335874",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "352",
+                                "@last": "359"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xiang",
+                                    "ce:indexed-name": "Xiang L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dawei",
+                                    "ce:indexed-name": "Dawei S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peng",
+                                    "ce:indexed-name": "Peng Z."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guangliang",
+                                    "ce:indexed-name": "Guangliang Y."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yuexian",
+                                    "ce:indexed-name": "Yuexian H."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bin",
+                                    "ce:indexed-name": "Bin H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2016 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)"
+                        },
+                        "ce:source-text": "L. Xiang, S. Dawei, Z. Peng, Y. Guangliang, H. Yuexian, and H. Bin, \"Emotion recognition from multi-channel EEG data through Convolutional Recurrent Neural Network, \" in 2016 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), 2016, pp. 352-359."
+                    },
+                    {
+                        "ref-fulltext": "A. Delorme et al., \"EEGLAB, SIFT, NFT, BCILAB, and ERICA: New Tools for Advanced EEG Processing, \" Computational Intelligence and Neuroscience, vol. 2011, p. 12, 2011.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "EEGLAB, SIFT, NFT, BCILAB, and ERICA: New tools for advanced EEG processing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79959201819",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2011"},
+                                "pagerange": {"@first": "12"}
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Delorme",
+                                    "ce:indexed-name": "Delorme A."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Computational Intelligence and Neuroscience"
+                        },
+                        "ce:source-text": "A. Delorme et al., \"EEGLAB, SIFT, NFT, BCILAB, and ERICA: New Tools for Advanced EEG Processing, \" Computational Intelligence and Neuroscience, vol. 2011, p. 12, 2011."
+                    },
+                    {
+                        "ref-fulltext": "N. Srivastava, G. Hinton, A. Krizhevsky, I. Sutskever, and R. Salakhutdinov, \"Dropout: a simple way to prevent neural networks from overfitting, \" The Journal of Machine Learning Research, vol. 15, no. 1, pp. 1929-1958, 2014.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Dropout: A simple way to prevent neural networks from overfitting"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84904163933",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "15",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "1929",
+                                    "@last": "1958"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Srivastava",
+                                    "ce:indexed-name": "Srivastava N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hinton",
+                                    "ce:indexed-name": "Hinton G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krizhevsky",
+                                    "ce:indexed-name": "Krizhevsky A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sutskever",
+                                    "ce:indexed-name": "Sutskever I."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Salakhutdinov",
+                                    "ce:indexed-name": "Salakhutdinov R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "The Journal of Machine Learning Research"
+                        },
+                        "ce:source-text": "N. Srivastava, G. Hinton, A. Krizhevsky, I. Sutskever, and R. Salakhutdinov, \"Dropout: a simple way to prevent neural networks from overfitting, \" The Journal of Machine Learning Research, vol. 15, no. 1, pp. 1929-1958, 2014."
+                    },
+                    {
+                        "ref-fulltext": "D. P. Kingma and J. Ba, \"Adam: A method for stochastic optimization, \" arXiv preprint arXiv: 1412. 6980, 2014.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1412. 6980",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84941620184",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kingma",
+                                    "ce:indexed-name": "Kingma D.P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ba",
+                                    "ce:indexed-name": "Ba J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Adam: A Method for Stochastic Optimization"
+                        },
+                        "ce:source-text": "D. P. Kingma and J. Ba, \"Adam: A method for stochastic optimization, \" arXiv preprint arXiv: 1412. 6980, 2014."
+                    },
+                    {
+                        "ref-fulltext": "B. W. Matthews, \"Comparison of the predicted and observed secondary structure of T4 phage lysozyme, \" Biochimica et Biophysica Acta (BBA)-Protein Structure, vol. 405, no. 2, pp. 442-451, 1975.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1975"},
+                            "ref-title": {"ref-titletext": "Comparison of the predicted and observed secondary structure of T4 phage lysozyme"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0016772212",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "405",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "442",
+                                    "@last": "451"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "B.W.",
+                                "@_fa": "true",
+                                "ce:surname": "Matthews",
+                                "ce:indexed-name": "Matthews B.W."
+                            }]},
+                            "ref-sourcetitle": "Biochimica et Biophysica Acta (BBA)-Protein Structure"
+                        },
+                        "ce:source-text": "B. W. Matthews, \"Comparison of the predicted and observed secondary structure of T4 phage lysozyme, \" Biochimica et Biophysica Acta (BBA)-Protein Structure, vol. 405, no. 2, pp. 442-451, 1975."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Suita",
+            "@id": "60024322",
+            "affilname": "Osaka University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60024322",
+            "affiliation-country": "Japan"
+        },
+        {
+            "affiliation-city": "Enschede",
+            "@id": "60020599",
+            "affilname": "Universiteit Twente",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60020599",
+            "affiliation-country": "Netherlands"
+        }
+    ],
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85065484513",
+        "dc:description": "Emotion recognition during music listening using electroencephalogram (EEG) has gained more attention from researchers, recently. Many studies focused on accuracy on one subject while subject-independent performance evaluation was still unclear. In this paper, the objective is to create an emotion recognition model that can be applied to multiple subjects. By adopting convolutional neural networks (CNNs), advantage could be gained from utilizing information from electrodes and time steps. Using CNNs also does not need feature extraction which might leave out other related but unobserved features. CNNs with three to seven convolutional layers were deployed in this research. We measured their performance with a binary classification task for compositions of emotions including arousal and valence. The results showed that our method captured EEG signal patterns from numerous subjects by 10-fold cross validation with 81.54% and 86.87% accuracy from arousal and valence respectively. The method also showed a higher capability of generalization to unseen subjects than the previous method as can be observed from the results of leave-one-subject-out validation.",
+        "prism:coverDate": "2019-04-22",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85065484513",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Panayu",
+            "preferred-name": {
+                "ce:given-name": "Panayu",
+                "ce:initials": "P.",
+                "ce:surname": "Keelawat",
+                "ce:indexed-name": "Keelawat P."
+            },
+            "@seq": "1",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Keelawat",
+            "@auid": "57208663402",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57208663402",
+            "ce:indexed-name": "Keelawat P."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85065484513"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85065484513&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85065484513&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781538675632",
+        "source-id": "21100905387",
+        "citedby-count": "17",
+        "subtype": "cp",
+        "dc:title": "Subject-Independent Emotion Recognition during Music Listening Based on EEG Using Deep Convolutional Neural Networks",
+        "openaccess": "2",
+        "publishercopyright": "© 2019 IEEE.",
+        "article-number": "8696054",
+        "subtypeDescription": "Conference Paper",
+        "prism:publicationName": "Proceedings - 2019 IEEE 15th International Colloquium on Signal Processing and its Applications, CSPA 2019",
+        "prism:pageRange": "21-26",
+        "prism:endingPage": "26",
+        "openaccessFlag": null,
+        "prism:doi": "10.1109/CSPA.2019.8696054",
+        "prism:startingPage": "21",
+        "dc:identifier": "SCOPUS_ID:85065484513",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "10-fold cross-validation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Binary classification",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Convolutional neural network",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Electro-encephalogram (EEG)",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Emotion",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Emotion recognition",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Music",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Unobserved features",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Convolutional neural networks"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electroencephalogram"
+        },
+        {
+            "@_fa": "true",
+            "$": "Emotion"
+        },
+        {
+            "@_fa": "true",
+            "$": "Music"
+        }
+    ]},
+    "subject-areas": {"subject-area": [{
+        "@_fa": "true",
+        "$": "Signal Processing",
+        "@code": "1711",
+        "@abbrev": "COMP"
+    }]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Panayu",
+            "preferred-name": {
+                "ce:given-name": "Panayu",
+                "ce:initials": "P.",
+                "ce:surname": "Keelawat",
+                "ce:indexed-name": "Keelawat P."
+            },
+            "@seq": "1",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Keelawat",
+            "@auid": "57208663402",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57208663402",
+            "ce:indexed-name": "Keelawat P."
+        },
+        {
+            "ce:given-name": "Nattapong",
+            "preferred-name": {
+                "ce:given-name": "Nattapong",
+                "ce:initials": "N.",
+                "ce:surname": "Thammasan",
+                "ce:indexed-name": "Thammasan N."
+            },
+            "@seq": "2",
+            "ce:initials": "N.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60020599",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60020599"
+            },
+            "ce:surname": "Thammasan",
+            "@auid": "55360462500",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55360462500",
+            "ce:indexed-name": "Thammasan N."
+        },
+        {
+            "ce:given-name": "Boonserm",
+            "preferred-name": {
+                "ce:given-name": "Boonserm",
+                "ce:initials": "B.",
+                "ce:surname": "Kijsirikul",
+                "ce:indexed-name": "Kijsirikul B."
+            },
+            "@seq": "3",
+            "ce:initials": "B.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Kijsirikul",
+            "@auid": "6603602953",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6603602953",
+            "ce:indexed-name": "Kijsirikul B."
+        },
+        {
+            "ce:given-name": "Masayuki",
+            "preferred-name": {
+                "ce:given-name": "Masayuki",
+                "ce:initials": "M.",
+                "ce:surname": "Numao",
+                "ce:indexed-name": "Numao M."
+            },
+            "@seq": "4",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60024322",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60024322"
+            },
+            "ce:surname": "Numao",
+            "@auid": "7004090356",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7004090356",
+            "ce:indexed-name": "Numao M."
+        }
+    ]}
+}}

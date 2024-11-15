@@ -1,0 +1,2906 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "20",
+                "@timestamp": "2023-08-20T01:29:27.000027-04:00",
+                "@year": "2023",
+                "@month": "08"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2022",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {"xocs:funding-agency-matched-string": "Wireless Network and Future Internet Research Unit"},
+                {
+                    "xocs:funding-agency-matched-string": "Chulalongkorn University",
+                    "xocs:funding-agency-acronym": "CU",
+                    "xocs:funding-agency": "Chulalongkorn University",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002873",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1605651/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2022-10-09T03:04:43.630Z",
+            "xocs:funding-text": "This work was supported in part by the 100th Anniversary Chulalongkorn University Fund for Doctoral Scholarship, and in part by the Wireless Network and Future Internet Research Unit, Chulalongkorn University.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "postal-code": "10330",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Chulalongkorn University"},
+                                {"$": "Wireless Network and Future Internet Research Unit (WIFUN)"},
+                                {"$": "Department of Computer Engineering"},
+                                {"$": "Faculty of Engineering"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "113891981"
+                            },
+                            "@affiliation-instance-id": "2020514244-69f48ee62cd4d2ed097e82771b8a53a6",
+                            "ce:source-text": "Chulalongkorn University, Wireless Network and Future Internet Research Unit (WIFUN), Department of Computer Engineering, Faculty of Engineering, Bangkok, Thailand, 10330",
+                            "@dptid": "113891981"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Kiattikun",
+                                "preferred-name": {
+                                    "ce:given-name": "Kiattikun",
+                                    "ce:initials": "K.",
+                                    "ce:surname": "Kawila",
+                                    "ce:indexed-name": "Kawila K."
+                                },
+                                "@author-instance-id": "2020514244-68af9e04cafd59fd034e82d577c7c945",
+                                "@seq": "1",
+                                "ce:initials": "K.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Kawila",
+                                "@auid": "56285427900",
+                                "@orcid": "0000-0001-9114-6926",
+                                "ce:indexed-name": "Kawila K."
+                            },
+                            {
+                                "ce:given-name": "Kultida",
+                                "preferred-name": {
+                                    "ce:given-name": "Kultida",
+                                    "ce:initials": "K.",
+                                    "ce:surname": "Rojviboonchai",
+                                    "ce:indexed-name": "Rojviboonchai K."
+                                },
+                                "@author-instance-id": "2020514244-9b1b2a140f2dca218efc7c7dc6e2be53",
+                                "@seq": "3",
+                                "ce:initials": "K.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Rojviboonchai",
+                                "@auid": "56054228300",
+                                "@orcid": "0000-0002-5251-4690",
+                                "ce:indexed-name": "Rojviboonchai K."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "South Korea",
+                            "postal-code": "61005",
+                            "@afid": "60068688",
+                            "@country": "kor",
+                            "city": "Gwangju",
+                            "organization": [
+                                {"$": "Gwangju Institute of Science and Technology"},
+                                {"$": "Artificial Intelligence Graduate School"}
+                            ],
+                            "affiliation-id": {"@afid": "60068688"},
+                            "@affiliation-instance-id": "2020514244-1b858e4c3b6c25317f7ca779eea134f2",
+                            "ce:source-text": "Gwangju Institute of Science and Technology, Artificial Intelligence Graduate School, Gwangju, Republic of Korea, 61005"
+                        },
+                        "author": [{
+                            "ce:given-name": "Jongwon",
+                            "preferred-name": {
+                                "ce:given-name": "Jongwon",
+                                "ce:initials": "J.",
+                                "ce:surname": "Kim",
+                                "ce:indexed-name": "Kim J."
+                            },
+                            "@author-instance-id": "2020514244-d8ea5a8510508bdc01cc5f8024d3796f",
+                            "@seq": "2",
+                            "ce:initials": "J.",
+                            "@date-locked": "2022-09-29T07:43:15.361",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Kim",
+                            "@auid": "36063003600",
+                            "ce:indexed-name": "Kim J."
+                        }]
+                    }
+                ],
+                "citation-title": "An SDN-Coordinated Steering Framework for Multipath Big Data Transfer Application",
+                "abstracts": "© 2013 IEEE.Data Transmission is a primary mechanism that can affect the performance of distributed storage systems. The traditional single-path transmission protocols are not efficient to serve several requirements of big data applications. In this paper, we propose an SDN-coordinated steering framework for multipath big data transfer applications. Multipath TCP protocol (MPTCP) coupled with SDN are mainly used for big data transfer in our framework. This framework is useful and cost-effective for OpenFlow networks and overlay networks. To provide a practical multipath transmission scheme for big data transfer applications using MPTCP, we propose a novel OpenFlow-Stats routing algorithm. In our algorithm, a new topology-pruning technique is applied, and the transmission paths are selected based on switch-port statistics. Our proposed framework is implemented and evaluated using the Mininet emulator and ONOS controller. The results show that our routing scheme can reduce the completion time of big data transfer up to 90% compared with the traditional routing with disjoint paths and up to 35% compared with the previous work. Moreover, our proposed routing is more scalable than other previous works in that it can provide lower complexity and system overhead. The results show that our routing scheme produces 57% less overhead compared with the previous work.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Thailand",
+                        "postal-code": "10330",
+                        "@country": "tha",
+                        "city": "Bangkok",
+                        "organization": [
+                            {"$": "Chulalongkorn University"},
+                            {"$": "Wireless Network and Future Internet Research Unit (WIFUN)"},
+                            {"$": "Department of Computer Engineering"},
+                            {"$": "Faculty of Engineering"}
+                        ],
+                        "ce:source-text": "Chulalongkorn University, Wireless Network and Future Internet Research Unit (WIFUN), Department of Computer Engineering, Faculty of Engineering, Bangkok, Thailand, 10330"
+                    },
+                    "person": {
+                        "ce:given-name": "Kultida",
+                        "ce:initials": "K.",
+                        "ce:surname": "Rojviboonchai",
+                        "ce:indexed-name": "Rojviboonchai K."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Big data",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "data transfer",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "multipath TCP",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "OpenFlow",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "OpenFlow network",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "overlay network",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "software-defined networking",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "IEEE Access",
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639",
+                        "@type": "email"
+                    }},
+                    "@country": "usa",
+                    "translated-sourcetitle": {
+                        "$": "IEEE Access",
+                        "@xml:lang": "eng"
+                    },
+                    "issn": {
+                        "$": "21693536",
+                        "@type": "electronic"
+                    },
+                    "volisspag": {
+                        "voliss": {"@volume": "10"},
+                        "pagerange": {
+                            "@first": "95859",
+                            "@last": "95875"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2022"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "sourcetitle": "IEEE Access",
+                    "@srcid": "21100374601",
+                    "publicationdate": {
+                        "year": "2022",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2022"
+                        }
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "602.2",
+                                "classification-description": "Mechanical Transmissions"
+                            },
+                            {
+                                "classification-code": "722",
+                                "classification-description": "Computer Systems and Equipment"
+                            },
+                            {
+                                "classification-code": "722.1",
+                                "classification-description": "Data Storage, Equipment and Techniques"
+                            },
+                            {
+                                "classification-code": "722.3",
+                                "classification-description": "Data Communication, Equipment and Techniques"
+                            },
+                            {
+                                "classification-code": "723",
+                                "classification-description": "Computer Software, Data Handling and Applications"
+                            },
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing and Image Processing"
+                            },
+                            {
+                                "classification-code": "921.4",
+                                "classification-description": "Combinatorial Mathematics, Includes Graph Theory, Set Theory"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1700"},
+                            {"$": "2500"},
+                            {"$": "2200"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "MATE"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This work was supported in part by the 100th Anniversary Chulalongkorn University Fund for Doctoral Scholarship, and in part by the Wireless Network and Future Internet Research Unit, Chulalongkorn University.",
+                        "@xml:lang": "eng"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2022 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "SNCPX"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "08",
+                    "@timestamp": "BST 08:47:55",
+                    "@year": "2022",
+                    "@month": "10"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2020269378",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "942888306",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20223812754665",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20222744345",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20223227679",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "2022106709",
+                            "@idtype": "SNCPX"
+                        },
+                        {
+                            "$": "20210017293570",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85137876029",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85137876029",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/ACCESS.2022.3205118"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "44",
+                "reference": [
+                    {
+                        "ref-fulltext": "C. L. P. Chen and C.-Y. Zhang, \"Data-intensive applications, challenges, techniques and technologies: A survey on big data,'' Inf. Sci., vol. 275, pp. 314-347, Aug. 2014.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Data-intensive applications, challenges, techniques and technologies: A survey on big data"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84900800509",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "275"},
+                                "pagerange": {
+                                    "@first": "314",
+                                    "@last": "347"
+                                }
+                            },
+                            "ref-text": "Aug.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.L.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen C.L.P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.-Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang C.-Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Inf. Sci."
+                        },
+                        "ce:source-text": "C. L. P. Chen and C.-Y. Zhang, \"Data-intensive applications, challenges, techniques and technologies: A survey on big data,'' Inf. Sci., vol. 275, pp. 314-347, Aug. 2014."
+                    },
+                    {
+                        "ref-fulltext": "M. Chen, S. Mao, and Y. Liu, \"Big data: A survey,'' Mobile Netw. Appl., vol. 19, no. 2, pp. 171-209, Apr. 2014.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Big data: A survey"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84898796363",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "19",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "171",
+                                    "@last": "209"
+                                }
+                            },
+                            "ref-text": "Apr.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mao",
+                                    "ce:indexed-name": "Mao S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Mobile Netw. Appl."
+                        },
+                        "ce:source-text": "M. Chen, S. Mao, and Y. Liu, \"Big data: A survey,'' Mobile Netw. Appl., vol. 19, no. 2, pp. 171-209, Apr. 2014."
+                    },
+                    {
+                        "ref-fulltext": "C. Yang, Q. Huang, Z. Li, K. Liu, and F. Hu, \"Big Data and cloud computing: Innovation opportunities and challenges,'' Int. J. Digit. Earth, vol. 10, no. 1, pp. 13-53, 2017.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Big Data and cloud computing: Innovation opportunities and challenges"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84994158303",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "10",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "13",
+                                    "@last": "53"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang Q."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Z."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu K."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Digit. Earth"
+                        },
+                        "ce:source-text": "C. Yang, Q. Huang, Z. Li, K. Liu, and F. Hu, \"Big Data and cloud computing: Innovation opportunities and challenges,'' Int. J. Digit. Earth, vol. 10, no. 1, pp. 13-53, 2017."
+                    },
+                    {
+                        "ref-fulltext": "A. Oussous, F. Z. Benjelloun, A. A. Lahcen, and S. Belfkih, \"Big data technologies: A survey,'' J. King Saud Univ. Comput. Inf. Sci., vol. 30, no. 4, pp. 431-448, Oct. 2018.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Big data technologies: A survey"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85020839077",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "30",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "431",
+                                    "@last": "448"
+                                }
+                            },
+                            "ref-text": "Oct.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oussous",
+                                    "ce:indexed-name": "Oussous A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Benjelloun",
+                                    "ce:indexed-name": "Benjelloun F.Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lahcen",
+                                    "ce:indexed-name": "Lahcen A.A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Belfkih",
+                                    "ce:indexed-name": "Belfkih S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. King Saud Univ. Comput. Inf. Sci."
+                        },
+                        "ce:source-text": "A. Oussous, F. Z. Benjelloun, A. A. Lahcen, and S. Belfkih, \"Big data technologies: A survey,'' J. King Saud Univ. Comput. Inf. Sci., vol. 30, no. 4, pp. 431-448, Oct. 2018."
+                    },
+                    {
+                        "ref-fulltext": "S. Yu, M. Liu, W. Dou, X. Liu, and S. Zhou, \"Networking for big data: A survey,'' IEEE Commun. Surveys Tuts., vol. 19, no. 1, pp. 531-549, 1st Quart., 2016.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Networking for big data: A survey"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85014086530",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "19",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "531",
+                                    "@last": "549"
+                                }
+                            },
+                            "ref-text": "1st Quart.,.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dou",
+                                    "ce:indexed-name": "Dou W."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu X."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Commun. Surveys Tuts."
+                        },
+                        "ce:source-text": "S. Yu, M. Liu, W. Dou, X. Liu, and S. Zhou, \"Networking for big data: A survey,'' IEEE Commun. Surveys Tuts., vol. 19, no. 1, pp. 531-549, 1st Quart., 2016."
+                    },
+                    {
+                        "ref-fulltext": "Z. Liu, R. Kettimuthu, I. Foster, and P. H. Beckman, \"Toward a smart data transfer node,'' FutureGener. Comput. Syst., vol. 89, pp. 10-18,Dec. 2018.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Toward a smart data transfer node"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85049086928",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "89"},
+                                "pagerange": {
+                                    "@first": "10",
+                                    "@last": "18"
+                                }
+                            },
+                            "ref-text": "Dec.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kettimuthu",
+                                    "ce:indexed-name": "Kettimuthu R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Foster",
+                                    "ce:indexed-name": "Foster I."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Beckman",
+                                    "ce:indexed-name": "Beckman P.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "FutureGener. Comput. Syst."
+                        },
+                        "ce:source-text": "Z. Liu, R. Kettimuthu, I. Foster, and P. H. Beckman, \"Toward a smart data transfer node,'' FutureGener. Comput. Syst., vol. 89, pp. 10-18,Dec. 2018."
+                    },
+                    {
+                        "ref-fulltext": "Y. Qin, I. Rodero, A. Simonet, C. Meertens, D. Reiner, J. Riley, and M. Parashar, \"Leveraging user access patterns and advanced cyberinfras tructure to accelerate data delivery from shared-use scientific observato ries,'' Future Gener. Comput. Syst., vol. 122, pp. 14-27, Sep. 2021.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Leveraging user access patterns and advanced cyberinfras tructure to accelerate data delivery from shared-use scientific observato ries"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85103773872",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "122"},
+                                "pagerange": {
+                                    "@first": "14",
+                                    "@last": "27"
+                                }
+                            },
+                            "ref-text": "Sep.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qin",
+                                    "ce:indexed-name": "Qin Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rodero",
+                                    "ce:indexed-name": "Rodero I."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Simonet",
+                                    "ce:indexed-name": "Simonet A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Meertens",
+                                    "ce:indexed-name": "Meertens C."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Reiner",
+                                    "ce:indexed-name": "Reiner D."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Riley",
+                                    "ce:indexed-name": "Riley J."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Parashar",
+                                    "ce:indexed-name": "Parashar M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Future Gener. Comput. Syst."
+                        },
+                        "ce:source-text": "Y. Qin, I. Rodero, A. Simonet, C. Meertens, D. Reiner, J. Riley, and M. Parashar, \"Leveraging user access patterns and advanced cyberinfras tructure to accelerate data delivery from shared-use scientific observato ries,'' Future Gener. Comput. Syst., vol. 122, pp. 14-27, Sep. 2021."
+                    },
+                    {
+                        "ref-fulltext": "S. K. Singh, T. Das, and A. Jukan, \"A survey on internet multipath routing and provisioning,'' IEEE Commun. Surveys Tuts., vol. 17, no. 4, pp. 2157-2175, Jul. 2015.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "A survey on internet multipath routing and provisioning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84970029068",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "17",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "2157",
+                                    "@last": "2175"
+                                }
+                            },
+                            "ref-text": "Jul.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Singh",
+                                    "ce:indexed-name": "Singh S.K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Das",
+                                    "ce:indexed-name": "Das T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jukan",
+                                    "ce:indexed-name": "Jukan A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Commun. Surveys Tuts."
+                        },
+                        "ce:source-text": "S. K. Singh, T. Das, and A. Jukan, \"A survey on internet multipath routing and provisioning,'' IEEE Commun. Surveys Tuts., vol. 17, no. 4, pp. 2157-2175, Jul. 2015."
+                    },
+                    {
+                        "ref-fulltext": "M.Doshi andA.Kamdar, \"Multi-constraintQoS disjointmultipath routing in SDN,'' in Proc. Moscow Workshop Electron. Netw. Technol. (MWENT), Moscow, Russia, Mar. 2018, pp. 1-5.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Multi-constraintQoS disjointmultipath routing in SDN"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85051035439",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "5"
+                            }},
+                            "ref-text": "Mar, Moscow, Russia",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Doshi",
+                                    "ce:indexed-name": "Doshi M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kamdar",
+                                    "ce:indexed-name": "Kamdar A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Moscow Workshop Electron. Netw. Technol. (MWENT)"
+                        },
+                        "ce:source-text": "M.Doshi andA.Kamdar, \"Multi-constraintQoS disjointmultipath routing in SDN,'' in Proc. Moscow Workshop Electron. Netw. Technol. (MWENT), Moscow, Russia, Mar. 2018, pp. 1-5."
+                    },
+                    {
+                        "ref-fulltext": "J. Tapolcai, G. Retvari, P. Babarczi, and E. R. Berczi-Kovacs, \"Scalable and efficient multipath routing via redundant trees,'' IEEE J. Sel. Areas Commun., vol. 37, no. 5, pp. 982-996, May 2019.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Scalable and efficient multipath routing via redundant trees"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85063393858",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "37",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "982",
+                                    "@last": "996"
+                                }
+                            },
+                            "ref-text": "May.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tapolcai",
+                                    "ce:indexed-name": "Tapolcai J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Retvari",
+                                    "ce:indexed-name": "Retvari G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Babarczi",
+                                    "ce:indexed-name": "Babarczi P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "E.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Berczi-Kovacs",
+                                    "ce:indexed-name": "Berczi-Kovacs E.R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE J. Sel. Areas Commun."
+                        },
+                        "ce:source-text": "J. Tapolcai, G. Retvari, P. Babarczi, and E. R. Berczi-Kovacs, \"Scalable and efficient multipath routing via redundant trees,'' IEEE J. Sel. Areas Commun., vol. 37, no. 5, pp. 982-996, May 2019."
+                    },
+                    {
+                        "ref-fulltext": "L. Zuo, M. Zhu, C. Wu, A. Hou, and L. Cao, \"Bandwidth reservation for data transfers through multiple disjoint paths of dynamic HPNs,'' in Proc. IEEE Int. Conf. HPCC/SmartCity/DSS, Zhangjiajie, China, Aug. 2019, pp. 2455-2460.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Bandwidth reservation for data transfers through multiple disjoint paths of dynamic HPNs"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85073571306",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2455",
+                                "@last": "2460"
+                            }},
+                            "ref-text": "Aug.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zuo",
+                                    "ce:indexed-name": "Zuo L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hou",
+                                    "ce:indexed-name": "Hou A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cao",
+                                    "ce:indexed-name": "Cao L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE Int. Conf. HPCC/SmartCity/DSS, Zhangjiajie, China"
+                        },
+                        "ce:source-text": "L. Zuo, M. Zhu, C. Wu, A. Hou, and L. Cao, \"Bandwidth reservation for data transfers through multiple disjoint paths of dynamic HPNs,'' in Proc. IEEE Int. Conf. HPCC/SmartCity/DSS, Zhangjiajie, China, Aug. 2019, pp. 2455-2460."
+                    },
+                    {
+                        "ref-fulltext": "B.Martín,Á. Sánchez, C. Beltran-Royo, andA.Duarte, \"Solving the edge disjoint paths problem using a two-stage method,'' Int. Trans. Oper. Res., vol. 27, no. 1, pp. 435-457, Jan. 2020.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Solving the edge disjoint paths problem using a two-stage method"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85046161100",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "27",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "435",
+                                    "@last": "457"
+                                }
+                            },
+                            "ref-text": "Jan.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Martín",
+                                    "ce:indexed-name": "Martin B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Á.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sánchez",
+                                    "ce:indexed-name": "Sanchez A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Beltran-Royo",
+                                    "ce:indexed-name": "Beltran-Royo C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Duarte",
+                                    "ce:indexed-name": "Duarte A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. Trans. Oper. Res."
+                        },
+                        "ce:source-text": "B.Martín,Á. Sánchez, C. Beltran-Royo, andA.Duarte, \"Solving the edge disjoint paths problem using a two-stage method,'' Int. Trans. Oper. Res., vol. 27, no. 1, pp. 435-457, Jan. 2020."
+                    },
+                    {
+                        "ref-fulltext": "D. Lopez-Pajares, E. Rojas, J. A. Carral, I. Martinez-Yelmo, and J. Alvarez-Horcajo, \"The disjoint multipath challenge: Multiple disjoint paths guaranteeing scalability,'' IEEE Access, vol. 9, pp. 74422-74436, 2021.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "The disjoint multipath challenge: Multiple disjoint paths guaranteeing scalability"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85107037600",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "9"},
+                                "pagerange": {
+                                    "@first": "74422",
+                                    "@last": "74436"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lopez-Pajares",
+                                    "ce:indexed-name": "Lopez-Pajares D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rojas",
+                                    "ce:indexed-name": "Rojas E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carral",
+                                    "ce:indexed-name": "Carral J.A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Martinez-Yelmo",
+                                    "ce:indexed-name": "Martinez-Yelmo I."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alvarez-Horcajo",
+                                    "ce:indexed-name": "Alvarez-Horcajo J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Access"
+                        },
+                        "ce:source-text": "D. Lopez-Pajares, E. Rojas, J. A. Carral, I. Martinez-Yelmo, and J. Alvarez-Horcajo, \"The disjoint multipath challenge: Multiple disjoint paths guaranteeing scalability,'' IEEE Access, vol. 9, pp. 74422-74436, 2021."
+                    },
+                    {
+                        "ref-fulltext": "A. Hussein, I. H. Elhajj, A. Chehab, and A. Kayssi, \"SDN for MPTCP: An enhanced architecture for large data transfers in datacenters,'' in Proc. IEEE Int. Conf. Commun. (ICC), Paris, France, May 2017, pp. 1-7.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "SDN for MPTCP: An enhanced architecture for large data transfers in datacenters"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85028315534",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "7"
+                            }},
+                            "ref-text": "Paris, France, May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hussein",
+                                    "ce:indexed-name": "Hussein A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "I.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Elhajj",
+                                    "ce:indexed-name": "Elhajj I.H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chehab",
+                                    "ce:indexed-name": "Chehab A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kayssi",
+                                    "ce:indexed-name": "Kayssi A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE Int. Conf. Commun. (ICC)"
+                        },
+                        "ce:source-text": "A. Hussein, I. H. Elhajj, A. Chehab, and A. Kayssi, \"SDN for MPTCP: An enhanced architecture for large data transfers in datacenters,'' in Proc. IEEE Int. Conf. Commun. (ICC), Paris, France, May 2017, pp. 1-7."
+                    },
+                    {
+                        "ref-fulltext": "F. Alharbi and Z. Fei, \"An SDN architecture for improving through put of large flows using multipath TCP,'' in Proc. IEEE Int. Conf. CSCloud/EdgeCom, Shanghai, China, Jun. 2018, pp. 111-116.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "An SDN architecture for improving through put of large flows using multipath TCP"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85051563810",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "111",
+                                "@last": "116"
+                            }},
+                            "ref-text": "Jun, Shanghai, China",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alharbi",
+                                    "ce:indexed-name": "Alharbi F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fei",
+                                    "ce:indexed-name": "Fei Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE Int. Conf. CSCloud/EdgeCom"
+                        },
+                        "ce:source-text": "F. Alharbi and Z. Fei, \"An SDN architecture for improving through put of large flows using multipath TCP,'' in Proc. IEEE Int. Conf. CSCloud/EdgeCom, Shanghai, China, Jun. 2018, pp. 111-116."
+                    },
+                    {
+                        "ref-fulltext": "S. S.W. Lee, K.-Y. Li, K. Y. Chan, J.-H. YwiChi, T.-W. Lee,W.-K. Liu, and Y.-J. Lin, \"Design of SDN based large multi-tenant data center networks,'' in Proc. IEEE 4th Int. Conf. Cloud Netw. (CloudNet), Niagara Falls, ON, Canada, Oct. 2015, pp. 44-50.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Design of SDN based large multi-tenant data center networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84960956328",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "44",
+                                "@last": "50"
+                            }},
+                            "ref-text": "Oct, Niagara Falls, ON, Canada",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.S.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee S.S.W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.-Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li K.-Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chan",
+                                    "ce:indexed-name": "Chan K.Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.-H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "YwiChi",
+                                    "ce:indexed-name": "YwiChi J.-H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "T.-W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee T.-W."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "W.-K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu W.-K."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "Y.-J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lin",
+                                    "ce:indexed-name": "Lin Y.-J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE 4th Int. Conf. Cloud Netw. (CloudNet)"
+                        },
+                        "ce:source-text": "S. S.W. Lee, K.-Y. Li, K. Y. Chan, J.-H. YwiChi, T.-W. Lee,W.-K. Liu, and Y.-J. Lin, \"Design of SDN based large multi-tenant data center networks,'' in Proc. IEEE 4th Int. Conf. Cloud Netw. (CloudNet), Niagara Falls, ON, Canada, Oct. 2015, pp. 44-50."
+                    },
+                    {
+                        "ref-fulltext": "G. Deepshikha and M. Dave, \"An efficient traffic management solu- tion in data center networking using SDN,'' in Proc. Int. Conf. Power Energy, Environ. Intell. Control (PEEIC), Greater Noida, India, Apr. 2018, pp. 825-829.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "An efficient traffic management solu- tion in data center networking using SDN"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85064121545",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "825",
+                                "@last": "829"
+                            }},
+                            "ref-text": "Apr, Greater Noida, India",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Deepshikha",
+                                    "ce:indexed-name": "Deepshikha G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dave",
+                                    "ce:indexed-name": "Dave M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Int. Conf. Power Energy, Environ. Intell. Control (PEEIC)"
+                        },
+                        "ce:source-text": "G. Deepshikha and M. Dave, \"An efficient traffic management solu- tion in data center networking using SDN,'' in Proc. Int. Conf. Power Energy, Environ. Intell. Control (PEEIC), Greater Noida, India, Apr. 2018, pp. 825-829."
+                    },
+                    {
+                        "ref-fulltext": "S. Zannettou, M. Sirivianos, and F. Papadopoulos, \"Exploiting path diver- sity in datacenters using MPTCP-aware SDN,'' in Proc. IEEE Symp. Comput. Commun. (ISCC), Messina, Italy, Jun. 2016, pp. 539-546.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Exploiting path diver- sity in datacenters using MPTCP-aware SDN"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84985993952",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "539",
+                                "@last": "546"
+                            }},
+                            "ref-text": "Jun, Messina, Italy",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zannettou",
+                                    "ce:indexed-name": "Zannettou S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sirivianos",
+                                    "ce:indexed-name": "Sirivianos M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Papadopoulos",
+                                    "ce:indexed-name": "Papadopoulos F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE Symp. Comput. Commun. (ISCC)"
+                        },
+                        "ce:source-text": "S. Zannettou, M. Sirivianos, and F. Papadopoulos, \"Exploiting path diver- sity in datacenters using MPTCP-aware SDN,'' in Proc. IEEE Symp. Comput. Commun. (ISCC), Messina, Italy, Jun. 2016, pp. 539-546."
+                    },
+                    {
+                        "ref-fulltext": "J. Duan, Z. Wang, and C. Wu, \"Responsive multipath TCP in SDN-based datacenters,'' in Proc. IEEE Int. Conf. Commun. (ICC), London, U.K., May 2015, pp. 5296-5301.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Responsive multipath TCP in SDN-based datacenters"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84953714275",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "5296",
+                                "@last": "5301"
+                            }},
+                            "ref-text": "London, U.K., May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Duan",
+                                    "ce:indexed-name": "Duan J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE Int. Conf. Commun. (ICC)"
+                        },
+                        "ce:source-text": "J. Duan, Z. Wang, and C. Wu, \"Responsive multipath TCP in SDN-based datacenters,'' in Proc. IEEE Int. Conf. Commun. (ICC), London, U.K., May 2015, pp. 5296-5301."
+                    },
+                    {
+                        "ref-fulltext": "J. Pang, G. Xu, and X. Fu, \"SDN-based data center networking with collaboration of multipath TCP and segment routing,'' IEEE Access, vol. 5, pp. 9764-9773, 2017.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "SDN-based data center networking with collaboration of multipath TCP and segment routing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85028948783",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "5"},
+                                "pagerange": {
+                                    "@first": "9764",
+                                    "@last": "9773"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pang",
+                                    "ce:indexed-name": "Pang J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fu",
+                                    "ce:indexed-name": "Fu X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Access"
+                        },
+                        "ce:source-text": "J. Pang, G. Xu, and X. Fu, \"SDN-based data center networking with collaboration of multipath TCP and segment routing,'' IEEE Access, vol. 5, pp. 9764-9773, 2017."
+                    },
+                    {
+                        "ref-fulltext": "S. Chattopadhyay, S. Shailendra, S. Nandi, and S. Chakraborty, \"Improv- ing MPTCP performance by enabling sub-flow selection over a SDN supported network,'' in Proc. 14th Int. Conf. Wireless Mobile Comput., Netw. Commun. (WiMob), Limassol, Cyprus, Oct. 2018, pp. 1-8.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Improv- ing MPTCP performance by enabling sub-flow selection over a SDN supported network"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85060810694",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "8"
+                            }},
+                            "ref-text": "Oct, Limassol, Cyprus",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chattopadhyay",
+                                    "ce:indexed-name": "Chattopadhyay S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shailendra",
+                                    "ce:indexed-name": "Shailendra S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nandi",
+                                    "ce:indexed-name": "Nandi S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chakraborty",
+                                    "ce:indexed-name": "Chakraborty S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 14th Int. Conf. Wireless Mobile Comput., Netw. Commun. (WiMob)"
+                        },
+                        "ce:source-text": "S. Chattopadhyay, S. Shailendra, S. Nandi, and S. Chakraborty, \"Improv- ing MPTCP performance by enabling sub-flow selection over a SDN supported network,'' in Proc. 14th Int. Conf. Wireless Mobile Comput., Netw. Commun. (WiMob), Limassol, Cyprus, Oct. 2018, pp. 1-8."
+                    },
+                    {
+                        "ref-fulltext": "M. Sandri, A. Silva, L. A. Rocha, and F. L. Verdi, \"On the benefits of using multipath TCP and openflow in shared bottlenecks,'' in Proc. IEEE 29th Int. Conf. Adv. Inf. Netw. Appl., Gwangiu, South Korea, Mar. 2015, pp. 9-16.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "On the benefits of using multipath TCP and openflow in shared bottlenecks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84946233223",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "9",
+                                "@last": "16"
+                            }},
+                            "ref-text": "Mar, Gwangiu, South Korea",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sandri",
+                                    "ce:indexed-name": "Sandri M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Silva",
+                                    "ce:indexed-name": "Silva A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rocha",
+                                    "ce:indexed-name": "Rocha L.A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "F.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Verdi",
+                                    "ce:indexed-name": "Verdi F.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE 29th Int. Conf. Adv. Inf. Netw. Appl."
+                        },
+                        "ce:source-text": "M. Sandri, A. Silva, L. A. Rocha, and F. L. Verdi, \"On the benefits of using multipath TCP and openflow in shared bottlenecks,'' in Proc. IEEE 29th Int. Conf. Adv. Inf. Netw. Appl., Gwangiu, South Korea, Mar. 2015, pp. 9-16."
+                    },
+                    {
+                        "ref-fulltext": "C. Nakasan, K. Ichikawa, H. Iida, and P. Uthayopas, \"A simple multipath OpenFlow controller using topology-based algorithm for multipath TCP,'' Concurrency Comput., Pract. Exper., vol. 29, no. 13, p. e4134, Mar. 2017.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "A simple multipath OpenFlow controller using topology-based algorithm for multipath TCP"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85017175317",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "29",
+                                    "@issue": "13"
+                                },
+                                "pagerange": {"@first": "e4134"}
+                            },
+                            "ref-text": "Mar.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nakasan",
+                                    "ce:indexed-name": "Nakasan C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ichikawa",
+                                    "ce:indexed-name": "Ichikawa K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Iida",
+                                    "ce:indexed-name": "Iida H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Uthayopas",
+                                    "ce:indexed-name": "Uthayopas P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Concurrency Comput., Pract. Exper."
+                        },
+                        "ce:source-text": "C. Nakasan, K. Ichikawa, H. Iida, and P. Uthayopas, \"A simple multipath OpenFlow controller using topology-based algorithm for multipath TCP,'' Concurrency Comput., Pract. Exper., vol. 29, no. 13, p. e4134, Mar. 2017."
+                    },
+                    {
+                        "ref-fulltext": "J.-P. Sheu, L.-W. Liu, R. Jagadeesha, and Y.-C. Chang, \"An efficient mul- tipath routing algorithm for multipath TCP in software-defined networks,'' in Proc. Eur. Conf. Netw. Commun. (EuCNC), Athens, Greece, Jun. 2016, pp. 371-376.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "An efficient mul- tipath routing algorithm for multipath TCP in software-defined networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84988929981",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "371",
+                                "@last": "376"
+                            }},
+                            "ref-text": "Jun, Athens, Greece",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.-P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sheu",
+                                    "ce:indexed-name": "Sheu J.-P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.-W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu L.-W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jagadeesha",
+                                    "ce:indexed-name": "Jagadeesha R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.-C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang Y.-C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Eur. Conf. Netw. Commun. (EuCNC)"
+                        },
+                        "ce:source-text": "J.-P. Sheu, L.-W. Liu, R. Jagadeesha, and Y.-C. Chang, \"An efficient mul- tipath routing algorithm for multipath TCP in software-defined networks,'' in Proc. Eur. Conf. Netw. Commun. (EuCNC), Athens, Greece, Jun. 2016, pp. 371-376."
+                    },
+                    {
+                        "ref-fulltext": "K. D. Joshi and K. Kataoka, \"SFO: SubFlow optimizer for MPTCP in SDN,'' in Proc. 26th Int. Telecommun. Netw. Appl. Conf. (ITNAC), Dunedin, New Zealand, Dec. 2016, pp. 173-178.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "SFO: SubFlow optimizer for MPTCP in SDN"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85017233305",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "173",
+                                "@last": "178"
+                            }},
+                            "ref-text": "Dec, Dunedin, New Zealand",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Joshi",
+                                    "ce:indexed-name": "Joshi K.D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kataoka",
+                                    "ce:indexed-name": "Kataoka K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 26th Int. Telecommun. Netw. Appl. Conf. (ITNAC)"
+                        },
+                        "ce:source-text": "K. D. Joshi and K. Kataoka, \"SFO: SubFlow optimizer for MPTCP in SDN,'' in Proc. 26th Int. Telecommun. Netw. Appl. Conf. (ITNAC), Dunedin, New Zealand, Dec. 2016, pp. 173-178."
+                    },
+                    {
+                        "ref-fulltext": "Y. Liu, X. Qin, T. Zhu, X. Chen, and G. Wei, \"Improve MPTCP with SDN: From the perspective of resource pooling,'' J. Netw. Comput. Appl., vol. 141, pp. 73-85, Sep. 2019.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Improve MPTCP with SDN: From the perspective of resource pooling"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85066845336",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "141"},
+                                "pagerange": {
+                                    "@first": "73",
+                                    "@last": "85"
+                                }
+                            },
+                            "ref-text": "Sep.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qin",
+                                    "ce:indexed-name": "Qin X."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen X."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wei",
+                                    "ce:indexed-name": "Wei G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Netw. Comput. Appl."
+                        },
+                        "ce:source-text": "Y. Liu, X. Qin, T. Zhu, X. Chen, and G. Wei, \"Improve MPTCP with SDN: From the perspective of resource pooling,'' J. Netw. Comput. Appl., vol. 141, pp. 73-85, Sep. 2019."
+                    },
+                    {
+                        "ref-fulltext": "T. Zhu, X. Chen, L. Chen, W. Wang, and G. Wei, \"GCLR: GNN-based cross layer optimization for multipath TCP by routing,'' IEEE Access, vol. 8, pp. 17060-17070, 2020.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "GCLR: GNN-based cross layer optimization for multipath TCP by routing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85079814707",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "8"},
+                                "pagerange": {
+                                    "@first": "17060",
+                                    "@last": "17070"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen X."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang W."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wei",
+                                    "ce:indexed-name": "Wei G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Access"
+                        },
+                        "ce:source-text": "T. Zhu, X. Chen, L. Chen, W. Wang, and G. Wei, \"GCLR: GNN-based cross layer optimization for multipath TCP by routing,'' IEEE Access, vol. 8, pp. 17060-17070, 2020."
+                    },
+                    {
+                        "ref-fulltext": "A. Ford, C. Raiciu, M. Handley, O. Bonaventure, and C. Paasch, TCP Extensions for Multipath Operation With Multiple Addresses, docu- ment RFC 8684, Mar. 2020, doi: 10.17487/RFC8684.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.17487/RFC8684",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "70349856348",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Mar, docu- ment RFC 8684",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ford",
+                                    "ce:indexed-name": "Ford A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Raiciu",
+                                    "ce:indexed-name": "Raiciu C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Handley",
+                                    "ce:indexed-name": "Handley M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bonaventure",
+                                    "ce:indexed-name": "Bonaventure O."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Paasch",
+                                    "ce:indexed-name": "Paasch C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "TCP Extensions for Multipath Operation With Multiple Addresses"
+                        },
+                        "ce:source-text": "A. Ford, C. Raiciu, M. Handley, O. Bonaventure, and C. Paasch, TCP Extensions for Multipath Operation With Multiple Addresses, docu- ment RFC 8684, Mar. 2020, doi: 10.17487/RFC8684."
+                    },
+                    {
+                        "ref-fulltext": "S. Ferlin, O. Alay, T. Dreibholz, D. A. Hayes, and M. Welzl, \"Revisiting congestion control for multipath TCP with shared bottleneck detection,'' in Proc. 35th Annu. IEEE Int. Conf. Comput. Commun. (INFOCOM), San Francisco, CA, USA, Apr. 2016, pp. 1-9.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Revisiting congestion control for multipath TCP with shared bottleneck detection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84983246869",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "9"
+                            }},
+                            "ref-text": "Apr, San Francisco, CA, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ferlin",
+                                    "ce:indexed-name": "Ferlin S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alay",
+                                    "ce:indexed-name": "Alay O."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dreibholz",
+                                    "ce:indexed-name": "Dreibholz T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hayes",
+                                    "ce:indexed-name": "Hayes D.A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Welzl",
+                                    "ce:indexed-name": "Welzl M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 35th Annu. IEEE Int. Conf. Comput. Commun. (INFOCOM)"
+                        },
+                        "ce:source-text": "S. Ferlin, O. Alay, T. Dreibholz, D. A. Hayes, and M. Welzl, \"Revisiting congestion control for multipath TCP with shared bottleneck detection,'' in Proc. 35th Annu. IEEE Int. Conf. Comput. Commun. (INFOCOM), San Francisco, CA, USA, Apr. 2016, pp. 1-9."
+                    },
+                    {
+                        "ref-fulltext": "S. Habib, J. Qadir, A. Ali, D. Habib, M. Li, and A. Sathiaseelan, \"The past, present, and future of transport-layer multipath,'' J. Netw. Comput. Appl., vol. 75, pp. 236-258, Nov. 2016.",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "The past, present, and future of transport-layer multipath"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84988385329",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "75"},
+                                "pagerange": {
+                                    "@first": "236",
+                                    "@last": "258"
+                                }
+                            },
+                            "ref-text": "Nov.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Habib",
+                                    "ce:indexed-name": "Habib S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qadir",
+                                    "ce:indexed-name": "Qadir J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ali",
+                                    "ce:indexed-name": "Ali A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Habib",
+                                    "ce:indexed-name": "Habib D."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li M."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sathiaseelan",
+                                    "ce:indexed-name": "Sathiaseelan A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Netw. Comput. Appl."
+                        },
+                        "ce:source-text": "S. Habib, J. Qadir, A. Ali, D. Habib, M. Li, and A. Sathiaseelan, \"The past, present, and future of transport-layer multipath,'' J. Netw. Comput. Appl., vol. 75, pp. 236-258, Nov. 2016."
+                    },
+                    {
+                        "ref-fulltext": "D. Kreutz, F. M. V. Ramos, P. Verissimo, C. E. Rothenberg, S. Azodolmolky, and S. Uhlig, \"Software-defined networking: A comprehensive survey,'' Proc. IEEE, vol. 103, no. 1, pp. 14-76, Dec. 2015.",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Software-defined networking: A comprehensive survey"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84919935425",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "103",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "14",
+                                    "@last": "76"
+                                }
+                            },
+                            "ref-text": "Dec.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kreutz",
+                                    "ce:indexed-name": "Kreutz D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.M.V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ramos",
+                                    "ce:indexed-name": "Ramos F.M.V."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Verissimo",
+                                    "ce:indexed-name": "Verissimo P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rothenberg",
+                                    "ce:indexed-name": "Rothenberg C.E."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Azodolmolky",
+                                    "ce:indexed-name": "Azodolmolky S."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Uhlig",
+                                    "ce:indexed-name": "Uhlig S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE"
+                        },
+                        "ce:source-text": "D. Kreutz, F. M. V. Ramos, P. Verissimo, C. E. Rothenberg, S. Azodolmolky, and S. Uhlig, \"Software-defined networking: A comprehensive survey,'' Proc. IEEE, vol. 103, no. 1, pp. 14-76, Dec. 2015."
+                    },
+                    {
+                        "ref-fulltext": "B. A. A. Nunes, M. Mendonca, X.-N. Nguyen, K. Obraczka, and T. Turletti, \"A survey of software-defined networking: Past, present, and future of programmable networks,'' IEEE Commun. Surveys Tuts., vol. 16, no. 3, pp. 1617-1634, 3rd Quart., 2014.",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "A survey of software-defined networking: Past, present, and future of programmable networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84906785658",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "16",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "1617",
+                                    "@last": "1634"
+                                }
+                            },
+                            "ref-text": "3rd Quart.,.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.A.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nunes",
+                                    "ce:indexed-name": "Nunes B.A.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mendonca",
+                                    "ce:indexed-name": "Mendonca M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "X.-N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nguyen",
+                                    "ce:indexed-name": "Nguyen X.-N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Obraczka",
+                                    "ce:indexed-name": "Obraczka K."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Turletti",
+                                    "ce:indexed-name": "Turletti T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Commun. Surveys Tuts."
+                        },
+                        "ce:source-text": "B. A. A. Nunes, M. Mendonca, X.-N. Nguyen, K. Obraczka, and T. Turletti, \"A survey of software-defined networking: Past, present, and future of programmable networks,'' IEEE Commun. Surveys Tuts., vol. 16, no. 3, pp. 1617-1634, 3rd Quart., 2014."
+                    },
+                    {
+                        "ref-fulltext": "Q. De Coninck and O. Bonaventure, \"Multipath QUIC: Design and eval- uation,'' in Proc. 13th Int. Conf. Emerg. Netw. Exp. Technol., Incheon, South Korea, Nov. 2017, pp. 160-166.",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Multipath QUIC: Design and eval- uation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85040233863",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "160",
+                                "@last": "166"
+                            }},
+                            "ref-text": "Nov, Incheon, South Korea",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "De Coninck",
+                                    "ce:indexed-name": "De Coninck Q."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bonaventure",
+                                    "ce:indexed-name": "Bonaventure O."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 13th Int. Conf. Emerg. Netw. Exp. Technol."
+                        },
+                        "ce:source-text": "Q. De Coninck and O. Bonaventure, \"Multipath QUIC: Design and eval- uation,'' in Proc. 13th Int. Conf. Emerg. Netw. Exp. Technol., Incheon, South Korea, Nov. 2017, pp. 160-166."
+                    },
+                    {
+                        "ref-fulltext": "Q. De Coninck and O. Bonaventure, \"Multiflow QUIC: A generic multi- path transport protocol,'' IEEE Commun. Mag., vol. 59, no. 5, pp. 108-113, May 2021, doi: 10.1109/MCOM.001.2000892.",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Multiflow QUIC: A generic multi- path transport protocol"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/MCOM.001.2000892",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85107506573",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "59",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "108",
+                                    "@last": "113"
+                                }
+                            },
+                            "ref-text": "May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "De Coninck",
+                                    "ce:indexed-name": "De Coninck Q."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bonaventure",
+                                    "ce:indexed-name": "Bonaventure O."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Commun. Mag."
+                        },
+                        "ce:source-text": "Q. De Coninck and O. Bonaventure, \"Multiflow QUIC: A generic multi- path transport protocol,'' IEEE Commun. Mag., vol. 59, no. 5, pp. 108-113, May 2021, doi: 10.1109/MCOM.001.2000892."
+                    },
+                    {
+                        "ref-fulltext": "J. Iyengar and M. Thomson, QUIC: A UDP-Based Multiplexed and Secure Transport, document RFC 9000, May 2021, doi: 10.17487/RFC9000.",
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.17487/RFC9000",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "85024494014",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "May, document RFC 9000",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Iyengar",
+                                    "ce:indexed-name": "Iyengar J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thomson",
+                                    "ce:indexed-name": "Thomson M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "QUIC: A UDP-Based Multiplexed and Secure Transport"
+                        },
+                        "ce:source-text": "J. Iyengar and M. Thomson, QUIC: A UDP-Based Multiplexed and Secure Transport, document RFC 9000, May 2021, doi: 10.17487/RFC9000."
+                    },
+                    {
+                        "ref-fulltext": "Mininet Team. Mininet. Accessed: Sep. 8, 2022. [Online]. Available: http://mininet.org/",
+                        "@id": "36",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-website": {
+                                "websitename": "Mininet",
+                                "ce:e-address": {
+                                    "$": "http://mininet.org/",
+                                    "@type": "email"
+                                }
+                            },
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85139150850",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Accessed: Sep. 8",
+                            "ref-sourcetitle": "Mininet Team"
+                        },
+                        "ce:source-text": "Mininet Team. Mininet. Accessed: Sep. 8, 2022. [Online]. Available: http://mininet.org/"
+                    },
+                    {
+                        "ref-fulltext": "T. Vachuska, A. Campanella, C. Cascone, C. Chan, J. Halterman, and J. Li. Open Network Operating System (ONOS). Accessed: Sep. 8, 2022. [Online]. Available: https://opennetworking.org/onos/",
+                        "@id": "37",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://opennetworking.org/onos/",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85128300549",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Accessed: Sep. 8",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vachuska",
+                                    "ce:indexed-name": "Vachuska T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Campanella",
+                                    "ce:indexed-name": "Campanella A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cascone",
+                                    "ce:indexed-name": "Cascone C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chan",
+                                    "ce:indexed-name": "Chan C."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Halterman",
+                                    "ce:indexed-name": "Halterman J."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Open Network Operating System (ONOS)"
+                        },
+                        "ce:source-text": "T. Vachuska, A. Campanella, C. Cascone, C. Chan, J. Halterman, and J. Li. Open Network Operating System (ONOS). Accessed: Sep. 8, 2022. [Online]. Available: https://opennetworking.org/onos/"
+                    },
+                    {
+                        "ref-fulltext": "A. A. Hagberg, D. A. Schult, and P. J. Swart, \"Exploring network structure, dynamics, and function using NetworkX,'' in Proc. 7th Python Sci. Conf. (SciPy), Pasadena, CA, USA, 2008, pp. 11-16.",
+                        "@id": "38",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Exploring network structure, dynamics, and function using NetworkX"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "67249148362",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "11",
+                                "@last": "16"
+                            }},
+                            "ref-text": "Pasadena, CA, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hagberg",
+                                    "ce:indexed-name": "Hagberg A.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schult",
+                                    "ce:indexed-name": "Schult D.A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Swart",
+                                    "ce:indexed-name": "Swart P.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 7th Python Sci. Conf. (SciPy)"
+                        },
+                        "ce:source-text": "A. A. Hagberg, D. A. Schult, and P. J. Swart, \"Exploring network structure, dynamics, and function using NetworkX,'' in Proc. 7th Python Sci. Conf. (SciPy), Pasadena, CA, USA, 2008, pp. 11-16."
+                    },
+                    {
+                        "ref-fulltext": "S. Jain, A. Kumar, S. Mandal, J. Ong, L. Poutievski, A. Singh, S. Venkata, J. Wanderer, J. Zhou, M. Zhu, and J. Zolla, \"B4: Experience with a globally-deployed software defined WAN,'' ACM SIGCOMM Comput. Commun. Rev., vol. 43, no. 4, pp. 3-14, 2013.",
+                        "@id": "39",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "B4: Experience with a globally-deployed software defined WAN"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84891618095",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "43",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "3",
+                                    "@last": "14"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jain",
+                                    "ce:indexed-name": "Jain S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kumar",
+                                    "ce:indexed-name": "Kumar A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mandal",
+                                    "ce:indexed-name": "Mandal S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ong",
+                                    "ce:indexed-name": "Ong J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Poutievski",
+                                    "ce:indexed-name": "Poutievski L."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Singh",
+                                    "ce:indexed-name": "Singh A."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Venkata",
+                                    "ce:indexed-name": "Venkata S."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wanderer",
+                                    "ce:indexed-name": "Wanderer J."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou J."
+                                },
+                                {
+                                    "@seq": "10",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu M."
+                                },
+                                {
+                                    "@seq": "11",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zolla",
+                                    "ce:indexed-name": "Zolla J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM SIGCOMM Comput. Commun. Rev."
+                        },
+                        "ce:source-text": "S. Jain, A. Kumar, S. Mandal, J. Ong, L. Poutievski, A. Singh, S. Venkata, J. Wanderer, J. Zhou, M. Zhu, and J. Zolla, \"B4: Experience with a globally-deployed software defined WAN,'' ACM SIGCOMM Comput. Commun. Rev., vol. 43, no. 4, pp. 3-14, 2013."
+                    },
+                    {
+                        "ref-fulltext": "ICTEAM. MultiPath TCP-Linux Kernel Implementation. Accessed: Sep. 8, 2022. [Online]. Available: https://www.multipath-tcp.org/",
+                        "@id": "40",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.multipath-tcp.org/",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84876578211",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "ICTEAM. Accessed: Sep. 8",
+                            "ref-sourcetitle": "MultiPath TCP-Linux Kernel Implementation"
+                        },
+                        "ce:source-text": "ICTEAM. MultiPath TCP-Linux Kernel Implementation. Accessed: Sep. 8, 2022. [Online]. Available: https://www.multipath-tcp.org/"
+                    },
+                    {
+                        "ref-fulltext": "E. W. Dijkstra, \"A note on two problems in connexion with graphs,'' Numer. Math., vol. 1, no. 1, pp. 269-271, Dec. 1959.",
+                        "@id": "41",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1959"},
+                            "ref-title": {"ref-titletext": "A note on two problems in connexion with graphs"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34147120474",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "1",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "269",
+                                    "@last": "271"
+                                }
+                            },
+                            "ref-text": "Dec.",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "E.W.",
+                                "@_fa": "true",
+                                "ce:surname": "Dijkstra",
+                                "ce:indexed-name": "Dijkstra E.W."
+                            }]},
+                            "ref-sourcetitle": "Numer. Math."
+                        },
+                        "ce:source-text": "E. W. Dijkstra, \"A note on two problems in connexion with graphs,'' Numer. Math., vol. 1, no. 1, pp. 269-271, Dec. 1959."
+                    },
+                    {
+                        "ref-fulltext": "P. Batchelor, B. Daino, P. Heinzmann, D. R. Hjelme, R. Inkret, H. A. Jager, M. Joindot, A. Kuchar, E. L. Coquil, P. Leuthold, and G. D. Marchis, \"Study on the implementation of optical transparent transport networks in the European environment-results of the research project COST 239,'' Photon. Netw. Commun., vol. 2, pp. 15-32, Mar. 2000.",
+                        "@id": "42",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-title": {"ref-titletext": "Study on the implementation of optical transparent transport networks in the European environment-results of the research project COST 239"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0034386495",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2"},
+                                "pagerange": {
+                                    "@first": "15",
+                                    "@last": "32"
+                                }
+                            },
+                            "ref-text": "Mar.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Batchelor",
+                                    "ce:indexed-name": "Batchelor P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Daino",
+                                    "ce:indexed-name": "Daino B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Heinzmann",
+                                    "ce:indexed-name": "Heinzmann P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hjelme",
+                                    "ce:indexed-name": "Hjelme D.R."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Inkret",
+                                    "ce:indexed-name": "Inkret R."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "H.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jager",
+                                    "ce:indexed-name": "Jager H.A."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Joindot",
+                                    "ce:indexed-name": "Joindot M."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kuchar",
+                                    "ce:indexed-name": "Kuchar A."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "E.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Coquil",
+                                    "ce:indexed-name": "Coquil E.L."
+                                },
+                                {
+                                    "@seq": "10",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Leuthold",
+                                    "ce:indexed-name": "Leuthold P."
+                                },
+                                {
+                                    "@seq": "11",
+                                    "ce:initials": "G.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marchis",
+                                    "ce:indexed-name": "Marchis G.D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Photon. Netw. Commun."
+                        },
+                        "ce:source-text": "P. Batchelor, B. Daino, P. Heinzmann, D. R. Hjelme, R. Inkret, H. A. Jager, M. Joindot, A. Kuchar, E. L. Coquil, P. Leuthold, and G. D. Marchis, \"Study on the implementation of optical transparent transport networks in the European environment-results of the research project COST 239,'' Photon. Netw. Commun., vol. 2, pp. 15-32, Mar. 2000."
+                    },
+                    {
+                        "ref-fulltext": "TCPDUMP Group. TCPDUMP & LIBPCAP. Accessed: Sep. 8, 2022. [Online]. Available: https://www.tcpdump.org/",
+                        "@id": "43",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-website": {
+                                "websitename": "TCPDUMP Group",
+                                "ce:e-address": {
+                                    "$": "https://www.tcpdump.org/",
+                                    "@type": "email"
+                                }
+                            },
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85139090162",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Accessed: Sep. 8",
+                            "ref-sourcetitle": "TCPDUMP & LIBPCAP"
+                        },
+                        "ce:source-text": "TCPDUMP Group. TCPDUMP & LIBPCAP. Accessed: Sep. 8, 2022. [Online]. Available: https://www.tcpdump.org/"
+                    },
+                    {
+                        "ref-fulltext": "P. Bosshart, D. Daly, G. Gibb, M. Izzard, N. McKeown, J. Rexford, C. Schlesinger, D. Talayco, A. Vahdat, G. Varghese, and D. Walker, \"P4: Programming protocol-independent packet processors,'' SIGCOMMCom- put. Commun. Rev., vol. 44, pp. 87-95, Jul. 2014.",
+                        "@id": "44",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "P4: Programming protocol-independent packet processors"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84905861611",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "44"},
+                                "pagerange": {
+                                    "@first": "87",
+                                    "@last": "95"
+                                }
+                            },
+                            "ref-text": "Jul.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bosshart",
+                                    "ce:indexed-name": "Bosshart P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Daly",
+                                    "ce:indexed-name": "Daly D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gibb",
+                                    "ce:indexed-name": "Gibb G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Izzard",
+                                    "ce:indexed-name": "Izzard M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McKeown",
+                                    "ce:indexed-name": "McKeown N."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rexford",
+                                    "ce:indexed-name": "Rexford J."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schlesinger",
+                                    "ce:indexed-name": "Schlesinger C."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Talayco",
+                                    "ce:indexed-name": "Talayco D."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vahdat",
+                                    "ce:indexed-name": "Vahdat A."
+                                },
+                                {
+                                    "@seq": "10",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Varghese",
+                                    "ce:indexed-name": "Varghese G."
+                                },
+                                {
+                                    "@seq": "11",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Walker",
+                                    "ce:indexed-name": "Walker D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "SIGCOMMCom- put. Commun. Rev."
+                        },
+                        "ce:source-text": "P. Bosshart, D. Daly, G. Gibb, M. Izzard, N. McKeown, J. Rexford, C. Schlesinger, D. Talayco, A. Vahdat, G. Varghese, and D. Walker, \"P4: Programming protocol-independent packet processors,'' SIGCOMMCom- put. Commun. Rev., vol. 44, pp. 87-95, Jul. 2014."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Gwangju",
+            "@id": "60068688",
+            "affilname": "Gwangju Institute of Science and Technology",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60068688",
+            "affiliation-country": "South Korea"
+        },
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85137876029",
+        "dc:description": "Data Transmission is a primary mechanism that can affect the performance of distributed storage systems. The traditional single-path transmission protocols are not efficient to serve several requirements of big data applications. In this paper, we propose an SDN-coordinated steering framework for multipath big data transfer applications. Multipath TCP protocol (MPTCP) coupled with SDN are mainly used for big data transfer in our framework. This framework is useful and cost-effective for OpenFlow networks and overlay networks. To provide a practical multipath transmission scheme for big data transfer applications using MPTCP, we propose a novel OpenFlow-Stats routing algorithm. In our algorithm, a new topology-pruning technique is applied, and the transmission paths are selected based on switch-port statistics. Our proposed framework is implemented and evaluated using the Mininet emulator and ONOS controller. The results show that our routing scheme can reduce the completion time of big data transfer up to 90% compared with the traditional routing with disjoint paths and up to 35% compared with the previous work. Moreover, our proposed routing is more scalable than other previous works in that it can provide lower complexity and system overhead. The results show that our routing scheme produces 57% less overhead compared with the previous work.",
+        "prism:coverDate": "2022-01-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85137876029",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Kiattikun",
+            "preferred-name": {
+                "ce:given-name": "Kiattikun",
+                "ce:initials": "K.",
+                "ce:surname": "Kawila",
+                "ce:indexed-name": "Kawila K."
+            },
+            "@seq": "1",
+            "ce:initials": "K.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Kawila",
+            "@auid": "56285427900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56285427900",
+            "ce:indexed-name": "Kawila K."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85137876029"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85137876029&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85137876029&origin=inward"
+            }
+        ],
+        "source-id": "21100374601",
+        "citedby-count": "0",
+        "prism:volume": "10",
+        "subtype": "ar",
+        "dc:title": "An SDN-Coordinated Steering Framework for Multipath Big Data Transfer Application",
+        "openaccess": "1",
+        "prism:issn": "21693536",
+        "publishercopyright": "© 2013 IEEE.",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "IEEE Access",
+        "prism:pageRange": "95859-95875",
+        "prism:endingPage": "95875",
+        "openaccessFlag": "true",
+        "prism:doi": "10.1109/ACCESS.2022.3205118",
+        "prism:startingPage": "95859",
+        "dc:identifier": "SCOPUS_ID:85137876029",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Complexity theory",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Multipath",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Multipath TCP",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Openflow",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Openflow networks",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Routings",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Software-defined networkings",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "TCP protocol",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Transport protocols",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Big data"
+        },
+        {
+            "@_fa": "true",
+            "$": "data transfer"
+        },
+        {
+            "@_fa": "true",
+            "$": "multipath TCP"
+        },
+        {
+            "@_fa": "true",
+            "$": "OpenFlow"
+        },
+        {
+            "@_fa": "true",
+            "$": "OpenFlow network"
+        },
+        {
+            "@_fa": "true",
+            "$": "overlay network"
+        },
+        {
+            "@_fa": "true",
+            "$": "software-defined networking"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Computer Science (all)",
+            "@code": "1700",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Materials Science (all)",
+            "@code": "2500",
+            "@abbrev": "MATE"
+        },
+        {
+            "@_fa": "true",
+            "$": "Engineering (all)",
+            "@code": "2200",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Kiattikun",
+            "preferred-name": {
+                "ce:given-name": "Kiattikun",
+                "ce:initials": "K.",
+                "ce:surname": "Kawila",
+                "ce:indexed-name": "Kawila K."
+            },
+            "@seq": "1",
+            "ce:initials": "K.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Kawila",
+            "@auid": "56285427900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56285427900",
+            "ce:indexed-name": "Kawila K."
+        },
+        {
+            "ce:given-name": "Jongwon",
+            "preferred-name": {
+                "ce:given-name": "Jongwon",
+                "ce:initials": "J.",
+                "ce:surname": "Kim",
+                "ce:indexed-name": "Kim J."
+            },
+            "@seq": "2",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60068688",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60068688"
+            },
+            "ce:surname": "Kim",
+            "@auid": "36063003600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/36063003600",
+            "ce:indexed-name": "Kim J."
+        },
+        {
+            "ce:given-name": "Kultida",
+            "preferred-name": {
+                "ce:given-name": "Kultida",
+                "ce:initials": "K.",
+                "ce:surname": "Rojviboonchai",
+                "ce:indexed-name": "Rojviboonchai K."
+            },
+            "@seq": "3",
+            "ce:initials": "K.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Rojviboonchai",
+            "@auid": "56054228300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56054228300",
+            "ce:indexed-name": "Rojviboonchai K."
+        }
+    ]}
+}}

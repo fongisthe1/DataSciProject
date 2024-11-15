@@ -1,0 +1,1239 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "05",
+                "@timestamp": "2020-06-05T04:55:57.000057-04:00",
+                "@year": "2020",
+                "@month": "06"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2019",
+                "@month": "10"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding-addon-generated-timestamp": "2021-05-11T00:53:18.578188Z",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Japan",
+                            "@afid": "60025272",
+                            "@country": "jpn",
+                            "city": "Tokyo",
+                            "organization": [
+                                {"$": "University of Tokyo"},
+                                {"$": "Graduate School of Information Science and Technology"}
+                            ],
+                            "affiliation-id": [
+                                {"@afid": "60025272"},
+                                {"@afid": "60015682"}
+                            ]
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Yuwei",
+                                "preferred-name": {
+                                    "ce:given-name": "Yuwei",
+                                    "ce:initials": "Y.",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun Y."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "Y.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Sun",
+                                "@auid": "57212474153",
+                                "ce:indexed-name": "Sun Y."
+                            },
+                            {
+                                "ce:given-name": "Hideya",
+                                "preferred-name": {
+                                    "ce:given-name": "Hideya",
+                                    "ce:initials": "H.",
+                                    "ce:surname": "Ochiai",
+                                    "ce:indexed-name": "Ochiai H."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "H.",
+                                "@date-locked": "2020-05-19T19:56:55.807",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Ochiai",
+                                "@auid": "24449553500",
+                                "ce:indexed-name": "Ochiai H."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Chulalongkorn University"},
+                                {"$": "Department of Mathematics and Computer Science"},
+                                {"$": "Faculty of Science"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "113870560"
+                            },
+                            "@dptid": "113870560"
+                        },
+                        "author": [{
+                            "ce:given-name": "Nagul",
+                            "preferred-name": {
+                                "ce:given-name": "Nagul",
+                                "ce:initials": "N.",
+                                "ce:surname": "Cooharojananone",
+                                "ce:indexed-name": "Cooharojananone N."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "N.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Cooharojananone",
+                            "@auid": "15021698200",
+                            "ce:indexed-name": "Cooharojananone N."
+                        }]
+                    }
+                ],
+                "citation-title": "Aircraft Detection Based on Saliency Map and Convolution Neural Network",
+                "abstracts": "© 2019 IEEE.Detection of the aircraft from the remote sensing images attracts many attentions. Not only the aircraft taking off and landing but also the aircraft landing in the airport need to be monitored. This paper proposes a saliency-based CNN (convolutional neural network) method for aircraft detection in the remote sensing images. Many researches of aircraft detection access to a method of R-CNN (region convolutional neural network), which generates two thousand or more of proposal regions as candidates of the aircraft. The researches of using a saliency map to extract the objects from the images are still not so many. We adapt a series of preprocessing as transforming to a gray scale image, deleting the noise, binarizing by threshold, the closing operation, and floodfill to generate a saliency map where the contours of all objects are reinforced. Compared to R-CNN, the using of a saliency map greatly reduces the number of proposal regions, thus improving the efficiency. After this, we find the contours of objects and the minimum rectangles enclosing objects to extract proposed regions. Then, we prepare a negative dataset consisting of different types of backgrounds including the land, grass land and concrete. And for a positive dataset, we prepare images of aircraft in different angles and different sizes. To add more variation data into the dataset, we also use methods of augmentation like elastic distortion and perspective transforms. Then, we train a CNN model using the prepared dataset, which can tell whether a proposed region contains aircraft, after training. At last, we use a method named recall to evaluate the performance of the scheme, attaining an average recall of 0.7217, which shows the rate of aircraft successfully detected in all aircraft.",
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Aircraft detection",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "CNN",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Image processing",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Remote sensing image",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Saliency map",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8966543",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "ICSEC 2019 - 23rd International Computer Science and Engineering Conference",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"pagerange": {
+                        "@first": "48",
+                        "@last": "53"
+                    }},
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781728125442",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "23rd International Computer Science and Engineering Conference, ICSEC 2019",
+                            "confnumber": "23",
+                            "conforganization": "College of Computing Prince of Songkla University, Phuket Campus",
+                            "confcatnumber": "CFP19IBE-ART",
+                            "confseriestitle": "International Computer Science and Engineering Conference",
+                            "conflocation": {
+                                "@country": "tha",
+                                "city": "Phuket"
+                            },
+                            "confcode": "157284",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "01",
+                                    "@year": "2019",
+                                    "@month": "11"
+                                },
+                                "startdate": {
+                                    "@day": "30",
+                                    "@year": "2019",
+                                    "@month": "10"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "ICSEC 2019 - 23rd International Computer Science and Engineering Conference",
+                    "publicationdate": {
+                        "month": "10",
+                        "year": "2019",
+                        "date-text": "October 2019",
+                        "day": "01"
+                    },
+                    "sourcetitle-abbrev": "ICSEC - Int. Comput. Sci. Eng. Conf.",
+                    "@country": "usa",
+                    "issuetitle": "ICSEC 2019 - 23rd International Computer Science and Engineering Conference",
+                    "publicationyear": {"@first": "2019"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "article-number": "8974775",
+                    "@srcid": "21100984908"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1709"},
+                            {"$": "1802"},
+                            {"$": "2214"},
+                            {"$": "1705"},
+                            {"$": "1706"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "652.1",
+                                "classification-description": "Aircraft, General"
+                            },
+                            {
+                                "classification-code": "716.1",
+                                "classification-description": "Information and Communication Theory"
+                            },
+                            {
+                                "classification-code": "716.2",
+                                "classification-description": "Radar Systems and Equipment"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "DECI"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2020 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "03",
+                    "@timestamp": "BST 10:58:45",
+                    "@year": "2020",
+                    "@month": "06"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "631134591",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "924598528",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20201208315184",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20201427983",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85081698319",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85081698319",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/ICSEC47112.2019.8974775"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "14",
+                "reference": [
+                    {
+                        "ref-fulltext": "N. Ammour, H. Alhichri, Y. Bazi, B. Benjdira, N. Alajlan, and M. Zuair, \"Deep Learning Approach for Car Detection in UAV Imagery,\" Remote Sensing, vol. 9, p. 312, mar 2017.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Deep learning approach for car detection in UAV imagery"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85017644249",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "9"},
+                                "pagerange": {"@first": "312"}
+                            },
+                            "ref-text": "Mar",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ammour",
+                                    "ce:indexed-name": "Ammour N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alhichri",
+                                    "ce:indexed-name": "Alhichri H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bazi",
+                                    "ce:indexed-name": "Bazi Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Benjdira",
+                                    "ce:indexed-name": "Benjdira B."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alajlan",
+                                    "ce:indexed-name": "Alajlan N."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zuair",
+                                    "ce:indexed-name": "Zuair M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Remote Sensing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S.Ren,K.He,R.Girshick,andJ.Sun,\"FasterR-CNN:TowardsReal-Time Object Detection with,\" IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE, 2017.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Fasterr-cnn:Towardsreal-time object detection with"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85019258369",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ren",
+                                    "ce:indexed-name": "Ren S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Girshick",
+                                    "ce:indexed-name": "Girshick R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "R. Girshick, J. Donahue, T. Darrell, and J. Malik. Rich fea-ture hierarchies for accurate object detection and semantic segmentation. arXiv preprint arXiv:1311.2524, 2013.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1311. 2524",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84906343066",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Girshick",
+                                    "ce:indexed-name": "Girshick R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Donahue",
+                                    "ce:indexed-name": "Donahue J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Darrell",
+                                    "ce:indexed-name": "Darrell T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Malik",
+                                    "ce:indexed-name": "Malik J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. Krizhevsky, I. Sutskever, and G. E. Hinton. Imagenet classification with deep convolutional neural networks. In NIPS, 2012.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Imagenet classification with deep convolutional neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84876231242",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krizhevsky",
+                                    "ce:indexed-name": "Krizhevsky A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sutskever",
+                                    "ce:indexed-name": "Sutskever I."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hinton",
+                                    "ce:indexed-name": "Hinton G.E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "NIPS"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. Donahue, Y. Jia, O. Vinyals, J. Hoffman, N. Zhang, E. Tzeng, and T. Darrell. Decaf: A deep convolu-tional activation feature for generic visual recognition. arXiv:1310.1531, 2013.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1310. 1531",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84904482223",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Donahue",
+                                    "ce:indexed-name": "Donahue J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jia",
+                                    "ce:indexed-name": "Jia Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vinyals",
+                                    "ce:indexed-name": "Vinyals O."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hoffman",
+                                    "ce:indexed-name": "Hoffman J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang N."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tzeng",
+                                    "ce:indexed-name": "Tzeng E."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Darrell",
+                                    "ce:indexed-name": "Darrell T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Decaf: A Deep Convolu-tional Activation Feature for Generic Visual Recognition"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. Redmon, S. K. Divvala, R. B. Girshick, and A. Farhadi, \"You only look once: Unified, real-time object detection,\" in 2016 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2016, Las Vegas, NV, USA, June 27-30, 2016, pp. 779-788, 2016.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "You only look once: Unified, real-time object detection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84986308404",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "779",
+                                "@last": "788"
+                            }},
+                            "ref-text": "June 27-30, Las Vegas, NV, USA 2016",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Redmon",
+                                    "ce:indexed-name": "Redmon J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Divvala",
+                                    "ce:indexed-name": "Divvala S.K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Girshick",
+                                    "ce:indexed-name": "Girshick R.B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Farhadi",
+                                    "ce:indexed-name": "Farhadi A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2016 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2016"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "lan Goodfellow, Yoshua Bengio, Aaron Courvile, Deep Learning(Adaptive Computation and Machine Learning), Francis Bach, The MIT Press, 2016.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85017627030",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Francis Bach, The MIT Press",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Goodfellow",
+                                    "ce:indexed-name": "Goodfellow L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bengio",
+                                    "ce:indexed-name": "Bengio Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Courvile",
+                                    "ce:indexed-name": "Courvile A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Deep Learning(Adaptive Computation and Machine Learning)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Uijlings, J.R.R., van de Sande, K.E.A., Gevers, T. et al. Int J Comput Vis (2013) 104: 154. https://doi.org/10.1007/s11263-013-0620-5",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1007/s11263-013-0620-5",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84881160857",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "104"},
+                                "pagerange": {"@first": "154"}
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "J.R.R.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Uijlings",
+                                        "ce:indexed-name": "Uijlings J.R.R."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "K.E.A.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Van De Sande",
+                                        "ce:indexed-name": "Van De Sande K.E.A."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "T.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Gevers",
+                                        "ce:indexed-name": "Gevers T."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Int J Comput Vis"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Yann LECun, Patrick Haffner, Leon Bottou, and Yoshua Bengio, Object Recognition with Gradient-Based Learning, Shape, Contour and Grouping in Computer Vision, p.319, 1999.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84947927646",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {"@first": "319"}},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "LeCun",
+                                    "ce:indexed-name": "LeCun Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Haffner",
+                                    "ce:indexed-name": "Haffner P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bottou",
+                                    "ce:indexed-name": "Bottou L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bengio",
+                                    "ce:indexed-name": "Bengio Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Object Recognition with Gradient-Based Learning, Shape, Contour and Grouping in Computer Vision"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Guoxiong Hu, Zhong Yang, Jiaming Han, Li Huang, Jun Gong and Naxixue Xiong, Aircraft detection in remote sensing images based on saliency and convolution neural network. EURASIP Journal on Wireless Communications and Networking, 2018.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Aircraft detection in remote sensing images based on saliency and convolution neural network"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85041449270",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Han",
+                                    "ce:indexed-name": "Han J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang L."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gong",
+                                    "ce:indexed-name": "Gong J."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xiong",
+                                    "ce:indexed-name": "Xiong N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "EURASIP Journal on Wireless Communications and Networking"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Y.LeCun, B.Boser, J.S. Denker, D. Henderson, R. E.Howard, W.Hubbard and L.D.Jackel.Backpropagation Applied to Handwritten Zip Code Recognition. Neural Computation, p.541-551,1989.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1989"},
+                            "ref-title": {"ref-titletext": "Backpropagation applied to handwritten zip code recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0000359337",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "541",
+                                "@last": "551"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "LeCun",
+                                    "ce:indexed-name": "LeCun Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boser",
+                                    "ce:indexed-name": "Boser B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Denker",
+                                    "ce:indexed-name": "Denker J.S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Henderson",
+                                    "ce:indexed-name": "Henderson D."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "R.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Howard",
+                                    "ce:indexed-name": "Howard R.E."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hubbard",
+                                    "ce:indexed-name": "Hubbard W."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "L.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jackel",
+                                    "ce:indexed-name": "Jackel L.D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neural Computation"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Jiawei Zuo, Guangluan Xu, Kun Fu, Xian Sun, and Hao Sun, Aircraft Type Recognition Based on Segmentation With Deep Convolutional Neural Networks, IEEE GEOSCIENCE AND REMOTE SENSING LETTERS, VOL. 15, NO. 2, FEBRUARY 2018.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Aircraft type recognition based on segmentation with deep convolutional neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85041168942",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "15",
+                                "@issue": "2"
+                            }},
+                            "ref-text": "FebRUARY",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zuo",
+                                    "ce:indexed-name": "Zuo J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fu",
+                                    "ce:indexed-name": "Fu K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun X."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Geoscience and Remote Sensing Letters"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Yuhang Zhang, Hao Sun, Jiawei Zuo, Hongqi Wang, Guangluan Xu and Xian Sun, Aircraft Type Recognition in Remote Sensing Images Based on Feature Learning with Conditional Generative Adversarial Networks, Remote Sens. 2018.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Aircraft type recognition in remote sensing images based on feature learning with conditional generative adversarial networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85050462362",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zuo",
+                                    "ce:indexed-name": "Zuo J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu G."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Remote Sens."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Yann LeCnn et al. Gradient-Based Learning Applied to Document Recognition, PROC. OF THE IEEE, 1998.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Gradient-based learning applied to document recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0032203257",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "LeCnn",
+                                    "ce:indexed-name": "LeCnn Y."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "PROC. of the IEEE"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Tokyo",
+            "@id": "60025272",
+            "affilname": "The University of Tokyo",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025272",
+            "affiliation-country": "Japan"
+        }
+    ],
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85081698319",
+        "dc:description": "Detection of the aircraft from the remote sensing images attracts many attentions. Not only the aircraft taking off and landing but also the aircraft landing in the airport need to be monitored. This paper proposes a saliency-based CNN (convolutional neural network) method for aircraft detection in the remote sensing images. Many researches of aircraft detection access to a method of R-CNN (region convolutional neural network), which generates two thousand or more of proposal regions as candidates of the aircraft. The researches of using a saliency map to extract the objects from the images are still not so many. We adapt a series of preprocessing as transforming to a gray scale image, deleting the noise, binarizing by threshold, the closing operation, and floodfill to generate a saliency map where the contours of all objects are reinforced. Compared to R-CNN, the using of a saliency map greatly reduces the number of proposal regions, thus improving the efficiency. After this, we find the contours of objects and the minimum rectangles enclosing objects to extract proposed regions. Then, we prepare a negative dataset consisting of different types of backgrounds including the land, grass land and concrete. And for a positive dataset, we prepare images of aircraft in different angles and different sizes. To add more variation data into the dataset, we also use methods of augmentation like elastic distortion and perspective transforms. Then, we train a CNN model using the prepared dataset, which can tell whether a proposed region contains aircraft, after training. At last, we use a method named recall to evaluate the performance of the scheme, attaining an average recall of 0.7217, which shows the rate of aircraft successfully detected in all aircraft.",
+        "prism:coverDate": "2019-10-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85081698319",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Yuwei",
+            "preferred-name": {
+                "ce:given-name": "Yuwei",
+                "ce:initials": "Y.",
+                "ce:surname": "Sun",
+                "ce:indexed-name": "Sun Y."
+            },
+            "@seq": "1",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60025272",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025272"
+            },
+            "ce:surname": "Sun",
+            "@auid": "57212474153",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57212474153",
+            "ce:indexed-name": "Sun Y."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85081698319"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85081698319&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85081698319&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781728125442",
+        "source-id": "21100984908",
+        "citedby-count": "2",
+        "subtype": "cp",
+        "dc:title": "Aircraft Detection Based on Saliency Map and Convolution Neural Network",
+        "openaccess": "0",
+        "publishercopyright": "© 2019 IEEE.",
+        "article-number": "8974775",
+        "subtypeDescription": "Conference Paper",
+        "prism:publicationName": "ICSEC 2019 - 23rd International Computer Science and Engineering Conference",
+        "prism:pageRange": "48-53",
+        "prism:endingPage": "53",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/ICSEC47112.2019.8974775",
+        "prism:startingPage": "48",
+        "dc:identifier": "SCOPUS_ID:85081698319",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Closing operation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Convolution neural network",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Elastic distortion",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Gray-scale images",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Negative dataset",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Perspective transforms",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Remote sensing images",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Saliency map",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Aircraft detection"
+        },
+        {
+            "@_fa": "true",
+            "$": "CNN"
+        },
+        {
+            "@_fa": "true",
+            "$": "Image processing"
+        },
+        {
+            "@_fa": "true",
+            "$": "Remote sensing image"
+        },
+        {
+            "@_fa": "true",
+            "$": "Saliency map"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Human-Computer Interaction",
+            "@code": "1709",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Information Systems and Management",
+            "@code": "1802",
+            "@abbrev": "DECI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Media Technology",
+            "@code": "2214",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Networks and Communications",
+            "@code": "1705",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Yuwei",
+            "preferred-name": {
+                "ce:given-name": "Yuwei",
+                "ce:initials": "Y.",
+                "ce:surname": "Sun",
+                "ce:indexed-name": "Sun Y."
+            },
+            "@seq": "1",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60025272",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025272"
+            },
+            "ce:surname": "Sun",
+            "@auid": "57212474153",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57212474153",
+            "ce:indexed-name": "Sun Y."
+        },
+        {
+            "ce:given-name": "Nagul",
+            "preferred-name": {
+                "ce:given-name": "Nagul",
+                "ce:initials": "N.",
+                "ce:surname": "Cooharojananone",
+                "ce:indexed-name": "Cooharojananone N."
+            },
+            "@seq": "2",
+            "ce:initials": "N.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028190",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+            },
+            "ce:surname": "Cooharojananone",
+            "@auid": "15021698200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/15021698200",
+            "ce:indexed-name": "Cooharojananone N."
+        },
+        {
+            "ce:given-name": "Hideya",
+            "preferred-name": {
+                "ce:given-name": "Hideya",
+                "ce:initials": "H.",
+                "ce:surname": "Ochiai",
+                "ce:indexed-name": "Ochiai H."
+            },
+            "@seq": "3",
+            "ce:initials": "H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60025272",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025272"
+            },
+            "ce:surname": "Ochiai",
+            "@auid": "24449553500",
+            "author-url": "https://api.elsevier.com/content/author/author_id/24449553500",
+            "ce:indexed-name": "Ochiai H."
+        }
+    ]}
+}}

@@ -1,0 +1,700 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S200"
+            },
+            "ait:date-delivered": {
+                "@day": "03",
+                "@year": "2023",
+                "@timestamp": "2023-07-03T22:54:43.000043-04:00",
+                "@month": "07"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2023",
+                "@month": "01"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "@afid": "60001170",
+                            "affiliation-id": {
+                                "@afid": "60001170",
+                                "@dptid": "126383290"
+                            },
+                            "ce:text": "Department of Information and Communication Engineering and the RLRC for Autonomous Vehicle Parts and Materials Innovation, Yeungnam University, Gyeongsan, South Korea",
+                            "@dptid": "126383290"
+                        },
+                        "author": [
+                            {
+                                "preferred-name": {
+                                    "ce:given-name": "M. S.",
+                                    "ce:initials": "M.S.",
+                                    "ce:surname": "Mekala",
+                                    "ce:indexed-name": "Mekala M.S."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "M.S.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Mekala",
+                                "@auid": "57197762021",
+                                "ce:indexed-name": "Mekala M.S."
+                            },
+                            {
+                                "ce:given-name": "Ho-Youl",
+                                "preferred-name": {
+                                    "ce:given-name": "Ho Youl",
+                                    "ce:initials": "H.Y.",
+                                    "ce:surname": "Jung",
+                                    "ce:indexed-name": "Jung H.Y."
+                                },
+                                "@seq": "5",
+                                "ce:initials": "H.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Jung",
+                                "@auid": "55560690200",
+                                "ce:indexed-name": "Jung H."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "@afid": "60068769",
+                            "affiliation-id": {"@afid": "60068769"},
+                            "ce:text": "Department of Electrical and Computer Engineering, Lebanese American University, Byblos, Lebanon"
+                        },
+                        "author": [{
+                            "ce:given-name": "Gaurav",
+                            "preferred-name": {
+                                "ce:given-name": "Gaurav",
+                                "ce:initials": "G.",
+                                "ce:surname": "Dhiman",
+                                "ce:indexed-name": "Dhiman G."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "G.",
+                            "@date-locked": "2023-06-25T17:32:59.691",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Dhiman",
+                            "@auid": "23049229800",
+                            "ce:indexed-name": "Dhiman G."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "@afid": "60199583",
+                            "affiliation-id": [
+                                {"@afid": "60199583"},
+                                {"@afid": "60028190"}
+                            ],
+                            "ce:text": "Department of Statistics, Faculty of Commerce and Accountancy, Chulalongkorn University, Bangkok, Thailand"
+                        },
+                        "author": [{
+                            "ce:given-name": "Wattana",
+                            "preferred-name": {
+                                "ce:given-name": "Wattana",
+                                "ce:initials": "W.",
+                                "ce:surname": "Viriyasitavat",
+                                "ce:indexed-name": "Viriyasitavat W."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "W.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Viriyasitavat",
+                            "@auid": "57224272289",
+                            "ce:indexed-name": "Viriyasitavat W."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "@afid": "60001170",
+                            "affiliation-id": {
+                                "@afid": "60001170",
+                                "@dptid": "100262407"
+                            },
+                            "ce:text": "Department of Electrical Engineering, Yeungnam University, Gyeongsan, South Korea",
+                            "@dptid": "100262407"
+                        },
+                        "author": [{
+                            "ce:given-name": "Ju H.",
+                            "preferred-name": {
+                                "ce:given-name": "Ju H.",
+                                "ce:initials": "J.H.",
+                                "ce:surname": "Park",
+                                "ce:indexed-name": "Park J.H."
+                            },
+                            "@seq": "4",
+                            "ce:initials": "J.H.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Park",
+                            "@auid": "15036553900",
+                            "ce:indexed-name": "Park J.H."
+                        }]
+                    }
+                ],
+                "citation-title": "Efficient LiDAR-Trajectory Affinity Model for Autonomous Vehicle Orchestration",
+                "abstracts": "IEEEComputation and memory resource management strategies are the backbone of continuous object tracking in intelligent vehicle orchestration. Multi-object tracking generates enormous measurements of targets and extended object positions using light detection and ranging (Lidar) sensors. Designing an adequate object-tracking system is a global challenge because of dynamic object detection and data association uncertainties during scene understanding. In this regard, we develop an intelligent multi-objective tracking (IMOT) system with a novel measurement model, called the box data association inflate (BDAI) model, to assess each target&#x2019;s object state and trajectory without noise by using the Bayesian approach. The box object filter method filters ambiguous detection responses during data association. The theoretical proof of the box object filter is derived based on binomial expansion. Prognosticating a lower-dimension object than the original point object reduces the computational complexity of vehicle orchestration. Two datasets (NuScenes dataset and our lab dataset) are considered during the simulations, and our approach measures the kinematic states adequately with reduced computation complexity compared to state-of-the-art methods. The simulation outcomes show that our proposed method is effective and works well to detect and track objects. The NuScenes dataset contains 28130 samples for training, 6019 examples for validation and 6008 samples for testing. IMOT achieves 58.09% tracking accuracy and 71% mAP with 5 ms pre-processing time. The Jetson Xavier NX consumes 49.63% GPU and 9.37% average power and exhibits 25.32 ms latency compared to other approaches. Our system trains a single pair frame in 169.71 ms with affinity estimation time of 12.19 ms, track association time of 0.19 ms and mATE of 0.245 compared to state-of-the-art approaches",
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "BDAI model",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "box object filter method",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Computational modeling",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Data models",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "deep learning",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Electronic mail",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Mobile computing",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "multi-object tracking system",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Object detection",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Shape",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Target tracking",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Tracking",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "IEEE Trans. Intell. Transp. Syst.",
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979",
+                        "@type": "email"
+                    }},
+                    "@country": "usa",
+                    "translated-sourcetitle": {
+                        "$": "IEEE Transactions on Intelligent Transportation Systems",
+                        "@xml:lang": "eng"
+                    },
+                    "issn": [
+                        {
+                            "$": "15580016",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "15249050",
+                            "@type": "print"
+                        }
+                    ],
+                    "volisspag": {"pages": "1-11"},
+                    "@type": "j",
+                    "publicationyear": {"@first": "2023"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "sourcetitle": "IEEE Transactions on Intelligent Transportation Systems",
+                    "@srcid": "18378",
+                    "publicationdate": {
+                        "year": "2023",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2023"
+                        }
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "432",
+                                "classification-description": "Highway Transportation"
+                            },
+                            {
+                                "classification-code": "461.4",
+                                "classification-description": "Ergonomics and Human Factors Engineering"
+                            },
+                            {
+                                "classification-code": "716.2",
+                                "classification-description": "Radar Systems and Equipment"
+                            },
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing and Image Processing"
+                            },
+                            {
+                                "classification-code": "731.6",
+                                "classification-description": "Robot Applications"
+                            },
+                            {
+                                "classification-code": "741.3",
+                                "classification-description": "Optical Devices and Systems"
+                            },
+                            {
+                                "classification-code": "921.4",
+                                "classification-description": "Combinatorial Mathematics, Includes Graph Theory, Set Theory"
+                            },
+                            {
+                                "classification-code": "922.2",
+                                "classification-description": "Mathematical Statistics"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2203"},
+                            {"$": "2210"},
+                            {"$": "1706"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "ENGI"},
+                            {"$": "COMP"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2023 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "10",
+                    "@year": "2023",
+                    "@timestamp": "BST 12:06:32",
+                    "@month": "03"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2023202806",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "946460334",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20231013684644",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20230610848",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20230840198",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "20210017720327",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85149417217",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85149417217",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/TITS.2023.3242900"
+                }
+            },
+            "tail": null
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Gyeongsan",
+            "@id": "60001170",
+            "affilname": "Yeungnam University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60001170",
+            "affiliation-country": "South Korea"
+        },
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60199583",
+            "affilname": "Chulalongkorn Business School",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60199583",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Beirut",
+            "@id": "60068769",
+            "affilname": "Lebanese American University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60068769",
+            "affiliation-country": "Lebanon"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85149417217",
+        "dc:description": "Computation and memory resource management strategies are the backbone of continuous object tracking in intelligent vehicle orchestration. Multi-object tracking generates enormous measurements of targets and extended object positions using light detection and ranging (Lidar) sensors. Designing an adequate object-tracking system is a global challenge because of dynamic object detection and data association uncertainties during scene understanding. In this regard, we develop an intelligent multi-objective tracking (IMOT) system with a novel measurement model, called the box data association inflate (BDAI) model, to assess each target&#x2019;s object state and trajectory without noise by using the Bayesian approach. The box object filter method filters ambiguous detection responses during data association. The theoretical proof of the box object filter is derived based on binomial expansion. Prognosticating a lower-dimension object than the original point object reduces the computational complexity of vehicle orchestration. Two datasets (NuScenes dataset and our lab dataset) are considered during the simulations, and our approach measures the kinematic states adequately with reduced computation complexity compared to state-of-the-art methods. The simulation outcomes show that our proposed method is effective and works well to detect and track objects. The NuScenes dataset contains 28130 samples for training, 6019 examples for validation and 6008 samples for testing. IMOT achieves 58.09% tracking accuracy and 71% mAP with 5 ms pre-processing time. The Jetson Xavier NX consumes 49.63% GPU and 9.37% average power and exhibits 25.32 ms latency compared to other approaches. Our system trains a single pair frame in 169.71 ms with affinity estimation time of 12.19 ms, track association time of 0.19 ms and mATE of 0.245 compared to state-of-the-art approaches",
+        "prism:coverDate": "2023-01-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85149417217",
+        "subtypeDescription": "Article",
+        "dc:creator": {"author": [{
+            "preferred-name": {
+                "ce:given-name": "M. S.",
+                "ce:initials": "M.S.",
+                "ce:surname": "Mekala",
+                "ce:indexed-name": "Mekala M.S."
+            },
+            "@seq": "1",
+            "ce:initials": "M.S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60001170",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60001170"
+            },
+            "ce:surname": "Mekala",
+            "@auid": "57197762021",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57197762021",
+            "ce:indexed-name": "Mekala M.S."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85149417217"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85149417217&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85149417217&origin=inward"
+            }
+        ],
+        "prism:publicationName": "IEEE Transactions on Intelligent Transportation Systems",
+        "source-id": "18378",
+        "citedby-count": "5",
+        "subtype": "ar",
+        "dc:title": "Efficient LiDAR-Trajectory Affinity Model for Autonomous Vehicle Orchestration",
+        "openaccess": "2",
+        "openaccessFlag": null,
+        "prism:doi": "10.1109/TITS.2023.3242900",
+        "prism:issn": "15580016 15249050",
+        "publishercopyright": "IEEE",
+        "dc:identifier": "SCOPUS_ID:85149417217",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Box data association inflate model",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Box object filter method",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Computational modelling",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Data association",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Deep learning",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Filter method",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Mobile-computing",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Multi-object tracking",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Multi-object tracking system",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Objects detection",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Shape",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Targets tracking",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Tracking",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Tracking system",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "BDAI model"
+        },
+        {
+            "@_fa": "true",
+            "$": "box object filter method"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computational modeling"
+        },
+        {
+            "@_fa": "true",
+            "$": "Data models"
+        },
+        {
+            "@_fa": "true",
+            "$": "deep learning"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electronic mail"
+        },
+        {
+            "@_fa": "true",
+            "$": "Mobile computing"
+        },
+        {
+            "@_fa": "true",
+            "$": "multi-object tracking system"
+        },
+        {
+            "@_fa": "true",
+            "$": "Object detection"
+        },
+        {
+            "@_fa": "true",
+            "$": "Shape"
+        },
+        {
+            "@_fa": "true",
+            "$": "Target tracking"
+        },
+        {
+            "@_fa": "true",
+            "$": "Tracking"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Automotive Engineering",
+            "@code": "2203",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Mechanical Engineering",
+            "@code": "2210",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "preferred-name": {
+                "ce:given-name": "M. S.",
+                "ce:initials": "M.S.",
+                "ce:surname": "Mekala",
+                "ce:indexed-name": "Mekala M.S."
+            },
+            "@seq": "1",
+            "ce:initials": "M.S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60001170",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60001170"
+            },
+            "ce:surname": "Mekala",
+            "@auid": "57197762021",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57197762021",
+            "ce:indexed-name": "Mekala M.S."
+        },
+        {
+            "ce:given-name": "Gaurav",
+            "preferred-name": {
+                "ce:given-name": "Gaurav",
+                "ce:initials": "G.",
+                "ce:surname": "Dhiman",
+                "ce:indexed-name": "Dhiman G."
+            },
+            "@seq": "2",
+            "ce:initials": "G.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60068769",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60068769"
+            },
+            "ce:surname": "Dhiman",
+            "@auid": "23049229800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/23049229800",
+            "ce:indexed-name": "Dhiman G."
+        },
+        {
+            "ce:given-name": "Wattana",
+            "preferred-name": {
+                "ce:given-name": "Wattana",
+                "ce:initials": "W.",
+                "ce:surname": "Viriyasitavat",
+                "ce:indexed-name": "Viriyasitavat W."
+            },
+            "@seq": "3",
+            "ce:initials": "W.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60199583",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60199583"
+            },
+            "ce:surname": "Viriyasitavat",
+            "@auid": "57224272289",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57224272289",
+            "ce:indexed-name": "Viriyasitavat W."
+        },
+        {
+            "ce:given-name": "Ju H.",
+            "preferred-name": {
+                "ce:given-name": "Ju H.",
+                "ce:initials": "J.H.",
+                "ce:surname": "Park",
+                "ce:indexed-name": "Park J.H."
+            },
+            "@seq": "4",
+            "ce:initials": "J.H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60001170",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60001170"
+            },
+            "ce:surname": "Park",
+            "@auid": "15036553900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/15036553900",
+            "ce:indexed-name": "Park J.H."
+        },
+        {
+            "ce:given-name": "Ho-Youl",
+            "preferred-name": {
+                "ce:given-name": "Ho Youl",
+                "ce:initials": "H.Y.",
+                "ce:surname": "Jung",
+                "ce:indexed-name": "Jung H.Y."
+            },
+            "@seq": "5",
+            "ce:initials": "H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60001170",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60001170"
+            },
+            "ce:surname": "Jung",
+            "@auid": "55560690200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55560690200",
+            "ce:indexed-name": "Jung H."
+        }
+    ]}
+}}

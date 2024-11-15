@@ -1,0 +1,2863 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "13",
+                "@timestamp": "2021-11-13T20:53:59.000059-05:00",
+                "@year": "2021",
+                "@month": "11"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2019",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "National Science Foundation",
+                    "xocs:funding-agency-acronym": "NSF",
+                    "xocs:funding-agency": "National Science Foundation",
+                    "xocs:funding-id": "PHY-1607611",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100000001",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/6252001/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "INFN",
+                    "xocs:funding-agency-acronym": "INFN",
+                    "xocs:funding-agency": "Istituto Nazionale di Fisica Nucleare",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100013168",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/3175395/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-05-22T19:04:47.981Z",
+            "xocs:funding-text": "We are indebted to Antonio Amariti, Benjamin Assel, Luca Cassia, Matteo Sacchi and Alessandro Tomasiello for valuable discussions. N.M. gratefully acknowledges support from the Simons Center for Geometry and Physics, Stony Brook University at which some of the research for this paper was performed during the Simons Summer Workshop 2018. Part of this work was also performed at the Aspen Center for Physics, which is supported by National Science Foundation grant PHY-1607611. N.M. also thanks CERN for the hospitality during the completion of this project. I.G. acknowledges a partial support from the INFN.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Italy",
+                            "address-part": "Piazza della Scienza 3",
+                            "postal-code": "I-20126",
+                            "@afid": "60012306",
+                            "@country": "ita",
+                            "city": "Milano",
+                            "organization": [
+                                {"$": "Dipartimento di Fisica"},
+                                {"$": "Università di Milano-Bicocca"}
+                            ],
+                            "affiliation-id": {"@afid": "60012306"}
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Ivan",
+                                "preferred-name": {
+                                    "ce:given-name": "Ivan",
+                                    "ce:initials": "I.",
+                                    "ce:surname": "Garozzo",
+                                    "ce:indexed-name": "Garozzo I."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "I.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Garozzo",
+                                "@auid": "57204763519",
+                                "ce:indexed-name": "Garozzo I."
+                            },
+                            {
+                                "ce:given-name": "Gabriele",
+                                "preferred-name": {
+                                    "ce:given-name": "Gabriele",
+                                    "ce:initials": "G.",
+                                    "ce:surname": "Lo Monaco",
+                                    "ce:indexed-name": "Lo Monaco G."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "G.",
+                                "@date-locked": "2019-09-11T13:04:11.274",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Lo Monaco",
+                                "@auid": "57203892387",
+                                "ce:indexed-name": "Lo Monaco G."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Italy",
+                            "address-part": "Piazza della Scienza 3",
+                            "postal-code": "I-20126",
+                            "@afid": "126400021",
+                            "@country": "ita",
+                            "city": "Milano",
+                            "organization": [
+                                {"$": "INFN"},
+                                {"$": "sezione di Milano-Bicocca"}
+                            ],
+                            "affiliation-id": {"@afid": "126400021"}
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Ivan",
+                                "preferred-name": {
+                                    "ce:given-name": "Ivan",
+                                    "ce:initials": "I.",
+                                    "ce:surname": "Garozzo",
+                                    "ce:indexed-name": "Garozzo I."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "I.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Garozzo",
+                                "@auid": "57204763519",
+                                "ce:indexed-name": "Garozzo I."
+                            },
+                            {
+                                "ce:given-name": "Gabriele",
+                                "preferred-name": {
+                                    "ce:given-name": "Gabriele",
+                                    "ce:initials": "G.",
+                                    "ce:surname": "Lo Monaco",
+                                    "ce:indexed-name": "Lo Monaco G."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "G.",
+                                "@date-locked": "2019-09-11T13:04:11.274",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Lo Monaco",
+                                "@auid": "57203892387",
+                                "ce:indexed-name": "Lo Monaco G."
+                            },
+                            {
+                                "ce:given-name": "Noppadol",
+                                "preferred-name": {
+                                    "ce:given-name": "Noppadol",
+                                    "ce:initials": "N.",
+                                    "ce:surname": "Mekareeya",
+                                    "ce:indexed-name": "Mekareeya N."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "N.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Mekareeya",
+                                "@auid": "24468363200",
+                                "ce:indexed-name": "Mekareeya N."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Thailand",
+                            "address-part": "Phayathai Road, Pathumwan",
+                            "postal-code": "10330",
+                            "@afid": "60028190",
+                            "@country": "tha",
+                            "city": "Bangkok",
+                            "organization": [
+                                {"$": "Department of Physics"},
+                                {"$": "Faculty of Science"},
+                                {"$": "Chulalongkorn University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028190",
+                                "@dptid": "108271278"
+                            },
+                            "@dptid": "108271278"
+                        },
+                        "author": [{
+                            "ce:given-name": "Noppadol",
+                            "preferred-name": {
+                                "ce:given-name": "Noppadol",
+                                "ce:initials": "N.",
+                                "ce:surname": "Mekareeya",
+                                "ce:indexed-name": "Mekareeya N."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "N.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Mekareeya",
+                            "@auid": "24468363200",
+                            "ce:indexed-name": "Mekareeya N."
+                        }]
+                    }
+                ],
+                "citation-title": "The moduli spaces of S-fold CFTs",
+                "abstracts": "© 2019, The Author(s).An S-fold has played an important role in constructing supersymmetric field theories with interesting features. It can be viewed as a type of AdS4 solutions of Type IIB string theory where the fields in overlapping patches are glued by elements of SL(2, ℤ). This paper examines three dimensional quiver theories that arise from brane configurations with an inclusion of the S-fold. An important feature of such a quiver is that it contains a link, which is the T (U(N)) theory, between two U(N) groups, along with bifundamental and fundamental hypermultiplets. We systematically study the moduli spaces of those quiver theories, including the cases in which the non-zero Chern-Simons levels are turned on. A number of such moduli spaces turns out to have a very rich structure and tells us about the brane dynamics in the presence of an S-fold.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Italy",
+                        "address-part": "Piazza della Scienza 3",
+                        "postal-code": "I-20126",
+                        "@country": "ita",
+                        "city": "Milano",
+                        "organization": [
+                            {"$": "INFN"},
+                            {"$": "sezione di Milano-Bicocca"}
+                        ]
+                    },
+                    "person": {
+                        "ce:given-name": "Noppadol",
+                        "ce:initials": "N.",
+                        "ce:surname": "Mekareeya",
+                        "ce:indexed-name": "Mekareeya N."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Brane Dynamics in Gauge Theories",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Duality in Gauge Field Theories",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Supersymmetric Gauge Theory",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Supersymmetry and Duality",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://link.springer.com/journal/13130",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Journal of High Energy Physics",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"voliss": {
+                        "@volume": "2019",
+                        "@issue": "1"
+                    }},
+                    "@type": "j",
+                    "sourcetitle": "Journal of High Energy Physics",
+                    "publicationdate": {
+                        "month": "01",
+                        "year": "2019",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "1 January 2019"
+                        },
+                        "day": "01"
+                    },
+                    "sourcetitle-abbrev": "J. High Energy Phys.",
+                    "@country": "deu",
+                    "issn": [
+                        {
+                            "$": "10298479",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "11266708",
+                            "@type": "print"
+                        }
+                    ],
+                    "publicationyear": {"@first": "2019"},
+                    "publisher": {
+                        "publishername": "Springer Verlag",
+                        "ce:e-address": {
+                            "$": "service@springer.de",
+                            "@type": "email"
+                        }
+                    },
+                    "article-number": "46",
+                    "@srcid": "28520"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": "3106"
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "PHYS"
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This article is distributed under the terms of the Creative Commons Attribution License (CC-BY 4.0), which permits any use, distribution and reproduction in any medium, provided the original author(s) and source are credited.",
+                        "@xml:lang": "eng"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2019 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "SNPHYS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "10",
+                    "@timestamp": "BST 06:02:50",
+                    "@year": "2019",
+                    "@month": "01"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "625770184",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "1810.12323",
+                            "@idtype": "ARXIV"
+                        },
+                        {
+                            "$": "914938411",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20190045165",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20190068897",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "2019001212",
+                            "@idtype": "SNPHYS"
+                        },
+                        {
+                            "$": "85059576200",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85059576200",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1007/JHEP01(2019)046"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "47",
+                "reference": [
+                    {
+                        "ref-fulltext": "K.A. Intriligator and N. Seiberg, Mirror symmetry in three-dimensional gauge theories, Phys. Lett. B 387 (1996) 513 [hep-th/9607207] [INSPIRE]",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "Mirror symmetry in three-dimensional gauge theories"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/0370-2693(96)01088-X",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR1",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "9607207",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "0001327357",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "B 387"},
+                                "pagerange": {"@first": "513"}
+                            },
+                            "ref-text": "[hep-th/9607207] [INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Intriligator",
+                                    "ce:indexed-name": "Intriligator K.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Seiberg",
+                                    "ce:indexed-name": "Seiberg N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Phys. Lett."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. de Boer, K. Hori, H. Ooguri and Y. Oz, Mirror symmetry in three-dimensional gauge theories, quivers and D-branes, Nucl. Phys. B 493 (1997) 101 [hep-th/9611063] [INSPIRE]",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Mirror symmetry in three-dimensional gauge theories, quivers and D-branes"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR2",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "9611063",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "0031587005",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "493"},
+                                "pagerange": {"@first": "101"}
+                            },
+                            "ref-text": "[hep-th/9611063] [INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "de Boer",
+                                    "ce:indexed-name": "de Boer J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hori",
+                                    "ce:indexed-name": "Hori K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ooguri",
+                                    "ce:indexed-name": "Ooguri H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oz",
+                                    "ce:indexed-name": "Oz Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Nucl. Phys. B"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "M. Porrati and A. Zaffaroni, M theory origin of mirror symmetry in three-dimensional gauge theories, Nucl. Phys. B 490 (1997) 107 [hep-th/9611201] [INSPIRE]",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "M theory origin of mirror symmetry in three-dimensional gauge theories"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR3",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "9611201",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "0031567303",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "490"},
+                                "pagerange": {"@first": "107"}
+                            },
+                            "ref-text": "[hep-th/9611201], [INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Porrati",
+                                    "ce:indexed-name": "Porrati M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zaffaroni",
+                                    "ce:indexed-name": "Zaffaroni A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Nucl. Phys. B"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. Hanany and E. Witten, Type IIB superstrings, BPS monopoles and three-dimensional gauge dynamics, Nucl. Phys. B 492 (1997) 152 [hep-th/9611230] [INSPIRE]",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Type IIB superstrings, BPS monopoles and three-dimensional gauge dynamics"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR4",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "9611230",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "0031565518",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "492"},
+                                "pagerange": {"@first": "152"}
+                            },
+                            "ref-text": "[hep-th/9611230] [INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hanany",
+                                    "ce:indexed-name": "Hanany A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Witten",
+                                    "ce:indexed-name": "Witten E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Nucl. Phys. B"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "E. Witten, SL(2, ℤ) action on three-dimensional conformal field theories with Abelian symmetry, hep-th/0307041 [INSPIRE]",
+                        "@id": "5",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR5",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "33750077717",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "INSPIRE",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "E.",
+                                "@_fa": "true",
+                                "ce:surname": "Witten",
+                                "ce:indexed-name": "Witten E."
+                            }]},
+                            "ref-sourcetitle": "SL(2, ℤ) action on three-dimensional conformal field theories with Abelian symmetry"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "D. Gaiotto and E. Witten, S-duality of boundary conditions in N = 4 super Yang-Mills theory, Adv. Theor. Math. Phys. 13 (2009) 721 [arXiv:0807.3720] [INSPIRE]",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "S-duality of boundary conditions in N = 4 super Yang-Mills theory"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR6",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0807.3720",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "77954474167",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "13"},
+                                "pagerange": {"@first": "721"}
+                            },
+                            "ref-text": "[INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gaiotto",
+                                    "ce:indexed-name": "Gaiotto D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Witten",
+                                    "ce:indexed-name": "Witten E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Adv. Theor. Math. Phys."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "D.L. Jafferis and X. Yin, Chern-Simons-Matter theory and mirror symmetry, arXiv:0810.1243 [INSPIRE]",
+                        "@id": "7",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR7",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0810.1243",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "67650274482",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "INSPIRE",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jafferis",
+                                    "ce:indexed-name": "Jafferis D.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yin",
+                                    "ce:indexed-name": "Yin X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Chern-Simons-Matter Theory and Mirror Symmetry"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "D. Gaiotto and E. Witten, Janus configurations, Chern-Simons couplings, and the θ-angle in N = 4 super Yang-Mills theory, JHEP 06 (2010) 097 [arXiv:0804.2907] [INSPIRE]",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Janus configurations, Chern-Simons couplings, and the θ-angle in N = 4 super Yang-Mills theory"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR8",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0804.2907",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "77954985523",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "6"},
+                                "pagerange": {"@first": "097"}
+                            },
+                            "ref-text": "[INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gaiotto",
+                                    "ce:indexed-name": "Gaiotto D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Witten",
+                                    "ce:indexed-name": "Witten E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "K. Hosomichi et al., N = 4 superconformal Chern-Simons theories with hyper and twisted hyper multiplets, JHEP 07 (2008) 091 [arXiv:0805.3662] [INSPIRE]",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "N = 4 superconformal Chern-Simons theories with hyper and twisted hyper multiplets"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR9",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "091",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "0805.3662",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "49749106601",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "7"}},
+                            "ref-text": "INSPIRE",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hosomichi",
+                                    "ce:indexed-name": "Hosomichi K."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Y. Imamura and K. Kimura, On the moduli space of elliptic Maxwell-Chern-Simons theories, Prog. Theor. Phys. 120 (2008) 509 [arXiv:0806.3727] [INSPIRE]",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "On the moduli space of elliptic Maxwell-Chern-Simons theories"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1143/PTP.120.509",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR10",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0806.3727",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "58049146599",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "120"},
+                                "pagerange": {"@first": "509"}
+                            },
+                            "ref-text": "[] [INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Imamura",
+                                    "ce:indexed-name": "Imamura Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kimura",
+                                    "ce:indexed-name": "Kimura K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Prog. Theor. Phys."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "B. Assel, Hanany-Witten effect and SL(2, ℤ) dualities in matrix models, JHEP 10 (2014) 117 [arXiv:1406.5194] [INSPIRE]",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Hanany-Witten effect and SL(2, ℤ) dualities in matrix models"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR11",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "1406.5194",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84919791178",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "10"},
+                                "pagerange": {"@first": "117"}
+                            },
+                            "ref-text": "[INSPIRE]",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "B.",
+                                "@_fa": "true",
+                                "ce:surname": "Assel",
+                                "ce:indexed-name": "Assel B."
+                            }]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "O. Aharony, O. Bergman, D.L. Jafferis and J. Maldacena, N = 6 superconformal Chern-Simons-matter theories, M 2-branes and their gravity duals, JHEP 10 (2008) 091 [arXiv:0806.1218] [INSPIRE]",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "N = 6 superconformal Chern-Simons-matter theories, M 2-branes and their gravity duals"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR12",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "091",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "0806.1218",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "58149288453",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "10"}},
+                            "ref-text": "[INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aharony",
+                                    "ce:indexed-name": "Aharony O."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bergman",
+                                    "ce:indexed-name": "Bergman O."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jafferis",
+                                    "ce:indexed-name": "Jafferis D.L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maldacena",
+                                    "ce:indexed-name": "Maldacena J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "K. Hosomichi, K.-M. Lee, S. Lee, S. Lee and J. Park, N = 5, 6 superconformal Chern-Simons theories and M 2-branes on orbifolds, JHEP 09 (2008) 002 [arXiv:0806.4977] [INSPIRE]",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "N = 5, 6 superconformal Chern-Simons theories and M 2-branes on orbifolds"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR13",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "002",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "0806.4977",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "58149303051",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "9"}},
+                            "ref-text": "[INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hosomichi",
+                                    "ce:indexed-name": "Hosomichi K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.-M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee K.-M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Park",
+                                    "ce:indexed-name": "Park J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "O. Aharony, O. Bergman and D.L. Jafferis, Fractional M 2-branes, JHEP 11 (2008) 043 [arXiv:0807.4924] [INSPIRE]",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Fractional M 2-branes"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR14",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "043",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "0807.4924",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "58149296397",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "11"}},
+                            "ref-text": "[INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aharony",
+                                    "ce:indexed-name": "Aharony O."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bergman",
+                                    "ce:indexed-name": "Bergman O."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jafferis",
+                                    "ce:indexed-name": "Jafferis D.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "E. D\u2019Hoker, J. Estes and M. Gutperle, Interface Yang-Mills, supersymmetry and Janus, Nucl. Phys. B 753 (2006) 16 [hep-th/0603013] [INSPIRE]",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Interface Yang-Mills, supersymmetry and Janus"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR15",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0603013",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "33747756785",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "753"},
+                                "pagerange": {"@first": "16"}
+                            },
+                            "ref-text": "[hep-th/0603013] [INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "D\u2019Hoker",
+                                    "ce:indexed-name": "D'Hoker E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Estes",
+                                    "ce:indexed-name": "Estes J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gutperle",
+                                    "ce:indexed-name": "Gutperle M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Nucl. Phys. B"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "O.J. Ganor, N.P. Moore, H.-Y. Sun and N.R. Torres-Chicon, Janus configurations with SL(2, ℤ)-duality twists, strings on mapping tori and a tridiagonal determinant formula, JHEP 07 (2014) 010 [arXiv:1403.2365] [INSPIRE]",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Janus configurations with SL(2, ℤ)-duality twists, strings on mapping tori and a tridiagonal determinant formula"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR16",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "1403.2365",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84904351767",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "7"},
+                                "pagerange": {"@first": "010"}
+                            },
+                            "ref-text": "[INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ganor",
+                                    "ce:indexed-name": "Ganor O.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Moore",
+                                    "ce:indexed-name": "Moore N.P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.-Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun H.-Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "N.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Torres-Chicon",
+                                    "ce:indexed-name": "Torres-Chicon N.R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "B. Assel and A. Tomasiello, Holographic duals of 3d S-fold CFTs, JHEP 06 (2018) 019 [arXiv:1804.06419] [INSPIRE]",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Holographic duals of 3d S-fold CFTs"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR17",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "019",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "1804.06419",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85048279151",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "6"}},
+                            "ref-text": "[INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Assel",
+                                    "ce:indexed-name": "Assel B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tomasiello",
+                                    "ce:indexed-name": "Tomasiello A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "I. García-Etxebarria and D. Regalado, N= 3 four dimensional field theories, JHEP 03 (2016) 083 [arXiv:1512.06434] [INSPIRE]",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "N = 3 four dimensional field theories"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR18",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "083",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "1512.06434",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84961246736",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "3"}},
+                            "ref-text": "[INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "García-Etxebarria",
+                                    "ce:indexed-name": "Garcia-Etxebarria I."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Regalado",
+                                    "ce:indexed-name": "Regalado D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "O. Aharony and Y. Tachikawa, S-folds and 4d N = 3 superconformal field theories, JHEP 06 (2016) 044 [arXiv:1602.08638] [INSPIRE]",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "S-folds and 4d N = 3 superconformal field theories"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR19",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "1602.08638",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84976595583",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "6"},
+                                "pagerange": {"@first": "044"}
+                            },
+                            "ref-text": "[INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aharony",
+                                    "ce:indexed-name": "Aharony O."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tachikawa",
+                                    "ce:indexed-name": "Tachikawa Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "C. Couzens et al., F-theory and AdS3/CFT2, JHEP 08 (2017) 043 [arXiv:1705.04679] [INSPIRE]",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "F-theory and AdS 3 /CFT 2"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR20",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "043",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "1705.04679",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85027840353",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "8"}},
+                            "ref-text": "INSPIRE",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Couzens",
+                                    "ce:indexed-name": "Couzens C."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "C. Couzens, D. Martelli and S. Schäfer-Nameki, F-theory and AdS3/CFT2(2, 0), JHEP 06 (2018) 008 [arXiv:1712.07631] [INSPIRE]",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "F-theory and AdS 3 /CFT 2 (2, 0)"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR21",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "008",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "1712.07631",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85048158583",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "6"}},
+                            "ref-text": "INSPIRE",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Couzens",
+                                    "ce:indexed-name": "Couzens C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Martelli",
+                                    "ce:indexed-name": "Martelli D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schäfer-Nameki",
+                                    "ce:indexed-name": "Schafer-Nameki S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "E. D\u2019Hoker, J. Estes and M. Gutperle, Exact half-BPS type IIB interface solutions. I. Local solution and supersymmetric Janus, JHEP 06 (2007) 021 [arXiv:0705.0022] [INSPIRE]",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Exact half-BPS type IIB interface solutions"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR22",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0705.0022",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "34547702209",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "6"},
+                                "pagerange": {"@first": "21"}
+                            },
+                            "ref-text": "[INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "D\u2019Hoker",
+                                    "ce:indexed-name": "D'Hoker E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Estes",
+                                    "ce:indexed-name": "Estes J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gutperle",
+                                    "ce:indexed-name": "Gutperle M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "I. Local Solution and Supersymmetric Janus, JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "E. D\u2019Hoker, J. Estes and M. Gutperle, Exact half-BPS type IIB interface solutions. II. Flux solutions and multi-Janus, JHEP 06 (2007) 022 [arXiv:0705.0024] [INSPIRE]",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Exact half-BPS type IIB interface solutions. II. Flux solutions and multi-Janus"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR23",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "022",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "0705.0024",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "34547702209",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "6"}},
+                            "ref-text": "INSPIRE",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "D\u2019Hoker",
+                                    "ce:indexed-name": "D'Hoker E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Estes",
+                                    "ce:indexed-name": "Estes J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gutperle",
+                                    "ce:indexed-name": "Gutperle M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "G. Inverso, H. Samtleben and M. Trigiante, Type II supergravity origin of dyonic gaugings, Phys. Rev. D 95 (2017) 066020 [arXiv:1612.05123] [INSPIRE]",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Type II supergravity origin of dyonic gaugings"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR24",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "1612.05123",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85021675669",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "95"}},
+                            "ref-text": "[INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Inverso",
+                                    "ce:indexed-name": "Inverso G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Samtleben",
+                                    "ce:indexed-name": "Samtleben H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Trigiante",
+                                    "ce:indexed-name": "Trigiante M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Phys. Rev. D"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Cremonesi, A. Hanany and A. Zaffaroni, Monopole operators and Hilbert series of Coulomb branches of 3d N= 4 gauge theories, JHEP 01 (2014) 005 [arXiv:1309.2657] [INSPIRE]",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Monopole operators and Hilbert series of Coulomb branches of 3d N = 4 gauge theories"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR25",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "005",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "1309.2657",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84892424346",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "1"}},
+                            "ref-text": "[INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cremonesi",
+                                    "ce:indexed-name": "Cremonesi S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hanany",
+                                    "ce:indexed-name": "Hanany A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zaffaroni",
+                                    "ce:indexed-name": "Zaffaroni A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "B. Assel, The space of vacua of 3d N= 3 abelian theories, JHEP 08 (2017) 011 [arXiv:1706.00793] [INSPIRE]",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "The space of vacua of 3d N = 3 abelian theories"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR26",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "011",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "1706.00793",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85026909629",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "8"}},
+                            "ref-text": "[INSPIRE]",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "B.",
+                                "@_fa": "true",
+                                "ce:surname": "Assel",
+                                "ce:indexed-name": "Assel B."
+                            }]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "K. Intriligator and N. Seiberg, Aspects of 3d N = 2 Chern-Simons-Matter theories, JHEP 07 (2013) 079 [arXiv:1305.1633] [INSPIRE]",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Aspects of 3d N = 2 Chern-Simons-Matter theories"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR27",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "079",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "1305.1633",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84881346692",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "7"}},
+                            "ref-text": "[INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Intriligator",
+                                    "ce:indexed-name": "Intriligator K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Seiberg",
+                                    "ce:indexed-name": "Seiberg N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "B. Assel, C. Bachas, J. Estes and J. Gomis, Holographic duals of D = 3 N = 4 superconformal field theories, JHEP 08 (2011) 087 [arXiv:1106.4253] [INSPIRE]",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Holographic duals of D = 3 N = 4 superconformal field theories"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR28",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "087",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "1106.4253",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "80053164056",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "8"}},
+                            "ref-text": "[INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Assel",
+                                    "ce:indexed-name": "Assel B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bachas",
+                                    "ce:indexed-name": "Bachas C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Estes",
+                                    "ce:indexed-name": "Estes J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gomis",
+                                    "ce:indexed-name": "Gomis J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Cremonesi, A. Hanany, N. Mekareeya and A. Zaffaroni, Tρ σ(G) theories and their Hilbert series, JHEP 01 (2015) 150 [arXiv:1410.1548] [INSPIRE]",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "T ρσ(G) theories and their Hilbert series"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR29",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "1410.1548",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84939601916",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "1"},
+                                "pagerange": {"@first": "150"}
+                            },
+                            "ref-text": "[INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cremonesi",
+                                    "ce:indexed-name": "Cremonesi S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hanany",
+                                    "ce:indexed-name": "Hanany A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mekareeya",
+                                    "ce:indexed-name": "Mekareeya N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zaffaroni",
+                                    "ce:indexed-name": "Zaffaroni A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. Kapustin and M.J. Strassler, On mirror symmetry in three-dimensional Abelian gauge theories, JHEP 04 (1999) 021 [hep-th/9902033] [INSPIRE]",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "On mirror symmetry in three-dimensional Abelian gauge theories"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1088/1126-6708/1999/04/021",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR30",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "9902033",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "33646070587",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "4"},
+                                "pagerange": {"@first": "021"}
+                            },
+                            "ref-text": "[hep-th/9902033] [INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kapustin",
+                                    "ce:indexed-name": "Kapustin A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Strassler",
+                                    "ce:indexed-name": "Strassler M.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "B. Assel, C. Bachas, J. Estes and J. Gomis, IIB duals of D = 3 N = 4 circular quivers, JHEP 12 (2012) 044 [arXiv:1210.2590] [INSPIRE]",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "IIB duals of D = 3 N = 4 circular quivers"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR31",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "044",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "1210.2590",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84876254536",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "12"}},
+                            "ref-text": "[INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Assel",
+                                    "ce:indexed-name": "Assel B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bachas",
+                                    "ce:indexed-name": "Bachas C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Estes",
+                                    "ce:indexed-name": "Estes J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gomis",
+                                    "ce:indexed-name": "Gomis J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Y. Terashima and M. Yamazaki, SL(2, ℝ) Chern-Simons, Liouville and gauge theory on duality walls, JHEP 08 (2011) 135 [arXiv:1103.5748] [INSPIRE]",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "SL(2, ℝ) Chern-Simons, Liouville and gauge theory on duality walls"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR32",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "1103.5748",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "80053093014",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "8"},
+                                "pagerange": {"@first": "135"}
+                            },
+                            "ref-text": "[INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Terashima",
+                                    "ce:indexed-name": "Terashima Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yamazaki",
+                                    "ce:indexed-name": "Yamazaki M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "D. Gang, N. Kim, M. Romo and M. Yamazaki, Aspects of defects in 3d-3d correspondence, JHEP 10 (2016) 062 [arXiv:1510.05011] [INSPIRE]",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Aspects of defects in 3d-3d correspondence"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR33",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "1510.05011",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84992371663",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "10"},
+                                "pagerange": {"@first": "062"}
+                            },
+                            "ref-text": "[INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gang",
+                                    "ce:indexed-name": "Gang D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Romo",
+                                    "ce:indexed-name": "Romo M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yamazaki",
+                                    "ce:indexed-name": "Yamazaki M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "O. Aharony and A. Hanany, Branes, superpotentials and superconformal fixed points, Nucl. Phys. B 504 (1997) 239 [hep-th/9704170] [INSPIRE]",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Branes, superpotentials and superconformal fixed points"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR34",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "9704170",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "0031588283",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "504"},
+                                "pagerange": {"@first": "239"}
+                            },
+                            "ref-text": "[hep-th/9704170] [INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aharony",
+                                    "ce:indexed-name": "Aharony O."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hanany",
+                                    "ce:indexed-name": "Hanany A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Nucl. Phys. B"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "O. Aharony, A. Hanany and B. Kol, Webs of (p, q) five-branes, five-dimensional field theories and grid diagrams, JHEP 01 (1998) 002 [hep-th/9710116] [INSPIRE]",
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Webs of (P, q) five-branes, five-dimensional field theories and grid diagrams"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR35",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "002",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "33645954949",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "1"}},
+                            "ref-text": "[INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aharony",
+                                    "ce:indexed-name": "Aharony O."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hanany",
+                                    "ce:indexed-name": "Hanany A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kol",
+                                    "ce:indexed-name": "Kol B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. Hanany and N. Mekareeya, Complete intersection moduli spaces in N = 4 gauge theories in three dimensions, JHEP 01 (2012) 079 [arXiv:1110.6203] [INSPIRE]",
+                        "@id": "36",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Complete intersection moduli spaces in N = 4 gauge theories in three dimensions"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR36",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "1110.6203",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84857349662",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "1"},
+                                "pagerange": {"@first": "079"}
+                            },
+                            "ref-text": "[INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hanany",
+                                    "ce:indexed-name": "Hanany A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mekareeya",
+                                    "ce:indexed-name": "Mekareeya N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. Hanany and R. Kalveks, Quiver theories for moduli spaces of classical group nilpotent orbits, JHEP 06 (2016) 130 [arXiv:1601.04020] [INSPIRE]",
+                        "@id": "37",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Quiver theories for moduli spaces of classical group nilpotent orbits"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/JHEP06(2016)130",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR37",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "1601.04020",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84976594802",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "6"},
+                                "pagerange": {"@first": "130"}
+                            },
+                            "ref-text": "[] [INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hanany",
+                                    "ce:indexed-name": "Hanany A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kalveks",
+                                    "ce:indexed-name": "Kalveks R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. Hanany and N. Mekareeya, Tri-vertices and SU(2)\u2019s, JHEP 02 (2011) 069 [arXiv:1012.2119] [INSPIRE]",
+                        "@id": "38",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Tri-vertices and SU(2)\u2019s"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR38",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "069",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "1012.2119",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "79960364339",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "2"}},
+                            "ref-text": "[INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hanany",
+                                    "ce:indexed-name": "Hanany A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mekareeya",
+                                    "ce:indexed-name": "Mekareeya N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. Hanany and G. Zafrir, Discrete gauging in six dimensions, JHEP 07 (2018) 168 [arXiv:1804.08857] [INSPIRE]",
+                        "@id": "39",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Discrete gauging in six dimensions"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/JHEP07(2018)168",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR39",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "1804.08857",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85050942609",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "7"},
+                                "pagerange": {"@first": "168"}
+                            },
+                            "ref-text": "[] [INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hanany",
+                                    "ce:indexed-name": "Hanany A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zafrir",
+                                    "ce:indexed-name": "Zafrir G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "F. Benini, Y. Tachikawa and D. Xie, Mirrors of 3d Sicilian theories, JHEP 09 (2010) 063 [arXiv:1007.0992] [INSPIRE]",
+                        "@id": "40",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Mirrors of 3d Sicilian theories"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR40",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "1007.0992",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "78649715281",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "9"}},
+                            "ref-text": "[INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Benini",
+                                    "ce:indexed-name": "Benini F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tachikawa",
+                                    "ce:indexed-name": "Tachikawa Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xie",
+                                    "ce:indexed-name": "Xie D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Cremonesi, N. Mekareeya and A. Zaffaroni, The moduli spaces of 3d N≥ 2 Chern-Simons gauge theories and their Hilbert series, JHEP 10 (2016) 046 [arXiv:1607.05728] [INSPIRE]",
+                        "@id": "41",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "The moduli spaces of 3d N ≥ 2 Chern-Simons gauge theories and their Hilbert series"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR41",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "1607.05728",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84991045215",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "10"},
+                                "pagerange": {"@first": "046"}
+                            },
+                            "ref-text": "[INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cremonesi",
+                                    "ce:indexed-name": "Cremonesi S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mekareeya",
+                                    "ce:indexed-name": "Mekareeya N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zaffaroni",
+                                    "ce:indexed-name": "Zaffaroni A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "D. Forcella, A. Hanany and A. Zaffaroni, Baryonic generating functions, JHEP 12 (2007) 022 [hep-th/0701236] [INSPIRE]",
+                        "@id": "42",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Baryonic generating functions"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1088/1126-6708/2007/12/022",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR42",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0701236",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "38049040257",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "12"},
+                                "pagerange": {"@first": "022"}
+                            },
+                            "ref-text": "[hep-th/0701236] [INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Forcella",
+                                    "ce:indexed-name": "Forcella D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hanany",
+                                    "ce:indexed-name": "Hanany A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zaffaroni",
+                                    "ce:indexed-name": "Zaffaroni A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Benvenuti, A. Hanany and N. Mekareeya, The Hilbert series of the one instanton moduli space, JHEP 06 (2010) 100 [arXiv:1005.3026] [INSPIRE]",
+                        "@id": "43",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "The Hilbert series of the one instanton moduli space"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/JHEP06(2010)100",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR43",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "1005.3026",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "77955043563",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "6"},
+                                "pagerange": {"@first": "100"}
+                            },
+                            "ref-text": "[] [INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Benvenuti",
+                                    "ce:indexed-name": "Benvenuti S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hanany",
+                                    "ce:indexed-name": "Hanany A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mekareeya",
+                                    "ce:indexed-name": "Mekareeya N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "D. Gaiotto, A. Neitzke and Y. Tachikawa, Argyres-Seiberg duality and the Higgs branch, Commun. Math. Phys. 294 (2010) 389 [arXiv:0810.4541] [INSPIRE]",
+                        "@id": "44",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Argyres-Seiberg duality and the Higgs branch"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/s00220-009-0938-6",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR44",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0810.4541",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "76349086667",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "294"},
+                                "pagerange": {"@first": "389"}
+                            },
+                            "ref-text": "[] [INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gaiotto",
+                                    "ce:indexed-name": "Gaiotto D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Neitzke",
+                                    "ce:indexed-name": "Neitzke A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tachikawa",
+                                    "ce:indexed-name": "Tachikawa Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Commun. Math. Phys."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Cremonesi, A. Hanany, N. Mekareeya and A. Zaffaroni, Coulomb branch Hilbert series and Hall-Littlewood polynomials, JHEP 09 (2014) 178 [arXiv:1403.0585] [INSPIRE]",
+                        "@id": "45",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Coulomb branch Hilbert series and Hall-Littlewood polynomials"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/JHEP09(2014)178",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR45",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "1403.0585",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84919707577",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "9"},
+                                "pagerange": {"@first": "178"}
+                            },
+                            "ref-text": "[] [INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cremonesi",
+                                    "ce:indexed-name": "Cremonesi S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hanany",
+                                    "ce:indexed-name": "Hanany A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mekareeya",
+                                    "ce:indexed-name": "Mekareeya N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zaffaroni",
+                                    "ce:indexed-name": "Zaffaroni A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Benvenuti, B. Feng, A. Hanany and Y.-H. He, Counting BPS operators in gauge theories: quivers, syzygies and plethystics, JHEP 11 (2007) 050 [hep-th/0608050] [INSPIRE]",
+                        "@id": "46",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Counting BPS operators in gauge theories: quivers, syzygies and plethystics"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1088/1126-6708/2007/11/050",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR46",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0608050",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "36849088657",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "11"},
+                                "pagerange": {"@first": "050"}
+                            },
+                            "ref-text": "[hep-th/0608050] [INSPIRE]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Benvenuti",
+                                    "ce:indexed-name": "Benvenuti S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Feng",
+                                    "ce:indexed-name": "Feng B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hanany",
+                                    "ce:indexed-name": "Hanany A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.-H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He Y.-H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "D.L. Jafferis, Quantum corrections to N= 2 Chern-Simons theories with flavor and their AdS4duals, JHEP 08 (2013) 046 [arXiv:0911.4324] [INSPIRE]",
+                        "@id": "47",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Quantum corrections to N = 2 Chern-Simons theories with flavor and their AdS 4 duals"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR47",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "046",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "0911.4324",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84884569211",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "8"}},
+                            "ref-text": "[INSPIRE]",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "D.L.",
+                                "@_fa": "true",
+                                "ce:surname": "Jafferis",
+                                "ce:indexed-name": "Jafferis D.L."
+                            }]},
+                            "ref-sourcetitle": "JHEP"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Bangkok",
+            "@id": "60028190",
+            "affilname": "Chulalongkorn University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190",
+            "affiliation-country": "Thailand"
+        },
+        {
+            "affiliation-city": "Milan",
+            "@id": "60012306",
+            "affilname": "Università degli Studi di Milano-Bicocca",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012306",
+            "affiliation-country": "Italy"
+        },
+        {
+            "affiliation-city": "Milan",
+            "@id": "126400021",
+            "affilname": "INFN",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/126400021",
+            "affiliation-country": "Italy"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "prism:issueIdentifier": "1",
+        "eid": "2-s2.0-85059576200",
+        "dc:description": "An S-fold has played an important role in constructing supersymmetric field theories with interesting features. It can be viewed as a type of AdS4 solutions of Type IIB string theory where the fields in overlapping patches are glued by elements of SL(2, ℤ). This paper examines three dimensional quiver theories that arise from brane configurations with an inclusion of the S-fold. An important feature of such a quiver is that it contains a link, which is the T (U(N)) theory, between two U(N) groups, along with bifundamental and fundamental hypermultiplets. We systematically study the moduli spaces of those quiver theories, including the cases in which the non-zero Chern-Simons levels are turned on. A number of such moduli spaces turns out to have a very rich structure and tells us about the brane dynamics in the presence of an S-fold.",
+        "prism:coverDate": "2019-01-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85059576200",
+        "subtypeDescription": "Article",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Ivan",
+            "preferred-name": {
+                "ce:given-name": "Ivan",
+                "ce:initials": "I.",
+                "ce:surname": "Garozzo",
+                "ce:indexed-name": "Garozzo I."
+            },
+            "@seq": "1",
+            "ce:initials": "I.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60012306",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012306"
+                },
+                {
+                    "@id": "126400021",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/126400021"
+                }
+            ],
+            "ce:surname": "Garozzo",
+            "@auid": "57204763519",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57204763519",
+            "ce:indexed-name": "Garozzo I."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85059576200"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85059576200&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85059576200&origin=inward"
+            }
+        ],
+        "prism:publicationName": "Journal of High Energy Physics",
+        "source-id": "28520",
+        "citedby-count": "12",
+        "prism:volume": "2019",
+        "subtype": "ar",
+        "dc:title": "The moduli spaces of S-fold CFTs",
+        "openaccess": "1",
+        "openaccessFlag": "true",
+        "prism:doi": "10.1007/JHEP01(2019)046",
+        "prism:issn": "10298479 11266708",
+        "publishercopyright": "© 2019, The Author(s).",
+        "article-number": "46",
+        "dc:identifier": "SCOPUS_ID:85059576200",
+        "dc:publisher": "Springer Verlagservice@springer.de"
+    },
+    "idxterms": null,
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Brane Dynamics in Gauge Theories"
+        },
+        {
+            "@_fa": "true",
+            "$": "Duality in Gauge Field Theories"
+        },
+        {
+            "@_fa": "true",
+            "$": "Supersymmetric Gauge Theory"
+        },
+        {
+            "@_fa": "true",
+            "$": "Supersymmetry and Duality"
+        }
+    ]},
+    "subject-areas": {"subject-area": [{
+        "@_fa": "true",
+        "$": "Nuclear and High Energy Physics",
+        "@code": "3106",
+        "@abbrev": "PHYS"
+    }]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Ivan",
+            "preferred-name": {
+                "ce:given-name": "Ivan",
+                "ce:initials": "I.",
+                "ce:surname": "Garozzo",
+                "ce:indexed-name": "Garozzo I."
+            },
+            "@seq": "1",
+            "ce:initials": "I.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60012306",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012306"
+                },
+                {
+                    "@id": "126400021",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/126400021"
+                }
+            ],
+            "ce:surname": "Garozzo",
+            "@auid": "57204763519",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57204763519",
+            "ce:indexed-name": "Garozzo I."
+        },
+        {
+            "ce:given-name": "Gabriele",
+            "preferred-name": {
+                "ce:given-name": "Gabriele",
+                "ce:initials": "G.",
+                "ce:surname": "Lo Monaco",
+                "ce:indexed-name": "Lo Monaco G."
+            },
+            "@seq": "2",
+            "ce:initials": "G.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60012306",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012306"
+                },
+                {
+                    "@id": "126400021",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/126400021"
+                }
+            ],
+            "ce:surname": "Lo Monaco",
+            "@auid": "57203892387",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57203892387",
+            "ce:indexed-name": "Lo Monaco G."
+        },
+        {
+            "ce:given-name": "Noppadol",
+            "preferred-name": {
+                "ce:given-name": "Noppadol",
+                "ce:initials": "N.",
+                "ce:surname": "Mekareeya",
+                "ce:indexed-name": "Mekareeya N."
+            },
+            "@seq": "3",
+            "ce:initials": "N.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "126400021",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/126400021"
+                },
+                {
+                    "@id": "60028190",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028190"
+                }
+            ],
+            "ce:surname": "Mekareeya",
+            "@auid": "24468363200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/24468363200",
+            "ce:indexed-name": "Mekareeya N."
+        }
+    ]}
+}}
