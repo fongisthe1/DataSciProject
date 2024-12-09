@@ -8,7 +8,7 @@ import requests
 from functions import recommend, text_rep
 
 #Header and subheader
-st.title("4AM Datasci Project")
+st.title("Paper Remommendations System")
 st.subheader("")
 datasets = ['./Database-files/2018.csv', './Database-files/2019.csv', './Database-files/2020.csv', './Database-files/2021.csv', './Database-files/2022.csv', './Database-files/2023.csv']
 df01 = pd.DataFrame()
@@ -87,27 +87,30 @@ with col1:
         col1.pyplot(fig2)
 with col2:
     st.subheader("Our AI Implementation: Article suggestion system")
-    title_input = st.text_input("Enter Title")
-    author_input = st.text_input("Enter Authors in format: <author>,<author>,<author>...")
-    publcation_date_input = st.text_input("Enter Publication Date")
-    keyword_input = st.text_input("Enter Keywords")
-    abstract_input = st.text_input("Enter Abstract")
-if title_input and author_input and keyword_input and abstract_input and publcation_date_input:
-    query = """Title:{title_intput}
-    Publication Date:{publcation_date_input}
-    Keywords:{keyword_input}
-    Abstract:{abstract_input}
-    """
-    query_authors = author_input.split(",")
-    if os.path.exists('index'):
-        index = faiss.read_index('index')
-        print("Index Loaded") 
-    else:
-        dim = 3072
-        index = faiss.IndexFlatL2(dim)
-        print("Index Created")
-    st.write("Here are some articles that match your criteria:")
-    st.write(recommend(index,query,query_authors,df02))
+    title_input = st.text_input("Enter Title", "")
+    author_input = st.text_input("Enter Authors in format: <author1>,<author2>,<author3>...", "")
+    publcation_date_input = st.text_input("Enter Publication Date", "")
+    keyword_input = st.text_input("Enter Keywords", "")
+    abstract_input = st.text_input("Enter Abstract", "")
+    subject_input = st.text_input("Enter Subject Areas", "")
+
+if title_input and author_input and keyword_input and abstract_input and publcation_date_input and subject_input:
+    # Use f-strings to properly format the query
+    query = f"""Title: {title_input}
+Publication Date: {publcation_date_input}
+Keywords: {keyword_input}
+Abstract: {abstract_input}
+Subject Areas: {subject_input}
+"""
+    # Clean and split author names
+    query_authors = [author.strip() for author in author_input.split(",")]
+
+    # Read the FAISS index
+    index = faiss.read_index('realindex')
+
+    # Display the recommendation
+    st.write("Recommended Papers:")
+    st.dataframe(recommend(index, query, query_authors, df02), hide_index=True)
 
 
 #AI Implementation portion:
