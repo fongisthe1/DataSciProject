@@ -41,22 +41,22 @@ end_date = st.sidebar.date_input("End Date", value=pd.to_datetime('2023-04-01'))
 temp_database = st.sidebar.selectbox("Select Your Database",('Chula 2018','Chula 2019','Chula 2020','Chula 2021','Chula 2022','Chula 2023','Arxiv'))
 
 container1 = st.container()
-col1, col2 = st.columns(2)
+col1, col2 = container1.columns(2)
 if start_date and end_date:
-    container1.subheader("Timeline of Articles Published")
-    container1.write(f"Showing data from {start_date} to {end_date}")
-    df_filtered = df01[(df01['Publication Date'] >= start_date) & (df01['Publication Date'] <= end_date)]
-    df_count = df_filtered.groupby('Publication Date').size().reset_index(name='Article Count')
+    with col1:
+        col1.subheader(f"Timeline of Articles Published During {start_date} to {end_date}")
+        df_filtered = df01[(df01['Publication Date'] >= start_date) & (df01['Publication Date'] <= end_date)]
+        df_count = df_filtered.groupby('Publication Date').size().reset_index(name='Article Count')
     
-    fig, a = plt.subplots()
-    a.plot(df_count['Publication Date'], df_count['Article Count'])
-    a.set_xlabel("Date")
-    a.set_ylabel("Article")
-    a.set_title("Timeline of Article Publish Dates")
-    plt.xticks(rotation=45)
-    container1.pyplot(fig)
+        fig, a = plt.subplots()
+        a.plot(df_count['Publication Date'], df_count['Article Count'])
+        a.set_xlabel("Date")
+        a.set_ylabel("Article")
+        a.set_title("Timeline of Article Publish Dates")
+        plt.xticks(rotation=45)
+        col1.pyplot(fig)
 
-with col1:
+with col2:
     if start_date and end_date and temp_database:
         if temp_database == 'Chula 2018':
             temp_df = df1
@@ -85,32 +85,36 @@ with col1:
         b.set_title("Timeline of Article Publish Dates")
         plt.xticks(rotation=45)
         col1.pyplot(fig2)
-with col2:
-    st.subheader("Our AI Implementation: Article suggestion system")
+
+ai_container = st.container()
+
+with ai_container:
+    ai_container.subheader("Our AI Implementation: Article suggestion system")
     title_input = st.text_input("Enter Title", "")
     author_input = st.text_input("Enter Authors in format: <author1>,<author2>,<author3>...", "")
-    publcation_date_input = st.text_input("Enter Publication Date", "")
+    publcation_date_input = st.date_input("Enter Publication Date")
+    publcation_date_input = publcation_date_input.strftime('%Y-%m-%d')
     keyword_input = st.text_input("Enter Keywords", "")
     abstract_input = st.text_input("Enter Abstract", "")
     subject_input = st.text_input("Enter Subject Areas", "")
 
-if title_input and author_input and keyword_input and abstract_input and publcation_date_input and subject_input:
-    # Use f-strings to properly format the query
-    query = f"""Title: {title_input}
+    if title_input and author_input and keyword_input and abstract_input and publcation_date_input and subject_input:
+        # Use f-strings to properly format the query
+        query = f"""Title: {title_input}
 Publication Date: {publcation_date_input}
 Keywords: {keyword_input}
 Abstract: {abstract_input}
 Subject Areas: {subject_input}
 """
-    # Clean and split author names
-    query_authors = [author.strip() for author in author_input.split(",")]
+        # Clean and split author names
+        query_authors = [author.strip() for author in author_input.split(",")]
 
-    # Read the FAISS index
-    index = faiss.read_index('realindex')
+        # Read the FAISS index
+        index = faiss.read_index('realindex')
 
-    # Display the recommendation
-    st.write("Recommended Papers:")
-    st.dataframe(recommend(index, query, query_authors, df02), hide_index=True)
+        # Display the recommendation
+        st.write("Recommended Papers:")
+        st.dataframe(recommend(index, query, query_authors, df02), hide_index=True)
 
 
 #AI Implementation portion:
