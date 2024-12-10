@@ -187,7 +187,7 @@ Subject Areas: {subject_input}
         query_authors = [author.strip() for author in author_input.split(",")]
 
         # Read the FAISS index
-        index = faiss.read_index('index')
+        index = faiss.read_index('realindex')
 
         # Display the recommendation
         st.write("Recommended Papers:")
