@@ -5,11 +5,11 @@ import matplotlib.pyplot as plt
 import os
 import faiss
 import requests
-from util.py import recommend, text_rep
+from util import recommend, text_rep
 #Header and subheader
 st.title("Paper Remommendations System")
 st.subheader("")
-datasets = ['./Database-files/2018.csv', './Database-files/2019.csv', './Database-files/2020.csv', './Database-files/2021.csv', './Database-files/2022.csv', './Database-files/2023.csv']
+datasets = ['./2018.csv', './2019.csv', './2020.csv', './2021.csv', './2022.csv', './2023.csv']
 df01 = pd.DataFrame()
 df02 = pd.DataFrame()
 for dataset in datasets:
@@ -18,18 +18,18 @@ for dataset in datasets:
     df02 = pd.concat([df02, temp_df], ignore_index=True)
 
 #for timeline: 
-df01 = pd.concat([df01, pd.read_csv('./Database-files/fixed_data/final14_arxiv_articles.csv')], ignore_index=True)
+df01 = pd.concat([df01, pd.read_csv('./final14_arxiv_articles.csv')], ignore_index=True)
 #for AI portion
-df02 = pd.concat([df02, pd.read_csv('./Database-files/fixed_data/final14_arxiv_articles.csv')],ignore_index=True)
+df02 = pd.concat([df02, pd.read_csv('./final14_arxiv_articles.csv')],ignore_index=True)
 
 #For Seperate Timelines:
-df1 = pd.read_csv('./Database-files/2018.csv')
-df2 = pd.read_csv('./Database-files/2019.csv')
-df3 = pd.read_csv('./Database-files/2020.csv')
-df4 = pd.read_csv('./Database-files/2021.csv')
-df5 = pd.read_csv('./Database-files/2022.csv')
-df6 = pd.read_csv('./Database-files/2023.csv')
-df7 = pd.read_csv('./Database-files/fixed_data/final14_arxiv_articles.csv')
+df1 = pd.read_csv('./2018.csv')
+df2 = pd.read_csv('./2019.csv')
+df3 = pd.read_csv('./2020.csv')
+df4 = pd.read_csv('./2021.csv')
+df5 = pd.read_csv('./2022.csv')
+df6 = pd.read_csv('./2023.csv')
+df7 = pd.read_csv('./final14_arxiv_articles.csv')
 
 df02['text_representation'] = df02.apply(text_rep, axis=1)
 df01['Publication Date'] = df01['Publication Date'].apply(lambda x: pd.to_datetime((x)).date())
@@ -97,12 +97,12 @@ else:
     st.subheader(f"Paper Counts in Each Subject Area in {subcountyear}")
 # Load data
 subcount_dfs = {
-    '2018': pd.read_csv("./Database-files/2018_counts_subject_area.csv"),
-    '2019': pd.read_csv("./Database-files/2019_counts_subject_area.csv"),
-    '2020': pd.read_csv("./Database-files/2020_counts_subject_area.csv"),
-    '2021': pd.read_csv("./Database-files/2021_counts_subject_area.csv"),
-    '2022': pd.read_csv("./Database-files/2022_counts_subject_area.csv"),
-    '2023': pd.read_csv("./Database-files/2023_counts_subject_area.csv"),
+    '2018': pd.read_csv("./2018_counts_subject_area.csv"),
+    '2019': pd.read_csv("./2019_counts_subject_area.csv"),
+    '2020': pd.read_csv("./2020_counts_subject_area.csv"),
+    '2021': pd.read_csv("./2021_counts_subject_area.csv"),
+    '2022': pd.read_csv("./2022_counts_subject_area.csv"),
+    '2023': pd.read_csv("./2023_counts_subject_area.csv"),
 }
 subcountyear = st.selectbox("Select the Year", ('All', '2018', '2019', '2020', '2021', '2022', '2023'), index=0)
 
