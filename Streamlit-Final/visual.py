@@ -2,13 +2,35 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import os
 import faiss
-import requests
+from datetime import datetime
 from util import recommend, text_rep
-#Header and subheader
-st.title("Paper Remommendations System")
-st.subheader("")
+
+
+def use_dark_mode():
+    current_hour = datetime.now().hour
+    return current_hour >= 19 or current_hour <= 6
+def style_dark_mode(fig, ax):
+    dark_color = 'xkcd:almost black'
+    # Backgrounds
+    ax.set_facecolor(dark_color) 
+    fig.patch.set_facecolor(dark_color) 
+    # Text
+    ax.xaxis.label.set_color('white')  # X-axis label
+    ax.yaxis.label.set_color('white')  # Y-axis label
+    ax.title.set_color('white')       # Title
+    # Ticks
+    ax.tick_params(axis='x', colors='white')
+    ax.tick_params(axis='y', colors='white')
+    # Spines
+    ax.spines['top'].set_color('white')
+    ax.spines['bottom'].set_color('white')
+    ax.spines['left'].set_color('white')
+    ax.spines['right'].set_color('white')
+    ax.grid(color='white', linestyle='--', linewidth=0.5, alpha=0.4)
+
+
+#-----------------------------DataFrames-----------------------------------
 datasets = ['./2018.csv', './2019.csv', './2020.csv', './2021.csv', './2022.csv', './2023.csv']
 df01 = pd.DataFrame()
 df02 = pd.DataFrame()
@@ -34,162 +56,162 @@ df7 = pd.read_csv('./final14_arxiv_articles.csv')
 df02['text_representation'] = df02.apply(text_rep, axis=1)
 df01['Publication Date'] = df01['Publication Date'].apply(lambda x: pd.to_datetime((x)).date())
 
-#---------------------Sidebar---------------------
+#--------------------Header and subheader------------------
+st.title("Paper Recommendations System")
+st.subheader("Discover and recommend relevant papers based on your query and author preferences")
+selected_section = st.selectbox("Select the section", ("Data Insights", "Paper Recommendation System"))
+st.markdown('---')
 
-st.sidebar.title("Date Selection for Data Representation")
-start_date = st.sidebar.date_input("Start Date", value=pd.to_datetime('2023-01-01'))
-end_date = st.sidebar.date_input("End Date", value=pd.to_datetime('2023-04-01'))
-temp_database = st.sidebar.selectbox("Select Your Database",('Chula 2018','Chula 2019','Chula 2020','Chula 2021','Chula 2022','Chula 2023','Arxiv'))
 
 #---------------------Date Graph------------------------
+if selected_section == "Data Insights":
+    st.subheader('Data Insights')
+    container1 = st.expander("Timeline of papers publications")
+    col1, col2 = container1.columns(2)
 
-container1 = st.container()
-col1, col2 = container1.columns(2)
-if start_date and end_date:
-    with col1:
-        col1.subheader(f"Timeline of Articles Published from {start_date} to {end_date}")
-        df_filtered = df01[(df01['Publication Date'] >= start_date) & (df01['Publication Date'] <= end_date)]
-        df_count = df_filtered.groupby('Publication Date').size().reset_index(name='Article Count')
-    
-        fig, a = plt.subplots()
-        a.plot(df_count['Publication Date'], df_count['Article Count'])
-        a.set_xlabel("Date")
-        a.set_ylabel("Article")
-        a.set_title("Timeline of Article Publish Dates")
-        plt.xticks(rotation=45)
-        col1.pyplot(fig)
+    with container1:
+        with col1:
+            st.subheader("By Date Period")
+            start_date = st.date_input("Start Date", value=pd.to_datetime('2023-01-01'), key="start_date")
+            end_date = st.date_input("End Date", value=pd.to_datetime('2023-04-01'), key="end_date")
+            col1.markdown(f"**Timeline of Articles Published from {start_date} to {end_date}**")
+            df_filtered = df01[(df01['Publication Date'] >= start_date) & (df01['Publication Date'] <= end_date)]
+            df_count = df_filtered.groupby('Publication Date').size().reset_index(name='Article Count')
+        
+            fig, a = plt.subplots()
+            a.plot(df_count['Publication Date'], df_count['Article Count'], color='orangered')
+            a.set_xlabel("Date")
+            a.set_ylabel("Article")
+            a.set_title("Timeline of Article Publish Dates")
+            plt.xticks(rotation=45)
+            if use_dark_mode:
+                style_dark_mode(fig, a)
+            col1.pyplot(fig)
 
-with col2:
-    if start_date and end_date and temp_database:
-        if temp_database == 'Chula 2018':
-            temp_df = df1
-        elif temp_database == 'Chula 2019':
-            temp_df = df2
-        elif temp_database == 'Chula 2020':
-            temp_df = df3
-        elif temp_database == 'Chula 2021':
-            temp_df = df4
-        elif temp_database == 'Chula 2022':
-            temp_df = df5
-        elif temp_database == 'Chula 2023':
-            temp_df = df6
-        elif temp_database == 'Arxiv':
-            temp_df = df7
 
-        temp_df['Publication Date'] = temp_df['Publication Date'].apply(lambda x: pd.to_datetime((x)).date())
+        with col2:
+            st.subheader("By Dataset")
+            temp_database = st.selectbox("Select Your Dataset",('Chula 2018','Chula 2019','Chula 2020','Chula 2021','Chula 2022','Chula 2023','Arxiv'), key="temp_database")
+            if temp_database:
+                if temp_database == 'Chula 2018':
+                    temp_df = df1
+                elif temp_database == 'Chula 2019':
+                    temp_df = df2
+                elif temp_database == 'Chula 2020':
+                    temp_df = df3
+                elif temp_database == 'Chula 2021':
+                    temp_df = df4
+                elif temp_database == 'Chula 2022':
+                    temp_df = df5
+                elif temp_database == 'Chula 2023':
+                    temp_df = df6
+                elif temp_database == 'Arxiv':
+                    temp_df = df7
 
-        col2.subheader("Timeline of Articles Published")
-        df_filtered1 = temp_df[(temp_df['Publication Date'] >= start_date) & (temp_df['Publication Date'] <= end_date)]
-        df_count1 = df_filtered1.groupby('Publication Date').size().reset_index(name='Article Count')
-        fig2, b = plt.subplots()
-        b.plot(df_count1['Publication Date'], df_count1['Article Count'])
-        b.set_xlabel("Date")
-        b.set_ylabel("Article")
-        b.set_title("Timeline of Article Publish Dates")
-        plt.xticks(rotation=45)
-        col2.pyplot(fig2)
+                temp_df['Publication Date'] = temp_df['Publication Date'].apply(lambda x: pd.to_datetime((x)).date())
 
-#------------------------------Subject Areas----------------------------------
-subcountyear = 'All'
-if subcountyear == 'All':
-    st.subheader("Paper Conts in Each Subject Area Across All Years")
-else:
-    st.subheader(f"Paper Counts in Each Subject Area in {subcountyear}")
-# Load data
-subcount_dfs = {
-    '2018': pd.read_csv("./2018_counts_subject_area.csv"),
-    '2019': pd.read_csv("./2019_counts_subject_area.csv"),
-    '2020': pd.read_csv("./2020_counts_subject_area.csv"),
-    '2021': pd.read_csv("./2021_counts_subject_area.csv"),
-    '2022': pd.read_csv("./2022_counts_subject_area.csv"),
-    '2023': pd.read_csv("./2023_counts_subject_area.csv"),
-}
-subcountyear = st.selectbox("Select the Year", ('All', '2018', '2019', '2020', '2021', '2022', '2023'), index=0)
+                col2.markdown("**Timeline of Articles Published**")
+                df_count1 = temp_df.groupby('Publication Date').size().reset_index(name='Article Count')
+                fig2, b = plt.subplots()
+                b.plot(df_count1['Publication Date'], df_count1['Article Count'], color='orangered')
+                b.set_xlabel("Date")
+                b.set_ylabel("Article")
+                b.set_title("Timeline of Article Publish Dates")
+                plt.xticks(rotation=45)
+                if use_dark_mode:
+                    style_dark_mode(fig2, b)
 
-if subcountyear != 'All':
-    # Filter year
-    selected_df = subcount_dfs[subcountyear]
-    # Sort by counts and get the top bottom 10
-    sorted_selected_df = selected_df.sort_values(by='Count', ascending=False)
-    top_subjects = sorted_selected_df.head(10)
-    bottom_subjects = sorted_selected_df.tail(30)
-    # Reverse order for visualization
-    top_subjects = top_subjects.iloc[::-1]
-    bottom_subjects = bottom_subjects.iloc[::-1]
-    # Plot top 10
-    fig_t, ax_t = plt.subplots()
-    ax_t.barh(top_subjects['Subject Area'], top_subjects['Count'], color='skyblue')
-    ax_t.set_xlabel("Paper Counts")
-    ax_t.set_ylabel("Subject Areas")
-    ax_t.set_title(f"Top 10 Subject Areas in {subcountyear}")
-    st.pyplot(fig_t)
-    # Bottom 10
-    fig_b, ax_b = plt.subplots()
-    ax_b.barh(bottom_subjects['Subject Area'], bottom_subjects['Count'], color='salmon')
-    ax_b.set_xlabel("Paper Counts")
-    ax_b.set_ylabel("Subject Areas")
-    ax_b.tick_params(axis='y', labelsize=7)
-    ax_b.set_title(f"Bottom 10 Subject Areas in {subcountyear}")
-    st.pyplot(fig_b)
-else:
-    # Combine data for all years
-    combined_df = pd.concat(subcount_dfs.values())
-    grouped_df = combined_df.groupby('Subject Area')['Count'].sum().reset_index()
-    
-    # Sort by counts and get the top 10
-    sorted_grouped_df = grouped_df.sort_values(by='Count', ascending=False)
-    top_subjects = sorted_grouped_df.head(10)
-    bottom_subjects = sorted_grouped_df.tail(30)
-    # Reverse order for visualization
-    top_subjects = top_subjects.iloc[::-1]
-    bottom_subjects = bottom_subjects.iloc[::-1]
-    # Plot top 10
-    fig_t, ax_t = plt.subplots()
-    ax_t.barh(top_subjects['Subject Area'], top_subjects['Count'], color='skyblue')
-    ax_t.set_xlabel("Paper Counts")
-    ax_t.set_ylabel("Subject Areas")
-    ax_t.set_title("Top 10 Subject Areas Across All Years")
-    st.pyplot(fig_t)
-    # Bottom 10
-    fig_b, ax_b = plt.subplots()
-    ax_b.barh(bottom_subjects['Subject Area'], bottom_subjects['Count'], color='salmon')
-    ax_b.set_xlabel("Paper Counts")
-    ax_b.set_ylabel("Subject Areas")
-    ax_b.tick_params(axis='y', labelsize=7)
-    ax_b.set_title("Bottom 10 Subject Areas Across All Years")
-    st.pyplot(fig_b)
+                col2.pyplot(fig2)
+                
 
+
+    #------------------------------Subject Category----------------------------------
+    subcount_container = st.expander("Paper Counts in Each Subject Category")
+
+    with subcount_container:
+        # Load data
+        subcount_dfs = {
+            '2018': pd.read_csv("./2018_grouped_classification_counts.csv"),
+            '2019': pd.read_csv("./2019_counts_classification.csv"),
+            '2020': pd.read_csv("./2020_counts_classification.csv"),
+            '2021': pd.read_csv("./2021_counts_classification.csv"),
+            '2022': pd.read_csv("./2022_counts_classification.csv"),
+            '2023': pd.read_csv("./2023_counts_classification.csv"),
+        }
+        subcountyear = st.selectbox("Select the Year", ('All', '2018', '2019', '2020', '2021', '2022', '2023'), index=0)
+        subject_amount = st.slider("Select the Amount of Subjects to Display", value=10, min_value=1, max_value=30)
+        sort_type = st.selectbox('Order', ("Descending", "Ascending"))
+        if subcountyear != 'All':
+            st.subheader(f"Paper Counts in Each Subject Category in {subcountyear}")
+          
+            selected_df = subcount_dfs[subcountyear]
+            sorted_selected_df = selected_df.sort_values(by='Count', ascending=(sort_type == 'Ascending')).head(subject_amount)
+            
+            fig, ax = plt.subplots(figsize=(15, 8))
+            ax.barh(sorted_selected_df['Category'], sorted_selected_df['Count'], color='xkcd:bright orange')
+            
+           
+            ax.set_xlabel("Paper Counts", fontsize=16)
+            ax.set_ylabel("Subject Category", fontsize=16)
+            ax.set_title(f"Paper Counts for Each Subject Category in {subcountyear}", fontsize=18)
+            
+            ax.tick_params(axis='x', labelsize=14)
+            ax.tick_params(axis='y', labelsize=14)
+            
+        else:
+            st.subheader("Paper Counts in Each Subject Category Across All Years")
+            
+            combined_df = pd.concat(subcount_dfs.values())
+            grouped_df = combined_df.groupby('Category')['Count'].sum().reset_index()
+            
+            sorted_grouped_df = grouped_df.sort_values(by='Count', ascending=(sort_type == 'Ascending')).head(subject_amount)
+            
+            fig, ax = plt.subplots(figsize=(15, 9))
+            ax.barh(sorted_grouped_df['Category'], sorted_grouped_df['Count'], color='xkcd:bright orange')
+            
+            ax.set_xlabel("Paper Counts", fontsize=16)
+            ax.set_ylabel("Subject Category", fontsize=16)
+            ax.set_title("Paper Counts for Each Subject Category Across All Years", fontsize=18)
+        
+            ax.tick_params(axis='x', labelsize=14)
+            ax.tick_params(axis='y', labelsize=14)
+        if use_dark_mode:
+            style_dark_mode(fig, ax)
+        
+        st.pyplot(fig)
 
 #-------------------------AI Section--------------------------------
+else:
+    ai_container = st.container()
 
-ai_container = st.container()
+    with ai_container:
+        ai_container.subheader("Our AI Implementation: Paper recommendation system")
+        st.markdown("This AI-powered paper recommendation system uses similarity search to find papers that match your query.")
+        result_amount = ai_container.slider("Select number of recommendations", min_value=1, max_value=20, value=5)
+        title_input = st.text_input("Enter Title", "")
+        author_input = st.text_input("Enter Authors in the format: author1, author2, author3, ...", "")
+        publcation_date_input = st.text_input("Enter Publication Date in the format: Year-Month-Date")
+        keyword_input = st.text_input("Enter Keywords", "")
+        abstract_input = st.text_input("Enter Abstract", "")
+        subject_input = st.text_input("Enter Subject Areas", "")
 
-with ai_container:
-    ai_container.subheader("Our AI Implementation: Paper recommendation system")
-    title_input = st.text_input("Enter Title", "")
-    author_input = st.text_input("Enter Authors in format: <author1>,<author2>,<author3>...", "")
-    publcation_date_input = st.date_input("Enter Publication Date")
-    publcation_date_input = publcation_date_input.strftime('%Y-%m-%d')
-    keyword_input = st.text_input("Enter Keywords", "")
-    abstract_input = st.text_input("Enter Abstract", "")
-    subject_input = st.text_input("Enter Subject Areas", "")
-
-    if title_input and author_input and keyword_input and abstract_input and publcation_date_input and subject_input:
-        # Use f-strings to properly format the query
-        query = f"""Title: {title_input}
+        if title_input and author_input and keyword_input and abstract_input and publcation_date_input and subject_input:
+            # Use f-strings to properly format the query
+            query = f"""Title: {title_input}
 Publication Date: {publcation_date_input}
 Keywords: {keyword_input}
 Abstract: {abstract_input}
 Subject Areas: {subject_input}
 """
-        # Clean and split author names
-        query_authors = [author.strip() for author in author_input.split(",")]
+            # Clean and split author names
+            query_authors = [author.strip() for author in author_input.split(",")]
 
-        # Read the FAISS index
-        index = faiss.read_index('index')
+            # Read the FAISS index
+            index = faiss.read_index('realindex')
 
-        # Display the recommendation
-        st.write("Recommended Papers:")
-        st.dataframe(recommend(index, query, query_authors, df02), hide_index=True)
-    else:
-        st.write("Please fill in all the required fields.")
+            # Display the recommendation
+            st.write("Recommended Papers:")
+            st.dataframe(recommend(index, query, query_authors, df02), hide_index=True)
+        else:
+            st.markdown('<p style="color:red;">Please fill in all the required fields.</p>', unsafe_allow_html=True)
+
