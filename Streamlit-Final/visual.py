@@ -5,8 +5,7 @@ import matplotlib.pyplot as plt
 import os
 import faiss
 import requests
-from functions import recommend, text_rep
-
+from util.py import recommend, text_rep
 #Header and subheader
 st.title("Paper Remommendations System")
 st.subheader("")
